@@ -1,0 +1,1 @@
+<span data-ttu-id="2cfda-101">Aplikasi Project Service versi 2.5.x atau setelahnya di Dynamics 365 (online) versi 9.x</span><span class="sxs-lookup"><span data-stu-id="2cfda-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>

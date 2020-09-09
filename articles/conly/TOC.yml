@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (mode 2)
+  items:
+    - name: Laman beranda Dynamics 365 Project Operations (mode 2)
+      href: project-operations-mode-2-home-page.md
+    - name: Skenario yang berlaku
+      href: applicable-scenarios.md
+    - name: Yang baru
+      href: whats-new-mode-2-project-operations.md
+    - name: Konfigurasikan lingkungan Anda
+      href: set-up-environment-mode-2.md
+    - name: Data sampel
+      href: sample-data-mode-2.md
+    - name: Proses penjualan
+      items:
+        - name: Ikhtisar proses penjualan
+          href: ../project-operations/sales/sales-overview.md
+        - name: Perbedaan penting
+          href: ../project-operations/sales/key-differences.md
+        - name: Konfigurasi
+          items:
+            - name: Produk
+              href: ../project-operations/sales/sales-products.md
+            - name: Unit dan grup unit
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: Mata uang
+              href: ../project-operations/sales/sales-currency.md
+        - name: Mengelola prospek
+          href: ../project-operations/sales/managing-leads.md
+        - name: Mengelola peluang
+          items:
+            - name: Header peluang
+              href: ../project-operations/sales/opportunity-header.md
+            - name: Baris berbasis produk
+              href: ../project-operations/sales/product-based-lines.md
+            - name: Baris berbasis proyek
+              href: ../project-operations/sales/project-based-lines.md
+            - name: Menautkan kuotasi dan peluang
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: Memenangkan peluang
+              href: ../project-operations/sales/close-opportunity.md
+        - name: Mengelola kuotasi
+          items:
+            - name: Konsep kunci
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: 'Mengelola nilai yang ditawarkan, anggaran pelanggan, dan batas yang tidak boleh dilewati'
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: Mengelola beberapa pelanggan pada kuotasi
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: Baris kuotasi berbasis produk
+              items:
+                - name: Menentukan biaya baris kuotasi berbasis produk
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: Mengelola unit yang kompleks untuk baris kuotasi berbasis produk
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: Baris kuotasi berbasis proyek
+              items:
+                - name: Mengelola daftar harga proyek
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Mengelola beberapa pelanggan pada baris kuotasi
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: Memetakan proyek dan tugas ke baris kuotasi
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: Membuat estimasi pada baris kuotasi
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: Mengimpor estimasi dari proyek ke baris kuotasi
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: 'Mengelola nilai yang ditawarkan, anggaran pelanggan, dan batas yang tidak boleh dilewati'
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Jadwal faktur pada baris kuotasi
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: Memenangkan kuotasi
+              href: ../project-operations/sales/win-quote.md
+            - name: Kalah dalam kuotasi
+              href: ../project-operations/sales/lose-quote.md
+        - name: Mengelola kontrak
+          items:
+            - name: Konsep kunci
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: 'Mengelola nilai kontrak, anggaran pelanggan, dan batas yang tidak boleh dilewati'
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: Mengelola beberapa pelanggan pada kontrak
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: Baris kontrak berbasis produk
+              items:
+                - name: Menentukan biaya baris kontrak berbasis produk
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: Mengelola unit yang kompleks untuk baris kontrak berbasis produk
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: Baris kontrak berbasis proyek
+              items:
+                - name: Mengelola daftar harga proyek
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Mengelola beberapa pelanggan pada baris kontrak
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: Memetakan proyek dan tugas ke baris kontrak
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: Membuat estimasi dari proyek ke baris kontrak
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: Mengimpor estimasi dari proyek ke baris kontrak
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: 'Mengelola nilai kontrak, anggaran pelanggan, dan batas yang tidak boleh dilewati di baris kontrak'
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: Jadwal faktur pada baris kuotasi
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: Mengonfirmasikan kontrak
+              href: ../project-operations/sales/confirm-contract.md
+            - name: Menutup kontrak saat pekerjaan selesai
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: Menutup kontrak sebagai dibatalkan
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: Harga dan biaya
+      items:
+        - name: Daftar harga produk
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: Daftar harga proyek
+          items:
+            - name: Daftar harga untuk biaya
+              items:
+                - name: Mengatur daftar harga biaya
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: Default daftar harga
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: Menimpa default
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: Konfigurasi daftar harga untuk penjualan
+              items:
+                - name: Mengatur daftar harga penjualan
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: Default daftar harga penjualan
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: Menimpa default
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: Dimensi harga
+          items:
+            - name: Ikhtisar dimensi harga
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: Menggunakan bidang yang ada dalam Project Operations sebagai dimensi harga
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Bidang kustom sebagai dimensi harga
+              items:
+                - name: Membuat entitas dan bidang kustom sebagai dimensi harga
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Mengonfigurasikan bidang kustom sebagai dimensi harga
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Menonaktifkan dimensi harga
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: Manajemen proyek
+      items:
+        - name: Sekilas manajemen proyek
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: Tahapan proyek
+          href: ../project-operations/project-management/project-stages.md
+        - name: Menelusuri UI
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: Memahami status proyek
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: Menentukan kalender proyek
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: Membuat proyek
+          items:
+            - name: Membuat estimasi awal
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: Mengatur kalender proyek
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: Mengatur mata uang proyek
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: Menentukan pelanggan
+              href: ../project-operations/project-management/set-customer.md
+            - name: Menambahkan grup
+              href: ../project-operations/project-management/add-group.md
+        - name: Perbarui proyek
+          href: ../project-operations/project-management/update-project.md
+        - name: Menyalin proyek
+          href: ../project-operations/project-management/copy-project.md
+        - name: Perencanaan struktur rincian kerja
+          items:
+            - name: Membuat struktur rincian kerja
+              items:
+                - name: Membuat tugas
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: 'Tugas memotong, menyalin, dan menempel'
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: Tugas mengurungkan dan mengulang
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: Hierarki struktur rincian kerja
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: Pembaruan tugas massal
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: Mengedit rincian tim
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: Membuat penugasan
+              items:
+                - name: Menambahkan sumber daya yang ada
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: Menambahkan sumber daya generik
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: 'Memahami dampak penugasan pada upaya tugas, durasi, dan tanggal berakhir'
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Melihat kontur penugasan
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: Menelusuri pengalaman manajemen tugas
+              items:
+                - name: Manajemen kolom
+                  href: ../project-operations/project-management/column-management.md
+                - name: Tampilan
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: Wadah
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: Estimasi proyek
+          items:
+            - name: Ikhtisar estimasi proyek
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: Estimasi sumber daya
+              items:
+                - name: Memperbarui estimasi proyek untuk mencerminkan perubahan pada rencana proyek
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Memperbarui harga dan tarif biaya di estimasi proyek
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Harga biaya sumber daya dan default mata uang biaya
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: Default mata uang penjualan dan tarif tagihan sumber daya
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: Membuat estimasi pengeluaran
+              items:
+                - name: Harga biaya pengeluaran dan default mata uang biaya
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: Default mata uang penjualan dan tarif tagihan pengeluaran
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: Membuat kuotasi dan kontrak
+          items:
+            - name: Mengimpor struktur rincian kerja ke kuotasi
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: Mengimpor struktur rincian kerja ke kontrak
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: Pelacakan proyek
+          items:
+            - name: Laman beranda pelacakan proyek
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: Definisi kolom
+              items:
+                - name: Upaya
+                  href: ../project-operations/project-management/effort.md
+                - name: Biaya
+                  href: ../project-operations/project-management/cost.md
+                - name: Penjualan
+                  href: ../project-operations/project-management/sales.md
+            - name: Memperbarui perkiraan saat penyelesaian
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: Anggota tim proyek
+          items:
+            - name: Sekilas anggota tim proyek
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: Mengelola anggota tim
+              items:
+                - name: Menambahkan anggota tim proyek
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: Memperbarui anggota tim proyek
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: Menghapus anggota tim
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: Mengelola pemesanan
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: Pemberi persetujuan proyek
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: Penjualan
+          items:
+            - name: Sekilas tab penjualan
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: Kolaborasi
+          items:
+            - name: Grup
+              href: ../project-operations/project-management/groups.md
+        - name: Tanya-jawab perencanaan proyek
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: Manajemen sumber daya
+      items:
+        - name: Ikhtisar manajemen sumber daya
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: Konsep kunci
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: Pemesanan vs Penugasan
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: Mode manajemen sumber daya
+          items:
+            - name: Ikhtisar mode manajemen sumber daya
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: Hibrid
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: Sentral
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: Pemesanan terpusat
+          items:
+            - name: Ikhtisar pemesanan terpusat
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: Menambahkan anggota tim generik ke tugas
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: Menentukan persyaratan sumber daya
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: Menentukan kontur persyaratan
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: Memperbarui persyaratan sumber daya
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: Mengajukan persyaratan sumber daya
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: Permintaan sumber daya
+              items:
+                - name: Ikhtisar permintaan sumber daya
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: Bidang ulasan dan tindakan
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: Cari sumber daya
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: Tinjau sumber daya yang diusulkan
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: Pemesanan sumber daya terdesentralisasi
+          items:
+            - name: Ikhtisar pemesanan sumber daya terdesentralisasi
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: Pilihan untuk memesan langsung
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: Memenuhi persyaratan sumber daya generik
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Administrasi sumber daya
+          items:
+            - name: Membuat sumber daya
+              href: ../project-operations/resource-management/create-resources.md
+            - name: Menentukan keterampilan dan kecakapan
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: Mendefinisikan peran
+              href: ../project-operations/resource-management/define-roles.md
+            - name: Menentukan kalender sumber daya
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: Mengaitkan sumber daya dengan unit organisasi
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: Mengasosiasikan sumber daya dengan perusahaan
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: Metode alokasi pemesanan
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: Status pemesanan
+          href: resource-management/booking-status.md
+        - name: Model keahlian dan kecakapan
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: Rekonsiliasi sumber daya
+          items:
+            - name: Ikhtisar rekonsiliasi sumber daya
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: Konsep kunci
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigasi
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: Perpanjang pemesanan
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: Mengelola beberapa zona waktu
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: Pemanfaatan sumber daya
+          items:
+            - name: Ikhtisar pemanfaatan sumber daya
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: 'Pencarian, pengaturan, dan navigasi'
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: Papan jadwal
+          items:
+            - name: Navigasi dan pengaturan utama
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: Personalisasi
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: Pencarian
+              href: ../project-operations/resource-management/search-urs.md
+            - name: Tindakan pemesanan
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: Pemesanan
+              items:
+                - name: Pesan untuk proyek
+                  href: ../project-operations/resource-management/book-project.md
+                - name: Pesan persyaratan terbuka
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: Sumber daya pengganti
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: Mengedit pemesanan yang ada
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: Tanya-Jawab manajemen sumber daya
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: Waktu
+      items:
+        - name: Ikhtisar entri waktu
+          href: ../project-operations/time/time-entry-overview.md
+        - name: Membuat entri waktu
+          items:
+            - name: 'Mengimpor pemesanan, penugasan, dan entri kalender'
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: Perilaku UI
+              href: ../project-operations/time/ui-behavior.md
+        - name: Kirim entri waktu
+          href: ../project-operations/time/submit-time-entries.md
+        - name: Tarik kembali entri waktu
+          items:
+            - name: Sebelum disetujui
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: Setelah disetujui
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: Menyetujui entri waktu
+          href: ../project-operations/time/approvals.md
+        - name: Catatan pengembang
+          items:
+            - name: Memperpanjang entri waktu
+              href: ../project-operations/time/extending-time-entries.md
+            - name: Menyesuaikan kisi entri waktu mingguan
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: Pertimbangan keamanan
+              href: ../project-operations/time/security-considerations.md
+    - name: Pengeluaran
+      items:
+        - name: Laman beranda pengeluaran
+          href: ../project-operations/expense/expense-overview.md
+        - name: Entri pengeluaran
+          href: expense-entry.md
+    - name: Persetujuan
+      items:
+        - name: Gambaran umum
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: Menyetujui entri waktu
+          href: approvals/approving-time-entries.md
+        - name: Menyetujui entri pengeluaran
+          href: approve-expense-entries.md
+    - name: Faktur proforma
+      items:
+        - name: Membuat jadwal faktur
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: Membuat faktur proforma manual
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Mengelola faktur proforma
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: Mengonfirmasikan faktur proforma
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: Faktur korektif
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: Mengonfigurasi pembuatan faktur otomatis
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md
