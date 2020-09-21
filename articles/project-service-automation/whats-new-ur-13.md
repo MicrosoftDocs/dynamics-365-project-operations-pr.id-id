@@ -1,0 +1,60 @@
+---
+title: Yang baru di Project Service Automation Rilis Pembaruan 13, V3
+description: Topik ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Rilis Pembaruan 13, V3.
+author: ruhercul
+manager: kfend
+ms.service: business-applications
+ms.custom: dyn365-projectservice
+ms.date: 02/04/2020
+ms.topic: article
+ms.prod: ''
+ms.technology: Microsoft Dynamics 365 Project Service Automation 3.x
+ms.assetid: c6f6a5b6-b5bb-467c-b7c7-7fb962504c6d
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 5f1b6b3879c94a77ab62082aad1e470a3ba66552
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3752435"
+---
+# <a name="project-service-automation-v3-update-release-13"></a>Project Service Automation V3, Pembaruan Rilis 13
+Kami dengan gembira mengumumkan pembaruan terbaru untuk aplikasi Dynamics 365 Project Service Automation (PSA). Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, dan buka halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+
+Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 13. Versi ini memiliki nomor pembuatan V3.10.3.18 Versi ini memiliki nomor pembuatan V 4 dan tersedia pada jadwal berikut ini:
+
+- **Ketersediaan umum (pembaruan mandiri):** November 2019
+- **Pembaruan otomatis:** Desember 2019
+
+
+## <a name="update-release-13"></a>Pembaruan rilis 13 
+
+### <a name="bug-fixes"></a>Perbaikan bug
+
+- Waktu dan Pengeluaran
+
+     - Tetap: fungsi pencarian pada halaman **persetujuan pengeluaran** tidak berfungsi saat mencari berdasarkan tujuan pengeluaran.
+
+- Manajemen sumber daya
+
+     - Fixed: nomor dalam rekonsiliasi telah diperbarui menjadi rata kanan.
+     - Tetap: sumber daya yang diberi nama tidak dapat ditetapkan ke tugas melalui tab **jadwal**.
+
+- Manajemen proyek
+
+     - Tetap: pengecualian referensi null saat menetapkan anggota tim saat **transactiontype** tidak memiliki informasi konfigurasi untuk **unit** dan **defaultgroup**.
+
+- Sales
+
+     - Tetap: rekaman jenis transaksi duplikat menghasilkan kesalahan saat rekaman harga peran dibuat.
+     - Tetap: tombol tambahan untuk **peluang baru**, **kuotasi**, **baris pesanan**, dan **Tambahkan produk** dapat dilihat di perintah untuk peluang, kuotasi, pesanan produk, dan subkisi baris berbasis proyek.
+
+
