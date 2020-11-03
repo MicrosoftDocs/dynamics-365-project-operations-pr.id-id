@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,66 +15,66 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078550"
 ---
-# <a name="expense-reports-reimagined"></a>Laporan pengeluaran model baru
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="c2d12-103">Laporan pengeluaran model baru</span><span class="sxs-lookup"><span data-stu-id="c2d12-103">Expense reports reimagined</span></span>
 
-Entri laporan pengeluaran telah dirancang ulang untuk menyederhanakan proses dan mengurangi waktu yang diperlukan untuk menyelesaikan laporan. Berikut adalah komponen utama dari pengalaman pengeluaran baru:
+<span data-ttu-id="c2d12-104">Entri laporan pengeluaran telah dirancang ulang untuk menyederhanakan proses dan mengurangi waktu yang diperlukan untuk menyelesaikan laporan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-104">Expense report entry has been redesigned to simplify the process and reduce the time needed to complete a report.</span></span> <span data-ttu-id="c2d12-105">Berikut adalah komponen utama dari pengalaman pengeluaran baru:</span><span class="sxs-lookup"><span data-stu-id="c2d12-105">Here are the major components of the new expense experience:</span></span>
 
-- Ruang kerja manajemen pengeluaran baru yang memungkinkan Anda mengakses pengeluaran delegasi.
-- Pengalaman pencocokan tanda terima baru untuk lebih baik menampilkan tanda terima tingkat header dan menyederhanakan proses melampirkan tanda terima ke baris pengeluaran.
-- Kisi baru baca-saja yang memungkinkan Anda melihat lebih banyak baris pengeluaran dan kolom data tambahan. Anda sekarang dapat melihat semua baris yang terperinci dan terpisah, bersama dengan pengeluaran induknya.
-- Panel yang disederhanakan untuk mengedit pengeluaran.
-- Pesan kesalahan, peringatan, dan kebijakan yang dirancang ulang untuk menyediakan konteks dan pemahaman yang benar mengenai masalah dan cara mengatasinya. Kami telah menghapus beberapa pesan yang muncul sebelum pengguna dapat menyelesaikan tugas mereka dan menangani masalah.
-- Halaman baru untuk menentukan bidang yang diperlukan, bidang opsional, dan bidang yang tidak boleh disertakan. Halaman ini membantu mengurangi jumlah bidang yang harus ditetapkan.
-- Tampilan dan nuansa baru untuk laporan pengeluaran, sehingga laporan tidak lagi tampak seakan-akan dirancang untuk persona akuntansi.
+- <span data-ttu-id="c2d12-106">Ruang kerja manajemen pengeluaran baru yang memungkinkan Anda mengakses pengeluaran delegasi.</span><span class="sxs-lookup"><span data-stu-id="c2d12-106">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="c2d12-107">Pengalaman pencocokan tanda terima baru untuk lebih baik menampilkan tanda terima tingkat header dan menyederhanakan proses melampirkan tanda terima ke baris pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="c2d12-107">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="c2d12-108">Kisi baru baca-saja yang memungkinkan Anda melihat lebih banyak baris pengeluaran dan kolom data tambahan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-108">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="c2d12-109">Anda sekarang dapat melihat semua baris yang terperinci dan terpisah, bersama dengan pengeluaran induknya.</span><span class="sxs-lookup"><span data-stu-id="c2d12-109">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="c2d12-110">Panel yang disederhanakan untuk mengedit pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="c2d12-110">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="c2d12-111">Pesan kesalahan, peringatan, dan kebijakan yang dirancang ulang untuk menyediakan konteks dan pemahaman yang benar mengenai masalah dan cara mengatasinya.</span><span class="sxs-lookup"><span data-stu-id="c2d12-111">Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it.</span></span> <span data-ttu-id="c2d12-112">Kami telah menghapus beberapa pesan yang muncul sebelum pengguna dapat menyelesaikan tugas mereka dan menangani masalah.</span><span class="sxs-lookup"><span data-stu-id="c2d12-112">We have removed several of the messages that appeared before users could complete their tasks and address the issues.</span></span>
+- <span data-ttu-id="c2d12-113">Halaman baru untuk menentukan bidang yang diperlukan, bidang opsional, dan bidang yang tidak boleh disertakan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-113">A new page to specify required fields, optional fields, and the fields that should not be included.</span></span> <span data-ttu-id="c2d12-114">Halaman ini membantu mengurangi jumlah bidang yang harus ditetapkan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-114">This page helps to reduce the number of fields that must be set.</span></span>
+- <span data-ttu-id="c2d12-115">Tampilan dan nuansa baru untuk laporan pengeluaran, sehingga laporan tidak lagi tampak seakan-akan dirancang untuk persona akuntansi.</span><span class="sxs-lookup"><span data-stu-id="c2d12-115">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
 
-Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untuk mengaktifkan fitur **penulisan ulang laporan pengeluaran**. Bila Anda mengaktifkan fitur ini, maka tindakan berikut terjadi:
+<span data-ttu-id="c2d12-116">Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untuk mengaktifkan fitur **penulisan ulang laporan pengeluaran**.</span><span class="sxs-lookup"><span data-stu-id="c2d12-116">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature.</span></span> <span data-ttu-id="c2d12-117">Bila Anda mengaktifkan fitur ini, maka tindakan berikut terjadi:</span><span class="sxs-lookup"><span data-stu-id="c2d12-117">When you turn on this feature, the following actions occur:</span></span>
 
-- Ruang kerja pengeluaran yang ada digantikan dengan ruang kerja baru.
-- Item menu baru untuk visibilitas bidang pengeluaran ditambahkan.
-- Tidak ada item menu untuk laporan pengeluaran (halaman yang ada) atau bidang laporan pengeluaran dihapus.
-- Alur kerja dan persetujuan apa pun tetap akan membawa Anda ke halaman laporan pengeluaran yang ada.
+- <span data-ttu-id="c2d12-118">Ruang kerja pengeluaran yang ada digantikan dengan ruang kerja baru.</span><span class="sxs-lookup"><span data-stu-id="c2d12-118">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="c2d12-119">Item menu baru untuk visibilitas bidang pengeluaran ditambahkan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-119">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="c2d12-120">Tidak ada item menu untuk laporan pengeluaran (halaman yang ada) atau bidang laporan pengeluaran dihapus.</span><span class="sxs-lookup"><span data-stu-id="c2d12-120">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="c2d12-121">Alur kerja dan persetujuan apa pun tetap akan membawa Anda ke halaman laporan pengeluaran yang ada.</span><span class="sxs-lookup"><span data-stu-id="c2d12-121">Workflows and any approvals still take you to the existing expense reports page.</span></span>
 
-## <a name="getting-started-video-for-new-users"></a>Persiapan video untuk pengguna baru
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="c2d12-122">Persiapan video untuk pengguna baru</span><span class="sxs-lookup"><span data-stu-id="c2d12-122">Getting started video for new users</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-Video [Pengalaman pengeluaran di Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditampilkan di atas) tercakup dalam [Daftar putar Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
+<span data-ttu-id="c2d12-123">Video [Pengalaman pengeluaran di Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditampilkan di atas) tercakup dalam [Daftar putar Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.</span><span class="sxs-lookup"><span data-stu-id="c2d12-123">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
 
-## <a name="new-features"></a>Fitur baru
+## <a name="new-features"></a><span data-ttu-id="c2d12-124">Fitur baru</span><span class="sxs-lookup"><span data-stu-id="c2d12-124">New features</span></span>
 
-| Fitur baru | KETERANGAN |
+| <span data-ttu-id="c2d12-125">Fitur baru</span><span class="sxs-lookup"><span data-stu-id="c2d12-125">New feature</span></span> | <span data-ttu-id="c2d12-126">KETERANGAN</span><span class="sxs-lookup"><span data-stu-id="c2d12-126">Description</span></span> |
 |---|----|
-| Visibilitas bidang pengeluaran | Halaman penataan baru memungkinkan Anda menentukan bidang yang harus dinonaktifkan untuk organisasi, bidang yang harus diminta, dan bidang yang disarankan. |
-| Bidang yang diperlukan | Konfigurasi sederhana baru memungkinkan Anda membuat beberapa bidang yang diperlukan tanpa harus menggunakan kerangka kebijakan. |
-| Bidang Opsional | Halaman kedua untuk bidang opsional ditambahkan. Dengan cara ini, karyawan tidak akan merasa seolah-olah mereka harus mengatur bidang, namun bidang masih dapat diakses dengan mudah. |
-| Menambahkan tanda terima yang tidak terlampir | Kemampuan untuk menambahkan tanda terima tidak terlampir ke laporan pengeluaran lebih terlihat dari ruang kerja dan laporan pengeluaran. |
-| Pesan yang disempurnakan | Ada visibilitas yang lebih baik ke baris pengeluaran yang memiliki peringatan atau kesalahan. |
-| Mengurangi pesan di bilah pesan| Jumlah pesan Infolog menurun, dan upaya dibuat untuk mencegah pesan duplikat ditampilkan di banyak kasus. |
-| Dikelompokkan bersama tindakan umum | Antarmuka dibersihkan dengan penambahan tombol tindakan baru untuk sebagian besar tindakan tingkat baris Umum dan penambahan tombol elipsis (...) untuk header dan tindakan lainnya yang kurang sering. |
-| Ruang kerja baru untuk meningkatkan visibilitas | Ruang kerja baru menyatukan fitur dan tautan yang memungkinkan pengguna beralih ke area yang berbeda. |
-| Menambahkan biaya dan penerimaan yang ada selama pembuatan pengeluaran | Saat membuat laporan pengeluaran, Anda dapat menambahkan semua pengeluaran dan kuitansi yang dipilih. |
-| Kalkulator kurs | Kalkulator kurs ditambahkan yang memungkinkan Anda menghitung nilai tukar untuk transaksi multi mata uang mandiri. |
-| Simpan dan tambahkan baris pengeluaran baru | Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran. |
-| Visibilitas yang lebih baik ke baris terpisah dan terperinci | Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan. |
-| Tampilkan tanda terima selama itemisasi | Tanda terima dapat ditampilkan selama itemisasi. |
+| <span data-ttu-id="c2d12-127">Visibilitas bidang pengeluaran</span><span class="sxs-lookup"><span data-stu-id="c2d12-127">Expense field visibility</span></span> | <span data-ttu-id="c2d12-128">Halaman penataan baru memungkinkan Anda menentukan bidang yang harus dinonaktifkan untuk organisasi, bidang yang harus diminta, dan bidang yang disarankan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-128">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="c2d12-129">Bidang yang diperlukan</span><span class="sxs-lookup"><span data-stu-id="c2d12-129">Required fields</span></span> | <span data-ttu-id="c2d12-130">Konfigurasi sederhana baru memungkinkan Anda membuat beberapa bidang yang diperlukan tanpa harus menggunakan kerangka kebijakan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-130">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="c2d12-131">Bidang Opsional</span><span class="sxs-lookup"><span data-stu-id="c2d12-131">Optional fields</span></span> | <span data-ttu-id="c2d12-132">Halaman kedua untuk bidang opsional ditambahkan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-132">A second page for optional fields is added.</span></span> <span data-ttu-id="c2d12-133">Dengan cara ini, karyawan tidak akan merasa seolah-olah mereka harus mengatur bidang, namun bidang masih dapat diakses dengan mudah.</span><span class="sxs-lookup"><span data-stu-id="c2d12-133">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="c2d12-134">Menambahkan tanda terima yang tidak terlampir</span><span class="sxs-lookup"><span data-stu-id="c2d12-134">Add unattached receipts</span></span> | <span data-ttu-id="c2d12-135">Kemampuan untuk menambahkan tanda terima tidak terlampir ke laporan pengeluaran lebih terlihat dari ruang kerja dan laporan pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="c2d12-135">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="c2d12-136">Pesan yang disempurnakan</span><span class="sxs-lookup"><span data-stu-id="c2d12-136">Improved messaging</span></span> | <span data-ttu-id="c2d12-137">Ada visibilitas yang lebih baik ke baris pengeluaran yang memiliki peringatan atau kesalahan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-137">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="c2d12-138">Mengurangi pesan di bilah pesan</span><span class="sxs-lookup"><span data-stu-id="c2d12-138">Reduction in messages in the message bar</span></span>| <span data-ttu-id="c2d12-139">Jumlah pesan Infolog menurun, dan upaya dibuat untuk mencegah pesan duplikat ditampilkan di banyak kasus.</span><span class="sxs-lookup"><span data-stu-id="c2d12-139">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="c2d12-140">Dikelompokkan bersama tindakan umum</span><span class="sxs-lookup"><span data-stu-id="c2d12-140">Grouped together common actions</span></span> | <span data-ttu-id="c2d12-141">Antarmuka dibersihkan dengan penambahan tombol tindakan baru untuk sebagian besar tindakan tingkat baris Umum dan penambahan tombol elipsis (...) untuk header dan tindakan lainnya yang kurang sering.</span><span class="sxs-lookup"><span data-stu-id="c2d12-141">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="c2d12-142">Ruang kerja baru untuk meningkatkan visibilitas</span><span class="sxs-lookup"><span data-stu-id="c2d12-142">New workspace to increase visibility</span></span> | <span data-ttu-id="c2d12-143">Ruang kerja baru menyatukan fitur dan tautan yang memungkinkan pengguna beralih ke area yang berbeda.</span><span class="sxs-lookup"><span data-stu-id="c2d12-143">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="c2d12-144">Menambahkan biaya dan penerimaan yang ada selama pembuatan pengeluaran</span><span class="sxs-lookup"><span data-stu-id="c2d12-144">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="c2d12-145">Saat membuat laporan pengeluaran, Anda dapat menambahkan semua pengeluaran dan kuitansi yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="c2d12-145">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="c2d12-146">Kalkulator kurs</span><span class="sxs-lookup"><span data-stu-id="c2d12-146">Exchange rate calculator</span></span> | <span data-ttu-id="c2d12-147">Kalkulator kurs ditambahkan yang memungkinkan Anda menghitung nilai tukar untuk transaksi multi mata uang mandiri.</span><span class="sxs-lookup"><span data-stu-id="c2d12-147">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="c2d12-148">Simpan dan tambahkan baris pengeluaran baru</span><span class="sxs-lookup"><span data-stu-id="c2d12-148">Save and add new expense lines</span></span> | <span data-ttu-id="c2d12-149">Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="c2d12-149">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="c2d12-150">Visibilitas yang lebih baik ke baris terpisah dan terperinci</span><span class="sxs-lookup"><span data-stu-id="c2d12-150">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="c2d12-151">Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan.</span><span class="sxs-lookup"><span data-stu-id="c2d12-151">Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors.</span></span> |
+| <span data-ttu-id="c2d12-152">Tampilkan tanda terima selama itemisasi</span><span class="sxs-lookup"><span data-stu-id="c2d12-152">Show receipts during itemization</span></span> | <span data-ttu-id="c2d12-153">Tanda terima dapat ditampilkan selama itemisasi.</span><span class="sxs-lookup"><span data-stu-id="c2d12-153">Receipts can be shown during itemization.</span></span> |
 
-Rilis awal difokuskan pada skenario entri pengeluaran. Skenario pengeluaran laporan atau skenario persetujuan akan terus menggunakan halaman entri pengeluaran yang ada.
+<span data-ttu-id="c2d12-154">Rilis awal difokuskan pada skenario entri pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="c2d12-154">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="c2d12-155">Skenario pengeluaran laporan atau skenario persetujuan akan terus menggunakan halaman entri pengeluaran yang ada.</span><span class="sxs-lookup"><span data-stu-id="c2d12-155">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
 
-Fitur berikut ada di halaman lama namun belum ada di halaman baru. Fitur ini akan diperkenalkan ulang selama beberapa rilis berikutnya:
+<span data-ttu-id="c2d12-156">Fitur berikut ada di halaman lama namun belum ada di halaman baru.</span><span class="sxs-lookup"><span data-stu-id="c2d12-156">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="c2d12-157">Fitur ini akan diperkenalkan ulang selama beberapa rilis berikutnya:</span><span class="sxs-lookup"><span data-stu-id="c2d12-157">These features will be reintroduced over the next several releases:</span></span>
 
-- Persetujuan
-- Persetujuan utang dagang dan kemampuan untuk mengedit akuntansi
-- Beberapa titik masuk
-- Integrasi Permintaan perjalanan
-- Entitas data untuk visibilitas bidang pengeluaran
-- Entri untuk pengeluaran uang saku
-- Alur kerja tingkat baris
-- Dukungan pemberi persetujuan sementara
-- Itemisasi lanjutan
+- <span data-ttu-id="c2d12-158">Persetujuan</span><span class="sxs-lookup"><span data-stu-id="c2d12-158">Approvals</span></span>
+- <span data-ttu-id="c2d12-159">Persetujuan utang dagang dan kemampuan untuk mengedit akuntansi</span><span class="sxs-lookup"><span data-stu-id="c2d12-159">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="c2d12-160">Beberapa titik masuk</span><span class="sxs-lookup"><span data-stu-id="c2d12-160">Multiple entry points</span></span>
+- <span data-ttu-id="c2d12-161">Integrasi Permintaan perjalanan</span><span class="sxs-lookup"><span data-stu-id="c2d12-161">Travel requisition integration</span></span>
+- <span data-ttu-id="c2d12-162">Entitas data untuk visibilitas bidang pengeluaran</span><span class="sxs-lookup"><span data-stu-id="c2d12-162">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="c2d12-163">Entri untuk pengeluaran uang saku</span><span class="sxs-lookup"><span data-stu-id="c2d12-163">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="c2d12-164">Alur kerja tingkat baris</span><span class="sxs-lookup"><span data-stu-id="c2d12-164">Line-level workflow</span></span>
+- <span data-ttu-id="c2d12-165">Dukungan pemberi persetujuan sementara</span><span class="sxs-lookup"><span data-stu-id="c2d12-165">Interim approver support</span></span>
+- <span data-ttu-id="c2d12-166">Itemisasi lanjutan</span><span class="sxs-lookup"><span data-stu-id="c2d12-166">Advanced itemization</span></span>

@@ -1,0 +1,52 @@
+---
+title: Halaman beranda pelaporan
+description: Topik ini memberikan informasi tentang pelaporan di Dynamics 365 Project Service Automation.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/01/2019
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 30411818bdc1b370a71148cf79f743413167dab2
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078711"
+---
+# <a name="reporting-home-page"></a><span data-ttu-id="b5025-103">Halaman beranda pelaporan</span><span class="sxs-lookup"><span data-stu-id="b5025-103">Reporting home page</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+<span data-ttu-id="b5025-104">Microsoft Dynamics 365 Project Service Automation memungkinkan organisasi berbasis proyek secara efisien mengelola operasi bisnis mereka.</span><span class="sxs-lookup"><span data-stu-id="b5025-104">Microsoft Dynamics 365 Project Service Automation lets project-based organizations efficiently manage the operations of their business.</span></span> <span data-ttu-id="b5025-105">Pada setiap proyek, anggota tim harus mengelola peluang, kuotasi, dan merencanakan pekerjaan, sumber daya proyek, mengelola pekerjaan sesuai rencana, menagih pekerjaan, dan kemudian melakukan pekerjaan untuk menyelesaikan proyek.</span><span class="sxs-lookup"><span data-stu-id="b5025-105">On any project, team members must manage the opportunity, quote and plan the work, resource the projects, manage the work according to the plan, bill for the work, and then do the work to complete the project.</span></span> <span data-ttu-id="b5025-106">Kemampuan untuk melaporkan operasi adalah kunci untuk menentukan kesehatan organisasi dan melakukan tindakan perbaikan yang diperlukan.</span><span class="sxs-lookup"><span data-stu-id="b5025-106">The ability to report on operations is key to determining the health of the organization and taking any corrective action that's required.</span></span> <span data-ttu-id="b5025-107">PSA menggunakan metode pelaporan dan teknologi Microsoft Dynamics 365 untuk semua pelaporan.</span><span class="sxs-lookup"><span data-stu-id="b5025-107">PSA uses Microsoft Dynamics 365 reporting methods and technologies for all its reporting.</span></span> <span data-ttu-id="b5025-108">Untuk informasi lebih lanjut tentang pilihan pelaporan, lihat [panduan penulisan laporan untuk Dynamics 365 Customer Engagement (on-premises), versi 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).</span><span class="sxs-lookup"><span data-stu-id="b5025-108">For more information about the options for reporting, see the [Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).</span></span>
+
+## <a name="report-wizard"></a><span data-ttu-id="b5025-109">Wizard Laporan</span><span class="sxs-lookup"><span data-stu-id="b5025-109">Report Wizard</span></span>
+
+<span data-ttu-id="b5025-110">Wizard laporan memungkinkan non-pengembang membuat laporan sederhana.</span><span class="sxs-lookup"><span data-stu-id="b5025-110">The Report Wizard lets non-developers create simple reports.</span></span> <span data-ttu-id="b5025-111">Karena aplikasi ini dibuat di platform yang ada, pengalaman sama dengan pengalaman yang didokumentasikan di [membuat atau mengedit laporan menggunakan wizard laporan](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard).</span><span class="sxs-lookup"><span data-stu-id="b5025-111">Because the app is built on an existing platform, the experience is the same as the experience that is documented in [Create or edit a report using the Report Wizard](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard).</span></span> <span data-ttu-id="b5025-112">Namun, Anda akan menggunakan entitas khusus Project Service Automation.</span><span class="sxs-lookup"><span data-stu-id="b5025-112">However, you will use the Project Service Automation-specific entities.</span></span>
+
+## <a name="custom-sql-server-reporting-services-reports"></a><span data-ttu-id="b5025-113">Laporan SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="b5025-113">Custom SQL Server Reporting Services reports</span></span>
+
+<span data-ttu-id="b5025-114">Jika bisnis Anda memerlukan laporan tertentu yang tidak dapat dibuat dengan menggunakan wizard laporan, Anda dapat membuat laporan kustom.</span><span class="sxs-lookup"><span data-stu-id="b5025-114">If your business requires a specific report that can't be created by using the Report Wizard, you can create a custom report.</span></span> <span data-ttu-id="b5025-115">Anda harus menginstal Microsoft Visual Studio, bersama dengan Microsoft SQL Server Data Tools yang sesuai dan ekstensi penulisan laporan.</span><span class="sxs-lookup"><span data-stu-id="b5025-115">You must have Microsoft Visual Studio installed, together with the appropriate Microsoft SQL Server Data Tools and Report Authoring Extensions.</span></span> <span data-ttu-id="b5025-116">Untuk informasi lebih lanjut tentang alat dan versi, Lihat [lingkungan penulisan laporan menggunakan SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools).</span><span class="sxs-lookup"><span data-stu-id="b5025-116">For more information about tools and versions, see [Report writing environment using SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools).</span></span> <span data-ttu-id="b5025-117">Untuk informasi tentang cara membuat laporan kustom, lihat [membuat laporan baru menggunakan SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).</span><span class="sxs-lookup"><span data-stu-id="b5025-117">For information about how to create a custom report, see [Create a new report using SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).</span></span>
+
+## <a name="power-bi-insights-apps"></a><span data-ttu-id="b5025-118">aplikasi wawasan Power BI</span><span class="sxs-lookup"><span data-stu-id="b5025-118">Power BI insights apps</span></span>
+
+<span data-ttu-id="b5025-119">Bersama-sama, Microsoft Power BI dan Dynamics 365 memberikan cara ampuh untuk bekerja dengan data Anda, dalam bentuk aplikasi wawasan.</span><span class="sxs-lookup"><span data-stu-id="b5025-119">Together, Microsoft Power BI and Dynamics 365 give you a powerful way to work with your data, in the form of insights apps.</span></span> <span data-ttu-id="b5025-120">Untuk informasi tentang ketersediaan aplikasi wawasan, lihat halaman [aplikasi Power BI insights](https://powerbi.microsoft.com/power-bi-insights-apps/).</span><span class="sxs-lookup"><span data-stu-id="b5025-120">For information about the availability of insights apps, see the [Power BI insights apps page](https://powerbi.microsoft.com/power-bi-insights-apps/).</span></span>
+
+
+## <a name="additional-resources"></a><span data-ttu-id="b5025-121">Sumber daya tambahan</span><span class="sxs-lookup"><span data-stu-id="b5025-121">Additional resources</span></span>
+<span data-ttu-id="b5025-122">Untuk informasi lebih lanjut tentang pelaporan di PSA, lihat topik berikut ini:</span><span class="sxs-lookup"><span data-stu-id="b5025-122">For more information about reporting in PSA, see the following topics:</span></span>
+
+- [<span data-ttu-id="b5025-123">Bekerja dengan model data Project Service</span><span class="sxs-lookup"><span data-stu-id="b5025-123">Working with the Project Service data model</span></span>](reports-working-project-service-data-model.md)
+- [<span data-ttu-id="b5025-124">Dasbor</span><span class="sxs-lookup"><span data-stu-id="b5025-124">Dashboards</span></span>](reports-dashboards.md)
+

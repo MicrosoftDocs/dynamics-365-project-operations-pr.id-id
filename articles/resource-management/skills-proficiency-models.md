@@ -9,37 +9,37 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908243"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078401"
 ---
-# <a name="skills-and-certifications"></a>Keterampilan dan sertifikasi
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+# <a name="skills-and-certifications"></a><span data-ttu-id="a83c3-103">Keterampilan dan sertifikasi</span><span class="sxs-lookup"><span data-stu-id="a83c3-103">Skills and certifications</span></span>
+<span data-ttu-id="a83c3-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="a83c3-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Karakteristik digunakan untuk memperkaya atribut yang digunakan untuk mendeskripsikan kemampuan sumber daya. Setiap karakteristik sumber daya dapat digambarkan sebagai **keterampilan** atau **sertifikasi**.
+<span data-ttu-id="a83c3-105">Karakteristik digunakan untuk memperkaya atribut yang digunakan untuk mendeskripsikan kemampuan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="a83c3-105">Characteristics are used to enrich the attributes used to describe the abilities of a resource.</span></span> <span data-ttu-id="a83c3-106">Setiap karakteristik sumber daya dapat digambarkan sebagai **keterampilan** atau **sertifikasi**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-106">Each characteristic of a resource can be described as a **Skill** or a **Certification**.</span></span>
 
-Menambahkan karakteristik pada persyaratan sumber daya memungkinkan Anda mendokumentasikan pengetahuan keterampilan yang diperlukan oleh sumber daya untuk menyelesaikan tugas pada suatu proyek. Karakteristik memungkinkan Anda memfilter daftar sumber daya yang tersedia untuk sumber daya yang memiliki karakteristik yang diperlukan saat menjadwalkan persyaratan sumber daya.
+<span data-ttu-id="a83c3-107">Menambahkan karakteristik pada persyaratan sumber daya memungkinkan Anda mendokumentasikan pengetahuan keterampilan yang diperlukan oleh sumber daya untuk menyelesaikan tugas pada suatu proyek.</span><span class="sxs-lookup"><span data-stu-id="a83c3-107">Adding characteristics to resource requirements lets you document the knowledge or expertise needed by a resource to complete tasks on a project.</span></span> <span data-ttu-id="a83c3-108">Karakteristik memungkinkan Anda memfilter daftar sumber daya yang tersedia untuk sumber daya yang memiliki karakteristik yang diperlukan saat menjadwalkan persyaratan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="a83c3-108">Characteristics let you filter the list of available resources to those resources that have the required characteristics when scheduling the resource requirement.</span></span>
 
-## <a name="add-characteristics"></a>Tambahkan Karakteristik
+## <a name="add-characteristics"></a><span data-ttu-id="a83c3-109">Tambahkan Karakteristik</span><span class="sxs-lookup"><span data-stu-id="a83c3-109">Add characteristics</span></span>
 
-1. Dari menu utama, buka **sumber daya** dan di Bagian **sumber daya**, pilih **keterampilan**.
-2. Pilih **baru** untuk menambahkan karakteristik.
-3. Isi bidang wajib, lalu pilih **Jenis karakteristik**.
+1. <span data-ttu-id="a83c3-110">Dari menu utama, buka **sumber daya** dan di Bagian **sumber daya** , pilih **keterampilan**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-110">From the main menu, open **Resources** and in the **Resources** section, select **Skills**.</span></span>
+2. <span data-ttu-id="a83c3-111">Pilih **baru** untuk menambahkan karakteristik.</span><span class="sxs-lookup"><span data-stu-id="a83c3-111">Select **New** to add characteristics.</span></span>
+3. <span data-ttu-id="a83c3-112">Isi bidang wajib, lalu pilih **Jenis karakteristik**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-112">Fill in the required fields and select the **Characteristic Type**.</span></span>
 
-## <a name="assign-characteristics-to-resources"></a>Menetapkan karakteristik ke sumber daya
+## <a name="assign-characteristics-to-resources"></a><span data-ttu-id="a83c3-113">Menetapkan karakteristik ke sumber daya</span><span class="sxs-lookup"><span data-stu-id="a83c3-113">Assign characteristics to resources</span></span>
 
-1. Dari menu utama, pilih **Sumber daya** > **Sumber daya yang dapat dipesan**. Halaman **sumber daya aktif yang dapat dipesan** akan terbuka dan Anda dapat melihat daftar semua sumber daya yang tersedia dalam sistem.
-2. Dari daftar, pilih nama sumber daya yang dapat dipesan.
-3. Di bagian **Project Service**, pilih **+ Tambahkan rekaman karakteristik sumber daya yang dapat dipesan**.
-4. Di jendela pop-up yang terbuka, temukan dan pilih karakteristik yang diperlukan dan menambahkan **nilai Rating** untuk sumber daya.
-5. Pilih **Simpan & Tutup**.
+1. <span data-ttu-id="a83c3-114">Dari menu utama, pilih **Sumber daya** > **Sumber daya yang dapat dipesan**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-114">From the main menu, select **Resources** > **Bookable Resources**.</span></span> <span data-ttu-id="a83c3-115">Halaman **sumber daya aktif yang dapat dipesan** akan terbuka dan Anda dapat melihat daftar semua sumber daya yang tersedia dalam sistem.</span><span class="sxs-lookup"><span data-stu-id="a83c3-115">The **Active Bookable Resources** page opens and you can view a list of all available resources in the system.</span></span>
+2. <span data-ttu-id="a83c3-116">Dari daftar, pilih nama sumber daya yang dapat dipesan.</span><span class="sxs-lookup"><span data-stu-id="a83c3-116">From the list, select the name of a bookable resource.</span></span>
+3. <span data-ttu-id="a83c3-117">Di bagian **Project Service** , pilih **+ Tambahkan rekaman karakteristik sumber daya yang dapat dipesan**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-117">In the **Project Service** section, select **+Add Bookable Resource Characteristics record**.</span></span>
+4. <span data-ttu-id="a83c3-118">Di jendela pop-up yang terbuka, temukan dan pilih karakteristik yang diperlukan dan menambahkan **nilai Rating** untuk sumber daya.</span><span class="sxs-lookup"><span data-stu-id="a83c3-118">In the pop-up window that opens, find and select the required characteristics, and add a **Rating Value** for the resource.</span></span>
+5. <span data-ttu-id="a83c3-119">Pilih **Simpan & Tutup**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-119">Select **Save & Close**.</span></span>
 
-## <a name="assign-characteristics-to-resource-requirements"></a>Menetapkan karakteristik ke persyaratan sumber daya
+## <a name="assign-characteristics-to-resource-requirements"></a><span data-ttu-id="a83c3-120">Menetapkan karakteristik ke persyaratan sumber daya</span><span class="sxs-lookup"><span data-stu-id="a83c3-120">Assign characteristics to resource requirements</span></span>
 
-1. Di kisi anggota tim, Cari dan klik dua kali anggota tim generik dengan karakteristik yang perlu diperbarui.
-2. Di detail **anggota tim proyek**, pilih tab **persyaratan sumber daya**.
-3. Di subkisi **keterampilan**, pilih **+ Tambah karakteristik persyaratan baru.**
-4. Di panel buat cepat, Cari dan pilih karakteristik yang diperlukan dan tambahkan **nilai rating**.
-5. Pilih **Simpan & Tutup**.
+1. <span data-ttu-id="a83c3-121">Di kisi anggota tim, Cari dan klik dua kali anggota tim generik dengan karakteristik yang perlu diperbarui.</span><span class="sxs-lookup"><span data-stu-id="a83c3-121">In the team member grid, find and double-click the generic team member with the characteristics that need to be updated.</span></span>
+2. <span data-ttu-id="a83c3-122">Di detail **anggota tim proyek** , pilih tab **persyaratan sumber daya**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-122">In the **Project Team member Detail** , select the **Resource Requirement** tab.</span></span>
+3. <span data-ttu-id="a83c3-123">Di subkisi **keterampilan** , pilih **+ Tambah karakteristik persyaratan baru.**</span><span class="sxs-lookup"><span data-stu-id="a83c3-123">In the **Skills** subgrid, select **+Add new Requirement Characteristic.**</span></span>
+4. <span data-ttu-id="a83c3-124">Di panel buat cepat, Cari dan pilih karakteristik yang diperlukan dan tambahkan **nilai rating**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-124">In the quick create pane, find and select the required characteristics and add a **Rating Value**.</span></span>
+5. <span data-ttu-id="a83c3-125">Pilih **Simpan & Tutup**.</span><span class="sxs-lookup"><span data-stu-id="a83c3-125">Select **Save & Close**.</span></span>

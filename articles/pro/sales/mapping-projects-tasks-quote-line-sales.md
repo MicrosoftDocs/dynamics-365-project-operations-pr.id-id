@@ -9,84 +9,84 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078376"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Memetakan proyek dan tugas ke baris kuotasi berbasis proyek
+# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a><span data-ttu-id="ef9bf-103">Memetakan proyek dan tugas ke baris kuotasi berbasis proyek</span><span class="sxs-lookup"><span data-stu-id="ef9bf-103">Map projects and tasks to a project-based quote line</span></span>
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+<span data-ttu-id="ef9bf-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="ef9bf-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Pada baris kuotasi berbasis proyek, Anda dapat memetakan tugas spesifik proyek yang sudah terkait dengan baris kuotasi.
+<span data-ttu-id="ef9bf-105">Pada baris kuotasi berbasis proyek, Anda dapat memetakan tugas spesifik proyek yang sudah terkait dengan baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-105">On project-based quote lines, you can map the specific tasks of a project that is already associated to a quote line.</span></span>
 
-Bila Anda memetakan tugas ke baris kuotasi, item berikut yang ditentukan pada baris kuotasi hanya akan berlaku untuk tugas tersebut:
+<span data-ttu-id="ef9bf-106">Bila Anda memetakan tugas ke baris kuotasi, item berikut yang ditentukan pada baris kuotasi hanya akan berlaku untuk tugas tersebut:</span><span class="sxs-lookup"><span data-stu-id="ef9bf-106">When you map tasks to a quote line, the following items you defined on the quote line will only apply to those tasks:</span></span>
 
-- Metode Penagihan
-- Opsi ketertagihan
-- Batas Jangan terlampaui
-- Pelanggan
+- <span data-ttu-id="ef9bf-107">Metode Penagihan</span><span class="sxs-lookup"><span data-stu-id="ef9bf-107">Billing method</span></span>
+- <span data-ttu-id="ef9bf-108">Opsi ketertagihan</span><span class="sxs-lookup"><span data-stu-id="ef9bf-108">Chargeability options</span></span>
+- <span data-ttu-id="ef9bf-109">Batas Jangan terlampaui</span><span class="sxs-lookup"><span data-stu-id="ef9bf-109">Not-to-exceed limits</span></span>
+- <span data-ttu-id="ef9bf-110">Pelanggan</span><span class="sxs-lookup"><span data-stu-id="ef9bf-110">Customers</span></span>
 
-Misalnya, Anda mungkin memiliki proyek dengan satu fase adalah harga tetap dan semua fase lainnya adalah waktu dan bahan. Dalam kasus ini, Anda dapat mengaitkan tahap pertama, dan semua tugas anak, ke baris kuotasi untuk fase tersebut dengan metode penagihan harga tetap. Anda kemudian dapat mengaitkan Semua tahapan lain ke baris kuotasi berbasis waktu dan bahan.
+<span data-ttu-id="ef9bf-111">Misalnya, Anda mungkin memiliki proyek dengan satu fase adalah harga tetap dan semua fase lainnya adalah waktu dan bahan.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-111">For example, you might have a project where one phase is fixed price and all the other phases are time and materials.</span></span> <span data-ttu-id="ef9bf-112">Dalam kasus ini, Anda dapat mengaitkan tahap pertama, dan semua tugas anak, ke baris kuotasi untuk fase tersebut dengan metode penagihan harga tetap.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-112">In this case, you can associate the first phase, and all of its child tasks, to the quote line for that phase with a fixed price billing method.</span></span> <span data-ttu-id="ef9bf-113">Anda kemudian dapat mengaitkan Semua tahapan lain ke baris kuotasi berbasis waktu dan bahan.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-113">You can then associate all the other phases to the time and materials-based quote line.</span></span>
 
-## <a name="associate-tasks-to-project-based-quote-lines"></a>Kaitkan tugas ke Baris Kuotasi berbasis Proyek
+## <a name="associate-tasks-to-project-based-quote-lines"></a><span data-ttu-id="ef9bf-114">Kaitkan tugas ke Baris Kuotasi berbasis Proyek</span><span class="sxs-lookup"><span data-stu-id="ef9bf-114">Associate tasks to project-based quote lines</span></span>
 
-Anda dapat mengaitkan tugas dengan baris kuotasi dari lokasi berikut:
+<span data-ttu-id="ef9bf-115">Anda dapat mengaitkan tugas dengan baris kuotasi dari lokasi berikut:</span><span class="sxs-lookup"><span data-stu-id="ef9bf-115">You can associate tasks with quote lines from the following locations:</span></span>
 
-- Halaman **proyek** > tab **Penagihan tugas** (optimal)
-- Halaman **baris kuotasi** > tab **tugas yang ditagih** 
+- <span data-ttu-id="ef9bf-116">Halaman **proyek** > tab **Penagihan tugas** (optimal)</span><span class="sxs-lookup"><span data-stu-id="ef9bf-116">**Project** page > **Task billing** tab (optimal)</span></span>
+- <span data-ttu-id="ef9bf-117">Halaman **baris kuotasi** > tab **tugas yang ditagih**</span><span class="sxs-lookup"><span data-stu-id="ef9bf-117">**Quote Line** page > **Chargeable tasks** tab</span></span> 
 
-### <a name="from-the-project-page"></a>Dari halaman proyek
+### <a name="from-the-project-page"></a><span data-ttu-id="ef9bf-118">Dari halaman proyek</span><span class="sxs-lookup"><span data-stu-id="ef9bf-118">From the Project page</span></span>
 
-Halaman **proyek** memberikan pengalaman optimal untuk mengaitkan tugas ke baris kuotasi. Anda dapat menggunakan Halaman ini untuk memilih beberapa tugas dan mengaitkan semuanya, serta tugas anak mereka, ke baris kuotasi yang dipilih.
+<span data-ttu-id="ef9bf-119">Halaman **proyek** memberikan pengalaman optimal untuk mengaitkan tugas ke baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-119">The **Project** page provides the optimal experience for associating tasks to quote lines.</span></span> <span data-ttu-id="ef9bf-120">Anda dapat menggunakan Halaman ini untuk memilih beberapa tugas dan mengaitkan semuanya, serta tugas anak mereka, ke baris kuotasi yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-120">You can use this page to select multiple tasks and associate all of them, plus their child tasks, to the selected quote line.</span></span>
 
-1. Pada tab **Umum** baris kuotasi berbasis proyek, Verifikasikan bidang **proyek** diisi.
-2. Di bidang **tugas yang disertakan**, pilih **tugas yang dipilih saja**.
-3. Simpan Baris kuotasi berbasis proyek. Saat formulir disegarkan, tab **tugas yang bisa ditagih** akan ditampilkan.
-4. Pada tab **Umum**, pilih tautan untuk proyek dari bidang **proyek**.
-5. Pada halaman **proyek**, pilih tab **Penagihan tugas**.
-6. Di kisi kedua, yang berlaku untuk penyiapan penagihan khusus tugas, pilih satu atau beberapa tugas, lalu pilih **Kaitkan baris kuotasi**.
-7. Di halaman dialog yang muncul, pilih baris kuotasi yang menampilkan baris kuotasi berbasis proyek pada kuotasi.
-8. Di bidang **jenis penagihan**, tentukan Apakah tugas ini dibebankan atau tidak dikenakan biaya.
-9. Pilih kotak centang untuk menunjukkan apakah Asosiasi harus mencakup tugas anak dari tugas yang dipilih. Mencentang kotak akan mengaitkan tugas anak dari tugas yang dipilih ke baris kuotasi.
-10. Pilih **OK** untuk menutup dialog.
+1. <span data-ttu-id="ef9bf-121">Pada tab **Umum** baris kuotasi berbasis proyek, Verifikasikan bidang **proyek** diisi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-121">On the **General** tab of a project–based quote line, verify the **Project** field is filled out.</span></span>
+2. <span data-ttu-id="ef9bf-122">Di bidang **tugas yang disertakan** , pilih **tugas yang dipilih saja**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-122">In the **Included tasks** field, select **Selected tasks only**.</span></span>
+3. <span data-ttu-id="ef9bf-123">Simpan Baris kuotasi berbasis proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-123">Save the project-based quote line.</span></span> <span data-ttu-id="ef9bf-124">Saat formulir disegarkan, tab **tugas yang bisa ditagih** akan ditampilkan.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-124">When the form refreshes, the **Chargeable tasks** tab displays.</span></span>
+4. <span data-ttu-id="ef9bf-125">Pada tab **Umum** , pilih tautan untuk proyek dari bidang **proyek**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-125">On the **General** tab, select the link for the project from the **Project** field.</span></span>
+5. <span data-ttu-id="ef9bf-126">Pada halaman **proyek** , pilih tab **Penagihan tugas**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-126">On the **Project** page, select the **Task billing** tab.</span></span>
+6. <span data-ttu-id="ef9bf-127">Di kisi kedua, yang berlaku untuk penyiapan penagihan khusus tugas, pilih satu atau beberapa tugas, lalu pilih **Kaitkan baris kuotasi**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-127">In the second grid, which applies to task-specific billing setup, select one or more tasks and then select **Associate quote lines**.</span></span>
+7. <span data-ttu-id="ef9bf-128">Di halaman dialog yang muncul, pilih baris kuotasi yang menampilkan baris kuotasi berbasis proyek pada kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-128">In the dialog page that appears, select a quote line that displays project-based quote lines on the quote.</span></span>
+8. <span data-ttu-id="ef9bf-129">Di bidang **jenis penagihan** , tentukan Apakah tugas ini dibebankan atau tidak dikenakan biaya.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-129">In the **Billing type** field, indicate if these tasks are chargeable or non-chargeable.</span></span>
+9. <span data-ttu-id="ef9bf-130">Pilih kotak centang untuk menunjukkan apakah Asosiasi harus mencakup tugas anak dari tugas yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-130">Select the check box to indicate if the association should include child tasks of the selected tasks.</span></span> <span data-ttu-id="ef9bf-131">Mencentang kotak akan mengaitkan tugas anak dari tugas yang dipilih ke baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-131">Checking the box will associate the child tasks of the selected tasks to the quote line.</span></span>
+10. <span data-ttu-id="ef9bf-132">Pilih **OK** untuk menutup dialog.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-132">Select **OK** to close the dialog.</span></span>
 
-### <a name="from-the-quote-line-page"></a>Dari halaman baris kuotasi
+### <a name="from-the-quote-line-page"></a><span data-ttu-id="ef9bf-133">Dari halaman baris kuotasi</span><span class="sxs-lookup"><span data-stu-id="ef9bf-133">From the Quote line page</span></span>
 
-Anda dapat mengaitkan tugas proyek ke baris kuotasi dari tab **tugas yang dapat ditagih** pada halaman **baris kuotasi**.
-
->[!NOTE]
->Tempat optimal untuk mengaitkan tugas proyek ke baris kuotasi adalah tab **Penagihan tugas** pada halaman **proyek**. Jika Anda mengaitkan tugas dari tab **tugas dapat ditagih** pada halaman **baris kuotasi**, Anda harus mengkaitkan setiap proyek secara manual.
-
-1. Pada tab **Umum** baris kuotasi berbasis proyek, Verifikasikan bahwa ada proyek yang dipilih di bidang **proyek**.
-2. Di bidang **tugas yang disertakan**, pilih **tugas yang dipilih saja**.
-3. Simpan Baris kuotasi berbasis proyek. Saat formulir disegarkan, tab **tugas yang bisa ditagih** akan ditampilkan.
-4. Pada tab **tugas dapat ditagih**, pilih **Tambah tugas baris kuotasi**.
-5. Pada halaman **tugas baris kuotasi**, di bidang **tugas**, pilih tugas dan di bidang **jenis penagihan**, pilih **Simpan**. 
-6. Tutup halaman. Tugas yang dipilih sekarang terkait dengan baris kuotasi.
-
-## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Hapus kaitan tugas dari Baris Kuotasi berbasis Proyek
-
-### <a name="from-the-project-page"></a>Dari halaman proyek
-
-Metode ini memberikan pengalaman paling optimal untuk menghapus kaitan tugas dari baris kuotasi. Anda dapat menggunakan beberapa tugas dan menghapus kaitan semuanya, serta tugas anak mereka, dari baris kuotasi yang dipilih.
-
-1. Pada tab **Umum** baris kuotasi berbasis proyek, di bidang **proyek**, pilih tautan proyek.
-2. Pada halaman **proyek**, pilih tab **Penagihan tugas**.
-3. Di kisi kedua, yang berlaku untuk penyiapan penagihan khusus tugas, pilih satu atau beberapa tugas, lalu pilih **Hapus kaitan baris kuotasi**.
-4. Di halaman dialog yang muncul, pilih baris kuotasi.
-5. Pilih kotak centang untuk menunjukkan apakah Asosiasi juga harus dihapus dari tugas anak dari tugas yang dipilih. Mencentang kotak juga akan menghapus kaitan tugas anak dari tugas yang dipilih ke baris kuotasi.
-6. Pilih **OK**. Pesan peringatan akan menginformasikan bahwa jika Anda menghapus Asosiasi ini, setiap aktual yang sebelumnya dicatat pada tugas tersebut dapat dibalik. 
-7. Pilih **OK** untuk melanjutkan dan menghapus keterkaitan antara tugas dan baris kuotasi berbasis proyek.
-
-### <a name="from-the-quote-line-page"></a>Dari halaman baris kuotasi
-
-Anda juga dapat menghapus kaitan tugas proyek ke baris kuotasi dari tab **tugas yang dapat ditagih** pada halaman **baris kuotasi**.
-
-1. Pada tab **tugas dapat ditagih**, pilih **Hapus tugas baris kuotasi**.
-2. Pilih **OK**. Pesan peringatan akan menginformasikan bahwa jika Anda menghapus Asosiasi ini, setiap aktual yang sebelumnya dicatat pada tugas tersebut dapat dibalik. 
-3. Pilih **OK** untuk melanjutkan dan menghapus keterkaitan antara tugas dan baris kuotasi berbasis proyek.
+<span data-ttu-id="ef9bf-134">Anda dapat mengaitkan tugas proyek ke baris kuotasi dari tab **tugas yang dapat ditagih** pada halaman **baris kuotasi**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-134">You can associate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.</span></span>
 
 >[!NOTE]
-> Prosedur ini tidak menghapus tugas dari proyek. Ini hanya akan menghapus asosiasi tugas dari baris kuotasi berbasis proyek.
+><span data-ttu-id="ef9bf-135">Tempat optimal untuk mengaitkan tugas proyek ke baris kuotasi adalah tab **Penagihan tugas** pada halaman **proyek**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-135">The optimal place to associate project tasks to quote lines is on the **Task billing** tab on the **Project** page.</span></span> <span data-ttu-id="ef9bf-136">Jika Anda mengaitkan tugas dari tab **tugas dapat ditagih** pada halaman **baris kuotasi** , Anda harus mengkaitkan setiap proyek secara manual.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-136">If you associate tasks from the **Chargeable tasks** tab on **Quote line** page, you must manually associate each project.</span></span>
+
+1. <span data-ttu-id="ef9bf-137">Pada tab **Umum** baris kuotasi berbasis proyek, Verifikasikan bahwa ada proyek yang dipilih di bidang **proyek**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-137">On the **General** tab of a project–based quote line, verify that there is a project selected in the **Project** field.</span></span>
+2. <span data-ttu-id="ef9bf-138">Di bidang **tugas yang disertakan** , pilih **tugas yang dipilih saja**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-138">In the **Included tasks** field, select **Selected tasks only**.</span></span>
+3. <span data-ttu-id="ef9bf-139">Simpan Baris kuotasi berbasis proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-139">Save the project-based quote line.</span></span> <span data-ttu-id="ef9bf-140">Saat formulir disegarkan, tab **tugas yang bisa ditagih** akan ditampilkan.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-140">When the form refreshes, the **Chargeable tasks** tab displays.</span></span>
+4. <span data-ttu-id="ef9bf-141">Pada tab **tugas dapat ditagih** , pilih **Tambah tugas baris kuotasi**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-141">On the **Chargeable tasks** tab, select **Add a quote line task**.</span></span>
+5. <span data-ttu-id="ef9bf-142">Pada halaman **tugas baris kuotasi** , di bidang **tugas** , pilih tugas dan di bidang **jenis penagihan** , pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-142">On the **Quote line task** page, in the **Tasks** field, select the task and in the **Billing type** field, select **Save**.</span></span> 
+6. <span data-ttu-id="ef9bf-143">Tutup halaman.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-143">Close the page.</span></span> <span data-ttu-id="ef9bf-144">Tugas yang dipilih sekarang terkait dengan baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-144">The selected task is now associated to the quote line.</span></span>
+
+## <a name="disassociate-tasks-from-projectbased-quote-lines"></a><span data-ttu-id="ef9bf-145">Hapus kaitan tugas dari Baris Kuotasi berbasis Proyek</span><span class="sxs-lookup"><span data-stu-id="ef9bf-145">Disassociate tasks from project–based quote lines</span></span>
+
+### <a name="from-the-project-page"></a><span data-ttu-id="ef9bf-146">Dari halaman proyek</span><span class="sxs-lookup"><span data-stu-id="ef9bf-146">From the Project page</span></span>
+
+<span data-ttu-id="ef9bf-147">Metode ini memberikan pengalaman paling optimal untuk menghapus kaitan tugas dari baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-147">This method provides the most optimal experience for disassociating tasks from quote lines.</span></span> <span data-ttu-id="ef9bf-148">Anda dapat menggunakan beberapa tugas dan menghapus kaitan semuanya, serta tugas anak mereka, dari baris kuotasi yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-148">You can select multiple tasks and disassociate all of the them, plus their child tasks, from the selected quote line.</span></span>
+
+1. <span data-ttu-id="ef9bf-149">Pada tab **Umum** baris kuotasi berbasis proyek, di bidang **proyek** , pilih tautan proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-149">On the **General** tab of a project–based quote line, in the **Project** field, select the project link.</span></span>
+2. <span data-ttu-id="ef9bf-150">Pada halaman **proyek** , pilih tab **Penagihan tugas**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-150">On the **Project** page, select the **Task billing** tab.</span></span>
+3. <span data-ttu-id="ef9bf-151">Di kisi kedua, yang berlaku untuk penyiapan penagihan khusus tugas, pilih satu atau beberapa tugas, lalu pilih **Hapus kaitan baris kuotasi**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-151">In the second grid, which applies to task-specific billing setup, select one or more tasks, and then select **Disassociate quote lines**.</span></span>
+4. <span data-ttu-id="ef9bf-152">Di halaman dialog yang muncul, pilih baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-152">In the dialog page that appears, select a quote line.</span></span>
+5. <span data-ttu-id="ef9bf-153">Pilih kotak centang untuk menunjukkan apakah Asosiasi juga harus dihapus dari tugas anak dari tugas yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-153">Select the check box to indicate whether the association should also be removed from child tasks of the selected tasks.</span></span> <span data-ttu-id="ef9bf-154">Mencentang kotak juga akan menghapus kaitan tugas anak dari tugas yang dipilih ke baris kuotasi.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-154">Checking the box will also disassociate the child tasks of the selected tasks to the quote line.</span></span>
+6. <span data-ttu-id="ef9bf-155">Pilih **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-155">Select **OK**.</span></span> <span data-ttu-id="ef9bf-156">Pesan peringatan akan menginformasikan bahwa jika Anda menghapus Asosiasi ini, setiap aktual yang sebelumnya dicatat pada tugas tersebut dapat dibalik.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-156">A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed.</span></span> 
+7. <span data-ttu-id="ef9bf-157">Pilih **OK** untuk melanjutkan dan menghapus keterkaitan antara tugas dan baris kuotasi berbasis proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-157">Select **OK** to continue and remove the association between the task and the project-based quote line.</span></span>
+
+### <a name="from-the-quote-line-page"></a><span data-ttu-id="ef9bf-158">Dari halaman baris kuotasi</span><span class="sxs-lookup"><span data-stu-id="ef9bf-158">From the Quote line page</span></span>
+
+<span data-ttu-id="ef9bf-159">Anda juga dapat menghapus kaitan tugas proyek ke baris kuotasi dari tab **tugas yang dapat ditagih** pada halaman **baris kuotasi**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-159">You can also disassociate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.</span></span>
+
+1. <span data-ttu-id="ef9bf-160">Pada tab **tugas dapat ditagih** , pilih **Hapus tugas baris kuotasi**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-160">On the **Chargeable tasks** tab, select **Delete a quote line task**.</span></span>
+2. <span data-ttu-id="ef9bf-161">Pilih **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-161">Select **OK**.</span></span> <span data-ttu-id="ef9bf-162">Pesan peringatan akan menginformasikan bahwa jika Anda menghapus Asosiasi ini, setiap aktual yang sebelumnya dicatat pada tugas tersebut dapat dibalik.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-162">A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed.</span></span> 
+3. <span data-ttu-id="ef9bf-163">Pilih **OK** untuk melanjutkan dan menghapus keterkaitan antara tugas dan baris kuotasi berbasis proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-163">Select **OK** to continue and remove the association between the task and the project-based quote line.</span></span>
+
+>[!NOTE]
+> <span data-ttu-id="ef9bf-164">Prosedur ini tidak menghapus tugas dari proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-164">This procedure doesn't delete the task from the project.</span></span> <span data-ttu-id="ef9bf-165">Ini hanya akan menghapus asosiasi tugas dari baris kuotasi berbasis proyek.</span><span class="sxs-lookup"><span data-stu-id="ef9bf-165">It only removes the task association from the project-based quote line.</span></span>

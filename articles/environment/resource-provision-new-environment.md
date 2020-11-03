@@ -3,185 +3,186 @@ title: Penyediaan lingkungan baru
 description: Topik ini menyediakan informasi tentang bagaimana menyediakan lingkungan Project Operations baru.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078371"
 ---
-# <a name="provision-a-new-environment"></a>Penyediaan lingkungan baru
+# <a name="provision-a-new-environment"></a><span data-ttu-id="3b35c-103">Penyediaan lingkungan baru</span><span class="sxs-lookup"><span data-stu-id="3b35c-103">Provision a new environment</span></span>
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
+<span data-ttu-id="3b35c-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_</span><span class="sxs-lookup"><span data-stu-id="3b35c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Topik ini memberikan informasi tentang cara penyediaan lingkungan Dynamics 365 Project Operations baru untuk skenario berbasis sumber daya/non-stok.
+<span data-ttu-id="3b35c-105">Topik ini memberikan informasi tentang cara penyediaan lingkungan Dynamics 365 Project Operations baru untuk skenario berbasis sumber daya/non-stok.</span><span class="sxs-lookup"><span data-stu-id="3b35c-105">This topic provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.</span></span>
 
-## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Aktifkan penetapan otomatis Project Operations dalam proyek LCS
+## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a><span data-ttu-id="3b35c-106">Aktifkan penetapan otomatis Project Operations dalam proyek LCS</span><span class="sxs-lookup"><span data-stu-id="3b35c-106">Enable Project Operations automated provisioning in an LCS project</span></span>
 
-Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Project Operations untuk proyek LCS Anda.
+<span data-ttu-id="3b35c-107">Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Project Operations untuk proyek LCS Anda.</span><span class="sxs-lookup"><span data-stu-id="3b35c-107">Use following steps to enable the Project Operations automated provisioning flow for your LCS project.</span></span>
 
-1. Buka [LCS](https://lcs.dynamics.com/v2), lalu pilih ubin **manajemen fitur pratinjau**.
-2. Dalam Daftar **fitur pratinjau**, pilih **Project Operations** dan pilih fitur **pratinjau yang diaktifkan** untuk mengaktifkan Project Operations.
+1. <span data-ttu-id="3b35c-108">Buka [LCS](https://lcs.dynamics.com/v2), lalu pilih ubin **manajemen fitur pratinjau**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-108">Go to [LCS](https://lcs.dynamics.com/v2) and select the **Preview Feature management** tile.</span></span>
+2. <span data-ttu-id="3b35c-109">Dalam Daftar **fitur pratinjau** , pilih **Fitur Project Operations** , kemudian pilih **fitur pratinjau yang diaktifkan** untuk mengaktifkan Project Operations.</span><span class="sxs-lookup"><span data-stu-id="3b35c-109">In the **Preview feature** list, select **Project Operations Feature** , and then select **Preview feature enabled** to enable Project Operations.</span></span>
 
 > [!NOTE]
-> Langkah ini dilakukan hanya satu kali per proyek LCS.
+> <span data-ttu-id="3b35c-110">Langkah ini dilakukan hanya satu kali per proyek LCS.</span><span class="sxs-lookup"><span data-stu-id="3b35c-110">This step is performed only one time per LCS project.</span></span>
 
-## <a name="provision-a-project-operations-environment"></a>Penyediaan lingkungan Project Operations
+## <a name="provision-a-project-operations-environment"></a><span data-ttu-id="3b35c-111">Penyediaan lingkungan Project Operations</span><span class="sxs-lookup"><span data-stu-id="3b35c-111">Provision a Project Operations environment</span></span>
 
-1. Buka Dynamics 365 Finance [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau penyebaran [lingkungan produksi/Sandbox](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
-2. Lalui Wizard **penyediaan lingkungan**. 
+1. <span data-ttu-id="3b35c-112">Buka Dynamics 365 Finance [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau penyebaran [lingkungan produksi/Sandbox](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure).</span><span class="sxs-lookup"><span data-stu-id="3b35c-112">Open a new Dynamics 365 Finance [demo environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment.</span></span> 
+2. <span data-ttu-id="3b35c-113">Lalui Wizard **penyediaan lingkungan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-113">Walk through the **Environment provisioning** wizard.</span></span> 
 
 > [!IMPORTANT]
-> Pastikan versi aplikasi yang dipilih adalah 10.0.13 atau lebih tinggi.
+> <span data-ttu-id="3b35c-114">Pastikan versi aplikasi yang dipilih adalah 10.0.13 atau lebih tinggi.</span><span class="sxs-lookup"><span data-stu-id="3b35c-114">Make sure selected application version is 10.0.13 or higher.</span></span>
 
-3. Untuk menyediakan Project Operations, di dalam **pengaturan lanjutan**, pilih **Common Data Service**. 
-4. Aktifkan **pengaturan Common Data Service** dengan memilih **ya**, lalu masukkan informasi di bidang wajib:
+3. <span data-ttu-id="3b35c-115">Untuk menyediakan Project Operations, di dalam **pengaturan lanjutan** , pilih **Common Data Service**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-115">To provision Project Operations, under **Advance settings** , select **Common Data Service**.</span></span> 
+4. <span data-ttu-id="3b35c-116">Aktifkan **pengaturan Common Data Service** dengan memilih **ya** , lalu masukkan informasi di bidang wajib:</span><span class="sxs-lookup"><span data-stu-id="3b35c-116">Enable the **Common Data Service Setting** by selecting **Yes** and then enter information in the required fields:</span></span>
 
-  - Nama
-  - Wilayah
-  - Bahasa
-  - Mata uang
+  - <span data-ttu-id="3b35c-117">Nama</span><span class="sxs-lookup"><span data-stu-id="3b35c-117">Name</span></span>
+  - <span data-ttu-id="3b35c-118">Wilayah</span><span class="sxs-lookup"><span data-stu-id="3b35c-118">Region</span></span>
+  - <span data-ttu-id="3b35c-119">Bahasa</span><span class="sxs-lookup"><span data-stu-id="3b35c-119">Language</span></span>
+  - <span data-ttu-id="3b35c-120">Mata uang</span><span class="sxs-lookup"><span data-stu-id="3b35c-120">Currency</span></span>
  
-5. Di bidang **template Common Data Service**, pilih **Project Operations** 
+5. <span data-ttu-id="3b35c-121">Di bidang **template Common Data Service** , pilih **Project Operations**</span><span class="sxs-lookup"><span data-stu-id="3b35c-121">In the **Common Data Service Template** field, select **Project Operations**</span></span> 
 
-6. Pilih jenis lingkungan untuk penyebaran Anda. Uji coba berbasis langganan akan memungkinkan Anda menyebarkan lingkungan CDS selama 30 hari. 
+6. <span data-ttu-id="3b35c-122">Pilih jenis lingkungan untuk penyebaran Anda.</span><span class="sxs-lookup"><span data-stu-id="3b35c-122">Select the environment type for your deployment.</span></span> <span data-ttu-id="3b35c-123">Uji coba berbasis langganan akan memungkinkan Anda menyebarkan lingkungan CDS selama 30 hari.</span><span class="sxs-lookup"><span data-stu-id="3b35c-123">A subscription-based trial will let you deploy a CDS environment for 30 days.</span></span> 
 
 ![Pengaturan penyebaran](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Pilih **setuju** untuk menyetujui persyaratan layanan, lalu pilih **selesai** untuk kembali ke pengaturan penyebaran.
+> <span data-ttu-id="3b35c-125">Pilih **setuju** untuk menyetujui persyaratan layanan, lalu pilih **selesai** untuk kembali ke pengaturan penyebaran.</span><span class="sxs-lookup"><span data-stu-id="3b35c-125">Select **Agree** to acknowledge the terms of service and then select **Done** to return to the deployment settings.</span></span>
 
 ![Persetujuan Penyebaran](./media/2DeploymentConsent.png)
 
-7. Lengkapi bidang yang diperlukan yang tersisa di Wizard dan konfirmasikan penyebaran. Waktu penyediaan lingkungan bervariasi berdasarkan jenis lingkungan. Penyediaan mungkin memerlukan waktu hingga enam jam.
+7. <span data-ttu-id="3b35c-127">Lengkapi bidang yang diperlukan yang tersisa di Wizard dan konfirmasikan penyebaran.</span><span class="sxs-lookup"><span data-stu-id="3b35c-127">Complete the remaining required fields in the wizard and confirm the deployment.</span></span> <span data-ttu-id="3b35c-128">Waktu penyediaan lingkungan bervariasi berdasarkan jenis lingkungan.</span><span class="sxs-lookup"><span data-stu-id="3b35c-128">Environment provisioning time varies based on the environment type.</span></span> <span data-ttu-id="3b35c-129">Penyediaan mungkin memerlukan waktu hingga enam jam.</span><span class="sxs-lookup"><span data-stu-id="3b35c-129">Provisioning might take up to six hours.</span></span>
 
-  Setelah penyebaran berhasil diselesaikan, lingkungan akan ditampilkan sebagai **disebarkan**.
+  <span data-ttu-id="3b35c-130">Setelah penyebaran berhasil diselesaikan, lingkungan akan ditampilkan sebagai **disebarkan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-130">After the deployment completes successfully, the environment will show as **Deployed**.</span></span>
 
-8. Untuk mengonfirmasi bahwa lingkungan telah berhasil disebarkan, pilih **masuk** dan masuk ke lingkungan untuk mengonfirmasi.
+8. <span data-ttu-id="3b35c-131">Untuk mengonfirmasi bahwa lingkungan telah berhasil disebarkan, pilih **masuk** dan masuk ke lingkungan untuk mengonfirmasi.</span><span class="sxs-lookup"><span data-stu-id="3b35c-131">To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.</span></span>
 
 ![Rincian lingkungan ](./media/3EnvironmentDetails.png)
 
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Terapkan data demo Project Operations Finance (langkah opsional)
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a><span data-ttu-id="3b35c-133">Terapkan data demo Project Operations Finance (langkah opsional)</span><span class="sxs-lookup"><span data-stu-id="3b35c-133">Apply Project Operations Finance demo data (optional step)</span></span>
 
-Terapkan data demo Project Operations Finance ke lingkungan host cloud rilis Layanan 10.0.13 seperti dijelaskan dalam [artikel ini](resource-apply-finance-demo-data.md).
+<span data-ttu-id="3b35c-134">Terapkan data demo Project Operations Finance ke lingkungan host cloud rilis Layanan 10.0.13 seperti dijelaskan dalam [artikel ini](resource-apply-finance-demo-data.md).</span><span class="sxs-lookup"><span data-stu-id="3b35c-134">Apply Project Operations Finance demo data to 10.0.13 service release Cloud Hosted Environment as described in [this article](resource-apply-finance-demo-data.md).</span></span>
 
-## <a name="apply-updates-to-the-finance-environment"></a>Terapkan pembaruan ke lingkungan Finance
+## <a name="apply-updates-to-the-finance-environment"></a><span data-ttu-id="3b35c-135">Terapkan pembaruan ke lingkungan Finance</span><span class="sxs-lookup"><span data-stu-id="3b35c-135">Apply updates to the Finance environment</span></span>
 
-Project Operations memerlukan lingkungan Finance dengan versi aplikasi **10.0.13 (10.0.569.20009)** atau lebih tinggi.
+<span data-ttu-id="3b35c-136">Project Operations memerlukan lingkungan Finance dengan versi aplikasi **10.0.13 (10.0.569.20009)** atau lebih tinggi.</span><span class="sxs-lookup"><span data-stu-id="3b35c-136">Project Operations requires a Finance environment with application version **10.0.13 (10.0.569.20009)** or higher.</span></span>
 
-Anda mungkin perlu menerapkan pembaruan kualitas ke lingkungan Finance Anda untuk menerima versi ini.
+<span data-ttu-id="3b35c-137">Anda mungkin perlu menerapkan pembaruan kualitas ke lingkungan Finance Anda untuk menerima versi ini.</span><span class="sxs-lookup"><span data-stu-id="3b35c-137">You might need to apply quality updates to your Finance environment to receive this version.</span></span>
 
-1. Di LCS, di halaman **rincian lingkungan**, di Bagian **pembaruan yang tersedia**, pilih **Lihat pembaruan**.
+1. <span data-ttu-id="3b35c-138">Di LCS, di halaman **rincian lingkungan** , di Bagian **pembaruan yang tersedia** , pilih **Lihat pembaruan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-138">In LCS, on the **Environment details** page, in the **Available Updates** section, select **View Update**.</span></span>
 
 ![Lihat pembaruan](./media/5ViewUpdates.png)
 
-2. Pada halaman **pembaruan biner**, pilih **Simpan paket.**
+2. <span data-ttu-id="3b35c-140">Pada halaman **pembaruan biner** , pilih **Simpan paket.**</span><span class="sxs-lookup"><span data-stu-id="3b35c-140">On the **Binary updates** page, select **Save package.**</span></span>
 
 ![Simpan paket](./media/6SavePackage.png)
 
-3. Klik **pilih semua**, lalu pilih **Simpan paket**.
+3. <span data-ttu-id="3b35c-142">Klik **pilih semua** , lalu pilih **Simpan paket**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-142">Click **Select all** and then select **Save package**.</span></span>
 
 ![Tinjau dan simpan pembaruan](./media/7ReviewAndSaveUpdates.png)
 
-4. Masukkan nama dan Deskripsi paket, lalu pilih **Simpan**. Tergantung pada koneksi internet, proses ini mungkin akan memakan waktu.
+4. <span data-ttu-id="3b35c-144">Masukkan nama dan Deskripsi paket, lalu pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-144">Enter a name and a description of the package, and then select **Save**.</span></span> <span data-ttu-id="3b35c-145">Tergantung pada koneksi internet, proses ini mungkin akan memakan waktu.</span><span class="sxs-lookup"><span data-stu-id="3b35c-145">Depending on the internet connection, this process might take some time.</span></span>
 
 ![Mengunggah paket ke pustaka aset](./media/8UploadPackageToAssetsLibrary.png)
 
-5. Setelah paket disimpan, pilih **selesai** dan Simpan paket ini ke pustaka aset dalam proyek LCS Anda.
+5. <span data-ttu-id="3b35c-147">Setelah paket disimpan, pilih **selesai** dan Simpan paket ini ke pustaka aset dalam proyek LCS Anda.</span><span class="sxs-lookup"><span data-stu-id="3b35c-147">After the package is saved, select **Done** and save this package to the Assets library in your LCS project.</span></span>
 
-Menyimpan dan memvalidasi paket mungkin memerlukan waktu ~ 15 menit.
+<span data-ttu-id="3b35c-148">Menyimpan dan memvalidasi paket mungkin memerlukan waktu ~ 15 menit.</span><span class="sxs-lookup"><span data-stu-id="3b35c-148">Saving and validating the package might take ~15 minutes.</span></span>
 
-6. Untuk menerapkan pembaruan, navigasi ke halaman **rincian lingkungan** di lcs dan pilih **memelihara** > **menerapkan pembaruan**.
+6. <span data-ttu-id="3b35c-149">Untuk menerapkan pembaruan, navigasi ke halaman **rincian lingkungan** di lcs dan pilih **memelihara** > **menerapkan pembaruan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-149">To apply the update, navigate to the **Environment details** page in LCS and select **Maintain** > **Apply updates**.</span></span>
 
 ![Memelihara lingkungan](./media/9MaintainEnvironment.png)
 
-7. Dalam daftar pembaruan, pilih paket yang Anda buat, lalu pilih **Terapkan**.
+7. <span data-ttu-id="3b35c-151">Dalam daftar pembaruan, pilih paket yang Anda buat, lalu pilih **Terapkan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-151">In the updates list select the package you created, and select **Apply**.</span></span>
 
 ![Menerapkan pembaruan](./media/10ApplyUpdates.png)
 
-Layanan lingkungan akan memakan waktu. Setelah selesai, lingkungan akan kembali ke keadaan disebarkan.
+<span data-ttu-id="3b35c-153">Layanan lingkungan akan memakan waktu.</span><span class="sxs-lookup"><span data-stu-id="3b35c-153">Environment servicing will take some time.</span></span> <span data-ttu-id="3b35c-154">Setelah selesai, lingkungan akan kembali ke keadaan disebarkan.</span><span class="sxs-lookup"><span data-stu-id="3b35c-154">After it is complete, the environment will return to a deployed state.</span></span>
 
 ![Lingkungan Disebarkan](./media/11EnvironmentDeployed.png)
 
-## <a name="establish-a-dual-write-connection"></a>Membuat sambungan tulis ganda 
+## <a name="establish-a-dual-write-connection"></a><span data-ttu-id="3b35c-156">Membuat sambungan tulis ganda</span><span class="sxs-lookup"><span data-stu-id="3b35c-156">Establish a Dual Write connection</span></span> 
 
-1. Di proyek LCS, buka halaman **rincian lingkungan**.
-2. Di dalam **informasi lingkungan Common Data Service**, pilih **tautkan ke CDS for Apps**.
-3. Setelah tautan selesai, pilih **tautkan ke CDS for Apps** lagi. Anda akan diarahkan ke Tulis Ganda di Finance.
+1. <span data-ttu-id="3b35c-157">Di proyek LCS, buka halaman **rincian lingkungan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-157">In your LCS project, go to the **Environment details** page.</span></span>
+2. <span data-ttu-id="3b35c-158">Di dalam **informasi lingkungan Common Data Service** , pilih **tautkan ke CDS for Apps**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-158">Under **Common Data Service Environment Information** , select **Link to CDS for Apps**.</span></span>
+3. <span data-ttu-id="3b35c-159">Setelah tautan selesai, pilih **tautkan ke CDS for Apps** lagi.</span><span class="sxs-lookup"><span data-stu-id="3b35c-159">After the link is complete, select **Link to CDS for Apps** again.</span></span> <span data-ttu-id="3b35c-160">Anda akan diarahkan ke Tulis Ganda di Finance.</span><span class="sxs-lookup"><span data-stu-id="3b35c-160">You will be redirected to Dual Write in Finance.</span></span>
 
 ![Tautan ke CDS](./media/12LinktoCDS.png)
 
-4. Pilih **Terapkan solusi** untuk mengakses entitas yang akan dipetakan dalam integrasi.
+4. <span data-ttu-id="3b35c-162">Pilih **Terapkan solusi** untuk mengakses entitas yang akan dipetakan dalam integrasi.</span><span class="sxs-lookup"><span data-stu-id="3b35c-162">Select **Apply Solution** to access the entities that will be mapped in the integration.</span></span>
 
 ![Terapkan solusi](./media/13ApplySolutions.png)
 
-5. Pilih kedua solusi, **peta entitas tulis ganda Dynamics 365 Finance and Operations** dan **peta entitas tulis ganda Dynamics 365 Project Operations**, lalu pilih **Terapkan**.
+5. <span data-ttu-id="3b35c-164">Pilih kedua solusi, **peta entitas tulis ganda Dynamics 365 Finance and Operations** dan **peta entitas tulis ganda Dynamics 365 Project Operations** , lalu pilih **Terapkan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-164">Select both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps** , and then select **Apply**.</span></span>
 
 ![Konfirmasi Solusi](./media/14ConfirmSolutions.png)
 
-Setelah solusi diterapkan, entitas tulis ganda diterapkan ke lingkungan.
+<span data-ttu-id="3b35c-166">Setelah solusi diterapkan, entitas tulis ganda diterapkan ke lingkungan.</span><span class="sxs-lookup"><span data-stu-id="3b35c-166">After the solutions are applied, the Dual Write entities are applied to the environment.</span></span>
 
 ![Menerapkan solusi](./media/15ApplyingSolutions.png)
 
-Setelah entitas diterapkan, Semua pemetaan yang tersedia didaftarkan di lingkungan.
+<span data-ttu-id="3b35c-168">Setelah entitas diterapkan, Semua pemetaan yang tersedia didaftarkan di lingkungan.</span><span class="sxs-lookup"><span data-stu-id="3b35c-168">After the entities are applied, all available mappings are listed in the environment.</span></span>
 
 ![Peta Tulis Ganda](./media/15DWMappings.png)
 
-## <a name="refresh-the-data-entities-after-the-update"></a>Segarkan entitas data setelah pembaruan
+## <a name="refresh-the-data-entities-after-the-update"></a><span data-ttu-id="3b35c-170">Segarkan entitas data setelah pembaruan</span><span class="sxs-lookup"><span data-stu-id="3b35c-170">Refresh the data entities after the update</span></span>
 
-1. Di Finance, buka ruang kerja **manajemen data**.
+1. <span data-ttu-id="3b35c-171">Di Finance, buka ruang kerja **manajemen data**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-171">In Finance, go to the **Data management** workspace.</span></span>
 
 ![Ruang kerja manajemen data](./media/16DataManagement.png)
 
-2. Pilih ubin **parameter kerangka**.
+2. <span data-ttu-id="3b35c-173">Pilih ubin **parameter kerangka**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-173">Select the **Framework parameters** tile.</span></span>
 
 ![Parameter kerangka](./media/17FrameworkParameters.png)
 
-3. Pada halaman **pengaturan entitas**, pilih **segarkan daftar entitas**.
+3. <span data-ttu-id="3b35c-175">Pada halaman **pengaturan entitas** , pilih **segarkan daftar entitas**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-175">On the **Entity settings** page, select **Refresh Entity list**.</span></span>
 
 ![Segarkan daftar entitas](./media/18RefreshEntityList.png)
 
-Penyegaran akan berlangsung sekitar 20 menit. Anda akan menerima pemberitahuan setelah selesai.
+<span data-ttu-id="3b35c-177">Penyegaran akan berlangsung sekitar 20 menit.</span><span class="sxs-lookup"><span data-stu-id="3b35c-177">The refresh is going to take approximately 20 minutes.</span></span> <span data-ttu-id="3b35c-178">Anda akan menerima pemberitahuan setelah selesai.</span><span class="sxs-lookup"><span data-stu-id="3b35c-178">You will receive an alert when it is complete.</span></span>
 
 ![Segarkan Konfirmasi](./media/19RefreshConfirmation.png)
 
-## <a name="run-project-operations-dual-write-maps"></a>Jalankan peta Tulis Ganda Project Operations
+## <a name="run-project-operations-dual-write-maps"></a><span data-ttu-id="3b35c-180">Jalankan peta Tulis Ganda Project Operations</span><span class="sxs-lookup"><span data-stu-id="3b35c-180">Run Project Operations Dual Write maps</span></span>
 
-1. Di proyek LCS, buka halaman **rincian lingkungan**.
-2. Di dalam **informasi lingkungan Common Data Service**, pilih **tautkan ke CDS for Apps**. Setelah memilih tautan, Anda akan diarahkan ke daftar entitas di pemetaan.
-3. Mulai peta seperti yang dijelaskan dalam tabel berikut. Pastikan untuk mengikuti urutan yang tercantum.
+1. <span data-ttu-id="3b35c-181">Di proyek LCS, buka halaman **rincian lingkungan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-181">In your LCS project, go to the **Environment details** page.</span></span>
+2. <span data-ttu-id="3b35c-182">Di dalam **informasi lingkungan Common Data Service** , pilih **tautkan ke CDS for Apps**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-182">Under **Common Data Service Environment Information** , select **Link to CDS for Apps.**</span></span> <span data-ttu-id="3b35c-183">Setelah memilih tautan, Anda akan diarahkan ke daftar entitas di pemetaan.</span><span class="sxs-lookup"><span data-stu-id="3b35c-183">After you select the link, you will be redirected to the list of entities in the mappings.</span></span>
+3. <span data-ttu-id="3b35c-184">Mulai peta seperti yang dijelaskan dalam tabel berikut.</span><span class="sxs-lookup"><span data-stu-id="3b35c-184">Start the maps as described in the following table.</span></span> <span data-ttu-id="3b35c-185">Pastikan untuk mengikuti urutan yang tercantum.</span><span class="sxs-lookup"><span data-stu-id="3b35c-185">Make sure to follow the sequence as listed.</span></span>
 
-| **Peta Entitas** | **Refresh Entitas** | **Sinkronisasi awal** | **Master untuk sinkronisasi awal** | **Prasyarat menjalankan** | **Sinkronisasi awal prasyarat** |
+| <span data-ttu-id="3b35c-186">**Peta Entitas**</span><span class="sxs-lookup"><span data-stu-id="3b35c-186">**Entity Map**</span></span> | <span data-ttu-id="3b35c-187">**Refresh Entitas**</span><span class="sxs-lookup"><span data-stu-id="3b35c-187">**Refresh entity**</span></span> | <span data-ttu-id="3b35c-188">**Sinkronisasi awal**</span><span class="sxs-lookup"><span data-stu-id="3b35c-188">**Initial sync**</span></span> | <span data-ttu-id="3b35c-189">**Master untuk sinkronisasi awal**</span><span class="sxs-lookup"><span data-stu-id="3b35c-189">**Master for initial sync**</span></span> | <span data-ttu-id="3b35c-190">**Prasyarat menjalankan**</span><span class="sxs-lookup"><span data-stu-id="3b35c-190">**Run prerequisites**</span></span> | <span data-ttu-id="3b35c-191">**Sinkronisasi awal prasyarat**</span><span class="sxs-lookup"><span data-stu-id="3b35c-191">**Prerequisites initial sync**</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| **Peran sumber daya proyek untuk semua perusahaan (bookableresourcecategories)** | No | Ya | Common Data Service | No | N\A |
-| **Entitas hukum (cdm\_companies)** | No | Ya | Aplikasi Finance and Operations | No | N\A |
-| **Aktual Integrasi Project Operations (msdyn\_actuals)** | No | No | N\A | Ya | No |
-| **Baris kontrak proyek (salesorderdetails)** | No | No | N\A | No | No |
-| **Entitas integrasi untuk Relasi transaksi proyek (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |
-| **Baris kontrak integrasi Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | N\A | No | N\A |
-| **Entitas integrasi Project Operations untuk estimasi pengeluaran (msdyn\_estimateslines)** | No | No | N\A | No | N\A |
-| **Entitas integrasi Project Operations untuk estimasi jam (msdyn\_resourceassignments)** | No | No | N\A | No | N\A |
-| **Entitas ekspor pengeluaran proyek integrasi Project Operations (msdyn\_expenses)** | Ya | No | N\A | No | N\A |
-| **Entitas integrasi Project Operations untuk estimasi jam (msdyn\_resourceassignments)** | Ya | No | N\A | No | N\A |
+| <span data-ttu-id="3b35c-192">**Peran sumber daya proyek untuk semua perusahaan (bookableresourcecategories)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-192">**Project Resource Roles for All Companies (bookableresourcecategories)**</span></span> | <span data-ttu-id="3b35c-193">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-193">No</span></span> | <span data-ttu-id="3b35c-194">Ya</span><span class="sxs-lookup"><span data-stu-id="3b35c-194">Yes</span></span> | <span data-ttu-id="3b35c-195">Common Data Service</span><span class="sxs-lookup"><span data-stu-id="3b35c-195">Common Data Service</span></span> | <span data-ttu-id="3b35c-196">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-196">No</span></span> | <span data-ttu-id="3b35c-197">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-197">N\A</span></span> |
+| <span data-ttu-id="3b35c-198">**Entitas hukum (cdm\_companies)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-198">**Legal entities (cdm\_companies)**</span></span> | <span data-ttu-id="3b35c-199">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-199">No</span></span> | <span data-ttu-id="3b35c-200">Ya</span><span class="sxs-lookup"><span data-stu-id="3b35c-200">Yes</span></span> | <span data-ttu-id="3b35c-201">Aplikasi Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3b35c-201">Finance and Operations apps</span></span> | <span data-ttu-id="3b35c-202">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-202">No</span></span> | <span data-ttu-id="3b35c-203">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-203">N\A</span></span> |
+| <span data-ttu-id="3b35c-204">**Aktual Integrasi Project Operations (msdyn\_actuals)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-204">**Project Operations integration actuals (msdyn\_actuals)**</span></span> | <span data-ttu-id="3b35c-205">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-205">No</span></span> | <span data-ttu-id="3b35c-206">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-206">No</span></span> | <span data-ttu-id="3b35c-207">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-207">N\A</span></span> | <span data-ttu-id="3b35c-208">Ya</span><span class="sxs-lookup"><span data-stu-id="3b35c-208">Yes</span></span> | <span data-ttu-id="3b35c-209">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-209">No</span></span> |
+| <span data-ttu-id="3b35c-210">**Baris kontrak proyek (salesorderdetails)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-210">**Project contract lines (salesorderdetails)**</span></span> | <span data-ttu-id="3b35c-211">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-211">No</span></span> | <span data-ttu-id="3b35c-212">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-212">No</span></span> | <span data-ttu-id="3b35c-213">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-213">N\A</span></span> | <span data-ttu-id="3b35c-214">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-214">No</span></span> | <span data-ttu-id="3b35c-215">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-215">No</span></span> |
+| <span data-ttu-id="3b35c-216">**Entitas integrasi untuk Relasi transaksi proyek (msdyn\_transactionconnections)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-216">**Integration entity for project transaction relationships (msdyn\_transactionconnections)**</span></span> | <span data-ttu-id="3b35c-217">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-217">No</span></span> | <span data-ttu-id="3b35c-218">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-218">No</span></span> | <span data-ttu-id="3b35c-219">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-219">N\A</span></span> | <span data-ttu-id="3b35c-220">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-220">No</span></span> | <span data-ttu-id="3b35c-221">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-221">N\A</span></span> |
+| <span data-ttu-id="3b35c-222">**Baris kontrak integrasi Project Operations (msdyn\_contractlinesscheduleofvalues)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-222">**Project Operations integration contract line milestones (msdyn\_contractlinesscheduleofvalues)**</span></span> | <span data-ttu-id="3b35c-223">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-223">No</span></span> | <span data-ttu-id="3b35c-224">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-224">No</span></span> | <span data-ttu-id="3b35c-225">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-225">N\A</span></span> | <span data-ttu-id="3b35c-226">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-226">No</span></span> | <span data-ttu-id="3b35c-227">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-227">N\A</span></span> |
+| <span data-ttu-id="3b35c-228">**Entitas integrasi Project Operations untuk estimasi pengeluaran (msdyn\_estimateslines)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-228">**Project Operations integration entity for expense estimates (msdyn\_estimateslines)**</span></span> | <span data-ttu-id="3b35c-229">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-229">No</span></span> | <span data-ttu-id="3b35c-230">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-230">No</span></span> | <span data-ttu-id="3b35c-231">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-231">N\A</span></span> | <span data-ttu-id="3b35c-232">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-232">No</span></span> | <span data-ttu-id="3b35c-233">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-233">N\A</span></span> |
+| <span data-ttu-id="3b35c-234">**Entitas ekspor kategori pengeluaran proyek integrasi Project Operations (msdyn\_expensecategories)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-234">**Project Operations integration project expense categories export entity (msdyn\_expensecategories)**</span></span> | <span data-ttu-id="3b35c-235">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-235">No</span></span> | <span data-ttu-id="3b35c-236">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-236">No</span></span> | <span data-ttu-id="3b35c-237">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-237">N\A</span></span> | <span data-ttu-id="3b35c-238">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-238">No</span></span> | <span data-ttu-id="3b35c-239">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-239">N\A</span></span> |
+| <span data-ttu-id="3b35c-240">**Entitas ekspor pengeluaran proyek integrasi Project Operations (msdyn\_expenses)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-240">**Project Operations integration project expenses export entity (msdyn\_expenses)**</span></span> | <span data-ttu-id="3b35c-241">Ya</span><span class="sxs-lookup"><span data-stu-id="3b35c-241">Yes</span></span> | <span data-ttu-id="3b35c-242">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-242">No</span></span> | <span data-ttu-id="3b35c-243">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-243">N\A</span></span> | <span data-ttu-id="3b35c-244">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-244">No</span></span> | <span data-ttu-id="3b35c-245">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-245">N\A</span></span> |
+| <span data-ttu-id="3b35c-246">**Entitas integrasi Project Operations untuk estimasi jam (msdyn\_resourceassignments)**</span><span class="sxs-lookup"><span data-stu-id="3b35c-246">**Project Operations integration entity for hour estimates (msdyn\_resourceassignments)**</span></span> | <span data-ttu-id="3b35c-247">Ya</span><span class="sxs-lookup"><span data-stu-id="3b35c-247">Yes</span></span> | <span data-ttu-id="3b35c-248">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-248">No</span></span> | <span data-ttu-id="3b35c-249">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-249">N\A</span></span> | <span data-ttu-id="3b35c-250">No</span><span class="sxs-lookup"><span data-stu-id="3b35c-250">No</span></span> | <span data-ttu-id="3b35c-251">N\A</span><span class="sxs-lookup"><span data-stu-id="3b35c-251">N\A</span></span> |
 
-4. Untuk me-refresh entitas, pilih nama peta, lalu pilih **refresh entitas**. 
-5. Lanjutkan dengan menjalankan peta setelah penyegaran selesai.
+
+4. <span data-ttu-id="3b35c-252">Untuk me-refresh entitas, pilih nama peta, lalu pilih **refresh entitas**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-252">To refresh the entity, select the map name, and then select **Refresh entities**.</span></span> 
+
 
 ![Segarkan Peta](./media/20RefreshMapping.png)
 
-Sebelum Anda mengaktifkan peta berikutnya, Verifikasikan bahwa peta dalam tabel dalam status **berjalan**. Menjalankan peta dengan sejumlah besar prasyarat mungkin akan memakan waktu.
+5. <span data-ttu-id="3b35c-254">Jalankan peta setelah penyegaran selesai.</span><span class="sxs-lookup"><span data-stu-id="3b35c-254">After the refresh is complete, run the map.</span></span> <span data-ttu-id="3b35c-255">Sebelum Anda mengaktifkan peta berikutnya, Verifikasikan bahwa peta dalam tabel dalam status **berjalan**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-255">Before you enable the next map, verify that the map in the table is in a state of **Running**.</span></span> <span data-ttu-id="3b35c-256">Menjalankan peta dengan sejumlah besar prasyarat mungkin akan memakan waktu.</span><span class="sxs-lookup"><span data-stu-id="3b35c-256">Running maps with a larger number of prerequisites might take some time.</span></span>
 
-Untuk menjalankan peta dengan prasyarat, Aktifkan pengalih **Tampilkan peta entitas yang terkait**. Jika tabel menunjukkan **sinkronisasi awal prasyarat** adalah **Tidak**, Verifikasikan bahwa tanda **sinkronisasi awal** **dinonaktifkan** di semua peta prasyarat sebelum Anda menjalankannya.
+<span data-ttu-id="3b35c-257">Untuk menjalankan peta dengan prasyarat, Aktifkan pengalih **Tampilkan peta entitas yang terkait**.</span><span class="sxs-lookup"><span data-stu-id="3b35c-257">To run a map with prerequisites, enable the **Show related entity maps** toggle.</span></span> <span data-ttu-id="3b35c-258">Jika tabel menunjukkan **sinkronisasi awal prasyarat** adalah **Tidak** , Verifikasikan bahwa tanda **sinkronisasi awal** **dinonaktifkan** di semua peta prasyarat sebelum Anda menjalankannya.</span><span class="sxs-lookup"><span data-stu-id="3b35c-258">If the table indicates **Prerequisite initial sync** is **No** , verify that the **Initial sync** flag is **Off** in all the prerequisite maps before you run it.</span></span>
 
 ![Jalankan Peta](./media/21RunMap.png)
 
-6. Validasi semua peta terkait proyek berada dalam status berjalan.
+6. <span data-ttu-id="3b35c-260">Validasi semua peta terkait proyek berada dalam status berjalan.</span><span class="sxs-lookup"><span data-stu-id="3b35c-260">Validate all project related maps are in the running state.</span></span>
 
 ![Semua peta berjalan](./media/22AllMapsRunning.png)
 
-Lingkungan Project Operations Anda sekarang telah disediakan dan dikonfigurasi.
+<span data-ttu-id="3b35c-262">Lingkungan Project Operations Anda sekarang telah disediakan dan dikonfigurasi.</span><span class="sxs-lookup"><span data-stu-id="3b35c-262">Your Project Operations environment is now provisioned and configured.</span></span>

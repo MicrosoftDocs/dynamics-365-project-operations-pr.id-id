@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078369"
 ---
-# <a name="security-model"></a>Model keamanan
+# <a name="security-model"></a><span data-ttu-id="3faf9-103">Model keamanan</span><span class="sxs-lookup"><span data-stu-id="3faf9-103">Security Model</span></span>
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+<span data-ttu-id="3faf9-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="3faf9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics 365 Project Operations berisi model keamanan unik yang memungkinkan model keamanan bisnis berbasis peran yang berkolaborasi dengan grup Microsoft Office. 
+<span data-ttu-id="3faf9-105">Microsoft Dynamics 365 Project Operations berisi model keamanan unik yang memungkinkan model keamanan bisnis berbasis peran yang berkolaborasi dengan grup Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="3faf9-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>Peran keamanan
-Kemampuan Front-end Project Operations mencakup peran berikut:
+## <a name="security-roles"></a><span data-ttu-id="3faf9-106">Peran keamanan</span><span class="sxs-lookup"><span data-stu-id="3faf9-106">Security roles</span></span>
+<span data-ttu-id="3faf9-107">Kemampuan Front-end Project Operations mencakup peran berikut:</span><span class="sxs-lookup"><span data-stu-id="3faf9-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| Peran                          | KETERANGAN                                                                                                                                                                 | Scope |
+| <span data-ttu-id="3faf9-108">Peran</span><span class="sxs-lookup"><span data-stu-id="3faf9-108">Role</span></span>                          | <span data-ttu-id="3faf9-109">KETERANGAN</span><span class="sxs-lookup"><span data-stu-id="3faf9-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="3faf9-110">Scope</span><span class="sxs-lookup"><span data-stu-id="3faf9-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Manajer praktik              | Mendukung pelaporan lintas-proyek.                                                                                                            | Unit bisnis              |
-| Pemberi Persetujuan Proyek              | Menyetujui waktu dan pengeluaran proyek.                                                                                                                              | Unit bisnis |
-| Administrator penagihan proyek | Membuat proposal faktur.                                                                                                                                                 | Unit bisnis |
-| Manajer Proyek               | Membuat rencana proyek dan meminta sumber daya.                                                                                                                              | Unit bisnis |
-| Sumber Daya Proyek              | Anggota tim yang dapat dipesan dan waktu laporan.                                                                                                          | Unit bisnis|
-| Manajer Sumber Daya              | Semua fungsi manajemen sumber daya, seperti memenuhi permintaan sumber daya dan Pemesanan, dipisahkan untuk mendukung konfigurasi manajer proyek hibrida + manajer sumber daya dan peran Manajer sumber daya tunggal dan terpusat. | Unit bisnis |
+| <span data-ttu-id="3faf9-111">Manajer praktik</span><span class="sxs-lookup"><span data-stu-id="3faf9-111">Practice manager</span></span>              | <span data-ttu-id="3faf9-112">Mendukung pelaporan lintas-proyek.</span><span class="sxs-lookup"><span data-stu-id="3faf9-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="3faf9-113">Unit bisnis</span><span class="sxs-lookup"><span data-stu-id="3faf9-113">Business unit</span></span>              |
+| <span data-ttu-id="3faf9-114">Pemberi Persetujuan Proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-114">Project approver</span></span>              | <span data-ttu-id="3faf9-115">Menyetujui waktu dan pengeluaran proyek.</span><span class="sxs-lookup"><span data-stu-id="3faf9-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="3faf9-116">Unit bisnis</span><span class="sxs-lookup"><span data-stu-id="3faf9-116">Business unit</span></span> |
+| <span data-ttu-id="3faf9-117">Administrator penagihan proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-117">Project billing administrator</span></span> | <span data-ttu-id="3faf9-118">Membuat proposal faktur.</span><span class="sxs-lookup"><span data-stu-id="3faf9-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="3faf9-119">Unit bisnis</span><span class="sxs-lookup"><span data-stu-id="3faf9-119">Business unit</span></span> |
+| <span data-ttu-id="3faf9-120">Manajer Proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-120">Project manager</span></span>               | <span data-ttu-id="3faf9-121">Membuat rencana proyek dan meminta sumber daya.</span><span class="sxs-lookup"><span data-stu-id="3faf9-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="3faf9-122">Unit bisnis</span><span class="sxs-lookup"><span data-stu-id="3faf9-122">Business unit</span></span> |
+| <span data-ttu-id="3faf9-123">Sumber Daya Proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-123">Project resource</span></span>              | <span data-ttu-id="3faf9-124">Anggota tim yang dapat dipesan dan waktu laporan.</span><span class="sxs-lookup"><span data-stu-id="3faf9-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="3faf9-125">Unit bisnis</span><span class="sxs-lookup"><span data-stu-id="3faf9-125">Business unit</span></span>|
+| <span data-ttu-id="3faf9-126">Manajer Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="3faf9-126">Resource manager</span></span>              | <span data-ttu-id="3faf9-127">Semua fungsi manajemen sumber daya, seperti memenuhi permintaan sumber daya dan Pemesanan, dipisahkan untuk mendukung konfigurasi manajer proyek hibrida + manajer sumber daya dan peran Manajer sumber daya tunggal dan terpusat.</span><span class="sxs-lookup"><span data-stu-id="3faf9-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="3faf9-128">Unit bisnis</span><span class="sxs-lookup"><span data-stu-id="3faf9-128">Business unit</span></span> |
 
 
-Microsoft Project untuk web mencakup peran berikut:
-| Peran                          | KETERANGAN                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Pengguna proyek | Pengguna kolaboratif proyek yang mampu membuat proyek mereka sendiri dan melihat proyek yang dibagikan dengan mereka.| Pengguna|
-| Sistem proyek | Peran yang digunakan untuk konteks aplikasi. Pelanggan tidak boleh menggunakan peran sistem ini. | Global|
+<span data-ttu-id="3faf9-129">Microsoft Project untuk web mencakup peran berikut:</span><span class="sxs-lookup"><span data-stu-id="3faf9-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>Penegakan keamanan
-Tindakan yang dilakukan di tingkat proyek dilakukan dalam konteks pengguna yang masuk. Ini berarti bahwa untuk membuat, membuka, atau menghapus suatu proyek, pengguna diharuskan memiliki akses yang tersedia dalam CDS. Akses dalam CDS dapat diberikan melalui salah satu mekanisme yang mungkin tercakup dalam platform. Misalnya, pengguna dengan cakupan yang lebih besar dapat mengakses proyek atau jika tindakan berbagi proyek eksplisit telah dilakukan yang memberikan akses kepada pengguna.
+| <span data-ttu-id="3faf9-130">Peran</span><span class="sxs-lookup"><span data-stu-id="3faf9-130">Role</span></span>           | <span data-ttu-id="3faf9-131">KETERANGAN</span><span class="sxs-lookup"><span data-stu-id="3faf9-131">Description</span></span>                                                                                                        | <span data-ttu-id="3faf9-132">Scope</span><span class="sxs-lookup"><span data-stu-id="3faf9-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="3faf9-133">Pengguna proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-133">Project user</span></span>   | <span data-ttu-id="3faf9-134">Pengguna kolaboratif proyek yang mampu membuat proyek mereka sendiri dan melihat proyek yang dibagikan dengan mereka.</span><span class="sxs-lookup"><span data-stu-id="3faf9-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="3faf9-135">Pengguna</span><span class="sxs-lookup"><span data-stu-id="3faf9-135">User</span></span>   |
+| <span data-ttu-id="3faf9-136">Sistem proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-136">Project system</span></span> | <span data-ttu-id="3faf9-137">Peran yang digunakan untuk konteks aplikasi.</span><span class="sxs-lookup"><span data-stu-id="3faf9-137">Role used for application   context.</span></span> <span data-ttu-id="3faf9-138">Pelanggan tidak boleh menggunakan peran sistem ini.</span><span class="sxs-lookup"><span data-stu-id="3faf9-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="3faf9-139">Global</span><span class="sxs-lookup"><span data-stu-id="3faf9-139">Global</span></span> |
 
-Penting untuk mempertimbangkan hal ini saat membuat proyek di Project Operations.
+## <a name="security-enforcement"></a><span data-ttu-id="3faf9-140">Penegakan keamanan</span><span class="sxs-lookup"><span data-stu-id="3faf9-140">Security enforcement</span></span>
+<span data-ttu-id="3faf9-141">Tindakan yang dilakukan di tingkat proyek dilakukan dalam konteks pengguna yang masuk.</span><span class="sxs-lookup"><span data-stu-id="3faf9-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="3faf9-142">Ini berarti bahwa untuk membuat, membuka, atau menghapus suatu proyek, pengguna diharuskan memiliki akses yang tersedia dalam CDS.</span><span class="sxs-lookup"><span data-stu-id="3faf9-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="3faf9-143">Akses dalam CDS dapat diberikan melalui salah satu mekanisme yang mungkin tercakup dalam platform.</span><span class="sxs-lookup"><span data-stu-id="3faf9-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="3faf9-144">Misalnya, pengguna dengan cakupan yang lebih besar dapat mengakses proyek atau jika tindakan berbagi proyek eksplisit telah dilakukan yang memberikan akses kepada pengguna.</span><span class="sxs-lookup"><span data-stu-id="3faf9-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>Kolaborasi grup modern dengan Project Operations
-Proyek untuk web dan Project Operations mendukung grup modern untuk kolaborasi. Pengguna yang ditambahkan ke proyek melalui Grup dapat mengedit rencana proyek.
+<span data-ttu-id="3faf9-145">Penting untuk mempertimbangkan hal ini saat membuat proyek di Project Operations.</span><span class="sxs-lookup"><span data-stu-id="3faf9-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Proyek untuk web menambahkan pengguna ke grup secara otomatis setelah penetapan.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="3faf9-146">Kolaborasi grup modern dengan Project Operations</span><span class="sxs-lookup"><span data-stu-id="3faf9-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="3faf9-147">Proyek untuk web dan Project Operations mendukung grup modern untuk kolaborasi.</span><span class="sxs-lookup"><span data-stu-id="3faf9-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="3faf9-148">Pengguna yang ditambahkan ke proyek melalui Grup dapat mengedit rencana proyek.</span><span class="sxs-lookup"><span data-stu-id="3faf9-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-Grup memungkinkan izin proyek dan mendukung artefak kolaborasi agar dapat dikerjakan secara kolaboratif. Diagram berikut menggambarkan peristiwa dan perubahan status yang terjadi selama proses penetapan grup.
+<span data-ttu-id="3faf9-149">Proyek untuk web menambahkan pengguna ke grup secara otomatis setelah penetapan.</span><span class="sxs-lookup"><span data-stu-id="3faf9-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Project Operations tidak membuat grup melalui tindakan implisit dan hanya melakukannya melalui tindakan eksplisit grup penekan.
+<span data-ttu-id="3faf9-150">Grup memungkinkan izin proyek dan mendukung artefak kolaborasi agar dapat dikerjakan secara kolaboratif.</span><span class="sxs-lookup"><span data-stu-id="3faf9-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="3faf9-151">Diagram berikut menggambarkan peristiwa dan perubahan status yang terjadi selama proses penetapan grup.</span><span class="sxs-lookup"><span data-stu-id="3faf9-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-Pencarian anggota grup di dialog **manajemen grup**, terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan. Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](https://docs.microsoft.com/power-platform/admin/control-user-access).
+<span data-ttu-id="3faf9-152">Project Operations tidak membuat grup melalui tindakan implisit dan hanya melakukannya melalui tindakan eksplisit grup penekan.</span><span class="sxs-lookup"><span data-stu-id="3faf9-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. Proyek dibuat dan dimiliki oleh pengguna yang membuat.
-2. Pemilik proyek diperbarui ke tim.
-3. Tim pemilik dipetakan ke grup Office yang ditentukan atau dibuat.
-4. Pemilik asli proyek ditambahkan ke Office Group.
+<span data-ttu-id="3faf9-153">Pencarian anggota grup di dialog **manajemen grup** , terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan.</span><span class="sxs-lookup"><span data-stu-id="3faf9-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="3faf9-154">Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](https://docs.microsoft.com/power-platform/admin/control-user-access).</span><span class="sxs-lookup"><span data-stu-id="3faf9-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>Rekomendasi penyebaran
-Seiring model kolaborasi Office Group berkembang, fungsi akan ditambahkan untuk memberikan kontrol yang lebih rinci dari waktu ke waktu. Pelanggan yang menyebarkan Project Operations saat ini didorong untuk fokus pada model keamanan Microsoft Dynamics 365 tradisional.
+![Mode grup](./media/groupsmode.png)
 
-Untuk informasi lebih lanjut, lihat [keamanan di Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="3faf9-156">Proyek dibuat dan dimiliki oleh pengguna yang membuat.</span><span class="sxs-lookup"><span data-stu-id="3faf9-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="3faf9-157">Pemilik proyek diperbarui ke tim.</span><span class="sxs-lookup"><span data-stu-id="3faf9-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="3faf9-158">Tim pemilik dipetakan ke grup Office yang ditentukan atau dibuat.</span><span class="sxs-lookup"><span data-stu-id="3faf9-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="3faf9-159">Pemilik asli proyek ditambahkan ke Office Group.</span><span class="sxs-lookup"><span data-stu-id="3faf9-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Keamanan Microsoft Dynamics 365 Finance dan Project Operations
-Operasi proyek mencakup peran berikut:
+## <a name="deployment-recommendation"></a><span data-ttu-id="3faf9-160">Rekomendasi penyebaran</span><span class="sxs-lookup"><span data-stu-id="3faf9-160">Deployment recommendation</span></span>
+<span data-ttu-id="3faf9-161">Seiring model kolaborasi Office Group berkembang, fungsi akan ditambahkan untuk memberikan kontrol yang lebih rinci dari waktu ke waktu.</span><span class="sxs-lookup"><span data-stu-id="3faf9-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="3faf9-162">Pelanggan yang menyebarkan Project Operations saat ini didorong untuk fokus pada model keamanan Microsoft Dynamics 365 tradisional.</span><span class="sxs-lookup"><span data-stu-id="3faf9-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- Manajer Proyek
-- Akuntan proyek
+<span data-ttu-id="3faf9-163">Untuk informasi lebih lanjut, lihat [keamanan di Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span><span class="sxs-lookup"><span data-stu-id="3faf9-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-Untuk informasi lebih lanjut tentang peran keamanan di Finance, lihat [keamanan berbasis peran](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="3faf9-164">Keamanan Microsoft Dynamics 365 Finance dan Project Operations</span><span class="sxs-lookup"><span data-stu-id="3faf9-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="3faf9-165">Operasi proyek mencakup peran berikut:</span><span class="sxs-lookup"><span data-stu-id="3faf9-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="3faf9-166">Manajer Proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-166">Project manager</span></span>
+- <span data-ttu-id="3faf9-167">Akuntan proyek</span><span class="sxs-lookup"><span data-stu-id="3faf9-167">Project accountant</span></span>
+
+<span data-ttu-id="3faf9-168">Untuk informasi lebih lanjut tentang peran keamanan di Finance, lihat [keamanan berbasis peran](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="3faf9-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 

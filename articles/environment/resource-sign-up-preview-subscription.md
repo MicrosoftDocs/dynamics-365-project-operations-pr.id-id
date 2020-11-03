@@ -3,91 +3,96 @@ title: Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber
 description: Topik ini memberikan informasi tentang cara berlangganan dan menyebarkan Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078370"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a><span data-ttu-id="7ae62-103">Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok</span><span class="sxs-lookup"><span data-stu-id="7ae62-103">Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios</span></span>
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
+<span data-ttu-id="7ae62-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_</span><span class="sxs-lookup"><span data-stu-id="7ae62-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Topik ini menjelaskan tentang cara berlangganan pratinjau/penawaran mitra dan menyebarkan lingkungan Project Operations untuk sumber daya/non-stok berbasis skenario.
+<span data-ttu-id="7ae62-105">Topik ini menjelaskan tentang cara berlangganan pratinjau/penawaran mitra dan menyebarkan lingkungan Project Operations untuk sumber daya/non-stok berbasis skenario.</span><span class="sxs-lookup"><span data-stu-id="7ae62-105">This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.</span></span>
 
-## <a name="prerequisites"></a>Prasyarat
+## <a name="prerequisites"></a><span data-ttu-id="7ae62-106">Prasyarat</span><span class="sxs-lookup"><span data-stu-id="7ae62-106">Prerequisites</span></span>
 
-- Anda akan menerima email yang mengundang Anda untuk berpartisipasi dalam pratinjau. Anda dapat meminta pratinjau di [situs web Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Pengguna yang menerapkan pratinjau harus memiliki hak administrator global Penyewa Azure.
-- Menyebarkan lingkungan Finance memerlukan langganan Azure valid yang akan ditagih per lingkungan. Anda dapat menggunakan langganan yang ada saat ini atau menggunakan [uji coba Azure](https://azure.microsoft.com/en-us/free/) untuk memulai. Lingkungan CDS akan disediakan gratis selama periode 30 hari terbatas.
+- <span data-ttu-id="7ae62-107">Anda akan menerima email yang mengundang Anda untuk berpartisipasi dalam pratinjau.</span><span class="sxs-lookup"><span data-stu-id="7ae62-107">You will receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="7ae62-108">Anda dapat meminta pratinjau di [situs web Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="7ae62-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="7ae62-109">Pengguna yang menerapkan pratinjau harus memiliki hak administrator global Penyewa Azure.</span><span class="sxs-lookup"><span data-stu-id="7ae62-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="7ae62-110">Menyebarkan lingkungan Finance memerlukan langganan Azure valid yang akan ditagih per lingkungan.</span><span class="sxs-lookup"><span data-stu-id="7ae62-110">Deploying a Finance environment requires a valid Azure subscription that will be billed per environment.</span></span> <span data-ttu-id="7ae62-111">Anda dapat menggunakan langganan yang ada saat ini atau menggunakan [uji coba Azure](https://azure.microsoft.com/en-us/free/) untuk memulai.</span><span class="sxs-lookup"><span data-stu-id="7ae62-111">You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/en-us/free/) to get started.</span></span> <span data-ttu-id="7ae62-112">Lingkungan CDS akan disediakan gratis selama periode 30 hari terbatas.</span><span class="sxs-lookup"><span data-stu-id="7ae62-112">The CDS environment will be provided free for a limited 30 day period.</span></span>
 
-## <a name="subscribe"></a>Berlangganan
+## <a name="subscribe"></a><span data-ttu-id="7ae62-113">Berlangganan</span><span class="sxs-lookup"><span data-stu-id="7ae62-113">Subscribe</span></span>
 
-Bila Anda menyetujui [permintaan pratinjau](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), Anda akan menerima dua tawaran dari Microsoft melalui email. Penawaran ini memungkinkan Anda menyebarkan pratinjau Project Operations:
+<span data-ttu-id="7ae62-114">Bila Anda menyetujui [permintaan pratinjau](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), Anda akan menerima tiga tawaran dari Microsoft melalui email.</span><span class="sxs-lookup"><span data-stu-id="7ae62-114">When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive three offers from Microsoft by email.</span></span> <span data-ttu-id="7ae62-115">Penawaran ini memungkinkan Anda menyebarkan pratinjau Project Operations:</span><span class="sxs-lookup"><span data-stu-id="7ae62-115">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-- Dynamics 365 Project Operations – uji coba pratinjau
-- Uji coba pratinjau Dynamics 365 for Finance and Operations.
-
-> [!IMPORTANT]
-> Hanya satu orang, administrator penyewa, dalam organisasi harus melakukan tugas ini. Jika Anda bukan pelanggan untuk rilis ini, tunggu hingga organisasi Anda telah terdaftar dan Anda telah menerima kredensial pengguna Anda.
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – uji coba pratinjau
-
-1. Tukarkan tawaran pertama, **uji coba Dynamics 365 Project Operations** dengan URL yang diberikan dalam email Selamat datang Anda.
-
-![Penawaran pertama](./media/1FirstOffer.png)
-
-2. Verifikasikan bahwa Anda masuk sebagai pengguna yang termasuk dalam organisasi yang akan berlangganan layanan.
-3. Lanjutkan dengan menukarkan Penawaran. 
-4. Pilih **ya, tambahkan ke akun saya**.
-
-![Tukarkan penawaran](./media/2RedeemFirstOffer.png)
-
-![Konfirmasi Penawaran](./media/3ConfirmFirstOffer.png)
-
-![Penawaran Ditukarkan](./media/4OfferSuccessfulyRedeemed.png)
-
-### <a name="dynamics-365-finance-preview-trial"></a>Uji coba pratinjau Dynamics 365 Finance
-
-Ulangi langkah yang sama dengan tawaran kedua dari email sambutan.
-
-## <a name="assign-licenses"></a>Menetapkan lisensi
+- <span data-ttu-id="7ae62-116">Dynamics 365 Project Operations (CRM) - Uji coba Pratinjau</span><span class="sxs-lookup"><span data-stu-id="7ae62-116">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="7ae62-117">Office 365 Project Operations - Uji coba Pratinjau</span><span class="sxs-lookup"><span data-stu-id="7ae62-117">Office 365 Project Operations - Preview Trial</span></span>
+- <span data-ttu-id="7ae62-118">Dynamics 365 Finance -Uji coba pratinjau</span><span class="sxs-lookup"><span data-stu-id="7ae62-118">Dynamics 365 Finance - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> Anda akan memerlukan akses administratif ke Portal Office 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
+> <span data-ttu-id="7ae62-119">Hanya satu orang, administrator penyewa, dalam organisasi harus melakukan tugas ini.</span><span class="sxs-lookup"><span data-stu-id="7ae62-119">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="7ae62-120">Jika Anda bukan pelanggan untuk rilis ini, tunggu hingga organisasi Anda telah terdaftar dan Anda telah menerima kredensial pengguna Anda.</span><span class="sxs-lookup"><span data-stu-id="7ae62-120">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="7ae62-121">Dynamics 365 Project Operations (CRM) - Uji coba Pratinjau</span><span class="sxs-lookup"><span data-stu-id="7ae62-121">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
 
-![Portal admin Office](./media/5OfficeAdminPortal.png)
+<span data-ttu-id="7ae62-122">Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di penyewa tempat Anda menginginkan pratinjau Project Operations.</span><span class="sxs-lookup"><span data-stu-id="7ae62-122">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
+1. <span data-ttu-id="7ae62-123">Tukarkan kode penawaran pertama, **Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau** dengan menempelkannya ke URL browser.</span><span class="sxs-lookup"><span data-stu-id="7ae62-123">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
 
-![Menetapkan lisensi](./media/6AssignLicenses.png)
+![Tukarkan penawaran](./media/16RedeemFirstOfferNew.png)
 
-3. Periksa apakah lisensi Project Operations telah dipilih dan pilih **Simpan perubahan**. 
+2. <span data-ttu-id="7ae62-125">Konfirmasikan pesanan.</span><span class="sxs-lookup"><span data-stu-id="7ae62-125">Confirm your order.</span></span>
+
+![Konfirmasi pesanan](./media/17ConfirmOrderNew.png)
+
+<span data-ttu-id="7ae62-127">Anda akan melihat penawaran konfirmasi berhasil ditukarkan.</span><span class="sxs-lookup"><span data-stu-id="7ae62-127">You will see confirmation offer was successfully redeemed.</span></span>
+
+![Konfirmasi](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="7ae62-129">Office 365 Project Operations - Uji coba Pratinjau</span><span class="sxs-lookup"><span data-stu-id="7ae62-129">Office 365 Project Operations - Preview Trial</span></span>
+
+<span data-ttu-id="7ae62-130">Ulangi langkah yang sama seperti dengan kode penawaran pertama.</span><span class="sxs-lookup"><span data-stu-id="7ae62-130">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="7ae62-131">Pastikan untuk menambahkan kode penawaran kedua menggunakan akun pengguna yang sama yang digunakan dengan kode penawaran pertama.</span><span class="sxs-lookup"><span data-stu-id="7ae62-131">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+
+### <a name="dynamics-365-finance-preview-trial"></a><span data-ttu-id="7ae62-132">Uji coba pratinjau Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="7ae62-132">Dynamics 365 Finance preview trial</span></span>
+
+<span data-ttu-id="7ae62-133">Ulangi langkah yang sama dengan tawaran terakhir dari email sambutan.</span><span class="sxs-lookup"><span data-stu-id="7ae62-133">Repeat the same steps with the last offer from the Welcome email.</span></span>
+
+## <a name="assign-licenses"></a><span data-ttu-id="7ae62-134">Menetapkan lisensi</span><span class="sxs-lookup"><span data-stu-id="7ae62-134">Assign licenses</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="7ae62-135">Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.</span><span class="sxs-lookup"><span data-stu-id="7ae62-135">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+
+1. <span data-ttu-id="7ae62-136">Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.</span><span class="sxs-lookup"><span data-stu-id="7ae62-136">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+
+![Halaman Beranda pusat Admin](./media/14AdminPortal.png)
+
+2. <span data-ttu-id="7ae62-138">Pada halaman **pengguna aktif** , pilih pengguna yang akan ditetapkan lisensinya.</span><span class="sxs-lookup"><span data-stu-id="7ae62-138">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+
+![Menetapkan lisensi](./media/15AssignLicenses.png)
+
+3. <span data-ttu-id="7ae62-140">Verifikasi bahwa Lisensi **Pratinjau Dynamics 365 Project Operations (CRM)** dan **Office 365 Project Operations - pratinjau** dipilih dan pilih **Simpan perubahan**.</span><span class="sxs-lookup"><span data-stu-id="7ae62-140">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.</span></span>
 
 > [!NOTE]
-> Penawaran uji coba Finance tidak perlu ditetapkan ke pengguna.
+> <span data-ttu-id="7ae62-141">Penawaran uji coba Finance tidak perlu ditetapkan ke pengguna.</span><span class="sxs-lookup"><span data-stu-id="7ae62-141">The Finance trial offer does not need to be assigned to a user.</span></span>
 
-## <a name="start-a-new-project-in-lcs"></a>Memulai proyek baru di LCS
+## <a name="start-a-new-project-in-lcs"></a><span data-ttu-id="7ae62-142">Memulai proyek baru di LCS</span><span class="sxs-lookup"><span data-stu-id="7ae62-142">Start a new project in LCS</span></span>
 
-Membuat proyek lcs baru seperti yang dijelaskan di topik, [memulai proyek baru di LCS](create-lcs-project.md)
+<span data-ttu-id="7ae62-143">Membuat proyek lcs baru seperti yang dijelaskan di topik, [memulai proyek baru di LCS](create-lcs-project.md)</span><span class="sxs-lookup"><span data-stu-id="7ae62-143">Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)</span></span>
 
-## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
+## <a name="add-an-azure-subscription-to-an-lcs-project"></a><span data-ttu-id="7ae62-144">Menambahkan langganan Azure ke proyek LCS</span><span class="sxs-lookup"><span data-stu-id="7ae62-144">Add an Azure subscription to an LCS project</span></span>
 
-Untuk menyelesaikan tugas ini, ikuti langkah-langkah di topik, [tambahkan langganan Azure ke proyek LCS](resource-add-azure-subscription-lcs-project.md).
+<span data-ttu-id="7ae62-145">Untuk menyelesaikan tugas ini, ikuti langkah-langkah di topik, [tambahkan langganan Azure ke proyek LCS](resource-add-azure-subscription-lcs-project.md).</span><span class="sxs-lookup"><span data-stu-id="7ae62-145">To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).</span></span>
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Terapkan lingkungan demo Finance dengan Project Operations untuk skenario sumber daya/non-stok
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a><span data-ttu-id="7ae62-146">Terapkan lingkungan demo Finance dengan Project Operations untuk skenario sumber daya/non-stok</span><span class="sxs-lookup"><span data-stu-id="7ae62-146">Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios</span></span>
 
-Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau.
+<span data-ttu-id="7ae62-147">Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran.</span><span class="sxs-lookup"><span data-stu-id="7ae62-147">Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment.</span></span> <span data-ttu-id="7ae62-148">Gunakan jenis penyebaran [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau.</span><span class="sxs-lookup"><span data-stu-id="7ae62-148">Use the [demo environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.</span></span> 
 
-## <a name="install-cds-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi CDS
+## <a name="install-cds-setup-and-configuration-data"></a><span data-ttu-id="7ae62-149">Menginstal data pengaturan dan konfigurasi CDS</span><span class="sxs-lookup"><span data-stu-id="7ae62-149">Install CDS setup and configuration data</span></span>
 
-Instal data pengaturan dan konfigurasi CDS sebagaimana dijelaskan dalam topik, [atur dan terapkan data konfigurasi di Common Data Service](resource-apply-pro-setup-config-data.md).
-
+<span data-ttu-id="7ae62-150">Instal data pengaturan dan konfigurasi CDS sebagaimana dijelaskan dalam topik, [atur dan terapkan data konfigurasi di Common Data Service](resource-apply-pro-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="7ae62-150">Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).</span></span>
+<span data-ttu-id="7ae62-151">Selesaikan langkah ini hanya setelah lingkungan demo Finance disebarkan dan data demo di FO siap.</span><span class="sxs-lookup"><span data-stu-id="7ae62-151">Complete this step only after Finance demo environment is deployed and demo data in FO is ready.</span></span>

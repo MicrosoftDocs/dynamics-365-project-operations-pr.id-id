@@ -9,79 +9,79 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078419"
 ---
-# <a name="time-entry-ui-behavior"></a>Perilaku UI entri waktu
+# <a name="time-entry-ui-behavior"></a><span data-ttu-id="b6a32-103">Perilaku UI entri waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-103">Time entry UI behavior</span></span>
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+<span data-ttu-id="b6a32-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="b6a32-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-Kisi **entri waktu mingguan** baru adalah kontrol kustom yang memiliki dua bagian utama, **dimensi**, dan **durasi**.
+<span data-ttu-id="b6a32-105">Kisi **entri waktu mingguan** baru adalah kontrol kustom yang memiliki dua bagian utama, **dimensi** , dan **durasi**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-105">The **Weekly time entry** grid is a custom control that has two main sections, **Dimensions** and **Duration**.</span></span>
 
-## <a name="dimensions"></a>Dimensi
-Bagian **dimensi** menunjukkan dimensi yang waktunya dapat dimasukkan. Dimensi berikut didukung secara default:
+## <a name="dimensions"></a><span data-ttu-id="b6a32-106">Dimensi</span><span class="sxs-lookup"><span data-stu-id="b6a32-106">Dimensions</span></span>
+<span data-ttu-id="b6a32-107">Bagian **dimensi** menunjukkan dimensi yang waktunya dapat dimasukkan.</span><span class="sxs-lookup"><span data-stu-id="b6a32-107">The **Dimensions** section shows the dimensions that time can be entered against.</span></span> <span data-ttu-id="b6a32-108">Dimensi berikut didukung secara default:</span><span class="sxs-lookup"><span data-stu-id="b6a32-108">The following dimensions are supported out-of-the-box:</span></span>
 
-  - Project
-  - Tugas Proyek
-  - Peran
-  - Tipe
-  - Status Entri
+  - <span data-ttu-id="b6a32-109">Project</span><span class="sxs-lookup"><span data-stu-id="b6a32-109">Project</span></span>
+  - <span data-ttu-id="b6a32-110">Tugas Proyek</span><span class="sxs-lookup"><span data-stu-id="b6a32-110">Project Task</span></span>
+  - <span data-ttu-id="b6a32-111">Peran</span><span class="sxs-lookup"><span data-stu-id="b6a32-111">Role</span></span>
+  - <span data-ttu-id="b6a32-112">Tipe</span><span class="sxs-lookup"><span data-stu-id="b6a32-112">Type</span></span>
+  - <span data-ttu-id="b6a32-113">Status Entri</span><span class="sxs-lookup"><span data-stu-id="b6a32-113">Entry Status</span></span>
 
-Bagian **dimensi** tidak memungkinkan pengeditan sebaris. Bagian ini didukung oleh tampilan yang memungkinkan bidang kustom ditambahkan ke kisi entri waktu mingguan.
+<span data-ttu-id="b6a32-114">Bagian **dimensi** tidak memungkinkan pengeditan sebaris.</span><span class="sxs-lookup"><span data-stu-id="b6a32-114">The **Dimensions** section doesn't allow inline editing.</span></span> <span data-ttu-id="b6a32-115">Bagian ini didukung oleh tampilan yang memungkinkan bidang kustom ditambahkan ke kisi entri waktu mingguan.</span><span class="sxs-lookup"><span data-stu-id="b6a32-115">This section is backed by a view that enables custom fields to be added to the weekly time entry grid.</span></span>
 
-## <a name="duration"></a>Durasi
-Bagian durasi menampilkan hari dalam seminggu sebagai header kolom. Bagian ini memungkinkan pengeditan sebaris. Setelah baris entri waktu dibuat dengan dimensi yang sesuai, pengguna dapat dengan cepat memasukkan jumlah waktu yang dihabiskan pada dimensi tersebut.
+## <a name="duration"></a><span data-ttu-id="b6a32-116">Durasi</span><span class="sxs-lookup"><span data-stu-id="b6a32-116">Duration</span></span>
+<span data-ttu-id="b6a32-117">Bagian durasi menampilkan hari dalam seminggu sebagai header kolom.</span><span class="sxs-lookup"><span data-stu-id="b6a32-117">The Duration section shows the days of the week as column headers.</span></span> <span data-ttu-id="b6a32-118">Bagian ini memungkinkan pengeditan sebaris.</span><span class="sxs-lookup"><span data-stu-id="b6a32-118">This section allows inline editing.</span></span> <span data-ttu-id="b6a32-119">Setelah baris entri waktu dibuat dengan dimensi yang sesuai, pengguna dapat dengan cepat memasukkan jumlah waktu yang dihabiskan pada dimensi tersebut.</span><span class="sxs-lookup"><span data-stu-id="b6a32-119">After a time entry row is created with the appropriate dimensions, users can quickly enter the amount of time that they spent on those dimensions.</span></span>
 
-## <a name="create-a-new-time-entry"></a>Buat entri waktu baru
+## <a name="create-a-new-time-entry"></a><span data-ttu-id="b6a32-120">Buat entri waktu baru</span><span class="sxs-lookup"><span data-stu-id="b6a32-120">Create a new time entry</span></span>
 
-1. Dalam kisi entri waktu, pilih **Baru**. 
-2. Di kotak dialog **buat cepat entri waktu**, pilih tanggal entri waktu.
-3. Masukkan data untuk dimensi **proyek**, **tugas proyek**, **peran**, dan **durasi**. Informasi ini harus ditambahkan dalam menit, jam, atau hari dengan mengetik **h**, **m**, atau **d**, bersama-sama dengan nomornya. 
-4. Masukkan deskripsi untuk entri dan komentar yang dapat dibagikan secara eksternal terkait entri waktu. 
+1. <span data-ttu-id="b6a32-121">Dalam kisi entri waktu, pilih **Baru**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-121">In the time entry grid, select **New**.</span></span> 
+2. <span data-ttu-id="b6a32-122">Di kotak dialog **buat cepat entri waktu** , pilih tanggal entri waktu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-122">In the **Time Entry Quick Create** dialog box, select the time entry date.</span></span>
+3. <span data-ttu-id="b6a32-123">Masukkan data untuk dimensi **proyek** , **tugas proyek** , **peran** , dan **durasi**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-123">Enter data for the **Project** , **Project Task** , **Role** , and **Duration** dimensions.</span></span> <span data-ttu-id="b6a32-124">Informasi ini harus ditambahkan dalam menit, jam, atau hari dengan mengetik **h** , **m** , atau **d** , bersama-sama dengan nomornya.</span><span class="sxs-lookup"><span data-stu-id="b6a32-124">This information should be added in minutes, hours, or days by typing **h** , **m** , or **d** , together with the number.</span></span> 
+4. <span data-ttu-id="b6a32-125">Masukkan deskripsi untuk entri dan komentar yang dapat dibagikan secara eksternal terkait entri waktu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-125">Enter a description for the entry and any comments that can be shared externally regarding time entry.</span></span> 
 
-Bila Anda menyimpan entri, nilai yang dimasukkan akan muncul di Bagian **dimensi**. Informasi yang dimasukkan di bidang **durasi** akan muncul pada tanggal saat entri waktu dibuat.
+<span data-ttu-id="b6a32-126">Bila Anda menyimpan entri, nilai yang dimasukkan akan muncul di Bagian **dimensi**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-126">When you save the entry, the entered values appear in the **Dimensions** section.</span></span> <span data-ttu-id="b6a32-127">Informasi yang dimasukkan di bidang **durasi** akan muncul pada tanggal saat entri waktu dibuat.</span><span class="sxs-lookup"><span data-stu-id="b6a32-127">The information entered in the **Duration** field appears on the date that the time entry was created for.</span></span>
 
-Bidang pencarian didukung oleh tampilan sistem. Misalnya, setelah pengguna memasukkan proyek , bidang **tugas proyek** diatur ke tampilan **salinan** secara default. Untuk membuat entri waktu untuk tugas yang tidak ditetapkan ke pengguna, pilih **Ubah tampilan** di kotak dialog pencarian, lalu pilih tampilan **semua tugas proyek aktif**.
+<span data-ttu-id="b6a32-128">Bidang pencarian didukung oleh tampilan sistem.</span><span class="sxs-lookup"><span data-stu-id="b6a32-128">Lookup fields are backed by system views.</span></span> <span data-ttu-id="b6a32-129">Misalnya, setelah pengguna memasukkan proyek , bidang **tugas proyek** diatur ke tampilan **salinan** secara default.</span><span class="sxs-lookup"><span data-stu-id="b6a32-129">For example, after a user enters a project, the **Project Task** field is set to the **Copy** view by default.</span></span> <span data-ttu-id="b6a32-130">Untuk membuat entri waktu untuk tugas yang tidak ditetapkan ke pengguna, pilih **Ubah tampilan** di kotak dialog pencarian, lalu pilih tampilan **semua tugas proyek aktif**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-130">To create time entries for tasks that aren't assigned to a user, select **Change View** in the lookup dialog box, and then select the **All Active Project Tasks** view.</span></span>
 
-## <a name="edit-a-time-entry"></a>Editan Entri Waktu 
-Rincian dari beberapa bidang pada halaman entri waktu, seperti **Deskripsi** dan **komentar eksternal**, tidak ditampilkan di kisi entri waktu mingguan. Sebaliknya, indikator segitiga kecil muncul di sel **durasi** yang memiliki rincian tambahan ini. 
+## <a name="edit-a-time-entry"></a><span data-ttu-id="b6a32-131">Editan Entri Waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-131">Edit a time entry</span></span> 
+<span data-ttu-id="b6a32-132">Rincian dari beberapa bidang pada halaman entri waktu, seperti **Deskripsi** dan **komentar eksternal** , tidak ditampilkan di kisi entri waktu mingguan.</span><span class="sxs-lookup"><span data-stu-id="b6a32-132">Details from some fields on the time entry page, such as **Description** and **External Comments** , aren't shown in the weekly time entry grid.</span></span> <span data-ttu-id="b6a32-133">Sebaliknya, indikator segitiga kecil muncul di sel **durasi** yang memiliki rincian tambahan ini.</span><span class="sxs-lookup"><span data-stu-id="b6a32-133">Instead, a small triangular indicator appears in the **Duration** cells that have these additional details.</span></span> 
 
-1. Untuk mengedit entri waktu, pilih sel yang akan diperbarui di entri waktu.
-2. Pilih **Edit rincian** untuk memperbarui data dalam panel **formulir utama entri waktu**. 
+1. <span data-ttu-id="b6a32-134">Untuk mengedit entri waktu, pilih sel yang akan diperbarui di entri waktu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-134">To edit a time entry, select the cell you want to update in the time entry.</span></span>
+2. <span data-ttu-id="b6a32-135">Pilih **Edit rincian** untuk memperbarui data dalam panel **formulir utama entri waktu**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-135">Select **Edit Details** to update the data in the **Time Entry Mainform** pane.</span></span> 
 
-## <a name="copy-a-time-entry-row"></a>Salin baris Entri Waktu
-Setelah baris dibuat, Anda dapat memilih **Salin baris** untuk menyalin seluruh baris ke baris baru. Bila baris disalin dengan cara ini, dimensi dan durasi juga disalin. Anda juga dapat memilih **Edit baris** untuk memperbarui nilai dimensi dan durasi di bagian **durasi**.
+## <a name="copy-a-time-entry-row"></a><span data-ttu-id="b6a32-136">Salin baris Entri Waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-136">Copy a time entry row</span></span>
+<span data-ttu-id="b6a32-137">Setelah baris dibuat, Anda dapat memilih **Salin baris** untuk menyalin seluruh baris ke baris baru.</span><span class="sxs-lookup"><span data-stu-id="b6a32-137">After the row has been created, you can select **Copy Row** to copy the whole row to a new row.</span></span> <span data-ttu-id="b6a32-138">Bila baris disalin dengan cara ini, dimensi dan durasi juga disalin.</span><span class="sxs-lookup"><span data-stu-id="b6a32-138">When a row is copied in this way, dimensions and durations are also copied.</span></span> <span data-ttu-id="b6a32-139">Anda juga dapat memilih **Edit baris** untuk memperbarui nilai dimensi dan durasi di bagian **durasi**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-139">You can also select **Edit Row** to update dimension values and durations in the **Duration** section.</span></span>
 
-## <a name="open-a-time-entry-behavior"></a>Buka perilaku Entri Waktu
-Untuk mendukung entri yang optimal dan cepat di bidang yang paling menonjol, kisi waktu mingguan menampilkan subkumpulan dimensi dan durasi waktu tertentu. Untuk melihat semua rincian entri satu kali, dalam **Edit entri**, pilih **buka**.
+## <a name="open-a-time-entry-behavior"></a><span data-ttu-id="b6a32-140">Buka perilaku Entri Waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-140">Open a time entry behavior</span></span>
+<span data-ttu-id="b6a32-141">Untuk mendukung entri yang optimal dan cepat di bidang yang paling menonjol, kisi waktu mingguan menampilkan subkumpulan dimensi dan durasi waktu tertentu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-141">To support optimal and quick entry in the most prominent fields, the weekly time entry grid shows a subset of selected dimensions and time durations.</span></span> <span data-ttu-id="b6a32-142">Untuk melihat semua rincian entri satu kali, dalam **Edit entri** , pilih **buka**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-142">To view all the details of a single time entry, under **Edit Entry** , select **Open**.</span></span>
 
-## <a name="submit-a-time-entry"></a>Ajukan entri waktu
-Anda dapat mengirimkan entri satu kali atau grup entri waktu dengan memilih blok sel atau baris entri seluruh waktu, lalu memilih **Ajukan**. Entri waktu yang dikirim akan muncul sebagai entri yang menunggu persetujuan pada halaman **persetujuan** pemberi persetujuan. Setelah entri waktu berhasil diajukan, mereka tidak dapat diedit.
+## <a name="submit-a-time-entry"></a><span data-ttu-id="b6a32-143">Ajukan entri waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-143">Submit a time entry</span></span>
+<span data-ttu-id="b6a32-144">Anda dapat mengirimkan entri satu kali atau grup entri waktu dengan memilih blok sel atau baris entri seluruh waktu, lalu memilih **Ajukan**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-144">You can submit a single time entry or a group of time entries by selecting a block of cells or a whole time entry row, and then selecting **Submit**.</span></span> <span data-ttu-id="b6a32-145">Entri waktu yang dikirim akan muncul sebagai entri yang menunggu persetujuan pada halaman **persetujuan** pemberi persetujuan.</span><span class="sxs-lookup"><span data-stu-id="b6a32-145">Submitted time entries appear as entries that are pending approval on the approvers' **Approval** page.</span></span> <span data-ttu-id="b6a32-146">Setelah entri waktu berhasil diajukan, mereka tidak dapat diedit.</span><span class="sxs-lookup"><span data-stu-id="b6a32-146">After time entries are successfully submitted, they can't be edited.</span></span>
 
-## <a name="recall-a-time-entry"></a>Tarik kembali entri waktu
-Anda dapat menarik kembali entri waktu yang telah Anda ajukan. Anda dapat menanyakan entri satu kali, blok entri waktu, atau seluruh baris entri waktu. Entri waktu yang ditarik dapat diedit.
+## <a name="recall-a-time-entry"></a><span data-ttu-id="b6a32-147">Tarik kembali entri waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-147">Recall a time entry</span></span>
+<span data-ttu-id="b6a32-148">Anda dapat menarik kembali entri waktu yang telah Anda ajukan.</span><span class="sxs-lookup"><span data-stu-id="b6a32-148">You can recall time entries that you've submitted.</span></span> <span data-ttu-id="b6a32-149">Anda dapat menanyakan entri satu kali, blok entri waktu, atau seluruh baris entri waktu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-149">You can recall a single time entry, a block of time entries, or a whole row of time entries.</span></span> <span data-ttu-id="b6a32-150">Entri waktu yang ditarik dapat diedit.</span><span class="sxs-lookup"><span data-stu-id="b6a32-150">Recalled time entries can be edited.</span></span>
 
-## <a name="time-entry-status"></a>Status Entri Waktu
+## <a name="time-entry-status"></a><span data-ttu-id="b6a32-151">Status Entri Waktu</span><span class="sxs-lookup"><span data-stu-id="b6a32-151">Time entry status</span></span>
 
-- **Draf**: Entri waktu baru secara otomatis ditetapkan status **draf**. Hanya entri waktu yang memiliki status **draf** yang dapat dihapus.
-- **Diajukan**: Bila entri waktu diajukan, status akan diperbarui ke **Diajukan**. 
-- **Disetujui**: Bila entri waktu yang diajukan disetujui, status diperbarui ke **Disetujui**. 
-- **Dikembalikan**: Jika entri waktu ditolak, status akan diperbarui ke **dikembalikan**, dan entri dapat dikoreksi dan diajukan kembali. 
+- <span data-ttu-id="b6a32-152">**Draf** : Entri waktu baru secara otomatis ditetapkan status **draf**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-152">**Draft** : New time entries are automatically assigned a status of **Draft**.</span></span> <span data-ttu-id="b6a32-153">Hanya entri waktu yang memiliki status **draf** yang dapat dihapus.</span><span class="sxs-lookup"><span data-stu-id="b6a32-153">Only time entries that have a status of **Draft** can be deleted.</span></span>
+- <span data-ttu-id="b6a32-154">**Diajukan** : Bila entri waktu diajukan, status akan diperbarui ke **Diajukan**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-154">**Submitted** : When a time entry is submitted, the status is updated to **Submitted**.</span></span> 
+- <span data-ttu-id="b6a32-155">**Disetujui** : Bila entri waktu yang diajukan disetujui, status diperbarui ke **Disetujui**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-155">**Approved** : When a submitted time entry is approved, the status is updated to **Approved**.</span></span> 
+- <span data-ttu-id="b6a32-156">**Dikembalikan** : Jika entri waktu ditolak, status akan diperbarui ke **dikembalikan** , dan entri dapat dikoreksi dan diajukan kembali.</span><span class="sxs-lookup"><span data-stu-id="b6a32-156">**Returned** : If a time entry is rejected, the status is updated to **Returned** , and the entry becomes available for correction and resubmission.</span></span> 
 
-## <a name="view-rejection-comments"></a>Lihat Komentar Penolakan
-Bila entri waktu ditolak oleh pemberi izin, pemberi izin dapat menambahkan komentar untuk membantu sumber daya memahami alasan penolakan. Untuk melihat komentar penolakan untuk entri waktu, pilih **entri terbuka**. Komentar penolakan akan ditampilkan di Timeline. Pengguna dapat merespons komentar penolakan sebelum mereka mengirimkan ulang entri.
+## <a name="view-rejection-comments"></a><span data-ttu-id="b6a32-157">Lihat Komentar Penolakan</span><span class="sxs-lookup"><span data-stu-id="b6a32-157">View rejection comments</span></span>
+<span data-ttu-id="b6a32-158">Bila entri waktu ditolak oleh pemberi izin, pemberi izin dapat menambahkan komentar untuk membantu sumber daya memahami alasan penolakan.</span><span class="sxs-lookup"><span data-stu-id="b6a32-158">When a time entry is rejected by an approver, the approver might add comments to help the resource understand the reason for the rejection.</span></span> <span data-ttu-id="b6a32-159">Untuk melihat komentar penolakan untuk entri waktu, pilih **entri terbuka**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-159">To view the rejection comments for a time entry, select **Open entry**.</span></span> <span data-ttu-id="b6a32-160">Komentar penolakan akan ditampilkan di Timeline.</span><span class="sxs-lookup"><span data-stu-id="b6a32-160">The rejection comments will be shown in the timeline.</span></span> <span data-ttu-id="b6a32-161">Pengguna dapat merespons komentar penolakan sebelum mereka mengirimkan ulang entri.</span><span class="sxs-lookup"><span data-stu-id="b6a32-161">The user can respond to the rejection comments before they resubmit the entry.</span></span>
 
-## <a name="copy-week"></a>Salin minggu
-Setelah beberapa kali entri dibuat, pengguna dapat membuat beberapa entri waktu pada waktu yang sama.
+## <a name="copy-week"></a><span data-ttu-id="b6a32-162">Salin minggu</span><span class="sxs-lookup"><span data-stu-id="b6a32-162">Copy week</span></span>
+<span data-ttu-id="b6a32-163">Setelah beberapa kali entri dibuat, pengguna dapat membuat beberapa entri waktu pada waktu yang sama.</span><span class="sxs-lookup"><span data-stu-id="b6a32-163">After a few time entries have been created, users can create multiple time entries at the same time.</span></span>
 
-1. Di formulir **entri waktu**, pilih **Salin pekan** ke buat entri waktu tambahan secara massal. 
-2. Di kotak dialog **Salin**, bagian **dari periode**, gunakan bidang **tanggal mulai** dan **tanggal berakhir** untuk menentukan rentang tanggal untuk menyalin entri waktu. 
-3. Di bagian **hingga periode**, di bidang **tanggal mulai**, tentukan tanggal untuk membuat entri waktu. 
-4. Pilih **Salin**. Untuk tanggal yang ditentukan di **hingga periode**, salinan entri waktu untuk hari yang sesuai dalam pekan itu dalam **dari periode** dibuat. Misalnya, entri waktu Senin dari pekan lalu disalin ke hari Senin dalam pekan yang ditentukan sebagai **periode hingga**.
+1. <span data-ttu-id="b6a32-164">Di formulir **entri waktu** , pilih **Salin pekan** ke buat entri waktu tambahan secara massal.</span><span class="sxs-lookup"><span data-stu-id="b6a32-164">In the **Time Entries** form, select **Copy Week** to bulk-create additional time entries.</span></span> 
+2. <span data-ttu-id="b6a32-165">Di kotak dialog **Salin** , bagian **dari periode** , gunakan bidang **tanggal mulai** dan **tanggal berakhir** untuk menentukan rentang tanggal untuk menyalin entri waktu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-165">In the **Copy** dialog box, in the **From period** section, use the **Start Date** and **End Date** fields to define the date range to copy time entries from.</span></span> 
+3. <span data-ttu-id="b6a32-166">Di bagian **hingga periode** , di bidang **tanggal mulai** , tentukan tanggal untuk membuat entri waktu.</span><span class="sxs-lookup"><span data-stu-id="b6a32-166">In the **To Period** section, in the **Start Date** field, specify the date to create time entries for.</span></span> 
+4. <span data-ttu-id="b6a32-167">Pilih **Salin**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-167">Select **Copy**.</span></span> <span data-ttu-id="b6a32-168">Untuk tanggal yang ditentukan di **hingga periode** , salinan entri waktu untuk hari yang sesuai dalam pekan itu dalam **dari periode** dibuat.</span><span class="sxs-lookup"><span data-stu-id="b6a32-168">For the specified date in the **To period** , a copy of the time entries for the corresponding day of the week in the **From period** is created.</span></span> <span data-ttu-id="b6a32-169">Misalnya, entri waktu Senin dari pekan lalu disalin ke hari Senin dalam pekan yang ditentukan sebagai **periode hingga**.</span><span class="sxs-lookup"><span data-stu-id="b6a32-169">For example, Monday's time entry from last week is copied into Monday of the week that is specified as the **To period**.</span></span>
 
-## <a name="import"></a>Impor
-Proses dasar yang sama digunakan untuk mengimpor dari Pemesanan, tugas, dan pertukaran. Anda dapat menentukan rentang tanggal Pemesanan untuk diimpor, lalu secara eksplisit memilih Pemesanan yang harus disalin ke entri waktu draf. 
+## <a name="import"></a><span data-ttu-id="b6a32-170">Impor</span><span class="sxs-lookup"><span data-stu-id="b6a32-170">Import</span></span>
+<span data-ttu-id="b6a32-171">Proses dasar yang sama digunakan untuk mengimpor dari Pemesanan, tugas, dan pertukaran.</span><span class="sxs-lookup"><span data-stu-id="b6a32-171">The same basic process is used to import from bookings, assignments, and exchanges.</span></span> <span data-ttu-id="b6a32-172">Anda dapat menentukan rentang tanggal Pemesanan untuk diimpor, lalu secara eksplisit memilih Pemesanan yang harus disalin ke entri waktu draf.</span><span class="sxs-lookup"><span data-stu-id="b6a32-172">You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries.</span></span> 
