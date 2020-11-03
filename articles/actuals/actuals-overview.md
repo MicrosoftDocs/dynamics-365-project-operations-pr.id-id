@@ -1,5 +1,5 @@
 ---
-title: Laman beranda aktual
+title: Aktual
 description: Topik ini menyediakan informasi topik tentang cara bekerja dengan aktual dalam Microsoft Dynamics 365 Project operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907322"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078474"
 ---
-# <a name="actuals"></a>Aktual
+# <a name="actuals"></a>Aktual 
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
@@ -46,7 +45,7 @@ Jika entri waktu yang diajukan tertaut ke proyek yang dipetakan ke baris kontrak
 
 Logika untuk membuat harga default berada pada baris jurnal. Nilai bidang dari entri waktu akan disalin ke baris jurnal. Nilai ini mencakup tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan hasil mata uang dalam daftar harga yang sesuai.
 
-Bidang yang mempengaruhi harga default, seperti **peran** dan **unit organisasi**, digunakan untuk menentukan harga yang sesuai pada baris jurnal. Anda dapat menambahkan bidang kustom pada entri waktu. Jika Anda ingin nilai bidang diterapkan ke aktual, buat bidang pada entitas aktual, dan gunakan pemetaan bidang untuk menyalin bidang dari entri waktu ke aktual.
+Bidang yang mempengaruhi harga default, seperti **peran** dan **unit organisasi** , digunakan untuk menentukan harga yang sesuai pada baris jurnal. Anda dapat menambahkan bidang kustom pada entri waktu. Jika Anda ingin nilai bidang diterapkan ke aktual, buat bidang pada entitas aktual, dan gunakan pemetaan bidang untuk menyalin bidang dari entri waktu ke aktual.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Baris jurnal dan pengajuan pengeluaran dasar
 

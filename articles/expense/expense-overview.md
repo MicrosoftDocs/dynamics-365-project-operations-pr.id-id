@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967370"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078364"
 ---
 # <a name="expense-home-page"></a>Laman beranda pengeluaran
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations mendukung kemampuan untuk memproses pengeluaran.
 
 Dalam Project Operations, ada dua model penyebaran yang didukung untuk pengeluaran: 
 
-- **Penuh**: penyebaran penuh tersedia untuk **Project Operations untuk skenario berbasis sumber daya/non-stok** atau **Project Operations untuk skenario berdasarkan pesanan produksi**.
-- **Dasar**: penyebaran dasar tersedia untuk **operasi proyek untuk skenario berbasis sumber daya/non-stok** dan **penyebaran sederhana– menangani faktur proforma**.
+- **Penuh** : penyebaran penuh tersedia untuk **Project Operations untuk skenario berbasis sumber daya/non-stok** atau **Project Operations untuk skenario berdasarkan pesanan produksi**.
+- **Dasar** : penyebaran dasar tersedia untuk **operasi proyek untuk skenario berbasis sumber daya/non-stok** dan **penyebaran sederhana– menangani faktur proforma**.
 
 ## <a name="full"></a>Penuh 
 Penyebaran pengeluaran penuh memberikan penegakan kebijakan lengkap yang mencakup kemampuan untuk membuat kebijakan, seperti:

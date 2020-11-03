@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898491"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078512"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Membuat estimasi pada baris kuotasi
 
@@ -81,11 +80,11 @@ Gunakan tabel berikut sebagai panduan untuk memahami logika bisnis dalam fase es
 Jika Anda menambahkan bidang kustom pada detail baris kuotasi dan ingin sistem memasukkan nilai bidang sebagai nilai default pada baris biaya terkait yang dibuat, gunakan Alat registrasi plug-in PreOperationContractLineDetailUpdate dan PreOperationQuoteLineDetailUpdate. Plug-in ini harus didaftarkan ulang setelah detail baris kuotasi atau detail baris kontrak diubah. Untuk menyelesaikan proses ini, ikuti langkah berikut ini.
 
 1. Buka PluginRegistrationTool, dan Sambungkan ke instans online Anda.
-2. Pilih **pencarian**, dan Cari plug-in untuk memperbarui.
+2. Pilih **pencarian** , dan Cari plug-in untuk memperbarui.
 3. Pilih plug-in, lalu, di halaman utama, pilih **pilih**.
 4. Pilih langkah plug-in untuk memperbarui, klik kanan, lalu pilih **Perbarui**.
-5. Di kotak dialog **Perbarui langkah yang ada**, di bidang **atribut filter**, pilih tombol elipsis (**...**):
-6. Di kotak dialog **Pilih atribut**, pilih kotak centang untuk atribut kustom.
+5. Di kotak dialog **Perbarui langkah yang ada** , di bidang **atribut filter** , pilih tombol elipsis ( **...** ):
+6. Di kotak dialog **Pilih atribut** , pilih kotak centang untuk atribut kustom.
 7. Pilih **OK** untuk menutup kotak dialog, lalu pilih **Perbarui langkah**.
 8. Ulangi langkah 1 hingga 7 untuk plug-in kedua.
 9. Tutup PluginRegistrationTool.

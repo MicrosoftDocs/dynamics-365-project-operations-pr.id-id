@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078338"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Kelola beberapa pelanggan pada kuotasi proyek
 
@@ -29,7 +29,7 @@ Pelanggan kuotasi dan pelanggan baris kuotasi dapat ditambahkan, diperbarui, ata
 
 Pelanggan yang terdaftar pada tab **ringkasan** proyek kuotasi sebagai calon pelanggan adalah pelanggan utama kuotasi. Jika Anda mencoba menghapus pelanggan utama dari daftar pelanggan pada kuotasi, Anda akan menerima kesalahan bahwa rekaman pelanggan utama pada kuotasi tidak dapat dihapus.
 
-Pelanggan utama tidak boleh diperbarui dari daftar pelanggan pada kuotasi. Namun, Anda dapat mempengaruhi pelanggan utama dengan mengubah calon pelanggan di tab **ringkasan** kuotasi. Bila bidang ini diperbarui pada **ringkasan kuotasi**, calon pelanggan yang baru dipilih akan ditambahkan sebagai pelanggan kuotasi baru dengan rangkaian bendera **utama**. Calon pelanggan lama akan tetap menjadi pelanggan pada kuotasi.
+Pelanggan utama tidak boleh diperbarui dari daftar pelanggan pada kuotasi. Namun, Anda dapat mempengaruhi pelanggan utama dengan mengubah calon pelanggan di tab **ringkasan** kuotasi. Bila bidang ini diperbarui pada **ringkasan kuotasi** , calon pelanggan yang baru dipilih akan ditambahkan sebagai pelanggan kuotasi baru dengan rangkaian bendera **utama**. Calon pelanggan lama akan tetap menjadi pelanggan pada kuotasi.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Membuat, memperbarui, atau menghapus rekaman pelanggan kuotasi
 

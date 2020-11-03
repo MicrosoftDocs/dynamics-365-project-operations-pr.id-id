@@ -1,29 +1,19 @@
 ---
 title: Pemenuhan persyaratan sumber daya generik
-description: Topik ini menyediakan informasi tentang pemesanan sumber daya bernama untuk persyaratan sumber daya generik.
+description: Topik ini menyediakan informasi tentang cara pemesanan sumber daya bernama untuk persyaratan sumber daya generik.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897590"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078429"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Pemenuhan persyaratan sumber daya generik
 
@@ -31,9 +21,9 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Anda dapat memesan sumber daya bernama untuk menggantikan sumber daya generik yang memiliki persyaratan sumber daya.
 
-1. Pada halaman **proyek**, pilih tab **Tim**.
+1. Pada halaman **proyek** , pilih tab **Tim**.
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu pilih **pesan**. Atau, buka persyaratan sumber daya, lalu pilih **pesan**.
-3. Di halaman **asisten jadwal**, pilih sumber daya bernama untuk melakukan pemesanan ke tim proyek, lalu pilih **pesan**.
+3. Di halaman **asisten jadwal** , pilih sumber daya bernama untuk melakukan pemesanan ke tim proyek, lalu pilih **pesan**.
 
 Bila Pemesanan selesai dan dipenuhi oleh sumber daya bernama, sumber daya generik digantikan dengan sumber daya bernama.
 

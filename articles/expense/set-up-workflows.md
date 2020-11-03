@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896555"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078511"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Mengkonfigurasi alur kerja untuk manajemen pengeluaran
 
@@ -31,9 +30,9 @@ Anda dapat mengkonfigurasi proses alur kerja untuk meninjau dan menyetujui dokum
 
 Alur kerja menunjukkan proses bisnis dan menentukan bagaimana suatu dokumen mengalir melalui sistem. Alur kerja juga menunjukkan siapa yang harus menyelesaikan tugas atau menyetujui dokumen. Ada beberapa manfaat menggunakan sistem alur kerja di organisasi Anda:
 
-- **Proses yang konsisten**: Anda dapat menentukan proses persetujuan untuk dokumen tertentu, seperti rekusisi pembelian dan laporan pengeluaran. Menggunakan sistem alur kerja membantu memastikan bahwa dokumen diproses dan disetujui secara konsisten dan efisien.
-- **Visibilitas proses**: Anda dapat melacak metrik status, riwayat, dan performa instans alur kerja tertentu. Ini akan membantu Anda menentukan apakah perubahan harus dibuat untuk alur kerja untuk meningkatkan efisiensi.
-- **Daftar kerja tersentralisasi**: pengguna dapat melihat daftar kerja tersentralisasi untuk melihat tugas dan persetujuan alur kerja yang ditetapkan ke mereka. 
+- **Proses yang konsisten** : Anda dapat menentukan proses persetujuan untuk dokumen tertentu, seperti rekusisi pembelian dan laporan pengeluaran. Menggunakan sistem alur kerja membantu memastikan bahwa dokumen diproses dan disetujui secara konsisten dan efisien.
+- **Visibilitas proses** : Anda dapat melacak metrik status, riwayat, dan performa instans alur kerja tertentu. Ini akan membantu Anda menentukan apakah perubahan harus dibuat untuk alur kerja untuk meningkatkan efisiensi.
+- **Daftar kerja tersentralisasi** : pengguna dapat melihat daftar kerja tersentralisasi untuk melihat tugas dan persetujuan alur kerja yang ditetapkan ke mereka. 
 
 ## <a name="workflow-types"></a>Jenis alur kerja
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898625"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078342"
 ---
 # <a name="manage-leads"></a>Mengelola prospek
 
@@ -23,7 +23,7 @@ Prospek berbasis proyek dapat dikelola dan terkualifikasi dalam Project Operatio
 
 ## <a name="project-sales-leads"></a>Prospek Penjualan proyek
 
-Di Bagian **penjualan**, di panel navigasi kiri, buka halaman daftar **prospek** untuk melihat daftar semua rekaman prospek di sistem. Daftar prospek yang ditampilkan adalah berbasis pekerjaan dan jenis prospek lain yang dapat dibuat jika Anda juga memiliki aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
+Di Bagian **penjualan** , di panel navigasi kiri, buka halaman daftar **prospek** untuk melihat daftar semua rekaman prospek di sistem. Daftar prospek yang ditampilkan adalah berbasis pekerjaan dan jenis prospek lain yang dapat dibuat jika Anda juga memiliki aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda dapat membuat tampilan terfilter untuk melihat hanya prospek berbasis proyek dengan membuat filter pada nilai **jenis**. Misalnya, Anda dapat memilih untuk hanya menampilkan prospek berbasis pekerjaan.
 
@@ -53,13 +53,13 @@ Prospek yang memiliki nilai **jenis** yang ditetapkan ke **berbasis pekerjaan** 
 
 - Akun yang menggunakan bidang **perusahaan** dari prospek.
 - Rekaman kontak yang terkait dengan akun berdasarkan nilai pada bidang **nama depan** dan **nama belakang** pada prospek.
-- Peluang berbasis proyek yang bidang **jenis**-nya diatur ke &quot;**berbasis pekerjaan**.
+- Peluang berbasis proyek yang bidang **jenis** -nya diatur ke &quot;**berbasis pekerjaan**.
 
 Untuk informasi lebih rinci tentang prospek yang memenuhi syarat, lihat[kualifikasi atau mengkonversi prospek](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Informasi kualifikasi prospek dan entitas hukum 
 
-Ketika Anda menjalankan Project Operations menggunakan mode penyebaran, Project Operations untuk skenario berbasis sumber daya/non-stok, setiap pelanggan dan peluang harus diatur bidang **perusahaan pemilik**-nya. Perusahaan pemilik adalah entitas hukum di organisasi Anda yang memiliki hasil proyek. Setiap pelanggan, atau akun dengan jenis relasi pelanggan, harus memiliki nilai bidang **perusahaan pemilik** yang diatur ke entitas hukum yang berkontrak dan melakukan negosiasi dengan pelanggan ini. Pelanggan hanya dapat berada di satu entitas hukum.
+Ketika Anda menjalankan Project Operations menggunakan mode penyebaran, Project Operations untuk skenario berbasis sumber daya/non-stok, setiap pelanggan dan peluang harus diatur bidang **perusahaan pemilik** -nya. Perusahaan pemilik adalah entitas hukum di organisasi Anda yang memiliki hasil proyek. Setiap pelanggan, atau akun dengan jenis relasi pelanggan, harus memiliki nilai bidang **perusahaan pemilik** yang diatur ke entitas hukum yang berkontrak dan melakukan negosiasi dengan pelanggan ini. Pelanggan hanya dapat berada di satu entitas hukum.
 
 Bila prospek memenuhi syarat, rekaman pelanggan dan peluang yang dibuat akan memiliki bidang **perusahaan pemilik** yang diatur ke rekaman perusahaan sumber daya dapat dipesan pengguna saat ini.
 

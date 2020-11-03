@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078369"
 ---
 # <a name="security-model"></a>Model keamanan
 
@@ -36,10 +36,11 @@ Kemampuan Front-end Project Operations mencakup peran berikut:
 
 
 Microsoft Project untuk web mencakup peran berikut:
-| Peran                          | KETERANGAN                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Pengguna proyek | Pengguna kolaboratif proyek yang mampu membuat proyek mereka sendiri dan melihat proyek yang dibagikan dengan mereka.| Pengguna|
-| Sistem proyek | Peran yang digunakan untuk konteks aplikasi. Pelanggan tidak boleh menggunakan peran sistem ini. | Global|
+
+| Peran           | KETERANGAN                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Pengguna proyek   | Pengguna kolaboratif proyek yang mampu membuat proyek mereka sendiri dan melihat proyek yang dibagikan dengan mereka. | Pengguna   |
+| Sistem proyek | Peran yang digunakan untuk konteks aplikasi. Pelanggan tidak boleh menggunakan peran sistem ini.                                    | Global |
 
 ## <a name="security-enforcement"></a>Penegakan keamanan
 Tindakan yang dilakukan di tingkat proyek dilakukan dalam konteks pengguna yang masuk. Ini berarti bahwa untuk membuat, membuka, atau menghapus suatu proyek, pengguna diharuskan memiliki akses yang tersedia dalam CDS. Akses dalam CDS dapat diberikan melalui salah satu mekanisme yang mungkin tercakup dalam platform. Misalnya, pengguna dengan cakupan yang lebih besar dapat mengakses proyek atau jika tindakan berbagi proyek eksplisit telah dilakukan yang memberikan akses kepada pengguna.
@@ -55,7 +56,9 @@ Grup memungkinkan izin proyek dan mendukung artefak kolaborasi agar dapat dikerj
 
 Project Operations tidak membuat grup melalui tindakan implisit dan hanya melakukannya melalui tindakan eksplisit grup penekan.
 
-Pencarian anggota grup di dialog **manajemen grup**, terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan. Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Pencarian anggota grup di dialog **manajemen grup** , terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan. Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Mode grup](./media/groupsmode.png)
 
 1. Proyek dibuat dan dimiliki oleh pengguna yang membuat.
 2. Pemilik proyek diperbarui ke tim.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078349"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Menerapkan konfigurasi demo dan data konfigurasi untuk penyebaran Project Operations Lite -menangani faktur proforma
 
@@ -21,11 +21,11 @@ _**Penyebaran sederhana - menangani faktur proforma_
 
 1. Unduh [paket data induk](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Arahkan ke folder *ProjOpsDemoDataSetupAndMaster - Integrated CMT* dan Jalankan file eksekusi, *DataMigrationUtility*.
-3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
+3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data** , lalu pilih **Lanjutkan**.
 
 ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
-4. Di Halaman 2 CMT Wizard, pilih **Office 365** sebagai **jenis penyebaran**.
+4. Di Halaman 2 CMT Wizard, pilih **Microsoft 365** sebagai **jenis penyebaran**.
 5. Pilih **Tampilkan daftar organisasi tersedia** dan **Tampilkan kotak centang tingkat lanjut**.
 6. Pilih kawasan penyewa Anda, masukkan kredensial, lalu pilih **masuk**.
 

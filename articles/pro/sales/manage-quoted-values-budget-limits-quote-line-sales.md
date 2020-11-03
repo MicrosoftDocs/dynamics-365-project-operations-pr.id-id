@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908255"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078414"
 ---
 # <a name="project-based-quote-lines-pro"></a>Baris kuotasi berbasis proyek (Pro)
 
@@ -49,15 +49,15 @@ Tabel berikut menyediakan informasi tentang bidang pada tab **Umum** baris kuota
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Aturan validasi untuk bidang pada tab Umum baris kuotasi berdasarkan proyek
 
-**Aturan 1**: jika bidang **tugas yang disertakan** kosong, atau jika diatur ke **semua tugas proyek**, proyek disertakan dalam baris kuotasi.
+**Aturan 1** : jika bidang **tugas yang disertakan** kosong, atau jika diatur ke **semua tugas proyek** , proyek disertakan dalam baris kuotasi.
 
-**Aturan 2**: jika bidang **tugas yang disertakan** kosong, atau jika diatur ke **semua tugas proyek**, proyek dan kelas transaksi tertentu hanya dapat disertakan pada satu baris kuotasi berbasis proyek dari kuotasi.
+**Aturan 2** : jika bidang **tugas yang disertakan** kosong, atau jika diatur ke **semua tugas proyek** , proyek dan kelas transaksi tertentu hanya dapat disertakan pada satu baris kuotasi berbasis proyek dari kuotasi.
 
-**Aturan 3**: jika bidang **tugas yang disertakan** diatur ke **Hanya tugas proyek yang dipilih**, proyek dan kelas transaksi tertentu hanya dapat disertakan pada beberapa baris kuotasi berbasis proyek dari kuotasi.
+**Aturan 3** : jika bidang **tugas yang disertakan** diatur ke **Hanya tugas proyek yang dipilih** , proyek dan kelas transaksi tertentu hanya dapat disertakan pada beberapa baris kuotasi berbasis proyek dari kuotasi.
 
-**Aturan 4**: jika peluang memiliki beberapa kuotasi, ada baris kuotasi dari kuotasi berbeda yang semua mereferensi proyek yang sama dan mencakup kelas transaksi yang sama.
+**Aturan 4** : jika peluang memiliki beberapa kuotasi, ada baris kuotasi dari kuotasi berbeda yang semua mereferensi proyek yang sama dan mencakup kelas transaksi yang sama.
 
-**Aturan 5**: jika kuotasi bukan milik peluang yang sama, mereka tidak dapat menyertakan kelas proyek dan transaksi yang sama.
+**Aturan 5** : jika kuotasi bukan milik peluang yang sama, mereka tidak dapat menyertakan kelas proyek dan transaksi yang sama.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

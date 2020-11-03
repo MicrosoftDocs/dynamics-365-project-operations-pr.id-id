@@ -3,17 +3,17 @@ title: Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber
 description: Topik ini memberikan informasi tentang cara berlangganan dan menyebarkan Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078370"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok
 
@@ -29,48 +29,53 @@ Topik ini menjelaskan tentang cara berlangganan pratinjau/penawaran mitra dan me
 
 ## <a name="subscribe"></a>Berlangganan
 
-Bila Anda menyetujui [permintaan pratinjau](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), Anda akan menerima dua tawaran dari Microsoft melalui email. Penawaran ini memungkinkan Anda menyebarkan pratinjau Project Operations:
+Bila Anda menyetujui [permintaan pratinjau](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), Anda akan menerima tiga tawaran dari Microsoft melalui email. Penawaran ini memungkinkan Anda menyebarkan pratinjau Project Operations:
 
-- Dynamics 365 Project Operations – uji coba pratinjau
-- Uji coba pratinjau Dynamics 365 for Finance and Operations.
+- Dynamics 365 Project Operations (CRM) - Uji coba Pratinjau
+- Office 365 Project Operations - Uji coba Pratinjau
+- Dynamics 365 Finance -Uji coba pratinjau
 
 > [!IMPORTANT]
 > Hanya satu orang, administrator penyewa, dalam organisasi harus melakukan tugas ini. Jika Anda bukan pelanggan untuk rilis ini, tunggu hingga organisasi Anda telah terdaftar dan Anda telah menerima kredensial pengguna Anda.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – uji coba pratinjau
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Uji coba Pratinjau 
 
-1. Tukarkan tawaran pertama, **uji coba Dynamics 365 Project Operations** dengan URL yang diberikan dalam email Selamat datang Anda.
+Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di penyewa tempat Anda menginginkan pratinjau Project Operations.
 
-![Penawaran pertama](./media/1FirstOffer.png)
+1. Tukarkan kode penawaran pertama, **Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau** dengan menempelkannya ke URL browser.
 
-2. Verifikasikan bahwa Anda masuk sebagai pengguna yang termasuk dalam organisasi yang akan berlangganan layanan.
-3. Lanjutkan dengan menukarkan Penawaran. 
-4. Pilih **ya, tambahkan ke akun saya**.
+![Tukarkan penawaran](./media/16RedeemFirstOfferNew.png)
 
-![Tukarkan penawaran](./media/2RedeemFirstOffer.png)
+2. Konfirmasikan pesanan.
 
-![Konfirmasi Penawaran](./media/3ConfirmFirstOffer.png)
+![Konfirmasi pesanan](./media/17ConfirmOrderNew.png)
 
-![Penawaran Ditukarkan](./media/4OfferSuccessfulyRedeemed.png)
+Anda akan melihat penawaran konfirmasi berhasil ditukarkan.
+
+![Konfirmasi](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Uji coba Pratinjau
+
+Ulangi langkah yang sama seperti dengan kode penawaran pertama. Pastikan untuk menambahkan kode penawaran kedua menggunakan akun pengguna yang sama yang digunakan dengan kode penawaran pertama.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Uji coba pratinjau Dynamics 365 Finance
 
-Ulangi langkah yang sama dengan tawaran kedua dari email sambutan.
+Ulangi langkah yang sama dengan tawaran terakhir dari email sambutan.
 
 ## <a name="assign-licenses"></a>Menetapkan lisensi
 
 > [!IMPORTANT]
-> Anda akan memerlukan akses administratif ke Portal Office 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
+> Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
 1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
 
-![Portal admin Office](./media/5OfficeAdminPortal.png)
+![Halaman Beranda pusat Admin](./media/14AdminPortal.png)
 
-2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
+2. Pada halaman **pengguna aktif** , pilih pengguna yang akan ditetapkan lisensinya.
 
-![Menetapkan lisensi](./media/6AssignLicenses.png)
+![Menetapkan lisensi](./media/15AssignLicenses.png)
 
-3. Periksa apakah lisensi Project Operations telah dipilih dan pilih **Simpan perubahan**. 
+3. Verifikasi bahwa Lisensi **Pratinjau Dynamics 365 Project Operations (CRM)** dan **Office 365 Project Operations - pratinjau** dipilih dan pilih **Simpan perubahan**.
 
 > [!NOTE]
 > Penawaran uji coba Finance tidak perlu ditetapkan ke pengguna.
@@ -85,9 +90,9 @@ Untuk menyelesaikan tugas ini, ikuti langkah-langkah di topik, [tambahkan langga
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Terapkan lingkungan demo Finance dengan Project Operations untuk skenario sumber daya/non-stok
 
-Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau.
+Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi CDS
 
 Instal data pengaturan dan konfigurasi CDS sebagaimana dijelaskan dalam topik, [atur dan terapkan data konfigurasi di Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Selesaikan langkah ini hanya setelah lingkungan demo Finance disebarkan dan data demo di FO siap.

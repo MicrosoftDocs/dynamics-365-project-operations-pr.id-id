@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078353"
 ---
 # <a name="travel-requisitions"></a>Permintaan perjalanan
 
@@ -31,9 +31,9 @@ Permintaan perjalanan dapat dikonfigurasi sebagai "wajib" dengan mengaktifkan pa
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Membuat dan mengajukan permintaan perjalanan
 
-1. Buka **Pengeluaran saya: permintaan perjalanan**, lalu pilih **permintaan perjalanan baru**.
+1. Buka **Pengeluaran saya: permintaan perjalanan** , lalu pilih **permintaan perjalanan baru**.
 2. Masukkan tujuan dan destinasi untuk permintaan.
-3. Di bidang  **Deskripsi perjalanan**, masukkan informasi tambahan. 
+3. Di bidang  **Deskripsi perjalanan** , masukkan informasi tambahan. 
 4. Untuk setiap pengeluaran yang diharapkan, seperti penerbangan, makan, atau Penyewaan Mobil, buat item baris pengeluaran. Sertakan estimasi tanggal, jumlah estimasi, dan mata uang untuk setiap pengeluaran. 
 5. Setelah selesai menambahkan pengeluaran yang diharapkan, pilih **Simpan**.
 6. Bila Anda siap mengirimkan permintaan perjalanan, pilih **alur kerja** > **Ajukan**.

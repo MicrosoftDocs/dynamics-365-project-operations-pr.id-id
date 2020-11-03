@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078451"
 ---
 # <a name="review-proposed-resources"></a>Tinjau sumber daya yang diusulkan
 
@@ -32,11 +31,11 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 Manajer sumber daya dapat mengusulkan sumber daya untuk manajer proyek menggunakan permintaan sumber daya.
 
 1. Dari kisi permintaan atau permintaan itu sendiri, pilih **Cari sumber daya**.
-2. Di halaman **asisten jadwal**, pilih sumber daya, lalu di panel **buat Pemesanan sumber daya**, di bidang **status Pemesanan**, pilih **Pesan**.
+2. Di halaman **asisten jadwal** , pilih sumber daya, lalu di panel **buat Pemesanan sumber daya** , di bidang **status Pemesanan** , pilih **Pesan**.
 
 Terjadi pembaruan status berikut:
 
-- Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
+- Di halaman **asisten jadwal** , indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
 - Pada permintaan sumber daya, status berubah menjadi **perlu ditinjau**.
 - Pada tab **tim** proyek , nilai **status permintaan** anggota tim generik diubah ke **perlu ditinjau**.
 
@@ -66,15 +65,15 @@ Setiap sel di kisi mewakili persentase pemanfaatan yang dapat ditagih dari sumbe
 
 - **Hijau:** Pemanfaatan yang ditagih \>= pemanfaatan sumber daya target
 - **Kuning:** target pemanfaatan – 20 \<= pemanfaatan ditagih \< target pemanfaatan.
-- **Merah:** Pemanfaatan yang ditagih \< pemanfaatan target – 20.
+- **mérah:** Pemanfaatan yang ditagih \< pemanfaatan target – 20.
 
 Karena tampilan **pemanfaatan sumber daya** didasarkan pada papan jadwal, Anda dapat menggunakan kemampuan pemfilteran papan jadwal untuk memfilter hasil.
 
 Kisi-kisi mengharuskan Anda menetapkan Pemanfaatan peran atau sumber daya individual. Untuk melakukan konfigurasi ini, buka **sumber daya** \> **peran sumber daya**.
 
-Selain itu, peran default harus ditetapkan ke setiap sumber daya yang dapat dipesan. Buka **Sumber Daya** \> **Sumber daya**. Pada tab **Project Service**, periksa apakah peran sumber daya ditentukan, dan bidang **merupakan default** untuk diatur ke **ya**. Anda dapat menambahkan peran tambahan di mana **merupakan default = Tidak**. Peran jika **merupakan default = Ya** digunakan untuk mengevaluasi pemanfaatan sumber daya terhadap target untuk peran tersebut.
+Selain itu, peran default harus ditetapkan ke setiap sumber daya yang dapat dipesan. Buka **Sumber Daya** \> **Sumber daya**. Pada tab **Project Service** , periksa apakah peran sumber daya ditentukan, dan bidang **merupakan default** untuk diatur ke **ya**. Anda dapat menambahkan peran tambahan di mana **merupakan default = Tidak**. Peran jika **merupakan default = Ya** digunakan untuk mengevaluasi pemanfaatan sumber daya terhadap target untuk peran tersebut.
 
-Di tab **Project Service**, Anda juga dapat menetapkan pemanfaatan target individual untuk sumber daya. Perhitungan pemanfaatan kemudian menggunakan pemanfaatan target untuk mengevaluasi target sumber daya bukan target dari peran default sumber daya.
+Di tab **Project Service** , Anda juga dapat menetapkan pemanfaatan target individual untuk sumber daya. Perhitungan pemanfaatan kemudian menggunakan pemanfaatan target untuk mengevaluasi target sumber daya bukan target dari peran default sumber daya.
 
 Pemanfaatan ditampilkan untuk sumber daya hanya jika sumber daya telah disetujui, waktu yang dapat ditagih selama periode yang ditampilkan di kisi.
 

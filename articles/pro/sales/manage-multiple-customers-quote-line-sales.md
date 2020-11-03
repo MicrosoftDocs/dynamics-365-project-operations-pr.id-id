@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078385"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
 
@@ -33,10 +33,10 @@ Tabel berikut menampilkan bidang pada pada rekaman pelanggan baris kuotasi dari 
 
 | Bidang | Lokasi | Panduan dan deskripsi | Dampak hilir |
 | --- | --- | --- | --- |
-| **Akun** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi**, formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Daftar semua akun aktif. Bidang ini dikunci setelah rekaman dibuat. Jika Anda perlu memperbarui bidang, Hapus dan buat ulang rekaman. Jika Anda merekam aktual apa pun, Anda tidak dapat menghapus rekaman. | Bila Anda memilih akun dari daftar induk akun untuk ditambahkan, pelanggan kuotasi juga ditambahkan sebagai pelanggan kuotasi ketika menyimpannya. Pelanggan baris kuotasi juga disalin ke pelanggan baris kontrak proyek saat kuotasi dimenangkan. |
-| **Persentase pembagian Penagihan** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi**, formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Menunjukkan persentase setiap transaksi penjualan yang tidak ditagih yang akan dikaitkan dengan pelanggan baris kuotasi ini. | Disalin ke Pelanggan Baris Kontrak Proyek. |
-| **Batas Jangan terlampaui** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi**, formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Menunjukkan apakah ada batas negosiasi atau batas yang dirundingkan ke jumlah keseluruhan yang akan ditagih ke pelanggan untuk baris kuotasi ini. | Disalin ke pelanggan baris kontrak proyek saat kuotasi dimenangkan. |
-| **Adalah Pembulatan** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi**, formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Menunjukkan apakah pelanggan ini adalah pelanggan pembulatan default untuk baris kuotasi berbasis proyek ini. | Disalin ke pelanggan kontrak proyek saat kuotasi dimenangkan. |
+| **Akun** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi** , formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Daftar semua akun aktif. Bidang ini dikunci setelah rekaman dibuat. Jika Anda perlu memperbarui bidang, Hapus dan buat ulang rekaman. Jika Anda merekam aktual apa pun, Anda tidak dapat menghapus rekaman. | Bila Anda memilih akun dari daftar induk akun untuk ditambahkan, pelanggan kuotasi juga ditambahkan sebagai pelanggan kuotasi ketika menyimpannya. Pelanggan baris kuotasi juga disalin ke pelanggan baris kontrak proyek saat kuotasi dimenangkan. |
+| **Persentase pembagian Penagihan** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi** , formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Menunjukkan persentase setiap transaksi penjualan yang tidak ditagih yang akan dikaitkan dengan pelanggan baris kuotasi ini. | Disalin ke Pelanggan Baris Kontrak Proyek. |
+| **Batas Jangan terlampaui** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi** , formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Menunjukkan apakah ada batas negosiasi atau batas yang dirundingkan ke jumlah keseluruhan yang akan ditagih ke pelanggan untuk baris kuotasi ini. | Disalin ke pelanggan baris kontrak proyek saat kuotasi dimenangkan. |
+| **Adalah Pembulatan** | Kisi yang dapat diedit pada tab **pelanggan baris kuotasi** , formulir utama, dan formulir Buat Cepat untuk pelanggan baris kuotasi. | Menunjukkan apakah pelanggan ini adalah pelanggan pembulatan default untuk baris kuotasi berbasis proyek ini. | Disalin ke pelanggan kontrak proyek saat kuotasi dimenangkan. |
 
 ## <a name="edit-billing-split-percentages"></a>Mengedit persentase pembagian penagihan
 

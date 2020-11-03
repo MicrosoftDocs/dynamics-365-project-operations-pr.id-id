@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078710"
 ---
 # <a name="project-price-lists"></a>Daftar harga proyek
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations memperluas entitas daftar harga di Dynamics 365 
 
 Daftar Harga mencakup informasi yang disediakan oleh empat entitas yang berbeda:
 
-- **Daftar harga**: entitas ini menyimpan informasi tentang konteks, mata uang, efektivitas tanggal, dan unit waktu untuk waktu harga. Konteks menunjukkan apakah daftar harga mengungkapkan tingkat biaya atau tingkat penjualan. 
-- **Mata uang**: entitas ini menyimpan mata uang harga pada daftar harga. 
-- **Tanggal**: entitas ini digunakan saat sistem mencoba memasukkan harga default pada transaksi. Daftar Harga yang memiliki efektivitas tanggal yang mencakup tanggal transaksi dipilih. Jika lebih dari satu daftar harga ditemukan yang efektif untuk tanggal transaksi dan dilampirkan ke kuotasi, kontrak, atau unit organisasi terkait, maka tidak ada harga yang dijadikan default. 
-- **Waktu**: entitas ini menyimpan unit waktu yang dinyatakan harga, seperti tarif harian atau per jam. 
+- **Daftar harga** : entitas ini menyimpan informasi tentang konteks, mata uang, efektivitas tanggal, dan unit waktu untuk waktu harga. Konteks menunjukkan apakah daftar harga mengungkapkan tingkat biaya atau tingkat penjualan. 
+- **Mata uang** : entitas ini menyimpan mata uang harga pada daftar harga. 
+- **Tanggal** : entitas ini digunakan saat sistem mencoba memasukkan harga default pada transaksi. Daftar Harga yang memiliki efektivitas tanggal yang mencakup tanggal transaksi dipilih. Jika lebih dari satu daftar harga ditemukan yang efektif untuk tanggal transaksi dan dilampirkan ke kuotasi, kontrak, atau unit organisasi terkait, maka tidak ada harga yang dijadikan default. 
+- **Waktu** : entitas ini menyimpan unit waktu yang dinyatakan harga, seperti tarif harian atau per jam. 
 
 Entitas daftar harga memiliki tiga tabel terkait yang menyimpan harga:
 
-  - **Harga peran**: tabel ini menyimpan tingkat kombinasi peran dan nilai unit organisasi dan digunakan untuk mengkonfigurasi harga berbasis peran untuk sumber daya manusia.
-  - **Harga kategori transaksi**: tabel ini menyimpan harga berdasarkan Kategori transaksi dan digunakan untuk mengkonfigurasi harga kategori pengeluaran.
-  - **Item daftar harga**: tabel ini menyimpan harga untuk produk Katalog.
+  - **Harga peran** : tabel ini menyimpan tingkat kombinasi peran dan nilai unit organisasi dan digunakan untuk mengkonfigurasi harga berbasis peran untuk sumber daya manusia.
+  - **Harga kategori transaksi** : tabel ini menyimpan harga berdasarkan Kategori transaksi dan digunakan untuk mengkonfigurasi harga kategori pengeluaran.
+  - **Item daftar harga** : tabel ini menyimpan harga untuk produk Katalog.
  
 Daftar Harga adalah kartu tarif. kartu tarif adalah kombinasi dari entitas daftar harga dan baris terkait pada harga peran, harga kategori transaksi, dan tabel item daftar harga.
 
@@ -54,15 +53,15 @@ Istilah *peran sumber daya* merujuk pada seperangkat keterampilan, kompetensi, d
 
 Waktu sumber daya manusia dikutip berdasarkan peran yang diisi sumber daya pada proyek tertentu. Untuk waktu sumber daya manusia, penetapan biaya dan penagihan didasarkan pada peran sumber daya. Waktu dapat dihargai di unit mana pun dalam grup unit **waktu**.
 
-Grup unit **waktu** dibuat saat Anda menginstal Project Operations. Ia memiliki unit default **jam**. Anda tidak dapat menghapus, mengubah nama, atau mengedit atribut untuk grup unit **waktu** atau unit **jam**. Namun, Anda dapat menambahkan unit lain ke grup unit **waktu**. Jika Anda mencoba untuk menghapus Grup unit **waktu** atau unit **jam**, Anda dapat menyebabkan kegagalan dalam logika bisnis.
+Grup unit **waktu** dibuat saat Anda menginstal Project Operations. Ia memiliki unit default **jam**. Anda tidak dapat menghapus, mengubah nama, atau mengedit atribut untuk grup unit **waktu** atau unit **jam**. Namun, Anda dapat menambahkan unit lain ke grup unit **waktu**. Jika Anda mencoba untuk menghapus Grup unit **waktu** atau unit **jam** , Anda dapat menyebabkan kegagalan dalam logika bisnis.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategori transaksi dan kategori pengeluaran
 
 Biaya perjalanan dan biaya lain yang dikenakan oleh konsultan proyek ditagihkan kepada pelanggan. Harga harga kategori pengeluaran diselesaikan dengan menggunakan daftar harga. Tiket pesawat, Hotel, dan Penyewaan Mobil adalah contoh kategori pengeluaran. Setiap baris daftar harga untuk pengeluaran menentukan harga untuk kategori pengeluaran tertentu. Tiga metode berikut digunakan untuk harga kategori pengeluaran:
 
-- **Pada Biayanya**: biaya pengeluaran ditagihkan kepada pelanggan, dan tidak ada markup yang diterapkan.
-- **Persentase markup**: persentase terhadap biaya aktual yang ditagihkan kepada pelanggan. 
-- **Harga per unit**: harga penagihan diatur untuk setiap unit dari kategori pengeluaran. Jumlah tagihan yang ditagihkan pada pelanggan dihitung berdasarkan jumlah unit pengeluaran yang dilaporkan oleh konsultan. Jarak tempuh menggunakan metode harga per unit. Misalnya, kategori pengeluaran jarak tempuh dapat dikonfigurasi untuk 30 dolar AS (USD) per hari atau 2 USD per mil. Bila konsultan melaporkan jarak tempuh pada suatu proyek, jumlah tagihan dihitung berdasarkan jumlah mil yang dilaporkan oleh konsultan.
+- **Pada Biayanya** : biaya pengeluaran ditagihkan kepada pelanggan, dan tidak ada markup yang diterapkan.
+- **Persentase markup** : persentase terhadap biaya aktual yang ditagihkan kepada pelanggan. 
+- **Harga per unit** : harga penagihan diatur untuk setiap unit dari kategori pengeluaran. Jumlah tagihan yang ditagihkan pada pelanggan dihitung berdasarkan jumlah unit pengeluaran yang dilaporkan oleh konsultan. Jarak tempuh menggunakan metode harga per unit. Misalnya, kategori pengeluaran jarak tempuh dapat dikonfigurasi untuk 30 dolar AS (USD) per hari atau 2 USD per mil. Bila konsultan melaporkan jarak tempuh pada suatu proyek, jumlah tagihan dihitung berdasarkan jumlah mil yang dilaporkan oleh konsultan.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Harga penjualan proyek dan penggantian
 
@@ -104,7 +103,7 @@ Anda dapat membuat penimpaan spesifik transaksi untuk harga yang dipilih pada da
 
 Secara default, kontrak proyek selalu mendapatkan salinan dari daftar harga penjualan induk, bukan link langsung ke sana. Perilaku ini membantu menjamin bahwa perjanjian harga yang dibuat dengan pelanggan untuk pernyataan pekerjaan (SOW) tidak berubah jika daftar harga Master diubah.
 
-Namun, pada kuotasi, Anda dapat menggunakan daftar harga Master. Atau, Anda dapat menyalin daftar harga Master dan mengeditnya untuk membuat daftar harga kustom yang berlaku hanya untuk kuotasi tersebut. Untuk membuat daftar harga baru yang spesifik untuk kuotasi, pada halaman **kuotasi**, pilih **buat harga kustom**. Anda dapat mengakses daftar harga proyek spesifik kesepakatan hanya dari kuotasi. 
+Namun, pada kuotasi, Anda dapat menggunakan daftar harga Master. Atau, Anda dapat menyalin daftar harga Master dan mengeditnya untuk membuat daftar harga kustom yang berlaku hanya untuk kuotasi tersebut. Untuk membuat daftar harga baru yang spesifik untuk kuotasi, pada halaman **kuotasi** , pilih **buat harga kustom**. Anda dapat mengakses daftar harga proyek spesifik kesepakatan hanya dari kuotasi. 
 
 Bila Anda membuat daftar harga proyek kustom, hanya komponen proyek dari daftar harga yang akan disalin. Dengan kata lain, daftar harga baru dibuat sebagai salinan dari daftar harga proyek yang ada yang dilampirkan pada kuotasi, dan daftar harga baru ini hanya memiliki harga peran yang terkait dan harga kategori transaksi.
   

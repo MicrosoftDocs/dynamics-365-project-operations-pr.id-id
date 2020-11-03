@@ -3,23 +3,23 @@ title: Menyalin proyek
 description: Topik ini menyediakan informasi tentang menyalin proyek di Dynamics 365 Project operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078425"
 ---
 # <a name="copy-a-project"></a>Menyalin proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek baru dengan menggunakan tindakan **Salin proyek** pada **proyek**. Untuk menyalin proyek, pilih proyek, lalu pilih **Salin**. Tindakan akan menyalin:
+Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek baru dengan memilih **Salin proyek** pada formulir **proyek**. Untuk menyalin proyek, buka proyek yang akan disalin, lalu pilih **Salin proyek**. Tindakan akan menyalin:
 
 - Properti proyek
 - Struktur rincian kerja
@@ -58,4 +58,6 @@ Bila tim proyek disalin dari proyek sumber, sumber daya generik akan disalin. Tu
 
 ## <a name="estimates"></a>Perkiraan
 
-Saat proyek disalin, baris sumber daya maupun perkiraan pengeluaran disalin dari proyek sumber.
+Saat proyek disalin, baris sumber daya maupun perkiraan pengeluaran disalin dari proyek sumber. 
+
+Untuk informasi tentang cara mengakses salinan proyek secara programatik, lihat [mengembangkan template proyek dengan salinan proyek](dev-copy-project.md).

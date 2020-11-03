@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961885"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078350"
 ---
 # <a name="maintain-team-members"></a>Mengelola anggota tim
 
@@ -21,14 +21,14 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Anda dapat menambahkan sumber daya bernama ke tim proyek Anda dengan memesan secara langsung ke tim.
 
-1. Di Dynamics 365 Project Operations, buka **proyek**, lalu pilih proyek yang terbuka yang Anda lakukan pemesanannya.
-2. Pada halaman **proyek**, pada tab **tim**, pilih **baru**. 
-3. Di kotak dialog **Buat Cepat anggota tim proyek**, pilih sumber daya yang dapat dipesan. Bidang **peran** akan terisi dengan peran default sumber daya jika telah ditugaskan. Anda dapat mengubah peran. 
+1. Di Dynamics 365 Project Operations, buka **proyek** , lalu pilih proyek yang terbuka yang Anda lakukan pemesanannya.
+2. Pada halaman **proyek** , pada tab **tim** , pilih **baru**. 
+3. Di kotak dialog **Buat Cepat anggota tim proyek** , pilih sumber daya yang dapat dipesan. Bidang **peran** akan terisi dengan peran default sumber daya jika telah ditugaskan. Anda dapat mengubah peran. 
 4. Pilih tanggal dari dan hingga untuk kebutuhan sumber daya dan pilih metode alokasi kapasitas sumber daya. 
 5. Jika Anda ingin agar anggota tim menjadi pemberi persetujuan proyek, Pilih **ya** di bidang **pemberi persetujuan proyek**. Anggota tim dapat menyetujui entri waktu dan biaya yang diajukan untuk proyek ini. 
 6. Pilih **Simpan**.
 
-Anda sekarang dapat menetapkan sumber daya yang dipesan untuk tugas pada proyek. Pada halaman **proyek**, di tab **jadwal**, tetapkan tugas ke sumber daya baru. Pemilih sumber daya yang diluncurkan dari bidang **sumber daya** di kisi tugas akan menampilkan anggota tim yang dapat Anda pilih.
+Anda sekarang dapat menetapkan sumber daya yang dipesan untuk tugas pada proyek. Pada halaman **proyek** , di tab **jadwal** , tetapkan tugas ke sumber daya baru. Pemilih sumber daya yang diluncurkan dari bidang **sumber daya** di kisi tugas akan menampilkan anggota tim yang dapat Anda pilih.
 
 
 Dalam Project Operations, Pemesanan sumber daya, dan penetapan tugas tidak digabungkan dengan ketat. Saat Anda menggunakan pemilih sumber daya dalam jadwal, Anda dapat menetapkan tugas untuk anggota tim lebih lama dibandingkan Pemesanan mereka tercakup dalam proyek.

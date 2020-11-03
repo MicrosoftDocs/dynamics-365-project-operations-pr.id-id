@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896285"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078408"
 ---
 # <a name="project-quote-key-concepts"></a>Konsep kunci kuotasi proyek
 
@@ -62,7 +62,7 @@ Project Operations mendukung empat jenis kelas transaksi:
 - Materi
 - Biaya
 
-Nilai biaya dan penjualan dapat diperkirakan dan ditimbulkan pada kelas transaksi waktu, pengeluaran, dan material. Ongkos adalah hanya kelas transaksi pendapatan.
+Nilai biaya dan penjualan dapat diperkirakan dan ditimbulkan pada kelas transaksi waktu, pengeluaran, dan material. Ongkos adalah kelas transaksi hanya pendapatan.
 
 ## <a name="work-entities-and-billing-entities"></a>Entitas kerja dan entitas penagihan
 
@@ -78,7 +78,7 @@ penawaran multi-pelanggan terjadi ketika ada lebih dari satu pelanggan untuk fak
 
 ## <a name="invoice-schedules"></a>Jadwal faktur
 
-Jadwal faktur khusus untuk setiap baris kuotasi dan juga opsional. Jadwal faktur dibuat berdasarkan tanggal mulai dan selesai dan frekuensi faktur tertentu. Jadwal faktur digunakan dalam tahap kontrak saat proses pembuatan faktur otomatis dikonfigurasi. Pada tahapan kuotasi, jadwalnya opsional. Ketika jadwal faktur dibuat dalam tahap **kuotasi**, mereka akan disalin ke kontrak proyek yang dibuat saat kuotasi proyek dimenangkan.
+Jadwal faktur khusus untuk setiap baris kuotasi dan juga opsional. Jadwal faktur dibuat berdasarkan tanggal mulai dan selesai dan frekuensi faktur tertentu. Jadwal faktur digunakan dalam tahap kontrak saat proses pembuatan faktur otomatis dikonfigurasi. Pada tahapan kuotasi, jadwalnya opsional. Ketika jadwal faktur dibuat dalam tahap **kuotasi** , mereka akan disalin ke kontrak proyek yang dibuat saat kuotasi proyek dimenangkan.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Perubahan dari kuotasi Dynamics 365 Sales:
 

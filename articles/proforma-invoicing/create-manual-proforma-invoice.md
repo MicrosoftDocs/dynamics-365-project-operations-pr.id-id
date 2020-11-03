@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ad85262482f782391eca85f46ca0e63a887c89f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896108"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4078714"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Membuat faktur proforma manual
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 Faktur memberikan tingkat persetujuan kepada manajer proyek kedua sebelum membuat faktur untuk pelanggan. Tingkat persetujuan pertama diselesaikan saat entri waktu dan pengeluaran yang diajukan anggota tim proyek disetujui.
 
@@ -45,17 +44,17 @@ Faktur proyek dapat dibuat satu per satu atau dalam jumlah besar. Anda dapat mem
 
 ### <a name="manually-create-project-invoices"></a>Buat Faktur Proyek secara manual 
 
-Dari halaman daftar **kontrak proyek**, Anda dapat membuat faktur proyek secara terpisah untuk setiap kontrak proyek, atau Anda dapat membuat faktur secara massal untuk beberapa kontrak proyek.
+Dari halaman daftar **kontrak proyek** , Anda dapat membuat faktur proyek secara terpisah untuk setiap kontrak proyek, atau Anda dapat membuat faktur secara massal untuk beberapa kontrak proyek.
 
 Ikuti langkah ini untuk membuat faktur untuk kontrak proyek tertentu.
 
-- Pada halaman daftar **kontrak proyek**, buka kontrak proyek, lalu pilih **buat faktur**.
+- Pada halaman daftar **kontrak proyek** , buka kontrak proyek, lalu pilih **buat faktur**.
 
     Faktur dibuat untuk semua transaksi untuk kontrak proyek yang dipilih yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, tonggak waktu, dan baris kontrak berbasis produk.
 
 Ikuti langkah berikut untuk membuat faktur secara massal.
 
-1. Pada halaman daftar **kontrak proyek**, pilih satu atau beberapa kontrak proyek yang harus Anda buat faktur, lalu pilih **buat faktur proyek**.
+1. Pada halaman daftar **kontrak proyek** , pilih satu atau beberapa kontrak proyek yang harus Anda buat faktur, lalu pilih **buat faktur proyek**.
 
     Pesan peringatan akan menginformasikan bahwa mungkin ada penundaan sebelum faktur dibuat. Proses ini juga ditampilkan.
 
@@ -71,8 +70,8 @@ Ikuti langkah berikut untuk mengkonfigurasi faktur otomatis yang berjalan.
 
 1. Buka **Pengaturan** \> **Pekerjaan bets**.
 2. Membuat batch pekerjaan, dan namai **Project operations buat faktur**. Nama pekerjaan batch harus mencakup istilah "Create Invoices".
-3. Di bidang **jenis pekerjaan**, pilih **tidak ada**. Secara default, **frekuensi harian** dan opsi **aktif** diatur ke **ya**.
-4. Pilih **Jalankan alur kerja**. Di kotak dialog **mencari rekaman**, Anda akan melihat tiga alur kerja:
+3. Di bidang **jenis pekerjaan** , pilih **tidak ada**. Secara default, **frekuensi harian** dan opsi **aktif** diatur ke **ya**.
+4. Pilih **Jalankan alur kerja**. Di kotak dialog **mencari rekaman** , Anda akan melihat tiga alur kerja:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -81,11 +80,11 @@ Ikuti langkah berikut untuk mengkonfigurasi faktur otomatis yang berjalan.
 5. Pilih **ProcessRunCaller** dan kemudian pilih **Tambahkan**.
 6. Pilih **OK** di kotak dialog berikutnya. Alur kerja **tidur** diikuti dengan alur kerja **proses**.
 
-    Anda juga dapat memilih **ProcessRunner** di langkah 5. Kemudian, bila Anda memilih **OK**, alur kerja **proses** diikuti dengan alur kerja **tidur**.
+    Anda juga dapat memilih **ProcessRunner** di langkah 5. Kemudian, bila Anda memilih **OK** , alur kerja **proses** diikuti dengan alur kerja **tidur**.
 
 Alur kerja **ProcessRunCaller** dan **ProcessRunner** membuat faktur. **ProcessRunCaller** memanggil **ProcessRunner**. **ProcessRunner** adalah alur kerja yang benar-benar membuat faktur. Ia melalui semua baris kontrak pembuatan faktur, dan membuat faktur untuk baris tersebut. Untuk menentukan baris kontrak yang harus dibuat faktur, pekerjaan akan melihat tanggal faktur berjalan untuk baris kontrak. Jika baris kontrak milik satu kontrak memiliki tanggal yang sama saat menjalankan faktur, transaksi digabungkan menjadi satu faktur yang memiliki dua baris faktur. Jika tidak ada transaksi untuk membuat faktur, pekerjaan akan melompati pembuatan faktur.
 
-Setelah **ProcessRunner** selesai berjalan, maka ia memanggil **ProcessRunCaller**, menyediakan waktu berakhir, dan ditutup. **ProcessRunCaller** kemudian memulai timer yang berjalan selama 24 jam dari waktu berakhir yang ditentukan. Di akhir timer, **ProcessRunCaller** ditutup.
+Setelah **ProcessRunner** selesai berjalan, maka ia memanggil **ProcessRunCaller** , menyediakan waktu berakhir, dan ditutup. **ProcessRunCaller** kemudian memulai timer yang berjalan selama 24 jam dari waktu berakhir yang ditentukan. Di akhir timer, **ProcessRunCaller** ditutup.
 
 Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika proses batch ini dijalankan berkali-kali, beberapa instans pekerjaan dibuat dan menyebabkan kesalahan. Oleh karena itu, Anda harus memulai proses batch hanya satu kali, dan Anda harus me-restart hanya jika berhenti berjalan.
 
@@ -100,7 +99,7 @@ Bila Anda membuat faktur draf proyek, Semua transaksi penjualan yang tidak ditag
 - Edit dan sesuaikan jenis kuantitas dan penagihan.
 - Tambahkan waktu, pengeluaran, dan biaya secara langsung sebagai transaksi pada faktur. Anda dapat menggunakan fitur ini jika baris faktur dipetakan ke baris kontrak yang memungkinkan untuk kelas transaksi ini.
 
-Pilih **konfirmasikan** untuk mengonfirmasi faktur. Tindakan konfirmasi adalah tindakan satu arah. Bila Anda memilih **konfirmasikan**, sistem akan membuat faktur hanya baca dan membuat aktual penjualan yang ditagih dari setiap detail baris faktur untuk setiap baris faktur. Jika detail baris faktur merujuk penjualan yang belum ditagih, sistem juga akan membalikkan penjualan yang belum ditagih. (Detail baris faktur apa pun yang dibuat dari entri waktu atau biaya akan merujuk pada penjualan yang belum ditagih.) Sistem integrasi buku besar dapat menggunakan pembalikan ini untuk membalikkan pekerjaan proyek dalam proses (WIP) untuk tujuan akuntansi.
+Pilih **konfirmasikan** untuk mengonfirmasi faktur. Tindakan konfirmasi adalah tindakan satu arah. Bila Anda memilih **konfirmasikan** , sistem akan membuat faktur hanya baca dan membuat aktual penjualan yang ditagih dari setiap detail baris faktur untuk setiap baris faktur. Jika detail baris faktur merujuk penjualan yang belum ditagih, sistem juga akan membalikkan penjualan yang belum ditagih. (Detail baris faktur apa pun yang dibuat dari entri waktu atau biaya akan merujuk pada penjualan yang belum ditagih.) Sistem integrasi buku besar dapat menggunakan pembalikan ini untuk membalikkan pekerjaan proyek dalam proses (WIP) untuk tujuan akuntansi.
 
 ### <a name="correct-a-confirmed-invoice"></a>Koreksi faktur dikonfirmasi
 

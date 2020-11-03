@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078357"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Atur dan terapkan data konfigurasi di Common Data Service untuk Project Operations
 
@@ -23,11 +23,11 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 1. Unduh, buka blokir, dan buka [Paket paket data pengaturan dan konfigurasi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Arahkan ke folder zip terbuka dan Jalankan file eksekusi, *DataMigrationUtility*.
-3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
+3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data** , lalu pilih **Lanjutkan**.
 
 ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
-4. Di Halaman 2 CMT Wizard, pilih **Office 365** sebagai **jenis penyebaran**.
+4. Di Halaman 2 CMT Wizard, pilih **Microsoft 365** sebagai **jenis penyebaran**.
 5. Pilih **Tampilkan daftar organisasi tersedia** dan **Tampilkan kotak centang tingkat lanjut**.
 6. Pilih kawasan penyewa Anda, masukkan kredensial, lalu pilih **masuk**.
 
@@ -75,15 +75,15 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 ![Buka Lingkungan](./media/7OpenEnvironment.png)
 
-2. Buka **proyek** > **sumber daya**, lalu pilih **baru** untuk membuat sumber daya yang dapat dipesan untuk pengguna Anda.
+2. Buka **proyek** > **sumber daya** , lalu pilih **baru** untuk membuat sumber daya yang dapat dipesan untuk pengguna Anda.
 
 ![Sumber Daya yang Dapat Dipesan](./media/8BookableResources.png)
 
-3. Pada tab **Umum**, pilih pengguna admin. Verifikasikan bahwa zona waktu sesuai dengan yang Anda miliki. 
+3. Pada tab **Umum** , pilih pengguna admin. Verifikasikan bahwa zona waktu sesuai dengan yang Anda miliki. 
 
 ![Sumber Daya Dapat Dipesan Baru](./media/9NewBookableResource.png)
 
-4. Pada tab **penjadwalan**, di bidang **perusahaan**, pilih perusahaan **USPM**, lalu pilih **Simpan**. 
+4. Pada tab **penjadwalan** , di bidang **perusahaan** , pilih perusahaan **USPM** , lalu pilih **Simpan**. 
 
 ![Tab Penjadwalan](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
  
 12. Perbarui bidang berikut:
 
- - **Perusahaan Default**: USPM
- - **Unit organisasi default**:Aswono Robotics global
- - **Frekuensi faktur**: hari ketujuh dan terakhir
- - **Template jam kerja**: Ubah ke template yang Anda buat.
+ - **Perusahaan Default** : USPM
+ - **Unit organisasi default** :Aswono Robotics global
+ - **Frekuensi faktur** : hari ketujuh dan terakhir
+ - **Template jam kerja** : Ubah ke template yang Anda buat.
 
 13. Pilih **Simpan**. 
 

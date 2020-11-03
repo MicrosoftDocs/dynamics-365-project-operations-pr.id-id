@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891534"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078683"
 ---
 # <a name="sales-processes-overview"></a>Ikhtisar proses penjualan
 
@@ -39,7 +38,7 @@ Nilai penjualan dapat diperkirakan berdasarkan proyek yang sebelumnya telah diki
 
 Anda dapat membuat perkiraan kuotasi tingkat tinggi. Akhirnya, perkiraan tingkat tinggi ini akan digantikan dengan perkiraan lebih rinci berdasarkan rencana proyek yang Anda buat menggunakan template proyek standar. Template ini membantu Anda membuat jadwal dan menentukan nilai moneter pada kuotasi dan komponennya (baris kuotasi). 
 
-Anda dapat membuat beberapa kuotasi untuk proyek dan mengelompokkannya dalam satu rekaman peluang. Akhirnya, salah satu kuotasi tersebut ditandai **ditutup sebagai menang**, dan kontrak proyek atau pernyataan pekerjaan (Sow) dibuat. Kontrak proyek berisi nilai kontrak untuk setiap komponen (baris kontrak) yang diterima oleh pelanggan untuk pelaksanaan. SOW biasanya dibuat sebagai dokumen Microsoft Word. Semua faktur yang dikirim ke pelanggan selama periode pengiriman proyek merujuk pada kontrak proyek atau SOW.
+Anda dapat membuat beberapa kuotasi untuk proyek dan mengelompokkannya dalam satu rekaman peluang. Akhirnya, salah satu kuotasi tersebut ditandai **ditutup sebagai menang** , dan kontrak proyek atau pernyataan pekerjaan (Sow) dibuat. Kontrak proyek berisi nilai kontrak untuk setiap komponen (baris kontrak) yang diterima oleh pelanggan untuk pelaksanaan. SOW biasanya dibuat sebagai dokumen Microsoft Word. Semua faktur yang dikirim ke pelanggan selama periode pengiriman proyek merujuk pada kontrak proyek atau SOW.
 
 Anda juga dapat membuat kuotasi alternatif dalam satu rekaman peluang atau mengkonfigurasi sistem sehingga kontrak proyek dibuat saat kuotasi dimenangkan. Dalam kasus ini, Anda dapat melampirkan dokumen Word yang mewakili SOW untuk rekaman kontrak proyek.
 
@@ -57,16 +56,16 @@ Misalnya, perusahaan Anda mungkin memiliki enam tahapan berikut dalam proses pen
  
 Organisasi Anda mungkin menggunakan entitas yang berbeda untuk menunjukkan kesepakatan yang sama seiring perkembangannya. Di awal proses penjualan, kesepakatan diwakili oleh entitas peluang. Seiring berjalannya waktu dan rincian lainnya muncul, Anda dapat menggunakan perkiraan tingkat tinggi untuk membuat satu atau beberapa kuotasi. Jika salah satu dari kuotasi ini ditinjau oleh pemangku kepentingan internal dan pelanggan, entitas kuotasi menunjukkan transaksi. Setelah pelanggan menerima kuotasi, kontrak proyek atau SOW menunjukkan kesepakatan. Untuk mendukung perilaku ini, BPF distrukturkan sehingga setiap tahapan dalam proses dihubungkan dengan tabel database yang berbeda.
 
-Tahapan **kualifikasi** dalam proses penjualan dapat didukung oleh entitas peluang. Tahapan **estimasi** dan **peninjauan internal** dapat didukung oleh entitas kuotasi. Tahapan **kontrak**, **Pelaksanaan**, dan **penutupan** dapat didukung oleh entitas kontrak proyek.
+Tahapan **kualifikasi** dalam proses penjualan dapat didukung oleh entitas peluang. Tahapan **estimasi** dan **peninjauan internal** dapat didukung oleh entitas kuotasi. Tahapan **kontrak** , **Pelaksanaan** , dan **penutupan** dapat didukung oleh entitas kontrak proyek.
 
 Saat Anda meneruskan transaksi melalui tahapan, Anda akan diminta membuat rekaman entitas yang sesuai untuk membantu dan memandu Anda melakukan proses. Tahapan dapat kondisional. Misalnya, jika Anda memerlukan peninjauan internal pada kuotasi hanya jika kuotasi menggunakan daftar harga kustom, Anda dapat mengkonfigurasikan kondisi tersebut dalam tahapan proses bisnis yang sesuai. Tahap **peninjauan internal** kemudian ditampilkan hanya untuk kuotasi yang menggunakan daftar harga kustom. Untuk semua transaksi dan kuotasi lainnya, tahapan **estimasi** diikuti oleh tahapan **kontrak**.
 
 > [!NOTE]
-> Project Operations memiliki halaman tertentu untuk rekaman entitas peluang, kuotasi, pesanan, dan faktur. Anda harus membuat rekaman ini menggunakan halaman informasi proyek untuk entitas ini. Jika tidak, Anda tidak akan dapat membuka rekaman dari halaman **informasi proyek**. Jika Anda ingin membuka rekaman dari halaman **informasi proyek**, Anda harus menghapus rekaman dan membuatnya kembali menggunakan halaman **informasi proyek** dengan logika bisnis untuk masing-masing jenis entitas ini memastikan bahwa bidang **jenis** rekaman diatur dengan benar, dan semua konsep wajib diinisialisasi dengan benar.
+> Project Operations memiliki halaman tertentu untuk rekaman entitas peluang, kuotasi, pesanan, dan faktur. Anda harus membuat rekaman ini menggunakan halaman informasi proyek untuk entitas ini. Jika tidak, Anda tidak akan dapat membuka rekaman dari halaman **informasi proyek**. Jika Anda ingin membuka rekaman dari halaman **informasi proyek** , Anda harus menghapus rekaman dan membuatnya kembali menggunakan halaman **informasi proyek** dengan logika bisnis untuk masing-masing jenis entitas ini memastikan bahwa bidang **jenis** rekaman diatur dengan benar, dan semua konsep wajib diinisialisasi dengan benar.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Melacak revisi untuk kuotasi dan rencana proyek dalam siklus penjualan
-Dalam Project Operations, Anda tidak dapat melacak revisi yang dibuat ke kuotasi. Namun, Anda harus menandai kuotasi yang ada **ditutup sebagai kalah**, lalu membuat kuotasi baru. Anda dapat menyalin kuotasi atau mengkloning kuotasi berbasis proyek.
+Dalam Project Operations, Anda tidak dapat melacak revisi yang dibuat ke kuotasi. Namun, Anda harus menandai kuotasi yang ada **ditutup sebagai kalah** , lalu membuat kuotasi baru. Anda dapat menyalin kuotasi atau mengkloning kuotasi berbasis proyek.
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Melacak komentar dan persetujuan kuotasi dan kontrak proyek
 Anda dapat mengelola peninjauan dan persetujuan kuotasi dan kontrak proyek menggunakan posting dan dinding rekaman. Organisasi Anda dapat membuat alur kerja dan plug-in kustom untuk menetapkan, mengalihkan, melaporkan, dan mengelola pemberitahuan peninjauan dan persetujuan item kerja.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078344"
 ---
 # <a name="approvals-overview"></a>Sekilas persetujuan
 
@@ -27,7 +27,7 @@ Bila Anda membuat dan mengirimkan entri waktu atau pengeluaran, entri persetujua
 ## <a name="approve-an-entry"></a>Setujui entri
 Formulir **persetujuan** memungkinkan Anda beralih antara tampilan yang berbeda sehingga Anda dapat melihat jenis persetujuan yang berbeda.
   
-1. Buka formulir **persetujuan** dan pilih **pengeluaran**, **waktu**, atau **penarikan**.
+1. Buka formulir **persetujuan** dan pilih **pengeluaran** , **waktu** , atau **penarikan**.
 2. Tinjau setiap persetujuan, dan pilih yang ingin Anda setujui.
 3. Pilih **setujui** untuk menyetujui entri yang dipilih.
 Sistem akan memproses entri ini dan membuat aktual atau pemesanan.
@@ -47,7 +47,7 @@ Pada titik tertentu, Anda mungkin perlu mengingat entri yang diajukan. Jika entr
 Setiap proyek memiliki sejumlah anggota tim proyek. Anda dapat menentukan anggota tim yang juga pemberi persetujuan proyek.
 
 1. Buka formulir **proyek** dan buka proyek dari daftar.
-2. Pada tab **tim**, pilih anggota tim yang akan menjadi pemberi izin proyek dan kemudian pilih **Edit**.
+2. Pada tab **tim** , pilih anggota tim yang akan menjadi pemberi izin proyek dan kemudian pilih **Edit**.
 3. Atur **bidang pemberi izin proyek** ke **ya**.
 4. Pilih **Simpan**.
 5. Ulangi langkah 2-4 untuk menambahkan pemberi izin proyek tambahan.
@@ -55,7 +55,7 @@ Setiap proyek memiliki sejumlah anggota tim proyek. Anda dapat menentukan anggot
 ## <a name="configure-the-users-manager"></a>Mengkonfigurasi manajer pengguna
 
 1. Buka **Pengaturan** > **Keamanan** > **Pengguna**.
-2. Pilih pengguna yang akan Anda tetapkan manajer dan di area **informasi organisasi**, pilih manajer dari daftar. 
+2. Pilih pengguna yang akan Anda tetapkan manajer dan di area **informasi organisasi** , pilih manajer dari daftar. 
 3. Pilih **Simpan**.
 
 

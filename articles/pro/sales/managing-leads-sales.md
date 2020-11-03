@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896330"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078413"
 ---
 # <a name="manage-leads-pro"></a>Kelola Prospek (Pro)
 
@@ -23,7 +23,7 @@ Prospek berbasis proyek dapat dikelola dan terkualifikasi dalam Project Operatio
 
 ## <a name="list-of-project-sales-leads"></a>Daftar Prospek Penjualan proyek
 
-Di Bagian **penjualan**, di panel navigasi kiri, buka halaman daftar **prospek** untuk melihat daftar semua rekaman prospek di sistem. Daftar prospek yang ditampilkan adalah berbasis pekerjaan dan jenis prospek lain yang dapat dibuat jika Anda juga memiliki aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
+Di Bagian **penjualan** , di panel navigasi kiri, buka halaman daftar **prospek** untuk melihat daftar semua rekaman prospek di sistem. Daftar prospek yang ditampilkan adalah berbasis pekerjaan dan jenis prospek lain yang dapat dibuat jika Anda juga memiliki aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda dapat membuat tampilan terfilter untuk melihat hanya prospek berbasis proyek dengan membuat filter pada nilai **jenis**. Misalnya, Anda dapat memilih untuk hanya menampilkan prospek berbasis pekerjaan.
 
@@ -53,7 +53,7 @@ Prospek yang memiliki nilai **jenis** yang ditetapkan ke **berbasis pekerjaan** 
 
 - Akun yang menggunakan bidang **perusahaan** dari prospek.
 - Rekaman kontak yang terkait dengan akun berdasarkan nilai pada bidang **nama depan** dan **nama belakang** pada prospek.
-- Peluang berbasis proyek yang bidang **jenis**-nya diatur ke &quot;**berbasis pekerjaan**.
+- Peluang berbasis proyek yang bidang **jenis** -nya diatur ke &quot;**berbasis pekerjaan**.
 
 Untuk informasi lebih rinci tentang prospek yang memenuhi syarat, lihat[kualifikasi atau mengkonversi prospek](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965811"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078416"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Mengelola unit kompleks seperti per-pengguna, per bulan untuk baris kuotasi berbasis produk
 
@@ -29,8 +29,8 @@ Project Operations memvalidasi bahwa hanya properti numerik atau properti produk
 
 Misalnya, Dynamics 365 Sales mungkin memiliki properti berikut:
 
-- **Jumlah pengguna**: jumlah pengguna
-- **Jumlah bulan**: jumlah bulan langganan
+- **Jumlah pengguna** : jumlah pengguna
+- **Jumlah bulan** : jumlah bulan langganan
 - **SKU Produk**
 
 Anda dapat menandai **Jumlah pengguna** dan **Jumlah bulan** sebagai faktor kuantitas dengan mengedit properti lini produk.
