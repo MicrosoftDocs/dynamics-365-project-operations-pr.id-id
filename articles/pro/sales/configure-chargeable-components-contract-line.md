@@ -34,7 +34,7 @@ Subkumpulan komponen yang disertakan dapat ditandai sebagai dikenakan biaya meng
 
 Komponen yang dapat dikenakan biaya dapat didefinisikan pada kategori tugas, peran, dan transaksi.
 
-Dapat dikenakan Biaya didefinisikan pada tugas untuk baris kontrak proyek dan berlaku untuk semua kelas transaksi yang disertakan di baris. Jika bidang **Sertakan Tugas** pada baris kontrak kosong atau diatur ke **Seluruh proyek** , tab **Tugas yang dapat dikenakan biaya** tidak akan tersedia.
+Dapat dikenakan Biaya didefinisikan pada tugas untuk baris kontrak proyek dan berlaku untuk semua kelas transaksi yang disertakan di baris. Jika bidang **Sertakan Tugas** pada baris kontrak kosong atau diatur ke * *Seluruh proyek* *, tab **Tugas yang dapat dikenakan biaya** tidak akan tersedia.
 
 Bisa dikenakan biaya yang didefinisikan pada peran untuk baris kontrak proyek hanya berlaku untuk kelas transaksi **waktu**. Jika bidang **Sertakan waktu** pada baris kontrak diatur ke **Tidak** , tab **Peran yang dapat dikenakan biaya** tidak akan tersedia.
 
