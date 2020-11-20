@@ -3,7 +3,7 @@ title: Harga proyek
 description: Topik ini menyediakan informasi tentang cara kerja harga di Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078681"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120772"
 ---
 # <a name="project-pricing"></a>Harga proyek 
 
@@ -56,7 +56,7 @@ Istilah *peran sumber daya* merujuk pada seperangkat keterampilan, kompetensi, d
 
 Waktu sumber daya manusia biasanya dikutip berdasarkan peran yang diisi sumber daya pada proyek tertentu. Untuk waktu sumber daya manusia, PSA mendukung penetapan biaya dan penagihan yang didasarkan pada peran sumber daya. Waktu dapat dihargai di unit mana pun dalam grup unit **waktu**.
 
-Grup unit **waktu** dibuat saat PSA diinstal. Ia memiliki unit default **jam**. Anda tidak dapat menghapus, mengubah nama, atau mengedit atribut untuk grup unit **waktu** atau unit **jam**. Namun, Anda dapat menambahkan unit lain ke grup unit **waktu**. Jika Anda mencoba untuk menghapus Grup unit **waktu** atau unit **jam** , Anda dapat menyebabkan kegagalan dalam logika bisnis PSA.
+Grup unit **waktu** dibuat saat PSA diinstal. Ia memiliki unit default **jam**. Anda tidak dapat menghapus, mengubah nama, atau mengedit atribut untuk grup unit **waktu** atau unit **jam**. Namun, Anda dapat menambahkan unit lain ke grup unit **waktu**. Jika Anda mencoba untuk menghapus Grup unit **waktu** atau unit **jam**, Anda dapat menyebabkan kegagalan dalam logika bisnis PSA.
 
 > ![Mengkonfigurasi harga berdasarkan peran](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ Dalam PSA, Anda dapat membuat penimpaan spesifik transaksi untuk harga yang dipi
 
 Secara default, kontrak proyek selalu mendapatkan salinan dari daftar harga penjualan induk, bukan link langsung ke sana. Perilaku ini membantu menjamin bahwa perjanjian harga yang dibuat dengan pelanggan untuk pernyataan pekerjaan (SOW) tidak berubah jika daftar harga Master diubah.
 
-Namun, pada kuotasi, Anda dapat menggunakan daftar harga Master. Atau, Anda dapat menyalin daftar harga Master dan mengeditnya untuk membuat daftar harga kustom yang berlaku hanya untuk kuotasi tersebut. Untuk membuat daftar harga baru yang spesifik untuk kuotasi, pada halaman **kuotasi** , pilih **buat harga kustom**. Anda dapat mengakses daftar harga proyek spesifik kesepakatan hanya dari kuotasi. 
+Namun, pada kuotasi, Anda dapat menggunakan daftar harga Master. Atau, Anda dapat menyalin daftar harga Master dan mengeditnya untuk membuat daftar harga kustom yang berlaku hanya untuk kuotasi tersebut. Untuk membuat daftar harga baru yang spesifik untuk kuotasi, pada halaman **kuotasi**, pilih **buat harga kustom**. Anda dapat mengakses daftar harga proyek spesifik kesepakatan hanya dari kuotasi. 
 
 Bila Anda membuat daftar harga proyek kustom, hanya komponen proyek dari daftar harga yang akan disalin. Dengan kata lain, daftar harga baru dibuat sebagai salinan dari daftar harga proyek yang ada yang dilampirkan pada kuotasi, dan daftar harga baru ini hanya memiliki harga peran yang terkait dan harga kategori transaksi.
 

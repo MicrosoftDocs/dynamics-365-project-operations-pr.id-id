@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078581"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121267"
 ---
 # <a name="products"></a>Produk
 
@@ -33,27 +33,27 @@ Produk adalah tulang punggung dari bisnis Anda. Katalog Produk di Dynamics 365 S
 ## <a name="add-a-product"></a>Tambah produk
 
 1.  Pastikan bahwa Anda memiliki peran manajer penjualan profesional atau administrator sistem sehingga Anda dapat menambahkan produk di Dynamics 365 Sales Professional.
-2.  Di peta situs, di dalam **Konfigurasi** , pilih **Produk**.
+2.  Di peta situs, di dalam **Konfigurasi**, pilih **Produk**.
 3.  Pilih **tambah produk** dan isi informasi berikut:
 
     -  **Nama**
     -  **ID produk**
-    -  **Induk** : Pilih keluarga produk induk untuk produk. Jika Anda membuat produk anak dalam keluarga produk, nama produk induk kelompok diisi di sini. Hal ini tidak dapat diubah setelah rekaman disimpan.
+    -  **Induk**: Pilih keluarga produk induk untuk produk. Jika Anda membuat produk anak dalam keluarga produk, nama produk induk kelompok diisi di sini. Hal ini tidak dapat diubah setelah rekaman disimpan.
     -  **Berlaku dari**/**Berlaku hingga:** Tentukan periode yang valid untuk produk dengan memilih **Berlaku dari** dan **Berlaku hingga** tanggal.
-    -  **Grup unit** : Pilih grup unit. Grup unit adalah kumpulan berbagai unit produk yang dijual dan mendefinisikan bagaimana masing-masing item ini dikelompokkan ke dalam jumlah yang lebih besar. Misalnya, jika Anda menambahkan benih sebagai produk, Anda mungkin telah membuat sebuah kelompok unit yang disebut "Benih", dan didefinisikan dengan unit utama sebagai "paket."
-    -  **Unit Default** : Pilih unit paling umum yang akan digunakan dalam penjualan produk. Unit adalah jumlah atau pengukuran penjualan produk Anda. Misalnya, jika Anda menambahkan benih sebagai produk, Anda dapat menjual mereka dalam paket, kotak, atau palet. Masing-masing menjadi sebuah unit produk. Jika benih sebagian besar dijual dalam paket, pilih sebagai unit.
-    -  **Daftar Harga Default** : Jika ini merupakan produk baru, bidang ini hanya baca. Sebelum memilih daftar harga default, Anda harus menyelesaikan semua bidang yang diperlukan, kemudian menyimpan rekaman. Meskipun daftar harga default tidak diperlukan, setelah Anda menyimpan rekaman produk, sangat dianjurkan untuk mengatur daftar harga default untuk masing-masing produk. Kemudian, jika rekaman pelanggan tidak berisi daftar harga, Sales dapat menggunakan daftar harga default untuk menghasilkan kuotasi, pesanan, dan faktur.
-    -  **Desimal yang Didukung** : Masukkan bilangan bulat antara 0 hingga 5. Jika produk tidak dapat dibagi menjadi kuantitas pecahan, masukkan 0. Presisi bidang **kuantitas** di kuotasi, pesanan, atau rekaman produk faktur divalidasi terhadap nilai di bidang ini jika produk tidak memiliki daftar harga yang terkait.
-    -  **Subjek** : Kaitkan produk ini dengan subjek. Anda dapat menggunakan subjek untuk mengkategorikan produk dan untuk memfilter laporan.
+    -  **Grup unit**: Pilih grup unit. Grup unit adalah kumpulan berbagai unit produk yang dijual dan mendefinisikan bagaimana masing-masing item ini dikelompokkan ke dalam jumlah yang lebih besar. Misalnya, jika Anda menambahkan benih sebagai produk, Anda mungkin telah membuat sebuah kelompok unit yang disebut "Benih", dan didefinisikan dengan unit utama sebagai "paket."
+    -  **Unit Default**: Pilih unit paling umum yang akan digunakan dalam penjualan produk. Unit adalah jumlah atau pengukuran penjualan produk Anda. Misalnya, jika Anda menambahkan benih sebagai produk, Anda dapat menjual mereka dalam paket, kotak, atau palet. Masing-masing menjadi sebuah unit produk. Jika benih sebagian besar dijual dalam paket, pilih sebagai unit.
+    -  **Daftar Harga Default**: Jika ini merupakan produk baru, bidang ini hanya baca. Sebelum memilih daftar harga default, Anda harus menyelesaikan semua bidang yang diperlukan, kemudian menyimpan rekaman. Meskipun daftar harga default tidak diperlukan, setelah Anda menyimpan rekaman produk, sangat dianjurkan untuk mengatur daftar harga default untuk masing-masing produk. Kemudian, jika rekaman pelanggan tidak berisi daftar harga, Sales dapat menggunakan daftar harga default untuk menghasilkan kuotasi, pesanan, dan faktur.
+    -  **Desimal yang Didukung**: Masukkan bilangan bulat antara 0 hingga 5. Jika produk tidak dapat dibagi menjadi kuantitas pecahan, masukkan 0. Presisi bidang **kuantitas** di kuotasi, pesanan, atau rekaman produk faktur divalidasi terhadap nilai di bidang ini jika produk tidak memiliki daftar harga yang terkait.
+    -  **Subjek**: Kaitkan produk ini dengan subjek. Anda dapat menggunakan subjek untuk mengkategorikan produk dan untuk memfilter laporan.
 
 4.  Pilih **Simpan**.
-5.  Di tab **detail tambahan** , di bagian **item daftar harga** , pilih ikon **perintah lainnya** , dan kemudian pilih **Tambahkan item daftar harga baru**.
-7.  Di tab **rincian tambahan** , di bagian **relasi produk** , pilih ikon **perintah lainnya** , dan kemudian pilih **menambahkan relasi produk baru**.
-8.  Di formulir **Relasi produk baru** , masukkan rincian berikut, dan pada bilah perintah, pilih **Simpan dan Tutup** :
+5.  Di tab **detail tambahan**, di bagian **item daftar harga**, pilih ikon **perintah lainnya**, dan kemudian pilih **Tambahkan item daftar harga baru**.
+7.  Di tab **rincian tambahan**, di bagian **relasi produk**, pilih ikon **perintah lainnya**, dan kemudian pilih **menambahkan relasi produk baru**.
+8.  Di formulir **Relasi produk baru**, masukkan rincian berikut, dan pada bilah perintah, pilih **Simpan dan Tutup**:
 
-    -   **Produk terkait** : Pilih produk yang Anda ingin menambahkan sebagai produk terkait untuk catatan produk yang sudah ada yang sedang Anda kerjakan.
-    -   **Jenis Relasi Penjualan** : Pilih Apakah Anda ingin menambahkan produk sebagai up-Selling, penjualan silang, aksesori, atau produk pengganti.
-    -   **Arah** : Pilih Apakah hubungan antara produk akan satu arah atau dua arah. Bila Anda memilih Satu Arah, produk yang Anda pilih di **produk terkait** akan ditampilkan sebagai rekomendasi untuk produk sudah ada tapi tidak sebaliknya.
+    -   **Produk terkait**: Pilih produk yang Anda ingin menambahkan sebagai produk terkait untuk catatan produk yang sudah ada yang sedang Anda kerjakan.
+    -   **Jenis Relasi Penjualan**: Pilih Apakah Anda ingin menambahkan produk sebagai up-Selling, penjualan silang, aksesori, atau produk pengganti.
+    -   **Arah**: Pilih Apakah hubungan antara produk akan satu arah atau dua arah. Bila Anda memilih Satu Arah, produk yang Anda pilih di **produk terkait** akan ditampilkan sebagai rekomendasi untuk produk sudah ada tapi tidak sebaliknya.
 
 9.  Pada formulir produk, pilih **Simpan**.
 
@@ -68,7 +68,7 @@ Tetap perbarui persediaan produk dengan cepat merevisi properti untuk produk-pro
 1.  Pastikan Anda memiliki salah satu peran keamanan berikut atau izin yang setara: Administrator Sistem, Penyesuai Sistem, Manajer Penjualan, Wakil Direktur Utama Penjualan, Wakil Direktur Utama Pemasaran, atau CEO Manajer Bisnis.
 2.  Di peta situs, pilih **Produk**.
 3.  Buka produk aktif yang Anda ingin ubah, dan pada bilah perintah, pilih **Revisi**.
-4.  Dalam kotak dialog **Konfirmasikan Revisi** , pilih **Konfirmasi**. Ini akan mengubah status produk **Sedang direvisi**.
+4.  Dalam kotak dialog **Konfirmasikan Revisi**, pilih **Konfirmasi**. Ini akan mengubah status produk **Sedang direvisi**.
 5.  Setelah Anda selesai membuat perubahan, pada bilah perintah, pilih **terbitkan**.
 
     > [!TIP]
@@ -92,7 +92,7 @@ Jika organisasi Anda tidak menjual produk lagi, pensiunkan sehingga produk ini t
 1.  Pastikan Anda memiliki peran keamanan Administrator Sistem atau Manajer Sales Professional atau izin yang setara.
 2.  Di peta situs, pilih **Produk**.
 3.  Buka produk aktif yang Anda ingin pensiunkan, dan pada bilah perintah, pilih **Pensiunkan**.
-4.  Dalam kotak dialog **Konfirmasikan Pemensiunan** , pilih **Konfirmasi**.
+4.  Dalam kotak dialog **Konfirmasikan Pemensiunan**, pilih **Konfirmasi**.
 
 
 ## <a name="delete-a-product"></a>Hapus Produk
@@ -105,7 +105,7 @@ Untuk berhenti menjual produk, hapuslah.
 1.  Pastikan Anda memiliki peran keamanan Administrator Sistem atau Manajer Sales Professional atau izin yang setara.
 2.  Di peta situs, pilih **Produk**.
 3.  Pilih rekaman produk yang ingin Anda hapus, dan pada bilah perintah, pilih **hapus**.
-4.  Dalam kotak dialog **Konfirmasikan Penghapusan** , pilih **Lanjutkan**.
+4.  Dalam kotak dialog **Konfirmasikan Penghapusan**, pilih **Lanjutkan**.
  
  ## <a name="quantity-factors-for-products"></a>Faktor kuantitas untuk produk
 
@@ -119,8 +119,8 @@ Sistem memvalidasi bahwa hanya properti numerik atau properti produk yang menand
 
 Misalnya, jika ada properti berikut: 
 
-- **Jumlah pengguna** : jumlah pengguna 
-- **Jumlah bulan** : jumlah bulan langganan
+- **Jumlah pengguna**: jumlah pengguna 
+- **Jumlah bulan**: jumlah bulan langganan
 - **SKU Produk** 
 
 Properti **Jumlah pengguna** dan **Jumlah bulan** dapat ditandai sebagai faktor kuantitas dengan mengedit properti lini produk. 

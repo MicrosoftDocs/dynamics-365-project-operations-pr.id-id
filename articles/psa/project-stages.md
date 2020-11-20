@@ -3,7 +3,7 @@ title: Jenis Tahapan proyek
 description: Topik ini menyediakan informasi tentang tahapan proyek.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078535"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123063"
 ---
 # <a name="project-stage-types"></a>Jenis Tahapan proyek 
 
@@ -46,11 +46,11 @@ Bila Anda membuat sebuah proyek, tahapan proyek diatur ke **Baru**. Jika proyek 
 
 ## <a name="quote"></a>Kuotasi
 
-Ketika Anda menghubungkan sebuah proyek dengan kuotasi, atau ketika membuat proyek dari kuotasi, tahapan proyek diatur ke **kuotasi** , dan perkiraan awal dan akhir tanggal diperbarui. Ketika proyek pada tahapan **kuotasi** , tab **Penjualan** pada halaman **entitas proyek** menampilkan detail kuotasi.
+Ketika Anda menghubungkan sebuah proyek dengan kuotasi, atau ketika membuat proyek dari kuotasi, tahapan proyek diatur ke **kuotasi**, dan perkiraan awal dan akhir tanggal diperbarui. Ketika proyek pada tahapan **kuotasi**, tab **Penjualan** pada halaman **entitas proyek** menampilkan detail kuotasi.
 
 ## <a name="plan"></a>Rencana
 
-Ketika Anda memenangkan kuotasi yang berkaitan dengan proyek, dan proyek itu dipindahkan ke fase **Kontrak** , tahapan proyek diperbarui ke **rencana**. Ketika proyek pada tahapan **Rencana** , halaman **entitas proyek** menampilkan detail kontrak.
+Ketika Anda memenangkan kuotasi yang berkaitan dengan proyek, dan proyek itu dipindahkan ke fase **Kontrak**, tahapan proyek diperbarui ke **rencana**. Ketika proyek pada tahapan **Rencana**, halaman **entitas proyek** menampilkan detail kontrak.
 
 ## <a name="deliver"></a>Kirim
 
@@ -58,7 +58,7 @@ Setelah rencana proyek selesai, dan Anda siap memulai proyek, manajer proyek har
 
 ## <a name="complete"></a>Selesai 
 
-Saat pekerjaan untuk proyek selesai, manajer proyek dapat memperbarui tahapan ke **Selesai**. Dengan memperbarui tahap proyek ke **Selesai** , manajer proyek menunjukkan bahwa pekerjaan 100 persen selesai, namun proyek tetap terbuka sehingga setiap entri waktu atau biaya yang tertunda dapat direkam.
+Saat pekerjaan untuk proyek selesai, manajer proyek dapat memperbarui tahapan ke **Selesai**. Dengan memperbarui tahap proyek ke **Selesai**, manajer proyek menunjukkan bahwa pekerjaan 100 persen selesai, namun proyek tetap terbuka sehingga setiap entri waktu atau biaya yang tertunda dapat direkam.
 
 ## <a name="close"></a>Tutup
 

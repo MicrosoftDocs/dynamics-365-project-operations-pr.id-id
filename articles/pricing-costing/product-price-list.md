@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078552"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119602"
 ---
 # <a name="product-price-lists"></a>Daftar harga produk
 
@@ -42,11 +42,11 @@ Anda dapat menambahkan produk dari Katalog Produk ke daftar harga yang berbeda. 
 
 PSA mendukung berbagai pilihan pembulatan saat harga dikonfigurasi sebagai fungsi dari daftar harga, biaya standar, atau biaya saat ini. Selain mengambil keuntungan dari beberapa metode harga dan pilihan pembulatan, Anda dapat mengaitkan daftar diskon dengan item daftar harga. 
 
-Bila Anda membuat daftar harga kustom baru untuk kuotasi dengan memilih **Buat harga kustom** pada halaman **Kuotasi proyek** , salinan daftar harga dibuat, dan bidang **entitas** pada header dari daftar harga baru diatur ke **entitas penjualan**. Nama daftar harga baru ditambahkan dengan nama kuotasi dan stempel waktu. Anda juga dapat menggunakan nama daftar harga baru dan nama kuotasi di alur kerja kustom untuk memicu peninjauan dan persetujuan tambahan untuk kuotasi yang menggunakan harga kustom.
+Bila Anda membuat daftar harga kustom baru untuk kuotasi dengan memilih **Buat harga kustom** pada halaman **Kuotasi proyek**, salinan daftar harga dibuat, dan bidang **entitas** pada header dari daftar harga baru diatur ke **entitas penjualan**. Nama daftar harga baru ditambahkan dengan nama kuotasi dan stempel waktu. Anda juga dapat menggunakan nama daftar harga baru dan nama kuotasi di alur kerja kustom untuk memicu peninjauan dan persetujuan tambahan untuk kuotasi yang menggunakan harga kustom.
 
  
 ## <a name="default-product-price-list"></a>Daftar Harga produk Default
-Setiap rekaman pelanggan memiliki bidang **daftar harga default** , di mana Anda dapat menentukan daftar harga yang sesuai dengan mata uang pelanggan. Nilai default tidak secara otomatis dimasukkan dalam bidang ini. Bila ada perjanjian harga kustom dengan pelanggan tertentu, Anda dapat menggunakan bidang ini untuk mengaitkan daftar harga dengan pelanggan tersebut.
+Setiap rekaman pelanggan memiliki bidang **daftar harga default**, di mana Anda dapat menentukan daftar harga yang sesuai dengan mata uang pelanggan. Nilai default tidak secara otomatis dimasukkan dalam bidang ini. Bila ada perjanjian harga kustom dengan pelanggan tertentu, Anda dapat menggunakan bidang ini untuk mengaitkan daftar harga dengan pelanggan tersebut.
 
 Entitas kontrak proyek, peluang, dan kuotasi menggunakan urutan berikut untuk memasukkan daftar harga produk default. Urutan yang sama digunakan untuk daftar harga proyek.
 

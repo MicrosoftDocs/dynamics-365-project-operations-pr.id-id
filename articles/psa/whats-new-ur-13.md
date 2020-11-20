@@ -3,7 +3,7 @@ title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 13, V
 description: Topik ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Rilis Pembaruan 13, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078444"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121627"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation Pembaruan Rilis 13, V3
 Kami dengan gembira mengumumkan pembaruan terbaru untuk aplikasi Dynamics 365 Project Service Automation (PSA). Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, dan buka halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -53,6 +53,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
 - Sales
 
      - Tetap: rekaman jenis transaksi duplikat menghasilkan kesalahan saat rekaman harga peran dibuat.
-     - Tetap: tombol tambahan untuk **peluang baru** , **kuotasi** , **baris pesanan** , dan **Tambahkan produk** dapat dilihat di perintah untuk peluang, kuotasi, pesanan produk, dan subkisi baris berbasis proyek.
+     - Diperbaiki: tombol tambahan untuk **peluang baru**, **kuotasi**, **baris pesanan**, dan **Tambahkan produk** dapat dilihat di perintah untuk peluang, kuotasi, produk pesanan, dan subkisi baris berbasis proyek.
 
 

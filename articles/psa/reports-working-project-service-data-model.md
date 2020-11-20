@@ -3,7 +3,7 @@ title: Bekerja dengan model data Project Service Automation
 description: Topik ini menyediakan informasi tentang cara bekerja dengan model data.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078669"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120277"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation memperluas entitas aplikasi lain dan mem
 
 ## <a name="reporting-on-opportunities"></a>Melaporkan peluang
 
-Project Service Automation memperluas entitas **peluang** Dynamics 365 Sales dengan menambahkan bidang yang memungkinkan skenario berbasis proyek. Bidang ini diidentifikasi dengan nama skema yang diawali dengan **msdyn\_**. Salah satu bidang baru yang penting untuk pelaporan peluang PSA adalah **jenis pesanan**. Nilai **berbasis pekerjaan** untuk bidang ini menunjukkan bahwa peluang adalah peluang PSA. Bidang lain yang telah ditambahkan ke entitas mencakup **organisasi yang melakukan kontrak** , yang akan merekam organisasi yang memegang peluang, dan **manajer akun** , yang akan merekam nama manajer akun yang bertanggung jawab atas peluang.
+Project Service Automation memperluas entitas **peluang** Dynamics 365 Sales dengan menambahkan bidang yang memungkinkan skenario berbasis proyek. Bidang ini diidentifikasi dengan nama skema yang diawali dengan **msdyn\_**. Salah satu bidang baru yang penting untuk pelaporan peluang PSA adalah **jenis pesanan**. Nilai **berbasis pekerjaan** untuk bidang ini menunjukkan bahwa peluang adalah peluang PSA. Bidang lain yang telah ditambahkan ke entitas mencakup **organisasi yang melakukan kontrak**, yang akan merekam organisasi yang memegang peluang, dan **manajer akun**, yang akan merekam nama manajer akun yang bertanggung jawab atas peluang.
 
 Entitas **baris peluang** juga mencakup bidang yang terkait dengan Project Service. **Metode penagihan** menunjukkan apakah baris peluang harus ditagih berdasarkan waktu dan bahan atau basis harga tetap, dan **proyek** menangkap nama proyek yang mendukung peluang. Bidang lain yang dapat Anda laporkan tentang biaya perekaman dan jumlah anggaran pelanggan untuk item baris.
 
 ## <a name="reporting-on-quotes"></a>Melaporkan tentang kuotasi
 
-PSA memperluas entitas **kuotasi** penjualan dengan menambahkan bidang yang terkait dengan proyek. **Jenis pesanan** membedakan kuotasi PSA dari kuotasi non-PSA. Nilai **berbasis pekerjaan** untuk bidang ini menunjukkan bahwa kuotasi adalah kuotasi PSA. Bidang lain yang dapat relevan dengan pelaporan pada harga PSA mencakup bidang jumlah, seperti **biaya yang dibebankan** , **biaya yang tidak dibebankan** , **margin kotor** , **perkiraan** , dan **anggaran**. Bidang berguna lainnya menunjukkan apakah kuotasi menguntungkan, apakah akan selesai sesuai jadwal, dan apakah memenuhi ekspektasi anggaran pelanggan.
+PSA memperluas entitas **kuotasi** penjualan dengan menambahkan bidang yang terkait dengan proyek. **Jenis pesanan** membedakan kuotasi PSA dari kuotasi non-PSA. Nilai **berbasis pekerjaan** untuk bidang ini menunjukkan bahwa kuotasi adalah kuotasi PSA. Bidang lain yang dapat relevan dengan pelaporan pada harga PSA mencakup bidang jumlah, seperti **biaya yang dibebankan**, **biaya yang tidak dibebankan**, **margin kotor**, **perkiraan**, dan **anggaran**. Bidang berguna lainnya menunjukkan apakah kuotasi menguntungkan, apakah akan selesai sesuai jadwal, dan apakah memenuhi ekspektasi anggaran pelanggan.
 
-PSA juga memperluas entitas **baris kuotasi** penjualan. Satu bidang yang ditambahkan PSA adalah **metode penagihan** , yang menunjukkan bagaimana baris kuotasi akan ditagih (waktu dan material atau harga tetap). Bidang lain yang telah ditambahkan ke entitas merekam proyek terkait yang mendukung baris kuotasi, faktur, biaya, dan anggaran.
+PSA juga memperluas entitas **baris kuotasi** penjualan. Satu bidang yang ditambahkan PSA adalah **metode penagihan**, yang menunjukkan bagaimana baris kuotasi akan ditagih (waktu dan material atau harga tetap). Bidang lain yang telah ditambahkan ke entitas merekam proyek terkait yang mendukung baris kuotasi, faktur, biaya, dan anggaran.
 
 PSA juga menambahkan entitas baru yang berhubungan dengan kuotasi untuk model data Dynamics 365. Berikut adalah beberapa contoh:
 
@@ -50,13 +50,13 @@ PSA juga menambahkan entitas baru yang berhubungan dengan kuotasi untuk model da
 - **Tonggak waktu baris kuotasi** - entitas ini berisi tonggak waktu penagihan untuk baris kuotasi harga tetap.
 - **Perincian Analisis baris kuotasi** – entitas ini berisi rincian keuangan baris kuotasi. Detail ini mungkin bermanfaat untuk pelaporan kuotasi penjualan dan perkiraan jumlah biaya dari berbagai dimensi.
 
-Entitas lain yang ditambahkan PSA untuk kuotasi adalah **daftar harga proyek baris kuotasi** , **kategori sumber daya kuotasi baris** , dan **kategori transaksi kuotasi**.
+Entitas lain yang ditambahkan PSA untuk kuotasi adalah **daftar harga proyek baris kuotasi**, **kategori sumber daya kuotasi baris**, dan **kategori transaksi kuotasi**.
 
 ![Diagram yang menampilkan kuotasi, baris kuotasi, dan Relasi proyek](media/PS-Reporting-image2.png "Diagram yang menampilkan kuotasi, baris kuotasi, dan Relasi proyek")
 
 ## <a name="reporting-on-project-contracts"></a>Melaporkan kontrak proyek
 
-PSA memperluas entitas **pesanan** penjualan yang digunakan saat kontrak proyek direkam. Ia menambahkan bidang baru yang penting, **jenis pesanan** , yang mengidentifikasi kontrak sebagai kontrak proyek PSA, bukan pesanan penjualan. Nilai **berbasis pekerjaan** untuk bidang ini menunjukkan bahwa pesanan adalah kontrak proyek PSA. Bidang baru lainnya yang ditambahkan ke rincian perekaman entitas **pesanan** adalah tentang biaya, status kontrak PSA, dan organisasi yang memiliki kontrak.
+PSA memperluas entitas **pesanan** penjualan yang digunakan saat kontrak proyek direkam. Ia menambahkan bidang baru yang penting, **jenis pesanan**, yang mengidentifikasi kontrak sebagai kontrak proyek PSA, bukan pesanan penjualan. Nilai **berbasis pekerjaan** untuk bidang ini menunjukkan bahwa pesanan adalah kontrak proyek PSA. Bidang baru lainnya yang ditambahkan ke rincian perekaman entitas **pesanan** adalah tentang biaya, status kontrak PSA, dan organisasi yang memiliki kontrak.
 
 PSA juga memperluas entitas **baris pesanan Penjualan**. Di antara bidang yang ditambahkan adalah bidang yang merekam metode penagihan (waktu dan material atau harga tetap), jumlah anggaran pelanggan, dan proyek yang mendasari.
 
@@ -66,7 +66,7 @@ PSA juga menambahkan entitas baru yang dirancang untuk kontrak proyek. Berikut a
 - **Jadwal faktur baris kontrak** – entitas ini berisi jadwal penagihan yang dihasilkan berdasarkan frekuensi faktur yang ditetapkan ke baris kontrak.
 - **Tonggak waktu kontrak** – entitas ini berisi tonggak waktu penagihan untuk baris kontrak yang memiliki ketentuan penagihan harga tetap.
 
-Entitas lain yang ditambahkan PSA untuk kontrak adalah **daftar harga proyek kontrak proyek** , **kategori sumber daya kontrak kategori** , dan **kategori transaksi baris kontrak proyek**.
+Entitas lain yang ditambahkan PSA untuk kontrak adalah **daftar harga proyek kontrak proyek**, **kategori sumber daya kontrak kategori**, dan **kategori transaksi baris kontrak proyek**.
 
 ![Diagram yang menampilkan pesanan, baris pesanan, dan Relasi proyek](media/PS-Reporting-image3.png "Diagram yang menampilkan pesanan, baris pesanan, dan Relasi proyek")
 
@@ -97,11 +97,11 @@ Sumber daya proyek menggunakan entitas **sumber daya dapat dipesan** dari Univer
 
 Bila Anda menyetujui lembar waktu atau biaya, atau faktur kontrak di PSA, transaksi bisnis akan direkam di entitas **Aktual**. Entitas ini dapat berfungsi sebagai dasar untuk hampir semua laporan terkait keuangan di PSA. Entitas **aktual** merekam biaya dan transaksi penjualan untuk aktivitas bisnis. Ini juga merekam banyak atribut yang relevan.
 
-Saat Anda bekerja dengan entitas **aktual** , penting bagi Anda untuk memahami transaksi atau transaksi yang direkam di entitas, dan ketika transaksi direkam. Berikut adalah aliran tipikal saat Anda bekerja dengan entri waktu (alur untuk entri pengeluaran adalah serupa):
+Saat Anda bekerja dengan entitas **aktual**, penting bagi Anda untuk memahami transaksi atau transaksi yang direkam di entitas, dan ketika transaksi direkam. Berikut adalah aliran tipikal saat Anda bekerja dengan entri waktu (alur untuk entri pengeluaran adalah serupa):
 
 1. Bila entri waktu disimpan, tidak ada rekaman yang dibuat di entitas **aktual**.
 2. Bila entri waktu diajukan, tidak ada rekaman yang dibuat di entitas **aktual**.
-3. Bila entri waktu disetujui, satu rekaman akan dibuat di entitas yang **Aktual** , dan rekaman kedua juga dapat dibuat. Rekaman pertama menyimpan biaya entri waktu. Rekaman kedua menyimpan jumlah penjualan yang belum ditagih pada entri waktu. Rekaman kedua tergantung pada proyek baik telah menetapkan pelanggan, kuotasi, atau baris kontrak padanya.
+3. Bila entri waktu disetujui, satu rekaman akan dibuat di entitas yang **Aktual**, dan rekaman kedua juga dapat dibuat. Rekaman pertama menyimpan biaya entri waktu. Rekaman kedua menyimpan jumlah penjualan yang belum ditagih pada entri waktu. Rekaman kedua tergantung pada proyek baik telah menetapkan pelanggan, kuotasi, atau baris kontrak padanya.
 
     | Tanggal Dokumen | Jenis Transaksi | Kelas Transaksi | Pelanggan         | Kontrak   | Sumber daya     | Peran sumber daya | Jenis Penagihan | Kuantitas | Harga per Unit | Jumlah |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|
@@ -117,6 +117,6 @@ Saat Anda bekerja dengan entitas **aktual** , penting bagi Anda untuk memahami t
     | 2/4/18        | Penjualan Belum Tertagih   | Time              | Alpine ski house | Alpine CRM | Latisha Aquina | Manajer Proyek   | Dikenakan biaya   | - 8,0    | 100.00     | - 800,00 |
     | 2/4/18        | Penjualan yang Ditagih     | Time              | Alpine ski house | Alpine CRM | Latisha Aquina | Manajer Proyek   | Dikenakan biaya   | 8.0      | 100.00     | 800.00   |
 
-Entitas **asal transaksi** merekam asal rekaman **aktual** , dan entitas **sambungan transaksi** merekam rekaman terkait untuk rekaman **aktual**. Selain itu, rekaman **aktual** berisi referensi proyek, kontrak proyek (pesanan), sumber daya dapat dipesan, dan pelanggan.
+Entitas **asal transaksi** merekam asal rekaman **aktual**, dan entitas **sambungan transaksi** merekam rekaman terkait untuk rekaman **aktual**. Selain itu, rekaman **aktual** berisi referensi proyek, kontrak proyek (pesanan), sumber daya dapat dipesan, dan pelanggan.
 
 ![Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual](media/PS-Reporting-image6.png "Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual")

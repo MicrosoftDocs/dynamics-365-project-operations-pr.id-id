@@ -3,7 +3,7 @@ title: Jadwal proyek
 description: Topik ini menyediakan informasi tentang cara membuat jadwal.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078519"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123243"
 ---
 # <a name="project-schedules"></a>Jadwal proyek 
 
@@ -83,12 +83,12 @@ Tombol **Pindahkan ke atas** dan **Pindahkan ke bawah** mengubah posisi tugas da
 
 Kisi **jadwal** sepenuhnya dapat diakses dan dapat digunakan dengan pembaca layar seperti narrator, JAWS, atau NVDA. Anda dapat berpindah melalui area kisi dengan menggunakan tombol panah (sebagaimana di Microsoft Excel), Anda dapat menggunakan tombol tab untuk memajukan melalui elemen UI interaktif, dan Anda dapat menggunakan tombol panah bawah, tombol Enter, atau spasi untuk memilih dan menjalankan menu drop-down. Header kolom juga interaktif. Anda dapat menyembunyikan dan menampilkan kolom, menggunakan tombol tab dan tombol panah untuk berpindah di antara header kolom, dan menggunakan tombol tindakan pada Toolbar. Selain itu, Anda dapat menggunakan pintasan keyboard berikut:
 
-- **Refresh** : ALT+SHIFT+F5
-- **Tambah** : Alt + Shift + insert
-- **Hapus** : Alt + Shift + Delete
-- **Naik/turun** : ALT+SHIFT+panah bawah/atas
-- **Indent/Outdent** : ALT_SHIFT + panah kiri/kanan
-- **Perluas/Ciutkan hierarki** : Alt + Shift + tombol minus/Plus
+- **Refresh**: ALT+SHIFT+F5
+- **Tambah**: Alt + Shift + insert
+- **Hapus**: Alt + Shift + Delete
+- **Naik/turun**: ALT+SHIFT+panah bawah/atas
+- **Indent/Outdent**: ALT_SHIFT + panah kiri/kanan
+- **Perluas/Ciutkan hierarki**: Alt + Shift + tombol minus/Plus
 
 ## <a name="task-attributes"></a>Atribut tugas
 
@@ -98,19 +98,19 @@ Nama tugas menjelaskan pekerjaan yang perlu diselesaikan. Dalam PSA, atribut yan
  
 ### <a name="schedule-attributes"></a>Atribut jadwal
 
-**Upaya** , **tanggal mulai** , **tanggal berakhir** , dan **durasi** menentukan jadwal tugas.
+**Upaya** , **tanggal mulai**, **tanggal berakhir**, dan **durasi** menentukan jadwal tugas.
 
 Atribut jadwal tambahan mencakup:
 
-- **Jam kerja** : masukkan perkiraan jam yang diperlukan untuk menyelesaikan tugas. 
-- **Durasi** : Tentukan jumlah hari kerja yang diperlukan untuk menyelesaikan tugas.
-- **ID jadwal** : id yang dibuat secara otomatis ini digunakan untuk memesan tugas dalam hirarki. Dependensi antara tugas mengelola urutan aktual tugas yang dikerjakan.
+- **Jam kerja**: masukkan perkiraan jam yang diperlukan untuk menyelesaikan tugas. 
+- **Durasi**: Tentukan jumlah hari kerja yang diperlukan untuk menyelesaikan tugas.
+- **ID jadwal**: id yang dibuat secara otomatis ini digunakan untuk memesan tugas dalam hirarki. Dependensi antara tugas mengelola urutan aktual tugas yang dikerjakan.
  
 ### <a name="staffing-attributes"></a>Atribut staf
 
-Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau mengeklik **buat** dan di panel **buat cepat** , tambahkan anggota tim proyek sebagai sumber daya baru.
+Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau mengeklik **buat** dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.
 
-**Peran** , **unit sumber daya** , dan bidang **nama posisi** digunakan untuk menjelaskan persyaratan staf untuk tugas. Atribut staf ini bersama dengan jadwal tugas digunakan untuk menemukan sumber daya yang tersedia untuk melakukan tugas ini.
+**Peran**, **unit sumber daya**, dan bidang **nama posisi** digunakan untuk menjelaskan persyaratan staf untuk tugas. Atribut staf ini bersama dengan jadwal tugas digunakan untuk menemukan sumber daya yang tersedia untuk melakukan tugas ini.
 
 **Peran** -Tentukan jenis sumber daya yang diperlukan untuk melakukan tugas.
 

@@ -3,7 +3,7 @@ title: Persyaratan pesanan tentatif
 description: Topik ini menyediakan informasi tentang cara memenuhi persyaratan pesanan tentatif.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078694"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124102"
 ---
 # <a name="soft-book-requirements"></a>Persyaratan pesanan tentatif
 
@@ -31,7 +31,7 @@ Persyaratan sumber daya dapat dipesan secara definitif. Pemesanan definitif memb
 
 ![Status pemesanan diatur ke tentatif](media/Resource-Management-image77.png)
 
-Saat tab **tim** berada di tampilan **anggota tim bernama** , sumber daya ditampilkan di sana. Jam yang dipesan dengan tentatif dilaporkan di kolom **jam pesanan tentatif**.
+Saat tab **tim** berada di tampilan **anggota tim bernama**, sumber daya ditampilkan di sana. Jam yang dipesan dengan tentatif dilaporkan di kolom **jam pesanan tentatif**.
 
 ![Jam pesanan tentatif di tampilan anggota tim bernama](media/Resource-Management-image78.png)
 
@@ -39,7 +39,7 @@ Anggota tim dipesan terlebih dulu tidak dapat ditetapkan ke tugas.
 
 ![Anggota tim dipesan tentatif ditetapkan ke tugas.](media/Resource-Management-image79.png)
 
-Pada tab **rekonsiliasi** , tidak ada Pemesanan yang ditampilkan untuk sumber daya pesanan tentatif, karena tab **rekonsiliasi** hanya mempertimbangkan Pemesanan definitif.
+Pada tab **rekonsiliasi**, tidak ada Pemesanan yang ditampilkan untuk sumber daya pesanan tentatif, karena tab **rekonsiliasi** hanya mempertimbangkan Pemesanan definitif.
 
 ![Sumber daya yang dipesan dengan tentatif tanpa pemesanan pada tab rekonsiliasi](media/Resource-Management-image80.png)
 
@@ -54,7 +54,7 @@ Untuk mengkonversi Pemesanan tentatif ke Pemesanan definitif, di papan jadwal, k
 
 ![Mengubah status pemesanan menjadi Definitif](media/Resource-Management-image82.png)
 
-Pemesanan diubah, dan status berubah di papan jadwal. Karena status pemesanan sekarang **Definitif** , sumber daya ditampilkan sebagai dipesan, dan kapasitas serta ketersediaannya disesuaikan.
+Pemesanan diubah, dan status berubah di papan jadwal. Karena status pemesanan sekarang **Definitif**, sumber daya ditampilkan sebagai dipesan, dan kapasitas serta ketersediaannya disesuaikan.
 
 Anda dapat menggunakan metode yang sama untuk membatalkan pemesanan definitif atau Pemesanan tentatif dari papan jadwal.
 

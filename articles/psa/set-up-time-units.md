@@ -3,7 +3,7 @@ title: Mengatur unit waktu
 description: Bagaimana mengatur unit waktu di Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078579"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120097"
 ---
 # <a name="set-up-time-units-project-service"></a>Mengatur unit waktu (Project Service)
 
@@ -37,7 +37,7 @@ Mengkonfigurasi unit waktu dalam Katalog Produk yang akan Anda gunakan sebagai d
   
 3. Klik grup unit **waktu** (dibuat selama instalasi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]).  
   
-4. Pada tab **unit** , klik **Tambahkan Unit baru** , dan kemudian mengubah nilai-nilai yang diperlukan. Tambahkan sebanyak mungkin unit yang Anda butuhkan. Misalnya, Anda mungkin ingin membuat unit berikut:  
+4. Pada tab **unit**, klik **Tambahkan Unit baru**, dan kemudian mengubah nilai-nilai yang diperlukan. Tambahkan sebanyak mungkin unit yang Anda butuhkan. Misalnya, Anda mungkin ingin membuat unit berikut:  
   
    - **Hari** dengan **unit dasar** = **Jam** dan **Kuantitas** = 8  
   

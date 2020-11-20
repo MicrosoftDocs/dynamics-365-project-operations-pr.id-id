@@ -3,7 +3,7 @@ title: Membatalkan entri waktu dan biaya yang disetujui sebelumnya
 description: Topik ini menyediakan informasi tentang cara membatalkan transaksi waktu dan biaya proyek yang disetujui.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078659"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123337"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Membatalkan entri waktu dan biaya atau disetujui sebelumnya
 
@@ -36,7 +36,7 @@ Di versi terbaru Dynamics 365 Project Service Automation, pemberi persetujuan da
 Ikuti langkah berikut untuk membatalkan entri waktu atau biaya yang sebelumnya disetujui.
 
 1. Buka **proyek** \> **Pekerjaan Saya** \> **Persetujuan**.
-2. Di halaman daftar **persetujuan** , Ubah tampilan menjadi **persetujuan saya sebelumnya**. Daftar entri waktu dan pengeluaran yang telah disetujui sebelumnya ditampilkan.
+2. Di halaman daftar **persetujuan**, Ubah tampilan menjadi **persetujuan saya sebelumnya**. Daftar entri waktu dan pengeluaran yang telah disetujui sebelumnya ditampilkan.
 3. Pilih satu entri atau lebih, lalu pilih **Batalkan persetujuan**. Anda menerima pesan peringatan.
 4. Untuk membatalkan persetujuan, pilih **OK**.
 
@@ -46,7 +46,7 @@ Bila persetujuan dibatalkan, ada dampak operasional dan dampak keuangan.
 
 ### <a name="operational-impact"></a>Dampak operasional
 
-Di sisi operasi, saat persetujuan dibatalkan, status rekaman diatur ulang ke **draf** , dan persetujuan tidak lagi muncul di tampilan **persetujuan saya sebelumnya**. Namun, persetujuan yang dibatalkan ditampilkan di tampilan **entri waktu untuk persetujuan** maupun tampilan **entri pengeluaran untuk persetujuan** , tergantung pada apakah itu entri waktu atau entri pengeluaran. Selain itu, status entri waktu atau pengeluaran terkait diubah ke **Diajukan** , sehingga entri terkait sesuai dengan persetujuan yang memiliki status **draf**.
+Di sisi operasi, saat persetujuan dibatalkan, status rekaman diatur ulang ke **draf**, dan persetujuan tidak lagi muncul di tampilan **persetujuan saya sebelumnya**. Namun, persetujuan yang dibatalkan ditampilkan di tampilan **entri waktu untuk persetujuan** maupun tampilan **entri pengeluaran untuk persetujuan**, tergantung pada apakah itu entri waktu atau entri pengeluaran. Selain itu, status entri waktu atau pengeluaran terkait diubah ke **Diajukan**, sehingga entri terkait sesuai dengan persetujuan yang memiliki status **draf**.
 
 Sebagai pemberi izin, Anda dapat mengedit beberapa bidang persetujuan yang memiliki status **draf**. Bidang ini mencakup **jenis penagihan** dan **jam yang dapat ditagih untuk entri waktu**. Setelah membuat perubahan, Anda dapat menyetujui kembali rekaman. Atau, Anda dapat menolak entri. Jika Anda menolak persetujuan untuk entri waktu, status entri akan diubah menjadi **dikembalikan**. Jika Anda menolak persetujuan untuk entri pengeluaran, status akan diubah menjadi **Ditolak**. Secara fungsional, entri yang dikembalikan dan ditolak akan berfungsi sama seperti entri yang memiliki status **draf**. Anggota tim proyek dapat membuat perubahan yang diperlukan pada entri dan kemudian mengirimkannya kembali untuk disetujui, atau menghapus seluruh entri.
 
@@ -57,6 +57,6 @@ Proyek juga terpengaruh secara finansial saat persetujuan dibatalkan. Pertama, a
 - Status penyesuaian diatur ke **disesuaikan**.
 - Status penagihan diatur ke **Dibatalkan**.
 
-Selanjutnya, entri pembalikan dibuat di dalam tabel aktual. Untuk membuat entri pembalikan, sistem menyalin nilai bidang dari aktual asli. Hanya nilai yang tidak disalin adalah nilai kuantitas. Nilai ini dibalik sebagai gantinya. Aktual terbalik dibuat untuk aktual **biaya** dan **penjualan tidak ditagih**. Bidang **status penyesuaian** pada aktual terbalik diatur ke **tidak dapat disesuaikan** , dan status penagihan diatur ke **dibatalkan**.
+Selanjutnya, entri pembalikan dibuat di dalam tabel aktual. Untuk membuat entri pembalikan, sistem menyalin nilai bidang dari aktual asli. Hanya nilai yang tidak disalin adalah nilai kuantitas. Nilai ini dibalik sebagai gantinya. Aktual terbalik dibuat untuk aktual **biaya** dan **penjualan tidak ditagih**. Bidang **status penyesuaian** pada aktual terbalik diatur ke **tidak dapat disesuaikan**, dan status penagihan diatur ke **dibatalkan**.
 
 Setelah perubahan ini dibuat, jumlah yang tercatat sebagai dibelanjakan pada proyek dan akumulasi pendapatan pada proyek tidak mempertimbangkan lagi jumlah yang diwakili oleh aktual ini.

@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078368"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121087"
 ---
 # <a name="expense-entry-lite"></a>Entri pengeluaran (sederhana)
 
@@ -27,21 +27,21 @@ Untuk informasi lebih lanjut tentang kemampuan pengeluaran di Dynamics 365 Proje
 
 Anda dapat mengambil pengeluaran Anda sehingga Anda dapat mengirimkannya ke pemberi izin.
 
-1. Buka **pengeluaran** , lalu pilih **baru**.
-2. Pada halaman **pengeluaran baru** , masukkan informasi pengeluaran yang diperlukan, lalu pilih **Simpan**.
+1. Buka **pengeluaran**, lalu pilih **baru**.
+2. Pada halaman **pengeluaran baru**, masukkan informasi pengeluaran yang diperlukan, lalu pilih **Simpan**.
 
 ## <a name="submit-a-basic-expense"></a>Ajukan pengeluaran dasar
 
 Setelah selesai menangkap semua pengeluaran, dan siap disetujui, Anda harus menyerahkannya.
 
-1. Buka **pengeluaran** , lalu pilih pengeluaran. Atau, pilih semua pengeluaran menggunakan kotak centang di header.
+1. Buka **pengeluaran**, lalu pilih pengeluaran. Atau, pilih semua pengeluaran menggunakan kotak centang di header.
 2. Pilih **kirim**. Sistem memproses entri yang dipilih dan kemudian membuat permintaan persetujuan pengeluaran.
 
 ## <a name="recall-a-basic-expense"></a>Tarik pengeluaran dasar
 
 Bila Anda mengirimkan pengeluaran secara tidak sengaja, Anda dapat menariknya. Waktu yang diperlukan untuk menarik entri pengeluaran tergantung pada tingkat persetujuannya.  Jika pemberi izin belum menyetujui entri, penarikan dapat terjadi segera. Namun, jika entri telah disetujui, pemberi izin diminta untuk menyetujui penarikan dan membalikkan transaksi.
 
-1. Buka **pengeluaran** , lalu, dalam daftar pengeluaran, pilih biaya yang akan ditarik.
+1. Buka **pengeluaran**, lalu, dalam daftar pengeluaran, pilih biaya yang akan ditarik.
 2. Pilih **Tarik**. Jika entri biaya belum disetujui, sistem segera akan menariknya. Jika entri pengeluaran telah disetujui, permintaan penarikan dibuat untuk memberi tahu pemberi persetujuan bahwa Anda ingin membalikkan pengeluaran. Pemberi persetujuan kemudian akan mengkonfirmasi bahwa pembalikan dapat dilakukan, dan entri akan dikembalikan.
 
 ## <a name="delete-a-basic-expense"></a>Menghapus pengeluaran dasar

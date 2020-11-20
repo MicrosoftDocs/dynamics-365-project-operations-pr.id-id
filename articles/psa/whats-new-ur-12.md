@@ -3,7 +3,7 @@ title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 12, V
 description: Topik ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Rilis Pembaruan 12, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078445"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119962"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation Pembaruan Rilis 12, V3
 Kami dengan gembira mengumumkan pembaruan terbaru untuk aplikasi Dynamics 365 Project Service Automation (PSA). Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, dan buka halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
     - Tetap: waktu entri kisi dan jadwal dengan benar menampilkan bilah penggulir vertikal bila diperlukan.
     - Tetap: Entri waktu yang biaya yang diajukan dapat disetujui.
     - Tetap: pesan dialog konfirmasi pembatalan persetujuan telah diperbaiki untuk mencerminkan status persetujuan bila diubah **dari disetujui** untuk **dikirim**.
-    - Tetap: Bidang **harga** , **unit** , dan **kuantitas** sekarang terkunci pada rekaman pengeluaran setelah disetujui.
+    - Tetap: Bidang **harga**, **unit**, dan **kuantitas** sekarang terkunci pada rekaman pengeluaran setelah disetujui.
 
 - Manajemen proyek
 

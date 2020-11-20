@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087966"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122347"
 ---
 # <a name="manage-the-billing-backlog"></a>Mengelola akumulasi tagihan
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations memiliki dua tampilan khusus untuk membantu Anda
 
 ## <a name="fixed-price-milestones"></a>Tahapan Harga Tetap
 
-Tampilan ini mencantumkan semua pencapaian harga tetap di semua baris kontrak proyek dalam sistem. Satu atau beberapa tonggak pencapaian dapat ditandai sebagai **Siap untuk Faktur** atau **Tidak Siap untuk Faktur** dari tampilan ini. Saat Anda menandai tonggak pencapaian sebagai **Siap untuk Faktur** , tonggak pencapaian tersedia untuk faktur draf.
+Tampilan ini mencantumkan semua pencapaian harga tetap di semua baris kontrak proyek dalam sistem. Satu atau beberapa tonggak pencapaian dapat ditandai sebagai **Siap untuk Faktur** atau **Tidak Siap untuk Faktur** dari tampilan ini. Saat Anda menandai tonggak pencapaian sebagai **Siap untuk Faktur**, tonggak pencapaian tersedia untuk faktur draf.
 
-Ketika baris kontrak multi-pelanggan memiliki metode penagihan harga tetap, satu tonggak pencapaian dibuat untuk setiap pelanggan di baris kontrak. Pengguna membuat tonggak pencapaian dan tonggak itu dibagi menjadi rekaman tonggak pencapaian spesifik pelanggan secara internal, menurut pemisahan persentase penagihan yang ditentukan untuk setiap pelanggan di baris kontrak. Dalam tampilan **Tonggak Harga Tetap** , Anda akan melihat rekaman tonggak khusus pelanggan individual. Masing-masing rekaman tonggak ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini. Ketika satu atau beberapa pemisahan tonggak terkait ditandai sebagai **Siap untuk Faktur** , header berpindah ke status **Sedang Berlangsung** dari **Belum Dimulai**. Ketika semua pemisahan tonggak pencapaian telah ditagih, status tonggak pencapaian header menjadi **Selesai**.
+Ketika baris kontrak multi-pelanggan memiliki metode penagihan harga tetap, satu tonggak pencapaian dibuat untuk setiap pelanggan di baris kontrak. Pengguna membuat tonggak pencapaian dan tonggak itu dibagi menjadi rekaman tonggak pencapaian spesifik pelanggan secara internal, menurut pemisahan persentase penagihan yang ditentukan untuk setiap pelanggan di baris kontrak. Dalam tampilan **Tonggak Harga Tetap**, Anda akan melihat rekaman tonggak khusus pelanggan individual. Masing-masing rekaman tonggak ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini. Ketika satu atau beberapa pemisahan tonggak terkait ditandai sebagai **Siap untuk Faktur**, header berpindah ke status **Sedang Berlangsung** dari **Belum Dimulai**. Ketika semua pemisahan tonggak pencapaian telah ditagih, status tonggak pencapaian header menjadi **Selesai**.
 
 Tonggak pencapaian pada faktur draf diperlihatkan dalam tampilan ini dengan status tagihan **Faktur Pelanggan Dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Diposting**. Memperbarui nilai status ini dengan menggunakan kode kustom tidak disarankan. Project Operations tidak akan berfungsi dengan benar jika nilai status ini diperbarui dengan kode kustom.
 
@@ -35,6 +35,6 @@ Tampilan ini mencantumkan semua aktual penjualan yang belum ditagih di semua kon
 
 Aktual penjualan yang belum ditagih yang memiliki status **Tidak Boleh Melebihi** **Gagal** tidak dapat ditandai sebagai **Siap untuk Faktur**. Jika aktual ini perlu ditandai seperti itu, reset status pada aktual lain pada baris kontrak yang diterapkan, lalu evaluasi status **Tidak Boleh Melebihi**.
 
-Dalam kasus baris kontrak multi-pelanggan yang memiliki metode penagihan waktu dan material, ketika waktu dan pengeluaran disetujui, aktual penjualan yang belum ditagih dibuat untuk setiap pelanggan di baris kontrak sesuai dengan pemisahan persentase penagihan yang ditentukan untuk setiap pelanggan di baris kontrak. Dalam tampilan **Akumulasi Penagihan Waktu dan Material** , Anda akan melihat aktual penjualan belum ditagih khusus pelanggan ini. Masing-masing rekaman aktual penjualan belum ditagih ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini.
+Dalam kasus baris kontrak multi-pelanggan yang memiliki metode penagihan waktu dan material, ketika waktu dan pengeluaran disetujui, aktual penjualan yang belum ditagih dibuat untuk setiap pelanggan di baris kontrak sesuai dengan pemisahan persentase penagihan yang ditentukan untuk setiap pelanggan di baris kontrak. Dalam tampilan **Akumulasi Penagihan Waktu dan Material**, Anda akan melihat aktual penjualan belum ditagih khusus pelanggan ini. Masing-masing rekaman aktual penjualan belum ditagih ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini.
 
 Aktual penjualan belum ditagih pada faktur draf diperlihatkan dalam tampilan ini dengan **status tagihan** **Faktur Pelanggan Dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Pelanggan Diposting**. Memperbarui nilai status ini ketika berada dalam status ini dengan menggunakan kode kustom tidak disarankan. Project Operations tidak akan berfungsi dengan benar jika nilai status ini diperbarui dengan kode kustom.

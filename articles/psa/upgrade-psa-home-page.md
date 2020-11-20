@@ -2,7 +2,7 @@
 title: Laman beranda peningkatan
 description: Topik ini menunjukkan lokasi untuk menemukan informasi penting tentang fitur baru dan yang diubah di Dynamics 365 Project Service Automation, serta proses peningkatan ke versi terbaru.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078565"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121762"
 ---
 # <a name="upgrade-home-page"></a>Laman beranda peningkatan
 
@@ -61,4 +61,4 @@ Pada tanggal 17 Mei 2019, Semua instance baru akan memiliki UCI sebagai klien de
 Mulai tanggal 1 Maret 2020, pelanggan Dynamics PSA tidak akan lagi dapat membuat lingkungan baru dengan versi PSA yang lebih lama, misalnya PSA versi 2.x atau lebih rendah. Lingkungan baru hanya mendapatkan versi 3.x dari PSA.
 
 > [!NOTE]
-> Untuk pengalaman terbaik saat Anda menggunakan versi lama dari aplikasi Field Service dan PSA, buka halaman **pengaturan sistem** , dan untuk bidang, bidang **gunakan Antarmuka Terpadu baru saja (disarankan)** , pilih **tidak** karena versi ini tidak dirancang untuk dimuat dengan benar di UCI. Setelah Anda telah menonaktifkan UCI, Anda dapat membuka dan menjalankan versi Field Service dan PSA menggunakan klien web lama. 
+> Untuk pengalaman terbaik saat Anda menggunakan versi lama dari aplikasi Field Service dan PSA, buka halaman **pengaturan sistem**, dan untuk bidang, bidang **gunakan Antarmuka Terpadu baru saja (disarankan)**, pilih **tidak** karena versi ini tidak dirancang untuk dimuat dengan benar di UCI. Setelah Anda telah menonaktifkan UCI, Anda dapat membuka dan menjalankan versi Field Service dan PSA menggunakan klien web lama. 

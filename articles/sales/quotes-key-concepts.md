@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121312"
 ---
 # <a name="quotes---key-concepts"></a>Kuotasi - Konsep utama
 
@@ -30,20 +30,20 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Dalam Dynamics 365 Project Operations, ada dua jenis kuotasi, proyek, dan penjualan. Kedua jenis kuotasi ini berbeda dalam hal berikut:
 
-- **Kisi untuk item baris** : Pada kuotasi penjualan, hanya ada satu kisi untuk item baris. Di kuotasi proyek, ada dua kisi untuk item baris. Satu kisi adalah untuk baris proyek dan lainnya adalah untuk baris produk.
-- **Aktivasi dan revisi** : kuotasi penjualan mendukung aktivasi dan revisi. Proses ini tidak didukung pada kuotasi proyek.
-- **Pesanan yang dilampirkan** : Anda dapat melampirkan beberapa pesanan ke kuotasi penjualan. Hanya satu kontrak proyek dapat dilampirkan ke kuotasi proyek.
-- **Memenangkan kuotasi** : bila Anda memenangkan kuotasi penjualan, peluang terkait dapat tetap terbuka. Setelah kuotasi proyek dimenangkan, peluang terkait ditutup.
-- **Bidang dan konsep** : Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek. Bidang mencakup **unit kontrak** , **manajer akun** , dan **nama tagihan ke kontak**.  
-- **Jenis** : Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan, **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
+- **Kisi untuk item baris**: Pada kuotasi penjualan, hanya ada satu kisi untuk item baris. Di kuotasi proyek, ada dua kisi untuk item baris. Satu kisi adalah untuk baris proyek dan lainnya adalah untuk baris produk.
+- **Aktivasi dan revisi**: kuotasi penjualan mendukung aktivasi dan revisi. Proses ini tidak didukung pada kuotasi proyek.
+- **Pesanan yang dilampirkan**: Anda dapat melampirkan beberapa pesanan ke kuotasi penjualan. Hanya satu kontrak proyek dapat dilampirkan ke kuotasi proyek.
+- **Memenangkan kuotasi**: bila Anda memenangkan kuotasi penjualan, peluang terkait dapat tetap terbuka. Setelah kuotasi proyek dimenangkan, peluang terkait ditutup.
+- **Bidang dan konsep**: Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek. Bidang mencakup **unit kontrak**, **manajer akun**, dan **nama tagihan ke kontak**.  
+- **Jenis**: Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan, **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
 
 Topik ini berfokus pada rincian kuotasi proyek.
 
 Kuotasi proyek dalam Project Operations dapat memiliki beberapa item baris atau baris kuotasi. Bahkan, kuotasi proyek memiliki dua kisi untuk item baris. Satu kisi adalah untuk baris berbasis proyek yang memungkinkan perkiraan rinci. Kisi lainnya adalah untuk lini berbasis produk menggunakan harga satuan sederhana dan pendekatan berbasis kuantitas.
 
-- **Berbasis proyek** : nilai kuotasi ditentukan setelah Anda memperkirakan berapa banyak pekerjaan yang diperlukan. Anda dapat memperkirakan kerja pada tingkat tinggi, langsung sebagai rincian baris di bawah setiap baris kuotasi, atau berdasarkan perkiraan dari awal, dengan menggunakan proyek dan rencana proyek. Baris kuotasi berbasis proyek hanya ditemukan dalam kuotasi berbasis proyek yang dibuat menggunakan Project Operations. Baris kuotasi jenis ini adalah formulir kustom baris kuotasi tulis yang tersedia dalam Microsoft Dynamics 365 Sales.
+- **Berbasis proyek**: nilai kuotasi ditentukan setelah Anda memperkirakan berapa banyak pekerjaan yang diperlukan. Anda dapat memperkirakan kerja pada tingkat tinggi, langsung sebagai rincian baris di bawah setiap baris kuotasi, atau berdasarkan perkiraan dari awal, dengan menggunakan proyek dan rencana proyek. Baris kuotasi berbasis proyek hanya ditemukan dalam kuotasi berbasis proyek yang dibuat menggunakan Project Operations. Baris kuotasi jenis ini adalah formulir kustom baris kuotasi tulis yang tersedia dalam Microsoft Dynamics 365 Sales.
 
-- **Berbasis produk** : jumlah (nilai yang dikutip) ditentukan berdasarkan kuantitas unit yang terjual dan harga penjualan unit. Produk pada baris berbasis produk dapat berasal dari Katalog Produk dalam Sales, atau dapat berupa produk yang Anda tentukan. Baris kuotasi jenis ini juga tersedia pada kuotasi berbasis proyek yang dibuat menggunakan Project Operations.
+- **Berbasis produk**: jumlah (nilai yang dikutip) ditentukan berdasarkan kuantitas unit yang terjual dan harga penjualan unit. Produk pada baris berbasis produk dapat berasal dari Katalog Produk dalam Sales, atau dapat berupa produk yang Anda tentukan. Baris kuotasi jenis ini juga tersedia pada kuotasi berbasis proyek yang dibuat menggunakan Project Operations.
 
 Jumlah pada kuotasi adalah total di seluruh baris berbasis produk dan baris berbasis proyek.
 
@@ -75,12 +75,12 @@ Project Operations mendukung ketiga jenis jadwal faktur untuk baris kuotasi harg
 
 Organisasi layanan profesional biasanya mengutip dan menagih pelanggan mereka berdasarkan klasifikasi biaya. Biaya diwakili oleh klasifikasi transaksi berikut:
 
-- **Waktu** : klasifikasi ini mewakili biaya tenaga kerja atau waktu sumber daya manusia pada suatu proyek.
-- **Pengeluaran** : klasifikasi ini mewakili semua jenis pengeluaran lain pada suatu proyek. Karena biaya dapat dikelompokkan secara luas, sebagian besar organisasi membuat subkategori, seperti perjalanan, Penyewaan Mobil, Hotel, atau perlengkapan kantor.
-- **Biaya** : klasifikasi ini mewakili biaya tetap lain-lain, denda, dan item lainnya yang dibebankan kepada pelanggan. 
-- **Pajak** : klasifikasi ini menunjukkan jumlah pajak yang ditambahkan pengguna saat mereka memasukkan pengeluaran.
-- **Transaksi material** : klasifikasi ini merupakan aktual dari lini produk pada faktur proyek yang telah dikonfirmasi.
-- **Tonggak waktu** : klasifikasi ini digunakan oleh logika penagihan harga tetap.
+- **Waktu**: klasifikasi ini mewakili biaya tenaga kerja atau waktu sumber daya manusia pada suatu proyek.
+- **Pengeluaran**: klasifikasi ini mewakili semua jenis pengeluaran lain pada suatu proyek. Karena biaya dapat dikelompokkan secara luas, sebagian besar organisasi membuat subkategori, seperti perjalanan, Penyewaan Mobil, Hotel, atau perlengkapan kantor.
+- **Biaya**: klasifikasi ini mewakili biaya tetap lain-lain, denda, dan item lainnya yang dibebankan kepada pelanggan. 
+- **Pajak**: klasifikasi ini menunjukkan jumlah pajak yang ditambahkan pengguna saat mereka memasukkan pengeluaran.
+- **Transaksi material**: klasifikasi ini merupakan aktual dari lini produk pada faktur proyek yang telah dikonfirmasi.
+- **Tonggak waktu**: klasifikasi ini digunakan oleh logika penagihan harga tetap.
 
 Satu atau lebih klasifikasi transaksi ini dapat diasosiasikan dengan masing-masing baris kuotasi. Setelah kuotasi dimenangkan, pemetaan antara klasifikasi transaksi dan baris kuotasi ditransfer ke baris kontrak.
   
@@ -90,16 +90,16 @@ Misalnya, kuotasi mungkin berisi dua baris kuotasi berikut:
 - Biaya perjalanan terkait yang menggunakan metode penagihan harga tetap. Misalnya, Semua biaya perjalanan untuk proyek contoh **penerapan Dynamics AX** ditagih pada nilai uang tetap.
 
 > [!NOTE]
-> Kombinasi dari proyek dan klasifikasi transaksi **waktu** , **pengeluaran** , dan **biaya** yang terkait dengan baris kuotasi atau baris kontrak harus unik. Jika kombinasi yang sama antara proyek dan kelas transaksi dikaitkan dengan lebih dari satu baris kontrak atau baris kuotasi, Project Operations tidak akan berfungsi dengan benar.
+> Kombinasi dari proyek dan klasifikasi transaksi **waktu**, **pengeluaran**, dan **biaya** yang terkait dengan baris kuotasi atau baris kontrak harus unik. Jika kombinasi yang sama antara proyek dan kelas transaksi dikaitkan dengan lebih dari satu baris kontrak atau baris kuotasi, Project Operations tidak akan berfungsi dengan benar.
 
 ## <a name="billing-types"></a>Jenis Penagihan
 
 Bidang **jenis penagihan** menentukan konsep ketertagihan. Ini adalah rangkaian pilihan yang memiliki nilai yang mungkin berikut:
 
-- **Dikenakan biaya** : biaya yang Diperoleh dari peran/kategori ini adalah biaya langsung yang mendorong eksekusi proyek, dan pelanggan akan membayar untuk pekerjaan ini. Pembayaran dapat diberikan sebagai pengaturan waktu dan material atau harga tetap. Namun, karyawan yang menghabiskan waktu ini akan menerima kredit yang sesuai untuk pemanfaatan yang dapat ditagih.
-- **Tidak dikenakan biaya** : biaya yang Diperoleh dari peran/kategori ini dianggap biaya langsung yang mendorong eksekusi proyek, meskipun pelanggan tidak menyadari fakta ini dan tidak akan membayar untuk pekerjaan ini. Karyawan yang menghabiskan waktu ini tidak akan dikreditkan dengan pemanfaatan yang dapat ditagih.
-- **Gratis** : biaya yang diperoleh dari peran/kategori ini dianggap biaya langsung yang mendorong eksekusi proyek, dan pelanggan mengakui fakta ini. Karyawan yang menghabiskan waktu ini akan dikreditkan untuk pemanfaatan yang dapat ditagih. Namun, biaya ini tidak dibebankan kepada pelanggan.
-- **Tidak tersedia** : biaya yang dikeluarkan pada proyek internal yang tidak memerlukan pelacakan pendapatan dilacak dengan menggunakan pilihan ini.
+- **Dikenakan biaya**: biaya yang Diperoleh dari peran/kategori ini adalah biaya langsung yang mendorong eksekusi proyek, dan pelanggan akan membayar untuk pekerjaan ini. Pembayaran dapat diberikan sebagai pengaturan waktu dan material atau harga tetap. Namun, karyawan yang menghabiskan waktu ini akan menerima kredit yang sesuai untuk pemanfaatan yang dapat ditagih.
+- **Tidak dikenakan biaya**: biaya yang Diperoleh dari peran/kategori ini dianggap biaya langsung yang mendorong eksekusi proyek, meskipun pelanggan tidak menyadari fakta ini dan tidak akan membayar untuk pekerjaan ini. Karyawan yang menghabiskan waktu ini tidak akan dikreditkan dengan pemanfaatan yang dapat ditagih.
+- **Gratis**: biaya yang diperoleh dari peran/kategori ini dianggap biaya langsung yang mendorong eksekusi proyek, dan pelanggan mengakui fakta ini. Karyawan yang menghabiskan waktu ini akan dikreditkan untuk pemanfaatan yang dapat ditagih. Namun, biaya ini tidak dibebankan kepada pelanggan.
+- **Tidak tersedia**: biaya yang dikeluarkan pada proyek internal yang tidak memerlukan pelacakan pendapatan dilacak dengan menggunakan pilihan ini.
 
 ## <a name="invoice-schedule"></a>Jadwal faktur
 
@@ -115,11 +115,11 @@ Ketiga nilai atribut ini digunakan untuk membuat rangkaian tanggal tentatif untu
 
 Frekuensi faktur adalah entitas yang menyimpan nilai atribut yang membantu mengekspresikan frekuensi pembuatan faktur. Atribut berikut mengekspresikan atau menentukan entitas frekuensi faktur:
 
-- **Periode** : bulanan, dua mingguan, dan periode mingguan didukung. 
-- **Berjalan per periode** : untuk periode mingguan dan dua mingguan, Anda hanya dapat menentukan satu operasi per periode. Untuk periode bulanan, Anda dapat menentukan antara satu hingga empat operasi per periode. 
-- **Hari berjalan** : hari saat faktur harus dijalankan. Anda dapat mengonfigurasikan atribut ini dengan dua cara:
-  - **Hari kerja** : misalnya, Anda dapat menentukan bahwa faktur dijalankan setiap hari Senin atau setiap hari Senin kedua. Pelanggan yang harus menetapkan faktur untuk dijalankan pada hari kerja mungkin lebih suka konfigurasi semacam ini. 
-  - **Hari Kalender** : misalnya, Anda dapat menentukan bahwa faktur dijalankan pada hari ketujuh dan dua puluh satu setiap bulan. Beberapa organisasi mungkin memilih konfigurasi semacam ini, karena membantu menjamin bahwa faktur di dijalankan pada jadwal tetap setiap bulan.
+- **Periode**: bulanan, dua mingguan, dan periode mingguan didukung. 
+- **Berjalan per periode**: untuk periode mingguan dan dua mingguan, Anda hanya dapat menentukan satu operasi per periode. Untuk periode bulanan, Anda dapat menentukan antara satu hingga empat operasi per periode. 
+- **Hari berjalan**: hari saat faktur harus dijalankan. Anda dapat mengonfigurasikan atribut ini dengan dua cara:
+  - **Hari kerja**: misalnya, Anda dapat menentukan bahwa faktur dijalankan setiap hari Senin atau setiap hari Senin kedua. Pelanggan yang harus menetapkan faktur untuk dijalankan pada hari kerja mungkin lebih suka konfigurasi semacam ini. 
+  - **Hari Kalender**: misalnya, Anda dapat menentukan bahwa faktur dijalankan pada hari ketujuh dan dua puluh satu setiap bulan. Beberapa organisasi mungkin memilih konfigurasi semacam ini, karena membantu menjamin bahwa faktur di dijalankan pada jadwal tetap setiap bulan.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Jadwal faktur untuk baris kuotasi harga tetap
 

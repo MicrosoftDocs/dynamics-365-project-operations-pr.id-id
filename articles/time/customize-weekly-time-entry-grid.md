@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078383"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124642"
 ---
 # <a name="extending-time-entries"></a>Memperpanjang entri waktu
 
@@ -33,7 +33,7 @@ Memperluas entri waktu dimungkinkan di dua area:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Tambahkan entri waktu kustom untuk penggunaan Anda sendiri
 
-Entri waktu adalah entitas inti yang digunakan dalam beberapa skenario. Pada April Gelombang 1 2020, solusi inti TESA diperkenalkan. TESA menyediakan entitas **Pengaturan** dan peran keamanan **Pengguna Entri Waktu** baru. Bidang baru, **msdyn_start** dan **msdyn_end** yang memiliki hubungan langsung dengan **msdyn_duration** , juga disertakan. Entitas baru, peran keamanan, dan bidang memungkinkan pendekatan yang lebih terpadu untuk waktu di beberapa produk.
+Entri waktu adalah entitas inti yang digunakan dalam beberapa skenario. Pada April Gelombang 1 2020, solusi inti TESA diperkenalkan. TESA menyediakan entitas **Pengaturan** dan peran keamanan **Pengguna Entri Waktu** baru. Bidang baru, **msdyn_start** dan **msdyn_end** yang memiliki hubungan langsung dengan **msdyn_duration**, juga disertakan. Entitas baru, peran keamanan, dan bidang memungkinkan pendekatan yang lebih terpadu untuk waktu di beberapa produk.
 
 
 ### <a name="time-source-entity"></a>Entitas Sumber Waktu
@@ -103,28 +103,28 @@ Sesuaikan tampilan **entri waktu mingguan saya** dan menambahkan bidang kustom k
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Buat entri waktu kustom default baru
 
-Tampilan ini harus berisi bidang **Deskripsi** dan **komentar eksternal** , selain kolom yang ingin Anda miliki di kisi. 
+Tampilan ini harus berisi bidang **Deskripsi** dan **komentar eksternal**, selain kolom yang ingin Anda miliki di kisi. 
 
 1. Pilih posisi, ukuran, dan urutan default kisi dengan mengedit properti tersebut dalam tampilan. 
 2. Konfigurasikan kontrol kustom untuk tampilan ini sehingga merupakan kontrol **kisi entri waktu**. 
 3. Tambahkan kontrol ini ke tampilan, dan pilih untuk web, ponsel, dan tablet. 
 4. Konfigurasikan parameter untuk kisi entri mingguan waktu. 
-5. Atur bidang **tanggal mulai** ke **msdyn_date** , atur bidang **durasi** menjadi **msdyn_duration** , dan atur bidang **status** menjadi **msdyn_entrystatus**. 
+5. Atur bidang **tanggal mulai** ke **msdyn_date**, atur bidang **durasi** menjadi **msdyn_duration**, dan atur bidang **status** menjadi **msdyn_entrystatus**. 
 6. Untuk tampilan default, bidang **Daftar Status Baca-saja** diatur ke **192350002,192350003,192350004**. Bidang **Alur Tugas Edit Baris** diatur ke **msdyn_timeentryrowedit**. Bidang **Alur Tugas Edit Sel** diatur ke **msdyn_timeentryedit**. 
 7. Anda dapat menyesuaikan bidang ini untuk menambahkan atau menghapus status baca-saja, atau menggunakan pengalaman berbasis tugas (TBX) yang berbeda untuk pengeditan baris atau sel. Bidang ini sekarang terikat ke nilai statis.
 
 
 > [!NOTE] 
-> Kedua pilihan akan menghilangkan beberapa filter bawaan pada entitas **proyek** dan **tugas proyek** , sehingga semua tampilan pencarian untuk entitas akan terlihat. Per default, hanya tampilan pencarian yang relevan yang dapat dilihat.
+> Kedua pilihan akan menghilangkan beberapa filter bawaan pada entitas **proyek** dan **tugas proyek**, sehingga semua tampilan pencarian untuk entitas akan terlihat. Per default, hanya tampilan pencarian yang relevan yang dapat dilihat.
 
-Tentukan alur tugas yang sesuai untuk bidang kustom. Jika Anda menambahkan bidang ke kisi, harus masuk di alur Edit tugas baris yang digunakan untuk bidang yang berlaku untuk seluruh baris entri waktu. Jika bidang kustom memiliki nilai unik setiap hari, seperti bidang kustom untuk **waktu berakhir** , bidang tersebut harus masuk dalam alur tugas Edit sel.
+Tentukan alur tugas yang sesuai untuk bidang kustom. Jika Anda menambahkan bidang ke kisi, harus masuk di alur Edit tugas baris yang digunakan untuk bidang yang berlaku untuk seluruh baris entri waktu. Jika bidang kustom memiliki nilai unik setiap hari, seperti bidang kustom untuk **waktu berakhir**, bidang tersebut harus masuk dalam alur tugas Edit sel.
 
-Untuk menambahkan bidang kustom ke alur tugas, tarik elemen **bidang** ke posisi yang sesuai pada halaman, lalu Atur properti bidang. Atur properti **sumber** ke **entri waktu** , dan atur properti **bidang data** ke bidang kustom. Properti **bidang** menentukan nama tampilan pada halaman tbx. Pilih **Terapkan** untuk menyimpan perubahan ke bidang, lalu pilih **Perbarui** untuk menyimpan perubahan ke halaman.
+Untuk menambahkan bidang kustom ke alur tugas, tarik elemen **bidang** ke posisi yang sesuai pada halaman, lalu Atur properti bidang. Atur properti **sumber** ke **entri waktu**, dan atur properti **bidang data** ke bidang kustom. Properti **bidang** menentukan nama tampilan pada halaman tbx. Pilih **Terapkan** untuk menyimpan perubahan ke bidang, lalu pilih **Perbarui** untuk menyimpan perubahan ke halaman.
 
-Untuk menggunakan halaman TBX kustom baru, buat proses baru. Atur kategori ke **alur proses bisnis** , atur entri entitas ke **waktu** , dan atur jenis proses bisnis untuk **menjalankan proses sebagai alur tugas**. Dalam **properti** , properti **nama halaman** harus diatur ke nama tampilan halaman. Tambahkan semua bidang yang relevan ke halaman TBX. Simpan dan aktifkan prosesnya. Perbarui properti kontrol kustom untuk alur tugas yang relevan dengan nilai **nama** pada proses.
+Untuk menggunakan halaman TBX kustom baru, buat proses baru. Atur kategori ke **alur proses bisnis**, atur entri entitas ke **waktu**, dan atur jenis proses bisnis untuk **menjalankan proses sebagai alur tugas**. Dalam **properti**, properti **nama halaman** harus diatur ke nama tampilan halaman. Tambahkan semua bidang yang relevan ke halaman TBX. Simpan dan aktifkan prosesnya. Perbarui properti kontrol kustom untuk alur tugas yang relevan dengan nilai **nama** pada proses.
 
 ### <a name="add-new-option-set-values"></a>Tambahkan Nilai Rangkaian Pilihan baru
-Untuk menambahkan nilai rangkaian pilihan ke bidang siap pakai, buka halaman pengeditan untuk bidang, lalu di dalam **jenis** , pilih **Edit** di sebelah rangkaian pilihan. Tambahkan pilihan baru yang memiliki label dan warna kustom. Jika Anda ingin menambahkan status entri waktu baru, bidang siap pakai diberi nama **status entri** , bukan **status**.
+Untuk menambahkan nilai rangkaian pilihan ke bidang siap pakai, buka halaman pengeditan untuk bidang, lalu di dalam **jenis**, pilih **Edit** di sebelah rangkaian pilihan. Tambahkan pilihan baru yang memiliki label dan warna kustom. Jika Anda ingin menambahkan status entri waktu baru, bidang siap pakai diberi nama **status entri**, bukan **status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Menentukan status entri waktu baru sebagai hanya baca
 Untuk menetapkan status entri waktu baru sebagai hanya baca, tambahkan nilai entri waktu baru ke properti **daftar status hanya baca**. Bagian diedit dari kisi entri waktu akan dikunci untuk baris yang memiliki status baru.

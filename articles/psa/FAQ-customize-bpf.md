@@ -2,7 +2,7 @@
 title: Bagaimana cara menyesuaikan alur proses bisnis tahapan proyek?
 description: Ikhtisar cara menyesuaikan alur proses bisnis Tahapan Proyek.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078670"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125046"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Bagaimana cara menyesuaikan alur proses bisnis tahapan proyek?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Ada batasan umum di versi sebelumnya dari aplikasi Project Service bahwa nama tahapan di alur proses bisnis tahapan proyek harus sama persis dengan nama bahasa Inggris yang diharapkan ( **kuotasi** , **merencanakan** , **Tutup** ). Jika tidak, logika bisnis, yang mengandalkan nama bahasa Inggris tahapan, tidak berfungsi sebagaimana yang diharapkan. Karena itu Anda tidak akrab dengan tindakan seperti **beralih proses** atau **Edit proses** yang tersedia di formulir proyek, dan menyesuaikan alur proses bisnis tidak didukung. 
+Ada batasan umum di versi sebelumnya dari aplikasi Project Service bahwa nama tahapan di alur proses bisnis tahapan proyek harus sama persis dengan nama bahasa Inggris yang diharapkan (**kuotasi**, **merencanakan**, **Tutup**). Jika tidak, logika bisnis, yang mengandalkan nama bahasa Inggris tahapan, tidak berfungsi sebagaimana yang diharapkan. Karena itu Anda tidak akrab dengan tindakan seperti **beralih proses** atau **Edit proses** yang tersedia di formulir proyek, dan menyesuaikan alur proses bisnis tidak didukung. 
 
 Keterbatasan ini telah diatasi di versi 2.4.5.48 dan kemudian. Artikel ini memberikan solusi yang disarankan jika Anda harus menyesuaikan alur proses bisnis default untuk versi sebelumnya.  
 
@@ -38,7 +38,7 @@ Keterbatasan ini telah diatasi di versi 2.4.5.48 dan kemudian. Artikel ini membe
 Alur proses bisnis tahapan proyek mencakup logika bisnis yang menggerakkan perilaku berikut dalam aplikasi:
 - Bila proyek terkait dengan kuotasi, kode mengatur alur proses bisnis untuk **Quote** tahapan.
 - Bila proyek terkait dengan kontrak, kode mengatur alur proses bisnis untuk tahapan **Plan**.
-- Bila alur proses bisnis dilanjutkan ke tahapan **Close** , rekaman proyek akan dinonaktifkan. Bila proyek dinonaktifkan, formulir proyek dan struktur rincian kerja (WBS) diatur ke hanya baca, Pemesanan sumber daya bernama dirilis, dan daftar harga terkait apa pun dinonaktifkan.
+- Bila alur proses bisnis dilanjutkan ke tahapan **Close**, rekaman proyek akan dinonaktifkan. Bila proyek dinonaktifkan, formulir proyek dan struktur rincian kerja (WBS) diatur ke hanya baca, Pemesanan sumber daya bernama dirilis, dan daftar harga terkait apa pun dinonaktifkan.
 
 Logika bisnis ini mengandalkan nama bahasa Inggris tahapan proyek. Dependensi pada nama tahapan bahasa Inggris ini adalah alasan utama mengapa penyesuaian alur proses bisnis tahapan proyek tidak didukung, serta mengapa Anda tidak melihat alur proses bisnis umum seperti **beralih proses** atau **Mengedit proses** di entitas proyek.
 
@@ -48,7 +48,7 @@ Di versi aplikasi Project Service 1.x platform 8,2, ketika nama tahapan dalam al
 
 Di versi aplikasi Project Service 2.4.4.30 atau sebelumnya di 9.0 platform, ada perubahan arsitektural yang signifikan untuk alur proses bisnis yang mengharuskan penulisan ulang logika bisnis alur proses bisnis. Oleh karena itu, jika nama tahapan proses tidak cocok dengan nama bahasa Inggris yang diharapkan, Anda menerima pesan kesalahan. 
 
-Oleh karena itu, jika Anda ingin menyesuaikan alur proses bisnis tahapan proyek untuk entitas proyek, Anda hanya dapat menambahkan tahapan baru untuk alur proses bisnis default untuk entitas proyek, sambil menjaga tahap **kuotasi** , **merencanakan** , dan **tutup** sebagaimana adanya. Batasan ini memastikan bahwa Anda tidak mendapatkan kesalahan dari logika bisnis yang mengharapkan nama bahasa Inggris tahapan di alur proses bisnis.
+Oleh karena itu, jika Anda ingin menyesuaikan alur proses bisnis tahapan proyek untuk entitas proyek, Anda hanya dapat menambahkan tahapan baru untuk alur proses bisnis default untuk entitas proyek, sambil menjaga tahap **kuotasi**, **merencanakan**, dan **tutup** sebagaimana adanya. Batasan ini memastikan bahwa Anda tidak mendapatkan kesalahan dari logika bisnis yang mengharapkan nama bahasa Inggris tahapan di alur proses bisnis.
 
 Di versi 2.4.5.48 atau lebih baru, logika bisnis yang dijelaskan di artikel ini telah dihapus dari alur proses bisnis default untuk entitas proyek. Meningkatkan ke versi tersebut atau nanti akan memungkinkan Anda menyesuaikan atau mengganti alur proses bisnis default dengan punya Anda sendiri. 
 
@@ -56,18 +56,18 @@ Di versi 2.4.5.48 atau lebih baru, logika bisnis yang dijelaskan di artikel ini 
 
 Jika meningkatkan bukan pilihan, Anda dapat menyesuaikan alur proses bisnis tahapan proyek untuk entitas proyek dengan salah satu dari dua cara berikut:
 
-1. Menambahkan tahapan tambahan untuk konfigurasi default, sementara tetap mempertahankan nama bahasa Inggris tahapan untuk **kuotasi** , **merencanakan** , dan **tutup**.
+1. Menambahkan tahapan tambahan untuk konfigurasi default, sementara tetap mempertahankan nama bahasa Inggris tahapan untuk **kuotasi**, **merencanakan**, dan **tutup**.
 
 
 ![Tangkapan layar menambahkan tahapan ke konfigurasi default](media/FAQ-Customize-BPF-1.png)
  
-2. Buat alur proses bisnis Anda sendiri dan jadikan itu alur proses bisnis utama untuk entitas proyek, yang memungkinkan Anda memiliki nama tahapan apa pun yang Anda inginkan. Namun, jika Anda ingin menggunakan tahapan standar proyek yang sama **kuotasi** , **merencanakan** , dan **tutup** , Anda harus melakukan beberapa penyesuaian yang didorong oleh nama tahapan kustom Anda. Logika yang lebih kompleks adalah penutup proyek, yang mana Anda tetap dapat memicu dengan hanya menonaktifkan rekaman proyek.
+2. Buat alur proses bisnis Anda sendiri dan jadikan itu alur proses bisnis utama untuk entitas proyek, yang memungkinkan Anda memiliki nama tahapan apa pun yang Anda inginkan. Namun, jika Anda ingin menggunakan tahapan standar proyek yang sama **kuotasi**, **merencanakan**, dan **tutup**, Anda harus melakukan beberapa penyesuaian yang didorong oleh nama tahapan kustom Anda. Logika yang lebih kompleks adalah penutup proyek, yang mana Anda tetap dapat memicu dengan hanya menonaktifkan rekaman proyek.
 
 ![Penyesuaian BPF](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Pertimbangan tambahan untuk Project Service aplikasi versi 2.4.4.30 atau sebelumnya di platform 9.0
 
-Project Service 2.4.4.30 atau sebelumnya di platform 9.0, dengan alur proses bisnis kustom, bidang **nama tahapan** di entitas proyek yang digunakan dalam bagan **proyek menurut tahapan** , dan tampilan daftar proyek tidak akan diperbarui, karena digabungkan ke default alur proses bisnis tahapan proyek. Anda dapat mengatasi masalah ini dengan langkah-langkah berikut:
+Project Service 2.4.4.30 atau sebelumnya di platform 9.0, dengan alur proses bisnis kustom, bidang **nama tahapan** di entitas proyek yang digunakan dalam bagan **proyek menurut tahapan**, dan tampilan daftar proyek tidak akan diperbarui, karena digabungkan ke default alur proses bisnis tahapan proyek. Anda dapat mengatasi masalah ini dengan langkah-langkah berikut:
 
 - Tambahkan bidang kustom untuk mengambil tahapan alur proses bisnis saat ini yang akan diperbarui saat pengguna melalui alur proses bisnis kustom.
 
@@ -81,7 +81,7 @@ Untuk membuat bisnis alur proses bisnis Anda sendiri untuk entitas proyek, lakuk
 
   ![Buat Proses](media/FAQ-Customize-BPF-3.png)
 
-2. Gunakan desainer proses untuk membuat nama tahapan yang Anda inginkan. Jika Anda ingin fungsi yang sama seperti tahapan default untuk **kuotasi** , **merencanakan** , dan **tutup** , Anda harus membuatnya berdasarkan nama tahapan alur proses bisnis kustom Anda.
+2. Gunakan desainer proses untuk membuat nama tahapan yang Anda inginkan. Jika Anda ingin fungsi yang sama seperti tahapan default untuk **kuotasi**, **merencanakan**, dan **tutup**, Anda harus membuatnya berdasarkan nama tahapan alur proses bisnis kustom Anda.
 
    ![Gambar layar desainer proses yang digunakan untuk menyesuaikan BPF](media/FAQ-Customize-BPF-4.png) 
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078449"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124327"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Mencocokkan tanda terima dengan pengeluaran menggunakan OCR
 
@@ -39,18 +39,18 @@ Entri pengeluaran telah disempurnakan melalui pengenalan pemrosesan pengenalan k
 Untuk secara otomatis melampirkan tanda terima yang mencakup transaksi kartu kredit saat laporan pengeluaran dibuat, selesaikan langkah-langkah berikut.
 
   1. Buka ruang kerja **manajemen pengeluaran**.
-  2. Pada tab **tanda terima** , Verifikasikan bahwa ada tanda terima tanpa lampiran. Anda juga dapat mengunggah tanda terima pada tab **tanda terima**.
-  3. Pada tab **Pengeluaran** , Verifikasikan bahwa ada Pengeluaran tanpa lampiran. Biasanya, administrator pengeluaran mengimpor pengeluaran ini dari penyedia kartu kredit.
+  2. Pada tab **tanda terima**, Verifikasikan bahwa ada tanda terima tanpa lampiran. Anda juga dapat mengunggah tanda terima pada tab **tanda terima**.
+  3. Pada tab **Pengeluaran**, Verifikasikan bahwa ada Pengeluaran tanpa lampiran. Biasanya, administrator pengeluaran mengimpor pengeluaran ini dari penyedia kartu kredit.
   4. Pilih **laporan pengeluaran baru**. Perhatikan bahwa Anda dapat menyertakan pengeluaran, dan tanda terima, sekarang juga, saat membuat laporan pengeluaran. Jika Anda menambahkan pengeluaran dan tanda terima, pencocokan otomatis tanda terima terhadap pengeluaran akan dipicu.
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Membuat atau mencocokkan tanda terima ke laporan pengeluaran
 Untuk membuat pengeluaran, atau mencocokkan pengeluaran dari tanda terima, selesaikan langkah-langkah berikut.
 
-  1. Pada laporan pengeluaran, di tab **tanda terima** , lampirkan tanda terima dengan memilih **Tambah tanda terima**.
+  1. Pada laporan pengeluaran, di tab **tanda terima**, lampirkan tanda terima dengan memilih **Tambah tanda terima**.
   2. Di dalam gambar tanda terima yang telah diunggah, perhatikan pilihan **buat** dan **Cocokkan**.
 
       - Pilih **buat** untuk membuat transaksi pengeluaran yang dimasukkan secara manual dan masukkan nilai yang diekstrak dari tanda terima.
-      - Jika Anda memilih **Cocokkan** , sistem akan mencoba mencocokkan pengeluaran yang ada dengan tanda terima.
+      - Jika Anda memilih **Cocokkan**, sistem akan mencoba mencocokkan pengeluaran yang ada dengan tanda terima.
 
 ## <a name="installation"></a>Penginstalan
 
@@ -58,13 +58,13 @@ Untuk menggunakan kemampuan pengeluaran tingkat lanjut ini, instal Add-in Layana
 
 1. Masuk ke LCS, dan buka lingkungan yang diinginkan.
 2. Buka **rincian lengkap**.
-3. Pilih **Kelola** , atau gulir ke bawah ke fasttab **Add-in lingkungan**.
+3. Pilih **Kelola**, atau gulir ke bawah ke fasttab **Add-in lingkungan**.
 4. Pilih **Instal Add-in baru**.
 5. Pilih **Layanan Manajemen pengeluaran**.
 6. Ikuti panduan penginstalan, dan Setujui persyaratan dan ketentuan.
 7. Pilih **Instal**.
 
-Di ruang kerja **manajemen fitur** , Aktifkan fitur berikut:
+Di ruang kerja **manajemen fitur**, Aktifkan fitur berikut:
 
 - Laporan pengeluaran model baru
 - Pencocokan otomatis dan membuat pengeluaran dari tanda terima

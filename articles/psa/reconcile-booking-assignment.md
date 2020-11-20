@@ -3,7 +3,7 @@ title: Rekonsiliasi pemesanan dan penetapan
 description: Topik ini menyediakan informasi tentang nilai aktual.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078530"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120457"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Rekonsiliasi pemesanan dan penetapan
 
@@ -35,7 +35,7 @@ Karena hubungan onggar dari Pemesanan proyek dan penetapan tugas, tab **rekonsil
 
 Tab **rekonsiliasi** menampilkan Pemesanan dan tugas hingga penetapan tugas individual untuk setiap anggota tim. Ini menunjukkan jam di sel yang dapat mewakili periode waktu dari bulan ke hari.
 
-Di bidang **skala waktu** , Anda dapat memilih **bulan** , **Pekan** , atau **hari**. Secara default, **Pekan** dipilih. Namun, Anda dapat mengubah nilai default dengan memilih tombol **pengaturan**. Bila tab **rekonsiliasi** dibuka, maka akan ditampilkan tanggal saat ini, namun Anda dapat menggunakan kontrol kalender untuk maju atau mundur dalam waktu. Saat proyek memiliki tanggal mulai di masa mendatang, tab menampilkan tanggal tersebut saat dibuka. Kontrol kalender juga memiliki pilihan yang memungkinkan Anda beralih ke tanggal mulai dan selesai proyek.
+Di bidang **skala waktu**, Anda dapat memilih **bulan**, **Pekan**, atau **hari**. Secara default, **Pekan** dipilih. Namun, Anda dapat mengubah nilai default dengan memilih tombol **pengaturan**. Bila tab **rekonsiliasi** dibuka, maka akan ditampilkan tanggal saat ini, namun Anda dapat menggunakan kontrol kalender untuk maju atau mundur dalam waktu. Saat proyek memiliki tanggal mulai di masa mendatang, tab menampilkan tanggal tersebut saat dibuka. Kontrol kalender juga memiliki pilihan yang memungkinkan Anda beralih ke tanggal mulai dan selesai proyek.
 
 Anda dapat menggunakan kontrol perluasan pada setiap sumber daya untuk menampilkan rincian pemesanan sumber daya. Anda juga dapat memperluas tugas setiap sumber daya ke tingkat tugas individual.
 
@@ -47,9 +47,9 @@ Bagian bawah tab **rekonsiliasi** menunjukkan Total keseluruhan bersih untuk pro
 > [!NOTE]
 > Legenda untuk kondisi ini mungkin tersembunyi untuk meninggalkan lebih banyak ruang untuk kisi. Dalam kasus ini, Anda dapat membuat legenda terlihat dengan memilih tombol **pengaturan**.
 
-Dalam kasus tertentu, bila bidang **skala waktu** diatur ke tingkat yang lebih tinggi dari **hari** , perbedaan dapat dihitung sebagai 0 (nol). Misalnya, pada tingkat **bulan** , perbedaan bersih untuk sumber daya mungkin 0 (nol) untuk menunjukkan bahwa Pemesanan sama dengan penetapan. Namun, jika Anda melihat waktu di tingkat **Pekan** , Anda mungkin melihat bahwa ada tugas yang dilakukan 0 (nol) jam dan Pemesanan 40 jam di minggu pertama dalam bulan itu, namun penetapan 40 jam dan Pemesanan dalam 0 (nol) jam di minggu kedua dalam bulan itu. Meskipun total pemesanan dan penugasan untuk bulan tersebut sama, mereka berbeda pekan.
+Dalam kasus tertentu, bila bidang **skala waktu** diatur ke tingkat yang lebih tinggi dari **hari**, perbedaan dapat dihitung sebagai 0 (nol). Misalnya, pada tingkat **bulan**, perbedaan bersih untuk sumber daya mungkin 0 (nol) untuk menunjukkan bahwa Pemesanan sama dengan penetapan. Namun, jika Anda melihat waktu di tingkat **Pekan**, Anda mungkin melihat bahwa ada tugas yang dilakukan 0 (nol) jam dan Pemesanan 40 jam di minggu pertama dalam bulan itu, namun penetapan 40 jam dan Pemesanan dalam 0 (nol) jam di minggu kedua dalam bulan itu. Meskipun total pemesanan dan penugasan untuk bulan tersebut sama, mereka berbeda pekan.
 
-Bila Anda melihat tingkat waktu yang lebih tinggi, sel dalam tab **rekonsiliasi** menunjukkan indikator sel untuk menginformasikan bahwa ada perbedaan pada tingkat waktu yang lebih rendah. Misalnya, dalam ilustrasi berikut, indikator sel muncul di sel untuk bulan Oktober 2018 untuk sumber daya yang bernama Cakrawati Dewani. Oleh karena itu, Anda dapat melihat bahwa, meskipun Pemesanan dan penetapan sumber daya sama saat digabungkan pada tingkat **bulan** , namun tidak sesuai dengan tingkat yang lebih rendah.
+Bila Anda melihat tingkat waktu yang lebih tinggi, sel dalam tab **rekonsiliasi** menunjukkan indikator sel untuk menginformasikan bahwa ada perbedaan pada tingkat waktu yang lebih rendah. Misalnya, dalam ilustrasi berikut, indikator sel muncul di sel untuk bulan Oktober 2018 untuk sumber daya yang bernama Cakrawati Dewani. Oleh karena itu, Anda dapat melihat bahwa, meskipun Pemesanan dan penetapan sumber daya sama saat digabungkan pada tingkat **bulan**, namun tidak sesuai dengan tingkat yang lebih rendah.
 
 ![Pemesanan dan penugasan yang tidak cocok di tingkat bulanan](media/reconcile-assignments-01.JPG)
 

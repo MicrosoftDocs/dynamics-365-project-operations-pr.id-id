@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096756"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122887"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Mengonfigurasikan integrasi Project Operations per entitas hukum 
 
@@ -26,7 +26,7 @@ Ini topik memandu Anda melakukan langkah-langkah yang diperlukan untuk mengkonfi
 Selesaikan langkah-langkah berikut untuk mengaktifkan fitur yang diperlukan.
 
 1. Di Dynamics 365 Finance, buka ruang kerja **manajemen fitur**.
-2. Dalam **Daftar fitur** , Cari dan Aktifkan fitur berikut:
+2. Dalam **Daftar fitur**, Cari dan Aktifkan fitur berikut:
   
     - **Aktifkan beberapa baris kontrak untuk proyek**
     - **Aktifkan Project Operations di Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Anda dapat mengaktifkan Project Operations pada Dynamics 365 Customer Engagement
 
 Setiap entitas hukum yang menggunakan Project Operations pada Dynamics 365 Customer Engagement memerlukan seperangkat parameter default. Parameter ini dikonfigurasi pada tab **Project Operations** pada halaman **parameter manajemen proyek dan akuntansi**. Parameter itu adalah:
 
-  - **Jenis penagihan default** : Project Operations menggunakan rangkaian tetap default jenis penagihan yang harus dipetakan ke properti baris Finance. Buat rekaman untuk setiap jenis penagihan: **tidak ditentukan** , **Dikenakan biaya** , **Tidak dikenakan biaya** , **gratis** , dan **tidak tersedia**.
-  - **Default kategori proyek** : Pilih kategori proyek default yang akan digunakan untuk setiap jenis transaksi. Default ini akan digunakan dalam **jurnal integrasi Project Operations** dan di perkiraan yang mana tidak ada kategori transaksi yang ditentukan untuk aktual proyek.
-  - **Perkiraan** : Pilih model perkiraan yang akan digunakan untuk perkiraan waktu dan pengeluaran.
+  - **Jenis penagihan default**: Project Operations menggunakan rangkaian tetap default jenis penagihan yang harus dipetakan ke properti baris Finance. Buat rekaman untuk setiap jenis penagihan: **tidak ditentukan**, **Dikenakan biaya**, **Tidak dikenakan biaya**, **gratis**, dan **tidak tersedia**.
+  - **Default kategori proyek**: Pilih kategori proyek default yang akan digunakan untuk setiap jenis transaksi. Default ini akan digunakan dalam **jurnal integrasi Project Operations** dan di perkiraan yang mana tidak ada kategori transaksi yang ditentukan untuk aktual proyek.
+  - **Perkiraan**: Pilih model perkiraan yang akan digunakan untuk perkiraan waktu dan pengeluaran.

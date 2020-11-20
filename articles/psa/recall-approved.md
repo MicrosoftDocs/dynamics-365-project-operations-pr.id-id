@@ -3,7 +3,7 @@ title: Tarik entri waktu atau pengeluaran yang telah disetujui sebelumnya
 description: Topik ini menyediakan informasi tentang cara menarik transaksi waktu atau pengeluaran yang telah disetujui sebelumnya.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078531"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120547"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tarik entri waktu atau pengeluaran yang telah disetujui sebelumnya
 
@@ -60,13 +60,13 @@ Ikuti langkah berikut untuk meminta penarikan entri waktu atau pengeluaran yang 
 Ikuti langkah berikut untuk menyetujui atau menolak permintaan penarikan.
 
 1. Buka **proyek** \> **Pekerjaan Saya** \> **Persetujuan**.
-2. Di halaman daftar **persetujuan** , Ubah tampilan menjadi **Tarik permintaan persetujuan**. Daftar Permintaan penarikan yang diajukan akan ditampilkan.
+2. Di halaman daftar **persetujuan**, Ubah tampilan menjadi **Tarik permintaan persetujuan**. Daftar Permintaan penarikan yang diajukan akan ditampilkan.
 3. Pilih satu entri atau lebih, lalu pilih **Setujui** atau **Tolak**.
-4. Jika Anda memilih **setuju** , Anda akan menerima pesan peringatan yang menjelaskan dampak persetujuan. Pilih **OK** untuk mengonfirmasikan operasi. Permintaan penarikan disetujui.
+4. Jika Anda memilih **setuju**, Anda akan menerima pesan peringatan yang menjelaskan dampak persetujuan. Pilih **OK** untuk mengonfirmasikan operasi. Permintaan penarikan disetujui.
 
     –atau–
 
-    Jika Anda memilih **Tolak** , permintaan penarikan akan ditolak.
+    Jika Anda memilih **Tolak**, permintaan penarikan akan ditolak.
 
 > [!NOTE]
 > Saat ada permintaan penarikan ulang, saat penarikan disetujui, sistem memeriksa aktivitas faktur pada entri waktu atau pengeluaran. Jika entri sudah ditagih, atau jika pada faktur draf, pemberi izin akan menerima pesan kesalahan yang menyatakan bahwa waktu atau pengeluaran tidak dapat disetujui untuk ditarik, karena sudah ditagih.
@@ -77,11 +77,11 @@ Bila persetujuan ditarik, ada dampak operasional dan dampak keuangan.
 
 ### <a name="operational-impact"></a>Dampak operasional
 
-Jika permintaan penarikan ulang disetujui, rekaman persetujuan ditandai sebagai **ditolak**. Status entri akan diubah **Dikembalikan** maupun **Ditolak** , tergantung pada apakah entri waktu atau entri pengeluaran.
+Jika permintaan penarikan ulang disetujui, rekaman persetujuan ditandai sebagai **ditolak**. Status entri akan diubah **Dikembalikan** maupun **Ditolak**, tergantung pada apakah entri waktu atau entri pengeluaran.
 
 Anggota tim proyek dapat melihat entri, mengedit, dan kemudian mengajukan kembali entri, atau menghapus entri seluruhnya.
 
-Jika permintaan penarikan ulang ditolak, status entri tetap **disetujui** , dan entri tidak dapat diedit oleh anggota tim proyek atau pemberi izin untuk proyek.
+Jika permintaan penarikan ulang ditolak, status entri tetap **disetujui**, dan entri tidak dapat diedit oleh anggota tim proyek atau pemberi izin untuk proyek.
 
 ### <a name="financial-impact"></a>Dampak keuangan
 
@@ -90,7 +90,7 @@ Jika permintaan penarikan disetujui, aktual yang sesuai untuk biaya dan penjuala
 - Bidang **Status penyesuaian** diperbarui ke **disesuaikan**.
 - Bidang **Status Penagihan** diperbarui ke **Dibatalkan**.
 
-Selanjutnya, entri pembalikan dibuat di dalam tabel aktual. Untuk membuat entri pembalikan, sistem menyalin nilai bidang dari aktual asli. Hanya nilai yang tidak disalin adalah nilai kuantitas. Nilai ini dibalik sebagai gantinya. Aktual terbalik dibuat untuk aktual **biaya** dan **penjualan tidak ditagih**. Bidang **status penyesuaian** pada aktual terbalik diatur ke **tidak dapat disesuaikan** , dan **status penagihan** diatur ke **dibatalkan**. Karena perubahan ini, pengeluaran yang tercatat dan akumulasi pendapatan pada proyek tidak akan mempertimbangkan lagi jumlah yang diwakili oleh aktual ini.
+Selanjutnya, entri pembalikan dibuat di dalam tabel aktual. Untuk membuat entri pembalikan, sistem menyalin nilai bidang dari aktual asli. Hanya nilai yang tidak disalin adalah nilai kuantitas. Nilai ini dibalik sebagai gantinya. Aktual terbalik dibuat untuk aktual **biaya** dan **penjualan tidak ditagih**. Bidang **status penyesuaian** pada aktual terbalik diatur ke **tidak dapat disesuaikan**, dan **status penagihan** diatur ke **dibatalkan**. Karena perubahan ini, pengeluaran yang tercatat dan akumulasi pendapatan pada proyek tidak akan mempertimbangkan lagi jumlah yang diwakili oleh aktual ini.
 
 Jika permintaan penarikan ulang ditolak, tidak ada dampak keuangan pada proyek.
 

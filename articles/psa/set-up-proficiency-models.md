@@ -3,7 +3,7 @@ title: Konfigurasi Model Kecakapan
 description: Bagaimana mengatur model kemahiran di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078701"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122977"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Mengatur model kemahiran (Project Service)
 
@@ -35,7 +35,7 @@ Sekarang karena Anda telah menambahkan kemampuan untuk proyek-proyek klien Anda,
   
 2.  Untuk melihat atau mengedit model kemampuan default, klik **Model Rating bawaan** dalam daftar, atau untuk membuat model kemampuan baru, klik **Baru**.  
   
-3.  Jika Anda membuat model kemampuan baru, isi bidang di area **umum** , dan kemudian klik **Simpan** untuk membuat rekaman sehingga Anda dapat terus mengedit. Bila Anda membuat model kemampuan Anda sendiri, perlu diingat bahwa angka-angka yang lebih tinggi lebih baik.  
+3.  Jika Anda membuat model kemampuan baru, isi bidang di area **umum**, dan kemudian klik **Simpan** untuk membuat rekaman sehingga Anda dapat terus mengedit. Bila Anda membuat model kemampuan Anda sendiri, perlu diingat bahwa angka-angka yang lebih tinggi lebih baik.  
   
      Misalnya, jika Anda melihat atau mengedit model peringkat default, Anda akan melihat tingkat kemahiran berikut di **nilai-nilai peringkat**.  
   

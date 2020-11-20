@@ -3,7 +3,7 @@ title: Lihat ketersediaan sumber daya
 description: Bagaimana melihat ketersediaan sumber di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078558"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124957"
 ---
 # <a name="view-resource-availability-project-service"></a>Lihat ketersediaan sumber (Project Service)
 
@@ -38,11 +38,11 @@ Anda dapat memeriksa ketersediaan sumber untuk mendapatkan pandangan yang menyel
 
 1. Lihat **Project Service > ketersediaan sumber**.  
 
-    Ini menunjukkan tampilan kalender semua sumber daya dan ketersediaan mereka. Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari** , **minggu** , atau **bulan** , dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
+    Ini menunjukkan tampilan kalender semua sumber daya dan ketersediaan mereka. Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari**, **minggu**, atau **bulan**, dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
 
 2. Klik **pilihan** untuk mengubah menampilkan apa. Misalnya, Anda dapat menunjukkan sebuah legenda yang menunjukkan skema warna untuk jenis-jenis Pemesanan, atau Anda dapat memilih untuk menampilkan hanya jenis tertentu terakhir (misalnya, pesanan yang pasti dan pesanan tentatif).  
 
-3. Klik **Filter** untuk menampilkan panel **Filter** , yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
+3. Klik **Filter** untuk menampilkan panel **Filter**, yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
 
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)

@@ -3,7 +3,7 @@ title: Membuat daftar harga
 description: Bagaimana membuat daftar harga di Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078520"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122032"
 ---
 # <a name="create-a-price-list-project-service"></a>Membuat daftar harga (Project Service)
 
@@ -39,33 +39,33 @@ Daftar harga bergantung pada peran dan kategori pengeluaran, jadi sebelum membua
   
 2.  Klik **Baru**.  
   
-3.  Dalam **konteks** , pilih apakah daftar harga ini untuk **biaya** , **pembelian** , atau **penjualan**.  
+3.  Dalam **konteks**, pilih apakah daftar harga ini untuk **biaya**, **pembelian**, atau **penjualan**.  
   
-4.  Dalam **nama** , masukkan nama untuk daftar harga.  
+4.  Dalam **nama**, masukkan nama untuk daftar harga.  
   
-5.  Dalam **mata uang** , pilih mata uang yang Anda akan gunakan untuk penagihan atau biaya.  
+5.  Dalam **mata uang**, pilih mata uang yang Anda akan gunakan untuk penagihan atau biaya.  
   
-6.  Dalam **Unit waktu** , tentukan periode waktu Harga berlaku, seperti hari atau jam.  
+6.  Dalam **Unit waktu**, tentukan periode waktu Harga berlaku, seperti hari atau jam.  
   
-7.  Isi **tanggal mulai** , **tanggal akhir** , dan **Deskripsi** yang diperlukan.  
+7.  Isi **tanggal mulai**, **tanggal akhir**, dan **Deskripsi** yang diperlukan.  
   
 8.  Klik **Simpan** untuk membuat rekaman sehingga Anda dapat terus mengedit.  
   
 9. Untuk menambahkan harga peran ke daftar harga, klik **+** di bawah **harga peran**.  
   
-10. Dalam panel **harga peran** , isi rincian, dan kemudian klik **Simpan**. Terus tambahkan harga peran yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
+10. Dalam panel **harga peran**, isi rincian, dan kemudian klik **Simpan**. Terus tambahkan harga peran yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
   
 11. Untuk menambahkan harga kategori biaya ke daftar harga, klik **+** di bawah **harga Kategori**.  
   
-12. Dalam panel **harga Kategori Transaksi** , isi rincian, dan kemudian klik **Simpan**. Terus tambahkan harga kategori yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
+12. Dalam panel **harga Kategori Transaksi**, isi rincian, dan kemudian klik **Simpan**. Terus tambahkan harga kategori yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
   
 13. Untuk menambahkan item daftar harga ke daftar harga, klik **+** di bawah **item daftar harga**.  
   
-14. Dalam panel **item daftar harga** , isi rincian, dan kemudian klik **Simpan**. Terus tambahkan item daftar harga yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
+14. Dalam panel **item daftar harga**, isi rincian, dan kemudian klik **Simpan**. Terus tambahkan item daftar harga yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
   
 15. Untuk menambahkan hubungan wilayah ke daftar harga, klik **+** di bawah **hubungan wilayah**.  
   
-16. Dalam jendela **Koneksi Baru** , isi rincian, dan kemudian klik **Simpan**. Terus menambahkan hubungan wilayah yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
+16. Dalam jendela **Koneksi Baru**, isi rincian, dan kemudian klik **Simpan**. Terus menambahkan hubungan wilayah yang diperlukan. Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Project Service Automation](../psa/configure.md)

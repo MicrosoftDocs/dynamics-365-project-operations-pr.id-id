@@ -3,7 +3,7 @@ title: Baris kuotasi berbasis produk
 description: Topik ini menyediakan informasi tentang kuotasi berbasis produk.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078664"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123203"
 ---
 # <a name="product-based-quote-lines"></a>Baris kuotasi berbasis produk
 
@@ -41,7 +41,7 @@ Misalnya, perusahaan menjual lisensi langganan untuk berbagai perangkat lunak. S
 - Jumlah Pengguna 
 - Durasi langganan (dalam bulan)
 
-Cara yang baik untuk mempertahankan Katalog jenis ini adalah dengan membuat rangkaian produk yang diberi nama **perangkat lunak langganan** , dan memiliki **jumlah pengguna** dan **durasi langganan** sebagai atribut. Selanjutnya, Anda dapat menambahkan produk individual, seperti **Dynamics 365 Sales** atau **Dynamics 365 Field Service** ke rangkaian produk **perangkat lunak langganan**.
+Cara yang baik untuk mempertahankan Katalog jenis ini adalah dengan membuat rangkaian produk yang diberi nama **perangkat lunak langganan**, dan memiliki **jumlah pengguna** dan **durasi langganan** sebagai atribut. Selanjutnya, Anda dapat menambahkan produk individual, seperti **Dynamics 365 Sales** atau **Dynamics 365 Field Service** ke rangkaian produk **perangkat lunak langganan**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Menambahkan item Katalog Produk ke kuotasi proyek
 
@@ -54,7 +54,7 @@ Jika baris kuotasi didasarkan pada Katalog Produk, Anda dapat menimpa harga penj
 - Timpa Harga  
 - Gunakan default
 
-Jika Anda menetapkan bidang ini ke **Timpa Harga** , Dynamics 365 tidak menetapkan harga default. Anda harus memasukkan harga untuk produk pada baris kuotasi. Jika Anda menetapkan bidang ini ke **Gunakan default** , maka Dynamics 365 menggunakan harga penjualan default dan mengunci bidang untuk mencegah pengeditan.
+Jika Anda menetapkan bidang ini ke **Timpa Harga**, Dynamics 365 tidak menetapkan harga default. Anda harus memasukkan harga untuk produk pada baris kuotasi. Jika Anda menetapkan bidang ini ke **Gunakan default**, maka Dynamics 365 menggunakan harga penjualan default dan mengunci bidang untuk mencegah pengeditan.
 
 Setelah Anda menginstal PSA, harga penjualan default dimasukkan pada baris berbasis produk pada kuotasi. Bidang **harga** kemudian diatur ke **Timpa Harga** sehingga Anda dapat mengedit harga default pada baris kuotasi.
 

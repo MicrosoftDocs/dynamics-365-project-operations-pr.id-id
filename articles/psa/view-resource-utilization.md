@@ -3,7 +3,7 @@ title: Lihat Pemanfaatan Sumber Daya
 description: Bagaimana melihat pemanfaatan sumber daya di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e2c76ed1d1c14e1bdadfe919770c4625e2f98840
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5cab86cd6ce797d912ae17178c34bdcb2c87d1e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078557"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124912"
 ---
 # <a name="view-resource-utilization-project-service"></a>Lihat pemanfaatan sumber daya (Project Service)
 
@@ -33,11 +33,11 @@ Anda dapat memeriksa pemanfaatan sumber daya untuk menentukan tingkat pemanfaata
   
 1. Lihat **Project Service > Pemanfaatan sumber daya**. 
 
-     Ini menunjukkan tampilan kalender semua sumber daya dan ketersediaan mereka. Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari** , **minggu** , atau **bulan** , dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.      
+     Ini menunjukkan tampilan kalender semua sumber daya dan ketersediaan mereka. Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari**, **minggu**, atau **bulan**, dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.      
   
 2. Klik **pilihan** untuk mengubah menampilkan apa. Misalnya, Anda dapat menunjukkan sebuah legenda yang menunjukkan skema warna untuk jenis-jenis Pemesanan, atau Anda dapat memilih untuk menampilkan hanya jenis tertentu terakhir (misalnya, pesanan yang pasti dan pesanan tentatif).  
 
-3. Klik **Filter** untuk menampilkan panel **Filter** , yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
+3. Klik **Filter** untuk menampilkan panel **Filter**, yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)

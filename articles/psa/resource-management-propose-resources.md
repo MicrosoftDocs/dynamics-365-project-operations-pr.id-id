@@ -3,7 +3,7 @@ title: Mengusulkan sumber daya proyek
 description: Topik ini menyediakan informasi tentang mengusulkan sumber daya proyek.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078703"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120187"
 ---
 # <a name="propose-project-resources"></a>Mengusulkan sumber daya proyek
 
 Manajer sumber daya dapat mengusulkan sumber daya untuk manajer proyek menggunakan permintaan sumber daya.
 
 1. Dari kisi permintaan atau permintaan itu sendiri, pilih **Cari sumber daya**.
-2. Di halaman **asisten jadwal** , pilih sumber daya, lalu di panel **buat Pemesanan sumber daya** , di bidang **status Pemesanan** , pilih **Pesan**.
+2. Di halaman **asisten jadwal**, pilih sumber daya, lalu di panel **buat Pemesanan sumber daya**, di bidang **status Pemesanan**, pilih **Pesan**.
 
     ![Sumber daya yang diusulkan dipilih](media/Resource-Management-image62.png)
 
 Terjadi pembaruan status berikut:
 
-- Di halaman **asisten jadwal** , indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
+- Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
 
     ![Indikator status untuk usulan Pemesanan pada halaman asisten jadwal](media/Resource-Management-image63.png)
 
@@ -82,11 +82,11 @@ Karena tampilan **pemanfaatan sumber daya** didasarkan pada papan jadwal, Anda d
 
 Kisi-kisi mengharuskan Anda menetapkan Pemanfaatan peran atau sumber daya individual. Untuk melakukan konfigurasi ini, buka **sumber daya** \> **peran sumber daya**.
 
-Selain itu, peran default harus ditetapkan ke setiap sumber daya yang dapat dipesan. Buka **Sumber Daya** \> **Sumber daya**. Pada tab **Project Service** , periksa apakah peran sumber daya ditentukan, dan bidang **merupakan default** untuk diatur ke **ya**. Anda dapat menambahkan peran tambahan di mana **merupakan default = Tidak**. Peran jika **merupakan default = Ya** digunakan untuk mengevaluasi pemanfaatan sumber daya terhadap target untuk peran tersebut.
+Selain itu, peran default harus ditetapkan ke setiap sumber daya yang dapat dipesan. Buka **Sumber Daya** \> **Sumber daya**. Pada tab **Project Service**, periksa apakah peran sumber daya ditentukan, dan bidang **merupakan default** untuk diatur ke **ya**. Anda dapat menambahkan peran tambahan di mana **merupakan default = Tidak**. Peran jika **merupakan default = Ya** digunakan untuk mengevaluasi pemanfaatan sumber daya terhadap target untuk peran tersebut.
 
 ![Set Peran Default](media/Resource-Management-image67.png)
 
-Di tab **Project Service** , Anda juga dapat menetapkan pemanfaatan target individual untuk sumber daya. Perhitungan pemanfaatan kemudian menggunakan pemanfaatan target untuk mengevaluasi target sumber daya bukan target dari peran default sumber daya.
+Di tab **Project Service**, Anda juga dapat menetapkan pemanfaatan target individual untuk sumber daya. Perhitungan pemanfaatan kemudian menggunakan pemanfaatan target untuk mengevaluasi target sumber daya bukan target dari peran default sumber daya.
 
 Pemanfaatan ditampilkan untuk sumber daya hanya jika sumber daya telah disetujui, waktu yang dapat ditagih selama periode yang ditampilkan di kisi.
 

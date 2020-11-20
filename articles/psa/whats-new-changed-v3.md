@@ -2,7 +2,7 @@
 title: Yang baru atau yang diubah di Project Service Automation versi 3
 description: Topik ini menyediakan informasi tentang apa yang baru dan diubah dalam Project Service Automation versi 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078446"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120007"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Yang baru atau yang diubah di Project Service Automation versi 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -90,11 +90,11 @@ Saat Anda memindahkan jadwal proyek yang ada ke depan, terjadi hal berikut:
 - Aktual tidak dipindahkan. 
 
 ## <a name="estimates"></a>Perkiraan
-Perkiraan telah dipecah menjadi dua tab, **penetapan sumber daya** , dan **perkiraan**. Tab **penetapan sumber daya** berisi perkiraan upaya dan menampilkan penetapan sumber daya untuk tugas dalam tampilan yang berfase waktu. Anda dapat mengedit perkiraan berdasarkan apa yang dihasilkan mesin penjadwalan.
+Perkiraan telah dipecah menjadi dua tab, **penetapan sumber daya**, dan **perkiraan**. Tab **penetapan sumber daya** berisi perkiraan upaya dan menampilkan penetapan sumber daya untuk tugas dalam tampilan yang berfase waktu. Anda dapat mengedit perkiraan berdasarkan apa yang dihasilkan mesin penjadwalan.
 
 ![Tugas sumber daya yang menunjukkan perkiraan upaya dan tugas sumber daya untuk tugas](media/resource-assignments-tab-02.png)
 
-Tab **perkiraan** menunjukkan biaya dan jumlah penjualan untuk tugas sumber daya. Jumlah bersifat hanya baca. Harga dan harga penjualan sekarang didorong dari tugas anggota tim pada jadwal. Ini berarti bahwa jika Anda memiliki tugas tanpa penetapan, tugas akan ditampilkan dalam keranjang belum ditetapkan. Ini juga berarti bahwa tanpa **peran** , yang merupakan dimensi harga default, tidak akan ada perkiraan biaya atau penjualan jika Anda memiliki pelanggan atau kontrak/kuotasi yang terkait dengan proyek. 
+Tab **perkiraan** menunjukkan biaya dan jumlah penjualan untuk tugas sumber daya. Jumlah bersifat hanya baca. Harga dan harga penjualan sekarang didorong dari tugas anggota tim pada jadwal. Ini berarti bahwa jika Anda memiliki tugas tanpa penetapan, tugas akan ditampilkan dalam keranjang belum ditetapkan. Ini juga berarti bahwa tanpa **peran**, yang merupakan dimensi harga default, tidak akan ada perkiraan biaya atau penjualan jika Anda memiliki pelanggan atau kontrak/kuotasi yang terkait dengan proyek. 
 
 ![Tab perkiraan menunjukkan biaya dan jumlah penjualan](media/estimates-tab-03.png)
   
@@ -110,7 +110,7 @@ Dalam Project Service Automation versi 3, dengan UI klien terpadu baru dan perub
 ![Menggunakan Pengambil sumber daya](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Menetapkan sumber daya nyata yang dapat dipesan 
-Di Project Service Automation versi 3, Pemesanan dan penetapan tugas tidak terkait erat seperti di versi sebelumnya dari Project Service Automation. Anda dapat menggunakan kisi tim untuk memesan anggota tim **sungguhan** , mirip dengan di dalam pasar.
+Di Project Service Automation versi 3, Pemesanan dan penetapan tugas tidak terkait erat seperti di versi sebelumnya dari Project Service Automation. Anda dapat menggunakan kisi tim untuk memesan anggota tim **sungguhan**, mirip dengan di dalam pasar.
 
 Menggunakan pemilih sumber daya pada jadwal, Anda dapat memilih anggota tim yang dibuat di tampilan tim, lalu menetapkannya ke tugas. Anda dapat terus menetapkan tugas kepada mereka, bahkan melewati Pemesanan. Gunakan tab **rekonsiliasi** untuk merekonsiliasi anggota tim yang memiliki perbedaan dalam pemesanan dan tugas.
 
@@ -158,7 +158,7 @@ Klik **baru** di pita untuk membuka halaman Buat cepat untuk entri waktu yang me
 Bidang pencarian didukung oleh tampilan sistem. Misalnya, setelah Anda memasukkan informasi proyek, bidang **tugas proyek** diatur secara default ke tampilan **tugas proyek yang terbuka**. Untuk membuat entri waktu untuk tugas yang tidak ditetapkan ke pengguna, klik **Ubah tampilan** di pencarian, lalu pilih **semua tugas proyek aktif**. Setelah entri waktu dibuat dan ditampilkan di kisi, Anda dapat mengedit nilai baris apa pun secara langsung di kisi.  
 
 ### <a name="bulk-createcopy"></a>Buat/Salin massal 
-Setelah beberapa entri waktu dibuat, Anda dapat menggunakan fungsi salin untuk membuat entri waktu tambahan secara massal. Klik **Salin** untuk membuka dialog **salin**. Di **dari periode: tanggal mulai** , atur rentang tanggal periode waktu yang harus disalin. Di **hingga periode: tanggal mulai** , tentukan tanggal saat entri waktu harus dibuat. Klik **Salin** untuk menyalin entri waktu ke hari yang sesuai dalam minggu yang ditunjukkan dalam **hingga periode**. Misalnya, entri waktu Senin dari pekan lalu akan disalin ke hari Senin dalam pekan yang ditentukan sebagai **hingga periode**. 
+Setelah beberapa entri waktu dibuat, Anda dapat menggunakan fungsi salin untuk membuat entri waktu tambahan secara massal. Klik **Salin** untuk membuka dialog **salin**. Di **dari periode: tanggal mulai**, atur rentang tanggal periode waktu yang harus disalin. Di **hingga periode: tanggal mulai**, tentukan tanggal saat entri waktu harus dibuat. Klik **Salin** untuk menyalin entri waktu ke hari yang sesuai dalam minggu yang ditunjukkan dalam **hingga periode**. Misalnya, entri waktu Senin dari pekan lalu akan disalin ke hari Senin dalam pekan yang ditentukan sebagai **hingga periode**. 
 
 ![Salin entri Waktu secara massal](media/bulk-copy-time-entry-09.png)
  
@@ -192,11 +192,11 @@ Platform Common Data Service tidak mendukung satu pengguna menyamar sebagai oran
 Penyesuaian memungkinkan Anda menambahkan **sumber daya yang dapat dipesan** ke pengalaman buat dan edit, yang akan memungkinkan pengguna bertindak sebagai delegasi dengan mengubah bidang **Pemesanan sumber daya** ke pengguna lain yang waktu dan entri pengeluarannya harus direkam. Langkah-langkah berikut ini mencakup delegasi entri waktu. Informasi yang sama berlaku untuk delegasi entri pengeluaran. 
  
 1.  Pastikan bahwa pengguna yang didelegasikan memiliki akses keamanan global pada tugas proyek dan proyek. 
-1.  Karena **sumber daya yang dapat dipesan** , yang merupakan bidang pada entitas **entri waktu** , tidak terpapar pada halaman **buat cepat** , Anda harus menambahkannya.
+1.  Karena **sumber daya yang dapat dipesan**, yang merupakan bidang pada entitas **entri waktu**, tidak terpapar pada halaman **buat cepat**, Anda harus menambahkannya.
 
     -atau-
 
-    Buat tampilan kustom, yang mencakup kolom **sumber daya yang dapat dipesan** , untuk hanya menampilkan entri waktu yang dibuat untuk sumber daya. Publikasikan penyesuaian pada desainer modul aplikasi untuk tampilan ini untuk menampilkan **pemilih tampilan** di halaman **entri waktu**. Ada dua plug-in yang menangani pengaturan manajer untuk entri waktu non-proyek:
+    Buat tampilan kustom, yang mencakup kolom **sumber daya yang dapat dipesan**, untuk hanya menampilkan entri waktu yang dibuat untuk sumber daya. Publikasikan penyesuaian pada desainer modul aplikasi untuk tampilan ini untuk menampilkan **pemilih tampilan** di halaman **entri waktu**. Ada dua plug-in yang menangani pengaturan manajer untuk entri waktu non-proyek:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate

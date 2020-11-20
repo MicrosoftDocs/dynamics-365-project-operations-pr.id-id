@@ -2,7 +2,7 @@
 title: Pertimbangan peningkatan – Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x ke versi 3
 description: Topik ini menyediakan informasi tentang pertimbangan yang harus anda buat saat melakukan upgrade dari versi Project Service Automation 2. x atau 1. x ke versi 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078564"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121717"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan peningkatan – PSA versi 2.x atau 1.x ke versi 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4078564"
 Baik Dynamics 365 Project Service Automation maupun Dynamics 365 Field Service menggunakan solusi Universal Resource Scheduling (Urs) untuk penjadwalan sumber daya. Jika Anda memiliki Project Service Automation dan Field Service di instans Anda, Anda harus merencanakan peningkatan kedua solusi ke versi terbaru (versi 3. x untuk Project Service Automation, versi 8. x untuk Field Service). Meningkatkan Project Service Automation atau Field Service akan menginstal versi terbaru dari URS, yang berarti bahwa perilaku yang tidak konsisten dimungkinkan jika solusi Project Service Automation dan Project Service di instans yang sama tidak ditingkatkan ke versi terbaru.
 
 ## <a name="resource-assignments"></a>Penetapan sumber daya
-Di Project Service Automation versi 2 dan versi 1, penetapan tugas disimpan sebagai tugas anak (juga disebut tugas baris di **) entitas tugas** , dan tidak langsung terkait dengan entitas **penetapan sumber daya**. Tugas baris terlihat di jendela pop-up tugas di struktur rincian kerja (WBS).
+Di Project Service Automation versi 2 dan versi 1, penetapan tugas disimpan sebagai tugas anak (juga disebut tugas baris di **) entitas tugas**, dan tidak langsung terkait dengan entitas **penetapan sumber daya**. Tugas baris terlihat di jendela pop-up tugas di struktur rincian kerja (WBS).
 
 ![Tugas baris di WBS di Project Service Automation versi 2 dan versi 1](media/upgrade-line-task-01.png)
 
@@ -77,7 +77,7 @@ Di versi 2 dan versi 1, proyek dengan sumber daya generik bisa memiliki dua kead
 
 Sebelum memulai peningkatan, sebaiknya buat ulang tim untuk setiap proyek yang memiliki tugas yang ditetapkan ke sumber daya generik atau belum menghasilkan proses tim yang berjalan.
 
-Untuk tugas yang ditetapkan ke anggota tim umum yang dihasilkan dengan **Buat tim** , peningkatan akan meninggalkan sumber daya generik pada tim dan meninggalkan tugas ke anggota tim generik. Sebaiknya buat persyaratan sumber daya untuk anggota tim generik setelah peningkatan, namun sebelum Anda memesan atau mengajukan permintaan sumber daya. Tindakan ini akan mempertahankan penetapan unit organisasi pada anggota tim generik yang berbeda dengan unit organisasi kontrak proyek.
+Untuk tugas yang ditetapkan ke anggota tim umum yang dihasilkan dengan **Buat tim**, peningkatan akan meninggalkan sumber daya generik pada tim dan meninggalkan tugas ke anggota tim generik. Sebaiknya buat persyaratan sumber daya untuk anggota tim generik setelah peningkatan, namun sebelum Anda memesan atau mengajukan permintaan sumber daya. Tindakan ini akan mempertahankan penetapan unit organisasi pada anggota tim generik yang berbeda dengan unit organisasi kontrak proyek.
 
 Misalnya, dalam proyek proyek Z, unit organisasi kontrak adalah Aswono AS. Dalam rencana proyek, tugas pengujian dalam fase penerapan telah ditetapkan peran Konsultan teknis, dan unit organisasi yang ditetapkan adalah Aswono India.
 

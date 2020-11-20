@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078448"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124282"
 ---
 # <a name="post-expense-reports"></a>Memposting laporan pengeluaran
 
@@ -28,6 +28,6 @@ Setelah laporan pengeluaran disetujui dan ditransfer ke jurnal umum, dapat dipos
 
 Jika pengeluaran pada laporan pengeluaran dibebankan kepada perusahaan selain perusahaan yang mempekerjakan karyawan, Anda harus memverifikasi kedua perusahaan tentang pengeluaran tersebut terutang pada perusahaan mana dan harus dibayar oleh perusahaan mana. Misalnya, karyawan yang mengirimkan laporan pengeluaran bekerja untuk perusahaan DAT namun pengeluaran dibebankan ke perusahaan DIR. Dalam kasus ini, DAT adalah perusahaan yang berpiutang, dan DIR adalah perusahaan yang berutang. Setelah Anda memverifikasi baris jurnal ini, Anda dapat mengirim baris pengeluaran ke buku besar.
 
-Untuk memposting laporan pengeluaran, pada halaman **laporan pengeluaran yang disetujui** , pilih laporan pengeluaran, lalu di panel tindakan, pilih **posting**.
+Untuk memposting laporan pengeluaran, pada halaman **laporan pengeluaran yang disetujui**, pilih laporan pengeluaran, lalu di panel tindakan, pilih **posting**.
 
 Anda juga dapat memposting semua laporan pengeluaran dalam daftar secara bersamaan. Pilih Semua laporan pengeluaran, lalu pilih **posting**.

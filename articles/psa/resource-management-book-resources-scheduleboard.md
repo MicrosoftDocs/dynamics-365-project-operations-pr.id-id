@@ -3,7 +3,7 @@ title: Menggunakan papan jadwal untuk memesan sumber daya proyek
 description: Topik ini menyediakan informasi tentang cara memesan sumber daya.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078706"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120232"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Menggunakan papan jadwal untuk memesan sumber daya proyek
 
@@ -32,7 +32,7 @@ Selain sumber daya Pemesanan pada proyek dari dalam proyek, Anda dapat memiliki 
 Agar dapat memesan dari papan jadwal, Anda harus membuat atau menghasilkan persyaratan sumber daya. Ikuti langkah-langkah ini untuk membuat persyaratan sumber daya dari papan jadwal.
 
 1. Jika panel **persyaratan Pemesanan** di bagian bawah halaman diciutkan, pilih kontrol perluasan untuk memperluasnya.
-2. Di panel **persyaratan Pemesanan** , pada tab **proyek** , pilih persyaratan untuk memesan.
+2. Di panel **persyaratan Pemesanan**, pada tab **proyek**, pilih persyaratan untuk memesan.
 
     ![Persyaratan dipilih pada tab proyek](media/Resource-Management-image73.png)
 
@@ -42,12 +42,12 @@ Agar dapat memesan dari papan jadwal, Anda harus membuat atau menghasilkan persy
 
     ![Buat panel Pemesanan sumber daya untuk sumber daya yang dapat dipesan yang dipilih](media/Resource-Management-image74.png)
 
-6. Sementara persyaratan dipilih di panel **buat Pemesanan sumber daya** , pilih satu atau beberapa sel sumber daya untuk membuat pemesanan.
+6. Sementara persyaratan dipilih di panel **buat Pemesanan sumber daya**, pilih satu atau beberapa sel sumber daya untuk membuat pemesanan.
 
     ![Beberapa sel dipilih untuk sumber daya](media/Resource-Management-image75.png)
 
 7. Pilih **Pesan**.
 
-Persyaratan terpenuhi dengan menggunakan sumber daya yang dipilih. Di panel **persyaratan Pemesanan** , perhatikan bahwa persyaratan telah diperbarui, dan sumber daya ditampilkan seperti yang dipesan pada proyek.
+Persyaratan terpenuhi dengan menggunakan sumber daya yang dipilih. Di panel **persyaratan Pemesanan**, perhatikan bahwa persyaratan telah diperbarui, dan sumber daya ditampilkan seperti yang dipesan pada proyek.
 
 ![Sumber daya dipesan pada proyek](media/Resource-Management-image76.png)
