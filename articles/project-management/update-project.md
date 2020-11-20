@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 5c9cd0c7c6886bd454c5f2ef2ae7f20d1707293f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8bcbc6c5a62d252398d541649647fbad49006a0c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078339"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131437"
 ---
 # <a name="update-a-project"></a>Perbarui proyek
 
@@ -23,28 +23,28 @@ Di bawah ini adalah ringkasan bidang yang dapat diperbarui pada proyek setelah d
 
 ## <a name="project-detail-fields"></a>Bidang rincian proyek
 
-- **Nama** : Judul proyek.
-- **Deskripsi** : Ikhtisar proyek.
-- **Pelanggan** : perusahaan yang menerima hasil proyek.
-- **Template kalender** : jam kerja proyek. Saat bidang diubah, seluruh jadwal dihitung ulang.
-- **Mata uang** : mata uang proyek. Default bidang ini adalah berdasarkan mata uang yang ditentukan di unit kontrak. Saat unit kontrak diperbarui, bidang juga diperbarui.
-- **Unit kontrak** : unit organisasi yang mewakili grup perusahaan atau divisi yang terutama bertanggung jawab untuk memenangkan penjualan dan mengelola pengiriman pekerjaan dan layanan kepada pelanggan. 
-- **Manajer Proyek** : anggota tim proyek yang memiliki wewenang untuk meninjau dan menyetujui entri waktu dan pengeluaran.
+- **Nama**: Judul proyek.
+- **Deskripsi**: Ikhtisar proyek.
+- **Pelanggan**: perusahaan yang menerima hasil proyek.
+- **Template kalender**: jam kerja proyek. Saat bidang diubah, seluruh jadwal dihitung ulang.
+- **Mata uang**: mata uang proyek. Default bidang ini adalah berdasarkan mata uang yang ditentukan di unit kontrak. Saat unit kontrak diperbarui, bidang juga diperbarui.
+- **Unit kontrak**: unit organisasi yang mewakili grup perusahaan atau divisi yang terutama bertanggung jawab untuk memenangkan penjualan dan mengelola pengiriman pekerjaan dan layanan kepada pelanggan. 
+- **Manajer Proyek**: anggota tim proyek yang memiliki wewenang untuk meninjau dan menyetujui entri waktu dan pengeluaran.
 
 ## <a name="estimate-fields"></a>Bidang estimasi
 
-- **Estimasi tanggal mulai** : tanggal saat proyek akan dimulai. Saat bidang ini diperbarui, tugas apa pun pada proyek akan bergerak secara proporsional dengan tanggal mulai baru mulai.
-- **Tanggal selesai** : tanggal saat proyek dijadwalkan berakhir.
-- **Upaya** : perkiraan upaya proyek. Bila tugas ditambahkan ke proyek, bidang ini tidak lagi dapat diedit.
-- **Estimasi biaya tenaga kerja** : perkiraan biaya tenaga kerja proyek. Bila biaya tenaga kerja ditambahkan ke proyek, bidang ini tidak lagi dapat diedit.
-- **Estimasi Pengeluaran** : perkiraan biaya proyek. Bila pengeluaran ditambahkan ke proyek, bidang ini tidak lagi dapat diedit.
+- **Estimasi tanggal mulai**: tanggal saat proyek akan dimulai. Saat bidang ini diperbarui, tugas apa pun pada proyek akan bergerak secara proporsional dengan tanggal mulai baru mulai.
+- **Tanggal selesai**: tanggal saat proyek dijadwalkan berakhir.
+- **Upaya**: perkiraan upaya proyek. Bila tugas ditambahkan ke proyek, bidang ini tidak lagi dapat diedit.
+- **Estimasi biaya tenaga kerja**: perkiraan biaya tenaga kerja proyek. Bila biaya tenaga kerja ditambahkan ke proyek, bidang ini tidak lagi dapat diedit.
+- **Estimasi Pengeluaran**: perkiraan biaya proyek. Bila pengeluaran ditambahkan ke proyek, bidang ini tidak lagi dapat diedit.
 
 ## <a name="project-actual-fields"></a>Bidang aktual proyek
-- **Mulai aktual** : tanggal saat proyek dimulai.
-- **Selesai aktual** : diperbarui setelah proyek selesai.
+- **Mulai aktual**: tanggal saat proyek dimulai.
+- **Selesai aktual**: diperbarui setelah proyek selesai.
 
 ## <a name="project-status-fields"></a>Bidang Status Proyek
 
-- **status proyek keseluruhan** : kesehatan proyek keseluruhan yang dilakukan oleh manajer proyek.
+- **status proyek keseluruhan**: kesehatan proyek keseluruhan yang dilakukan oleh manajer proyek.
 - **Komentar** : narasi tentang kesehatan saat ini proyek yang dilakukan oleh manajer proyek.
 

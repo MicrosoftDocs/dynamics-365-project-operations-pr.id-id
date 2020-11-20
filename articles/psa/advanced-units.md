@@ -3,7 +3,7 @@ title: Grup unit dan unit
 description: Topik ini menyediakan informasi tentang grup unit dan unit.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078500"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130582"
 ---
 # <a name="unit-groups-and-units"></a>Grup unit dan unit
 
@@ -33,16 +33,16 @@ Grup unit dan unit adalah entitas dasar di Microsoft Dynamics 365. Unit adalah s
 
 Berikut adalah beberapa contoh unit dan grup unit:
  
-- **grup unit** : Jarak 
-    - **Unit** : mil, kilometer, dan sebagainya.
-- **grup unit** : waktu
-    - **Unit** : jam, hari, Minggu, dan sebagainya. 
+- **grup unit**: Jarak 
+    - **Unit**: mil, kilometer, dan sebagainya.
+- **grup unit**: waktu
+    - **Unit**: jam, hari, Minggu, dan sebagainya. 
 
 Bila Anda mengkonfigurasi beberapa unit di grup unit, Anda juga harus menyiapkan faktor konversi di antara keduanya dengan menunjuk unit pertama yang Anda konfigurasikan sebagai unit default atau utama untuk grup unit. 
 
-Misalnya, di grup unit **waktu** , jika Anda mengatur **jam** sebagai unit pertama, sistem akan menunjukkan **jam** sebagai unit default. Jika unit berikutnya yang Anda konfigurasikan adalah **hari** , Anda harus mengkonfigurasi faktor konversi untuk **hari** ke **jam**. Jika **Anda menambahkan minggu** sebagai unit ketiga, Anda harus mengkonfigurasi faktor konversi untuk **minggu** dalam hal **hari** atau **jam**. 
+Misalnya, di grup unit **waktu**, jika Anda mengatur **jam** sebagai unit pertama, sistem akan menunjukkan **jam** sebagai unit default. Jika unit berikutnya yang Anda konfigurasikan adalah **hari**, Anda harus mengkonfigurasi faktor konversi untuk **hari** ke **jam**. Jika **Anda menambahkan minggu** sebagai unit ketiga, Anda harus mengkonfigurasi faktor konversi untuk **minggu** dalam hal **hari** atau **jam**. 
 
-Gambar berikut menunjukkan contoh konfigurasi untuk unit **hari** , dengan bidang **kuantitas** menampilkan jumlah jam yang berada dalam satu hari, dan **minggu** , dengan bidang **kuantitas** menampilkan jumlah hari dalam seminggu.
+Gambar berikut menunjukkan contoh konfigurasi untuk unit **hari**, dengan bidang **kuantitas** menampilkan jumlah jam yang berada dalam satu hari, dan **minggu**, dengan bidang **kuantitas** menampilkan jumlah hari dalam seminggu.
 
 > ![Grup unit: Halaman informasi](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation menggunakan unit dan grup unit untuk mem
 
 Untuk pengeluaran, setiap kategori pengeluaran memiliki unit dan grup unit default. Nilai ini dimasukkan sebagai nilai default pada entri daftar harga untuk kategori pengeluaran. 
 
-Misalnya, Anda memiliki kategori pengeluaran yang diberi nama **jarak tempuh**. Ia memiliki grup unit yang diberi nama **jarak** dan unit default bernama **Mil**. Jika Anda mengkonfigurasi grup unit **jarak** sehingga memiliki dua unit ( **Mil** dan **kilometer** ), Anda dapat menetapkan dua harga untuk kategori **jarak tempuh** pada satu daftar harga: harga per mil dan harga per kilometer.
+Misalnya, Anda memiliki kategori pengeluaran yang diberi nama **jarak tempuh**. Ia memiliki grup unit yang diberi nama **jarak** dan unit default bernama **Mil**. Jika Anda mengkonfigurasi grup unit **jarak** sehingga memiliki dua unit (**Mil** dan **kilometer**), Anda dapat menetapkan dua harga untuk kategori **jarak tempuh** pada satu daftar harga: harga per mil dan harga per kilometer.
 
 | Kategori Pengeluaran  | Grup Unit  | Unit      | Metode Penetapan Harga  | Harga per unit  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Baris perkiraan untuk bidang **waktu pada kuotasi** dapat dinyatakan dalam satua
 Contoh berikut menunjukkan cara PSA menggunakan grup unit, unit, dan faktor konversi.
 - Unit
 
-   - **grup unit** : waktu 
-   - **Unit** : jam 
+   - **grup unit**: waktu 
+   - **Unit**: jam 
     
     - **hari** – Faktor konversi: 8 jam       
     - **Minggu** – Faktor konversi: 40 jam  
         
 - Konfigurasi daftar harga pada proyek A:
 
-    - **Nama** : harga penjualan UK 2016 
-    - **Unit waktu default** : hari 
-    - **Mata Uang** : GBP
+    - **Nama**: harga penjualan UK 2016 
+    - **Unit waktu default**: hari 
+    - **Mata Uang**: GBP
 
 | Peran      | Grup Unit | Unit | Unit Organisasi | Harga   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Di beberapa negara atau kawasan, ada persyaratan hukum yang mengatur tarif tagih
 Tidak. Perkiraan jadwal saat saat ini dibatasi hingga jam dan tidak dapat diubah.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Apakah unit dan grup unit dapat diedit, dihapus, dan ditambahkan?
-Ya. Dengan pengecualian grup unit **waktu** dan unit **jam** , Semua unit dapat dihapus atau diedit, dan unit baru dapat ditambahkan. Dalam PSA, grup unit **waktu** dan unit **jam** tidak dapat dihapus. Namun, mereka dapat diperbarui dengan teks terjemahan untuk bidang **nama**.
+Ya. Dengan pengecualian grup unit **waktu** dan unit **jam**, Semua unit dapat dihapus atau diedit, dan unit baru dapat ditambahkan. Dalam PSA, grup unit **waktu** dan unit **jam** tidak dapat dihapus. Namun, mereka dapat diperbarui dengan teks terjemahan untuk bidang **nama**.

@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078604"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128287"
 ---
 # <a name="confirm-a-project-contract"></a>Konfirmasi Kontrak proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Kontrak proyek dalam Dynamics 365 Project Operations dapat aktif dengan alasan **dikonfirmasi** , atau ditutup dengan alasan **Kalah**. Ketika anda mengkonfirmasi kontrak proyek, status diperbarui dari **draf** ke **aktif** dan alasan status **dikonfirmasi**. Kontrak aktif atau tertutup tidak dapat diedit atau dibuka kembali. 
+Kontrak proyek dalam Dynamics 365 Project Operations dapat aktif dengan alasan **dikonfirmasi**, atau ditutup dengan alasan **Kalah**. Ketika anda mengkonfirmasi kontrak proyek, status diperbarui dari **draf** ke **aktif** dan alasan status **dikonfirmasi**. Kontrak aktif atau tertutup tidak dapat diedit atau dibuka kembali. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Dampak keuangan mengkonfirmasikan kontrak proyek
 

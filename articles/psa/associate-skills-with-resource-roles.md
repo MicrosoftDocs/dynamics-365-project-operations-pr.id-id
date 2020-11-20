@@ -3,7 +3,7 @@ title: Mengasosiasikan keterampilan dengan peran sumber daya
 description: Bagaimana mengasosiasikan keterampilan dengan peran sumber daya dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078601"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130267"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Mengasosiasikan keterampilan dengan peran sumber daya (Project Service)
 
@@ -35,9 +35,9 @@ Sementara Anda sedang menambahkan peran sumber daya, Anda mungkin sudah mengaitk
   
 2.  Klik peran sumber daya yang Anda ingin tambahkan kemampuan untuknya.  
   
-3.  Dalam area **Keahlian** , klik **+** untuk menambahkan keahlian.  
+3.  Dalam area **Keahlian**, klik **+** untuk menambahkan keahlian.  
   
-4.  Dalam panel persyaratan kompetensi peran, klik di bidang **keterampilan** , klik tombol **Cari** dan pilih keterampilan.  
+4.  Dalam panel persyaratan kompetensi peran, klik di bidang **keterampilan**, klik tombol **Cari** dan pilih keterampilan.  
   
 5.  Pilih kemahiran untuk keterampilan itu, dan kemudian klik **Simpan**.  
   

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4078719"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126397"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Mengimpor estimasi ke baris kontrak berbasis proyek
 
@@ -22,8 +22,8 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 Di Dynamics 365 Project Operations, Anda dapat mengimpor estimasi dari proyek ke baris kontrak berbasis proyek.
 
 1. Verifikasi bahwa bidang **proyek** pada baris kontrak berbasis proyek diisi.
-2. Pada tab **rincian baris kontrak** , pada subkisi, pilih **impor dari estimasi proyek**. Halaman dialog dengan pilihan ringkasan terbuka. Pilihan ringkasan yang tersedia adalah, **kelas transaksi** , **kategori** , **peran** , dan **tugas proyek**. Berdasarkan pilihan untuk peringkasan, estimasi dari proyek untuk semua kelas transaksi yang tercakup dalam baris kontrak ini disalin. 
-3. Untuk memeriksa jenis kelas transaksi yang disertakan, di tab **Umum** baris kontrak, dan periksa nilai di bidang **mencakup waktu** , **mencakup pengeluaran** , dan **mencakup biaya**.
+2. Pada tab **rincian baris kontrak**, pada subkisi, pilih **impor dari estimasi proyek**. Halaman dialog dengan pilihan ringkasan terbuka. Pilihan ringkasan yang tersedia adalah, **kelas transaksi**, **kategori**, **peran**, dan **tugas proyek**. Berdasarkan pilihan untuk peringkasan, estimasi dari proyek untuk semua kelas transaksi yang tercakup dalam baris kontrak ini disalin. 
+3. Untuk memeriksa jenis kelas transaksi yang disertakan, di tab **Umum** baris kontrak, dan periksa nilai di bidang **mencakup waktu**, **mencakup pengeluaran**, dan **mencakup biaya**.
 
 Bila Anda mengimpor estimasi, aplikasi akan default ke harga berdasarkan daftar harga proyek yang dilampirkan ke kontrak dan jenis penagihan yang diatur pada baris kontrak. Jika peran atau kategori diatur pada baris kontrak sebagai tidak dikenakan biaya, baris estimasi impor untuk peran atau kategori itu tidak dikenai biaya dan tidak akan sama dengan nilai kontrak dari baris kontrak.
 
@@ -39,20 +39,20 @@ Misalnya, jika proyek memiliki baris estimasi berikut untuk pengeluaran:
 | Tugas B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tugas C | Hotel | 1/11/2020 | 2 | 200 | 400 |
 
-Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** , informasi berikut akan diimpor:
+Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi**, informasi berikut akan diimpor:
 
 | Tugas | Kategori | Tanggal | Jumlah | Harga unit | Jumlah |
 | --- | --- | --- | --- | --- | --- |
 | &nbsp;  | &nbsp;  | 1/10/2020 | 3.34 | 840 | 2800 |
 
-Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** dan **Kategori** , informasi berikut akan diimpor:
+Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** dan **Kategori**, informasi berikut akan diimpor:
 
 | Tugas | Kategori | Tanggal | Jumlah | Harga unit | Jumlah |
 | --- | --- | --- | --- | --- | --- |
 | Tugas A | Tiket pesawat | 1/10/2020 | 4 | 400 | 1600 |
 | &nbsp;  | Hotel | 1/10/2020 | 6 | 200 | 1200 |
 
-Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** , **Kategori** , dan **tugas Leaf Node** , yang berikut akan diimpor. Perhatikan bahwa hasil ini sama dengan yang ada pada proyek:
+Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi**, **Kategori**, dan **tugas Leaf Node**, yang berikut akan diimpor. Perhatikan bahwa hasil ini sama dengan yang ada pada proyek:
 
 | Tugas | Kategori | Tanggal | Jumlah | Harga unit | Jumlah |
 | --- | --- | --- | --- | --- | --- |

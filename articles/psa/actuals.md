@@ -3,7 +3,7 @@ title: Sekilas aktual
 description: Topik ini menyediakan informasi tentang nilai aktual proyek.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078682"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129772"
 ---
 # <a name="actuals-overview"></a>Sekilas aktual
 
@@ -39,7 +39,7 @@ Dalam PSA, bila entri waktu diajukan untuk proyek yang dipetakan ke baris kontra
 
 Logika untuk memasukkan harga default berada pada baris jurnal. Semua nilai bidang dari entri waktu akan disalin ke baris jurnal. Bidang ini mencakup tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan hasil mata uang dalam daftar harga yang sesuai. 
 
-Bidang yang mempengaruhi harga default, seperti **peran** dan **unit organisasi** , menyebabkan harga yang sesuai untuk dimasukkan secara default pada baris jurnal. Jika Anda menambahkan bidang kustom pada entri waktu, dan Anda ingin nilai bidang diterapkan ke aktual, buat bidang pada entitas aktual, dan gunakan pemetaan bidang untuk menyalin bidang dari entri waktu ke aktual.
+Bidang yang mempengaruhi harga default, seperti **peran** dan **unit organisasi**, menyebabkan harga yang sesuai untuk dimasukkan secara default pada baris jurnal. Jika Anda menambahkan bidang kustom pada entri waktu, dan Anda ingin nilai bidang diterapkan ke aktual, buat bidang pada entitas aktual, dan gunakan pemetaan bidang untuk menyalin bidang dari entri waktu ke aktual.
 
 ## <a name="submitting-an-expense-entry"></a>Mengirimkan entri pengeluaran
 

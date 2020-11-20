@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078397"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131752"
 ---
 # <a name="create-resource-assignments"></a>Buat Penetapan Sumber Daya
 
@@ -29,7 +29,7 @@ Saat membuat anggota tim generik melalui penetapan tugas, Anda membuat placehold
 
 1. Pada kisi jadwal untuk tugas, pilih ikon sumber daya di sel **sumber daya**.
 2. Masukkan nama untuk berfungsi sebagai nama sumber daya. Misalnya, manajer program.
-3. Pada **Buat** , dan di bidang **Buat cepat anggota tim proyek** , atur peran sumber daya generik.
+3. Pada **Buat**, dan di bidang **Buat cepat anggota tim proyek**, atur peran sumber daya generik.
 4. Tetapkan tugas sesuai kebutuhan ke sumber daya placeholder ini dengan memilih sumber daya pada **pemilih sumber daya** untuk tugas. Sumber daya yang terdaftar di bawah **Anggota Tim**.
 5. Setelah selesai menetapkan sumber daya generik, pilih sumber daya generik di tab **tim** kemudian pilih **menghasilkan persyaratan** untuk membuat persyaratan sumber daya untuk sumber daya generik.
 6. Pilih **Pesan** untuk sumber daya generik, dan kemudian gunakan papan jadwal untuk mencari dan memesan sumber daya nyata. Anda juga dapat mengirimkan persyaratan untuk pemenuhannya dengan manajer sumber daya.
@@ -37,7 +37,7 @@ Saat membuat anggota tim generik melalui penetapan tugas, Anda membuat placehold
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Menetapkan sumber daya bernama dari daftar semua sumber daya yang dapat dipesan
 
-Anda dapat menggunakan kotak pencarian di **pemilih sumber daya** untuk mencari semua sumber daya aktif dapat dipesan dan menetapkan mereka tugas node leaf. Sumber daya yang ditetapkan dengan cara ini ditambahkan ke tim tanpa pemesanan. Hal ini mirip dengan menambahkan anggota tim dan memilih **tidak ada** sebagai metode alokasi. Sumber daya ditampilkan dalam tab **tim** , **Penetapan Sumber daya** , dan tab **rekonsiliasi** sebagai sumber daya dengan hanya tugas dan defisit pemesanan. Pesan mereka jika Anda ingin menggunakan ketersediaan mereka.
+Anda dapat menggunakan kotak pencarian di **pemilih sumber daya** untuk mencari semua sumber daya aktif dapat dipesan dan menetapkan mereka tugas node leaf. Sumber daya yang ditetapkan dengan cara ini ditambahkan ke tim tanpa pemesanan. Hal ini mirip dengan menambahkan anggota tim dan memilih **tidak ada** sebagai metode alokasi. Sumber daya ditampilkan dalam tab **tim**, **Penetapan Sumber daya**, dan tab **rekonsiliasi** sebagai sumber daya dengan hanya tugas dan defisit pemesanan. Pesan mereka jika Anda ingin menggunakan ketersediaan mereka.
 
 1. Dari kisi tugas, papan, atau kronologi, navigasi ke sel **ditetapkan ke**.
 2. Di kotak pencarian, mulai ketik nama. Hasil pencarian untuk nama akan ditampilkan di **pemilih sumber daya** dalam **sumber daya lainnya**.

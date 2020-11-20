@@ -3,7 +3,7 @@ title: Izinkan orang lain untuk memasukkan entri waktu atau pengeluaran
 description: Bagaimana memungkinkan orang lain untuk memasukkan entri waktu atau biaya Anda dalam Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078457"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130376"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Memungkinkan orang lain untuk memasukkan entri waktu atau biaya Anda (Project Service)
 
@@ -37,13 +37,13 @@ Atur delegasi untuk membiarkan orang lain membuat entri waktu atau biaya atas na
   
 2.  Di baris perintah, klik **Baru**.  
   
-3. **Nama** : masukkan nama untuk rekaman.  
+3. **Nama**: masukkan nama untuk rekaman.  
   
-4. **Tipe** : Pilih Apakah delegasi dapat memasukkan entri waktu atau biaya atas nama Anda.  
+4. **Tipe**: Pilih Apakah delegasi dapat memasukkan entri waktu atau biaya atas nama Anda.  
   
-5. **Delegasi** : Pilih nama orang yang Anda ingin menjadi delegasi.  
+5. **Delegasi**: Pilih nama orang yang Anda ingin menjadi delegasi.  
   
-6. **Tanggal mulai dan berakhir** : Pilih tanggal Kapan delegasi dimulai dan berakhir.  
+6. **Tanggal mulai dan berakhir**: Pilih tanggal Kapan delegasi dimulai dan berakhir.  
   
 7.  Setelah selesai, klik **Simpan & tutup**.  
   
@@ -55,13 +55,13 @@ Atur delegasi untuk membiarkan orang lain membuat entri waktu atau biaya atas na
   
 3.  Di bilah perintah, klik atau ketuk **+ Nonaktifkan**.  
   
-4.  Dalam kotak dialog **konfirmasi Penonaktifan** , klik **Nonaktifkan**.  
+4.  Dalam kotak dialog **konfirmasi Penonaktifan**, klik **Nonaktifkan**.  
   
 ## <a name="enter-time-for-someone-else"></a>Masukkan waktu untuk orang lain  
   
 1.  Dari menu utama, klik **Project Service** > **Entri Waktu**.  
   
-2.  Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA** , lalu pilih nama orang yang Anda masukkan waktunya.  
+2.  Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA**, lalu pilih nama orang yang Anda masukkan waktunya.  
   
 3.  Klik **OK**.  
   
@@ -77,7 +77,7 @@ Atur delegasi untuk membiarkan orang lain membuat entri waktu atau biaya atas na
   
 1.  Dari menu utama, klik **Project Service** > **Pengeluaran**.  
   
-2.  Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA** , lalu pilih nama orang yang Anda masukkan biayanya.  
+2.  Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA**, lalu pilih nama orang yang Anda masukkan biayanya.  
   
 3.  Klik **OK**.  
   

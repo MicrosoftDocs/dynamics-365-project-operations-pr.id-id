@@ -3,7 +3,7 @@ title: Buat Unit Organisasi
 description: Bagaimana membuat unit organisasi di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078533"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125091"
 ---
 # <a name="create-organizational-units-project-service"></a>Membuat unit organisasi (Project Service)
 
@@ -38,13 +38,13 @@ Perusahaan Anda mungkin menyelenggarakan bisnis konsultasi menurut geografi, fun
   
 2.  Klik **Baru**.  
   
-3.  Dalam area **Umum** , masukkan nama untuk unit organisasi di **nama** , dan mengisi bidang lain yang diperlukan.  
+3.  Dalam area **Umum**, masukkan nama untuk unit organisasi di **nama**, dan mengisi bidang lain yang diperlukan.  
   
 4.  Klik **Simpan** untuk membuat rekaman sehingga Anda dapat terus mengedit.  
   
-5.  Di bawah **daftar harga biaya** , klik **+** untuk menambahkan daftar harga. Anda hanya dapat menambahkan daftar harga dengan konteks **biaya** di sini.  
+5.  Di bawah **daftar harga biaya**, klik **+** untuk menambahkan daftar harga. Anda hanya dapat menambahkan daftar harga dengan konteks **biaya** di sini.  
   
-6.  Dalam bidang **nama** , klik tombol **Cari** dan pilih daftar harga yang Anda inginkan untuk tersedia untuk unit organisasi ini. Terus menambahkan daftar harga yang diperlukan.  
+6.  Dalam bidang **nama**, klik tombol **Cari** dan pilih daftar harga yang Anda inginkan untuk tersedia untuk unit organisasi ini. Terus menambahkan daftar harga yang diperlukan.  
   
 7.  Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
   

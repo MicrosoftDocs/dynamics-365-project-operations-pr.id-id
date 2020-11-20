@@ -3,7 +3,7 @@ title: Menetapkan sumber daya untuk tugas
 description: Topik ini menyediakan informasi tentang cara menetapkan sumber daya untuk tugas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078673"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125137"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Menetapkan sumber daya untuk tugas
 
@@ -33,7 +33,7 @@ Ada tiga cara untuk menetapkan sumber daya tugas di Microsoft Dynamics 365 Proje
 
 Anda dapat menambahkan sumber daya untuk tim proyek dan kemudian menetapkan sumber daya untuk tugas dalam jadwal proyek.
 
-1. Pada tab **Team Member** , Anda dapat menambahkan anggota tim baru dengan memilih **baru**. 
+1. Pada tab **Team Member**, Anda dapat menambahkan anggota tim baru dengan memilih **baru**. 
 
 2. Panel **Team Member Quick Create** terbuka, di mana Anda dapat memilih nama sumber daya dapat dipesan dan menetapkan peran. 
 
@@ -48,7 +48,7 @@ Anda dapat menambahkan sumber daya untuk tim proyek dan kemudian menetapkan sumb
 3. Pada kisi **jadwal** untuk tugas, pilih ikon **sumber daya** di sel sumber daya, dan kemudian pilih anggota tim yang baru saja ditambahkan di **Team Members**. 
 
 > [!NOTE]
-> Pada tab **Team Member** dan tab **rekonsiliasi** , sumber daya menunjukkan jam dipesan dan ditetapkan. Jam harus sama, tetapi tidak wajib karena Pemesanan dan tugas tidak berhubungan erat. Tab **rekonsiliasi** menyediakan rincian saat mereka berbeda, seperti saat Anda menetapkan sumber daya lebih lama dibandingkan Anda memesan. Jika dibutuhkan Anda dapat mengoreksi informasi dengan memperluas Pemesanan sumber daya atau mengubah tugas.
+> Pada tab **Team Member** dan tab **rekonsiliasi**, sumber daya menunjukkan jam dipesan dan ditetapkan. Jam harus sama, tetapi tidak wajib karena Pemesanan dan tugas tidak berhubungan erat. Tab **rekonsiliasi** menyediakan rincian saat mereka berbeda, seperti saat Anda menetapkan sumber daya lebih lama dibandingkan Anda memesan. Jika dibutuhkan Anda dapat mengoreksi informasi dengan memperluas Pemesanan sumber daya atau mengubah tugas.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Membuat anggota tim generik melalui penetapan tugas
 
@@ -58,7 +58,7 @@ Saat membuat anggota tim generik melalui penetapan tugas, Anda membuat placehold
 
 2. Masukkan nama untuk berfungsi sebagai nama sumber daya. Misalnya, manajer program.
 
-3. Pada **Buat** , dan di bidang **Buat cepat anggota tim proyek** , atur peran sumber daya generik.
+3. Pada **Buat**, dan di bidang **Buat cepat anggota tim proyek**, atur peran sumber daya generik.
 
 4. Anda dapat terus menetapkan tugas ke sumber daya placeholder ini dengan memilih sumber daya pada **pemilih sumber daya** untuk tugas. Mereka terdaftar di bawah **Team Members**.
 

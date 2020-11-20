@@ -3,7 +3,7 @@ title: Buat Entri Waktu
 description: Topik ini menyediakan informasi tentang cara membuat entri waktu.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078575"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131280"
 ---
 # <a name="create-time-entries"></a>Buat Entri Waktu
 
@@ -35,13 +35,13 @@ Di versi sebelumnya Dynamics 365 Project Service Automation, entri waktu dimasuk
 
 Ikuti langkah berikut untuk membuat entri waktu.
 
-1. Pada halaman **Entri waktu** , pilih **baru**.
-2. Di kotak dialog **buat cepat: entri waktu** , masukkan durasi entri waktu dalam menit, jam, atau hari. Durasi harus dimasukkan dalam format berikut: *x* menit, *x* jam, atau *x* hari. Jam dan hari juga dapat dimasukkan dalam nilai desimal, misalnya, *x,x* jam atau *x,x* hari.
+1. Pada halaman **Entri waktu**, pilih **baru**.
+2. Di kotak dialog **buat cepat: entri waktu**, masukkan durasi entri waktu dalam menit, jam, atau hari. Durasi harus dimasukkan dalam format berikut: *x* menit, *x* jam, atau *x* hari. Jam dan hari juga dapat dimasukkan dalam nilai desimal, misalnya, *x,x* jam atau *x,x* hari.
 3. Pilih jenis entri waktu dan proyek yang Anda masukkan entri waktunya.
-4. Di bidang **tugas proyek** , Cari tugas untuk entri waktu ini.
+4. Di bidang **tugas proyek**, Cari tugas untuk entri waktu ini.
 
     > [!NOTE]
-    > Jika Anda membuat entri waktu untuk tugas yang tidak ditetapkan ke pengguna, di bidang **tugas proyek** , pilih tombol **pencarian** , pilih **Ubah tampilan** , lalu pilih **semua tugas proyek yang aktif** untuk mencantumkan semua tugas.
+    > Jika Anda membuat entri waktu untuk tugas yang tidak ditetapkan ke pengguna, di bidang **tugas proyek**, pilih tombol **pencarian**, pilih **Ubah tampilan**, lalu pilih **semua tugas proyek yang aktif** untuk mencantumkan semua tugas.
 
 5. Masukkan deskripsi, jika Deskripsi diperlukan, lalu pilih **Simpan dan tutup**.
 
@@ -56,9 +56,9 @@ Perhatikan bahwa pecahan jam bukan menit. Oleh karena itu, 1,5 jam mewakili 1 ja
 
 Setelah beberapa entri waktu dibuat, Anda dapat menyalinnya untuk membuat entri waktu tambahan secara massal.
 
-1. Pada halaman **Entri waktu** , pilih **Salin Pekan**.
-2. Di grup bidang **dari periode** di bidang **tanggal mulai** dan **tanggal berakhir** , tentukan rentang tanggal untuk menyalin entri waktu.
-3. Di grup bidang **hingga periode** , di bidang **tanggal mulai** , tentukan tanggal untuk membuat entri waktu.
+1. Pada halaman **Entri waktu**, pilih **Salin Pekan**.
+2. Di grup bidang **dari periode** di bidang **tanggal mulai** dan **tanggal berakhir**, tentukan rentang tanggal untuk menyalin entri waktu.
+3. Di grup bidang **hingga periode**, di bidang **tanggal mulai**, tentukan tanggal untuk membuat entri waktu.
 4. Pilih **salin** untuk membuat salinan entri waktu yang sesuai dengan hari dalam minggu yang ditentukan dalam grup bidang **hingga periode**. Misalnya, entri waktu untuk hari Senin pekan lalu disalin ke hari Senin dalam pekan yang ditentukan dalam grup bidang **hingga periode**.
 
 ## <a name="import-data-for-time-entries"></a>Impor data untuk Entri Waktu
@@ -67,4 +67,4 @@ Anda dapat mengimpor data dari Pemesanan dan tugas proyek. Saat mengimpor data, 
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Kemampuan Kelompokkan berdasarkan, Urutkan, pencarian, dan filter
 
-Anda dapat mengelompokkan dan memfilter entri waktu berdasarkan dimensi yang ditentukan di kolom. Di bidang **Kelompokkan berdasarkan** , pilih dimensi yang akan digunakan untuk memfilter entri waktu. Anda juga dapat mengurutkan rekaman entri waktu dalam urutan naik atau turun menggunakan panah urut pada heading kolom. Selain itu, Anda dapat menampilkan atau menyembunyikan entri dengan memilih tombol **filter** pada heading kolom, lalu, di kotak **pencarian** , memasukkan teks yang akan digunakan untuk mencari entri waktu berdasarkan nama proyek, tugas proyek, waktu entri, atau sumber daya.
+Anda dapat mengelompokkan dan memfilter entri waktu berdasarkan dimensi yang ditentukan di kolom. Di bidang **Kelompokkan berdasarkan**, pilih dimensi yang akan digunakan untuk memfilter entri waktu. Anda juga dapat mengurutkan rekaman entri waktu dalam urutan naik atau turun menggunakan panah urut pada heading kolom. Selain itu, Anda dapat menampilkan atau menyembunyikan entri dengan memilih tombol **filter** pada heading kolom, lalu, di kotak **pencarian**, memasukkan teks yang akan digunakan untuk mencari entri waktu berdasarkan nama proyek, tugas proyek, waktu entri, atau sumber daya.

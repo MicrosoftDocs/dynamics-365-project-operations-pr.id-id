@@ -3,7 +3,7 @@ title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 17, V
 description: Topik ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 17, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078440"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126802"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation Pembaruan Rilis 17, V3
 
@@ -52,6 +52,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, 
 **Sales**
 
 - Diperbaiki: **faktur. PreValidateInvoiceUpdate** sekarang menangani skenario menetapkan kembali pemilik rekaman dengan benar.
-- Diperbaiki: saat kelas transaksi adalah **waktu** , **unitgroup** tidak dapat diedit untuk semua entitas termasuk **quotelinedetails** , **JournalLine** , **InvoiceLineDetail** , dan **ContractLineDetails**. Namun, **unit** hanya tidak bisa diedit untuk **journalline** dan **invoicelinedetails**.
+- Diperbaiki: saat kelas transaksi adalah **waktu**, **unitgroup** tidak dapat diedit untuk semua entitas termasuk **quotelinedetails**, **JournalLine**, **InvoiceLineDetail**, dan **ContractLineDetails**. Namun, **unit** hanya tidak bisa diedit untuk **journalline** dan **invoicelinedetails**.
 
 

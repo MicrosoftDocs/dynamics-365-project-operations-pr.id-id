@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078337"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128782"
 ---
 # <a name="edit-a-resource-requirement"></a>Edit Persyaratan Sumber Daya
 
@@ -26,7 +26,7 @@ Setelah persyaratan sumber daya didefinisikan oleh tindakan **Buat persyaratan**
 Sebagai manajer proyek, selesaikan langkah berikut untuk mengedit persyaratan sumber daya anggota tim.
 
 1. Buka kisi anggota tim, Cari anggota tim dalam daftar, lalu pilih tautan ke persyaratan sumber daya terkait.
-2. Pada formulir **rincian persyaratan** , perbarui atribut berikut bila diperlukan.
+2. Pada formulir **rincian persyaratan**, perbarui atribut berikut bila diperlukan.
 
 - Keahlian
 - Peran

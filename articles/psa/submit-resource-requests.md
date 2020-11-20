@@ -3,7 +3,7 @@ title: Kirim permintaan sumber daya
 description: Cara mengajukan permintaan sumber di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078576"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126892"
 ---
 # <a name="submit-resource-requests-project-service"></a>Ajukan permintaan sumber daya (Project Service)
 
@@ -41,11 +41,11 @@ Setelah Anda telah memenangkan kontrak proyek, Anda akan perlu mengisi staf proy
   
 5.  Untuk memesan sumber daya dengan pasti, pilih peran, dan kemudian klik **Pemesanan Pasti**. Ini menunjukkan tampilan kalender semua sumber daya dan ketersediaan mereka, dengan warna coding yang memberikan tampilan visual status pemesanan sumber daya. Lakukan salah satu berikut untuk Optimalkan pencarian Anda:  
   
-    -   Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari** , **minggu** , atau **bulan** , dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
+    -   Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari**, **minggu**, atau **bulan**, dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
   
     -   Klik **pilihan** untuk mengubah menampilkan apa. Misalnya, Anda dapat menunjukkan sebuah legenda yang menunjukkan skema warna untuk jenis-jenis Pemesanan, atau Anda dapat memilih untuk menampilkan hanya jenis tertentu terakhir (misalnya, pesanan yang pasti dan pesanan tentatif).  
   
-    -   Klik **Filter** untuk menampilkan panel **Filter** , yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
+    -   Klik **Filter** untuk menampilkan panel **Filter**, yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
   
     -   Dalam kalender untuk sumber daya yang Anda ingin pesan, pilih periode waktu untuk memesan sumber daya, dan kemudian klik **Pesan** untuk memesan sumber atau **Usulkan Pemesanan** untuk mengusulkan Pemesanan dan meminta peminta untuk menyetujuinya.  
   

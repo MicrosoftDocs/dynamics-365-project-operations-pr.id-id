@@ -3,7 +3,7 @@ title: Buat akun pelanggan
 description: Bagaimana membuat akun pelanggan di Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dc328d1e0a2deba256dacb1697aee65e89055e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f80d7612563b49765c5d0dc36e0033c9f7c42f9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078490"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129097"
 ---
 # <a name="create-a-customer-account-project-service"></a>Membuat akun pelanggan (Project Service)
 
@@ -35,11 +35,11 @@ Buat akun untuk setiap klien yang bekerja dengan Anda, Apakah Anda sedang member
   
 2.  Klik **Baru**.  
   
-3.  Dalam area **ringkasan** , masukkan nama untuk account baru di **nama** , dan kemudian mengisi bidang lain yang diperlukan.  
+3.  Dalam area **ringkasan**, masukkan nama untuk account baru di **nama**, dan kemudian mengisi bidang lain yang diperlukan.  
   
 4.  Klik **Simpan** untuk membuat rekaman sehingga Anda dapat terus mengedit.  
   
-5.  Dalam area **daftar harga proyek** , klik + untuk menambahkan daftar harga. Anda dapat menambahkan lebih dari satu daftar harga untuk account ini.  
+5.  Dalam area **daftar harga proyek**, klik + untuk menambahkan daftar harga. Anda dapat menambahkan lebih dari satu daftar harga untuk account ini.  
   
 6.  Setelah selesai klik **Simpan** di sudut kanan bawah layar.  
   

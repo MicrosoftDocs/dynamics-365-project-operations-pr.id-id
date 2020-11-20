@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130312"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Pemenuhan persyaratan sumber daya generik
 
@@ -21,9 +21,9 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Anda dapat memesan sumber daya bernama untuk menggantikan sumber daya generik yang memiliki persyaratan sumber daya.
 
-1. Pada halaman **proyek** , pilih tab **Tim**.
+1. Pada halaman **proyek**, pilih tab **Tim**.
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu pilih **pesan**. Atau, buka persyaratan sumber daya, lalu pilih **pesan**.
-3. Di halaman **asisten jadwal** , pilih sumber daya bernama untuk melakukan pemesanan ke tim proyek, lalu pilih **pesan**.
+3. Di halaman **asisten jadwal**, pilih sumber daya bernama untuk melakukan pemesanan ke tim proyek, lalu pilih **pesan**.
 
 Bila Pemesanan selesai dan dipenuhi oleh sumber daya bernama, sumber daya generik digantikan dengan sumber daya bernama.
 

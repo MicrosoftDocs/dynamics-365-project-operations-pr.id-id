@@ -3,7 +3,7 @@ title: Kuotasi dan Baris Kuotasi
 description: Topik ini menyediakan informasi tentang kuotasi dan baris kuotasi.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078599"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129457"
 ---
 # <a name="quotes-and-quote-lines"></a>Kuotasi dan Baris Kuotasi
 
@@ -35,7 +35,7 @@ Di Dynamics 365 Project Service Automation, ada dua jenis kuotasi: kuotasi proye
 - Kuotasi penjualan mendukung aktivasi dan revisi. Kuotasi proyek tidak mendukung proses tersebut.
 - Anda dapat melampirkan beberapa pesanan ke kuotasi penjualan. Anda hanya dapat melampirkan satu kontrak proyek ke kuotasi proyek.
 - Anda dapat memenangkan kuotasi penjualan dan menjaga peluang yang terkait terbuka. Setelah kuotasi proyek dimenangkan, peluang terkait ditutup.
-- Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek memiliki bidang. Bidang mencakup **unit kontrak** , **manajer akun** , dan **nama tagihan ke kontak**.  
+- Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek memiliki bidang. Bidang mencakup **unit kontrak**, **manajer akun**, dan **nama tagihan ke kontak**.  
 - Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan yang disebut **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
 
 Topik ini akan fokus pada rincian kuotasi proyek.
@@ -76,7 +76,7 @@ PSA mendukung ketiga jenis jadwal faktur untuk baris kuotasi harga tetap.
 Organisasi layanan profesional biasanya mengutip dan menagih pelanggan mereka berdasarkan klasifikasi biaya. Dalam PSA, biaya diwakili oleh klasifikasi transaksi berikut:
 
 - **Waktu** -klasifikasi ini mewakili biaya tenaga kerja atau waktu sumber daya manusia pada suatu proyek.
-- **Pengeluaran** : – klasifikasi ini mewakili semua jenis pengeluaran lain pada suatu proyek. Karena biaya dapat dikelompokkan secara luas, sebagian besar organisasi membuat subkategori, seperti perjalanan, Penyewaan Mobil, Hotel, atau perlengkapan kantor.
+- **Pengeluaran**: – klasifikasi ini mewakili semua jenis pengeluaran lain pada suatu proyek. Karena biaya dapat dikelompokkan secara luas, sebagian besar organisasi membuat subkategori, seperti perjalanan, Penyewaan Mobil, Hotel, atau perlengkapan kantor.
 - **Biaya** -klasifikasi ini mewakili biaya tetap lain-lain, denda, dan item lainnya yang dibebankan kepada pelanggan. 
 - **Pajak** -klasifikasi ini menunjukkan jumlah pajak yang ditambahkan pengguna saat mereka memasukkan pengeluaran.
 - **Transaksi material** – klasifikasi ini merupakan aktual dari lini produk pada faktur proyek yang telah dikonfirmasi.
@@ -91,7 +91,7 @@ Misalnya, kuotasi mungkin berisi dua baris kuotasi berikut:
 - Biaya perjalanan terkait yang menggunakan metode penagihan harga tetap. Misalnya, Semua biaya perjalanan untuk proyek contoh **penerapan Dynamics AX** ditagih pada nilai uang tetap.
 
 > [!NOTE]
-> Kombinasi dari proyek dan klasifikasi transaksi **waktu** , **pengeluaran** , dan **biaya** yang terkait dengan baris kuotasi atau baris kontrak harus unik. Jika kombinasi yang sama antara proyek dan kelas transaksi dikaitkan dengan lebih dari satu baris kontrak atau baris kuotasi, PSA tidak akan berfungsi dengan benar.
+> Kombinasi dari proyek dan klasifikasi transaksi **waktu**, **pengeluaran**, dan **biaya** yang terkait dengan baris kuotasi atau baris kontrak harus unik. Jika kombinasi yang sama antara proyek dan kelas transaksi dikaitkan dengan lebih dari satu baris kontrak atau baris kuotasi, PSA tidak akan berfungsi dengan benar.
 
 ## <a name="billing-types"></a>Jenis Penagihan
 

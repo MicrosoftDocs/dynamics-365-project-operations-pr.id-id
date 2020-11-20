@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078373"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131572"
 ---
 # <a name="estimate-projects-overview"></a>Ikhtisar estimasi proyek
 
@@ -71,11 +71,11 @@ Gunakan tabel berikut sebagai panduan untuk memahami logika bisnis dalam fase es
 Jika Anda menambahkan bidang kustom pada detail baris kuotasi dan ingin sistem memasukkan nilai bidang sebagai nilai default pada baris biaya terkait yang dibuat, gunakan Alat registrasi plug-in **PreOperationContractLineDetailUpdate** dan **PreOperationQuoteLineDetailUpdate**. Plug-in ini harus didaftarkan ulang setelah detail baris kuotasi atau detail baris kontrak diubah. Untuk menyelesaikan proses ini, ikuti langkah berikut ini.
 
 1. Buka PluginRegistrationTool, dan Sambungkan ke instans online Anda.
-2. Pilih **pencarian** , dan Cari plug-in untuk memperbarui.
+2. Pilih **pencarian**, dan Cari plug-in untuk memperbarui.
 3. Pilih plug-in, lalu, di halaman utama, klik **pilih**.
 4. Pilih langkah plug-in untuk memperbarui, klik kanan, lalu pilih **Perbarui**.
-5. Di kotak dialog **Perbarui langkah yang ada** , di bidang **atribut filter** , pilih tombol elipsis ( **...** ):
-6. Di kotak dialog **Pilih atribut** , pilih kotak centang untuk atribut kustom.
+5. Di kotak dialog **Perbarui langkah yang ada**, di bidang **atribut filter**, pilih tombol elipsis (**...**):
+6. Di kotak dialog **Pilih atribut**, pilih kotak centang untuk atribut kustom.
 7. Pilih **OK** untuk menutup kotak dialog, lalu pilih **Perbarui langkah**.
 8. Ulangi langkah 1 hingga 7 untuk plug-in kedua.
 9. Tutup **PluginRegistrationTool**.

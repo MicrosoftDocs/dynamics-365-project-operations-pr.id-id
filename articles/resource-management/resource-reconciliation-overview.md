@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078426"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125722"
 ---
 # <a name="resource-reconciliation-overview"></a>Ikhtisar rekonsiliasi sumber daya
 
@@ -46,7 +46,7 @@ Dalam kasus tertentu, bila Anda melihat waktu pada tingkat yang lebih tinggi dar
 Bila Anda melihat waktu di tingkat yang lebih tinggi, sel dalam tab **rekonsiliasi** memiliki indikator untuk menginformasikan bahwa ada perbedaan pada tingkat yang lebih rendah. Dengan mengklik dua kali di sel, Anda dapat memperbesar untuk melihat perbedaannya. Anda kemudian dapat klik kanan untuk memperkecil. Dengan memilih sumber daya, lalu menggunakan kontrol **perbedaan berikutnya** pada Toolbar kisi, Anda dapat membuka perbedaan berikutnya antara Pemesanan dan tugas untuk sumber daya tersebut. Selanjutnya Anda dapat menggunakan kontrol **perbedaan sebelumnya** untuk kembali. Anda juga dapat menonaktifkan indikator perbedaan dan perilaku navigasi dalam **pengaturan**.
 
 
-Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan, pada halaman **proyek** , pada tab **rekonsiliasi** , pilih kekurangan Pemesanan, lalu pilih **Perluas Pemesanan**. Kotak dialog **Perluas Pemesanan** muncul dan menunjukkan Pemesanan yang diperlukan untuk mengatasi kekurangan sumber daya. Juga menampilkan Pemesanan sumber daya yang ada di seluruh proyek atau entitas yang dapat dijadwalkan lainnya. Jika Anda memilih **OK** untuk membuat pemesanan untuk sumber daya, terlepas dari ketersediaan sumber daya tersebut, Anda dapat menyebabkan pemesanan berlebihan.
+Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan, pada halaman **proyek**, pada tab **rekonsiliasi**, pilih kekurangan Pemesanan, lalu pilih **Perluas Pemesanan**. Kotak dialog **Perluas Pemesanan** muncul dan menunjukkan Pemesanan yang diperlukan untuk mengatasi kekurangan sumber daya. Juga menampilkan Pemesanan sumber daya yang ada di seluruh proyek atau entitas yang dapat dijadwalkan lainnya. Jika Anda memilih **OK** untuk membuat pemesanan untuk sumber daya, terlepas dari ketersediaan sumber daya tersebut, Anda dapat menyebabkan pemesanan berlebihan.
 
 Manajer proyek atau manajer sumber daya kemudian dapat menggunakan papan jadwal untuk mengelola setiap situasi dengan sumber daya yang dipesan berlebihan di luar kapasitasnya.
 

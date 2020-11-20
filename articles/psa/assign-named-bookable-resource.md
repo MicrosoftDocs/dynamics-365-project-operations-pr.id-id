@@ -3,7 +3,7 @@ title: Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan tetapkan t
 description: Topik ini menyediakan informasi tentang cara pemesanan sumber daya bernama untuk tim proyek dan menetapkan tugas.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078603"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130177"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan tetapkan tugas 
 
@@ -31,12 +31,12 @@ ms.locfileid: "4078603"
 
 Anda dapat menambahkan sumber daya bernama ke tim proyek Anda dengan memesan secara langsung ke tim. Untuk melakukannya, selesaikan langkah-langkah berikut:
 
-1. Di Project Service Automation, buka **proyek** , lalu pilih proyek yang terbuka yang Anda lakukan saat pemesanan.
-2. Pada halaman **proyek** , pada tab **tim** , klik **baru**. 
+1. Di Project Service Automation, buka **proyek**, lalu pilih proyek yang terbuka yang Anda lakukan saat pemesanan.
+2. Pada halaman **proyek**, pada tab **tim**, klik **baru**. 
 
 ![Menambahkan anggota tim dari tab tim](media/RM-how-to-1.png)
 
-3. Di kotak dialog **Buat Cepat anggota tim proyek** , pilih sumber daya yang dapat dipesan. Bidang **peran** akan terisi dengan peran default sumber daya jika telah ditugaskan. Anda dapat mengubah peran jika diperlukan. 
+3. Di kotak dialog **Buat Cepat anggota tim proyek**, pilih sumber daya yang dapat dipesan. Bidang **peran** akan terisi dengan peran default sumber daya jika telah ditugaskan. Anda dapat mengubah peran jika diperlukan. 
 4. Pilih tanggal dari dan hingga untuk kebutuhan sumber daya dan pilih metode alokasi kapasitas sumber daya. 
 5. Jika Anda ingin agar anggota tim menjadi pemberi izin proyek, Pilih **ya** di bidang **pemberi izin proyek**. Ini akan berarti bahwa anggota tim dapat menyetujui entri waktu dan biaya yang diajukan untuk proyek ini. 
 6. Klik **Simpan**.
@@ -44,7 +44,7 @@ Anda dapat menambahkan sumber daya bernama ke tim proyek Anda dengan memesan sec
 ![Menambahkan anggota tim pada formulir pembuatan cepat](media/RM-how-to-2.png)
 
 
-Anda sekarang dapat menetapkan sumber daya yang dipesan untuk tugas pada proyek. Pada halaman **proyek** , klik tab **jadwal** untuk menetapkan tugas ke sumber daya baru. Pemilih sumber daya yang diluncurkan dari bidang **sumber daya** di kisi tugas akan menampilkan anggota tim yang dapat Anda pilih.
+Anda sekarang dapat menetapkan sumber daya yang dipesan untuk tugas pada proyek. Pada halaman **proyek**, klik tab **jadwal** untuk menetapkan tugas ke sumber daya baru. Pemilih sumber daya yang diluncurkan dari bidang **sumber daya** di kisi tugas akan menampilkan anggota tim yang dapat Anda pilih.
 
 ![Menetapkan anggota tim ke tugas pada tab jadwal](media/RM-how-to-3.png)
 

@@ -3,7 +3,7 @@ title: Lihat Team Members proyek dan kelola Pemesanan
 description: Bagaimana melihat anggota tim dan mengelola Pemesanan di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078559"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127776"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Lihat anggota tim proyek dan kelola Pemesanan (Project Service)
 
@@ -41,11 +41,11 @@ Anda dapat melihat daftar anggota tim proyek Anda, dan dari sana Anda dapat meng
   
 5.  Untuk memesan sumber daya dengan pasti, pilih peran, dan kemudian klik **Pemesanan Pasti**. Ini menunjukkan tampilan kalender semua sumber daya dan ketersediaan mereka, dengan warna coding yang memberikan tampilan visual status pemesanan sumber daya. Lakukan salah satu berikut untuk Optimalkan pencarian Anda:  
   
-    -   Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari** , **minggu** , atau **bulan** , dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
+    -   Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari**, **minggu**, atau **bulan**, dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
   
     -   Klik **pilihan** untuk mengubah menampilkan apa. Misalnya, Anda dapat menunjukkan sebuah legenda yang menunjukkan skema warna untuk jenis-jenis Pemesanan, atau Anda dapat memilih untuk menampilkan hanya jenis tertentu terakhir (misalnya, pesanan yang pasti dan pesanan tentatif).  
   
-    -   Klik **Filter** untuk menampilkan panel **Filter** , yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
+    -   Klik **Filter** untuk menampilkan panel **Filter**, yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
   
     -   Dalam kalender untuk sumber daya yang Anda ingin pesan, pilih periode waktu untuk memesan sumber daya, dan kemudian klik **Pesan** untuk memesan sumber atau **Usulkan Pemesanan** untuk mengusulkan Pemesanan dan meminta peminta untuk menyetujuinya.  
   

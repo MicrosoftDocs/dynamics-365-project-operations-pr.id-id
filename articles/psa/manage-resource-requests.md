@@ -3,7 +3,7 @@ title: Kelola Permintaan Sumber Daya
 description: Cara mengelola permintaan sumber di Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078483"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129007"
 ---
 # <a name="manage-resource-requests-project-service"></a>Mengelola permintaan sumber daya (Project Service)
 
@@ -37,11 +37,11 @@ Manajer akun dan manajer proyek secara teratur meminta sumber daya untuk proyek-
   
     Lakukan salah satu berikut untuk Optimalkan pencarian Anda:  
   
-   -   Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari** , **minggu** , atau **bulan** , dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
+   -   Pilih tampilan atau sortir urutan dari bagian atas layar. Anda juga dapat memilih apakah akan menunjukkan ketersediaan untuk **hari**, **minggu**, atau **bulan**, dan Gunakan tanda panah untuk melihat sebelumnya atau periode waktu berikutnya. Gunakan kotak pencarian untuk menemukan sumber daya tertentu.  
   
    -   Klik **pilihan** untuk mengubah menampilkan apa. Misalnya, Anda dapat menunjukkan sebuah legenda yang menunjukkan skema warna untuk jenis-jenis Pemesanan, atau Anda dapat memilih untuk menampilkan hanya jenis tertentu terakhir (misalnya, pesanan yang pasti dan pesanan tentatif).  
   
-   -   Klik **Filter** untuk menampilkan panel **Filter** , yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
+   -   Klik **Filter** untuk menampilkan panel **Filter**, yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
   
        ![Layar permintaan sumber daya Project Service](../psa/media/project-service-resource-request-screen.png "Layar permintaan sumber daya Project Service")  
   

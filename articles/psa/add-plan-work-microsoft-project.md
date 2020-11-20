@@ -3,7 +3,7 @@ title: Menggunakan Add-in Project Service untuk merencanakan pekerjaan Anda di M
 description: Topik ini menyediakan informasi tentang cara menambah, mengkonfigurasikan, dan menggunakan add-in Microsoft project untuk Microsoft project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129682"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Menggunakan Add-in Project Service Automation untuk merencanakan pekerjaan Anda di Microsoft Project
 
@@ -59,7 +59,7 @@ ms.locfileid: "4078614"
 ## <a name="read-from-a-template"></a>Membaca dari template  
  Baca dari template yang Anda buat dalam [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] dan salin ke [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] untuk memulai perencanaan proyek Anda. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Membuat template proyek (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  Dari tab **Project service** , klik **Baca** > **Template proyek Project service automation**.  
+1.  Dari tab **Project service**, klik **Baca** > **Template proyek Project service automation**.  
 
 2.  Pilih template proyek dari daftar dan kemudian klik **buka**.  
 
@@ -78,7 +78,7 @@ ms.locfileid: "4078614"
 
 1.  Dari tab Project Service pilih baris dan klik **Temukan sumber daya**.  
 
-2.  Pada layar **Pesan sumber daya** , pilih sumber daya yang ingin Anda gunakan untuk proyek.  
+2.  Pada layar **Pesan sumber daya**, pilih sumber daya yang ingin Anda gunakan untuk proyek.  
 
 3.  Klik **Buku** dan kemudian klik **OK**.  
 
@@ -95,9 +95,9 @@ Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project
 |   **Menggunakan penggunaan** [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Impor ke layar **estimasi proyek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Untuk mengimpor dan mempublikasikan proyek Anda**  
-1. Dari tab **Project service** , klik **Terbitkan** > **proyek Project Service Automation baru**.  
+1. Dari tab **Project service**, klik **Terbitkan** > **proyek Project Service Automation baru**.  
 
-2. Pada kotak dialog **Terbitkan ke sebuah proyek baru dalam Project Service** , masukkan **nama proyek** dan pilih **pelanggan**.  
+2. Pada kotak dialog **Terbitkan ke sebuah proyek baru dalam Project Service**, masukkan **nama proyek** dan pilih **pelanggan**.  
 
 3. Bisa juga periksa **tautkan rencana proyek ke Project service automation** untuk menautkan file rencana proyek ke Project service automation.  
 
@@ -139,11 +139,11 @@ Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 2. Pilih **Ke Dokumen Proyek Project service automation**.  
 
-3. Pada dialog **Aktifkan buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , pilih **ya** atau **Tidak**.  
+3. Pada dialog **Aktifkan buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, pilih **ya** atau **Tidak**.  
 
    - Jika Anda mengklik **ya** Anda akan dapat memilih tombol **buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** di Project Service Automation, meluncurkan [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dan memuat file proyek dari perpustakaan dokumen SharePoint.  
 
-   - Jika Anda mengklik **Tidak** , tautan **Buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** tidak akan aktif.  
+   - Jika Anda mengklik **Tidak**, tautan **Buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** tidak akan aktif.  
 
 4. File [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dapat ditemukan di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] di bawah **dokumen** untuk proyek [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] spesifik.  
 
@@ -153,20 +153,20 @@ Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project
 
 2. Pilih **Ke Dokumen Proyek Project service automation**.  
 
-3. Pada dialog **Aktifkan buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , pilih **ya** atau **Tidak**.  
+3. Pada dialog **Aktifkan buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, pilih **ya** atau **Tidak**.  
 
    - Jika Anda mengklik **ya** Anda akan dapat memilih tombol **buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** di Project Service Automation, meluncurkan [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dan memuat file proyek dari perpustakaan dokumen SharePoint.  
 
-   - Jika Anda mengklik **Tidak** , tautan **Buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** tidak akan aktif.  
+   - Jika Anda mengklik **Tidak**, tautan **Buka di [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** tidak akan aktif.  
 
 4. File [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dapat ditemukan di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] di bawah **dokumen** untuk proyek [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] spesifik.  
 
 ## <a name="publish--your-project-as-a-template"></a>Mempublikasikan proyek Anda sebagai template  
  Anda dapat menyimpan proyek Anda dan menggunakannya kembali dengan menyimpannya sebagai template proyek di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Template proyek adalah rencana proyek yang dapat digunakan kembali di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Membuat template proyek (Project Service Automation)](../psa/create-project-template.md)  
 
-1. Dari tab **Project service** , klik **Terbitkan** > **Template proyek Project service automation baru**.  
+1. Dari tab **Project service**, klik **Terbitkan** > **Template proyek Project service automation baru**.  
 
-2. Di kotak dialog **Terbitkan ke sebuah proyek baru dalam template Project Service** , masukkan **nama template proyek**.  
+2. Di kotak dialog **Terbitkan ke sebuah proyek baru dalam template Project Service**, masukkan **nama template proyek**.  
 
 3. Bisa juga periksa **tautkan rencana proyek ke Project service automation** untuk menautkan file proyek ke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

@@ -3,7 +3,7 @@ title: Tambahkan keahlian Sumber Daya
 description: Bagaimana mengasosiasikan keterampilan dengan sumber daya dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1a11861308f9bda200061880447497fd2c57b32e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 44b3d3cbb36a00e7f07160b6216ead183bc32422
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078458"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129637"
 ---
 # <a name="add-resource-skills-project-service"></a>Tambahkan keahlian sumber daya (Project Service)
 
@@ -35,7 +35,7 @@ Proyek-proyek klien Anda tidak diragukan lagi memerlukan berbagai keahlian yang 
   
 2. Klik **Baru**.  
   
-3. Dalam area **Umum** , masukkan nama untuk keahlian di nama, dan kemudian mengisi bidang lain yang diperlukan.  
+3. Dalam area **Umum**, masukkan nama untuk keahlian di nama, dan kemudian mengisi bidang lain yang diperlukan.  
   
 4. Klik **Simpan**.  
   

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078335"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127357"
 ---
 # <a name="project-tracking-overview"></a>Sekilas pelacakan proyek
 
@@ -25,10 +25,10 @@ Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Be
 
 Tampilan **pelacakan upaya** melacak kemajuan tugas dalam jadwal dengan membandingkan jam kerja aktual yang dihabiskan pada tugas ke jam kerja yang direncanakan untuk tugas. Dynamics 365 Project Operations menggunakan rumus berikut untuk menghitung metrik pelacakan:
 
-- **Persentase Kemajuan** : upaya yang sebenarnya yang dihabiskan sampai saat ini ÷Estimasi saat penyelesaian (EAC) 
-- **Perkiraan untuk menyelesaikan (ETC)** : rencana upaya – upaya yang sebenarnya yang dihabiskan sampai saat ini 
-- **EAC** : usaha tersisa + upaya yang sebenarnya yang dihabiskan sampai saat ini 
-- **Varian proyeksi upaya** : upaya yang direncanakan – EAC
+- **Persentase Kemajuan**: upaya yang sebenarnya yang dihabiskan sampai saat ini ÷Estimasi saat penyelesaian (EAC) 
+- **Perkiraan untuk menyelesaikan (ETC)**: rencana upaya – upaya yang sebenarnya yang dihabiskan sampai saat ini 
+- **EAC**: usaha tersisa + upaya yang sebenarnya yang dihabiskan sampai saat ini 
+- **Varian proyeksi upaya**: upaya yang direncanakan – EAC
 
 Project Operations menunjukkan proyeksi dari varians upaya terhadap tugas. Jika EAC lebih dari upaya yang direncanakan, tugas diproyeksikan untuk mengambil lebih banyak waktu daripada yang direncanakan dan terlambat dari jadwal. Jika EAC lebih sedikit dari upaya yang direncanakan, tugas diproyeksikan untuk mengambil lebih sedikit waktu daripada yang direncanakan dan maju dari jadwal.
 
@@ -60,10 +60,10 @@ Tampilan **pelacakan biaya** membandingkan biaya aktual yang dihabiskan pada tug
 > [!NOTE]
 > Tampilan ini hanya menampilkan biaya tenaga kerja dan tidak mencakup biaya dari perkiraan pengeluaran. Project Operations menggunakan rumus berikut untuk menghitung metrik pelacakan:
 
-- **Persentase dari biaya yang dihabiskan** : biaya aktual yang dibelanjakan hingga sekarang ÷ Estimasi biaya saat penyelesaian
-- **Biaya untuk menyelesaikan (CTC)** : rencana biaya – biaya sebenarnya yang dihabiskan sampai saat ini
-- **EAC** : Sisa Biaya + Biaya Aktual yang digunakan hingga sekarang
-- **varians Biaya diproyeksikan** : biaya direncanakan - EAC
+- **Persentase dari biaya yang dihabiskan**: biaya aktual yang dibelanjakan hingga sekarang ÷ Estimasi biaya saat penyelesaian
+- **Biaya untuk menyelesaikan (CTC)**: rencana biaya – biaya sebenarnya yang dihabiskan sampai saat ini
+- **EAC**: Sisa Biaya + Biaya Aktual yang digunakan hingga sekarang
+- **varians Biaya diproyeksikan**: biaya direncanakan - EAC
 
 Proyeksi varians biaya ditampilkan terhadap tugas. Jika EAC lebih dari biaya yang direncanakan, tugas diproyeksikan untuk menghabiskan lebih banyak biaya daripada yang direncanakan semula. Oleh karena itu, tren lebih dari anggaran. Jika EAC kurang dari biaya yang direncanakan, tugas diproyeksikan untuk menghabiskan lebih sedikit biaya daripada yang direncanakan semula. Oleh karena itu, tren di bawah anggaran.
 

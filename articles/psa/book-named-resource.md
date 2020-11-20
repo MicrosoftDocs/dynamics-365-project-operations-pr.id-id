@@ -3,7 +3,7 @@ title: Pesan sumber daya bernama dari persyaratan sumber daya.
 description: Topik ini menyediakan informasi tentang pemesanan sumber daya bernama untuk persyaratan sumber daya generik.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078689"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125902"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Pesan sumber daya bernama dari persyaratan sumber daya.
 
@@ -31,14 +31,14 @@ ms.locfileid: "4078689"
 
 Anda dapat memesan sumber daya bernama untuk menggantikan sumber daya generik yang memiliki persyaratan sumber daya.
 
-1. Di Project Service Automation (PSA), di halaman **proyek** , klik tab **tim**.
+1. Di Project Service Automation (PSA), di halaman **proyek**, klik tab **tim**.
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu klik **pesan**. Atau, buka persyaratan sumber daya, lalu klik **pesan**.
 
 
 ![Memesan anggota tim generik](media/RM-how-to-14.png)
 
 
-3. Di halaman **asisten jadwal** , pilih sumber daya bernama untuk melakukan pemesanan ke tim proyek, lalu klik **pesan**.
+3. Di halaman **asisten jadwal**, pilih sumber daya bernama untuk melakukan pemesanan ke tim proyek, lalu klik **pesan**.
 
 ![Memesan anggota tim generik menggunakan Asisten jadwal](media/RM-how-to-15.png)
 

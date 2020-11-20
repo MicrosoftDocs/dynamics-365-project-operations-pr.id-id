@@ -3,7 +3,7 @@ title: Penerimaan dan biaya proyek
 description: Topik ini menyediakan informasi tentang memperkirakan biaya proyek dan pendapatan.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078514"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127972"
 ---
 # <a name="project-costs-and-revenue"></a>Penerimaan dan biaya proyek
 
@@ -80,7 +80,7 @@ Di tampilan bertahap waktu, Anda mendistribusikan usaha total yang diperkirakan 
 
 ### <a name="work-hours-based-allocation"></a>Jam kerja berbasis alokasi
  
-Dalam mode tugas penjadwalan otomatis, jam default harian untuk sumber daya tugas ditetapkan pada tingkat jam kerja penuh. Perilaku ini berlaku ketika upaya dialokasikan dengan memisahkan seluruh durasi tugas dalam tampilan bertahap waktu. Misalnya, jika Anda memperkirakan bahwa tugas akan selesai pada satu sumber daya dalam skala waktu **Hari** , upaya yang dialokasikan setiap hari tidak akan melebihi jam kerja per hari yang didefinisikan dalam kalender proyek. Oleh karena itu, alokasi usaha selalu memastikan bahwa sumber daya diperkirakan untuk dimanfaatkan untuk sehari penuh.
+Dalam mode tugas penjadwalan otomatis, jam default harian untuk sumber daya tugas ditetapkan pada tingkat jam kerja penuh. Perilaku ini berlaku ketika upaya dialokasikan dengan memisahkan seluruh durasi tugas dalam tampilan bertahap waktu. Misalnya, jika Anda memperkirakan bahwa tugas akan selesai pada satu sumber daya dalam skala waktu **Hari**, upaya yang dialokasikan setiap hari tidak akan melebihi jam kerja per hari yang didefinisikan dalam kalender proyek. Oleh karena itu, alokasi usaha selalu memastikan bahwa sumber daya diperkirakan untuk dimanfaatkan untuk sehari penuh.
 
 ### <a name="even-allocation"></a>Alokasi merata
 

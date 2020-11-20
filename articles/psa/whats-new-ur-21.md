@@ -3,7 +3,7 @@ title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 21, V
 description: Topik ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 21, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078435"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126712"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation Pembaruan Rilis 21, V3
 
@@ -54,7 +54,7 @@ Masalah berikut telah diperbaiki:
 
 Masalah berikut telah diperbaiki:
 
-- Kisi formulir **proyek** ( **penetapan sumber daya** , **tugas** , tampilan **rekonsiliasi** , **perkiraan pengeluaran** ) tetap dapat diedit bahkan saat proyek tidak aktif.
+- Kisi formulir **proyek** (**penetapan sumber daya**, **tugas**, tampilan **rekonsiliasi**, **perkiraan pengeluaran**) tetap dapat diedit bahkan saat proyek tidak aktif.
 - Pelanggan duplikat tidak dapat digabungkan dengan pelanggan yang ditautkan ke kontrak proyek yang telah dikonfirmasi.
 - Bila sumber daya yang belum memiliki kalender yang valid ditambahkan, sistem tidak memberikan pesan kesalahan yang mudah digunakan pengguna.
 - Tombol **Tambah tugas** pada kisi tugas diaktifkan saat proyek ditautkan ke **Add-In Microsoft Project**.
@@ -71,7 +71,7 @@ Masalah berikut telah diperbaiki:
 - **Total harga penjualan** adalah nol (0) untuk **kategori** meskipun **peran** memiliki total harga penjualan yang bukan nol.
 - Pelanggan tidak dapat mengubah nilai bidang **status faktur** menjadi **siap untuk faktur** saat proses kustom lain memperbarui bidang tambahan.
 - Tombol **Segarkan baris faktur** dapat membuat beberapa baris duplikat jika berulang kali dipilih.
-- Tombol **Perbarui harga** tidak berfungsi pada Sub kisi **harga peran** dalam formulir **tampilan ringkas**.
+- Tombol **Perbarui Harga** tidak berfungsi pada subgrid **Harga Peran** dalam formulir **Tampilan Cepat**.
 - Logika **resolusi daftar harga penjualan** menangani zona waktu dengan tidak baik, sehingga pilihan daftar harganya salah.
 - Biaya **total aktual proyek** dapat dinonaktifkan dengan jumlah pecahan setelah entri satu kali disetujui.
 - Logika **resolusi harga** tidak menyediakan pesan kesalahan yang mudah digunakan jika **Harga Peran yang Diperoleh** tidak memiliki nilai pada bidang **'unit utama'** dan **'harga di unit utama'**.

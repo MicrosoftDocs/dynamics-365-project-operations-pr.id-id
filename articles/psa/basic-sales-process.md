@@ -3,7 +3,7 @@ title: Proses Penjualan
 description: Topik ini menyediakan informasi tentang proses penjualan dasar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078598"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129322"
 ---
 # <a name="sales-processes"></a>Proses Penjualan
 
@@ -46,7 +46,7 @@ Nilai penjualan dapat diperkirakan berdasarkan proyek yang sebelumnya telah diki
 
 Anda dapat membuat perkiraan kuotasi tingkat tinggi. Akhirnya, perkiraan tingkat tinggi ini akan digantikan dengan perkiraan lebih rinci berdasarkan rencana proyek yang Anda buat menggunakan template proyek standar. Template ini membantu Anda membuat jadwal dan menentukan nilai moneter pada kuotasi dan komponennya (baris kuotasi). 
 
-Anda dapat membuat beberapa kuotasi untuk proyek dan mengelompokkannya dalam satu jenis entitas peluang. Akhirnya, salah satu kuotasi ditandai **ditutup sebagai menang** , dan kontrak proyek atau pernyataan pekerjaan (Sow) dibuat. Kontrak proyek berisi nilai kontrak untuk setiap komponen (baris kontrak) yang diterima oleh pelanggan untuk pelaksanaan. SOW biasanya dibuat sebagai dokumen Microsoft Word. Semua faktur yang dikirim ke pelanggan selama periode pengiriman proyek merujuk pada kontrak proyek atau SOW.
+Anda dapat membuat beberapa kuotasi untuk proyek dan mengelompokkannya dalam satu jenis entitas peluang. Akhirnya, salah satu kuotasi ditandai **ditutup sebagai menang**, dan kontrak proyek atau pernyataan pekerjaan (Sow) dibuat. Kontrak proyek berisi nilai kontrak untuk setiap komponen (baris kontrak) yang diterima oleh pelanggan untuk pelaksanaan. SOW biasanya dibuat sebagai dokumen Microsoft Word. Semua faktur yang dikirim ke pelanggan selama periode pengiriman proyek merujuk pada kontrak proyek atau SOW.
 
 Anda juga dapat membuat kuotasi alternatif dalam satu jenis entitas peluang atau mengkonfigurasi sistem sehingga kontrak proyek dibuat saat kuotasi dimenangkan. Dalam kasus ini, Anda dapat melampirkan dokumen Word yang mewakili SOW untuk rekaman kontrak proyek.
 
@@ -70,12 +70,12 @@ Keenam tahapan ini diwakili oleh chevron (\>) yang Anda pilih untuk diperluas di
  
 Organisasi Anda mungkin menggunakan entitas yang berbeda untuk menunjukkan kesepakatan yang sama seiring perkembangannya. Di awal proses penjualan, kesepakatan diwakili oleh entitas peluang. Seiring berjalannya waktu dan rincian lainnya muncul, Anda dapat menggunakan perkiraan tingkat tinggi untuk membuat satu atau beberapa kuotasi. Jika salah satu dari kuotasi ini ditinjau oleh pemangku kepentingan internal dan pelanggan, entitas kuotasi menunjukkan transaksi. Setelah pelanggan menerima kuotasi, kontrak proyek atau SOW menunjukkan kesepakatan. Untuk mendukung perilaku ini, BPF distrukturkan sehingga setiap tahapan dalam proses dihubungkan dengan tabel database yang berbeda.
 
-Tahapan **kualifikasi** dalam proses penjualan dapat didukung oleh entitas peluang. Tahapan **estimasi** dan **peninjauan internal** dapat didukung oleh entitas kuotasi. Tahapan **kontrak** , **Pelaksanaan** , dan **penutupan** dapat didukung oleh entitas kontrak proyek.
+Tahapan **kualifikasi** dalam proses penjualan dapat didukung oleh entitas peluang. Tahapan **estimasi** dan **peninjauan internal** dapat didukung oleh entitas kuotasi. Tahapan **kontrak**, **Pelaksanaan**, dan **penutupan** dapat didukung oleh entitas kontrak proyek.
 
 Saat Anda meneruskan transaksi melalui tahapan, Anda akan diminta membuat rekaman entitas yang sesuai untuk membantu dan memandu Anda melakukan proses. Tahapan dapat kondisional. Misalnya, jika Anda memerlukan peninjauan internal pada kuotasi hanya jika kuotasi menggunakan daftar harga kustom, Anda dapat mengkonfigurasikan kondisi tersebut dalam tahapan proses bisnis yang sesuai. Tahap **peninjauan internal** kemudian ditampilkan hanya untuk kuotasi yang menggunakan daftar harga kustom. Untuk semua transaksi dan kuotasi lainnya, tahapan **estimasi** diikuti oleh tahapan **kontrak**.
 
 > [!NOTE]
-> PSA memiliki halaman tertentu untuk entitas peluang, kuotasi, pesanan, dan faktur. Anda harus membuat peluang, kuotasi, pesanan, dan faktur Project Service menggunakan halaman informasi proyek untuk entitas ini. Jika Anda menggunakan halaman lain untuk membuat rekaman, Anda tidak dapat membuka rekaman dari halaman **informasi proyek**. Jika Anda ingin membuka rekaman dari halaman **informasi proyek** , Anda harus menghapus rekaman, dan membuatnya kembali menggunakan halaman **informasi proyek**. Pada halaman **informasi proyek** , logika bisnis untuk masing-masing jenis entitas ini memastikan bahwa bidang **jenis** rekaman diatur dengan benar, dan semua konsep wajib diinisialisasi dengan benar.
+> PSA memiliki halaman tertentu untuk entitas peluang, kuotasi, pesanan, dan faktur. Anda harus membuat peluang, kuotasi, pesanan, dan faktur Project Service menggunakan halaman informasi proyek untuk entitas ini. Jika Anda menggunakan halaman lain untuk membuat rekaman, Anda tidak dapat membuka rekaman dari halaman **informasi proyek**. Jika Anda ingin membuka rekaman dari halaman **informasi proyek**, Anda harus menghapus rekaman, dan membuatnya kembali menggunakan halaman **informasi proyek**. Pada halaman **informasi proyek**, logika bisnis untuk masing-masing jenis entitas ini memastikan bahwa bidang **jenis** rekaman diatur dengan benar, dan semua konsep wajib diinisialisasi dengan benar.
 
 > ![Informasi proyek untuk pesanan baru](media/basic-guide-4.png)
  
@@ -87,7 +87,7 @@ Walaupun proses penjualan dalam PSA menggunakan kemampuan dasar dari proses penj
 - **Menutup kuotasi sebagai kalah atau menang** – dalam PSA, saat kuotasi proyek ditutup karena menang atau kalah, peluang tetap terbuka. Semua kuotasi lain pada peluang ditutup sebagai kalah. Di Sales, saat kuotasi ditutup sebagai menang, atau kalah, pengguna diminta untuk melakukan tindakan pada peluang. Tergantung pada input pengguna, peluang yang mendasari mungkin ditutup atau dibiarkan terbuka.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Melacak revisi untuk kuotasi dan rencana proyek dalam siklus penjualan
-Dalam PSA, Anda tidak dapat melacak revisi yang dibuat ke kuotasi. Namun, Anda harus menandai kuotasi yang ada **ditutup sebagai kalah** , lalu membuat kuotasi baru. Anda dapat menyalin kuotasi atau mengkloning kuotasi berbasis proyek menggunakan PSA.
+Dalam PSA, Anda tidak dapat melacak revisi yang dibuat ke kuotasi. Namun, Anda harus menandai kuotasi yang ada **ditutup sebagai kalah**, lalu membuat kuotasi baru. Anda dapat menyalin kuotasi atau mengkloning kuotasi berbasis proyek menggunakan PSA.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Melacak komentar dan persetujuan kuotasi dan kontrak proyek
 Anda dapat mengelola peninjauan dan persetujuan kuotasi dan kontrak proyek menggunakan posting dan dinding rekaman. Organisasi Anda dapat membuat alur kerja dan plug-in kustom untuk menetapkan, mengalihkan, melaporkan, dan mengelola pemberitahuan tentang item kerja peninjauan dan persetujuan.

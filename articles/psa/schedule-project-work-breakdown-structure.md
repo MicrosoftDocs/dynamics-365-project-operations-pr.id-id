@@ -3,7 +3,7 @@ title: Jadwalkan proyek dengan struktur rincian kerja
 description: Cara menjadwalkan proyek dengan struktur rincian kerja di Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078666"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127882"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Jadwalkan proyek dengan struktur rincian kerja (Project Service)
 
@@ -86,14 +86,14 @@ Anda akan menggunakan jenis tugas berikut saat membuat struktur rincian kerja An
   
 ### <a name="schedule-attributes"></a>Atribut jadwal
 
- - Tetapkan nilai-nilai untuk **jam usaha** , **jumlah sumber daya** , **tanggal mulai** , **tanggal berakhir** , dan **durasi** untuk menentukan jadwal tugas. 
+ - Tetapkan nilai-nilai untuk **jam usaha**, **jumlah sumber daya**, **tanggal mulai**, **tanggal berakhir**, dan **durasi** untuk menentukan jadwal tugas. 
  - **Upaya** merupakan perkiraan jam yang dibutuhkan untuk menyelesaikan tugas.
  - **Jumlah sumber daya** merupakan perkiraan yang manajer proyek tempatkan dalam tugas untuk membantu menghasilkan jadwal sebaik mungkin. 
  - **Durasi** (dalam hari) menunjukkan jumlah hari kerja yang dibutuhkan untuk menyelesaikan tugas.  
   
 ### <a name="staffing-attributes"></a>Atribut staf
 
- - **Peran** , **unit organisasi sumber daya** , **jumlah sumber daya** , dan **sumber daya** menjelaskan persyaratan staf untuk tugas. 
+ - **Peran**, **unit organisasi sumber daya**, **jumlah sumber daya**, dan **sumber daya** menjelaskan persyaratan staf untuk tugas. 
  - **Peran** menjelaskan jenis sumber daya yang diperlukan untuk melakukan tugas. 
  - **Unit organisasi sumber daya** menunjukkan unit organisasi dari mana sumber daya harus diisi stafnya untuk tugas itu; ini juga berdampak pada biaya dan perkiraan penjualan tugas, karena ini diperhitungkan ketika menentukan harga penjualan unit untuk sumber daya. 
  - **Sumber daya** memegang sumber daya generik atau sumber daya yang bernama ketika ditemukan.  

@@ -3,7 +3,7 @@ title: Mengelola Pemesanan dan proyek-proyek di kalender Office 365
 description: Cara mengelola Pemesanan dan proyek-proyek di kalender Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078518"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129052"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Mengelola proyek dan Pemesanan di kalender (Project Service)
 
@@ -60,7 +60,7 @@ Lihat temu janji pribadi, Pemesanan pekerjaan proyek dan tugas perintah kerja fi
   
 3.  Klik tab **sinkronisasi**.  
   
-4.  Di bawah **pilih apakah akan mengaktifkan sinkronisasi Pemesanan sumber daya dengan** , periksa **sinkronisasikan pemesanan sumber daya dengan Outlook**.  
+4.  Di bawah **pilih apakah akan mengaktifkan sinkronisasi Pemesanan sumber daya dengan**, periksa **sinkronisasikan pemesanan sumber daya dengan Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Aktifkan sinkronisasi untuk profil pengguna Anda (tugas pengguna)  
   
@@ -70,7 +70,7 @@ Lihat temu janji pribadi, Pemesanan pekerjaan proyek dan tugas perintah kerja fi
   
 3.  Klik tab **sinkronisasi**.  
   
-4.  Di bawah **Sinkronisasi pemesanan sumber daya dengan Outlook** , periksa **sinkronisasi pemesanan sumber daya dengan Outlook**.  
+4.  Di bawah **Sinkronisasi pemesanan sumber daya dengan Outlook**, periksa **sinkronisasi pemesanan sumber daya dengan Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Impor janji temu pribadi Anda (tugas pengguna)  
  Anda dapat mengimpor janji pribadi Anda dari kalender ke tampilan entri waktu Project service automation.  
@@ -83,7 +83,7 @@ Lihat temu janji pribadi, Pemesanan pekerjaan proyek dan tugas perintah kerja fi
   
 4. Pilih janji temu yang ingin Anda tambahkan ke tampilan entri waktu Project Service Automation.  
   
-5. Pada kotak popup **Entri waktu** , pilih opsi yang sesuai untuk mengubah janji temu ke tampilan entri waktu Project service automation.  
+5. Pada kotak popup **Entri waktu**, pilih opsi yang sesuai untuk mengubah janji temu ke tampilan entri waktu Project service automation.  
   
 6. Klik **Simpan**.  
   

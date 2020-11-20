@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078421"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128693"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Mengonfigurasi komponen yang dikenakan biaya dari baris kontrak berbasis proyek
 
@@ -35,13 +35,13 @@ Bisa dikenakan biaya yang didefinisikan pada kategori transaksi untuk baris kont
 
 Peran dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak berbasis proyek tertentu.
 
-Di tab **Peran yang Dikenakan Biaya** dari baris kontrak berbasis proyek, di subkisi **Kategori yang dikenakan Biaya** pada bidang **Tipe Penagihan** , perbarui tipe penagihan untuk peran.
+Di tab **Peran kena biaya** pada baris kontrak berbasis proyek, di sub kisi **Kategori kena biaya** pada bidang **Jenis penagihan**, perbarui jenis penagihan untuk peran.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Memperbarui kategori transaksi sebagai dikenakan biaya atau tidak dikenakan biaya
 
 Kategori transaksi dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak berbasis proyek tertentu.
 
-Di tab **Kategori yang Dikenakan Biaya** dari baris kontrak berbasis proyek, di subkisi **Kategori yang dikenakan Biaya** pada bidang **Tipe Penagihan** , perbarui tipe penagihan untuk transaksi.
+Di tab **Kategori kena biaya** pada baris kontrak berbasis proyek, di sub kisi **Kategori kena biaya** pada bidang **Jenis penagihan**, perbarui jenis penagihan untuk transaksi.
 
 ### <a name="resolve-chargeability"></a>Menangani pengenaan biaya
 

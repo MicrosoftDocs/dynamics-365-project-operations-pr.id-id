@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c707a664230cc56e2ac8114279f091936f446153
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078379"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126442"
 ---
 # <a name="define-resource-requirements"></a>Menentukan persyaratan sumber daya
 
@@ -21,8 +21,8 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Persyaratan sumber daya ditentukan oleh manajer proyek untuk menetapkan sumber daya yang diperlukan untuk menjalankan pekerjaan pada proyek. Selesaikan langkah-langkah berikut untuk menentukan persyaratan sumber daya.
 
-1.  Di **struktur rincian kerja** , buat satu atau beberapa tugas.
+1.  Di **struktur rincian kerja**, buat satu atau beberapa tugas.
 2.  Tetapkan anggota tim generik untuk setiaptugas. Penetapan akan memperbarui Total upaya anggota tim proyek.
-3.  Pada tab **anggota tim** , pilih anggota tim lalu pilih **buat persyaratan**.
+3.  Pada tab **anggota tim**, pilih anggota tim lalu pilih **buat persyaratan**.
 
 Untuk informasi tentang cara mengubah persyaratan sumber daya, lihat [memperbarui rincian persyaratan sumber daya](define-resource-requirements.md) untuk memodifikasi persyaratan sumber daya.
