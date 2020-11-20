@@ -1,29 +1,39 @@
 ---
-title: Atur dan terapkan data konfigurasi di Common Data Service untuk Project Operations
+title: Pengaturan dan penerapan data konfigurasi di Common Data Service
 description: Topik ini menyediakan informasi tentang mengonfigurasikan dan menerapkan data konfigurasi di Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078357"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401132"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Atur dan terapkan data konfigurasi di Common Data Service untuk Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Pengaturan dan penerapan data konfigurasi di Common Data Service 
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
+
+## <a name="prerequisites"></a>Prasyarat
+
+Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyarat berikut harus dipenuhi:
+
+1.  Penyediaan lingkungan CDS dan lingkungan Dynamics 365 Finance untuk Project Operations.
+2.  Informasi entitas hukum dari Dynamics 365 Finance dibagi ke lingkungan CDS. Ini berarti bahwa entitas **perusahaan** dalam CDS memiliki rekaman perusahaan berikut:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi
 
 1. Unduh, buka blokir, dan buka [Paket paket data pengaturan dan konfigurasi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Arahkan ke folder zip terbuka dan Jalankan file eksekusi, *DataMigrationUtility*.
-3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data** , lalu pilih **Lanjutkan**.
+3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
 
 ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
@@ -75,15 +85,15 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 ![Buka Lingkungan](./media/7OpenEnvironment.png)
 
-2. Buka **proyek** > **sumber daya** , lalu pilih **baru** untuk membuat sumber daya yang dapat dipesan untuk pengguna Anda.
+2. Buka **proyek** > **sumber daya**, lalu pilih **baru** untuk membuat sumber daya yang dapat dipesan untuk pengguna Anda.
 
 ![Sumber Daya yang Dapat Dipesan](./media/8BookableResources.png)
 
-3. Pada tab **Umum** , pilih pengguna admin. Verifikasikan bahwa zona waktu sesuai dengan yang Anda miliki. 
+3. Pada tab **Umum**, pilih pengguna admin. Verifikasikan bahwa zona waktu sesuai dengan yang Anda miliki. 
 
 ![Sumber Daya Dapat Dipesan Baru](./media/9NewBookableResource.png)
 
-4. Pada tab **penjadwalan** , di bidang **perusahaan** , pilih perusahaan **USPM** , lalu pilih **Simpan**. 
+4. Pada tab **penjadwalan**, di bidang **perusahaan**, pilih perusahaan **USPM**, lalu pilih **Simpan**. 
 
 ![Tab Penjadwalan](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
  
 12. Perbarui bidang berikut:
 
- - **Perusahaan Default** : USPM
- - **Unit organisasi default** :Aswono Robotics global
- - **Frekuensi faktur** : hari ketujuh dan terakhir
- - **Template jam kerja** : Ubah ke template yang Anda buat.
+ - **Perusahaan Default**: USPM
+ - **Unit organisasi default**:Aswono Robotics global
+ - **Frekuensi faktur**: hari ketujuh dan terakhir
+ - **Template jam kerja**: Ubah ke template yang Anda buat.
 
 13. Pilih **Simpan**. 
 

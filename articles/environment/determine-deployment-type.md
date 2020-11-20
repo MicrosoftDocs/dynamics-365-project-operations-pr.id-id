@@ -3,17 +3,17 @@ title: Menentukan jenis penyebaran Anda
 description: Topik ini memberikan informasi untuk membantu Anda menentukan jenis penyebaran Project operations yang benar untuk perusahaan Anda.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078488"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401222"
 ---
 # <a name="determine-your-deployment-type"></a>Menentukan jenis penyebaran Anda
 
@@ -25,11 +25,11 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan Dynamics yang lama menggunakan Dynamics 365 Project Service Automation
-Project Operations mencakup kemampuan yang disertakan dengan Project Service Automation. Jalur peningkatan akan dirilis untuk pelanggan ini di masa mendatang.
+Project Operations mencakup kemampuan yang disertakan dengan Project Service Automation. Jalur peningkatan akan dirilis untuk pelanggan ini di rilis 2021 gelombang 1.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan lama Dynamics 365 Finance menggunakan manajemen proyek dan akuntansi 
 
-Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakan ini sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
+Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakannya sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
 
 
 ## <a name="deployment-types"></a>Jenis Penyebaran
@@ -47,12 +47,13 @@ Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario 
 
 Penyebaran sederhana mencakup kemampuan berikut:
 
+- Proses penjualan untuk proyek yang memperluas pengalaman aplikasi Dynamics 365 Sales
 - Perencanaan proyek menggunakan Microsoft Project untuk web
 - Harga multidimensi
 - Manajemen sumber daya terpadu
 - Pelacakan Waktu
 - Pengeluaran dasar
-- Proposal faktur
+- faktur Proforma dan sisi pelanggan 
 
 #### <a name="deployment-steps"></a>Langkah-langkah penyebaran
 Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner penyebaran](https://aka.ms/provisionprojectoperations).
@@ -62,16 +63,17 @@ Untuk penyebaran ini, lihat [pendaftaran untuk langganan pratinjau](lite-preview
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations untuk skenario sumber daya/tanpa stok
 Project Operations untuk skenario sumber daya/non-stok mencakup kemampuan berikut:
-  
+ 
+- Proses penjualan untuk proyek yang memperluas aplikasi Dynamics 365 Sales
 - Perencanaan proyek menggunakan Microsoft Project untuk web
 - Harga multidimensi
 - Manajemen sumber daya terpadu
 - Pelacakan Waktu
 - Pengeluaran dasar
-- Pengeluaran Penuh
+- Pengeluaran penuh
 - OCR Tanda Terima
-- Faktur Lengkap
-- Pengakuan pendapatan
+- faktur Proforma dan sisi pelanggan 
+- Pengakuan pendapatan untuk proyek
 
 #### <a name="deployment-steps"></a>Langkah-langkah penyebaran
 Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner penyebaran](https://aka.ms/provisionprojectoperations).

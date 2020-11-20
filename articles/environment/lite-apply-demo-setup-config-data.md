@@ -1,27 +1,34 @@
 ---
-title: Menerapkan konfigurasi demo dan data konfigurasi
+title: Menerapkan konfigurasi demo dan data konfigurasi - lite
 description: Topik ini menyediakan informasi tentang cara menerapkan konfigurasi demo dan data konfigurasi untuk Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078349"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401267"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Menerapkan konfigurasi demo dan data konfigurasi untuk penyebaran Project Operations Lite -menangani faktur proforma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Menerapkan konfigurasi demo dan data konfigurasi untuk Project Operations - lite 
 
 _**Penyebaran sederhana - menangani faktur proforma_
 
+## <a name="prerequisites"></a>Prasyarat
+
+Sebelum Anda memulai konfigurasi, Anda harus memiliki lingkungan Common Data Service (CDS) yang tersedia untuk Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Petunjuk
+
 1. Unduh [paket data induk](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Arahkan ke folder *ProjOpsDemoDataSetupAndMaster - Integrated CMT* dan Jalankan file eksekusi, *DataMigrationUtility*.
-3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data** , lalu pilih **Lanjutkan**.
+3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
 
 ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
@@ -45,25 +52,25 @@ _**Penyebaran sederhana - menangani faktur proforma_
 10. Impor akan berjalan selama sekitar dua-sepuluh menit tergantung pada kecepatan jaringan Anda. Setelah selesai, keluar dari Wizard CMT. 
 11. Periksa organisasi Anda untuk data dalam 20 entitas berikut:
 
-- Mata uang
-- Unit Organisasi
-- Kontak
-- Grup pajak
-- Grup Pelanggan
-- Unit
-- Grup Unit
-- Daftar Harga
-- Daftar Harga Parameter Proyek
-- Frekuensi Faktur
-- Rincian Frekuensi Faktur
-- Kategori Sumber Daya yang Dapat Dipesan
-- Kategori Transaksi
-- Kategori Pengeluaran
-- Harga Peran
-- Harga Kategori Transaksi
-- Karakteristik
-- Sumber Daya Dapat Dipesan
-- Keterkaitan Kategori Sumber Daya yang Dapat Dipesan
-- Karakteristik Sumber Daya yang Dapat Dipesan
+-   Mata uang
+-   Akun
+-   Unit Organisasi
+-   Kontak
+-   Grup pajak
+-   Grup Pelanggan
+-   Unit
+-   Grup Unit
+-   Daftar Harga
+-   Daftar Harga Parameter Proyek 
+-   Frekuensi Faktur
+-   Kategori Sumber Daya yang Dapat Dipesan
+-   Kategori Transaksi
+-   Kategori Pengeluaran
+-   Harga Peran
+-   Harga Kategori Transaksi
+-   Karakteristik
+-   Sumber Daya Dapat Dipesan
+-   Keterkaitan Kategori Sumber Daya yang Dapat Dipesan
+-   Karakteristik Sumber Daya yang Dapat Dipesan
 
 ![Impor Selesai](./media/6CompleteImport.png)
