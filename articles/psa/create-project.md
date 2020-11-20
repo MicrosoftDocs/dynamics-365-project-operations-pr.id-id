@@ -3,7 +3,7 @@ title: Buat Proyek
 description: Bagaimana membuat proyek di Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078496"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133102"
 ---
 # <a name="create-a-project-project-service"></a>Membuat proyek (Project Service)
 
@@ -35,7 +35,7 @@ Buka sebuah proyek dengan menggunakan kemampuan [!INCLUDE[pn_project_service_aut
   
 2.  Klik atau ketuk **Proyek Baru**.  
   
-3.  Dalam area **ringkasan** , masukkan nama untuk proyek Anda, dan kemudian isi sebanyak mungkin rincian yang Anda bisa. Item yang ditandai dengan tanda bintang (*) diperlukan.  
+3.  Dalam area **ringkasan**, masukkan nama untuk proyek Anda, dan kemudian isi sebanyak mungkin rincian yang Anda bisa. Item yang ditandai dengan tanda bintang (*) diperlukan.  
   
 4.  Klik **Simpan** untuk membuat proyek Anda sehingga Anda dapat terus mengedit.  
   

@@ -1,30 +1,30 @@
 ---
-title: Mengimpor estimasi ke baris kontrak berbasis proyek
+title: Mengimpor estimasi ke baris kontrak berbasis proyek - lite
 description: Topik ini menyediakan informasi tentang mengimpor estimasi keuangan dari proyek ke baris kontrak.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ac367baba4529e86a42d812b7d9b2550812e297
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4078717"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177470"
 ---
-# <a name="importing-an-estimate-to-a-project-based-contract-line"></a>Mengimpor estimasi ke baris kontrak berbasis proyek
+# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Mengimpor estimasi ke baris kontrak berbasis proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Di Dynamics 365 Project Operations, Anda dapat mengimpor estimasi dari proyek ke baris kontrak berbasis proyek.
 
 1. Verifikasi bahwa bidang **proyek** pada baris kontrak berbasis proyek telah diisi.
-2. Pada tab **rincian baris kontrak** , pada subkisi, pilih **impor dari estimasi proyek**. Halaman dialog dengan pilihan ringkasan terbuka. Pilihan ringkasan yang tersedia adalah **kelas transaksi** , **kategori** , **peran** , dan **tugas proyek**.
-3. Berdasarkan pilihan ringkasan, estimasi dari proyek untuk semua kelas transaksi dan tugas yang tercakup dalam baris kontrak ini disalin. Untuk memeriksa jenis kelas transaksi yang disertakan, di tab **Umum** baris kontrak berbasis proyek, dan periksa nilai di bidang **mencakup waktu** , **mencakup pengeluaran** , dan **mencakup biaya**. 
-4. Untuk melihat tugas yang disertakan, pilih tab **tugas yang dikenakan biaya** pada baris kontrak. Berdasarkan tugas terkait dengan bidang **Mencakup kelas transaksi** diatur ke **ya** , semua perkiraan untuk tugas dan kombinasi kelas transaksi tersebut diimpor ke baris kontrak.
+2. Pada tab **rincian baris kontrak**, pada subkisi, pilih **impor dari estimasi proyek**. Halaman dialog dengan pilihan ringkasan terbuka. Pilihan ringkasan yang tersedia adalah **kelas transaksi**, **kategori**, **peran**, dan **tugas proyek**.
+3. Berdasarkan pilihan ringkasan, estimasi dari proyek untuk semua kelas transaksi dan tugas yang tercakup dalam baris kontrak ini disalin. Untuk memeriksa jenis kelas transaksi yang disertakan, di tab **Umum** baris kontrak berbasis proyek, dan periksa nilai di bidang **mencakup waktu**, **mencakup pengeluaran**, dan **mencakup biaya**. 
+4. Untuk melihat tugas yang disertakan, pilih tab **tugas yang dikenakan biaya** pada baris kontrak. Berdasarkan tugas terkait dengan bidang **Mencakup kelas transaksi** diatur ke **ya**, semua perkiraan untuk tugas dan kombinasi kelas transaksi tersebut diimpor ke baris kontrak.
 
 Bila Anda mengimpor estimasi, sistem akan default ke harga berdasarkan daftar harga proyek yang dilampirkan ke kontrak dan jenis penagihan yang diatur pada baris kontrak. Jika peran atau kategori diatur pada baris kontrak sebagai tidak dikenakan biaya, baris estimasi impor akan tidak dikenai biaya dan tidak akan sama dengan nilai kontrak dari baris kontrak.
 
@@ -40,20 +40,20 @@ Misalnya, jika proyek memiliki baris estimasi berikut untuk pengeluaran:
 | Tugas B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tugas C | Hotel | 1/11/2020 | 2 | 200 | 400 |
 
-Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** , informasi berikut akan diimpor:
+Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi**, informasi berikut akan diimpor:
 
 | Tugas | Kategori | Tanggal | Jumlah | Harga unit | Jumlah |
 | --- | --- | --- | --- | --- | --- |
 | &nbsp; | &nbsp; | 1/10/2020 | 3.34 | 840 | 2800 |
 
-Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** dan **Kategori** , informasi berikut akan diimpor:
+Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** dan **Kategori**, informasi berikut akan diimpor:
 
 | Tugas | Kategori | Tanggal | Jumlah | Harga unit | Jumlah |
 | --- | --- | --- | --- | --- | --- |
 | Tugas A | Tiket pesawat | 1/10/2020 | 4 | 400 | 1600 |
 | &nbsp;| Hotel | 1/10/2020 | 6 | 200 | 1200 |
 
-Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi** , **Kategori** , dan **tugas Leaf Node** , yang berikut akan diimpor. Perhatikan bahwa hasil ini sama dengan yang ada pada proyek:
+Bila pengguna memilih untuk meringkas berdasarkan **kelas transaksi**, **Kategori**, dan **tugas Leaf Node**, yang berikut akan diimpor. Perhatikan bahwa hasil ini sama dengan yang ada pada proyek:
 
 | Tugas | Kategori | Tanggal | Jumlah | Harga unit | Jumlah |
 | --- | --- | --- | --- | --- | --- |

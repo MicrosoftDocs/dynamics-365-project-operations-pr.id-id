@@ -3,7 +3,7 @@ title: Pengaturan harga Katalog Produk
 description: Topik ini menyediakan informasi tentang cara kerja harga katalog produk di Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078515"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132292"
 ---
 # <a name="product-catalog-pricing"></a>Pengaturan harga Katalog Produk 
 
@@ -46,11 +46,11 @@ PSA mendukung berbagai pilihan pembulatan saat harga dikonfigurasi sebagai fungs
 
 > ![Menambahkan produk dari Katalog ke daftar harga yang berbeda.](media/basic-guide-16.png)
 
-Bila Anda membuat daftar harga kustom baru untuk kuotasi dengan memilih **Buat harga kustom** pada halaman **Kuotasi proyek** , PSA membuat salinan daftar harga, dan bidang **entitas** pada header dari daftar harga baru diatur ke **entitas penjualan**. Nama daftar harga baru ditambahkan dengan nama kuotasi dan stempel waktu. Anda juga dapat menggunakan nama daftar harga baru dan nama kuotasi di alur kerja kustom untuk memicu peninjauan dan persetujuan tambahan untuk kuotasi yang menggunakan harga kustom.
+Bila Anda membuat daftar harga kustom baru untuk kuotasi dengan memilih **Buat harga kustom** pada halaman **Kuotasi proyek**, PSA membuat salinan daftar harga, dan bidang **entitas** pada header dari daftar harga baru diatur ke **entitas penjualan**. Nama daftar harga baru ditambahkan dengan nama kuotasi dan stempel waktu. Anda juga dapat menggunakan nama daftar harga baru dan nama kuotasi di alur kerja kustom untuk memicu peninjauan dan persetujuan tambahan untuk kuotasi yang menggunakan harga kustom.
 
  
 ## <a name="default-product-price-list"></a>Daftar Harga produk Default
-Setiap rekaman pelanggan memiliki bidang **daftar harga default** , di mana Anda dapat menentukan daftar harga yang sesuai dengan mata uang pelanggan. Dalam PSA, nilai default tidak secara otomatis dimasukkan dalam bidang ini. Bila ada perjanjian harga kustom dengan pelanggan tertentu, Anda dapat menggunakan bidang ini untuk mengaitkan daftar harga dengan pelanggan tersebut.
+Setiap rekaman pelanggan memiliki bidang **daftar harga default**, di mana Anda dapat menentukan daftar harga yang sesuai dengan mata uang pelanggan. Dalam PSA, nilai default tidak secara otomatis dimasukkan dalam bidang ini. Bila ada perjanjian harga kustom dengan pelanggan tertentu, Anda dapat menggunakan bidang ini untuk mengaitkan daftar harga dengan pelanggan tersebut.
 
 Entitas kontrak proyek, peluang, dan kuotasi menggunakan urutan berikut untuk memasukkan daftar harga produk default. Urutan yang sama digunakan untuk daftar harga proyek.
 

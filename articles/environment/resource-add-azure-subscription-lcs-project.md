@@ -5,17 +5,17 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078355"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175805"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
@@ -23,11 +23,11 @@ Lingkungan host Cloud harus disebarkan menggunakan langganan Azure yang ada. Top
 
 ## <a name="grant-admin-consent"></a>Memberikan izin admin
 
-1. Di proyek LCS, di Bagian **lingkungan** , pilih **pengaturan Microsoft Azure**.
+1. Di proyek LCS, di Bagian **lingkungan**, pilih **pengaturan Microsoft Azure**.
 
 ![Pengaturan Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Pada halaman **pengaturan proyek** , pada tab **konektor Azure** , pilih **otorisasi**. Hal ini memungkinkan lingkungan akan disebarkan ke proyek ini.
+2. Pada halaman **pengaturan proyek**, pada tab **konektor Azure**, pilih **otorisasi**. Hal ini memungkinkan lingkungan akan disebarkan ke proyek ini.
 
 ![Azure Connectors](./media/2AzureConnectors.png)
 
@@ -50,18 +50,18 @@ Otorisasi sekarang selesai.
 ![Rincian Langganan Azure](./media/6AzureSubscription.png)
 
 2. Pilih **kontrol akses (iam)** di panel navigasi, lalu pilih **Tambah penetapan peran**.
-3. Di penggeser di sisi kanan, pilih **kontributor peran** , dan di daftar yang tersedia, cari dan pilih **Dynamics Deployment Services**. 
+3. Di penggeser di sisi kanan, pilih **kontributor peran**, dan di daftar yang tersedia, cari dan pilih **Dynamics Deployment Services**. 
 4. Pilih **Simpan**.
 
 ![Akses Langganan](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Menambahkan konektor langganan ke proyek LCS
 
-1. Di proyek LCS, pada halaman **pengaturan Microsoft Azure** , pilih **Tambah** untuk menambahkan konektor baru.
+1. Di proyek LCS, pada halaman **pengaturan Microsoft Azure**, pilih **Tambah** untuk menambahkan konektor baru.
 2. Masukkan ID langganan Azure Anda. Anda dapat menemukan ID langganan Azure di [portal Azure](https://ms.portal.azure.com/), dalam  **pengaturan**  di kiri bawah layar.
-3. Di bidang **Konfigurasikan untuk menggunakan Azure Resource Manager** , pilih **ya**.
+3. Di bidang **Konfigurasikan untuk menggunakan Azure Resource Manager**, pilih **ya**.
 4. Pastikan domain penyewa AAD langganan Azure cocok dengan langganan Azure pemilik domain yang Anda gunakan, lalu pilih **berikutnya**.
-5. Di layar **konfigurasi Microsoft Azure** , pilih **berikutnya** untuk mengonfirmasi. Jika Anda menerima kesalahan pada layar ini, kembali ke bagian [menyediakan akses Dynamics Deployment Services ke langganan Azure](#provide) di topik ini, dan pastikan Anda telah menyelesaikan semua langkah.
+5. Di layar **konfigurasi Microsoft Azure**, pilih **berikutnya** untuk mengonfirmasi. Jika Anda menerima kesalahan pada layar ini, kembali ke bagian [menyediakan akses Dynamics Deployment Services ke langganan Azure](#provide) di topik ini, dan pastikan Anda telah menyelesaikan semua langkah.
 6. Unduh sertifikat Manajemen Azure ke folder lokal di komputer, lalu Unggah ke Portal Manajemen Azure dengan membuka **pengaturan** > **sertifikat Manajemen**. Sertifikat ini akan mengaktifkan LCS untuk berkomunikasi dengan Azure atas nama Anda. Anda dapat melewatkan langkah ini jika pengguna Anda memiliki akses ke langganan.
 7. Pilih  **Selanjutnya**.
 8. Pilih kawasan Azure untuk disebarkan, lalu pilih pusat data yang dekat dengan lokasi Anda berencana menggunakan sistem ini.

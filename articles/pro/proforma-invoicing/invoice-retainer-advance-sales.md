@@ -1,21 +1,21 @@
 ---
-title: Menagih uang muka atau panjar
+title: Menagih uang muka atau panjar - lite
 description: Topik ini memberikan informasi tentang cara menagih panjar atau uang muka dalam Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087964"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180556"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Menagih uang muka atau panjar
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Menagih uang muka atau panjar - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations mendukung kontrak berbasis panjar dan uang muka 
 Selesaikan langkah berikut untuk menagih panjar atau uang muka.
 
 1. Pilih **penjualan** > **Penagihan** > **Panjar atau uang muka**. 
-2. Di halaman **Panjar atau uang muka** , gunakan filter untuk memilih panjar atau uang muka untuk ditagih dan tandai **siap faktur**.
+2. Di halaman **Panjar atau uang muka**, gunakan filter untuk memilih panjar atau uang muka untuk ditagih dan tandai **siap faktur**.
 3. Buat faktur baik secara manual dari Daftar **kontrak proyek** atau halaman rincian. Panjar atau uang muka ditampilkan pada draf faktur di Bagian **panjar atau uang muka** di halaman **faktur**.
 4. Konfirmasikan Faktur. Ini akan membuat panjar atau uang muka tersedia untuk digunakan. Anda dapat memverifikasi faktur pada halaman daftar **Panjar atau uang muka**. Untuk Panjar atau uang muka yang ditagih, jumlah yang tersedia akan ditampilkan di kisi.
 
@@ -32,8 +32,8 @@ Selesaikan langkah berikut untuk menagih panjar atau uang muka.
 
 Anda dapat membuat panjar atau uang muka langsung pada faktur.
 
-1. Pada faktur draf, pada subkisi **panjar atau uang muka** , pilih **baru** untuk membuat panjar atau uang muka baru. 
-2. Pada halaman **Buat cepat** , tambahkan informasi yang diperlukan, lalu pilih **Simpan**. Panjar atau uang muka dibuat pada kontrak proyek yang terkait dengan faktur. Panjar atau uang otomatis ditandai sebagai **siap faktur** lalu ditambahkan ke subkisi **Panjar atau uang muka** di halaman **faktur**.
+1. Pada faktur draf, pada subkisi **panjar atau uang muka**, pilih **baru** untuk membuat panjar atau uang muka baru. 
+2. Pada halaman **Buat cepat**, tambahkan informasi yang diperlukan, lalu pilih **Simpan**. Panjar atau uang muka dibuat pada kontrak proyek yang terkait dengan faktur. Panjar atau uang otomatis ditandai sebagai **siap faktur** lalu ditambahkan ke subkisi **Panjar atau uang muka** di halaman **faktur**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Rekonsiliasi uang muka atau panjar yang ditagih
 
@@ -43,7 +43,7 @@ Pada setiap faktur yang dibuat untuk kontrak proyek yang telah ditagih panjar at
 
 Hal ini dapat dilihat di kisi **panjar atau uang muka yang diterapkan** di halaman **faktur**. Tabel berikut menyediakan informasi tentang bidang pada kisi **panjar atau uang muka yang diterapkan** pada halaman **faktur** proyek.
 
-| Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+| Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
 | KETERANGAN | Kisi **panjar atau uang muka yang diterapkan** di halaman **faktur proyek** |Bidang hanya baca ini memberikan deskripsi panjar atau uang muka yang digunakan pada faktur ini. Nilai ini tidak dapat diubah di faktur. Nilai ini dapat diperbarui pada subkisi pada halaman **kontrak proyek**. | Bidang ini dapat ditampilkan kepada pelanggan pada faktur tercetak untuk menunjukkan panjar atau uang muka mana yang diterapkan pada faktur. |
 | Dikirim Pada | Kisi **panjar atau uang muka yang diterapkan** di halaman **faktur proyek**  | Bidang hanya baca ini memberikan tanggal faktur panjar atau uang muka yang digunakan pada faktur ini. Nilai ini tidak dapat diubah di faktur. Nilai ini dapat diperbarui pada subkisi pada halaman **kontrak proyek**. | Bidang ini dapat ditampilkan kepada pelanggan pada faktur tercetak untuk menunjukkan tanggal ketika panjar atau uang muka pertama kali ditagih ke pelanggan. |

@@ -1,21 +1,21 @@
 ---
-title: Informasi dan bidang kontrak proyek
+title: Pengaturan kontrak proyek - lite
 description: Topik ini memberikan informasi tentang bidang yang berdampak pada baris kontrak dan informasi tentang kontrak yang dirangkum di semua item baris.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087963"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180917"
 ---
-# <a name="project-contract-fields-and-information"></a>Informasi dan bidang kontrak proyek 
+# <a name="project-contract-settings---lite"></a>Pengaturan kontrak proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -23,9 +23,9 @@ Topik ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontra
 
 Tabel berikut mencantumkan bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari pesanan penjualan di Dynamics 365 Sales.
 
-| Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+| Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
-| Tipe | Tab **ringkasan** (tersembunyi) | Ini adalah bidang rangkaian pilihan dengan pilihan berikut:</br>- **berbasis Pekerjaan** (tersedia hanya bila Project Operations diinstal)</br>- **berbasis item** (tersedia hanya bila Project Operations dan Sales diinstal)</br>- **Berbasis pemeliharaan layanan** (tersedia saat Dynamics 365 Field Service diinstal) | Dalam Project Operations, nilai bidang ini di-default ke **berbasis pekerjaan** , dan mengklasifikasikan kontrak sebagai kontrak berbasis proyek. Kontrak harus berbasis proyek untuk memungkinkan semua ekstensi dan fungsi khusus proyek. |
+| Tipe | Tab **ringkasan** (tersembunyi) | Ini adalah bidang rangkaian pilihan dengan pilihan berikut:</br>- **berbasis Pekerjaan** (tersedia hanya bila Project Operations diinstal)</br>- **berbasis item** (tersedia hanya bila Project Operations dan Sales diinstal)</br>- **Berbasis pemeliharaan layanan** (tersedia saat Dynamics 365 Field Service diinstal) | Dalam Project Operations, nilai bidang ini di-default ke **berbasis pekerjaan**, dan mengklasifikasikan kontrak sebagai kontrak berbasis proyek. Kontrak harus berbasis proyek untuk memungkinkan semua ekstensi dan fungsi khusus proyek. |
 | Calon Pelanggan | tab **Ringkasan** | Referensi pada perusahaan atau rekaman akun pelanggan. Ketika kontrak dibuat dari kuotasi, bidang ini disalin dari bidang yang sesuai pada rekaman kuotasi. | Mata uang pada default kontrak proyek berdasarkan mata uang pelanggan. Hal ini dapat diubah kontrak kuotasi disimpan. |
 | Manajer Akun | tab **Ringkasan** | Nama Manajer akun untuk penawaran ini. Ketika kontrak dibuat dari kuotasi, bidang ini disalin dari bidang yang sesuai pada rekaman kuotasi. | Manajer akun bertanggung jawab untuk mengelola hubungan dengan pelanggan melalui penyelesaian proyek ini. Berdasarkan rekaman sumber daya yang dapat dipesan terkait dengan manajer akun, unit kontrak ter-default pada kontrak proyek. |
 | Unit Kontrak | tab **Ringkasan** | Unit organisasi yang bertanggung jawab atas pengiriman proyek yang terkait dengan kontrak ini. Ketika kontrak dibuat dari kuotasi, bidang ini disalin dari bidang yang sesuai pada rekaman kuotasi. | Unit kontrak adalah divisi perusahaan yang akan melaksanakan proyek. Setiap unit kontrak memiliki mata uang, dan mata uang ini digunakan untuk melaporkan perkiraan dan biaya aktual yang timbul selama proyek. |
@@ -36,7 +36,7 @@ Tabel berikut mencantumkan bidang pada kontrak proyek yang unik untuk Dynamics 3
 
 KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek.
 
-| Bidang | Lokasi | Relevansi, tujuan, dan panduan |
+| Bidang | Lokasi | KETERANGAN |
 | --- | --- | --- |
 | Nilai Kontrak | Kontrak keseluruhan | Nilai total kontrak proyek. |
 | Jumlah yang Ditagih | Kontrak keseluruhan | Jumlah dari nilai pada semua faktur terhadap kontrak ini. |

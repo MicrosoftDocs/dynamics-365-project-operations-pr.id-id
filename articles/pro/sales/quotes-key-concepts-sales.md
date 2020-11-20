@@ -1,21 +1,21 @@
 ---
-title: Konsep kunci kuotasi proyek
+title: kuotasi - Konsep kunci - lite
 description: Topik ini memberikan informasi tentang cara menggunakan kuotasi proyek di Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078408"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178010"
 ---
-# <a name="project-quote-key-concepts"></a>Konsep kunci kuotasi proyek
+# <a name="quotes---key-concepts---lite"></a>kuotasi - Konsep kunci - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -78,7 +78,7 @@ penawaran multi-pelanggan terjadi ketika ada lebih dari satu pelanggan untuk fak
 
 ## <a name="invoice-schedules"></a>Jadwal faktur
 
-Jadwal faktur khusus untuk setiap baris kuotasi dan juga opsional. Jadwal faktur dibuat berdasarkan tanggal mulai dan selesai dan frekuensi faktur tertentu. Jadwal faktur digunakan dalam tahap kontrak saat proses pembuatan faktur otomatis dikonfigurasi. Pada tahapan kuotasi, jadwalnya opsional. Ketika jadwal faktur dibuat dalam tahap **kuotasi** , mereka akan disalin ke kontrak proyek yang dibuat saat kuotasi proyek dimenangkan.
+Jadwal faktur khusus untuk setiap baris kuotasi dan juga opsional. Jadwal faktur dibuat berdasarkan tanggal mulai dan selesai dan frekuensi faktur tertentu. Jadwal faktur digunakan dalam tahap kontrak saat proses pembuatan faktur otomatis dikonfigurasi. Pada tahapan kuotasi, jadwalnya opsional. Ketika jadwal faktur dibuat dalam tahap **kuotasi**, mereka akan disalin ke kontrak proyek yang dibuat saat kuotasi proyek dimenangkan.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Perubahan dari kuotasi Dynamics 365 Sales:
 

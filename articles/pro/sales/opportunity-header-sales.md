@@ -1,21 +1,21 @@
 ---
-title: Header peluang
-description: Topik ini menyediakan informasi tentang keseluruhan informasi tentang penawaran berbasis proyek dan baris peluang berbasis proyek.
+title: Pengaturan peluang - lite
+description: Topik ini menyediakan informasi tentang penawaran berbasis proyek dan baris peluang berbasis proyek.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078412"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181046"
 ---
-# <a name="opportunity-header"></a>Header peluang
+# <a name="opportunity-header---lite"></a>Header peluang - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -25,7 +25,7 @@ Peluang proyek berbasis di Dynamics 365 Project Operations adalah ekstensi pelua
 
 Tabel berikut mencakup bidang dalam peluang berbasis proyek yang unik untuk Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari peluang dalam Sales.
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | Tipe | Tab Umum (tersembunyi) | Bidang rangkaian pilihan ini memiliki pilihan berikut:</br>- berbasis Pekerjaan (tersedia hanya dengan Project Operations)</br>- berbasis item (tersedia hanya bila Project Operations dan Sales diinstal)</br>- Berbasis pemeliharaan layanan (tersedia saat Field Service diinstal) | Bila Anda menggunakan Project Operations, nilai bidang ini secara otomatis diatur ke **berbasis pekerjaan** yang mengelompokkan peluang sebagai berbasis proyek. Sebuah Peluang harus berbasis proyek untuk mengaktifkan semua ekstensi dan fungsi khusus proyek di proses penjualan hilir untuk transaksi ini. |
 | Kontak | Tab Umum | Merujuk pada kontak utama pelanggan untuk transaksi ini. | |

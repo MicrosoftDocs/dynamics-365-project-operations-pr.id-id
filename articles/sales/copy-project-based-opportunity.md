@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078423"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181658"
 ---
 # <a name="copy-project-based-opportunities"></a>Menyalin peluang-peluang berbasis proyek
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 
 Peluang proyek dapat dengan mudah disalin untuk membuat peluang proyek baru. 
@@ -25,7 +25,7 @@ Peluang proyek dapat dengan mudah disalin untuk membuat peluang proyek baru.
 1. Buka halaman daftar **peluang proyek** dan pilih peluang dari daftar. Atau, buka halaman rincian peluang tertentu. 
 2. Dari halaman mana pun, pilih **Salin**. Halaman dialog akan terbuka yang berisi informasi bidang berikut. Tergantung pada nilai yang dipilih di dialog ini, proses penyalinan dapat berubah.
 
-    | **Bidang** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+    | **Bidang** | **Keterangan** | **Dampak hilir** |
     | --- | --- | --- |
     | Topik | Masukkan topik yang relevan dari peluang target. Bila dialog terbuka, sistem akan menetapkannya ke topik peluang sumber dengan **salinan** yang ditambahkan padanya. | Tidak ada dampak hilir untuk bidang ini. |
     | Akun | Merujuk pada perusahaan atau rekaman akun pelanggan. Bila dialog terbuka, sistem akan diatur ke akun pada peluang sumber. | Bidang ini adalah pelanggan utama pada peluang. |

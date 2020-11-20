@@ -1,21 +1,21 @@
 ---
-title: Mendaftar untuk berlangganan pratinjau
+title: Mendaftar untuk berlangganan pratinjau - lite
 description: Topik ini menyediakan informasi tentang cara berlangganan dan menyebarkan penawaran penyebaran Project operation lite ke faktur proforma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078347"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175895"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Mendaftar ke langganan pratinjau untuk penyebaran sederhana – menangani faktur proforma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Mendaftar untuk berlangganan pratinjau - lite 
 
 Topik ini menjelaskan cara berlangganan penawaran mitra pratinjau dan menyebarkan Dynamics 365 Project operation lite ke faktur proforma.
 
@@ -67,7 +67,7 @@ Ulangi langkah yang sama seperti dengan kode penawaran pertama. Pastikan untuk m
 
 ![Halaman Beranda pusat Admin](./media/14AdminPortal.png)
 
-2. Pada halaman **pengguna aktif** , pilih pengguna yang akan ditetapkan lisensinya.
+2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
 
 ![Menetapkan lisensi](./media/15AssignLicenses.png)
 

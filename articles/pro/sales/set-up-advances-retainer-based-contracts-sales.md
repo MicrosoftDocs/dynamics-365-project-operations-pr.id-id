@@ -1,21 +1,21 @@
 ---
-title: Kontrak berbasis uang muka dan panjar
+title: Kontrak berbasis uang muka dan panjar - lite
 description: Topik ini memberikan informasi tentang uang muka dan model kontrak berbasis panjar dalam Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087961"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180871"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Kontrak berbasis uang muka dan panjar 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Kontrak berbasis uang muka dan panjar - lite
 
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
@@ -33,7 +33,7 @@ Selain jadwal berbasis panjar periodik, Project Operations dapat mencatat uang m
 
 Panjar di Project Operations tidak tersedia untuk digunakan hingga ditagih kepada pelanggan. Hal ini ditunjukkan oleh bidang berikut pada subkisi untuk panjar dan uang muka.
 
-| Bidang | Relevansi, tujuan, dan panduan | Dampak hilir |
+| Bidang | KETERANGAN | Dampak hilir |
 | --- | --- | --- |
 | Jumlah Tersedia | Jumlah yang tersedia untuk digunakan pada rekaman panjar atau uang muka. | Hingga panjar atau uang muka ditagih, ia tidak tersedia untuk digunakan yang berarti jumlah yang tersedia akan menjadi nol. |
 | Jumlah Digunakan | Jumlah yang sudah digunakan pada panjar atau uang muka. | Panjar atau uang muka sebagian dapat direkonsiliasi pada faktur dengan biaya aktual yang akan memiliki beberapa bagian yang ditandai sebagai telah digunakan atau dikonsumsi. Sisa jumlah panjar atau uang muka tersedia untuk direkonsiliasi pada faktur berikutnya dengan biaya aktual. |

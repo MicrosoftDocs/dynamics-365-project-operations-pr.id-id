@@ -3,7 +3,7 @@ title: Perkiraan
 description: Topik ini menyediakan informasi tentang perkiraan di Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078686"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132732"
 ---
 # <a name="estimates"></a>Perkiraan
 
@@ -81,7 +81,7 @@ Gunakan tabel berikut sebagai panduan untuk memahami logika bisnis dalam fase es
 Jika Anda menambahkan bidang kustom pada detail baris kuotasi dan ingin sistem memasukkan nilai bidang sebagai nilai default pada baris biaya terkait yang dibuat, gunakan Alat registrasi plug-in PreOperationContractLineDetailUpdate dan PreOperationQuoteLineDetailUpdate. Plug-in ini harus didaftarkan ulang setelah detail baris kuotasi atau detail baris kontrak diubah. Untuk menyelesaikan proses ini, ikuti langkah berikut ini.
 
 1. Buka PluginRegistrationTool, dan Sambungkan ke instans online Anda.
-2. Pilih **pencarian** , dan Cari plug-in untuk memperbarui.
+2. Pilih **pencarian**, dan Cari plug-in untuk memperbarui.
 
     ![Kotak dialog pohon pencarian](media/basic-guide-19.png)
 
@@ -90,11 +90,11 @@ Jika Anda menambahkan bidang kustom pada detail baris kuotasi dan ingin sistem m
 
     ![Memilih langkah di plug-in](media/basic-guide-20.png)
 
-5. Di kotak dialog **Perbarui langkah yang ada** , di bidang **atribut filter** , pilih tombol elipsis ( **...** ):
+5. Di kotak dialog **Perbarui langkah yang ada**, di bidang **atribut filter**, pilih tombol elipsis (**...**):
  
     ![Kotak dialog Perbarui langkah yang ada](media/basic-guide-21.png)
 
-6. Di kotak dialog **Pilih atribut** , pilih kotak centang untuk atribut kustom.
+6. Di kotak dialog **Pilih atribut**, pilih kotak centang untuk atribut kustom.
 
     ![Kotak dialog Pilih atribut](media/basic-guide-22.png)
 

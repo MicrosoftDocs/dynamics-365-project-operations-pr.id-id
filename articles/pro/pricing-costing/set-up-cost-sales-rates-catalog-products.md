@@ -1,21 +1,21 @@
 ---
-title: Mengonfigurasikan biaya dan tarif penjualan untuk produk katalog
+title: Mengonfigurasikan biaya dan tarif penjualan untuk produk katalog - lite
 description: Topik ini memberikan informasi tentang cara mengatur tarif biaya dan penjualan untuk item dalam katalog produk.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5178a9143536bf4b2573403125325017861cdd5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078551"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176705"
 ---
-# <a name="set-up-cost-and-sales-rates-for-catalog-products"></a>Mengonfigurasikan biaya dan tarif penjualan untuk produk katalog
+# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Mengonfigurasikan biaya dan tarif penjualan untuk produk katalog - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 

@@ -1,21 +1,21 @@
 ---
-title: Baris kuotasi berbasis proyek
+title: Sekilas baris kuotasi berbasis proyek
 description: Topik ini memberikan informasi tentang menggunakan baris kuotasi berbasis proyek untuk pekerjaan proyek.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078351"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181861"
 ---
-# <a name="project-based-quote-lines"></a>Baris kuotasi berbasis proyek
+# <a name="project-based-quote-lines-overview"></a>Sekilas baris kuotasi berbasis proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
@@ -31,7 +31,7 @@ Baris kuotasi berbasis proyek dirancang untuk membantu memperkirakan pekerjaan p
 
 Tabel berikut menyediakan informasi tentang bidang pada tab **Umum** baris kuotasi berbasis proyek. Bidang ini membantu membuat dasar untuk estimasi yang rinci dan komprehensif untuk pekerjaan proyek.
 
-| **Bidang** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- |
 | Nama | Nama baris kuotasi yang seharusnya membantu Anda mengidentifikasi komponen diskrit dari kuotasi yang sedang diperkirakan. | Disalin ke baris kontrak proyek yang dibuat dari baris kuotasi ini saat kuotasi dimenangkan. |
 | Metode Penagihan | Pada kuotasi yang dibuat dari peluang, nilai ini disalin dari bidang yang sesuai pada baris peluang. Bidang ini mencakup dua model kontrak utama yang didukung oleh Dynamics 365 Project Operations:</br>- Harga tetap</br>- Waktu dan bahan.| Nilai bidang ini disalin ke baris kontrak proyek yang dibuat dari baris kuotasi ini saat kuotasi dimenangkan. |
@@ -47,11 +47,11 @@ Tabel berikut menyediakan informasi tentang bidang pada tab **Umum** baris kuota
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Aturan validasi untuk bidang pada tab Umum baris kuotasi berdasarkan proyek
 
-**Aturan 1** : kelas transaksi tertentu pada proyek yang dipilih hanya dapat disertakan pada satu baris kuotasi berbasis proyek dari kuotasi.
+**Aturan 1**: kelas transaksi tertentu pada proyek yang dipilih hanya dapat disertakan pada satu baris kuotasi berbasis proyek dari kuotasi.
 
-**Aturan 2** : jika peluang memiliki beberapa kuotasi, ada baris kuotasi dari kuotasi berbeda yang semua mereferensi proyek yang sama dan mencakup kelas transaksi yang sama.
+**Aturan 2**: jika peluang memiliki beberapa kuotasi, ada baris kuotasi dari kuotasi berbeda yang semua mereferensi proyek yang sama dan mencakup kelas transaksi yang sama.
 
-**Aturan 3** : jika kuotasi bukan milik peluang yang sama, mereka tidak dapat menyertakan kelas proyek dan transaksi yang sama.
+**Aturan 3**: jika kuotasi bukan milik peluang yang sama, mereka tidak dapat menyertakan kelas proyek dan transaksi yang sama.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

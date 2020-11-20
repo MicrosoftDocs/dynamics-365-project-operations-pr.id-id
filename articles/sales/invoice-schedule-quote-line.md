@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078417"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180826"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Jadwal faktur pada baris kuotasi berbasis proyek
 
@@ -28,11 +28,11 @@ Secara keseluruhan, tujuan jadwal faktur adalah untuk memungkinkan pembuatan oto
 Bila metode penagihan untuk baris kuotasi berbasis proyek adalah waktu dan material, sistem akan menghasilkan jadwal faktur berdasarkan tanggal. Untuk secara otomatis membuat jadwal faktur berdasarkan tanggal, selesaikan langkah-langkah berikut.
 
 1. Buka **pengaturan** > **frekuensi faktur** dan atur frekuensi faktur.
-2. Pada halaman **kuotasi** , buka kuotasi proyek dan pada tab **ringkasan** , atur tanggal pengiriman yang diminta.
+2. Pada halaman **kuotasi**, buka kuotasi proyek dan pada tab **ringkasan**, atur tanggal pengiriman yang diminta.
 3. Buka baris kuotasi waktu dan material yang Anda perlukan untuk membuat jadwal faktur berdasarkan tanggal. 
-4. Pada tab **jadwal faktur** , pilih nilai di bidang **awal penagihan** penagihan mulai dan **frekuensi faktur**. 
+4. Pada tab **jadwal faktur**, pilih nilai di bidang **awal penagihan** penagihan mulai dan **frekuensi faktur**. 
 5. Pada subkisi, pilih **buat jadwal faktur**.
-6. Aplikasi menghasilkan jadwal faktur dengan **tanggal Jalankan faktur** , **tanggal batas transaksi** , dan bidang **status menjalankan** yang diatur dengan cara berikut:
+6. Aplikasi menghasilkan jadwal faktur dengan **tanggal Jalankan faktur**, **tanggal batas transaksi**, dan bidang **status menjalankan** yang diatur dengan cara berikut:
 
     - **Tanggal Jalankan faktur** diatur ke tanggal yang didikte berdasarkan frekuensi faktur.
     - **Tanggal batas transaksi** diatur ke hari sebelum **tanggal Jalankan faktur**.
@@ -40,12 +40,12 @@ Bila metode penagihan untuk baris kuotasi berbasis proyek adalah waktu dan mater
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Buat jadwal faktur harga tetap untuk baris kuotasi berbasis proyek
 
-Bila baris kuotasi berbasis proyek memiliki metode penagihan **tetap** , sistem membuat jadwal faktur berbasis tonggak. Selesaikan langkah-langkah berikut untuk secara otomatis membuat jadwal ini untuk rangkaian tetap dari tonggak yang didistribusikan secara merata untuk periode kalender.
+Bila baris kuotasi berbasis proyek memiliki metode penagihan **tetap**, sistem membuat jadwal faktur berbasis tonggak. Selesaikan langkah-langkah berikut untuk secara otomatis membuat jadwal ini untuk rangkaian tetap dari tonggak yang didistribusikan secara merata untuk periode kalender.
 
 1. Buka **pengaturan** > **frekuensi faktur** dan atur frekuensi faktur.
-2. Pada halaman **kuotasi** , buka kuotasi proyek dan pada tab **ringkasan** , atur tanggal pengiriman yang diminta.
+2. Pada halaman **kuotasi**, buka kuotasi proyek dan pada tab **ringkasan**, atur tanggal pengiriman yang diminta.
 3. Buka baris kuotasi harga tetap yang Anda perlukan untuk membuat jadwal tonggaknya. 
-4. Pada tab **jadwal faktur** , pilih nilai di bidang **awal penagihan** penagihan mulai dan **frekuensi faktur**. 
+4. Pada tab **jadwal faktur**, pilih nilai di bidang **awal penagihan** penagihan mulai dan **frekuensi faktur**. 
 5. Pada subkisi, pilih **buat tonggak periode**.
 6. Aplikasi ini menghasilkan jadwal faktur dengan nama tonggak, tanggal, dan jumlah.
 
@@ -58,9 +58,9 @@ Bila baris kuotasi berbasis proyek memiliki metode penagihan **tetap** , sistem 
 
 Tonggak harga tetap juga dapat dihasilkan secara manual saat tidak dibagi secara berkala. Untuk membuat tonggak secara manual:
 
-Buka baris kuotasi harga tetap yang Anda perlukan untuk membuat tonggaknya. Pada tab **jadwal faktur** , di subkisi, pilih **+ buat tonggak baris kuotasi baru** dan masukkan informasi yang diperlukan berdasarkan tabel berikut.
+Buka baris kuotasi harga tetap yang Anda perlukan untuk membuat tonggaknya. Pada tab **jadwal faktur**, pada subkisi, pilih **+ buat tonggak pencapaian baris kuotasi baru** dan masukkan informasi yang diperlukan berdasarkan tabel berikut.
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | Nama Tonggak | Buat cepat | Nama tonggak. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur |
 | Tugas Proyek | Buat cepat | Jika tonggak terkait dengan tugas proyek, Anda dapat menggunakan referensi ini untuk menambahkan logika kustom untuk mengatur status tonggak berdasarkan status tugas. | Aplikasi ini tidak memiliki dampak hilir terkait referensi ini untuk tugas. |

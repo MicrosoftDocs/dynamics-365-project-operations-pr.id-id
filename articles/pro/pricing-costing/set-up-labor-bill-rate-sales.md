@@ -1,33 +1,33 @@
 ---
-title: Mengonfigurasikan tarif tagihan tenaga kerja
+title: Mengonfigurasikan tarif tagihan tenaga kerja - lite
 description: Topik ini memberikan informasi tentang cara mengatur tarif tagihan tenaga kerja di Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078546"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181185"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Mengonfigurasikan tarif tagihan untuk tagihan tarif tenaga kerja 
+# <a name="set-up-labor-bill-rates---lite"></a>Mengonfigurasikan tarif tagihan tenaga kerja - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tarif tagihan untuk waktu dalam Dynamics 365 Project Operations dapat diatur hanya dalam satu mata uang, yakni mata uang pada header daftar harga.
 
 1. Untuk mengkonfigurasikan tarif tagihan tenaga kerja untuk daftar harga penjualan, buat daftar harga berdasarkan header daftar harga. 
-2. Pada tab **harga peran** , di subkisi, pilih **+ harga peran baru**. 
-3. Pada panel **buat cepat** , masukkan peran dan kombinasi unit organisasi yang harus Anda konfigurasikan tarif tagihannya.
+2. Pada tab **harga peran**, di subkisi, pilih **+ harga peran baru**. 
+3. Pada panel **buat cepat**, masukkan peran dan kombinasi unit organisasi yang harus Anda konfigurasikan tarif tagihannya.
 
   Tabel berikut mencantumkan bidang pada tab **Umum** dan panel **Buat cepat** dari baris harga peran yang harus diingat saat Anda membuat harga peran pada daftar harga penjualan:
 
-  | Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+  | Bidang | Lokasi | KETERANGAN | Dampak hilir |
   | --- | --- | --- | --- |
   | Peran | Tab **Umum** dan panel **Buat Cepat** | Pilih peran yang Anda tetapkan tarif tagihannya. | Peran pada estimasi masuk atau aktual akan disesuaikan dengan baris ini ke tarif tagihan default peran. |
   | Unit Sumber Daya | Tab **Umum** dan panel **Buat Cepat** | Pilih unit organisasi atau divisi dari perusahaan yang mana peran berasal darinya. Misalnya, pengembang dari divisi Robotika Fabrikam India atau pengembang dari divisi perangkat lunak Fabrikam AS. | Unit sumber daya pada estimasi masuk atau aktual akan disesuaikan dengan baris ini ke tarif tagihan default peran. |

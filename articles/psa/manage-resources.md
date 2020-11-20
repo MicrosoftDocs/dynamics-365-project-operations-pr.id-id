@@ -3,7 +3,7 @@ title: Kelola sumber daya
 description: Topik ini menyediakan informasi tentang cara Anda mengelola sumber daya.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078685"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132337"
 ---
 # <a name="manage-resources"></a>Kelola sumber daya
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078685"
 
 Dynamics 365 Project Service Automation mencakup dasbor manajer sumber daya yang memberikan ikhtisar visual mengenai permintaan dan pemanfaatan sumber daya di seluruh organisasi. Anda dapat menggunakan diagram di dasbor ini untuk memvisualisasikan informasi berikut:
 
-- **Permintaan sumber daya** - diagram **permintaan sumber daya aktif** menampilkan sumber daya yang telah diajukan. Sumber daya dikumpulkan baik oleh peran maupun proyek.
+- **Permintaan sumber daya**- diagram **permintaan sumber daya aktif** menampilkan sumber daya yang telah diajukan. Sumber daya dikumpulkan baik oleh peran maupun proyek.
 - **Permintaan sumber daya yang belum diajukan** – diagram **permintaan sumber daya yang belum ditetapkan** menampilkan semua persyaratan sumber daya yang belum diajukan. Hal ini membantu manajer sumber daya melihat permintaan yang tidak tegas dan dapat diajukan melalui permintaan sumber daya.
 - **Pemanfaatan yang dapat ditagih selama seminggu terakhir** – diagram **pemanfaatan berdasarkan peran** menunjukkan persentase pemanfaatan aktual yang dilakukan organisasi berdasarkan target yang dapat ditagih berdasarkan peran.
 
@@ -44,11 +44,11 @@ Manajer proyek dapat menggunakan dasbor manajer sumber daya untuk mengelola sumb
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Tambahkan anggota tim langsung ke proyek
 
-Untuk menambahkan anggota tim secara langsung ke proyek, pada halaman **proyek** , pada tab **tim** , pilih **baru**. Kotak dialog **buat cepat: anggota tim proyek** akan ditampilkan. Di kotak dialog ini, Anda dapat melakukan tugas berikut:
+Untuk menambahkan anggota tim secara langsung ke proyek, pada halaman **proyek**, pada tab **tim**, pilih **baru**. Kotak dialog **buat cepat: anggota tim proyek** akan ditampilkan. Di kotak dialog ini, Anda dapat melakukan tugas berikut:
 
-- **Memesan sumber daya bernama** -di bidang **sumber daya dapat dipesan** , pilih nama sumber daya. Kemudian pilih peran, atur periode, dan pilih metode alokasi. Sumber daya bernama yang Anda pilih ditambahkan ke proyek menggunakan metode alokasi yang dipilih dan kalender sumber daya.
+- **Memesan sumber daya bernama**-di bidang **sumber daya dapat dipesan**, pilih nama sumber daya. Kemudian pilih peran, atur periode, dan pilih metode alokasi. Sumber daya bernama yang Anda pilih ditambahkan ke proyek menggunakan metode alokasi yang dipilih dan kalender sumber daya.
 - **Menambahkan sumber daya generik** – biarkan bidang **sumber daya dapat dipesan** kosong, lalu pilih peran, atur periode, dan pilih metode alokasi yang diinginkan. Sumber daya generik ditambahkan ke tim sebagai placeholder untuk menyimpan pola permintaan yang digunakan untuk memesan sumber daya pada tim. Persyaratan dibuat sesuai dengan kalender proyek.
-- **Tambahkan sumber daya bernama ke tim tanpa menggunakan kapasitas sumber daya** -di bidang **sumber daya dapat dipesan** , pilih sumber daya. Kemudian pilih periode, dan pilih metode alokasi **Tidak ada**. Sumber daya ditambahkan ke tim, namun kapasitas sumber daya tidak dihabiskan melalui pemesanan.
+- **Tambahkan sumber daya bernama ke tim tanpa menggunakan kapasitas sumber daya**-di bidang **sumber daya dapat dipesan**, pilih sumber daya. Kemudian pilih periode, dan pilih metode alokasi **Tidak ada**. Sumber daya ditambahkan ke tim, namun kapasitas sumber daya tidak dihabiskan melalui pemesanan.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Pesan anggota tim untuk memenuhi persyaratan sumber daya untuk sumber daya generik
 
@@ -56,34 +56,34 @@ Dalam PSA, Anda dapat memesan sumber daya generik pada tim proyek, dan dapat men
 
 Ikuti langkah berikut untuk menentukan keterampilan yang diperlukan pada sumber daya generik untuk pengembang.
 
-1. Pada halaman **proyek** , pada tab **tim** , pilih **baru** untuk memesan sumber daya generik.
+1. Pada halaman **proyek**, pada tab **tim**, pilih **baru** untuk memesan sumber daya generik.
 
     ![Sumber daya generik yang dipesan pada tim](media/Resource-Management-image9.png)
 
-2. Di tampilan **semua anggota tim** , di kolom **persyaratan sumber daya** , pilih tautan untuk menambahkan keterampilan yang diperlukan untuk sumber daya generik.
+2. Di tampilan **semua anggota tim**, di kolom **persyaratan sumber daya**, pilih tautan untuk menambahkan keterampilan yang diperlukan untuk sumber daya generik.
 
     ![Tautan persyaratan](media/Resource-Management-image10.png)
 
-3. Pada halaman **persyaratan sumber daya** yang muncul, di kisi **keahlian** , pilih elipsis ( **...** ) kemudian pilih **Tambah karakteristik kebutuhan baru** untuk menambahkan keterampilan yang diperlukan untuk pengembang Anda.
+3. Pada halaman **persyaratan sumber daya** yang muncul, di kisi **keahlian**, pilih elipsis (**...**) kemudian pilih **Tambah karakteristik kebutuhan baru** untuk menambahkan keterampilan yang diperlukan untuk pengembang Anda.
 
     ![Perintah Tambahkan Karakteristik Persyaratan Baru](media/Resource-Management-image11.png)
 
-4. Di kotak dialog **buat cepat: karakteristik persyaratan** yang muncul, di bidang **karakteristik** , pilih keahlian yang diperlukan. Selanjutnya, di bidang **nilai peringkat** , pilih tingkat kemahiran untuk keahlian tersebut. Terakhir, di bidang **persyaratan sumber daya** , atur persyaratan sumber daya sumber dari unit organisasi atau bahkan sumber daya bernama. Setelah selesai, pilih **Simpan**.
+4. Di kotak dialog **buat cepat: karakteristik persyaratan** yang muncul, di bidang **karakteristik**, pilih keahlian yang diperlukan. Selanjutnya, di bidang **nilai peringkat**, pilih tingkat kemahiran untuk keahlian tersebut. Terakhir, di bidang **persyaratan sumber daya**, atur persyaratan sumber daya sumber dari unit organisasi atau bahkan sumber daya bernama. Setelah selesai, pilih **Simpan**.
 
     ![Kotak dialog buat cepat: karakteristik persyaratan](media/Resource-Management-image12.png)
 
-5. Pada halaman **persyaratan sumber daya** , pilih **Pesan** untuk memenuhi persyaratan sumber daya.
+5. Pada halaman **persyaratan sumber daya**, pilih **Pesan** untuk memenuhi persyaratan sumber daya.
 
     ![Tombol pesan di halaman persyaratan sumber daya](media/Resource-Management-image13.png)
 
-    Anda juga dapat memilih sumber daya generik di kisi **semua anggota tim** , lalu pilih **Pesan**.
+    Anda juga dapat memilih sumber daya generik di kisi **semua anggota tim**, lalu pilih **Pesan**.
 
     ![Tombol pesan di atas kisi semua anggota tim](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > Dalam contoh ini, ada 40 jam yang diperlukan namun tidak ada jam Pemesanan aktual, karena sumber daya generik tidak memiliki Pemesanan. Selain itu, tidak ada jam yang ditetapkan, karena sumber daya generik ditambahkan langsung ke tim. Tidak ditambahkan menggunakan penetapan tugas.
 
-    Pada halaman **asisten penjadwalan** , Anda dapat memfilter sumber daya yang tersedia berdasarkan persyaratan yang ditentukan pada persyaratan sumber daya. Sumber daya diurutkan berdasarkan parameter pengurutan yang ditentukan di papan jadwal.
+    Pada halaman **asisten penjadwalan**, Anda dapat memfilter sumber daya yang tersedia berdasarkan persyaratan yang ditentukan pada persyaratan sumber daya. Sumber daya diurutkan berdasarkan parameter pengurutan yang ditentukan di papan jadwal.
 
     ![Halaman Asisten Penjadwalan](media/Resource-Management-image15.png)
 
@@ -120,11 +120,11 @@ Ikuti langkah berikut untuk menentukan keterampilan yang diperlukan pada sumber 
 
 Dalam PSA, Anda dapat membuat tugas, lalu menetapkan sumber daya generik. Dengan cara ini, permintaan sumber daya dapat diwakili oleh placeholder saat Anda memperkirakan jadwal dan angka keuangan. Selanjutnya Anda dapat membuat persyaratan sumber daya untuk sumber daya generik dan memenuhinya.
 
-1. Pada halaman **proyek** , pada tab **jadwal** , pilih **Tambah** untuk membuat tugas.
+1. Pada halaman **proyek**, pada tab **jadwal**, pilih **Tambah** untuk membuat tugas.
 
     ![Tugas Baru dibuat](media/Resource-Management-image21.png)
 
-2. Di bidang **sumber daya** , pilih simbol **pemilih sumber daya**. Pemilih sumber daya muncul dan menampilkan anggota tim yang ada untuk proyek.
+2. Di bidang **sumber daya**, pilih simbol **pemilih sumber daya**. Pemilih sumber daya muncul dan menampilkan anggota tim yang ada untuk proyek.
 
     ![Pemilih sumber daya](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ Dalam PSA, Anda dapat membuat tugas, lalu menetapkan sumber daya generik. Dengan
 
     ![Nama sumber daya generik baru yang dimasukkan](media/Resource-Management-image23.png)
 
-4. Di kotak dialog **buat cepat: anggota tim proyek** yang muncul, di bidang **Peran** , pilih peran untuk sumber daya generik. Di bidang **unit sumber daya** , pilih unit organisasi untuk sumber daya generik. Kemudian pilih **Simpan**.
+4. Di kotak dialog **buat cepat: anggota tim proyek** yang muncul, di bidang **Peran**, pilih peran untuk sumber daya generik. Di bidang **unit sumber daya**, pilih unit organisasi untuk sumber daya generik. Kemudian pilih **Simpan**.
 
     ![Kotak dialog buat cepat: anggota tim proyek](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ Dalam PSA, Anda dapat membuat tugas, lalu menetapkan sumber daya generik. Dengan
 
     ![Anggota tim generik ditetapkan ke tugas](media/Resource-Management-image25.png)
 
-    Pada tab **tim** , Anda akan melihat anggota tim generik baru. Perhatikan bahwa hanya jam yang ditetapkan. Jam tersebut adalah jumlah semua tugas yang ditetapkan ke anggota tim generik. Anggota tim generik belum memerlukan persyaratan jam atau sumber daya.
+    Pada tab **tim**, Anda akan melihat anggota tim generik baru. Perhatikan bahwa hanya jam yang ditetapkan. Jam tersebut adalah jumlah semua tugas yang ditetapkan ke anggota tim generik. Anggota tim generik belum memerlukan persyaratan jam atau sumber daya.
 
     ![Anggota tim persyaratan pada tab tim](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ Dalam PSA, Anda dapat membuat tugas, lalu menetapkan sumber daya generik. Dengan
 
     Setelah selesai menetapkan sumber daya generik untuk tugas, Anda dapat membuat persyaratan sumber daya untuk sumber daya generik.
 
-5. Pada tab **tim** , pilih sumber daya generik, lalu pilih **buat persyaratan**.
+5. Pada tab **tim**, pilih sumber daya generik, lalu pilih **buat persyaratan**.
 
     ![Perintah Buat Persyaratan](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ Dalam PSA, Anda dapat membuat tugas, lalu menetapkan sumber daya generik. Dengan
 
     ![Sumber daya generik digantikan oleh sumber daya bernama](media/Resource-Management-image30.png)
 
-    Pada tab **jadwal** , tugas sumber daya generik akan dihapus dan digantikan oleh sumber daya bernama.
+    Pada tab **jadwal**, tugas sumber daya generik akan dihapus dan digantikan oleh sumber daya bernama.
 
     ![Pada tab jadwal, tugas sumber daya generik digantikan oleh sumber daya bernama](media/Resource-Management-image31.png)
 
@@ -181,11 +181,11 @@ Dalam PSA, Anda dapat membuat tugas, lalu menetapkan sumber daya generik. Dengan
 
     ![Sumber daya kedua](media/Resource-Management-image35.png)
 
-    Pada tab **tim** , Anda sekarang dapat melihat bahwa sumber daya generik tidak memiliki jam yang diperlukan, namun jam yang ditetapkan tetap ditampilkan bersama dengan dua sumber daya bernama yang membentuk pemenuhan.
+    Pada tab **tim**, Anda sekarang dapat melihat bahwa sumber daya generik tidak memiliki jam yang diperlukan, namun jam yang ditetapkan tetap ditampilkan bersama dengan dua sumber daya bernama yang membentuk pemenuhan.
 
     ![Dua sumber daya bernama di tab tim](media/Resource-Management-image36.png)
 
-    Pada tab **jadwal** , sumber daya generik tetap ditetapkan ke tugas.
+    Pada tab **jadwal**, sumber daya generik tetap ditetapkan ke tugas.
 
     ![Sumber daya generik pada tab jadwal](media/Resource-Management-image37.png)
 
@@ -197,7 +197,7 @@ Oleh karena itu, dalam skenario ini, manajer proyek bertanggung jawab untuk meng
 
 Setelah persyaratan sumber daya dibuat, manajer proyek atau manajer sumber daya mungkin ingin mengedit rincian untuk menyempurnakan kriteria pencarian bila papan jadwal digunakan. Untuk mengedit persyaratan sumber daya, ikuti langkah-langkah berikut.
 
-1. Pada halaman **proyek** , pada tab **tim** , pilih tautan ke persyaratan apa pun di sumber daya generik.
+1. Pada halaman **proyek**, pada tab **tim**, pilih tautan ke persyaratan apa pun di sumber daya generik.
 2. Di halaman **persyaratan sumber daya** yang muncul, Anda dapat memperbarui beberapa atribut. Berikut adalah beberapa contoh:
 
     - Nama
@@ -206,7 +206,7 @@ Setelah persyaratan sumber daya dibuat, manajer proyek atau manajer sumber daya 
     - Durasi
     - Jenis Sumber Daya
 
-Pada halaman **persyaratan sumber daya** , manajer proyek atau manajer sumber daya juga dapat menentukan informasi berikut:
+Pada halaman **persyaratan sumber daya**, manajer proyek atau manajer sumber daya juga dapat menentukan informasi berikut:
 
 - Keterampilan
 - Peran
@@ -217,7 +217,7 @@ Pada halaman **persyaratan sumber daya** , manajer proyek atau manajer sumber da
 
 Setelah menambahkan sumber daya generik atau bernama ke tim proyek, Anda dapat mengubah Pemesanan sumber daya.
 
-1. Pada halaman **proyek** , pada tab **tim** , pilih anggota tim, lalu pilih **Kelola Pemesanan**.
+1. Pada halaman **proyek**, pada tab **tim**, pilih anggota tim, lalu pilih **Kelola Pemesanan**.
 
     ![Papan jadwal dibuka untuk anggota tim yang dipilih](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Pilih **terima semua proposal** untuk menerima semua sumber daya yang diusulkan 
 
 Terkadang, manajer proyek harus mengganti anggota tim yang dipesan pada suatu proyek.
 
-1. Pada halaman **proyek** , pada tab **tim** , pilih sumber daya yang memerlukan pengganti, lalu pilih **Kelola Pemesanan**.
+1. Pada halaman **proyek**, pada tab **tim**, pilih sumber daya yang memerlukan pengganti, lalu pilih **Kelola Pemesanan**.
 2. Perluas sumber daya untuk melihat proyek yang ditetapkan untuknya.
 
     ![Sumber daya diperluas untuk menampilkan proyek yang ditugaskan](media/Resource-Management-image50.png)
@@ -337,7 +337,7 @@ Bila Anda melihat waktu di tingkat yang lebih tinggi, sel dalam tab **rekonsilia
 
 ![Indikator perbedaan](media/Resource-Management-image57.png)
 
-Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan, pada halaman **proyek** , pada tab **rekonsiliasi** , pilih kekurangan Pemesanan, lalu pilih **Perluas Pemesanan**. Kotak dialog **Perluas Pemesanan** muncul dan menunjukkan Pemesanan yang diperlukan untuk mengatasi kekurangan sumber daya. Juga menampilkan Pemesanan sumber daya yang ada di seluruh proyek atau entitas yang dapat dijadwalkan lainnya. Jika Anda memilih **OK** untuk membuat pemesanan untuk sumber daya, terlepas dari ketersediaan sumber daya tersebut, Anda dapat menyebabkan pemesanan berlebihan.
+Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan, pada halaman **proyek**, pada tab **rekonsiliasi**, pilih kekurangan Pemesanan, lalu pilih **Perluas Pemesanan**. Kotak dialog **Perluas Pemesanan** muncul dan menunjukkan Pemesanan yang diperlukan untuk mengatasi kekurangan sumber daya. Juga menampilkan Pemesanan sumber daya yang ada di seluruh proyek atau entitas yang dapat dijadwalkan lainnya. Jika Anda memilih **OK** untuk membuat pemesanan untuk sumber daya, terlepas dari ketersediaan sumber daya tersebut, Anda dapat menyebabkan pemesanan berlebihan.
 
 ![Kotak dialog Perluas Pemesanan](media/Resource-Management-image58.png)
 

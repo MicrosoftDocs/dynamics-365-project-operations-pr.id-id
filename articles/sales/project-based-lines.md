@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078345"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181951"
 ---
 # <a name="project-based-opportunity-lines"></a>Baris peluang berbasis proyek
 
@@ -26,7 +26,7 @@ Baris peluang berbasis proyek adalah item baris yang akan dikirim kepada pelangg
 
 Di bawah ini adalah bidang pada baris peluang berbasis proyek:
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | Jenis Produk | Tab Umum (tersembunyi) | Ini adalah bidang rangkaian pilihan. Jika Anda memiliki Dynamics 365 Operations terinstal, salah satu pilihan yang tersedia adalah, **layanan berbasis proyek**.  | Nilai bidang ini diatur ke **layanan berbasis proyek** saat Anda membuat baris peluang berbasis proyek dari kisi baris berbasis proyek pada peluang. <br> Jika Anda mengubah atau mengganti nilai ini, fungsi proyek tidak akan diaktifkan pada item baris berbasis proyek. |
 | Peluang | Tab Umum | Bidang ini hanya baca dan merujuk rekaman peluang induk yang dimiliki item baris ini. | Tidak ada dampak hilir dari bidang ini. |

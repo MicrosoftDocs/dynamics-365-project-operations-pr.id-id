@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078361"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181816"
 ---
 # <a name="copy-project-based-quotes"></a>Menyalin kuotasi berbasis proyek
 
@@ -25,7 +25,7 @@ Anda dapat dengan mudah membuat kuotasi proyek baru dengan menyalin yang ada.
 
 Ini akan membuka halaman dialog di mana Anda dapat memasukkan parameter salinan. Tabel berikut mencantumkan bidang yang disertakan di halaman dialog. Tergantung pada nilai yang Anda pilih, proses penyalinan dapat berubah.
 
-| **Bidang** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- |
 | Topik | Masukkan topik yang relevan, atau nama, dari kuotasi target. Bila dialog terbuka, sistem akan menetapkannya ke topik sumber kuotasi dengan **-salinan** yang ditambahkan padanya. | |
 | Calon Pelanggan | Merujuk pada perusahaan atau rekaman akun pelanggan. Bila dialog terbuka, sistem akan diatur ke akun pada kuotasi sumber. | Bidang ini adalah pelanggan utama pada kuotasi. |

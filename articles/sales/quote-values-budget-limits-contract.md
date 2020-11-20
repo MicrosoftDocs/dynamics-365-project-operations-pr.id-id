@@ -1,21 +1,21 @@
 ---
-title: Informasi Ringkasan tentang kuotasi proyek
+title: Pengaturan kuotasi proyek
 description: Topik ini menyediakan informasi tentang informasi dan pengaturan yang berlaku untuk dan berdampak pada kuotasi proyek.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078330"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180241"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Informasi Ringkasan tentang kuotasi proyek
+# <a name="project-quote-settings"></a>Pengaturan kuotasi proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
@@ -24,7 +24,7 @@ Artikel ini menjelaskan informasi yang berlaku untuk kuotasi proyek. Ini mencaku
 
 Tabel berikut mencantumkan bidang informasi ringkasan pada kuotasi proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari kuotasi Dynamics 365 Sales.
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | Tipe | Tab ringkasan (tersembunyi) | Bidang rangkaian pilihan ini memiliki pilihan berikut:</br>- berbasis Pekerjaan (tersedia hanya bila Project Operations diinstal)</br>- berbasis item (tersedia hanya bila Project Operations dan Sales diinstal)</br>- Berbasis pemeliharaan layanan (tersedia saat Dynamics 365 Field Service diinstal) | Bila Anda menggunakan aplikasi Project Operations, nilai bidang ini secara otomatis diatur ke **berbasis pekerjaan**. Ini mengklasifikasikan kuotasi sebagai kuotasi berbasis proyek. Kuotasi harus berbasis proyek untuk memungkinkan semua ekstensi dan fungsi khusus proyek. |
 | Perusahaan Pemilik | RINGKASAN | Entitas hukum yang akan memperhitungkan biaya dan pendapatan yang Diperoleh dari proyek ini atau proyek yang terkait dengan kuotasi ini. Ketika kuotasi dibuat dari peluang, bidang ini disalin dari bidang yang sesuai pada peluang. | Perusahaan pemilik setara dengan konsep entitas hukum dalam modul **manajemen proyek dan akuntansi** Project Operations. Semua biaya dan pendapatan yang Diperoleh dari proyek ini akan diperhitungkan dalam buku besar perusahaan pemilik. |
@@ -38,7 +38,7 @@ Tabel berikut mencantumkan bidang informasi ringkasan pada kuotasi proyek yang u
 
 Di bawah ini adalah tab dan KPI yang tersedia pada kuotasi proyek yang unik untuk Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari kuotasi Sales:
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** |
+| **Bidang** | **Lokasi** | **Keterangan** |
 | --- | --- | --- |
 | Analisis Profitabilitas | Tab pada kuotasi | tab ini menunjukkan metrik berikut:</br>- Total Biaya yang dapat ditagih</br></br>- Total Biaya yang Tidak dapat ditagih</br>- Pendapatan Total</br>- Pendapatan Total (Dasar)</br>- margin kotor</br>- Penyesuaian Margin Kotor|
 | Perbandingan Dengan Harapan Pelanggan | Tab pada kuotasi | Tab ini menunjukkan metrik berikut:</br>- Perkiraan Penyelesaian</br>- Penyelesaian yang Diminta</br>- Anggaran Pelanggan</br>- Nilai Kuotasi |

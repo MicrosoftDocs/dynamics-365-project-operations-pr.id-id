@@ -1,74 +1,76 @@
 ---
-title: Membuat jadwal faktur di baris kontrak berbasis proyek
-description: Topik ini menyediakan informasi tentang membuat jadwal faktur dan tonggak di baris kontrak.
+title: Buat jadwal faktur di baris kontrak berbasis proyek - lite
+description: Topik ini menyediakan informasi tentang pembuatan jadwal dan tonggak pencapaian faktur.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4078718"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180331"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Membuat jadwal faktur di baris kontrak berbasis proyek
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Buat jadwal faktur di baris kontrak berbasis proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
+Andadapat melampirkan jadwal faktur di baris kontrak berbasis proyek. Faktur hanya diizinkan setelah kontrak dimenangkan untuk membuat kontrak proyek. Jadwal faktur memungkinkan faktur draf untuk baris kontrak berbasis proyek dibuat secara otomatis. Jika Anda berencana untuk selalu membuat faktur secara manual, Anda dapat melewatkan pembuatan jadwal faktur pada baris kontrak berbasis proyek atau baris kontrak.
 
-Anda dapat membuat jadwal faktur untuk baris kontrak berbasis proyek. Faktur hanya diizinkan setelah kontrak dimenangkan dan Anda membuat kontrak proyek. Jadwal faktur memungkinkan draf faktur untuk baris kontrak berbasis proyek dibuat secara otomatis. Namun jika Anda hanya membuat faktur secara manual, Anda dapat melewatkan pembuatan jadwal faktur pada baris kontrak.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Buat jadwal faktur waktu dan material untuk baris kontrak
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Membuat jadwal faktur material dan waktu untuk baris kontrak berbasis proyek
 
 Bila baris kontrak berbasis proyek memiliki metode penagihan waktu dan material, Anda dapat membuat jadwal faktur berdasarkan tanggal. Untuk secara otomatis membuat jadwal faktur berdasarkan tanggal, selesaikan langkah-langkah berikut.
 
-1. Buka **pengaturan** > **frekuensi faktur** dan atur frekuensi faktur.
-2. Buka rekaman kontrak proyek, dan di tab **ringkasan** , di bidang **tanggal pengiriman yang diminta** , pilih tanggal.
-3. Buka baris kontrak **waktu dan material** yang Anda perlukan untuk membuat jadwal faktur berdasarkan tanggal. 
-4. Pada tab **jadwal faktur** , pilih tanggal mulai penagihan dan frekuensi faktur.
-5. Pada subkisi, pilih **buat jadwal faktur**. Jadwal faktur dibuat dengan **tanggal Jalankan faktur** , **tanggal batas transaksi** , dan bidang **status menjalankan** yang diatur sebagai berikut:
+1. Buka **pengaturan** > **frekuensi faktur** untuk mengkonfigurasi frekuensi faktur.
+2. Buka kontrak proyek dan pada tab **ringkasan**, atur tanggal pengiriman yang diminta.
+3. Buka baris kontrak waktu dan material yang diinginkan untuk dibuat jadwal faktur berdasarkan tanggalnya. 
+4. Pada tab **jadwal faktur**, pilih tanggal mulai penagihan dan frekuensi faktur. 
+5. Pada subkisi, pilih **buat jadwal faktur**.
 
-    - **Tanggal Jalankan faktur** : Tanggal ini didikte oleh frekuensi faktur.
-    - **Tanggal batas transaksi** : hari sebelum tanggal Jalankan faktur.
-    - **Status Jalankan** : Otomatis diatur ke **tidak berjalan**. Ketika pekerjaan pembuatan faktur otomatis berjalan untuk faktur tertentu tanggal berjalan, bidang ini diperbarui ke **berhasil menjalankan** atau **gagal menjalankan**.
+    Sistem menghasilkan jadwal faktur dengan informasi bidang berikut:
 
+    - **Tanggal Jalankan faktur** diatur ke tanggal berdasarkan frekuensi faktur.
+    - **Tanggal batas transaksi** diatur ke hari sebelum **tanggal Jalankan faktur**.
+    - **Status Jalankan** diatur secara otomatis ke **tidak berjalan**. Ketika pekerjaan pembuatan faktur otomatis berjalan untuk **Tanggal Jalankan faktur** tertentu, bidang ini diperbarui ke **berhasil menjalankan** atau **gagal menjalankan**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Buat jadwal faktur harga tetap untuk baris kontrak
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Membuat jadwal faktur harga tetap untuk baris kontrak berbasis proyek
 
-Bila baris kontrak memiliki metode penagihan tetap, Anda dapat membuat jadwal faktur berbasis tonggak. Selesaikan langkah-langkah berikut untuk membuat jadwal faktur berbasis tonggak pencapaian untuk tonggak pencapaian yang didistribusikan secara merata untuk periode kalender.
+Bila baris kontrak berbasis proyek memiliki metode penagihan harga tetap, Anda dapat membuat jadwal faktur berbasis tonggak pencapaian. Selesaikan langkah-langkah berikut untuk secara otomatis menghasilkan jadwal faktur berdasarkan tonggak pencapaian untuk rangkaian tonggak pencapaian tetap yang didistribusikan secara merata untuk periode kalender.
 
-1. Buka **pengaturan** > **frekuensi faktur** dan atur frekuensi faktur.
-2. Buka rekaman kontrak proyek, dan di tab **ringkasan** , di bidang **tanggal pengiriman yang diminta** , pilih tanggal.
-3. Buka baris kontrak **harga tetap** yang Anda buat jadwal tonggaknya. Pada tab **Tonggak Penagihan** , pilih tanggal mulai penagihan dan frekuensi faktur. 
-4. Pada subkisi, pilih **buat tonggak periode**. Jadwal faktur dibuat dengan bidang **nama tonggak** , **tanggal tonggak** , dan **jumlah tonggak** diatur sebagai berikut:
+1. Buka **pengaturan** > **frekuensi faktur** untuk mengkonfigurasi frekuensi faktur.
+2. Buka kontrak proyek dan pada tab **ringkasan**, atur tanggal pengiriman yang diminta.
+3. Buka baris kontrak harga tetap yang Anda butuhkan untuk membuat jadwal tonggak pencapaian. 
+4. Pada tab **jadwal faktur (tonggak pencapaian penagihan)**, pilih tanggal mulai penagihan dan frekuensi faktur. 
+5. Pada subkisi, pilih **buat tonggak periode**.
 
-    - **Nama Tonggak** : Tanggal ini didikte oleh frekuensi faktur.
-    - **Tanggal Tonggak** : Tanggal ini didikte oleh frekuensi faktur.
-    - **Jumlah tonggak** : Jumlah dihitung dengan membagi jumlah kontrak pada baris kontrak berbasis proyek berdasarkan jumlah tonggak yang didikte oleh frekuensi dan awal penagihan dan tanggal pengiriman yang diminta.
+    Sistem menghasilkan jadwal faktur dengan informasi tonggak pencapaian berikut.
 
-    Jika baris kontrak memiliki nilai di bidang **Estimasi jumlah pajak** , maka bidang ini juga dibagikan ke setiap tonggak dengan setara saat menghasilkan tonggak periodik.
+    - **Nama tonggak pencapaian** diatur ke tanggal yang didikte berdasarkan frekuensi faktur.
+    - **Tanggal tonggak pencapaian** diatur ke tanggal yang didikte berdasarkan frekuensi faktur.
+    - **Jumlah tonggak pencapaian** dihitung dengan membagi jumlah kontrak pada baris kontrak berbasis proyek berdasarkan jumlah tonggak pencapaian yang didikte berdasarkan frekuensi, mulai penagihan, dan tanggal pengiriman yang diminta.
+    - Jika baris kontrak memiliki nilai di bidang **perkiraan jumlah pajak**, bidang ini juga dibagikan ke setiap tonggak pencapaian secara merata saat membuat tonggak periodik.
 
-Tonggak penagihan harus sama dengan nilai kontrak baris kontrak. Jika tidak, Anda akan menerima kesalahan pada halaman **baris kontrak**. Anda dapat memperbaiki kesalahan dengan memverifikasi tonggak penagihan merupakan total nilai kontrak baris dengan membuat, mengedit, atau menghapus tonggak. Setelah perubahan dibuat, segarkan halaman untuk menghilangkan kesalahan.
+Tonggak pencapaian penagihan harus sama dengan nilai kontrak baris kontrak berbasis proyek. Jika tidak sama, kesalahan terjadi. Anda dapat memperbaiki kesalahan tersebut dengan memverifikasi bahwa tonggak pencapaian penagihan mentotalkan nilai kontrak baris dengan membuat, mengedit, atau menghapus tonggak pencapaian. Setelah perubahan dibuat, segarkan halaman.
 
 ### <a name="manually-create-milestones"></a>Buat tonggak secara manual
 
-Anda dapat membuat tonggak harga tetap secara manual saat tidak dibagi secara berkala. Selesaikan langkah-langkah berikut untuk membuat proyek baru secara manual.
+Tonggak pencapaian harga tetap dapat dihasilkan secara manual saat mereka tidak terbagi secara berkala. Untuk membuat tonggak pencapaian secara manual, selesaikan langkah berikut.
 
-1. Buka baris kontrak harga tetap yang Anda buat tonggak untuknya, dan pada tab **jadwal faktur** , pada subkisi, pilih **+ buat tonggak baris kontrak baru**. 
-2. Pada halaman **pembuatan tonggak** , masukkan informasi yang diperlukan berdasarkan tabel berikut.
+1. Buka baris kontrak harga tetap yang Anda butuhkan untuk membuat tonggak pencapaiannya. 
+2. Pada tab **jadwal faktur**, pada subkisi, pilih **+ buat tonggak pencapaian baris kontrak baru**.
+3. Pada formulir **pembuatan tonggak pencapaian**, masukkan informasi yang diperlukan berdasarkan tabel berikut. 
 
-| Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+| Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
-| Nama Tahap | Buat Cepat | Bidang teks untuk nama tonggak. | Ini dibawa ke tonggak baris kontrak proyek dan ke faktur. |
-| Tugas Proyek | Buat Cepat | Jika tonggak terkait dengan tugas proyek, gunakan referensi ini untuk menambahkan logika kustom untuk mengatur status tonggak berdasarkan status tugas. | Aplikasi ini tidak memiliki dampak hilir terkait referensi ini untuk tugas. |
-| Tanggal Tahap | Buat Cepat | Atur tanggal untuk proses pembuatan faktur otomatis mencari status tonggak ini untuk dipertimbangkan untuk faktur. | Ini dibawa ke tonggak baris kontrak proyek dan ke faktur. |
-| Status Faktur | Buat Cepat | Bila tonggak dibuat, status ini selalu diatur ke **tidak siap untuk faktur** atau **Belum Dimulai**. | Ini dibawa ke tonggak baris kontrak proyek dan ke faktur. |
-| Jumlah Baris | Buat Cepat | Jumlah atau nilai tonggak yang akan ditagih kepada pelanggan. | Ini dibawa ke tonggak baris kontrak proyek dan ke faktur. |
-| Pajak | Buat Cepat | Jumlah pajak yang berlaku pada tonggak. | Ini dibawa ke tonggak baris kontrak proyek dan ke faktur. |
+| Nama Tahap | Buat Cepat | Bidang teks untuk nama tonggak. | Bidang ini disertakan dalam tonggak pencapaian baris kontrak proyek dan faktur. |
+| Tugas Proyek | Buat Cepat | Jika tonggak pencapaian terkait dengan tugas proyek, gunakan referensi ini untuk menambahkan logika kustom dan menetapkan status tonggak pencapaian berdasarkan status tugas. | Tidak ada dampak hilir referensi ini terhadap tugas. |
+| Tanggal Tahap | Buat Cepat | Tanggal saat proses pembuatan faktur otomatis akan mencari status tonggak ini untuk dipertimbangkan untuk faktur. | Ini disertakan dalam tonggak pencapaian baris kontrak proyek dan faktur. |
+| Status Faktur | Buat Cepat | Saat tonggak dibuat, status ini selalu diatur ke **tidak siap untuk faktur** atau **tidak dimulai**. | Ini disertakan dalam tonggak pencapaian baris kontrak proyek dan faktur. |
+| Jumlah Baris | Buat Cepat | Jumlah atau nilai tonggak pencapaian yang akan ditagih kepada pelanggan. | Bidang ini disertakan dalam tonggak pencapaian baris kontrak proyek dan faktur, |
+| Pajak | Buat Cepat | Jumlah pajak yang berlaku pada tonggak. | Ini disertakan dalam tonggak pencapaian baris kontrak proyek dan faktur. |
 
-3. Pilih **Simpan dan Tutup**.
-| Jumlah baris | Buat cepat | Jumlah atau nilai dari tonggak yang akan ditagih kepada pelanggan | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur | | Pajak | Buat cepat | Jumlah pajak yang akan diterapkan pada tonggak | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur |
+4. Pilih **Simpan dan Tutup**.

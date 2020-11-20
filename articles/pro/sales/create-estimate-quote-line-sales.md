@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078388"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180376"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Mengestimasi baris kuotasi berbasis proyek
 
@@ -30,9 +30,9 @@ Untuk memperkirakan baris kuotasi berbasis proyek, pada baris kuotasi berbasis p
 
 Untuk membuat perkiraan pada baris kuotasi berbasis proyek, pilih tab **rincian baris kuotasi**. Item baris yang Anda buat pada tab ini akan meringkas nilai yang dikutip untuk baris kuotasi ini. 
 
-Untuk membuat rincian baris kuotasi, pilih **+ detail baris kuotasi baru** pada sub kisi **detail baris kuotasi**. Slider buat cepat akan terbuka. Bidang berikut pada formulir **baris kuotasi** :
+Untuk membuat rincian baris kuotasi, pilih **+ detail baris kuotasi baru** di subkisi **rincian baris kuotasi**. Slider buat cepat akan terbuka. Bidang berikut pada formulir **baris kuotasi**:
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | KETERANGAN | Buat cepat | Deskripsi estimasi tertentu. | Bidang ini default untuk detail baris kuotasi terkait untuk biaya yang dibuat secara otomatis. |
 | Kelas Transaksi | Buat cepat | Daftar drop-down ini menyediakan kelas transaksi yang disertakan pada tab **Umum** baris kuotasi berbasis proyek.  | Bidang ini default untuk detail baris kuotasi terkait untuk biaya yang dibuat secara otomatis. |
@@ -50,11 +50,11 @@ Untuk membuat rincian baris kuotasi, pilih **+ detail baris kuotasi baru** pada 
 
 ## <a name="update-prices-on-quote-line-details"></a>Memperbarui harga pada detail baris kuotasi
 
-Jika Anda telah mengubah harga pada daftar harga proyek yang dilampirkan ke kuotasi, atau pada daftar harga biaya unit kontrak, Anda dapat memilih **hitung ulang** pada **halaman kuotasi** , untuk me-refresh harga pada rincian baris kuotasi individual untuk mencerminkan perubahan ini. Bila Anda memilih **hitung ulang** , terjadi peringatan yang menginformasikan pada Anda bahwa harga pada detail baris kuotasi untuk semua baris kuotasi pada kuotasi ini akan diatur ulang. Pilih **ya** , untuk menyegarkan harga untuk detail baris penjualan dan kuotasi biaya.
+Jika Anda telah mengubah harga pada daftar harga proyek yang dilampirkan ke kuotasi, atau pada daftar harga biaya unit kontrak, Anda dapat memilih **hitung ulang** pada **halaman kuotasi**, untuk me-refresh harga pada rincian baris kuotasi individual untuk mencerminkan perubahan ini. Bila Anda memilih **hitung ulang**, terjadi peringatan yang menginformasikan pada Anda bahwa harga pada detail baris kuotasi untuk semua baris kuotasi pada kuotasi ini akan diatur ulang. Pilih **ya**, untuk menyegarkan harga untuk detail baris penjualan dan kuotasi biaya.
 
 ## <a name="access-quote-line-details-for-cost"></a>Akses Rincian baris kuotasi untuk biaya
 
-Pada tab **rincian baris kuotasi** , pilih baris di kisi untuk mengaktifkan beberapa tindakan di toolbar subkisi. Tindakan pertama pada bilah alat subkisi saat detail baris kuotasi dipilih adalah **Buka detail biaya**. Pilih **Buka detail biaya** untuk melihat tingkat biaya dan jumlah yang terkait untuk baris kuotasi ini.
+Pada tab **rincian baris kuotasi**, pilih baris di kisi untuk mengaktifkan beberapa tindakan di toolbar subkisi. Tindakan pertama pada bilah alat subkisi bila detail baris kuotasi dipilih adalah **Buka rincian biaya**. Pilih **Buka detail biaya** untuk melihat tingkat biaya dan jumlah yang terkait untuk baris kuotasi ini.
 
 > [!NOTE]
 > Mengubah unit sumber daya, kuantitas, tanggal, peran, atau nilai kategori pada detail baris kuotasi untuk biaya akan mengubah nilai yang sesuai pada rincian baris kuotasi untuk penjualan.

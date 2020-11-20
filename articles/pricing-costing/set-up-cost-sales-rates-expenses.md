@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078403"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180286"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Mengonfigurasikan biaya dan tarif penjualan untuk pengeluaran
 
@@ -24,17 +24,17 @@ Anda dapat mengkonfigurasi harga biaya dan penjualan untuk kategori transaksi di
 Untuk mengatur biaya dan tarif penjualan untuk kategori transaksi, selesaikan langkah berikut. 
 
 1. Buat daftar harga berdasarkan header daftar harga. 
-2. Pada **harga kategori** , pada menu subkisi, pilih **+ harga kategori baru**. 
-3. Pada halaman **Buat cepat** , masukkan kategori transaksi dan unit yang Anda buat dengan harga baru.
+2. Pada **kategori harga**, pada menu subkisi, pilih **+ harga kategori baru**. 
+3. Pada halaman **Buat cepat**, masukkan kategori transaksi dan unit yang Anda buat dengan harga baru.
 
 Tabel berikut mencantumkan bidang pada tab **Umum** dan halaman **Buat cepat** dari baris harga kategori yang harus diingat saat Anda membuat harga kategori pada daftar harga penjualan atau biaya.
 
-| Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+| Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
 | Kategori Transaksi | Halaman **Umum** dan panel **Buat Cepat** | Pilih kategori transaksi yang Anda buat harga penjualan atau biayanya. | Kategori transaksi pada perkiraan yang masuk atau yang sebenarnya untuk pengeluaran akan dicocokkan dengan baris ini ke default biaya atau tarif penjualan dari kategori transaksi. |
 | Jadwal Unit | Halaman **Umum** dan panel **Buat Cepat** | Jadwal unit di-default dari jadwal unit kategori transaksi. | Tidak ada dampak hilir dari bidang ini. |
 | Unit | Halaman **Umum** dan panel **Buat Cepat** | Pilih unit dengan tarif sedang disiapkan. | Unit pada estimasi masuk atau aktual dicocokkan dengan unit pada baris ini untuk men-default tarif pada estimasi pengeluaran atau aktual. |
-| Metode Penetapan Harga | Halaman **Umum** dan panel **Buat Cepat** | Nilai yang mungkin dari bidang **metode harga** adalah, **harga per unit** , **Pada biayanya** , dan **markup atas biaya**. | Selama pengaturan harga, memilih **harga per unit** akan mengunci bidang **persen** pada baris harga kategori. Jika **pada biayanya** yang dipilih, bidang **harga** dan **persen** terkunci pada daftar harga penjualan. Memilih **markup atas Biaya** mengunci bidang **harga** pada daftar harga penjualan. Pada baris aktual masuk untuk pengeluaran, metode harga **pada biayanya** atau **markup atas biaya** pada baris penjualan belum ditagih yang terkait diberi harga yang sama dengan harga pada aktual biaya atau dihitung sebagai markup atas harga. |
+| Metode Penetapan Harga | Halaman **Umum** dan panel **Buat Cepat** | Nilai yang mungkin dari bidang **metode harga** adalah, **harga per unit**, **Pada biayanya**, dan **markup atas biaya**. | Selama pengaturan harga, memilih **harga per unit** akan mengunci bidang **persen** pada baris harga kategori. Jika **pada biayanya** yang dipilih, bidang **harga** dan **persen** terkunci pada daftar harga penjualan. Memilih **markup atas Biaya** mengunci bidang **harga** pada daftar harga penjualan. Pada baris aktual masuk untuk pengeluaran, metode harga **pada biayanya** atau **markup atas biaya** pada baris penjualan belum ditagih yang terkait diberi harga yang sama dengan harga pada aktual biaya atau dihitung sebagai markup atas harga. |
 | Harga | Halaman **Umum** dan panel **Buat Cepat** | Atur tingkat per unit untuk kategori transaksi dan kombinasi unit. Misalnya, tarif untuk jarak tempuh adalah 10 USD per mil dan 8 USD per kilometer. | Tingkat jarak tempuhakan menjadi tingkat yang default pada harga per unit atau biaya estimasi masuk atau baris aktual untuk kelas transaksi pengeluaran.|
 | Persen | Halaman **Umum** dan panel **Buat Cepat** | Atur persentase atas biaya untuk kategori transaksi dan kombinasi unit. Misalnya, tarif penjualan tiket pesawat harus ditandai 10 persen dari biaya pengeluaran pesawat yang terjadi. | Persentase atas biaya ini hanyalah berlaku pada daftar harga penjualan bila metode harga yang dipilih adalah **Markup atas biaya**. |
 | Mata uang | Halaman **Umum** dan panel **Buat Cepat** | Secara default, nilai ini berasal dari mata uang pada header dari daftar harga. Untuk harga kategori transaksi, mata uang tidak dapat diganti. | Mata uang ini default pada harga per unit baris aktual masuk untuk kelas transaksi pengeluaran untuk biaya dan penjualan. |

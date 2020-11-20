@@ -1,28 +1,28 @@
 ---
-title: Mengimpor estimasi untuk proyek pada baris kuotasi berbasis proyek
+title: Mengimpor estimasi untuk proyek pada baris kuotasi berbasis proyek - lite
 description: Topik ini menyediakan informasi tentang cara mengimpor estimasi dari proyek ke baris kuotasi.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078386"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177740"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Mengimpor estimasi untuk proyek pada baris kuotasi berbasis proyek
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Mengimpor estimasi untuk proyek pada baris kuotasi berbasis proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Jika proyek dibuat selama tahap pra-penjualan, Anda dapat memilih untuk mengimpor perkiraan keuangan dari proyek ke baris kuotasi berbasis proyek.
 
 1. Pastikan baris kuotasi berbasis proyek memiliki informasi proyek di bidang **proyek**.
-2. Di tab **detail baris kuotasi** , pilih **Impor dari Estimasi Proyek**.
+2. Di tab **detail baris kuotasi**, pilih **Impor dari Estimasi Proyek**.
 3. Di halaman dialog terbuka, pilih salah satu pilihan ringkasan berikut.
 
   - **Kelas Transaksi**
@@ -30,7 +30,7 @@ Jika proyek dibuat selama tahap pra-penjualan, Anda dapat memilih untuk mengimpo
   - **Peran** 
   - **Tugas proyek**
 
-Berdasarkan pilihan Anda, perkiraan dari proyek untuk semua kelas transaksi yang tercakup dalam baris kuotasi ini disalin. Untuk memeriksa jenis kelas transaksi yang disertakan, pilih tab **Umum** pada baris kuotasi berbasis proyek, dan periksa nilai untuk **mencakup waktu** , **mencakup pengeluaran** , dan **mencakup biaya**.  Untuk memeriksa tugas yang disertakan, pilih tab **tugas yang dikenakan biaya** pada baris kuotasi.
+Berdasarkan pilihan Anda, perkiraan dari proyek untuk semua kelas transaksi yang tercakup dalam baris kuotasi ini disalin. Untuk memeriksa jenis kelas transaksi yang disertakan, pilih tab **Umum** pada baris kuotasi berbasis proyek, dan periksa nilai untuk **mencakup waktu**, **mencakup pengeluaran**, dan **mencakup biaya**.  Untuk memeriksa tugas yang disertakan, pilih tab **tugas yang dikenakan biaya** pada baris kuotasi.
 
 Tergantung pada tugas yang terkait dan kelas transaksi yang tercakup, estimasi untuk tugas dan kombinasi kelas transaksi tersebut diimpor ke baris kuotasi.
 

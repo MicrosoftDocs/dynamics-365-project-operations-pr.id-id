@@ -1,21 +1,21 @@
 ---
-title: Baris peluang berbasis proyek (Pro)
+title: Baris peluang berbasis proyek - lite
 description: Topik ini menyediakan informasi tentang baris peluang berbasis proyek. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078409"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181008"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Baris peluang berbasis proyek (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Baris peluang berbasis proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -25,7 +25,7 @@ Baris peluang berbasis proyek adalah item baris yang akan dikirim kepada pelangg
 
 Di bawah ini adalah bidang pada baris peluang berbasis proyek:
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | Jenis Produk | Tab Umum (tersembunyi) | Anda dapat memilih salah satu dari opsi berikut ini:</br>- Layanan berbasis proyek (tersedia hanya Jika Dynamics 365 Operations terinstal)</br>- Produk (tersedia hanya bila Project Operations dan Dynamics 365 Sales diinstal) | Nilai bidang ini diatur ke **layanan berbasis proyek** saat Anda membuat baris peluang berbasis proyek dari kisi baris berbasis proyek pada peluang. <br> Jika Anda mengubah atau mengganti nilai ini, fungsi proyek tidak akan diaktifkan pada item baris berbasis proyek. |
 | Peluang | Tab Umum | Bidang ini hanya baca dan merujuk rekaman peluang induk yang dimiliki item baris ini. | Tidak ada dampak hilir dari bidang ini. |

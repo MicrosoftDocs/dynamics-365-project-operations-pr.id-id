@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078381"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180601"
 ---
 # <a name="set-up-labor-cost-rates"></a>Mengonfigurasikan tarif biaya tenaga kerja
 
@@ -22,13 +22,13 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Setiap daftar harga memiliki seperangkat tarif tenaga kerja (harga peran) yang selaras dengan konten dan efektivitas tanggal di daftar harga.
 
-1. Buat daftar harga dan di tab **harga peran** , di subkisi, pilih **peran baru**.
-2. Pada halaman **Buat Cepat** , pilih peran dan unit organisasi.
+1. Buat daftar harga dan pada tab **peran harga**, di subkisi, pilih **peran baru**.
+2. Pada halaman **Buat Cepat**, pilih peran dan unit organisasi.
 3. Masukkan informasi bidang lainnya yang diperlukan.
 
 Tabel berikut ini mencakup beberapa bidang yang penting saat membuat tarif tenaga kerja pada daftar harga biaya.
 
-| Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+| Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
 | Peran | Halaman **Umum** dan panel **Buat Cepat** | Pilih peran untuk menerapkan tarif biaya. | Peran pada estimasi masuk atau aktual akan disesuaikan dengan baris ini ke biaya default peran. |
 | Perusahaan Sumber Daya | Halaman **Umum** dan panel **Buat Cepat** | Pilih entitas hukum yang ditetapkan peran. Misalnya, pengembang dari Fabrikam India atau pengembang dari Fabrikam AS. | Perusahaan sumber daya pada estimasi masuk atau aktual akan disesuaikan dengan baris ini ke tarif biaya default peran. |
@@ -40,7 +40,7 @@ Tabel berikut ini mencakup beberapa bidang yang penting saat membuat tarif tenag
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transfer harga dan biaya untuk sumber daya di luar divisi atau badan hukum Anda
 
-Di perusahaan berbasis proyek, umum untuk menggunakan karyawan dari berbagai entitas hukum dan divisi untuk mengerjakan proyek. Proyek dapat dijalankan oleh satu entitas hukum, tetapi karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda, atau mungkin kombinasinya. Dalam Dynamics 365 Project Operations, entitas hukum yang memiliki proyek yang dilaksanakan disebut **perusahaan pemilik** , dan divisi yang bertanggung jawab atas pelaksanaan disebut **unit kontrak**. Badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Di sebagian besar negara, perusahaan diharuskan untuk memastikan bahwa badan hukum atau divisi sumber daya membebankan biaya kepada perusahaan pemilik dan unit kontrak untuk penggunaan sumber daya.
+Di perusahaan berbasis proyek, umum untuk menggunakan karyawan dari berbagai entitas hukum dan divisi untuk mengerjakan proyek. Proyek dapat dijalankan oleh satu entitas hukum, tetapi karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda, atau mungkin kombinasinya. Dalam Dynamics 365 Project Operations, entitas hukum yang memiliki proyek yang dilaksanakan disebut **perusahaan pemilik**, dan divisi yang bertanggung jawab atas pelaksanaan disebut **unit kontrak**. Badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Di sebagian besar negara, perusahaan diharuskan untuk memastikan bahwa badan hukum atau divisi sumber daya membebankan biaya kepada perusahaan pemilik dan unit kontrak untuk penggunaan sumber daya.
 
 Misalnya, perusahaan Fabrikam harus memastikan bahwa Fabrikam India-Robotika memiliki kartu tarif biaya hasil negosiasi dengan Fabrikam US-Robotics atau Fabrikam UK-Robotics.
 

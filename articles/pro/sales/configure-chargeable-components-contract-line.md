@@ -1,21 +1,21 @@
 ---
-title: Mengonfigurasi komponen yang dikenakan biaya dari baris kontrak berbasis proyek
+title: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek - lite
 description: Topik ini memberikan informasi tentang cara menambahkan komponen yang dikenakan biaya ke lini kontrak dalam Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078391"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177155"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Mengonfigurasi komponen yang dikenakan biaya dari baris kontrak berbasis proyek
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -34,31 +34,31 @@ Subkumpulan komponen yang disertakan dapat ditandai sebagai dikenakan biaya meng
 
 Komponen yang dapat dikenakan biaya dapat didefinisikan pada kategori tugas, peran, dan transaksi.
 
-Dapat dikenakan Biaya didefinisikan pada tugas untuk baris kontrak proyek dan berlaku untuk semua kelas transaksi yang disertakan di baris. Jika bidang **Sertakan Tugas** pada baris kontrak kosong atau diatur ke * *Seluruh proyek* *, tab **Tugas yang dapat dikenakan biaya** tidak akan tersedia.
+Dapat dikenakan Biaya didefinisikan pada tugas untuk baris kontrak proyek dan berlaku untuk semua kelas transaksi yang disertakan di baris. Jika bidang **Sertakan Tugas** pada baris kontrak kosong atau diatur ke **Seluruh proyek**, tab **Tugas yang dapat dikenakan biaya** tidak akan tersedia.
 
-Bisa dikenakan biaya yang didefinisikan pada peran untuk baris kontrak proyek hanya berlaku untuk kelas transaksi **waktu**. Jika bidang **Sertakan waktu** pada baris kontrak diatur ke **Tidak** , tab **Peran yang dapat dikenakan biaya** tidak akan tersedia.
+Bisa dikenakan biaya yang didefinisikan pada peran untuk baris kontrak proyek hanya berlaku untuk kelas transaksi **waktu**. Jika bidang **Sertakan waktu** pada baris kontrak diatur ke **Tidak**, tab **Peran yang dapat dikenakan biaya** tidak akan tersedia.
 
-Bisa dikenakan biaya yang didefinisikan pada kategori transaksi untuk baris kontrak proyek hanya berlaku untuk kelas transaksi **Pengeluaran**. Jika bidang **Sertakan Pengeluaran** pada diatur ke **Tidak** , tab **Kategori yang dapat dikenakan biaya** tidak akan tersedia.
+Bisa dikenakan biaya yang didefinisikan pada kategori transaksi untuk baris kontrak proyek hanya berlaku untuk kelas transaksi **Pengeluaran**. Jika bidang **Sertakan Pengeluaran** pada diatur ke **Tidak**, tab **Kategori yang dapat dikenakan biaya** tidak akan tersedia.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Memperbarui tugas proyek sebagai dapat dikenakan biaya atau tidak dapat dikenakan biaya
 
 Tugas proyek dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak tertentu yang memungkinkan pengaturan berikut:
 
-Jika baris kontrak berbasis proyek mencakup **Waktu** dan tugas tertentu, **T1** dikaitkan dengannya sebagai dikenakan biaya. Jika ada baris kontrak kedua yang mencakup **Pengeluaran** , Anda dapat mengaitkan tugas T1 di baris kontrak sebagai tidak dikenakan biaya. Hasilnya adalah bahwa semua waktu yang dicatat pada tugas dikenakan biaya dan semua pengeluaran tidak dikenakan biaya.
+Jika baris kontrak berbasis proyek mencakup **Waktu** dan tugas tertentu, **T1** dikaitkan dengannya sebagai dikenakan biaya. Jika ada baris kontrak kedua yang mencakup **Pengeluaran**, Anda dapat mengaitkan tugas T1 di baris kontrak sebagai tidak dikenakan biaya. Hasilnya adalah bahwa semua waktu yang dicatat pada tugas dikenakan biaya dan semua pengeluaran tidak dikenakan biaya.
 
-Tipe tagihan tugas dapat dikonfigurasi pada tab **Tugas yang Dikenakan Biaya** dari baris kontrak dengan memperbarui bidang **Tipe Penagihan** pada subkisi tugas baris kontrak. Atau, Anda dapat memperbarui bidang **Tipe Penagihan** pada subkisi konfigurasi Penagihan tugas proyek yang memperlihatkan baris kontrak yang terkait dengan tugas.
+Jenis penagihan tugas dapat dikonfigurasi pada tab **tugas kena biaya** pada baris kontrak dengan memperbarui bidang **jenis penagihan** pada subkisi tugas baris kontrak. Atau, Anda dapat memperbarui bidang **jenis penagihan** pada subkisi dari konfigurasi penagihan tugas proyek yang menunjukkan baris kontrak yang terkait dengan tugas.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Memperbarui peran sebagai dapat dikenakan biaya atau tidak dapat dikenakan biaya
 
 Peran dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak tertentu.
 
-Jenis penagihan peran dapat dikonfigurasi pada tab **Peran yang Dikenakan Biaya** dari baris kontrak. Untuk melakukan ini, perbarui bidang **Tipe Penagihan** pada subkisi **Peran yang Dikenakan Biaya**.
+Jenis penagihan peran dapat dikonfigurasi pada tab **Peran yang Dikenakan Biaya** dari baris kontrak. Untuk melakukannya, perbarui bidang **jenis penagihan** pada subkisi **peran kena biaya**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Memperbarui kategori transaksi sebagai dikenakan biaya atau tidak dikenakan biaya
 
 Kategori transaksi dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak tertentu.
 
-Jenis penagihan transaksi dapat dikonfigurasi pada tab **Kategori yang Dikenakan Biaya** dari baris kontrak berbasis proyek. Untuk melakukan ini, perbarui bidang **Tipe Penagihan** pada subkisi **Kategori yang Dikenakan Biaya**.
+Jenis penagihan transaksi dapat dikonfigurasi pada tab **Kategori yang Dikenakan Biaya** dari baris kontrak berbasis proyek. Untuk melakukannya, perbarui bidang **jenis penagihan** pada subkisi **Kategori kena biaya**.
 
 ### <a name="resolve-chargeability"></a>Menangani pengenaan biaya
 

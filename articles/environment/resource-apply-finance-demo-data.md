@@ -1,21 +1,21 @@
 ---
-title: Menerapkan data demo Project Operations ke lingkungan di-host Finance Cloud
+title: Menerapkan data demo ke lingkungan di-host Finance cloud
 description: Topik ini menjelaskan cara menerapkan data demo dari Project Operations ke lingkungan dihost Cloud Dynamics 365 Finance.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096626"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365242"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Menerapkan data demo Project Operations ke lingkungan di-host Finance Cloud
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Menerapkan data demo ke lingkungan di-host Finance cloud
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
@@ -28,7 +28,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Set pertama kredensial yang disorot adalah kredensial akun lokal dan berisi hyperlink ke sambungan desktop jarak jauh. Kredensial mencakup nama pengguna dan sandi admin lingkungan. Rangkaian kredensial kedua digunakan untuk masuk ke SQL Server di lingkungan ini.
 
-2. Sambungkan ke lingkungan dengan hyperlink di **akun lokal** , dan gunakan **kredensial akun lokal** untuk mengautentikasi.
+2. Sambungkan ke lingkungan dengan hyperlink di **akun lokal**, dan gunakan **kredensial akun lokal** untuk mengautentikasi.
 3. Buka **layanan informasi Internet** > **kumpulan aplikasi** > **AOSService** dan Hentikan layanan. Anda menghentikan layanan pada titik ini sehingga Anda dapat melanjutkan untuk mengganti database SQL.
 
 ![Hentikan AOS](./media/2StopAOS.png)
@@ -46,7 +46,7 @@ Set pertama kredensial yang disorot adalah kredensial akun lokal dan berisi hype
 
 6. Di object Explorer, **database** dan Cari **AXDB**. Anda akan mengganti database dengan database baru yang terletak di [pusat Unduh](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Salin file zip ke VM yang mana Anda terhubung dari jarak jauh dan ekstrak konten zip.
-8. Di SQL Server Management Studio, klik kanan **axdb** , dan kemudian pilih **tugas** > **Pulihkan** > **database**.
+8. Di SQL Server Management Studio, klik kanan **axdb**, dan kemudian pilih **tugas** > **Pulihkan** > **database**.
 
 ![Mengembalikan database](./media/5RestoreDatabase.png)
 
@@ -54,7 +54,7 @@ Set pertama kredensial yang disorot adalah kredensial akun lokal dan berisi hype
 
 ![Perangkat sumber](./media/6SourceDevice.png)
 
-10. Pilih **pilihan** , lalu pilih **Timpa database yang ada** dan **tutup koneksi yang ada ke database tujuan**. 
+10. Pilih **pilihan**, lalu pilih **Timpa database yang ada** dan **tutup koneksi yang ada ke database tujuan**. 
 11. Pilih **OK**.
 
 ![Pulihkan Pengaturan](./media/7RestoreSetting.png)

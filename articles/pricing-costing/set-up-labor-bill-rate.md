@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078508"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180701"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Menyiapkan tarif tagihan untuk tagihan tarif tenaga kerja 
+# <a name="set-up-labor-bill-rates"></a>Mengonfigurasikan tarif tagihan tenaga kerja
 
 **Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
 Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tarif tagihan untuk waktu dalam Dynamics 365 Project Operations dapat diatur hanya dalam satu mata uang, yakni mata uang pada header daftar harga.
 
 1. Untuk mengkonfigurasikan tarif tagihan tenaga kerja untuk daftar harga penjualan, buat daftar harga berdasarkan header daftar harga. 
-2. Pada tab **harga peran** , di subkisi, pilih **+ harga peran baru**. 
-3. Pada panel **buat cepat** , masukkan peran dan kombinasi unit organisasi yang harus Anda konfigurasikan tarif tagihannya.
+2. Pada tab **harga peran**, di subkisi, pilih **+ harga peran baru**. 
+3. Pada panel **buat cepat**, masukkan peran dan kombinasi unit organisasi yang harus Anda konfigurasikan tarif tagihannya.
 
    Tabel berikut mencantumkan bidang pada tab **Umum** dan panel **Buat cepat** dari baris harga peran yang harus diingat saat Anda membuat harga peran pada daftar harga penjualan:
 
-    | Bidang | Lokasi | Relevansi, tujuan, dan panduan | Dampak hilir |
+    | Bidang | Lokasi | KETERANGAN | Dampak hilir |
     | --- | --- | --- | --- |
     | Peran | Tab **Umum** dan panel **Buat Cepat** | Pilih peran yang Anda tetapkan tarif tagihannya. | Peran pada estimasi masuk atau aktual akan disesuaikan dengan baris ini ke tarif tagihan default peran. |
     | Perusahaan Sumber Daya | Tab **Umum** dan panel **Buat Cepat** | Pilih perusahaan atau entitas hukum yang menjadi asal perannya. Misalnya, pengembang dari Fabrikam India atau pengembang dari Fabrikam AS. | Perusahaan sumber daya pada estimasi masuk atau aktual akan disesuaikan dengan baris ini ke tarif tagihan default peran. |
@@ -39,7 +39,7 @@ Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, y
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>Mentransfer harga atau mengatur tarif tagihan untuk sumber daya dari unit organisasi atau divisi lain 
 
-Perusahaan berbasis proyek sering menggunakan karyawan dari berbagai badan hukum dan divisi yang berbeda dalam badan hukum untuk mengerjakan proyek. Proyek dapat dijalankan dari entitas hukum dan divisi tertentu sementara karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda. Proyek juga dapat terdiri dari kombinasi dari orang-orang dari berbagai badan hukum dan divisi. Dalam Project Operations, entitas hukum yang memiliki proyek yang dilaksanakan disebut **perusahaan pemilik** , dan divisi yang bertanggung jawab atas pelaksanaan disebut **unit kontrak**. Semua badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Karena perbedaan dalam biaya tenaga kerja di berbagai geografi dan pasar tenaga kerja di seluruh dunia, tarif untuk tenaga kerja juga diatur berbeda untuk geografi yang berbeda.
+Perusahaan berbasis proyek sering menggunakan karyawan dari berbagai badan hukum dan divisi yang berbeda dalam badan hukum untuk mengerjakan proyek. Proyek dapat dijalankan dari entitas hukum dan divisi tertentu sementara karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda. Proyek juga dapat terdiri dari kombinasi dari orang-orang dari berbagai badan hukum dan divisi. Dalam Project Operations, entitas hukum yang memiliki proyek yang dilaksanakan disebut **perusahaan pemilik**, dan divisi yang bertanggung jawab atas pelaksanaan disebut **unit kontrak**. Semua badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Karena perbedaan dalam biaya tenaga kerja di berbagai geografi dan pasar tenaga kerja di seluruh dunia, tarif untuk tenaga kerja juga diatur berbeda untuk geografi yang berbeda.
 
 Contohnya, seorang pengembang dari Divisi Robotika fabrikam India yang bekerja pada proyek AS ditagih pada tingkat 100 USD per jam. Seorang pengembang dari Divisi Robotika fabrikam AS yang bekerja pada proyek AS ditagih pada tingkat 150 USD per jam. 
 

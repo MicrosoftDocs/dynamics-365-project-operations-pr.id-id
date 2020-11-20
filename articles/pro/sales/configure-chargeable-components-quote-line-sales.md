@@ -1,21 +1,21 @@
 ---
-title: Konfigurasikan komponen yang dikenakan biaya pada baris kuotasi
+title: Mengonfigurasikan komponen yang dikenakan biaya pada baris kuotasi - lite
 description: Topik ini menyediakan informasi tentang cara mengkonfigurasi komponen dikenakan biaya dan yang tidak dikenakan biaya pada baris kuotasi berbasis proyek.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078605"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177110"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurasikan komponen yang dikenakan biaya pada baris kuotasi
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Mengonfigurasikan komponen yang dikenakan biaya pada baris kuotasi - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -44,21 +44,21 @@ Bisa dikenakan biaya didefinisikan pada kategori transaksi untuk baris kuotasi d
 
 Tugas proyek dapat dikenakan biaya atau tidak dikenakan biaya dalam konteks baris kuotasi berbasis proyek tertentu yang memungkinkan pengaturan berikut:
 
-Jika baris kuotasi berbasis proyek mencakup **waktu** dan tugas **T1** , tugas dikaitkan ke baris kuotasi sebagai dikenakan biaya. Jika ada baris kuotasi kedua yang mencakup **Pengeluaran** , Anda dapat mengaitkan tugas **T1** di baris kuotasi sebagai tidak dikenakan biaya. Hasilnya adalah bahwa semua waktu yang dicatat pada tugas dikenakan biaya dan semua pengeluaran yang dicatat di tugas adalah tidak dikenakan biaya.
+Jika baris kuotasi berbasis proyek mencakup **waktu** dan tugas **T1**, tugas dikaitkan ke baris kuotasi sebagai dikenakan biaya. Jika ada baris kuotasi kedua yang mencakup **Pengeluaran**, Anda dapat mengaitkan tugas **T1** di baris kuotasi sebagai tidak dikenakan biaya. Hasilnya adalah bahwa semua waktu yang dicatat pada tugas dikenakan biaya dan semua pengeluaran yang dicatat di tugas adalah tidak dikenakan biaya.
 
-Tipe tagihan tugas dapat dikonfigurasi pada tab **Tugas yang Dikenakan Biaya** dari baris kuotasi berbasis proyek dengan memperbarui bidang **Tipe Penagihan** pada subkisi **tugas baris kuotasi**. Atau, Anda dapat memperbarui tipe penagihan untuk tugas proyek di bidang **Tipe Penagihan** pada subkisi di konfigurasi Penagihan tugas proyek yang memperlihatkan baris kuotasi yang terkait dengan tugas.
+Jenis penagihan tugas dapat dikonfigurasi pada tab **tugas kena biaya** pada baris kuotasi berbasis proyek dengan memperbarui bidang **jenis penagihan** pada subkisi **tugas tugas baris kuotasi**. Atau, Anda dapat memperbarui jenis penagihan untuk tugas proyek di bidang **jenis penagihan** pada subkisi dari konfigurasi penagihan tugas proyek yang menunjukkan baris kuotasi yang terkait dengan tugas.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Memperbarui peran sebagai dapat dikenakan biaya atau tidak dapat dikenakan biaya
 
 Peran dapat dikenakan atau tidak dikenakan biaya dalam konteks baris kuotasi berbasis proyek tertentu.
 
-Tipe tagihan peran dapat dikonfigurasi pada tab **Peran yang Dikenakan Biaya** dari baris kuotasi dengan memperbarui bidang **Tipe Penagihan** pada subkisi **peran yang dikenakan Biaya**.
+Jenis penagihan peran dapat dikonfigurasi pada tab **Peran kena biaya** pada baris kuotasi dengan memperbarui bidang **jenis penagihan** pada subkisi **peran kena biaya**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Memperbarui kategori transaksi sebagai dikenakan biaya atau tidak dikenakan biaya
 
 Kategori transaksi dapat dikenakan biaya atau tidak dikenakan biaya pada baris kuotasi tertentu.
 
-Tipe tagihan transaksi dapat dikonfigurasi pada tab **Kategori yang Dikenakan Biaya** dari baris kuotasi dengan memperbarui bidang **Tipe Penagihan** pada subkisi **Kategori yang dikenakan Biaya**.
+Jenis penagihan transaksi dapat dikonfigurasi pada tab **Kategori kena biaya** pada baris kuotasi dengan memperbarui bidang **jenis penagihan** pada subkisi **Kategori kena biaya**.
 
 ### <a name="resolve-chargeability"></a>Menangani pengenaan biaya
 Perkiraan atau aktual yang dibuat untuk waktu hanya akan dianggap dikenakan biaya jika **Waktu** disertakan pada baris kuotasi, dan jika **Tugas** dan **Peran** dikonfigurasi sebagai dikenakan biaya pada baris kuotasi.

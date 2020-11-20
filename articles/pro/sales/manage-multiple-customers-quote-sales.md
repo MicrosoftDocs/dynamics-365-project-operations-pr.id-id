@@ -1,21 +1,21 @@
 ---
-title: Mengelola beberapa pelanggan pada kuotasi proyek
+title: Mengelola beberapa pelanggan pada kuotasi proyek - lite
 description: Topik ini menyediakan informasi tentang menangani kuotasi dengan beberapa pelanggan yang akan mendanai proyek. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078384"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181611"
 ---
-# <a name="managing-multiple-customers-on-project-quotes-sales"></a>Mengelola beberapa pelanggan pada kuotasi proyek (Sales)
+# <a name="manage-multiple-customers-on-project-quotes---lite"></a>Mengelola beberapa pelanggan pada kuotasi proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -31,13 +31,13 @@ Pelanggan kuotasi dan pelanggan baris kuotasi dapat ditambahkan, diperbarui, ata
 
 Pelanggan yang ada pada tab ringkasan proyek kuotasi sebagai calon pelanggan adalah pelanggan utama kuotasi. Jika Anda mencoba menghapus pelanggan utama dari daftar pelanggan pada kuotasi, Anda akan melihat kesalahan bahwa rekaman pelanggan utama pada kuotasi tidak dapat dihapus.
 
-Pelanggan utama tidak boleh diperbarui dari daftar pelanggan pada kuotasi. Namun, Anda dapat mempengaruhi pelanggan utama dengan mengubah calon pelanggan di tab **ringkasan** kuotasi. Bila bidang ini diperbarui pada **ringkasan kuotasi** , calon pelanggan yang baru dipilih akan ditambahkan sebagai pelanggan kuotasi baru dengan rangkaian bendera **utama**. Calon pelanggan lama akan tetap menjadi pelanggan pada kuotasi.
+Pelanggan utama tidak boleh diperbarui dari daftar pelanggan pada kuotasi. Namun, Anda dapat mempengaruhi pelanggan utama dengan mengubah calon pelanggan di tab **ringkasan** kuotasi. Bila bidang ini diperbarui pada **ringkasan kuotasi**, calon pelanggan yang baru dipilih akan ditambahkan sebagai pelanggan kuotasi baru dengan rangkaian bendera **utama**. Calon pelanggan lama akan tetap menjadi pelanggan pada kuotasi.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Membuat, memperbarui, atau menghapus rekaman pelanggan kuotasi
 
 Pelanggan kuotasi dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan kuotasi** pada halaman **kuotasi**. Bidang yang tercantum dalam tabel berikut ada pada rekaman pelanggan kuotasi dari kuotasi proyek.
 
-| **Bidang** | **Lokasi** | **Relevansi, tujuan, dan panduan** | **Dampak hilir** |
+| **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
 | Akun | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Daftar semua akun aktif. Bidang ini dikunci setelah rekaman dibuat. Jika Anda ingin memperbaruinya, Hapus rekaman, dan buat ulang. Jika Anda telah merekam setiap aktual, atau jika rekaman pelanggan kuotasi adalah pelanggan utama, Anda akan diizinkan untuk menghapus rekaman. | Pelanggan kuotasi disalin sebagai pelanggan kuotasi saat baris kuotasi dibuat. Pelanggan kuotasi juga disalin ke pelanggan kontrak proyek saat kuotasi dimenangkan. |
 | Persentase pembagian Penagihan | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Menunjukkan persentase setiap transaksi penjualan yang tidak ditagih yang akan dikaitkan dengan pelanggan kuotasi ini. | Disalin ke baris kuotasi baru dan ke pelanggan kontrak proyek. |
@@ -51,4 +51,4 @@ Pelanggan kuotasi dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan ku
 
 Anda dapat mengedit persentase pembagian penagihan dengan menggunakan pengalaman Edit kisi sebaris. Bila persentase pembagian penagihan tidak Total 100%, kesalahan akan terjadi. Setelah memperbarui persentase pembagian penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
-Anda juga dapat mencoba memilih **mendistribusikan** secara merata pada subkisi pelanggan kuotasi. Tindakan ini mengalokasikan pembagian penagihan ke semua pelanggan kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan. Ini berarti bahwa rekaman pelanggan kuotasi memiliki bendara **pembulatan** diatur ke **ya**. Biasanya ini adalah pelanggan utama kuotasi, namun dapat diubah.
+Anda juga dapat mencoba memilih **distribusikan secara merata** pada subkisi pelanggan kuotasi. Tindakan ini mengalokasikan pembagian penagihan ke semua pelanggan kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan. Ini berarti bahwa rekaman pelanggan kuotasi memiliki bendara **pembulatan** diatur ke **ya**. Biasanya ini adalah pelanggan utama kuotasi, namun dapat diubah.
