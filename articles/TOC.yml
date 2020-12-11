@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Apa yang baru
       items:
+        - name: Desember 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proses penjualan proyek
@@ -87,7 +89,7 @@
                 - name: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Mengonfigurasikan komponen yang dikenakan biaya pada baris kuotasi proyek
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Membuat estimasi pada baris kuotasi
                   href: sales/create-estimate-quote-line.md
                 - name: Mengimpor estimasi dari proyek pada baris kuotasi berbasis proyek
@@ -109,7 +111,7 @@
             - name: Mengelola daftar harga proyek pada kontrak proyek
               href: sales/contracts-manage-project-price-lists.md
             - name: Mengelola beberapa pelanggan pada kontrak proyek
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Baris kontrak berbasis proyek
               items:
                 - name: Sekilas baris kontrak berbasis proyek
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Menyalin kontrak proyek
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Panjar dan uang muka
+              items:
+                - name: Kontrak berbasis uang muka dan panjar - lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Mengatur jadwal uang panjar - lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Membuat uang muka ad hoc pada kontrak - lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Harga dan biaya
       items:
         - name: Mengatur daftar harga
@@ -158,18 +168,28 @@
           items:
             - name: Ikhtisar dimensi harga
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Membuat solusi untuk dimensi harga kustom
+              href: sales/create-solution-custompd.md
             - name: Menggunakan bidang yang ada sebagai dimensi harga
               items:
                 - name: Bidang Project Operations sebagai dimensi harga
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Menggunakan sumber daya yang dapat dipesan sebagai dimensi harga
+                  href: sales/use-br-as-pd.md
+                - name: Menggunakan Kategori Transaksi sebagai dimensi harga
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Sumber daya dapat dipesan dengan beberapa peran pada proyek
+                  href: sales/br-playing-multiple-roles.md
             - name: Bidang kustom sebagai dimensi harga
               items:
                 - name: Membuat entitas dan bidang kustom sebagai dimensi harga
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Mengonfigurasikan bidang kustom sebagai dimensi harga
+                - name: 'Mengonfigurasikan bidang kustom sebagai dimensi harga '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Memperbarui atribut plug-in untuk menyertakan dimensi harga baru
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Menonaktifkan dimensi harga
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Manajemen proyek
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrasi sumber daya
           items:
+            - name: Membuat sumber daya
+              href: resource-management/create-resources.md
             - name: Menentukan keterampilan dan kecakapan
               href: resource-management/define-skills-proficiencies.md
+            - name: Mendefinisikan peran
+              href: resource-management/define-roles.md
             - name: Menentukan kalender sumber daya
               href: resource-management/define-resource-calendars.md
         - name: Metode alokasi pemesanan
           href: resource-management/booking-allocation-methods.md
+        - name: Status pemesanan
+          href: resource-management/booking-status.md
         - name: Model keterampilan dan kecakapan
           href: resource-management/skills-proficiency-models.md
         - name: Rekonsiliasi sumber daya
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Mengelola faktur proyek proforma
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Menagih uang muka atau panjar
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Mengonfirmasikan faktur proyek proforma
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Mengonfigurasikan otomatisasi faktur proyek
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnal integrasi dalam Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Faktur antarperusahaan
+          items:
+            - name: Sekilas faktur antarperusahaan
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Mengonfigurasikan faktur antarperusahaan
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Membuat faktur vendor dan pelanggan antarperusahaan
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Membuat transaksi antarperusahaan
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Pengakuan pendapatan
+      items:
+        - name: Sekilas pengakuan pendapatan
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Mengatur pengakuan pendapatan
+          items:
+            - name: Mengatur jenis periode
+              href: project-accounting/period-types.md
+            - name: Mengatur template biaya
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Mengelola estimasi pendapatan
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Proyek estimasi pendapatan harga tetap
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Metode biaya untuk menyelesaikan
+          href: revenue-recognition/cost-complete-methods.md
 - name: Penyebaran sederhana - menangani faktur proforma
   items:
     - name: Mulai
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
+        - name: Yang baru di bulan Desember 2020 - penyebaran lite - menangani faktur proforma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Yang baru di bulan November 2020 - penyebaran lite - menangani faktur proforma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proses penjualan proyek
@@ -538,18 +594,28 @@
           items:
             - name: Ikhtisar dimensi harga
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Membuat solusi untuk dimensi harga kustom
+              href: sales/create-solution-custompd.md
             - name: Menggunakan bidang yang ada sebagai dimensi harga
               items:
-                - name: Menggunakan bidang yang ada sebagai dimensi harga
+                - name: Bidang Project Operations sebagai dimensi harga
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Menggunakan sumber daya yang dapat dipesan sebagai dimensi harga
+                  href: sales/use-br-as-pd.md
+                - name: Menggunakan Kategori Transaksi sebagai dimensi harga
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Sumber daya dapat dipesan dengan beberapa peran pada proyek
+                  href: sales/br-playing-multiple-roles.md
             - name: Bidang kustom sebagai dimensi harga
               items:
                 - name: Membuat entitas dan bidang kustom sebagai dimensi harga
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Mengonfigurasikan bidang kustom sebagai dimensi harga
+                - name: 'Mengonfigurasikan bidang kustom sebagai dimensi harga '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Memperbarui atribut plug-in untuk menyertakan dimensi harga baru
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Menonaktifkan dimensi harga
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Manajemen proyek
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administrasi sumber daya
           items:
+            - name: Membuat sumber daya
+              href: resource-management/create-resources.md
             - name: Menentukan keterampilan dan kecakapan
               href: resource-management/define-skills-proficiencies.md
+            - name: Mendefinisikan peran
+              href: resource-management/define-roles.md
             - name: Menentukan kalender sumber daya
               href: resource-management/define-resource-calendars.md
         - name: Metode alokasi pemesanan
           href: resource-management/booking-allocation-methods.md
+        - name: Status pemesanan
+          href: resource-management/booking-status.md
         - name: Model keterampilan dan kecakapan
           href: resource-management/skills-proficiency-models.md
         - name: Rekonsiliasi sumber daya
@@ -834,6 +906,8 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 24, V3'
