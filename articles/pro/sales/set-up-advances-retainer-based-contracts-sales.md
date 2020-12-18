@@ -1,5 +1,5 @@
 ---
-title: Kontrak berbasis uang muka dan panjar - lite
+title: Kontrak berbasis uang muka dan panjar
 description: Topik ini memberikan informasi tentang uang muka dan model kontrak berbasis panjar dalam Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180871"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596106"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Kontrak berbasis uang muka dan panjar - lite
+# <a name="advances-and-retainer-based-contracts"></a>Kontrak berbasis uang muka dan panjar
 
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations mendukung kontrak berbasis panjar. Kontrak berbasis panjar adalah serangkaian negosiasi pembayaran terdistribusi merata yang akan ditagih oleh pelanggan selama durasi proyek. Jenis kontrak ini biasanya digunakan untuk model penagihan berdasarkan waktu dan bahan atau berdasarkan konsumsi di mana ada kebutuhan untuk memberikan pelanggan faktur yang dapat diprediksi dan jadwal pembayaran. Aktual pendapatan yang diperoleh setiap periode akan direkonsiliasi dengan pembayaran yang diterima dari pelanggan pada awal periode. Sesuai dengan konsep model penagihan waktu dan material, nilai pendapatan yang diperoleh di setiap periode dapat berbeda dengan biaya yang dikeluarkan. Jika pendapatan yang diperoleh lebih dari jumlah yang diterima pada awal periode, perusahaan pengiriman proyek dapat:
+Dynamics 365 Project Operations mendukung kontrak berbasis uang muka. Kontrak berbasis panjar adalah serangkaian negosiasi pembayaran terdistribusi merata yang akan ditagih oleh pelanggan selama durasi proyek. Jenis kontrak ini biasanya digunakan untuk model penagihan berdasarkan waktu dan bahan atau berdasarkan konsumsi di mana ada kebutuhan untuk memberikan pelanggan faktur yang dapat diprediksi dan jadwal pembayaran. Aktual pendapatan yang diperoleh setiap periode akan direkonsiliasi dengan pembayaran yang diterima dari pelanggan pada awal periode. Sesuai dengan konsep model penagihan waktu dan material, nilai pendapatan yang diperoleh di setiap periode dapat berbeda dengan biaya yang dikeluarkan. Jika pendapatan yang diperoleh lebih dari jumlah yang diterima pada awal periode, perusahaan pengiriman proyek dapat:
 
 - Hanya memfaktur pelanggan untuk kelebihannya 
 - Menunda rekonsiliasi pendapatan ke periode faktur berikutnya dan melakukan satu tagihan akhir di akhir proyek untuk setiap pendapatan yang tidak dapat direkonsiliasi

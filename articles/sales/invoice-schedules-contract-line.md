@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180781"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513928"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Membuat jadwal faktur di baris kontrak berbasis proyek 
 
@@ -26,7 +26,7 @@ Anda dapat membuat jadwal faktur untuk baris kontrak berbasis proyek. Faktur han
 Bila baris kontrak berbasis proyek memiliki metode penagihan waktu dan material, Anda dapat membuat jadwal faktur berdasarkan tanggal. Untuk secara otomatis membuat jadwal faktur berdasarkan tanggal, selesaikan langkah-langkah berikut.
 
 1. Buka **pengaturan** > **frekuensi faktur** dan atur frekuensi faktur.
-2. Buka rekaman kontrak proyek, dan di tab **ringkasan**, di bidang **tanggal pengiriman yang diminta**, pilih tanggal.
+2. Buka record kontrak proyek, dan di tab **Rangkuman**, di bidang **Tanggal Pengiriman yang Diminta**, pilih tanggal.
 3. Buka baris kontrak **waktu dan material** yang Anda perlukan untuk membuat jadwal faktur berdasarkan tanggal. 
 4. Pada tab **jadwal faktur**, pilih tanggal mulai penagihan dan frekuensi faktur.
 5. Pada subkisi, pilih **buat jadwal faktur**. Jadwal faktur dibuat dengan **tanggal Jalankan faktur**, **tanggal batas transaksi**, dan bidang **status menjalankan** yang diatur sebagai berikut:
@@ -45,11 +45,11 @@ Bila baris kontrak memiliki metode penagihan tetap, Anda dapat membuat jadwal fa
 Selesaikan langkah-langkah berikut untuk membuat jadwal faktur berbasis tonggak pencapaian untuk tonggak pencapaian yang didistribusikan secara merata untuk periode kalender.
 
 1. Buka **pengaturan** > **frekuensi faktur** dan atur frekuensi faktur.
-2. Buka rekaman kontrak proyek, dan di tab **ringkasan**, di bidang **tanggal pengiriman yang diminta**, pilih tanggal.
+2. Buka record kontrak proyek, dan di tab **Rangkuman**, di bidang **Tanggal Pengiriman yang Diminta**, pilih tanggal.
 3. Buka baris kontrak **harga tetap** yang Anda buat jadwal tonggaknya. Pada tab **Tonggak Penagihan**, pilih tanggal mulai penagihan dan frekuensi faktur. 
 4. Pada subkisi, pilih **buat tonggak periode**. Jadwal faktur dibuat dengan bidang **nama tonggak**, **tanggal tonggak**, dan **jumlah tonggak** diatur sebagai berikut:
 
-    - **Nama Tonggak**: Tanggal ini didikte oleh frekuensi faktur.
+    - **Nama Milestone**: Nama ini ditentukan berdasarkan frekuensi faktur.
     - **Tanggal Tonggak**: Tanggal ini didikte oleh frekuensi faktur.
     - **Jumlah tonggak**: Jumlah dihitung dengan membagi jumlah kontrak pada baris kontrak berbasis proyek berdasarkan jumlah tonggak yang didikte oleh frekuensi dan awal penagihan dan tanggal pengiriman yang diminta.
 

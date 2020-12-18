@@ -1,6 +1,6 @@
 ---
 title: Model keamanan
-description: Topik ini menyediakan informasi tentang model keamanan di Dynamics 365 Project operations.
+description: Topik ini memberikan informasi tentang model keamanan di Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124372"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642907"
 ---
 # <a name="security-model"></a>Model keamanan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Microsoft Dynamics 365 Project Operations berisi model keamanan unik yang memungkinkan model keamanan bisnis berbasis peran yang berkolaborasi dengan grup Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations berisi model keamanan unik yang memungkinkan model keamanan bisnis berbasis peran yang berkolaborasi dengan Grup Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Peran keamanan

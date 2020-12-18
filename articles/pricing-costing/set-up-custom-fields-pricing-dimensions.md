@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119422"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650218"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Mengonfigurasikan bidang kustom sebagai dimensi harga
 
@@ -41,9 +41,15 @@ Topik ini menyediakan informasi tentang cara mengkonfigurasi dimensi harga kusto
 Agar bidang menjadi dimensi harga, harus:
 
 - Dibuat sebagai bidang di entitas **harga peran** dan entitas **markup harga peran**. Untuk informasi lebih lanjut tentang cara melakukannya lihat [Tambahkan bidang kustom ke pengaturan harga dan entitas transaksi](add-custom-fields-price-setup-transactional-entities.md).
+
 - Dibuat sebagai baris di tabel **dimensi harga**. Misalnya, tambahkan baris dimensi harga seperti yang ditunjukkan dalam grafik berikut. 
 
+![Baris Dimensi Harga Berdasarkan Jumlah](media/Amt-based-PD.png)
+
 Jam kerja sumber daya (**msdyn_resourceworkhours**) telah ditambahkan sebagai dimensi berbasis markup dan telah ditambahkan ke kisi pada tab **Dimensi harga berdasarkan markup**.
+
+![Baris Dimensi Harga Berdasarkan Markup](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Setiap perubahan pada data dimensi harga dalam tabel ini, yang ada atau yang baru, disebarkan ke logika bisnis harga hanya setelah cache diperbarui. Waktu refresh cache dapat berlangsung hingga 10 menit. Berikan waktu tersebut untuk melihat perubahan harga logika default yang harus dihasilkan dari perubahan pada data dimensi harga.

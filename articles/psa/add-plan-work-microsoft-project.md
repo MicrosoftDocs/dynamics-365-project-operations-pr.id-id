@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129682"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642772"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Menggunakan Add-in Project Service Automation untuk merencanakan pekerjaan Anda di Microsoft Project
 
@@ -46,7 +46,7 @@ ms.locfileid: "4129682"
 
 3.  Jika download selesai, klik **ya** untuk menginstal pengaya (add-in).  
 
-## <a name="configure-the-add-in"></a>Mengkonfigurasi pengaya  
+## <a name="configure-the-add-in"></a>Mengonfigurasi pengaya  
 
 1. Buka [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dan klik tab **Project Service**.  
 
@@ -85,14 +85,14 @@ ms.locfileid: "4129682"
 ## <a name="publish-your-project"></a>Publikasikan proyek Anda.  
 Setelah perencanaan proyek Anda selesai, langkah berikutnya adalah untuk mengimpor dan mempublikasikan proyek di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Harga dan proses pembuatan tim diterapkan. Buka proyek di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] untuk melihat bahwa tim, perkiraan proyek, dan struktur rincian kerja telah dihasilkan. Tabel berikut menunjukkan lokasi untuk mencari hasil:
+Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Harga dan proses pembuatan tim diterapkan. Buka proyek di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] untuk melihat bahwa tim, estimasi proyek, dan struktur rincian kerja telah dihasilkan. Tabel berikut menunjukkan lokasi untuk mencari hasil:
 
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagram Gantt**   | Impor ke layar **struktur rincian kerja** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | **Lembar sumber daya** [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] |   Impor ke layar **anggota tim proyek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
-|   **Menggunakan penggunaan** [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Impor ke layar **estimasi proyek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
+|   **Menggunakan penggunaan** [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Impor ke layar **Estimasi Proyek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Untuk mengimpor dan mempublikasikan proyek Anda**  
 1. Dari tab **Project service**, klik **Terbitkan** > **proyek Project Service Automation baru**.  
@@ -173,6 +173,59 @@ Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project
 4. Klik **Terbitkan**.  
 
 Menghubungkan file proyek ke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] membuat file proyek sebagai master dan menetapkan struktur rincian kerja dalam template [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] menjadi baca-saja.  Untuk membuat perubahan rencana proyek, Anda harus membuat mereka dalam [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dan mempublikasikan mereka sebagai pembaruan kepada [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Membaca jadwal sumber daya yang dimuat
+
+Saat membaca proyek dari Project Service Automation, kalender sumber daya tidak disinkronisasikan ke klien desktop. Jika terdapat perbedaan dalam durasi tugas, upaya, atau pengakhiran, mungkin karena sumber daya dan klien desktop tidak memiliki kalender template jam kerja yang sama yang diterapkan pada proyek.
+
+
+## <a name="data-synchronization"></a>Sinkronisasi Data
+
+Tabel berikut menguraikan cara menyinkronkan data antara Project Service Automation dan add-in desktop Microsoft Project.
+
+| **Entitas** | **Bidang** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Tugas Proyek | Tenggat Waktu | ● | - |
+| Tugas Proyek | Perkiraan Upaya | ● | - |
+| Tugas Proyek | ID Klien MS Project | ● | - |
+| Tugas Proyek | Tugas Induk | ● | - |
+| Tugas Proyek | Project | ● | - |
+| Tugas Proyek | Tugas proyek | ● | - |
+| Tugas Proyek | Nama Tugas Proyek | ● | - |
+| Tugas Proyek | Unit sumber daya (Ditolak pada v3.0) | ● | - |
+| Tugas Proyek | Durasi Terjadwal | ● | - |
+| Tugas Proyek | Tanggal Mulai | ● | - |
+| Tugas Proyek | ID WBS | ● | - |
+
+| **Entitas** | **Bidang** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Anggota Tim | ID Klien MS Project | ● | - |
+| Anggota Tim | Nama Posisi | ● | - |
+| Anggota Tim | proyek | ● | ● |
+| Anggota Tim | Tim Proyek | ● | ● |
+| Anggota Tim | Unit Sumber Daya | - | ● |
+| Anggota Tim | Peran | - | ● |
+| Anggota Tim | Jam Kerja | Tidak disinkronkan | Tidak disinkronkan |
+
+| **Entitas** | **Bidang** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Penetapan Sumber Daya | Tanggal Mulai | ● | - |
+| Penetapan Sumber Daya | Jam | ● | - |
+| Penetapan Sumber Daya | ID Klien MS Project | ● | - |
+| Penetapan Sumber Daya | Pekerjaan Terencana | ● | - |
+| Penetapan Sumber Daya | Project | ● | - |
+| Penetapan Sumber Daya | Tim Proyek | ● | - |
+| Penetapan Sumber Daya | Penetapan Sumber Daya | ● | - |
+| Penetapan Sumber Daya | Tugas | ● | - |
+| Penetapan Sumber Daya | Tanggal Selesai | ● | - |
+
+| **Entitas** | **Bidang** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Dependensi Tugas Proyek | Dependensi Tugas Proyek | ● | - |
+| Dependensi Tugas Proyek | Tipe Tautan | ● | - |
+| Dependensi Tugas Proyek | Tugas Pendahulu | ● | - |
+| Dependensi Tugas Proyek | Project | ● | - |
+| Dependensi Tugas Proyek | Tugas Penerus | ● | - |
 
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)

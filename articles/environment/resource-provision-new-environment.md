@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121177"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642979"
 ---
 # <a name="provision-a-new-environment"></a>Penyediaan lingkungan baru
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Topik ini memberikan informasi tentang cara penyediaan lingkungan Dynamics 365 Project Operations baru untuk skenario berbasis sumber daya/non-stok.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Topik ini menyediakan informasi tentang cara menyediakan lingkungan Dynamics 365 Project Operations untuk skenario berbasis sumber daya/non-stok.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Aktifkan penetapan otomatis Project Operations dalam proyek LCS
 
@@ -120,7 +122,7 @@ Layanan lingkungan akan memakan waktu. Setelah selesai, lingkungan akan kembali 
 
 ![Terapkan solusi](./media/13ApplySolutions.png)
 
-5. Pilih kedua solusi, **peta entitas tulis ganda Dynamics 365 Finance and Operations** dan **peta entitas tulis ganda Dynamics 365 Project Operations**, lalu pilih **Terapkan**.
+5. Pilih kedua solusi, Peta Entitas Penulisan Ganda **Dynamics 365 Finance and Operations** dan Peta Entitas Penulisan Ganda **Dynamics 365 Project Operations**, lalu pilih **Terapkan**.
 
 ![Konfirmasi Solusi](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Penyegaran akan berlangsung sekitar 20 menit. Anda akan menerima pemberitahuan s
 | --- | --- | --- | --- | --- | --- |
 | **Peran sumber daya proyek untuk semua perusahaan (bookableresourcecategories)** | No | Ya | Common Data Service | No | N\A |
 | **Entitas hukum (cdm\_companies)** | No | Ya | Aplikasi Finance and Operations | No | N\A |
+| **Buku Besar (msdyn_ledgers)** | No | Ya | Aplikasi Finance and Operations | Ya | Ya, aplikasi Finance and Operations |
 | **Aktual Integrasi Project Operations (msdyn\_actuals)** | No | No | N\A | Ya | No |
 | **Baris kontrak proyek (salesorderdetails)** | No | No | N\A | No | No |
 | **Entitas integrasi untuk Relasi transaksi proyek (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |

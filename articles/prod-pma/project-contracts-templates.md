@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078618"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642637"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronisasikan kontrak dan proyek proyek secara langsung dari Project Service Automation ke Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Topik ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan kontrak dan proyek secara langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Ilustrasi berikut menunjukkan bagaimana data disinkronisasikan antara Project Se
 
 ## <a name="templates-and-tasks"></a>Template dan tugas
 
-Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pilih **proyek** , lalu di sudut kanan atas, pilih **proyek baru** untuk memilih template publik.
+Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pilih **proyek**, lalu di sudut kanan atas, pilih **proyek baru** untuk memilih template publik.
 
 Template berikut dan tugas yang mendasari digunakan untuk mensinkronisasikan proyek dan kontrak proyek dari Project Service Automation ke Finance:
 
@@ -133,9 +135,9 @@ Jika anda harus menggunakan Power Query, ikuti petunjuk berikut:
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
 
 > [!NOTE] 
-> Bidang **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** , dan **AddressZipCode** tidak disertakan dalam pemetaan default untuk kontrak proyek. Anda dapat menambahkan pemetaan jika Anda memerlukan data ini akan disinkronisasikan untuk kontrak proyek.
+> Bidang **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState**, dan **AddressZipCode** tidak disertakan dalam pemetaan default untuk kontrak proyek. Anda dapat menambahkan pemetaan jika Anda memerlukan data ini akan disinkronisasikan untuk kontrak proyek.
 >
-> Bidang **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** , and **ProjectType** tidak disertakan dalam pemetaan untuk proyek. Anda dapat menambahkan pemetaan jika Anda memerlukan data ini akan disinkronisasikan untuk proyek.
+> Bidang **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber**, and **ProjectType** tidak disertakan dalam pemetaan untuk proyek. Anda dapat menambahkan pemetaan jika Anda memerlukan data ini akan disinkronisasikan untuk proyek.
 
 Ilustrasi berikut menunjukkan contoh pemetaan tugas template dalam integrasi data. Pemetaan menampilkan informasi bidang yang akan disinkronisasikan dari Project Service Automation ke Finance.
 

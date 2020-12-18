@@ -18,15 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120007"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642592"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Yang baru atau yang diubah di Project Service Automation versi 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Topik ini menyediakan informasi tentang perubahan ke antarmuka pengguna (UI), fungsi, dan terminologi di Project Service Automation antara versi 2 atau versi 1 dan versi 3.
 
@@ -188,7 +190,7 @@ Platform Common Data Service tidak mendukung satu pengguna menyamar sebagai oran
 > [!IMPORTANT]
 > Informasi ini hanya dapat dianggap sebagai panduan yang disarankan untuk penerapan kustom oleh mitra/pelanggan. Tim produk tidak akan menawarkan dukungan formal untuk fungsionalitas ini melalui saluran dukungan kami.
 
-### <a name="customization-details"></a>Detail Penyesuaian 
+### <a name="customization-details"></a>Rincian Penyesuaian 
 Penyesuaian memungkinkan Anda menambahkan **sumber daya yang dapat dipesan** ke pengalaman buat dan edit, yang akan memungkinkan pengguna bertindak sebagai delegasi dengan mengubah bidang **Pemesanan sumber daya** ke pengguna lain yang waktu dan entri pengeluarannya harus direkam. Langkah-langkah berikut ini mencakup delegasi entri waktu. Informasi yang sama berlaku untuk delegasi entri pengeluaran. 
  
 1.  Pastikan bahwa pengguna yang didelegasikan memiliki akses keamanan global pada tugas proyek dan proyek. 

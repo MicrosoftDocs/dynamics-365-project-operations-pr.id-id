@@ -1,5 +1,5 @@
 ---
-title: Mengatur jadwal uang panjar - lite
+title: Mengatur jadwal panjar
 description: Topik ini menyediakan informasi tentang cara mengkonfigurasi jadwal panjar di Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181276"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596376"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Mengatur jadwal uang panjar - lite
+# <a name="set-up-a-retainer-schedule"></a>Mengatur jadwal panjar
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Jadwal panjar diatur pada halaman **kontrak proyek** di Dynamics 365 Project Operations.
+Jadwal panjar diatur pada halaman **Kontrak Proyek** di Dynamics 365 Project Operations.
 
 1. Pada halaman **kontrak proyek**, pada tab **uang muka dan panjar**, pilih **Atur jadwal panjar**.
 2. Pada halaman dialog yang terbuka, bidang yang tercantum dalam tabel berikut akan ditampilkan. Tabel ini memberikan gambaran tentang bagaimana nilai yang dimasukkan mempengaruhi atau mempengaruhi jadwal panjar yang akan dibuat.

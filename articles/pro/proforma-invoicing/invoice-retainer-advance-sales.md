@@ -1,5 +1,5 @@
 ---
-title: Menagih uang muka atau panjar - lite
+title: Menagih uang muka atau panjar
 description: Topik ini memberikan informasi tentang cara menagih panjar atau uang muka dalam Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180556"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596196"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Menagih uang muka atau panjar - lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Menagih uang muka atau panjar
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations mendukung kontrak berbasis panjar dan uang muka satu kali. Pada kontrak proyek, Anda dapat merekam jadwal panjar atau uang muka satu kali. Namun, rekaman pada tingkat kontrak proyek tidak segera membuat panjar atau uang muka tersedia untuk digunakan. Untuk menggunakan panjar atau uang muka pada faktur yang sebenarnya menagih pelanggan, panjar atau uang muka harus ditagih terlebih dulu.
+Dynamics 365 Project Operations mendukung kontrak berbasis uang muka dan panjar. Pada kontrak proyek, Anda dapat merekam jadwal panjar atau uang muka satu kali. Namun, rekaman pada tingkat kontrak proyek tidak segera membuat panjar atau uang muka tersedia untuk digunakan. Untuk menggunakan panjar atau uang muka pada faktur yang sebenarnya menagih pelanggan, panjar atau uang muka harus ditagih terlebih dulu.
 
 Selesaikan langkah berikut untuk menagih panjar atau uang muka.
 

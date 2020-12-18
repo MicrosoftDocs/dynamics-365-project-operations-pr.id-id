@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130852"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672235"
 ---
 # <a name="override-project-sales-price-lists"></a>Menimpa daftar harga penjualan proyek
 
@@ -21,13 +22,13 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 ## <a name="customer-specific-project-price-lists"></a>Daftar harga proyek khusus pelanggan
 
-Perjanjian harga spesifik pelanggan dapat diatur sebagai daftar harga proyek pada rekaman akun di Dynamics 365 Project Operations.
+Perjanjian harga spesifik pelanggan dapat diatur sebagai daftar harga proyek pada record akun di Dynamics 365 Project Operations.
 
 Untuk membuat daftar harga proyek khusus pelanggan, di area **penjualan**, navigasi ke rekaman akun.
 
 1. Buka halaman daftar **akun**.
 2. Cari dan klik dua kali rekaman pelanggan untuk membuka halaman rincian **akun**.
-3. Pada tab **daftar harga proyek**, pilih **+ daftar harga proyek baru^^.
+3. Pada tab **Daftar Harga Proyek**, pilih **+ Daftar Harga Proyek Baru**.
 4. Pada halaman **daftar harga proyek baru**, pilih daftar harga dari drop-down. Hanya daftar harga yang konteksnya diatur ke **penjualan** dan yang mata uangnya sesuai dengan mata uang akun yang disertakan.
 5. Namai asosiasi tersebut, lalu pilih **Simpan**. Daftar harga proyek khusus pelanggan dibuat. Daftar harga ini akan digunakan untuk harga proyek default pada kuotasi proyek atau kontrak yang dibuat untuk pelanggan ini saat tanggal pembuatan kuotasi atau kontrak proyek jatuh dalam efektivitas tanggal dari daftar harga.
 

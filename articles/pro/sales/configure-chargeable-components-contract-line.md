@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177155"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513883"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek - lite
 
@@ -52,13 +52,13 @@ Jenis penagihan tugas dapat dikonfigurasi pada tab **tugas kena biaya** pada bar
 
 Peran dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak tertentu.
 
-Jenis penagihan peran dapat dikonfigurasi pada tab **Peran yang Dikenakan Biaya** dari baris kontrak. Untuk melakukannya, perbarui bidang **jenis penagihan** pada subkisi **peran kena biaya**.
+Jenis penagihan peran dapat dikonfigurasi pada tab **Peran Kena Biaya** dari baris kontrak. Untuk melakukannya, perbarui bidang **jenis penagihan** pada subkisi **peran kena biaya**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Memperbarui kategori transaksi sebagai dikenakan biaya atau tidak dikenakan biaya
 
 Kategori transaksi dapat dikenakan biaya atau tidak dikenakan biaya pada baris kontrak tertentu.
 
-Jenis penagihan transaksi dapat dikonfigurasi pada tab **Kategori yang Dikenakan Biaya** dari baris kontrak berbasis proyek. Untuk melakukannya, perbarui bidang **jenis penagihan** pada subkisi **Kategori kena biaya**.
+Jenis penagihan transaksi dapat dikonfigurasi pada tab **Kategori Kena Biaya** dari baris kontrak berbasis proyek. Untuk melakukannya, perbarui bidang **jenis penagihan** pada subkisi **Kategori kena biaya**.
 
 ### <a name="resolve-chargeability"></a>Menangani pengenaan biaya
 

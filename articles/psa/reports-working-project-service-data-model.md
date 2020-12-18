@@ -18,16 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120277"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642682"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation memperluas entitas aplikasi lain dan memperkenalkan entitas sendiri di model data Common Data Service. Topik ini menjelaskan beberapa entitas yang akan anda temui dalam skenario pelaporan PSA biasa.
 
@@ -45,10 +46,10 @@ PSA juga memperluas entitas **baris kuotasi** penjualan. Satu bidang yang ditamb
 
 PSA juga menambahkan entitas baru yang berhubungan dengan kuotasi untuk model data Dynamics 365. Berikut adalah beberapa contoh:
 
-- **Detail baris kuotasi** – entitas ini berisi rincian perkiraan proyek baris kuotasi. Ia memiliki dua rekaman untuk setiap baris kuotasi. Satu rekaman menyimpan biaya dan rincian biaya baris kuotasi, dan rekaman lain menyimpan jumlah penjualan dan rincian penjualan baris kuotasi.
+- **Rincian baris kuotasi** – entitas ini berisi rincian perkiraan proyek baris kuotasi. Ia memiliki dua rekaman untuk setiap baris kuotasi. Satu rekaman menyimpan biaya dan rincian biaya baris kuotasi, dan rekaman lain menyimpan jumlah penjualan dan rincian penjualan baris kuotasi.
 - **Jadwal faktur baris kuotasi** - entitas ini berisi jadwal penagihan untuk baris kuotasi. Jadwal ini dihasilkan berdasarkan frekuensi faktur yang ditetapkan ke baris kuotasi.
 - **Tonggak waktu baris kuotasi** - entitas ini berisi tonggak waktu penagihan untuk baris kuotasi harga tetap.
-- **Perincian Analisis baris kuotasi** – entitas ini berisi rincian keuangan baris kuotasi. Detail ini mungkin bermanfaat untuk pelaporan kuotasi penjualan dan perkiraan jumlah biaya dari berbagai dimensi.
+- **Perincian Analisis baris kuotasi** – entitas ini berisi rincian keuangan baris kuotasi. Rincian ini mungkin bermanfaat untuk pelaporan kuotasi penjualan dan perkiraan jumlah biaya dari berbagai dimensi.
 
 Entitas lain yang ditambahkan PSA untuk kuotasi adalah **daftar harga proyek baris kuotasi**, **kategori sumber daya kuotasi baris**, dan **kategori transaksi kuotasi**.
 
@@ -62,7 +63,7 @@ PSA juga memperluas entitas **baris pesanan Penjualan**. Di antara bidang yang d
 
 PSA juga menambahkan entitas baru yang dirancang untuk kontrak proyek. Berikut adalah beberapa contoh:
 
-- **Detail baris kontrak proyek** - entitas ini berisi rincian tingkat baris yang diakumulasikan ke jumlah baris kontrak. Ini dapat seterperinci item baris yang dihasilkan dari jadwal proyek di tingkat tugas.
+- **Rincian baris kontrak proyek** - entitas ini berisi rincian tingkat baris yang diakumulasikan ke jumlah baris kontrak. Ini dapat seterperinci item baris yang dihasilkan dari jadwal proyek di tingkat tugas.
 - **Jadwal faktur baris kontrak** – entitas ini berisi jadwal penagihan yang dihasilkan berdasarkan frekuensi faktur yang ditetapkan ke baris kontrak.
 - **Tonggak waktu kontrak** – entitas ini berisi tonggak waktu penagihan untuk baris kontrak yang memiliki ketentuan penagihan harga tetap.
 

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121132"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642966"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Topik ini menjelaskan tentang cara berlangganan pratinjau/penawaran mitra dan menyebarkan lingkungan Project Operations untuk sumber daya/non-stok berbasis skenario.
 
@@ -31,18 +33,18 @@ Topik ini menjelaskan tentang cara berlangganan pratinjau/penawaran mitra dan me
 
 Bila Anda menyetujui [permintaan pratinjau](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), Anda akan menerima tiga tawaran dari Microsoft melalui email. Penawaran ini memungkinkan Anda menyebarkan pratinjau Project Operations:
 
-- Dynamics 365 Project Operations (CRM) - Uji coba Pratinjau
+- Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau
 - Office 365 Project Operations - Uji coba Pratinjau
 - Dynamics 365 Finance -Uji coba pratinjau
 
 > [!IMPORTANT]
 > Hanya satu orang, administrator penyewa, dalam organisasi harus melakukan tugas ini. Jika Anda bukan pelanggan untuk rilis ini, tunggu hingga organisasi Anda telah terdaftar dan Anda telah menerima kredensial pengguna Anda.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Uji coba Pratinjau 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau 
 
 Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di penyewa tempat Anda menginginkan pratinjau Project Operations.
 
-1. Tukarkan kode penawaran pertama, **Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau** dengan menempelkannya ke URL browser.
+1. Tukarkan kode penawaran pertama, **Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau** dengan merekatkannya ke URL browser.
 
 ![Tukarkan penawaran](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Ulangi langkah yang sama dengan tawaran terakhir dari email sambutan.
 
 ![Menetapkan lisensi](./media/15AssignLicenses.png)
 
-3. Verifikasi bahwa Lisensi **Pratinjau Dynamics 365 Project Operations (CRM)** dan **Office 365 Project Operations - pratinjau** dipilih dan pilih **Simpan perubahan**.
+3. Verifikasikan bahwa lisensi Pratinjau **Dynamics 365 Project Operations (CRM)** dan Project Operations **Office 365 - Pratinjau** telah dipilih, dan pilih **Simpan Perubahan**.
 
 > [!NOTE]
 > Penawaran uji coba Finance tidak perlu ditetapkan ke pengguna.

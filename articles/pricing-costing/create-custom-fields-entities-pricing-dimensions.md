@@ -3,7 +3,7 @@ title: Membuat entitas dan bidang kustom sebagai dimensi harga
 description: Topik ini menyediakan informasi tentang cara membuat rangkaian pilihan kustom atau entitas.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,78 +17,63 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130897"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642817"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Membuat entitas dan bidang kustom sebagai dimensi harga
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Selesaikan langkah-langkah berikut saat anda ingin membuat rangkaian pilihan kustom atau entitas.
+Lakukan langkah-langkah berikut apabila Anda ingin membuat rangkaian pilihan kustom atau entitas untuk menggunakannya sebagai dimensi harga. Untuk informasi lebih lanjut, lihat [Ringkasan dimensi harga](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
-> Sebaiknya buat semua perubahan dimensi harga kustom dalam solusi terpisah. Praktik terbaik yang penting ini memberikan fleksibilitas di masa mendatang untuk memperbarui atau menghapus perubahan yang diperlukan, akan membantu penggunaan ulang pekerjaan Anda, dan membuatnya lebih mudah untuk memindahkan perubahan ini ke instans lainnya. Setelah anda membuat semua perubahan yang diperlukan, ekspor solusi ini sebagai **solusi terkelola** dan impor ke instans lain untuk menggunakan kembali konfigurasi harga anda.
+> Sebaiknya buat semua perubahan dimensi harga kustom dalam solusi terpisah. Praktik terbaik yang penting ini memberikan fleksibilitas di masa mendatang untuk memperbarui atau menghapus perubahan yang diperlukan. Hal ini juga akan membantu untuk menggunakan kembali karya Anda dan lebih memudahkan untuk memindahkan perubahan tersebut ke instans lain. Setelah Anda membuat semua perubahan yang diperlukan, ekspor solusi ini sebagai **Solusi terkelola** dan impor ke instans lain untuk menggunakan kembali pengaturan harga Anda.
 
-
-## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Membuat solusi kustom untuk dimensi harga
-1. Buka **pengaturan** > **solusi**, lalu pilih **baru** untuk membuat solusi baru. 
-2. Namai solusi, **\<your organization name> dimensi harga**, masukkan informasi yang diperlukan lainnya, lalu pilih **Simpan**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Buat bidang kustom dan rangkaian pilihan pada solusi dimensi harga
 
 Dimensi harga dapat berupa rangkaian pilihan atau entitas. Keduanya harus dibuat dalam solusi harga. Langkah-langkah dalam prosedur ini menjelaskan cara membuat dimensi berbasis entitas dan dimensi berbasis rangkaian pilihan.
 
 ### <a name="entity-based-dimensions"></a>Dimensi berdasarkan entitas
+Untuk membuat dimensi berbasis entitas, ikuti langkah-langkah berikut:
 
 1. Buka **pengaturan** > **solusi**, lalu klik dua kali **\<your organization name> dimensi harga**.
-2. Di penelusur solusi, di panel navigasi kiri, pilih **Entitas**.
+2. Di Penelusur Solusi, di panel navigasi kiri, pilih **Entitas**.
 3. Pilih **baru** untuk membuat entitas baru yang disebut **judul standar**. 
 4. Masukkan informasi tersisa yang diperlukan dan kemudian pilih **Simpan**.
 
+> ![Definisi entitas judul standar](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensi berbasis rangkaian pilihan 
-Anda dapat membuat dua dimensi berbasis rangkaian pilihan. Gunakan **lokasi kerja sumber daya** untuk melacak harga lokasi kerja **Awal** dan pekerjaan **di lokasi** serta gunakan **jam kerja sumber daya** dengan nilai **reguler** dan **lembur** untuk menerapkan markup saat pekerjaan selesai.
+Anda dapat membuat dua dimensi berbasis rangkaian pilihan. 
 
+- Gunakan **Lokasi Kerja Sumber Daya** untuk melacak harga pekerjaan lokasi **Rumah** dan pekerjaan **Di Tempat Kerja**. 
+- Gunakan **Jam Kerja Sumber Daya** dengan nilai **Reguler** dan **Lembur** untuk menerapkan markup saat pekerjaan selesai.
+
+Grafik berikut memberikan tampilan dimensi **Lokasi Kerja Sumber Daya**. 
+
+> ![Dimensi harga berdasarkan rangkaian pilihan disebut lokasi kerja sumber daya](media/Option-set-PD-called-Resource-Work-Location.png)
+
+Grafik berikut memberikan tampilan dimensi **Jam Kerja Sumber Daya**. 
+
+> ![Dimensi harga berdasarkan rangkaian pilihan disebut jam kerja sumber daya](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Buka **pengaturan** > **solusi**, dan klik dua kali  **\<your organization name> dimensi harga**. 
-2. Di penelusur solusi, di panel navigasi kiri, pilih  **rangkaian pilihan**. 
+2. Di Penelusur Solusi, pada panel navigasi kiri, pilih **Rangkaian Pilihan**. 
 3. Pilih **baru** untuk membuat rangkaian pilihan baru, masukkan informasi yang diperlukan lainnya, lalu pilih **simpan**.
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Membuat data untuk dimensi berbasis entitas
 
 Anda dapat membuat data untuk dimensi berbasis entitas secara manual atau dengan menggunakan impor Microsoft Excel atau panggilan layanan. Gunakan langkah-langkah dalam prosedur ini untuk membuat dua judul standar , **Insinyur Sistem** dan **Insinyur Sistem Senior** dari dimensi berbasis entitas, yakni **Judul Standar**. Jika data yang ingin Anda buat kecil, seperti dalam contoh berikut, Anda dapat menggunakan formulir standar.
 
-1. Pilih **pencarian tingkat lanjut**, pilih **judul standar** entitas, lalu pilih **hasil**. Semua baris di entitas **judul standar** akan ditampilkan.
-2. Pilih **Baru**, Di bidang **Nama**, masukkan "Systems Engineer", lalu pilih **Simpan**.
-3. Tutup formulir. 
-4. Ulangi langkah 1-3 untuk membuat judul standar lain untuk "senior Systems Engineer".
+1. Pilih **Pencarian Tingkat Lanjut**.
+2. Pilih entitas **Judul Standar**, lalu pilih **Hasil**. Semua baris di entitas **judul standar** akan ditampilkan.
+3. Pilih **Baru**, Di bidang **Nama**, masukkan "Systems Engineer", lalu pilih **Simpan**.
+4. Tutup halaman. 
+5. Ulangi langkah 1-3 untuk membuat judul standar lain untuk "senior Systems Engineer".
 
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambahkan semua entitas yang diperlukan dan komponen terkait ke solusi dimensi harga
-Anda harus menambahkan entitas berikut ke solusi harga. Gunakan langkah-langkah dalam prosedur ini untuk membuat beberapa perubahan skema penting dalam solusi harga sehingga entitas mengetahui dimensi harga baru.
-
-1. Pilih **pengaturan** > **solusi**, dan klik dua kali **\<your organization name> dimensi harga**. 
-2. Di penelusur solusi, di panel navigasi kiri, pilih **Tambahkan yang Ada** > **Entitas**.
-3. Di kotak dialog **komponen solusi**, pilih entitas berikut:
-
-  - Aktual
-  - Sumber Daya yang Dapat Dipesan
-  - Baris Perkiraan
-  - Rincian Baris Faktur
-  - Lini Jurnal
-  - Rincian Baris Kontrak Proyek
-  - Anggota Tim Proyek
-  - Detail Baris Kuotasi
-  - Markup Harga Peran
-  - Harga Peran 
-  - Entri Waktu 
-
-
-> [!NOTE]
-> Pastikan untuk menyertakan semua formulir dan tampilan untuk setiap entitas yang dipilih.
-
-4. Bila diminta untuk menyertakan entitas dependen untuk entitas yang dipilih di atas, pilih **tidak**.
-
+> ![Data sampel untuk entitas Judul Standar](media/ST-data.png)
