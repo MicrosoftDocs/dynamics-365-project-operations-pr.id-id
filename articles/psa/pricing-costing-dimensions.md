@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078525"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151302"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Laman beranda harga dan dimensi biaya
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Dimensi yang digunakan untuk menetapkan harga tenaga kerja dan penetapan biaya dalam organisasi berbasis proyek dipengaruhi oleh atribut berikut:
 
@@ -38,7 +40,7 @@ Mengingat sifat umum atribut ini dari pekerjaan dan orang-orang yang diperlukan 
 
 ## <a name="pricing-dimensions"></a>Dimensi harga
 
-PSA dikirim dengan seperangkat dimensi harga default. Anda dapat melihat ini dengan membuka **Project Service** > **Parameter**. Pada rekaman parameter, pada tab **Dimensi harga berbasis jumlah** , Verifikasikan bahwa peran , **msdyn_resourcecategory** , dan unit organisasi sumber daya, **msdyn_organizationalunit** memiliki bidang **Berlaku untuk penjualan** dan **berlaku untuk biaya** yang ditetapkan ke **ya**. Ini akan memungkinkan Anda mengkonfigurasi harga dan biaya untuk setiap peran dan kombinasi unit organisasi.
+PSA dikirim dengan seperangkat dimensi harga default. Anda dapat melihat ini dengan membuka **Project Service** > **Parameter**. Pada rekaman parameter, pada tab **Dimensi harga berbasis jumlah**, Verifikasikan bahwa peran , **msdyn_resourcecategory**, dan unit organisasi sumber daya, **msdyn_organizationalunit** memiliki bidang **Berlaku untuk penjualan** dan **berlaku untuk biaya** yang ditetapkan ke **ya**. Ini akan memungkinkan Anda mengkonfigurasi harga dan biaya untuk setiap peran dan kombinasi unit organisasi.
 
 ![Tangkapan layar dari parameter Project Service dengan "berlaku for penjualan" disorot](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan,
 ## <a name="pricing-human-resource-time"></a>Waktu sumber daya manusia
 Bagaimana organisasi menghargai waktu sumber daya manusia sering merupakan pertimbangan strategis penting yang secara langsung mempengaruhi profitabilitas organisasi. Bekerja dengan tim keuangan dan pimpinan praktik ketika organisasi Anda siap untuk mengidentifikasi bagaimana cara mengkonfigurasi tagihan dan tarif biaya untuk waktu sumber daya manusia.
 
-Pertimbangan lain untuk harga mencakup apakah akan menggunakan ulang bidang atau entitas yang tidak memiliki dimensi harga namun berlaku sebagai dimensi harga untuk organisasi Anda. Bidang seperti **kategori transaksi** ( **msdyn_transactioncategory** ) dan **sumber daya dapat dipesan** ( **bookableresource** ) adalah contoh dimensi kandidat. 
+Pertimbangan lain untuk harga mencakup apakah akan menggunakan ulang bidang atau entitas yang tidak memiliki dimensi harga namun berlaku sebagai dimensi harga untuk organisasi Anda. Bidang seperti **kategori transaksi** (**msdyn_transactioncategory**) dan **sumber daya dapat dipesan** (**bookableresource**) adalah contoh dimensi kandidat. 
 
 Bayangkan apakah dimensi harga anda harus berupa tabel atau rangkaian pilihan. Jika anda memperkirakan perubahan pada nilai dimensi yang akan melebihi 10 atau 12 dan anda memerlukan atribut tambahan pada nilai ini, buat entitas dan bukan rangkaian pilihan. Mengelola rangkaian pilihan, seperti menambah atau menghilangkan nilai, memerlukan admin atau pengembang sedangkan menambahkan baris baru ke tabel dapat dilakukan oleh sebagian besar pengguna bisnis.
 

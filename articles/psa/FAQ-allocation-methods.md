@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131364"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151617"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metode alokasi Pemesanan di Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. topik ini menjelaskan cara masing-masing metode bekerja, dan metode yang dapat menyebabkan pemesanan berlebih sumber daya.
 
