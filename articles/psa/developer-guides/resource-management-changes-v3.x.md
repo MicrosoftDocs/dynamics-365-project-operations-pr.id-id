@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078675"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148647"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Perubahan manajemen Sumber Daya (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Bagian dari topik ini memberikan informasi tentang perubahan yang telah dibuat ke area manajemen sumber daya dari Dynamics 365 Project Service Automation versi 3. x.
 
 ## <a name="project-estimates"></a>Perkiraan proyek
 
-Alih-alih berdasarkan entitas **msdyn\_projecttask** ( **tugasproyek** ), perkiraan proyek didasarkan pada entitas **msdyn\_resourceassignment** ( **penetapan sumber daya** ). Tugas sumber daya telah menjadi "sumber kebenaran" untuk penjadwalan tugas dan harga.
+Alih-alih berdasarkan entitas **msdyn\_projecttask** (**tugasproyek**), perkiraan proyek didasarkan pada entitas **msdyn\_resourceassignment** (**penetapan sumber daya**). Tugas sumber daya telah menjadi "sumber kebenaran" untuk penjadwalan tugas dan harga.
 
 ## <a name="line-tasks"></a>Baris tugas
 
@@ -65,7 +67,7 @@ Dalam PSA 3. x, tugas yang belum ditetapkan adalah tugas yang ditetapkan ke angg
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Bidang penjadwalan pada entitas tugas proyek
 
-Bidang entitas **msdyn\_projecttask** telah ditolak atau dipindahkan ke entitas **msdyn\_resourceassignment** , atau mereka sekarang dirujuk dari entitas **msdyn\_projectteam** ( **anggota tim proyek** ).
+Bidang entitas **msdyn\_projecttask** telah ditolak atau dipindahkan ke entitas **msdyn\_resourceassignment**, atau mereka sekarang dirujuk dari entitas **msdyn\_projectteam** (**anggota tim proyek**).
 
 | Bidang ditolak pada msdyn\_projecttask (tugas proyek) | Bidang baru pada msdyn\_resourceassignment (penetapan sumber daya) | Komentar |
 |---|---|---|
@@ -77,7 +79,7 @@ Bidang entitas **msdyn\_projecttask** telah ditolak atau dipindahkan ke entitas 
 
 ## <a name="schedule-contour"></a>Kontur jadwal
 
-Kontur jadwal disimpan di bidang **kerja yang direncanakan** ( **msdyn\_plannedwork** ) dari setiap entitas **penetapan sumber daya** ( **msdyn\_resourceassignment** ).
+Kontur jadwal disimpan di bidang **kerja yang direncanakan** (**msdyn\_plannedwork**) dari setiap entitas **penetapan sumber daya** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktur
 
@@ -139,7 +141,7 @@ Dalam contoh ini, tugas ditetapkan ke dua sumber daya dan dijadwalkan otomatis u
 
 ## <a name="pricing-dimensions"></a>Dimensi Harga
 
-Di PSA 3.x, bidang dimensi harga spesifik sumber daya (seperti **peran** dan **unit organisasi** ) telah dihapus dari entitas **msdyn\_projecttask**. Bidang ini sekarang dapat diperoleh dari anggota tim proyek terkait ( **msdyn\_projectteam** ) dari tugas sumber daya ( **msdyn\_resourceassignment** ) saat perkiraan proyek dibuat. Bidang baru , **msdyn\_organizationalunit** , telah ditambahkan ke entitas **msdyn\_projectteam**.
+Di PSA 3.x, bidang dimensi harga spesifik sumber daya (seperti **peran** dan **unit organisasi**) telah dihapus dari entitas **msdyn\_projecttask**. Bidang ini sekarang dapat diperoleh dari anggota tim proyek terkait (**msdyn\_projectteam**) dari tugas sumber daya (**msdyn\_resourceassignment**) saat perkiraan proyek dibuat. Bidang baru , **msdyn\_organizationalunit**, telah ditambahkan ke entitas **msdyn\_projectteam**.
 
 | Bidang ditolak pada msdyn\_projecttask (tugas proyek) | Bidang dari msdyn\_projectteam (anggota tim proyek) yang digunakan sebagai gantinya |
 |---|---|
@@ -155,12 +157,12 @@ Bidang kontur harga dan perkiraan telah ditolak pada entitas **msdyn\_projecttas
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Bidang berikut ini telah ditambahkan ke entitas **msdyn\_resourceassignment** :
+Bidang berikut ini telah ditambahkan ke entitas **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Bidang berikut untuk biaya dan penjualan yang direncanakan, aktual, dan tersisa tidak berubah pada entitas **msdyn\_projecttask** :
+Bidang berikut untuk biaya dan penjualan yang direncanakan, aktual, dan tersisa tidak berubah pada entitas **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
