@@ -167,3 +167,6 @@ Jika perusahaan Anda beroperasi sebagai satu unit yang memiliki satu daftar harg
 Saat proyek dibuat sendiri, unit kontrak default dari proyek didasarkan pada pengguna yang membuatnya. Pengguna tersebut juga merupakan manajer proyek default. Jika proyek dipetakan ke entitas penjualan seperti kuotasi atau kontrak proyek, unit kontrak pada proyek didasarkan pada entitas penjualan sebagai gantinya. Dalam kasus ini, perkiraan proyek dapat dihitung ulang, karena daftar harga biaya digunakan untuk menghitung perubahan perkiraan biaya jika unit kontrak diubah. Daftar harga penjualan digunakan untuk menghitung perkiraan penjualan yang akan diubah sehingga mereka tersinkronisasi dengan daftar harga proyek pada kuotasi.
 
 Bidang **unit kontrak** dan **mata uang** pada proyek dikunci dan tidakbisa diedit, karena harus diselaraskan dengan nilai pada entitas penjualan (kuotasi atau kontrak proyek) yang dipetakan ke proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Anda dapat menggunakan tab **rekonsiliasi** untuk memperluas kemampuan Pemesanan
 ![Memperluas Pemesanan untuk anggota tim pada tab rekonsiliasi sumber daya](media/RM-how-to-7.png)
 
 Setelah anggota tim dipesan pada proyek Anda, Anda dapat menggunakan memelihara Pemesanan atau menggunakan papan jadwal secara langsung untuk mengelola Pemesanan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

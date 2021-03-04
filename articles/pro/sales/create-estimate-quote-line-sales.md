@@ -67,3 +67,6 @@ Mata uang pada detail baris kuotasi untuk biaya adalah default dari daftar harga
 Perhitungan profitabilitas mengkonversi jumlah rincian baris kuotasi untuk biaya dan penjualan ke mata uang dasar lingkungan untuk melaporkan perkiraan margin secara keseluruhan pada kuotasi.
 
 Hal ini dapat mengakibatkan kesalahan pembulatan mata uang dan perubahan margin karena kurangnya nilai tukar efektif tanggal. Gunakan penghitungan ini pada kuotasi proyek hanya sebagai perkiraan dan bukan aktual dan resmi atau pelaporan lainnya yang memerlukan ketepatan lebih tinggi dalam pembulatan dan kesadaran efektivitas tanggal untuk nilai tukar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

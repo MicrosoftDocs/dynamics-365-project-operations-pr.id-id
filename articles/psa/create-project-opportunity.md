@@ -55,3 +55,6 @@ Peluang adalah prospek yang hangat dari pelanggan yang tertarik pada kontrak lay
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

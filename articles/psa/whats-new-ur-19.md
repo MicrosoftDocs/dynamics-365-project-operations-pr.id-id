@@ -66,3 +66,6 @@ Masalah berikut telah diperbaiki:
 - Pelanggan mungkin mengalami kinerja yang rusak saat membuat proyek karena **GetBookableResourceIdFromUser** mengambil semua kolom sumber daya yang dapat dipesan dan bukan hanya id utama.
 - Entitas **TransactionType** kehilangan plug-in pembaruan pra-validasi untuk mencegah pengguna memasukkan **unit** dan **UnitGroups** yang tidak berlaku untuk jenis transaksi.
 - Langkah **Hapus** tidak berfungsi untuk impor entri waktu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

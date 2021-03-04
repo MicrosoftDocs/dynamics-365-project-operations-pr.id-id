@@ -53,3 +53,6 @@ Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau berna
 - [Pesan sumber daya bernama dari persyaratan sumber daya.](book-named-resource.md)
 - [Ajukan permintaan sumber daya](submit-resource-request.md)
 - [Menerima atau menolak sumber daya proyek yang diusulkan dari permintaan sumber daya](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

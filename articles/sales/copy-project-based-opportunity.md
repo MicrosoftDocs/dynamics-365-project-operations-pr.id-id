@@ -34,3 +34,6 @@ Peluang proyek dapat dengan mudah disalin untuk membuat peluang proyek baru.
     | Salin Harga | Nilai ya/tidak yang menunjukkan apakah harga pada peluang harus disalin dari peluang sumber. | Jika **ya** dipilih, daftar harga akan disalin dari sumber ke peluang target. Jika **tidak** dipilih, daftar harga akan di-default berdasarkan daftar harga terbaru yang diatur. |
 
 3. Pilih **OK**. Sistem membuat salinan peluang proyek berdasarkan parameter yang dipilih dan peluang proyek baru dibuka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Uang saku adalah jatah uang yang dibayarkan kepada pekerja yang melakukan pekerj
     
 ## <a name="submit-expenses-using-per-diem"></a>Ajukan pengeluaran menggunakan uang saku
 Untuk mengajukan pengeluaran menggunakan uang saku, gunakan kategori pengeluaran **uang saku** saat membuat laporan pengeluaran. Masukkan **uang saku dari tanggal**, **uang saku hingga tanggal**, dan **lokasi uang saku**. Jumlah tersebut akan dihitung berdasarkan harga uang saku untuk lokasi yang dipilih dan pengurangan makanan akan dihitung berdasarkan tingkatan tarif uang saku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

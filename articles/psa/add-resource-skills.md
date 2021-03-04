@@ -47,3 +47,6 @@ Proyek-proyek klien Anda tidak diragukan lagi memerlukan berbagai keahlian yang 
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

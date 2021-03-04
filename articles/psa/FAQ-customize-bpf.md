@@ -107,3 +107,6 @@ Untuk membuat bisnis alur proses bisnis Anda sendiri untuk entitas proyek, lakuk
 
    ![Tangkapan layar memodifikasi tampilan di entitas proyek](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

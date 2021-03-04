@@ -64,3 +64,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, 
 
     -   Diperbaiki: saat pengguna beralih dari 2. X ke 3. X, proyek dengan nilai NULL untuk nama proyek akan diizinkan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

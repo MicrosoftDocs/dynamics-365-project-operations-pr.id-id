@@ -45,3 +45,6 @@ Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipind
 
 > [!NOTE]
 > Topik ini akan dihapus di pembaruan dokumentasi mendatang. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

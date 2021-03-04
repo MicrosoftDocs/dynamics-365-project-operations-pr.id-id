@@ -31,3 +31,6 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 Entitas **aktual** memiliki banyak bidang yang dapat digunakan sebagai dimensi harga untuk harga berbasis sumber daya. Misalnya, satu bidang umum adalah **sumber daya dapat dipesan**. Perusahaan kecil yang memiliki sumber daya yang dapat ditagih kurang dari 20-30 mungkin menemukan bahwa memiliki tarif tagihan dan biaya yang spesifik untuk setiap sumber daya adalah pendekatan yang lebih sederhana. Namun demikian, seiring berkembangnya tenaga kerja yang dapat ditagih, tarif sumber daya spesifik dapat menjadi tidak realistis untuk dipertahankan. Biaya sumber daya dan tarif tagihan mulai bervariasi saat sumber daya dipromosikan, mendapatkan lebih banyak pengalaman, atau memperoleh seperangkat keterampilan yang berbeda. 
 
 Contoh lainnya adalah kategori transaksi. Pelanggan dan pelaksana telah menggunakan kategori transaksi untuk mengklasifikasikan pekerjaan dan menggunakan bidang untuk menetapkan harga dan biaya berdasarkan Kategori pekerjaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

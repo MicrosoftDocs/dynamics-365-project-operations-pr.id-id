@@ -96,3 +96,6 @@ Ikuti langkah berikut untuk membuat formulir **informasi proyek** versi kustom.
     ```
 
 6. Simpan, lalu Publikasikan penyesuaian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

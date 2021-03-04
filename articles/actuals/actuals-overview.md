@@ -342,3 +342,6 @@ Project Operations mencatat transaksi keuangan yang terjadi selama proyek berlan
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

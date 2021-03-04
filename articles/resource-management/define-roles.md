@@ -20,3 +20,6 @@ ms.locfileid: "4514541"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 Anda dapat menggunakan fungsi yang tersedia di Dynamics 365 Field Service untuk menentukan peran tersebut di lingkungan Dynamics 365 Project Operations Anda. Untuk menyelesaikan konfigurasi ini, lihat [Mengonfigurasi kategori sumber daya yang dapat dipesan](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

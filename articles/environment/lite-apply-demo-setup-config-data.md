@@ -74,3 +74,6 @@ Sebelum Anda memulai konfigurasi, Anda harus memiliki lingkungan Common Data Ser
     -   Karakteristik Sumber Daya yang Dapat Dipesan
 
     ![Impor Selesai](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

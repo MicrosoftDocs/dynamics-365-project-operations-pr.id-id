@@ -60,3 +60,6 @@ Aktual penjualan yang tidak ditagih dengan status **tidak boleh melebihi** **Gag
 Jika baris kontrak multi-pelanggan memiliki metode tagihan waktu dan material, bila waktu dan pengeluaran disetujui, satu aktual penjualan tidak ditagih dibuat untuk setiap pelanggan pada baris kontrak berdasarkan persentase penagihan yang ditetapkan untuk setiap pelanggan. Pada tampilan **akumulasi penagihan waktu dan material**, Anda akan melihat aktual penjualan tidak ditagih khusus pelanggan individual ini. Masing-masing rekaman aktual penjualan belum ditagih ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini.
 
 Aktual penjualan tidak tertagih yang ada pada faktur draf ditampilkan dalam tampilan ini dengan status penagihan **faktur Pelanggan dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Pelanggan Diposting**. Jangan Perbarui nilai status ini dengan menggunakan kode kustom. Project Operations tidak berfungsi dengan benar saat nilai status ini diperbarui dengan kode kustom.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

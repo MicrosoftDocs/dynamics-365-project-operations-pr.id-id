@@ -84,3 +84,6 @@ Sumber daya web berikut ini ditolak:
 > Untuk daftar lengkap sumber daya yang ditolak, lihat [sumber daya web yang ditolak dalam Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

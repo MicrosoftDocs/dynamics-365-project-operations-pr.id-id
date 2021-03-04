@@ -51,3 +51,6 @@ Pelanggan kuotasi dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan ku
 Anda dapat mengedit persentase pembagian penagihan dengan menggunakan pengalaman Edit kisi sebaris. Bila persentase pembagian penagihan tidak Total 100%, kesalahan akan terjadi. Setelah memperbarui persentase pembagian penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
 Anda juga dapat mencoba memilih **distribusikan secara merata** pada subkisi pelanggan kuotasi. Tindakan ini mengalokasikan pembagian penagihan ke semua pelanggan kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan. Ini berarti bahwa rekaman pelanggan kuotasi memiliki bendara **pembulatan** diatur ke **ya**. Biasanya ini adalah pelanggan utama kuotasi, namun dapat diubah.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -297,3 +297,6 @@ Pilih pengguna (misalnya, Spencer Low) dan Ubah jam kerja dari Spencer ke jam ya
 
 > [!div class="mx-imgBorder"]
 > ![Tangkapan layar Sumber Daya yang Dapat Dipesan Aktif](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

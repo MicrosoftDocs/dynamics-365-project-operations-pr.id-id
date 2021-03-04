@@ -63,3 +63,6 @@ Saat Anda membuat dan mengirimkan laporan pengeluaran untuk kasbon yang telah An
 ### <a name="example"></a>Contoh
 Anda berencana melakukan perjalanan dari Seattle ke New York City untuk konferensi. Anda membuat permintaan kasbon untuk 3000,00 USD berdasarkan perkiraan biaya tiket konferensi, penerbangan, hotel, makan siang, dan taksi. Anda tidak akan dibayar, kecuali manajer Anda menyetujui permintaan ini. Setelah manajer menyetujui, kasbon yang diminta akan dibayarkan sebagai 3000,00 USD ke rekening bank Anda. Anda kemudian menghadiri konferensi. Setelah menyelesaikan perjalanan, Anda mendapati bahwa Total pengeluaran hanya 2790,00 USD. Pilih **Kas** pada bidang **metode Pembayaran**, lalu kirim pengeluaran untuk 2790,00 USD. Jumlah pengeluaran yang dikirim akan disesuaikan secara otomatis dengan 3000,00 USD kasbon yang dipinjamkan kepada Anda. Anda sekarang berutang selisih 210,00 USD (3000,00 - 2790,00), yang dapat Anda kembalikan ke perusahaan menggunakan kategori Pengeluaran **Kas kembali**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

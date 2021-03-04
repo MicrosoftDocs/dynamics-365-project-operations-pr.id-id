@@ -101,3 +101,6 @@ Pada contoh berikut, Contoso Robotics USA (USPM) adalah entitas hukum yang memin
           - **Perusahaan sumber daya** = **Contoso Robotics UK**
           - **Tarif tagihan** = **200 USD**
       9. Buka **Penjualan** > **Kontrak proyek** dan lampirkan **Tarif tagihan Adventure Works** ke daftar harga proyek Adventure Works dari kontrak proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

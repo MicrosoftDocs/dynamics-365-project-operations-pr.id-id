@@ -89,3 +89,6 @@ Selesaikan langkah-langkah berikut untuk mengoreksi satu atau beberapa entri pen
 8. Di halaman proyek, pada tab **aktual**, Tinjau **tampilan terkait aktual**. Entri asli dan entri yang dikoreksi didaftarkan. Grafik berikut menunjukkan jumlah entri pengeluaran asli dan jumlah entri pengeluaran yang sesuai yang dikoreksi. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

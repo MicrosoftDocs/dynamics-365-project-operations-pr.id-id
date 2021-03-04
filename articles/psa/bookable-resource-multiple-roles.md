@@ -74,3 +74,6 @@ Bila Anda memperluas baris rekaman anggota tim tersebut, Anda dapat melihat tuga
 Saat menavigasi kisi **Estimasi**, Anda akan melihat bahwa kedua tugas untuk sumber daya yang sama harganya berbeda.
 Tugas untuk sumber daya pada tugas A harganya menggunakan nilai atribut **peran** **Pimpinan konsultasi**. Tugas untuk sumber daya yang sama pada tugas B harganya menggunakan nilai atribut **peran** **Teknisi Jaringan**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

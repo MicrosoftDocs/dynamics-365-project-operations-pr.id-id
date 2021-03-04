@@ -59,3 +59,6 @@ Anda juga dapat mengeklik tautan **persyaratan sumber daya** di kisi tim untuk m
 
 ![Persyaratan Sumber Daya](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

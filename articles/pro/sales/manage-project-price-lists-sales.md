@@ -67,3 +67,6 @@ Setelah Anda memiliki daftar harga proyek default organisasi dan pelanggan spesi
 
 1. Pada **kuotasi proyek**, pada tab **daftar harga proyek**, Verifikasikan di subkisi bahwa tidak ada rekaman daftar harga tertentu yang dipilih.
 2. Pilih **Buat Harga Kustom**. Ini akan membuat salinan semua daftar harga standar yang saat ini terkait dengan kuotasi dan mengaitkan salinan ini ke kuotasi. Asosiasi yang ada pada daftar harga standar akan dihapus. Staf penjualan kemudian dapat mulai membuat pengeditan pada harga pada salinan ini. Harga yang telah diubah ini akan berlaku hanya untuk kuotasi Proyek ini.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

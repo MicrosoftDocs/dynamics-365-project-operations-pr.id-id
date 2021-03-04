@@ -242,3 +242,6 @@ Tabel berikut menguraikan cara menyinkronkan data entitas Ketergantungan Tugas P
 
 ### <a name="additional-resources"></a>Sumber daya tambahan
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

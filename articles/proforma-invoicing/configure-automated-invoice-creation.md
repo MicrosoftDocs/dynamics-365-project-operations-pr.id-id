@@ -45,3 +45,6 @@ Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika pros
 
 > [!NOTE]
 > Faktur bets hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Hal yang sama berlaku untuk baris kontrak berbasis proyek.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

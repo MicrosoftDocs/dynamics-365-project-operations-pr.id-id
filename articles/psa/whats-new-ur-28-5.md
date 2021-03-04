@@ -42,3 +42,6 @@ Masalah berikut telah diperbaiki:
 
 - Menjadwalkan degradasi kinerja pencarian bantuan
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

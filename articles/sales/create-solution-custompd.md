@@ -64,3 +64,6 @@ Tambahkan entitas Project Service berikut ke solusi harga Anda untuk membuat per
 5.  Apabila diminta untuk menyertakan entitas dependen untuk entitas yang dipilih, pilih **Tidak, jangan sertakan komponen yang diperlukan.**
 
     ![Termasuk entitas dependen](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

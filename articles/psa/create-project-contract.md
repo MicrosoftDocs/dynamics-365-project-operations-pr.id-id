@@ -47,3 +47,6 @@ Sekarang karena Anda telah memenangkan penawaran untuk proyek Anda, saatnya untu
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Untuk menggunakan wizard, ikuti langkah berikut ini.
 1. Buka **manajemen proyek dan akuntansi** > **Kuotasi** > **Kuotasi proyek**.
 2. Pilih kuotasi yang ingin anda transfer dan pada tab **tindak lanjut** , dalam grup **modifikasi** , pilih **transfer ke proyek**.
 3. Ikuti wizard **transfer kuotasi ke proyek** untuk mengaitkan dan mentransfer kuotasi dengan proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

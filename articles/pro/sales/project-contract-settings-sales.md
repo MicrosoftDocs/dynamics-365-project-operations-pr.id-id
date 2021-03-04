@@ -57,3 +57,6 @@ KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek.
 | Biaya Dikenakan | Baris berbasis produk | Jumlah semua aktual biaya yang dicatat untuk baris kontrak berbasis produk. |
 | Margin Kotor | Baris berbasis proyek | Jumlah ditagih-biaya yang timbul hingga tanggal/jumlah ditagih |
 | Margin yang Diharapkan | Baris berbasis produk | (Nilai baris kontrak - Estimasi biaya untuk baris kontrak)/nilai baris kontrak |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Untuk membuat faktor kuantitas dari properti produk, selesaikan langkah berikut.
 7. Ulangi langkah 2-6 untuk semua properti yang bersama-sama akan membuat kuantitas untuk baris kontrak berbasis produk.
 
 Dengan mengatur faktor kuantitas, saat pengguna membuat baris kontrak untuk produk ini, kuantitas baris kontrak terkunci. Kuantitas kemudian dihitung sebagai produk dari nilai properti untuk baris kontrak tersebut.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

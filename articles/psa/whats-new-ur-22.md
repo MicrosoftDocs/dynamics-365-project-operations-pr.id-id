@@ -72,3 +72,6 @@ Masalah berikut telah diperbaiki:
 - Penutupan kuotasi sebagai menang tidak menavigasi ke kontrak yang dibuat jika BPF yang melekat pada kuotasi berada dalam tahapan akhir.
 - Membalikkan **penjualan yang belum ditagih** ditautkan ke biaya awal bila entri waktu dipanggil.
 - Setelah memilih tombol **konfirmasikan**, status faktur tidak akan diubah ke **dikonfirmasi** kecuali faktur diperbarui.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

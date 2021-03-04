@@ -30,3 +30,6 @@ Manajer proyek dapat memeriksa transaksi penjualan belum tertagih menggunakan me
 Anda dapat [membuat faktur proforma secara manual](../proforma-invoicing/create-manual-proforma-invoice.md) atau menggunakan [proses periodik](../proforma-invoicing/configure-automated-invoice-creation.md). Manajer proyek dapat [menyesuaikan faktur proforma draf](../proforma-invoicing/manage-proforma-invoice.md) jika diperlukan, lalu mengkonfirmasikannya.
 
 Faktur proforma terkonfirmasi dikirim ke **modul manajemen proyek dan akuntansi di** Finance. Akuntan proyek memformat dan memperbarui proposal faktur proyek, kemudian memposting dan mencetak dokumen. Faktur proyek yang diposting direkam dalam buku besar umum, serta buku besar pembantu Pelanggan dan Proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

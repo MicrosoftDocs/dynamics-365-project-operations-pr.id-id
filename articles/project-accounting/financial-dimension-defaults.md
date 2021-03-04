@@ -62,3 +62,6 @@ Proyek dibuat dan dikelola di (CDS). Atribut akuntansi untuk proyek diatur dalam
 4. Atur Default dimensi keuangan. Perhatikan bahwa dimensi keuangan di-default dari akun pelanggan. Jika proyek dikaitkan dengan baris kontrak dengan beberapa pelanggan kontrak proyek, pelanggan utama digunakan untuk dimensi keuangan default.
 
 Dimensi keuangan default proyek digunakan untuk menetapkan default baris jurnal untuk transaksi waktu, pengeluaran, dan biaya di **Jurnal Integrasi Project Operations,** dan pada baris faktur proyek terkait.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

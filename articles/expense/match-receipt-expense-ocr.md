@@ -94,3 +94,6 @@ Saat ini, Amerika Serikat didukung.
 Finance akan menghubungi Cognitive Services untuk mengekstrak data bidang. Cognitive Services akan menyimpan salinan tAnda terima Anda hingga 24 jam saat pemrosesan terjadi. Setelah pemrosesan selesai, Cognitive Services akan menghapus tanda terima. Kuitansi tetap tersimpan di Finance.
 
 Untuk informasi lebih lanjut, lihat [mengaktifkan pemahaman tanda terima dengan kemampuan baru Pengenal formulir](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

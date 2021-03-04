@@ -27,3 +27,6 @@ Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan
 Status permintaan anggota tim umum akan berubah menjadi **Diajukan**.
 
 Setelah permintaan terpenuhi, sumber daya generik digantikan dengan sumber daya bernama jika Manajer sumber daya memenuhi permintaan dengan Pemesanan sumber daya bernama. Atau, jika manajer sumber daya mengusulkan sumber daya bernama, sumber daya generik akan tetap berada di tim dan status permintaan akan berubah menjadi **Perlu Ditinjau**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

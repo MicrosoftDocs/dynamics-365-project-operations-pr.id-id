@@ -72,3 +72,6 @@ Jika konfigurasi harga kategori pengeluaran tidak valid, maka Anda telah mengiso
 Jika Anda tetap tidak melihat harga yang valid pada pengeluaran penjualan aktual setelah melakukan pemeriksaan tiga di atas, buat log tiket dukungan.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

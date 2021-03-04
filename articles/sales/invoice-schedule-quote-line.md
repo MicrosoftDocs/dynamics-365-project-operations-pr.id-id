@@ -68,3 +68,6 @@ Buka baris kuotasi harga tetap yang Anda perlukan untuk membuat tonggaknya. Pada
 | Status faktur | Buat cepat | Bila tonggak dibuat, status ini selalu diatur ke **tidak siap untuk faktur**. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur. |
 | Jumlah Baris | Buat cepat | Jumlah atau nilai tonggak yang akan ditagih kepada pelanggan. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur. |
 | Pajak | Buat cepat | Jumlah pajak yang akan diterapkan ke tonggak. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

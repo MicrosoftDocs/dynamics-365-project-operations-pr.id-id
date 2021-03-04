@@ -73,3 +73,6 @@ Klik pada link di bawah ini untuk mempelajari lebih lanjut tentang apa yang dapa
  [Panduan Manajer Akun](../psa/account-manager-guide.md)   
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)   
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

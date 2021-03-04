@@ -43,3 +43,6 @@ Selain itu, jika Anda memiliki modul aplikasi kustom yang mencakup semua formuli
 
 ### <a name="currently-extended-time-entry-changes"></a>Perubahan entri waktu perpanjangan saat ini
 Untuk meminimalkan dampak terhadap pengguna waktu masuk saat ini, perubahan peran ini adalah satu-satunya persyaratan inti yang diperlukan untuk terus memanfaatkan entri waktu. Jika Anda telah membuat tampilan kustom atau pengalaman entri waktu terpisah, Anda harus menetapkan bidang **pengaturan entri waktu** ke nilai PSA yang benar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

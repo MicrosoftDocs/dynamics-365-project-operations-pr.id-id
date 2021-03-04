@@ -51,3 +51,6 @@ Frekuensi faktur [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Bila Anda memilih **OK** pada halaman dialog, sistem akan membuat salinan kuotas
 > - Referensi proyek pada baris kuotasi berbasis proyek- informasi anggaran pelanggan
 >
 >Karena informasi ini sangat spesifik untuk setiap kuotasi, bidang dan rekaman ini tidak disalin. Baris Kuotasi untuk proyek dan produk, detail estimasi baris kuotasi, dan nilai yang tidak melebihi batas pada tingkat kuotasi akan disalin. Harga dan tingkat biaya default tergantung pada pilihan **Salin harga** yang dipilih pada halaman dialog **Salin parameter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

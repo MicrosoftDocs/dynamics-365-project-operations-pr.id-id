@@ -45,3 +45,6 @@ Untuk membuat faktor kuantitas dari properti produk, ikuti langkah-langkah berik
 6. Simpan dan tutup formulir. Ulangi langkah ini untuk semua properti yang akan digunakan untuk menghitung kuantitas untuk baris kuotasi berdasarkan produk.
 
 Bila Anda membuat baris kuotasi berbasis produk untuk produk, kuantitas baris kuotasi akan dikunci. Kuantitas akan dihitung sebagai produk dari nilai properti yang Anda masukkan untuk baris kuotasi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

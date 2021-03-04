@@ -53,3 +53,6 @@ Tabel berikut ini adalah daftar lengkap dari tampilan dan formulir bawaan, dican
 2. Pada halaman **parameter**, pada tab **Dimensi harga berbasis jumlah**, perhatikan bahwa kisi pada tab menampilkan rekaman di entitas **dimensi harga**.
 3. Tambah **kategori transaksi** ke daftar ini dan atur bidang **berlaku untuk biaya** dan **berlaku untuk penjualan** diatur ke **ya**.
 4. Di bidang **jenis dimensi**, pilih **berdasarkan jumlah**, lalu pilih prioritas untuk **kategori transaksi** yang terkait dengan biaya dan penjualan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

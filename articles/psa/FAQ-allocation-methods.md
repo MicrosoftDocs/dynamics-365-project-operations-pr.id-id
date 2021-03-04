@@ -71,3 +71,6 @@ Untuk meringkas, metode alokasi berikut menyebabkan kelebihan pemesanan jika sum
 - Distribusikan Jam Secara Merata
 
 Saat menggunakan salah satu dari tiga metode alokasi ini, Anda tidak akan diberi tahu bahwa sumber daya kelebihan pemesanan. Untuk memperbaiki kelebihan pemesanan, Anda harus menggunakan papan jadwal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

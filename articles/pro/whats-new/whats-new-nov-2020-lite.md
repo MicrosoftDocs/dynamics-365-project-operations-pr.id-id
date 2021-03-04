@@ -37,3 +37,6 @@ Tabel berikut mencantumkan pembaruan Project Operations di lingkungan CDS versi 
 | Entri pengeluaran cepat dan waktu | 2047499          | Tombol **baru** pada halaman entri waktu akan membuka halaman **tanda tangan email baru**.                                                                                               |
 | Entri pengeluaran cepat dan waktu | 2059859          | Pop-up tidak terduga dibuka saat membuat entri pengeluaran.                                                                                                                         |
 | Lainnya                        | 2044181          | [Penghapusan instalasi PO]-kesalahan, "REKAMAN tidak tersedia" terjadi saat Anda mencoba untuk menghapus instalasi   **msdyn_ProjectServiceCore_Patch** dan solusi inti Project Service msdyn.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

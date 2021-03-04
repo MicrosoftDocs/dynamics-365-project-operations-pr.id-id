@@ -105,3 +105,6 @@ Dynamics 365 secara otomatis menangani akumulasi dari jumlah dalam mata uang yan
 | Pengeluaran           | Penjualan Belum Tertagih   | 17 Jun | Panji  | Rental Mobil           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Untuk menghitung total nilai penjualan yang belum ditagih pada proyek, Anda dapat membuat bidang Roll-up untuk bidang **jumlah** pada semua aktual penjualan belum tertagih yang terkait. Bidang Roll-up adalah konstruksi dari Dynamics 365 yang memungkinkan untuk rumus cepat pada rekaman terkait.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

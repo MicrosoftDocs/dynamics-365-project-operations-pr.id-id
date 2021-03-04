@@ -57,3 +57,6 @@ Tabel berikut mencantumkan pembaruan Project Operations di lingkungan Dataverse 
 | Waktu dan pengeluaran | 2034882 | Tombol **Baru** ditampilkan dua kali pada bilah perintah untuk entri waktu apabila Dynamics 365 Field Service diinstal. |
 | Waktu dan pengeluaran | 2056028 | Perbarui halaman **Edit Time** untuk menyertakan baris waktu. |
 | Waktu dan pengeluaran | 1983747 | Diagram entri waktu menampilkan data tambahan. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

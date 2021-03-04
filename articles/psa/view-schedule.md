@@ -45,3 +45,6 @@ Bila Anda ingin melihat apa yang sedang Anda kerjakan selama seminggu, lihat jad
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

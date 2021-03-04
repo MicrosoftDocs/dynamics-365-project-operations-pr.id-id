@@ -76,3 +76,6 @@ Ini akan membuka halaman **nama bidang dimensi harga baru** untuk **msdyn_bookab
 5. Tambahkan **msdyn_projectteam** ke bidang **nama logis entitas** dan **msdyn_bookableresourceid** ke bidang **nama bidang**. Simpan rekaman ini.
 
  ![Formulir Nama Bidang Dimensi Harga Baru](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

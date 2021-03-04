@@ -52,3 +52,6 @@ Topik berikut menyediakan informasi yang akan membantu manajer proyek memperkira
 - [Template Proyek](project-templates.md)
 - [Tahapan Proyek](project-stages.md)
 - [pengaturan proyek](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

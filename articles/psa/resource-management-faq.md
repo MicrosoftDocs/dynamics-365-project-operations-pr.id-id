@@ -54,3 +54,6 @@ Setelah sumber daya dipesan, pilih **Kelola Pemesanan** untuk melakukan perubaha
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Apa antara penetapan dan Pemesanan?
 
 Penetapan adalah Penetapan sumber daya untuk tugas proyek dalam jadwal proyek. Sumber daya dapat merupakan sumber daya riil atau generik. Pemesanan adalah alokasi sumber daya definitif atau tentatif ke proyek. Pemesanan definitif mengkonsumsi kapasitas sumber daya. Idealnya, untuk sumber daya riil, Pemesanan dan penetapan harus sesuai, karena tidak berbeda. Namun, PSA tidak menegakkan Perjanjian ini. Tampilan rekonsiliasi menunjukkan manajer proyek tempat di mana Pemesanan sumber daya dan penetapan tidak sesuai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4078461"
 10. Klik OK. 
 
 Setelah langkah ini, nota kredit akan tersedia untuk proposal faktur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

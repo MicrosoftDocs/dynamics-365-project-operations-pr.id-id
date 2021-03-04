@@ -55,3 +55,6 @@ Pengeluaran yang belum diajukan dapat dihapus. Untuk menghapus pengeluaran yang 
 ## <a name="see-also"></a>Lihat juga
 
 - [Sekilas persetujuan](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

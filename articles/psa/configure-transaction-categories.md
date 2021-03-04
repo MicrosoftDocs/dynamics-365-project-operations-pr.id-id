@@ -43,3 +43,6 @@ Atur kategori transaksi untuk mendefinisikan superset dari kategori pengeluaran.
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

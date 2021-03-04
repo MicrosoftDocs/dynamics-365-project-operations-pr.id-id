@@ -73,3 +73,6 @@ Untuk informasi tentang pembaruan Project Service, lihat [rencana rilis Dynamics
 >[!Note]
 > - Tanggal di semua kawasan kecuali awan komunitas pemerintah (GCC) menunjukkan waktu pembaruan otomatis berikutnya. Tanggal di GCC menunjukkan ketersediaan versi; saat ini, tidak ada pembaruan otomatis untuk kawasan ini.
 > - Untuk semua wilayah lain, sementara sebagian besar pembaruan harus selesai pada malam terjadwal, pembaruan yang memerlukan lebih banyak waktu dapat diselesaikan selama malam hari selama akhir pekan yang ditunjukkan pada kolom **tanggal terjadwal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

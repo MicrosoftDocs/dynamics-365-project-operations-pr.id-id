@@ -67,3 +67,6 @@ Saat Anda siap untuk mengubah sumber daya anggota tim yang dipesan terlebih dulu
 2. Klik kanan pemesanan, dalam **Ubah Status**, pilih melakukan **pemesanan definitif** \> **definitif**. Status Pemesanan kini **Definitif**.
 3. Setelah Anda menutup papan jadwal, kembali ke proyek serta buka tab **Tim**, Anda akan melihat bahwa jam untuk sumber daya telah berpindah dari kolom **jam pesanan tentatif** ke kolom **jam pesanan definitif** pada kisi tab **tim**, saat melihat tampilan **anggota tim bernama**. Jika sumber daya ditetapkan untuk tugas, mereka akan tidak lagi menunjukkan defisit Pemesanan pada tab **rekonsiliasi** karena Pemesanan mereka sekarang definitif.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Per default, node leaf tidak memiliki pendahulu, tanggal mulainya diatur ke tang
 ### <a name="manual-scheduling"></a>Penjadwalan manual
 
 Jika aturan penjadwalan otomatis tidak memenuhi kebutuhan Anda, Anda dapat mengatur mode tugas untuk tugas yang **dijadwalkan secara manual**. Pengaturan ini menghentikan mesin penjadwalan menghitung nilai untuk atribut penjadwalan lainnya. Terlepas dari mode tugas, jika Anda mengatur pendahulunya pada tugas, Anda selalu mempengaruhi tanggal mulai tugas dependen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

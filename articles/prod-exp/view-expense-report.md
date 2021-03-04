@@ -32,3 +32,6 @@ Untuk laporan pengeluaran, Anda dapat melakukan penelusuran hingga detail dari t
 Untuk menelusuri hingga detail ke laporan pengeluaran awal yang memunculkan transaksi, pilih transaksi, lalu pilih **dokumen asli**.
 
 Bila Anda melihat setiap transaksi, Anda juga dapat melihat data tambahan yang dilampirkan ke transaksi. Misalnya, untuk biaya Hotel yang dapat diperinci, Anda dapat melihat daftar rincian pengeluaran seperti akses internet, panggilan telepon, dan layanan kamar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

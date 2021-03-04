@@ -68,3 +68,6 @@ Langkah-langkah berikut menjelaskan proses pendaftaran plug-in.
 
 9. Tutup alat registrasi plug-in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

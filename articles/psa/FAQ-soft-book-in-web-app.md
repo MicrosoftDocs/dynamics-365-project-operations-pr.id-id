@@ -87,3 +87,6 @@ Saat Anda siap untuk mengubah sumber daya anggota tim yang dipesan terlebih dulu
 2. Jika papan jadwal terbuka, Perluas sumber daya untuk menampilkan Pemesanan mereka. Anda akan melihat Pemesanan yang ditandai sebagai Tentatif.
 3. Klik kanan pemesanan, dalam Ubah Status, pilih melakukan pemesanan definitif, dan kemudian definitif. Status Pemesanan kini Definitif.
 4. Setelah menutup papan jadwal, Anda akan melihat bahwa jam untuk sumber yang telah diubah dari Tentatif ke Definitif pada kisi anggota tim. Anda kini dapat menetapkan sumber daya untuk tugas (asalkan ada kesejajaran antara jam dipesan definitif dan jam upaya tugas untuk tugas). Perlu diketahui bahwa jika Anda mengikuti langkah-langkah pemenuhan sumber daya generik di item #3 atas, bila Anda mengubah status sumber daya dapat dipesan tentatif ke definitif, anggota tim generik dihapus dari tim.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

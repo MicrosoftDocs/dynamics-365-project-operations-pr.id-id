@@ -116,3 +116,6 @@ Pilih **Pesan** untuk sumber daya generik, dan kemudian Anda dapat menggunakan p
 Ketika sumber daya generik dipenuhi dengan sumber daya bernama, sumber daya generik dihilangkan dari tim dan penugasan tugas untuk sumber daya generik ditetapkan ke sumber daya bernama yang memenuhi persyaratan sumber daya generik itu.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

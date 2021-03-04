@@ -47,3 +47,6 @@ Buat akun untuk setiap klien yang bekerja dengan Anda, Apakah Anda sedang member
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

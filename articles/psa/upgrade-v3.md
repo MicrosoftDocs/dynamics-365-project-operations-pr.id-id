@@ -110,3 +110,6 @@ Untuk tugas yang ditetapkan ke peran dengan unit organisasi yang berbeda dari un
  
 Mengubah default unit organisasi sumber daya berbeda pada anggota tim yang belum dibuat adalah alasan kami menyarankan Anda membuat atau membuat ulang tim pada setiap proyek yang berisi sumber daya generik sebelum peningkatan sehingga tugas unit organisasi tidak hilang.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

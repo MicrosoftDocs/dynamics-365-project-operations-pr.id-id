@@ -26,3 +26,5 @@ Persyaratan sumber daya ditentukan oleh manajer proyek untuk menetapkan sumber d
 3.  Pada tab **anggota tim**, pilih anggota tim lalu pilih **buat persyaratan**.
 
 Untuk informasi tentang cara mengubah persyaratan sumber daya, lihat [memperbarui rincian persyaratan sumber daya](define-resource-requirements.md) untuk memodifikasi persyaratan sumber daya.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

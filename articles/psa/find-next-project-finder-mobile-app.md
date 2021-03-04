@@ -49,3 +49,6 @@ Dengan app Project Finder Mobile pada [!INCLUDE[tn_iphone](../includes/tn-iphone
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

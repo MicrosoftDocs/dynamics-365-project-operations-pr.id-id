@@ -73,3 +73,6 @@ Anda dapat membuat data untuk dimensi berbasis entitas secara manual atau dengan
 > ![Data sampel untuk entitas judul standar ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

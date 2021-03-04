@@ -80,3 +80,6 @@ Bila vendor menyelesaikan tugasnya dalam proyek dan mengirimkan faktur, Anda har
 2. Pada halaman **faktur vendor dengan bayar saat dibayar** , di bidang pencarian, masukkan nilai untuk menemukan faktur vendor yang ingin Anda tinjau, lalu pilih **Cari**.
 3. Pada fasttab **baris faktur vendor** , pilih baris yang akan diubah.
 4. Jika **syarat bayar saat dibayar** terpenuhi untuk baris faktur, pilih **Lakukan pembayaran vendor**. Opsi **bayar saat dibayar** dikosongkan, dan nilai bidang **siap untuk pembayaran** diubah ke **ya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

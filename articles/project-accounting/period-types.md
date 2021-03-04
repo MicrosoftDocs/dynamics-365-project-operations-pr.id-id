@@ -34,3 +34,6 @@ Untuk membuat dan menggunakan jenis periode, lakukan langkah-langkah berikut:
 4. Pilih record jenis periode dan kemudian pilih **Buat periode** untuk membuat periode untuk jenis periode. Berdasarkan frekuensi periode yang dipilih, Anda mungkin memiliki opsi untuk menentukan tanggal mulai atau jumlah periode yang akan dibuat.
 5. Pilih **Periode** untuk meninjau periode yang dibuat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

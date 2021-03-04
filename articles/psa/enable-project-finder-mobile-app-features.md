@@ -68,3 +68,6 @@ Sumber daya Anda dapat menggunakan app Project Finder Mobile di ponsel mereka de
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

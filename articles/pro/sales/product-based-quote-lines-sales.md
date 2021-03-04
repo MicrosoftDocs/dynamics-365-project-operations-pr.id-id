@@ -46,3 +46,6 @@ Jika baris kuotasi didasarkan pada Katalog Produk, Anda dapat menimpa harga penj
 Jika Anda memilih **Timpa Harga**, harga default tidak diatur. Namun, Anda harus memasukkan harga untuk produk pada baris kuotasi. Jika Anda memilih **gunakan default**, harga penjualan default akan digunakan dan bidang terkunci untuk pengeditan.
 
 Harga penjualan default dimasukkan pada baris berbasis produk pada kuotasi. Bidang **harga** kemudian diatur ke **Timpa Harga** sehingga Anda dapat mengedit harga default pada baris kuotasi. Ini adalah penimpaan khusus Project Operations pada perilaku baris berbasis produk di Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

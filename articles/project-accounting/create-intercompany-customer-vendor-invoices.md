@@ -61,3 +61,6 @@ Anda dapat membuat beberapa faktur antarperusahaan secara bersamaan untuk semua 
 ## <a name="post-the-intercompany-vendor-invoice"></a>Memposting faktur vendor antarperusahaan
 
 Akuntan proyek di entitas hukum peminjam dapat meninjau faktur vendor antarperusahaan yang tertunda saat faktur pelanggan antarperusahaan terkait diposting. Di Keuangan, di entitas hukum peminjam, buka **Utang dagang** > **Faktur** > **Faktur tertunda vendor**. Nomor faktur tertunda faktur akan cocok dengan nomor faktur pelanggan antarperusahaan. Verifikasikan bahwa faktur sudah benar, lalu posting faktur. Memposting faktur vendor antarperusahaan akan menghasilkan subbuku besar proyek dan transaksi buku besar yang menunjukkan biaya transaksi di entitas hukum peminjam.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

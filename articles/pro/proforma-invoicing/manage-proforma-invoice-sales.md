@@ -144,3 +144,6 @@ Jika Anda memiliki aktual yang masuk setelah faktur dibuat, Anda dapat menyertak
 Di Project Operations, Anda dapat membuat baris faktur untuk produk yang tidak berlaku untuk setiap proyek atau untuk semua proyek bersama-sama dengan baris faktur berbasis proyek. Baris faktur ini dibuat sebagai baris kontrak berbasis produk dan setelah ditandai sebagai siap faktur, mereka ditambahkan sebagai baris faktur berbasis produk.
 
 Setelah menambahkan baris faktur berbasis produk, mereka tidak dapat diubah. Namun, mereka dapat dihapus dari faktur proforma draf.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

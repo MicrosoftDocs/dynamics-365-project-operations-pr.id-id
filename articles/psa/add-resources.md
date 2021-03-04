@@ -55,3 +55,6 @@ Anda dapat menetapkan sumber daya untuk unit organisasi jika Anda perlu untuk me
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -152,3 +152,6 @@ Anda akan menggunakan jenis tugas berikut saat membuat struktur rincian kerja An
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

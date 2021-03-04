@@ -41,3 +41,6 @@ Sumber daya adalah aset terpenting dari organisasi berbasis layanan. Kemampuan u
 - [Persyaratan pesanan tentatif](resource-management-softbook-requirements.md)
 - [Model keahlian dan kecakapan](resource-management-skills-proficiency.md)
 - [Tanya-Jawab Manajemen sumber daya](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

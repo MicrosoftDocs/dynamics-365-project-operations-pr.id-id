@@ -53,3 +53,6 @@ Sekarang karena Anda telah menambahkan kemampuan untuk proyek-proyek klien Anda,
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

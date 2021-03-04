@@ -38,3 +38,6 @@ Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berik
 | **Perencanaan dan Pelacakan Proyek** | 2164035 | Memperbaiki masalah fungsi **Salin Proyek**. |
 | **Entri waktu** | 2129161 | Pembatasan yang lebih ketat diterapkan untuk memastikan pengguna tidak dapat mengubah dan memperbarui entri waktu yang telah diajukan atau disetujui. |
 | **Entri waktu** | 2103572 | Persetujuan waktu untuk entri waktu non-proyek tidak boleh mencari peran persetujuan proyek. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

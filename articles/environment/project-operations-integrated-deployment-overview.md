@@ -43,3 +43,6 @@ Penyebaran ini harus dipilih untuk memastikan ekspektasi Project Operations adal
 - Memerlukan mesin, pajak penjualan dan nilai tukar kelas perusahaan yang kaya untuk menghasilkan faktur sisi pelanggan untuk proyek.
 - Sistem akuntansi proyek dan pengakuan pendapatan yang sesuai dengan International Financial Reporting Standards(IFRS).
 - Aplikasi Finance dan Supply Chain Management dan integrasi transaksi berbasis proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

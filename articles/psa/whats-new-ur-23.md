@@ -67,3 +67,6 @@ Masalah berikut telah diperbaiki:
 Masalah berikut telah diperbaiki:
 
 - **Ambil Semua Kategori Transaksi** Klik dua kali membuat beberapa baris.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

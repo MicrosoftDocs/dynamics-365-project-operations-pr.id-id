@@ -93,3 +93,6 @@ Dalam PSA, Anda tidak dapat melacak revisi yang dibuat ke kuotasi. Namun, Anda h
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Melacak komentar dan persetujuan kuotasi dan kontrak proyek
 Anda dapat mengelola peninjauan dan persetujuan kuotasi dan kontrak proyek menggunakan posting dan dinding rekaman. Organisasi Anda dapat membuat alur kerja dan plug-in kustom untuk menetapkan, mengalihkan, melaporkan, dan mengelola pemberitahuan tentang item kerja peninjauan dan persetujuan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

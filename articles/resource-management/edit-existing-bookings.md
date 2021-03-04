@@ -33,3 +33,6 @@ Dari kisi **Team Member**, manajer proyek dapat menyorot sumber daya tertentu, l
 ## <a name="schedule-board"></a>Papan Jadwal
 
 Dari **Papan Jadwal**, Manajer sumber daya memiliki tampilan portofolio untuk semua pemesanan di seluruh organisasi. Dari tampilan ini, Manajer sumber daya dapat memperluas, mempersingkat, atau memindahkan pemesanan yang ada sesuai dengan kemampuan yang ditawarkan dalam **Pertahankan Pemesanan**. Manajer Sumber Daya juga dapat mengganti sumber daya yang ada yang dialokasikan ke pemesanan tertentu dengan mengklik kanan pemesanan, dan memilih **Sumber Daya Pengganti**. Manajer sumber daya juga dapat mengedit kontur pemesanan yang ada dengan mengeklik kanan pemesanan dan memilih **Edit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

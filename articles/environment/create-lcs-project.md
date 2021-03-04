@@ -36,3 +36,6 @@ Gunakan Lifecycle Services (LCS) untuk mengelola lingkungan Dynamics 365 Project
 
 Gunakan proyek LCS ini untuk menyebarkan lingkungan Project Operations Anda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

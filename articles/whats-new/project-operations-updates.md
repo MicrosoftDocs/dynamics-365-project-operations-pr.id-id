@@ -77,3 +77,6 @@ Tanggal rilis yang ditargetkan dapat berubah. Untuk informasi lebih lanjut, liha
 | --- | --- |
 | 10.0.17 | 19 Maret 2021 |
 | 10.0.18 | 16 April 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

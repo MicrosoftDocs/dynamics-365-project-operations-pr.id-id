@@ -125,3 +125,6 @@ Harga tetap – persentase penyelesaian
 Aturan profil biaya dan pendapatan proyek menentukan profil pendapatan dan biaya proyek yang harus digunakan saat memproses transaksi proyek yang dapat ditagih. Tentukan aturan dengan membuka **manajemen proyek dan akuntansi** \> **Penataan** \> **Posting** \> **Aturan profil biaya dan pendapatan proyek**.
 
 Aturan dapat didefinisikan berdasarkan kontrak proyek, grup proyek, atau proyek tertentu. Sistem akan selalu memilih aturan perincian tertinggi terlebih dahulu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

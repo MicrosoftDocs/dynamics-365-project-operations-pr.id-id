@@ -76,3 +76,6 @@ Anda dapat menggunakan salah satu dari metode berikut untuk membuat pesanan pemb
 
 Untuk informasi lebih lanjut, lihat [menerima item pesanan pembelian dari persyaratan item](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

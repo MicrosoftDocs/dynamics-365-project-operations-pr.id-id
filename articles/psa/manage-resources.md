@@ -344,3 +344,6 @@ Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan,
 ![Kotak dialog Perluas Pemesanan](media/Resource-Management-image58.png)
 
 Manajer proyek atau manajer sumber daya kemudian dapat menggunakan papan jadwal untuk mengelola setiap situasi dengan sumber daya yang dipesan berlebihan di luar kapasitasnya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Seiring perkembangan keterlibatan, tahap proyek diperbarui untuk mencerminkan ta
 
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

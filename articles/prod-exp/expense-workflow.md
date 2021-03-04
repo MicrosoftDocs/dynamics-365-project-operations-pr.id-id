@@ -55,3 +55,6 @@ Proses berikut ini adalah contoh alur kerja manajemen pengeluaran untuk laporan 
 Setelah persyaratan ini diverifikasi, laporan pengeluaran akan dikirim.
 
 Setelah laporan pengeluaran dikirim, pembayaran disahkan untuk laporan pengeluaran, dan uang karyawan akan diganti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

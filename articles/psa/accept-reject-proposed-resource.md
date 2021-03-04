@@ -45,3 +45,6 @@ Untuk menolak usulan, klik **Tolak sumber daya**.
 ![Menerima usulan sumber daya](media/RM-how-to-20.png) 
 
 Mirip dengan secara langsung memenuhi permintaan sumber daya generik dengan sumber daya bernama, sumber daya umum akan diganti dan tugas yang ditetapkan akan diperbarui dengan anggota tim bernama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

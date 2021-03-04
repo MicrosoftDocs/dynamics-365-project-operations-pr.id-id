@@ -117,3 +117,6 @@ Setelah Anda mengonfirmasikan faktur koreksi, aktual penjualan yang belum ditagi
 
 - Penjualan yang ditagih untuk enam jam.
 - Tagihan penjualan yang belum ditagih untuk dua jam yang tersisa. Transaksi ini dapat ditagih nanti atau ditandai sebagai tidak dikenakan biaya, tergantung pada negosiasi dengan pelanggan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

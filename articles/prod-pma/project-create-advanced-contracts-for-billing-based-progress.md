@@ -103,3 +103,6 @@ Kategori anggaran digunakan untuk secara otomatis menghitung jumlah faktur untuk
 8. Opsional: Tetapkan aturan penagihan ke proyek tambahan. Pada fasttab **proyek** , di Bagian **proyek yang tersedia** , pilih proyek, lalu pilih tombol panah kanan untuk menambahkan proyek ke Bagian **proyek yang dipilih**.
 9. Opsional: menghitung jumlah persentase yang dipotong pelanggan dari pembayaran pada faktur. Pada fasttab **ketentuan retensi pembayaran** , pilih sumber pendanaan, lalu di bidang **persentase retensi** , masukkan persentase retensi.
 10. Ulangi langkah ini untuk membuat aturan penagihan tambahan untuk kontrak proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

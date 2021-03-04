@@ -29,3 +29,6 @@ Bagian **status** pada halaman **entitas proyek** memberikan ringkasan tentang k
 - Bidang **komentar** memungkinkan manajer proyek memasukkan komentar tertentu tentang status. 
 - Bidang **Status diperbarui pada** tidak dapat diedit. Nilai dalam bidang ini adalah stempel waktu yang menunjukkan waktu pembaruan status terakhir.
 - Bidang **performa jadwal** dan **performa biaya** ditetapkan dari kisi pelacakan. Bila jadwal dan varians biaya untuk node root dalam tampilan **pelacakan upaya** positif, Anda dapat memperbarui bidang ini ke **depan**. Bila jadwal dan varians biaya untuk node root negatif, bidang ini diatur ke **belakang**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Prosedur berikut menjelaskan cara membuat tim proyek.
 ## <a name="monitor-project-teams"></a>Memantau tim proyek
 1. Pada halaman **semua proyek** , pilih tautan **ID proyek** untuk proyek **peningkatan XYZ fase 2**.
 2. Pada FastTab **tim proyek dan penjadwalan** , Verifikasikan bahwa sumber daya proyek yang tercantum sudah benar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

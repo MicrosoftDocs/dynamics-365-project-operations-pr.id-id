@@ -43,3 +43,6 @@ Di bawah ini adalah tab dan KPI yang tersedia pada kuotasi proyek yang unik untu
 | Analisis Profitabilitas | Tab pada kuotasi | tab ini menunjukkan metrik berikut:</br>- Total Biaya yang dapat ditagih</br></br>- Total Biaya yang Tidak dapat ditagih</br>- Pendapatan Total</br>- Pendapatan Total (Dasar)</br>- margin kotor</br>- Penyesuaian Margin Kotor|
 | Perbandingan Dengan Harapan Pelanggan | Tab pada kuotasi | Tab ini menunjukkan metrik berikut:</br>- Perkiraan Penyelesaian</br>- Penyelesaian yang Diminta</br>- Anggaran Pelanggan</br>- Nilai Kuotasi |
 | Analisis Kuotasi | Tab pada kuotasi | Tab ini meringkas KPI teratas berikut untuk kuotasi proyek</br>- Perbandingan dengan ekspektasi pelanggan untuk anggaran dan jadwal</br>- margin kotor</br>- Penyesuaian Margin Kotor |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

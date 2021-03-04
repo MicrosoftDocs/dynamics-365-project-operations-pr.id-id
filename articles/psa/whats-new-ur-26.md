@@ -74,3 +74,6 @@ Masalah berikut telah diperbaiki:
 - Saat memilih baris berbasis proyek dalam kuotasi atau kontrak, tombol **Saran** hanya akan terlihat saat memilih baris berbasis produk yang terkait dengan produk yang ada.
 - Pisahkan hak istimewa **Buat_Produk** dari hak istimewa **Buat_Kontrak Proyek**.
 - Menghapus baris faktur dapat menyebabkan kegagalan referensi pada **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

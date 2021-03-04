@@ -63,3 +63,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, 
   - Tetap: tidak lagi mendapatkan pesan kesalahan dalam **pencarian proyek** dalam formulir **baris kuotasi** saat terdapat lebih dari 1000 proyek.
   - Tetap: kisi **perkiraan** untuk perkiraan tenaga kerja dan perkiraan biaya sekarang menampilkan simbol mata uang yang benar.
   - Tetap: setelah organisasi pembaruan PSA dari rilis pembaruan 14 ke rilis pembaruan 15, tab **jadwal** tidak lagi ditampilkan sebagai kosong pada formulir **proyek**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Contohnya, seorang pengembang dari Fabrikam India yang bekerja pada proyek AS di
     | Pengembang | Fabrikam AS | $150 |
 
 3. Lampirkan daftar harga penjualan, **tarif tagihan Fabrikam AS** ke daftar harga proyek dari kontrak proyek atau ke akun tertentu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

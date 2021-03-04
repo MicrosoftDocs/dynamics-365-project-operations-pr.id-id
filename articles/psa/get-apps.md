@@ -36,3 +36,6 @@ Jika Anda ingin memasukkan waktu dan biaya di perangkat seluler, [Dapatkan dan i
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

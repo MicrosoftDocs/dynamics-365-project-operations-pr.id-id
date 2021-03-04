@@ -63,3 +63,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
 **Sales**
 
 - Diperbaiki: bila entri waktu disetujui ulang (**setujui > Batalkan >** setujui lagi), nilai aktual tidak dikenai biaya duplikat dibuat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

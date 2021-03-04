@@ -81,3 +81,6 @@ Setiap biaya yang akan dikenakan dalam proyek yang tidak secara langsung berhubu
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

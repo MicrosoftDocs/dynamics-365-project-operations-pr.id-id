@@ -429,3 +429,6 @@ Entri kategori proyek default pada entri lembar waktu terjadi pada tiga tingkat.
 1. Aplikasi akan mencoba memasukkan kategori default dari sumber daya proyek. Kategori default ini diatur dalam metode **getCurrentUserResource** dan **getDelegatedResourcesForCurrentUser** dalam kelas **TSTimesheetSettingsService**.
 2. Jika kategori default tidak tersedia di tingkat sumber daya proyek, aplikasi akan mencoba menariknya dari aktivitas proyek. Kategori default ini diatur dalam metode **getActivitiesForProject** dalam kelas **TSTimesheetProjectService**.
 3. Jika kategori default tidak tersedia di tingkat aktivitas proyek, kategori default diambil dari parameter proyek. Kategori default ini diatur dalam metode **getProjectDetailsbyRule** dalam kelas **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

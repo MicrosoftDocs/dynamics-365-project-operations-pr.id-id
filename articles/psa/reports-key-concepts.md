@@ -48,3 +48,6 @@ Tabel berikut mendefinisikan konsep utama yang digunakan di aplikasi Dynamics 36
 | Kontur                    | Tugas, persyaratan, atau jam penugasan saat dibagi ke dalam distribusi harian. Misalnya, tugas selama lima hari, 40 jam dapat berkontur menjadi delapan jam per hari selama lima hari. |
 | Tampilan Rekonsiliasi        | Tampilan yang menampilkan Pemesanan dan tugas untuk setiap anggota tim proyek. Tampilan ini memungkinkan manajer proyek mencari ketidakcocokan antara Pemesanan dan tugas, dan melakukan tindakan perbaikan jika terjadi ketidakcocokan. |
 | Jam kerja                 | Entitas yang digunakan untuk mengidentifikasi kapasitas sumber daya, serta jam kerja dan non-kerja. Entitas ini juga disebut sebagai kalender sumber daya. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

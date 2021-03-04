@@ -81,3 +81,6 @@ Masalah berikut telah diperbaiki:
 - Ketika Dynamics 365 Field Service dan Project Service Automation diinstal, opsi **Kunci harga**, dan **Gunakan Harga Saat** Ini tidak ditampilkan pada saat yang sama di halaman **Faktur**.
 - Untuk bahasa Jepang, ada terjemahan yang tidak konsisten dengan halaman berbasis kalender lainnya.
 - **Aktifkan** dan **Nonaktifkan** telah dihapus dari entitas **Asosiasi Daftar Harga** di Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Setiap proyek yang tidak terkait dengan kontrak dalam Dynamics 365 Project Opera
 Setelah transaksi diposting ke proyek, jika proyek terkait dengan kontrak proyek, sistem akan membalikkan semua transaksi yang terkumpul dan membuat transaksi yang dapat ditagih baru. Transaksi yang dapat ditagih mengikuti aturan akuntansi yang ditentukan di profil biaya dan pendapatan proyek masing-masing.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Selama reservasi sumber daya, manajer proyek dapat memfilter sumber daya peran y
 
 3. Pilih **Simpan** , lalu tutup halaman.
 4. Pada tab **kompetensi** , tambahkan Keterampilan **projectmgmt** dan sertifikat **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

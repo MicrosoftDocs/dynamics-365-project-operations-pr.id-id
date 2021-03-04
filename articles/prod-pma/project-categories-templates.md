@@ -124,3 +124,6 @@ Ilustrasi berikut menunjukkan contoh pemetaan tugas template dalam integrasi dat
 > Pemetaan menampilkan informasi bidang yang akan disinkronisasikan dari Project Service Automation ke Finance.
 
 [![Pemetaan template Project Service Automation ke Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

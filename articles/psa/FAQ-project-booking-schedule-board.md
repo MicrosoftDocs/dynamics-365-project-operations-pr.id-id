@@ -91,3 +91,6 @@ Selesaikan langkah-langkah berikut untuk memesan dari persyaratan sumber daya ba
 
 4. Karena sumber daya sudah dipesan, Anda harus menetapkan tugas secara manual.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

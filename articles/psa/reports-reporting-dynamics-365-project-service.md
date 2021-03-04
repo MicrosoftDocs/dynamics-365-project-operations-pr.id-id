@@ -52,3 +52,6 @@ Untuk informasi lebih lanjut tentang pelaporan di PSA, lihat topik berikut ini:
 - [Bekerja dengan model data Project Service](reports-working-project-service-data-model.md)
 - [Dasbor](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

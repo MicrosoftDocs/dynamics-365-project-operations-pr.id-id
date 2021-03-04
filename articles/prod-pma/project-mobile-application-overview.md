@@ -49,3 +49,6 @@ Lembar waktu saya (dioptimalkan untuk perangkat seluler) dan lembar waktu untuk 
 - [Entri waktu proyek]( project-time-entry-mobile-workspace.md)
 - [Lembar waktu proyek di perangkat bergerak](Mobile-timesheets.md)
 - [Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

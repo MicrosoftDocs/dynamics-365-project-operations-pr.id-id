@@ -40,3 +40,6 @@ Dasbor **manajer praktik** memberikan pengalaman dasbor grafis untuk melacak bia
 ## <a name="resource-manager"></a>Manajer Sumber Daya 
 
 Dasbor **manajer sumber daya** memberikan manajer sumber daya pengalaman dasbor grafis untuk memantau permintaan sumber daya, dan kebutuhan dan pemanfaatan sumber daya. Hal ini juga memungkinkan manajer sumber daya memotong informasi yang dipantau dengan berbagai dimensi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

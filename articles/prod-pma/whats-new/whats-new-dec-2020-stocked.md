@@ -142,3 +142,6 @@ Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berik
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
 Untuk informasi tentang pembaruan wajib untuk Dynamics 365 Finance, lihat [pembaruan wajib](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

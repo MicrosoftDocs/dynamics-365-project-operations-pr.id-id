@@ -75,3 +75,6 @@ Setelah tugas sebelumnya selesai, Anda dapat menyelesaikan tugas berikut saat me
 - Memenuhi permintaan sumber daya.
 - Meminta staf sumber daya dari WBS.
 - Memesan sumber daya ke proyek tanpa meminta sumber daya staf.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

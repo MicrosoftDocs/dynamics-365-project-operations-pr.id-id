@@ -128,3 +128,6 @@ Untuk baris kuotasi harga tetap, Anda dapat menggunakan kisi **jadwal faktur** u
 - Untuk membuat tonggak waktu penagihan yang terbagi rata, pilih frekuensi faktur, masukkan tanggal mulai penagihan pada baris kuotasi, dan pilih **tanggal selesai yang diminta** untuk kuotasi di bagian **ringkasan** header kuotasi. Kemudian pilih **Buat tonggak waktu periodik** untuk membuat tonggak waktu terpisah yang sama berdasarkan frekuensi faktur yang dipilih. 
 - Untuk membuat tonggak penagihan Total, buat tonggak waktu, lalu masukkan nilai baris kuotasi sebagai jumlah tonggak waktu.
 - Untuk membuat tonggak waktu penagihan yang didasarkan pada tugas tertentu dalam rencana proyek, buat tonggak waktu, dan Petakan ke elemen jadwal proyek dalam UI tonggak waktu penagihan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

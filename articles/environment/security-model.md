@@ -81,3 +81,6 @@ Operasi proyek mencakup peran berikut:
 Untuk informasi lebih lanjut tentang peran keamanan di Finance, lihat [keamanan berbasis peran](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

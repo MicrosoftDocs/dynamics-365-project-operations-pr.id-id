@@ -43,3 +43,6 @@ Setiap sumber daya dapat dipesan yang mengerjakan proyek harus memiliki kalender
 2. Dari tampilan kisi, pilih hingga 25 **sumber daya dapat dipesan** untuk diperbarui.
 3. Pilih **Atur kalender** dan dialog akan meminta Anda daftar template jam kerja yang tersedia.
 4. Pilih template yang ingin Anda gunakan, kemudian pilih **Terapkan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

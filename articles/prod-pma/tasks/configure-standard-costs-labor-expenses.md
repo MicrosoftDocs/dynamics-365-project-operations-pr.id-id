@@ -54,3 +54,6 @@ Topik ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan penge
 22. Di bidang **harga** , masukkan angka. Harga penjualan aktual, yang diterapkan saat pekerja memasukkan transaksi dalam jurnal pengeluaran, adalah harga penjualan dengan tingkat detail tertinggi. Misalnya, jika harga penjualan Umum dan khusus pekerja ditetapkan, harga penjualan khusus pekerja digunakan.  
 23. Pilih **Simpan**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Jaga dokumen yang berkaitan dengan proyek teratur dengan menambahkannya ke proye
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

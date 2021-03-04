@@ -78,3 +78,6 @@ Record dimensi harga untuk **msydn_bookableresource** harus dibuat mengetahui pe
 5. Tambahkan **msdyn_bookableresourceid** ke **Nama Bidang**.
 
  ![Formulir Nama Bidang Dimensi Harga Baru](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Ketika Arnie siap mengirim data laporan pengeluaran ke vendor pihak ketiga yang 
 Arnie harus memverifikasi bahwa transaksi laporan pengeluaran memenuhi syarat untuk pemulihan PPN, dan bahwa kuitansi digital dilampirkan ke laporan. Untuk mulai memproses pengeluaran yang memenuhi syarat untuk pemulihan dalam negeri, Arnie membuka halaman **pemulihan pajak pengeluaran** dan memilih laporan pengeluaran yang memerlukan verifikasi. Dia memverifikasi bahwa tanda terima adalah atas nama perusahaan, bukan karyawan. Untuk pemulihan PPN, penerimaan harus atas nama perusahaan. Arnie kemudian mengkonfirmasi bahwa grup pajak penjualan yang benar dan kode pajak penjualan barang diterapkan.
 
 Ketika Arnie menerima tanda terima kertas, ia akan mengubah status laporan pengeluaran ke **siap untuk pemulihan**. Dia kemudian dapat mengajukan pengembalian dengan otoritas pajak yang sesuai. Dalam kasus ini, otoritas pajak yang sesuai di Amerika Serikat adalah Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ Seperti tarif tagihan, tingkat biaya untuk sumber daya manusia juga diatur mengg
     1. Daftar harga biaya yang dilampirkan ke unit organisasi.
     2. Daftar harga biaya yang dilampirkan ke parameter Project Service. Karena daftar harga biaya dalam banyak mata uang yang berbeda dapat dilampirkan ke parameter Project Service, PSA melakukan pencocokan mata uang antara mata uang unit organisasi kontrak proyek, kontrak, atau kuotasi, dan mata uang dari daftar harga biaya.
     3. Untuk pengeluaran, metode harga pada biaya dan markup terhadap biaya tidak berlaku pada daftar harga biaya. Meskipun metode harga ini digunakan pada baris daftar harga biaya untuk menyiapkan biaya kategori transaksi, sistem akan mengabaikan, dan tidak ada harga default yang dimasukkan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

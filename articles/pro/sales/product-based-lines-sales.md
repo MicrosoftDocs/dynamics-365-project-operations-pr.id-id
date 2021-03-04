@@ -28,3 +28,6 @@ Baris berbasis produk dapat berupa item Katalog atau produk pilihan. Sebagian be
 
 Bila metode pendapatan ringkasan Peluang adalah **Terhitung Sistem**, nilai anggaran pelanggan di seluruh baris peluang diringkas untuk menghitung perkiraan pendapatan. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

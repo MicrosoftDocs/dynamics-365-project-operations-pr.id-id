@@ -113,3 +113,6 @@ Molly Clark, pengembang yang bekerja di GBPM mencatat 10 jam kerja untuk proyek 
     - Kredit: Proyek – Pendapatan yang Terkumpul 120 USD
 
     Sistem sekarang siap membuat faktur pelanggan antarperusahaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

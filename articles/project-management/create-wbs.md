@@ -116,3 +116,6 @@ Mode tugas tidak berpengaruh pada pembaruan yang dibuat pada tanggal mulai dan b
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Cara pintas keyboard dan aksesibilitas
 
 Kisi **jadwal** sepenuhnya dapat diakses dan dapat digunakan dengan pembaca layar seperti narrator, JAWS, atau NVDA. Anda dapat berpindah melalui area kisi dengan menggunakan tombol panah (sebagaimana di Microsoft Excel), Anda dapat menggunakan tombol tab untuk memajukan melalui elemen antarmuka pengguna interaktif, dan Anda dapat menggunakan tombol panah bawah, tombol Enter, atau spasi untuk memilih dan membuka menu drop-down.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

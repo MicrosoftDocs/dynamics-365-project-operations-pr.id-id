@@ -88,3 +88,6 @@ Jadwal faktur adalah spesifik untuk setiap baris kontrak dan diperlukan agar fak
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Perubahan dari Pesanan Dynamics 365 Sales
 
 Kontrak dalam Project Operations dibuat berdasarkan pesanan di Dynamics 365 Sales. Namun, ada penyimpangan penting dan perbedaan fungsi. Kontrak memiliki formulir dan elemen UI sendiri, aturan Bisnis, logika bisnis di plug-in, dan skrip sisi klien yang membuatnya unik dari Pesanan. Untuk alasan ini, jangan gunakan perintah penjualan, dan kontrak Project Operations secara bergantian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

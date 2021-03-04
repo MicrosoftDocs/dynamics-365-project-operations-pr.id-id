@@ -257,3 +257,6 @@ Grafik berikut ditampilkan setelah daftar harga kustom telah dibuat.
 
 > [!NOTE]
 > Keterlambatan singkat mungkin terjadi antara saat Anda mengeklik **buat harga kustom** hingga saat daftar harga kustom dibuat. Sebaiknya refresh kisi, bukan mengeklik beberapa kali. Daftar harga kustom telah dibuat jika nama daftar harga terkait telah ditambahi nama kuotasi atau nama kontrak proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Berikut adalah beberapa saran yang dapat membantu Anda ketika membuat kebijakan 
 ## <a name="when-to-evaluate-policies"></a>Kapan mengevaluasi kebijakan
 
 Dalam parameter manajemen pengeluaran, Anda dapat memilih untuk mengevaluasi kebijakan manajemen pengeluaran bila baris disimpan atau saat laporan pengeluaran diajukan. Jika Anda memilih untuk mengevaluasi bila baris disimpan, pengguna akan memiliki visibilitas sebelumnya ke apa yang perlu mereka lakukan untuk menyelesaikan laporan pengeluaran mereka sekaligus. Jika tidak, Anda dapat menunda evaluasi kebijakan dan menghemat waktu dengan memvalidasi di akhir, selama pengajuan ke alur kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

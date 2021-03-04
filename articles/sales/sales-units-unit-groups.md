@@ -46,3 +46,6 @@ Untuk menyelesaikan langkah-langkah dalam topik ini, pastikan Anda telah ditetap
 3. Di bidang **kuantitas**, masukkan kuantitas unit. Sebagai contoh, jika sebuah kotak berisi 2 buah, ketik "2". 
 4. Di bidang **satuan dasar**, pilih satuan dasar untuk menetapkan satuan pengukuran terendah untuk unit. Misalnya, Anda dapat memilih "Buah".
 5. Pilih **Simpan**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

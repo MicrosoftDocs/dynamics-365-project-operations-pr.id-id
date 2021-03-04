@@ -28,3 +28,6 @@ ms.locfileid: "4960026"
 *Uang saku* adalah jatah uang yang dibayarkan kepada pekerja yang melakukan perjalanan untuk bekerja. Di manajemen pengeluaran, Anda dapat membuat aturan uang saku untuk berbagai situasi perjalanan. Tarif uang saku dapat didasarkan pada waktu, lokasi perjalanan, atau keduanya. Saat membuat aturan uang saku, Anda dapat menentukan bahwa persentase tingkat uang saku diabaikan jika pekerja menerima makanan, atau layanan gratis. Anda juga dapat menetapkan jumlah jam minimum dan maksimum yang dapat diterapkan dalam tarif uang saku untuk perjalanan pekerja.
 
 Penghitungan jumlah total uang saku didasarkan pada tanggal mulai dan tanggal berakhir yang dapat Anda atur pada halaman **uang saku**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

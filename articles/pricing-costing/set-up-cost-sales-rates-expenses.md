@@ -55,3 +55,6 @@ Bila metode harga ini dipilih pada baris harga kategori yang ditautkan ke daftar
 
 ### <a name="markup-over-cost"></a>Markup atas biaya
 Bila metode harga ini dipilih pada baris harga kategori yang ditautkan ke daftar harga penjualan, harga di-default untuk kategori dan kombinasi unit hanya untuk aktual pengeluaran. Misalnya, aktual penjualan yang belum ditagih untuk kelas transaksi pengeluaran. Harga unit ini ditetapkan pada aktual penjualan yang belum ditagih ke nilai yang dihitung dari harga unit pada aktual biaya untuk pengeluaran tersebut setelah persen markup yang ditetapkan diterapkan. Harga yang di-default berdasarkan biaya tidak dilakukan pada estimasi proyek untuk pengeluaran atau baris kuotasi dan rincian baris kontrak untuk pengeluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

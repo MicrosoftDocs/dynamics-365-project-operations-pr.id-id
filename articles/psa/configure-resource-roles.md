@@ -59,3 +59,6 @@ Peran memainkan peranan penting dalam perencanaan proyek, ketika menentukan kebu
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Untuk membuat salinan daftar harga, selesaikan langkah berikut.
 1. Pada tab **peran**, **kategori**, dan **item Daftar Harga** dari daftar harga, Anda dapat memilih **Perbarui harga** untuk menerapkan markup untuk semua harga di subkisi. 
 2. Pada halaman dialog yang terbuka, masukkan mark-up. Anda juga dapat memasukkan persentase mark-up negatif untuk menurunkan harga dengan persentase tertentu. 
 3. Pilih **OK** pada halaman dialog, lalu Verifikasikan bahwa harga di subkisi mencerminkan perubahan yang Anda buat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

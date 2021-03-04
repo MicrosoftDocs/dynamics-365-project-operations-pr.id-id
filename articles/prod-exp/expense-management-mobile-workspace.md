@@ -240,3 +240,6 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 22. Pilih **kirim**.
 23. Masukkan Komentar untuk penyetuju.
 24. Pilih **Selesai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Bila tombol manajemen fitur **Aktifkan halaman daftar delegasi pengeluaran** dia
 Pengguna delegasi dapat dengan cepat memfilter dan mencari pada laporan pengeluaran yang ada dan telah didelegasikan kepada mereka. Mereka juga dapat membuat laporan pengeluaran baru untuk pengguna lain dengan memilih **laporan pengeluaran baru**.
 
 Pengguna delegasi juga dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain dengan membuka **manajemen Pengeluaran** > **pengeluaran Saya** > **Laporan pengeluaran** dan memilih **Buka pengeluaran pengguna lain**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

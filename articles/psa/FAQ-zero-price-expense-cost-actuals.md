@@ -38,3 +38,6 @@ FAQ ini berlaku untuk pengeluaran aktual di mana kelas transaksi diatur ke penge
 Buka entri pengeluaran terkait, lalu pastikan bahwa terdapat jumlah di bidang entri pengeluaran. Jika entri pengeluaran asal tidak memiliki bidang jumlah yang diisi, berarti Anda telah mengisolasi masalah.
  
 Untuk mengatasi masalah ini, buat ulang entri pengeluaran dengan jumlah yang valid dan setujui.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

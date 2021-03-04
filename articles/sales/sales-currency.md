@@ -71,3 +71,6 @@ Sebelum anda memulai prosedur ini, verifikasikan bahwa peran keamanan anda menca
 
 > [!IMPORTANT]
 >  Anda tidak dapat menghapus mata uang yang digunakan oleh rekaman lainnya; Anda hanya dapat menonaktifkan mereka. Menonaktifkan mata uang catatan tidak menghapus informasi mata uang yang disimpan dalam catatan yang sudah ada, seperti peluang atau pesanan. Namun, Anda tidak akan dapat memilih mata uang dinonaktifkan untuk transaksi yang baru.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

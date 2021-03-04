@@ -63,3 +63,6 @@ Dalam Project Operations, Anda tidak dapat melacak revisi yang dibuat ke kuotasi
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Melacak komentar dan persetujuan kuotasi dan kontrak proyek
 Anda dapat mengelola peninjauan dan persetujuan kuotasi dan kontrak proyek menggunakan posting dan dinding rekaman. Organisasi Anda dapat membuat alur kerja dan plug-in kustom untuk menetapkan, mengalihkan, melaporkan, dan mengelola pemberitahuan peninjauan dan persetujuan item kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

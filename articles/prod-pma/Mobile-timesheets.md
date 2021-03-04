@@ -62,3 +62,6 @@ Android akan kompatibel dengan pembaruan platform 16, bila tersedia.
 13. Opsional: masukkan baris lembar waktu tambahan.
 
 14. Setelah Anda selesai memasukkan baris lembar waktu, pilih tindakan **alur kerja** \> **kirim** untuk mengirimkan lembar waktu Anda ke proses persetujuan alur kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Untuk membuat jadwal proyek, Anda membuat template kalender proyek yang mendefin
 8. Di kotak dialog **template kerja**, masukkan nama untuk template kerja, lalu pilih **Terapkan**. 
 
 Sekarang Anda dapat mengaitkan template kerja dengan template kalender proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

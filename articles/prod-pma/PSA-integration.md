@@ -75,3 +75,6 @@ Untuk menggunakan solusi integrasi Project Service Automation ke Finance, Anda h
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instal solusi integrasi Project Service Automation ke Finance di instans Project Service Automation Anda
 
 Unduh solusi integrasi Project Service Automation ke Finance dari [pusat Unduh Microsoft](https://www.microsoft.com/download/details.aspx?id=57016), dan ikuti petunjuk yang disertakan dengan solusi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

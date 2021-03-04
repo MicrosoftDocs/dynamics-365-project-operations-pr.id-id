@@ -43,3 +43,6 @@ Pilih jenis penyebaran ini untuk menggunakan Dynamics 365 Project Operations unt
 - Mesin pajak penjualan dan nilai tukar kelas perusahaan yang kaya untuk menghasilkan faktur sisi pelanggan untuk proyek.
 - Sistem akuntansi proyek dan pengakuan pendapatan yang sesuai dengan International Financial Reporting Standards(IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

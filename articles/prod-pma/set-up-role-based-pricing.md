@@ -34,3 +34,6 @@ Semua harga biaya, penjualan, dan transfer dapat diatur untuk peran. Selesaikan 
 1. Pada halaman **harga penjualan (jam)** , pilih **baru** , lalu masukkan tanggal berlaku.
 2. Di kolom **peran** , pilih peran.
 3. Di kolom **harga** , masukkan harga untuk peran sumber daya yang dipilih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Topik berikut menyediakan informasi tentang tugas yang harus diselesaikan saat A
 - [Kinerja penjadwalan sumber daya proyek](project-scheduling-performance.md)
 - [Mengonfigurasi peran pada template struktur rincian kerja](set-up-roles-wbs-template.md)
 - [Pemenuhan sumber daya untuk sumber daya terencana](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

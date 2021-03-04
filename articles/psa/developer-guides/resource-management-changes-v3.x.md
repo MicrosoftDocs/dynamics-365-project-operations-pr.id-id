@@ -170,3 +170,6 @@ Bidang berikut untuk biaya dan penjualan yang direncanakan, aktual, dan tersisa 
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

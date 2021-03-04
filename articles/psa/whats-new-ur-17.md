@@ -57,3 +57,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, 
 - Diperbaiki: saat kelas transaksi adalah **waktu**, **unitgroup** tidak dapat diedit untuk semua entitas termasuk **quotelinedetails**, **JournalLine**, **InvoiceLineDetail**, dan **ContractLineDetails**. Namun, **unit** hanya tidak bisa diedit untuk **journalline** dan **invoicelinedetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Berikut ini adalah gambaran singkat tentang kontrol umum yang ditemukan di berba
 **Tambah kolom**: memungkinkan pengguna menentukan kolom yang terlihat di kisi. Hanya kolom siap pakai yang dapat ditambahkan ke kisi dalam formulir **Perencanaan proyek**.
 
 ![Tambahkan tombol kolom](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

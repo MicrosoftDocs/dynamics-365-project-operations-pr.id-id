@@ -56,3 +56,6 @@ Tugas ini menggunakan himpunan data USSI.
 21. Di bidang **Resi produk** , masukkan nilai.
 22. Pilih **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

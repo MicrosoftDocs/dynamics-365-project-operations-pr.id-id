@@ -56,3 +56,6 @@ Kuotasi yang ada dapat ditautkan ke peluang. Selesaikan langkah-langkah berikut 
    Saat Anda memindahkan peluang ke tahapan ini, Anda dapat memilih kuotasi ini dari daftar kuotasi yang terkait dengan peluang ini. Memilih kuotasi ini menunjukkan bahwa Anda bergerak maju dengan itu.
 
    Semua tanda lainnya yang terkait dengan peluang akan tetap tersedia dan aktif hingga salah satunya dimenangkan. Anda dapat memindahkan proses penjualan kembali ke tahap sebelumnya yaitu **Kualifikasi**, dan memilih kuotasi lainnya untuk diteruskan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

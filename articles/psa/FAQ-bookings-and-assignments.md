@@ -68,3 +68,6 @@ Karena Pemesanan dan tugas tidak berhubungan erat, Anda akan dapat memesan kontu
 > [!NOTE]
 > Jika Anda memindahkan tugas yang telah Anda bentuk sendiri, kontur ini tidak dipertahankan. Kontur dibuat ulang sesuai kalender proyek ke akun untuk perubahan dalam jam pekerjaan dan hari libur. Ini sengaja karena sistem tidak tahu maksud kontur aslinya dan tidak dapat menentukan apakah sebaiknya mempertahankan kontur tersebut dalam jangka waktu yang baru. Karena Pemesanan dan tugas terhubung, Pemesanan mempertahankan kontur Pemesanan asli. Dalam kasus ini, Anda harus membatalkan dan memesan ulang untuk kontur tugas baru.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Tidak. Perkiraan jadwal saat saat ini dibatasi hingga jam dan tidak dapat diubah
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Apakah unit dan grup unit dapat diedit, dihapus, dan ditambahkan?
 Ya. Dengan pengecualian grup unit **waktu** dan unit **jam**, Semua unit dapat dihapus atau diedit, dan unit baru dapat ditambahkan. Dalam PSA, grup unit **waktu** dan unit **jam** tidak dapat dihapus. Namun, mereka dapat diperbarui dengan teks terjemahan untuk bidang **nama**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

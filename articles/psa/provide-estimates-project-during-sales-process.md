@@ -54,3 +54,6 @@ Selama proses penjualan, Anda dapat melaksanakan perkiraan penjualan dari bawah 
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

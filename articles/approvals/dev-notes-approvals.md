@@ -23,3 +23,6 @@ Dynamics 365 Project Operations mencakup logika validasi yang memastikan transis
 
   - Semua baris pendukung dibuat dalam tabel terkait, seperti jurnal dan aktual.
   - Pemberi izin ditandai sebagai **pemberi izin proyek** dalam proyek sebelum melanjutkan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

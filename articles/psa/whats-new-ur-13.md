@@ -59,3 +59,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
      - Diperbaiki: tombol tambahan untuk **peluang baru**, **kuotasi**, **baris pesanan**, dan **Tambahkan produk** dapat dilihat di perintah untuk peluang, kuotasi, produk pesanan, dan subkisi baris berbasis proyek.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

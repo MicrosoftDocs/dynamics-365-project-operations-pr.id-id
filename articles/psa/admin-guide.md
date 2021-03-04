@@ -52,3 +52,6 @@ Panduan ini akan membawa Anda melalui proses menginstal dan mengonfigurasikan:
  [Panduan Manajer akun](../psa/account-manager-guide.md) [panduan manajer proyek](../psa/project-manager-guide.md)   
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)   
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

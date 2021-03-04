@@ -31,3 +31,6 @@ Jika pengeluaran pada laporan pengeluaran dibebankan kepada perusahaan selain pe
 Untuk memposting laporan pengeluaran, pada halaman **laporan pengeluaran yang disetujui**, pilih laporan pengeluaran, lalu di panel tindakan, pilih **posting**.
 
 Anda juga dapat memposting semua laporan pengeluaran dalam daftar secara bersamaan. Pilih Semua laporan pengeluaran, lalu pilih **posting**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

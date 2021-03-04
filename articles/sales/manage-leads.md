@@ -80,3 +80,6 @@ Proses bisnis prospek ke peluang mendukung tahapan berikut:
 | Kembangkan | Peluang | Kembangkan peluang untuk menambahkan informasi lebih lanjut tentang pekerjaan yang terlibat, pemangku kepentingan utama, dan pesaing. |
 | Usulkan | Peluang | Kembangkan proposal dan Dapatkan persetujuan dari tim peninjauan internal. |
 | Tutup | Peluang | Menangkan peluang untuk menutup penawaran. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

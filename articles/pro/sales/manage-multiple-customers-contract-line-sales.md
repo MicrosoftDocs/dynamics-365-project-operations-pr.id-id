@@ -43,3 +43,6 @@ Di bawah ini adalah bidang pada rekaman pelanggan baris **kontrak** dari baris k
 Persentase pemecahan penagihan dapat diedit di kisi. Bila persentase pemecahan penagihan tidak berjumlah Total 100 persen, kesalahan akan terjadi. Setelah Anda mengedit persentase pemecahan penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
 Anda juga dapat memilih **distribusikan secara merata** pada subkisi pelanggan baris kontrak. Tindakan ini secara merata mengalokasikan pembagian tagihan ke semua pelanggan baris kontrak. Jika ada faktor pembulatan, maka akan ditambahkan ke pelanggan pembulatan. Pelanggan baris kontrak selalu ditandai sebagai pelanggan **pembulatan** dengan bendera **Pembulatan** diatur ke **ya**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

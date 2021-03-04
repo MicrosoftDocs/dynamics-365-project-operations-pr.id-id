@@ -35,3 +35,6 @@ Jika kontrak proyek yang ditutup sebagai kalah merujuk pada suatu proyek pada ba
 
 > [!NOTE]
 > Dalam Dynamics 365 Project Operations, penutupan kontrak proyek sebagai kalah tidak akan memengaruhi status peluang terkait. Peluang akan tetap terbuka dan harus ditutup secara manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Sebelum Anda membuat Jadwal proyek, Anda harus mengatur kalender proyek yang men
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

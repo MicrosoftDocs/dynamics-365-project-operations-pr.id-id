@@ -44,3 +44,6 @@ Topik berikut menyediakan informasi lebih lanjut tentang fungsi kuotasi, harga, 
 - [Grup unit dan unit](advanced-units.md)
 - [Mata uang multi-unit](advanced-currency.md)
 - [Mencatat nilai aktual](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

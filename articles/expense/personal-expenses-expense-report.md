@@ -28,3 +28,6 @@ Ada dua metode yang dapat Anda gunakan untuk menangani pengeluaran pribadi karya
   - **Dibayar oleh perusahaan**: Organisasi Anda membayar tagihan penuh untuk kartu kredit korporasi, kemudian mendebit akun pekerja untuk pengeluaran pribadi.
 
 Anda dapat memilih metode yang digunakan organisasi pada halaman **parameter manajemen pengeluaran**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

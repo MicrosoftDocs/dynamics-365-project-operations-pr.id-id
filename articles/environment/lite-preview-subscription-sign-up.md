@@ -91,3 +91,6 @@ Ulangi langkah yang sama seperti dengan kode penawaran pertama. Pastikan untuk m
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instal konfigurasi CDS dan data demo konfigurasi
 
 Instal konfigurasi CDS dan konfigurasikan data demo dengan mengikuti petunjuk dalam topik, [terapkan konfigurasi demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

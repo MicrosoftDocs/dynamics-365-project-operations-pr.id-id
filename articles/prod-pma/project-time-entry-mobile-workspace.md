@@ -113,3 +113,6 @@ Men-download dan menginstal aplikasi seluler Finance and Operations:
 11. Pilih properti baris.
 12. Opsional: Masukkan Komentar eksternal dan internal.
 13. Pilih **Selesai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

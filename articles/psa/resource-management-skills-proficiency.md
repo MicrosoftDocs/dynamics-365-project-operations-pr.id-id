@@ -48,3 +48,6 @@ Keahlian untuk sumber daya dinilai berdasarkan model kecakapan. Peringkat indivi
 > ![Peringkat minimum dan maksimum ditentukan](media/Resource-Management-image85.png)
 
 Nilai peringkat ini ditampilkan pada **persyaratan sumber daya**, **papan jadwal**, dan filter **asisten jadwal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Jika Anda menggunakan peramalan proyek, Anda dapat mengidentifikasi model sebaga
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

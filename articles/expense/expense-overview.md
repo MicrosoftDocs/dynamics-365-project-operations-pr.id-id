@@ -44,3 +44,6 @@ Untuk informasi lebih lanjut, lihat [entri pengeluaran (sederhana)](basic-expens
 
 ## <a name="determine-your-expense-deployment"></a>Menentukan penyebaran pengeluaran Anda
 Untuk menentukan apakah Anda menjalankan penyebaran manajemen pengeluaran dasar, Verifikasikan bahwa URL alamat diakhiri dengan **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

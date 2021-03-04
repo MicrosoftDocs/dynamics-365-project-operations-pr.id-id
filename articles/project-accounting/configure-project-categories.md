@@ -53,3 +53,6 @@ Kategori proyek mewakili tingkat konfigurasi kategori yang paling rinci dan haru
 Grup kategori digunakan untuk berbagi properti, terutama profil posting, antara kategori proyek terkait. Harus ada minimal satu grup kategori untuk setiap jenis transaksi dan setiap kategori proyek diberi grup.
 
 Spesifikasi posting dalam Project Operations ditentukan berdasarkan aturan profil biaya proyek dan pendapatan, kategori proyek, dan grup kategori. Anda dapat mengkonfigurasi grup kategori dengan membuka **manajemen proyek dan akuntansi** \> **Penyiapan** \> **Kategori** \> **Grup kategori**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

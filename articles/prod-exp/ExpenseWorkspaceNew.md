@@ -78,3 +78,6 @@ Fitur berikut ada di halaman lama namun belum ada di halaman baru. Fitur ini aka
 - Alur kerja tingkat baris
 - Dukungan pemberi persetujuan sementara
 - Itemisasi lanjutan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,5 @@ Sebagai manajer proyek, selesaikan langkah berikut untuk mengedit persyaratan su
 ## <a name="edit-resource-assignment-contours"></a>Edit kontur penetapan sumber daya
 
 Selain mengedit rincian persyaratan sumber daya, manajer proyek dapat memperbarui kontur individu dari persyaratan sumber daya menggunakan fungsi **Tentukan pola**. Bila **Tentukan pola** dipilih, halaman akan terbuka dan Anda dapat melihat kontur pada skala waktu hari, pekan, atau bulan. Setiap kontur dapat disesuaikan untuk waktu mulai, waktu berakhir, dan Total usaha dalam periode tertentu.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

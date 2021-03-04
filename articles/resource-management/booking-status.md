@@ -20,3 +20,6 @@ ms.locfileid: "4514540"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 Anda dapat menggunakan fungsi yang disediakan Universal Resource Scheduling agar Dynamics 365 Field Service mengonfigurasi status pemesanan untuk organisasi Anda. Untuk informasi tentang cara menyelesaikan pengaturan ini, lihat [Mengonfigurasi status pemesanan](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

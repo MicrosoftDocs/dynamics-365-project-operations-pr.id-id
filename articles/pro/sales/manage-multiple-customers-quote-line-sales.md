@@ -43,3 +43,6 @@ Tabel berikut menampilkan bidang pada pada rekaman pelanggan baris kuotasi dari 
 Anda dapat mengedit persentase pembagian penagihan secara in-line. Bila persentase pembagian penagihan tidak Total 100%, kesalahan akan terjadi. Setelah mengedit persentase pembagian penagihan, segarkan halaman baris kuotasi untuk menghilangkan kesalahan.
 
 Gunakan tindakan mendistribusikan merata pada subkisi pelanggan baris kuotasi untuk mengalokasikan pembagian penagihan ke semua pelanggan baris kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan, yang berarti rekaman pelanggan baris kuotasi memiliki peringatan tentang pembulatan yang diatur ke **ya**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Topik ini menjelaskan parameter yang mengontrol perilaku umum dalam manajemen pe
 | Tampilkan pengesahan anti-korupsi   | Pilih pilihan ini untuk menampilkan teks antikorupsi saat laporan pengeluaran dibuat. Kategori pengeluaran tertentu kemudian dapat diaktifkan yang akan memerlukan pengesahan antikorupsi untuk dipilih pada laporan pengeluaran. Misalnya, kategori hadiah yang terkait dengan pengeluaran resmi pemerintah mungkin mengharuskan karyawan mengkonfirmasi bahwa pengeluaran tersebut memenuhi kebijakan perusahaan yang terkait dengan pejabat pemerintah. |
 | Pesan antikorupsi untuk pemohon | Masukkan teks yang akan ditampilkan kepada karyawan yang membuat laporan pengeluaran. Untuk memasukkan teks spesifik bahasa yang akan ditampilkan, berdasarkan bahasa pengguna, pilih **terjemahan**. |
 | Pesan antikorupsi untuk pemberi persetujuan  | Masukkan teks yang akan ditampilkan kepada pemberi persetujuan ketika laporan pengeluaran dibuat. Untuk memasukkan teks spesifik bahasa yang akan ditampilkan, berdasarkan bahasa pengguna, pilih **terjemahan**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

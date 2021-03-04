@@ -149,3 +149,6 @@ Tabel berikut Menampilkan rekaman di entitas koneksi transaksi untuk alur kerja 
 | Koreksi faktur draft       | GUID Transaksi Baris Faktur | Mengganti          | msdyn_invoicelinetransaction | GUID Penjualan Tertagih            | Asli           | msdyn_actual       |
 | Konfirmasi Koreksi faktur     | GUID Pembalikan penjualan tertagih    | Balik          | msdyn_actual                 | GUID Penjualan Tertagih            | Asli           | msdyn_actual       |
 | GUID Aktual penjualan Belum Tertagih Baru | Mengganti                     | msdyn_actual       | GUID Penjualan Tertagih            | Asli                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Asisten jadwal akan ditampilkan dan difilter berdasarkan persyaratan. Pilih sumb
 > ![Sumber Daya Dipilih](media/Resource-Management-image61.png)
 
 Anggota tim generik digantikan dengan sumber daya bernama yang telah dipesan secara definitif pada tim proyek dan penetapan tugas dalam jadwal proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

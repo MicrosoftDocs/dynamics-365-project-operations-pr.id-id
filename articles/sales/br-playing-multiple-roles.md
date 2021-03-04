@@ -106,3 +106,6 @@ Saat Anda memperluas baris untuk record anggota tim tersebut, Anda dapat melihat
 ### <a name="estimates-grid"></a>Kisi Perkiraan 
 
 Di kiri **Estimasi**, kedua tugas untuk sumber daya yang sama memiliki harga berbeda. Tugas untuk sumber daya pada **Tugas A** dihargai menggunakan nilai atribut **Peran** dari **Prospek Konsultasi**. Tugas untuk sumber daya yang sama pada **Tugas B** dihargai menggunakan nilai atribut **Peran** dari **Teknisi Jaringan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

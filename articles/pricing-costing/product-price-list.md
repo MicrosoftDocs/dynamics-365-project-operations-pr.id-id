@@ -58,3 +58,6 @@ Entitas kontrak proyek, peluang, dan kuotasi menggunakan urutan berikut untuk me
 Secara default, bidang **produk** pada baris kuotasi mencantumkan semua produk aktif dalam daftar harga produk kuotasi. Jika produk telah diaktifasi, atau jika produk tersebut adalah produk draf, maka produk tersebut tidak terdaftar, meskipun di dalam daftar harga. 
 
 Baris Katalog Produk ditambahkan sebagai baris faktur pada faktur pertama yang dibuat untuk kontrak proyek. Pada faktur draf, baris faktur tersebut dapat dihapus. Dalam kasus tersebut, baris akan muncul pada faktur berikutnya hingga ditagih, atau hingga faktur dikirim ke pelanggan. Anda tidak dapat menagih kuantitas parsial baris faktur produk. Saat lini produk dari kontrak proyek ditagih, nilai aktual dibuat. Namun, aktual tersebut tidak ditautkan ke entitas proyek terkait. Dengan kata lain, baris kontrak proyek berbasis produk terlepas dari penggunaan berbasis proyek. Konsumsi material pada proyek tidak dilacak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

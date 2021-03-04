@@ -79,3 +79,6 @@ Untuk membuat template biaya, ikuti langkah-langkah berikut:
 7. Di tab **Kategori**, pilih kategori proyek yang akan disertakan pada baris template biaya.
 8. Di tab **Umum**, pilih apakah baris ini akan disertakan dalam persentase perhitungan penyelesaian.
 9. Pilih biaya untuk menyelesaikan metode yang akan digunakan saat menghitung persentase penyelesaian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

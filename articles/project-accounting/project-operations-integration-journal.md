@@ -55,3 +55,6 @@ Hanya atribut akuntansi berikut dapat diperbarui di baris jurnal integrasi Proje
 Integrasi baris jurnal dapat dihapus, namun setiap baris yang belum diposting akan dimasukkan ke dalam jurnal lagi setelah Anda jalankan kembali proses periodik **impor dari penahapan**.
 
 Ketika Anda memposting jurnal integrasi, transaksi buku besar pembantu proyek dan buku besar umum dibuat. Ini digunakan di faktur pelanggan hilir, pengakuan pendapatan dan pelaporan keuangan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

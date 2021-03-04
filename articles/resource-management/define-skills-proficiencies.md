@@ -42,3 +42,6 @@ Keahlian untuk sumber daya dinilai berdasarkan model kecakapan. Peringkat indivi
 
 
 Nilai peringkat ini ditampilkan pada **persyaratan sumber daya**, **papan jadwal**, dan filter **asisten jadwal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Karena Dynamics 365 Project Service Automation menggunakan mesin Universal Resou
 Untuk melihat rincian lebih lanjut tentang sumber daya individual, klik kanan untuk membuka kartu sumber daya.
 
 ![Kartu Sumber Daya](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

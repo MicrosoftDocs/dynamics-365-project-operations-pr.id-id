@@ -200,3 +200,6 @@ Bila Anda melihat waktu di tingkat yang lebih tinggi, sel dalam tab **rekonsilia
 Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan, pada formulir **proyek**, pada tab **rekonsiliasi**, pilih kekurangan Pemesanan, lalu pilih **Perluas Pemesanan**. Kotak dialog **Perluas Pemesanan** muncul dan menunjukkan Pemesanan yang diperlukan untuk mengatasi kekurangan sumber daya. Kotak dialog juga menampilkan Pemesanan sumber daya yang ada di seluruh proyek atau entitas yang dapat dijadwalkan lainnya. Jika Anda memilih **OK** untuk membuat pemesanan untuk sumber daya, terlepas dari ketersediaan sumber daya tersebut, Anda dapat menyebabkan pemesanan berlebihan.
 
 Manajer proyek atau manajer sumber daya kemudian dapat menggunakan papan jadwal untuk mengelola setiap situasi dengan sumber daya yang dipesan berlebihan di luar kapasitasnya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

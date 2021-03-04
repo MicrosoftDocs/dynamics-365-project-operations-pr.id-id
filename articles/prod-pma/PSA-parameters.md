@@ -47,3 +47,6 @@ Untuk membuka halaman **parameter integrasi Project Service Automation** , buka 
 | Default jenis penagihan  | Jenis Penagihan         | Klik **baru** untuk menambahkan baris di mana Anda dapat memilih jenis penagihan untuk mengatur properti baris default-nya. Jenis penagihan tertentu dapat dipilih hanya satu kali di konfigurasi. |
 |                        | Properti baris        | Pilih properti baris default untuk jenis penagihan yang dipilih. Bila perkiraan jam baru, perkiraan pengeluaran baru, atau aktual baru akan disinkronisasi dari Project Service Automation, bidang **properti baris** diatur ke nilai default untuk jenis penagihan. |
 | Penguncian fungsi  | Tidak berlaku       | Pilih fungsi yang akan dinonaktifkan di Finance untuk proyek dan kontrak yang berasal dari Project Service Automation. Misalnya, Anda dapat menonaktifkan kemampuan untuk mengedit kontrak dan proyek, membuat struktur rincian kerja, dan memasukkan lembar waktu di Finance. Bidang yang terkait dengan akuntansi akan terus diaktifkan, meskipun dibuat tidak tersedia oleh pengaturan parameter. Secara default, Semua fungsi diaktifkan. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

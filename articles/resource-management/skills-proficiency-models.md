@@ -43,3 +43,5 @@ Menambahkan karakteristik pada persyaratan sumber daya memungkinkan Anda mendoku
 3. Di subkisi **keterampilan**, pilih **+ Tambah karakteristik persyaratan baru.**
 4. Di panel buat cepat, Cari dan pilih karakteristik yang diperlukan dan tambahkan **nilai rating**.
 5. Pilih **Simpan & Tutup**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

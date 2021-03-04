@@ -198,3 +198,6 @@ Aktual penjualan yang ditagih untuk jumlah tonggak pencapaian pada tonggak asli 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

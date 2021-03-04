@@ -146,3 +146,6 @@ Tabel berikut ini memberikan daftar lengkap dari tampilan dan formulir bawaan, m
 |  Aktual|• Informasi<br>• Aktual Aktif|• Tampilan Terkait Aktual|
 
 Bidang kustom juga mungkin harus ditambahkan pada aturan Bisnis, tergantung pada yang Anda tentukan. Satu instans Bawaan adalah untuk **editabilitas aturan bisnis dari entri waktu berdasarkan status**. Aturan ini menentukan bidang yang harus dikunci saat entri waktu berada dalam status tidak dapat diedit seperti **disetujui**. Tambahkan bidang ke aturan bisnis ini sehingga bidang terkunci untuk diedit saat entri waktu berada dalam status selain **draf** atau **Dikembalikan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

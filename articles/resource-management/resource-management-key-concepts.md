@@ -35,3 +35,6 @@ Sumber daya adalah aset terpenting dari organisasi berbasis layanan. Kemampuan u
 
 
 Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau bernama di Project Operations. Anda dapat menggunakan berbagai metode untuk menambah dan menetapkan anggota tim serta mengelola Pemesanan dan tugas. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

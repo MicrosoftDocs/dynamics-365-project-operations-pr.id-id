@@ -77,3 +77,6 @@ Contoh berikut menunjukkan tarif tagihan yang diatur berdasarkan peran dan unit 
 | ----------------|-------------|----------|----------:|----------|
 | Perusahaan saya_Band1 | Contoso AS  |Hour | 145|USD     |
 | Perusahaan saya_Band2 | Aswono India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

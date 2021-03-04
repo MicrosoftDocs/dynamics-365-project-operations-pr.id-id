@@ -89,3 +89,6 @@ Kuotasi Project Operations dibuat berdasarkan kuotasi Dynamics 365 Sales. Namun,
 - Kuotasi Project Operations memiliki formulir dan elemen UI sendiri, aturan Bisnis, logika bisnis di plug-in, dan skrip sisi klien yang membuatnya unik dari kuotasi Sales.
 
 Untuk alasan ini, tidak disarankan untuk menggunakan kuotasi Sales dan kuotasi Project Operations secara bergantian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

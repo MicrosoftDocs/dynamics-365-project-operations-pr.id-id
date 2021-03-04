@@ -82,3 +82,6 @@ Properti **Jumlah pengguna** dan **Jumlah bulan** dapat ditandai sebagai faktor 
 
 > ![Menandai Jumlah pengguna dan Jumlah bulan sebagai faktor kualitas](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

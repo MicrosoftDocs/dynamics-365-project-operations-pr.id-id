@@ -65,3 +65,6 @@ Proses penjualan peluang dalam Project Operations adalah perpanjangan ke alur bi
 > Jika perjanjian berbasis proyek Anda dimulai dengan peluang, proses penjualan peluang lebih diutamakan.
 
 Anda dapat mengedit alur proses bisnis produk atau membuat alur proses bisnis Anda sendiri untuk melacak proses penjualan Anda sesuai kebutuhan. Untuk informasi lebih lanjut tentang alur proses bisnis, lihat [Ikhtisar alur proses bisnis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

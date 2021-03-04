@@ -43,3 +43,6 @@ Masalah berikut telah diperbaiki:
 
 - Tanggal akhir diisi secara otomatis saat entri waktu dibuat jika durasi kosong.
 - Pengguna dapat mengubah tugas di entri waktu yang telah disetujui atau diajukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

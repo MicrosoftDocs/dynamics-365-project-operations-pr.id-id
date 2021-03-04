@@ -84,3 +84,6 @@ Dalam daftar harga biaya untuk Fabrikam UK-Robotics, tarif biaya dapat dinyataka
 | Pengembang | Fabrikam UK | 115 GBP |
 
 Daftar harga biaya dapat memberikan tarif tenaga kerja dalam beberapa mata uang. Saat menghasilkan estimasi biaya pada proyek, Project Operations akan mengonversi tarif biaya ini ke dalam mata uang proyek, dan menampilkannya kepada pengguna. Ketika entri waktu disetujui dan biaya aktual dibuat, biaya aktual dihargai dalam mata uang dari baris harga peran yang cocok pada daftar harga biaya. Biaya aktual untuk waktu pada satu proyek dapat dicatat dalam beberapa mata uang. Namun, ketika mengakumulasikan atau meringkas biaya tenaga kerja aktual di tingkat proyek, Project Operations akan mengonversi semua jumlah biaya tenaga kerja ke dalam mata uang proyek, yang dapat dilihat pengguna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

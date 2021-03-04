@@ -41,3 +41,6 @@ Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berik
 | **Manajemen peluang** | 2040713 | Memperbaiki kesalahan skrip yang terjadi saat membuat faktur dari kontrak dan Field Service diinstal. |
 | **Perencanaan dan Pelacakan Proyek** | 2090202 | Menandai aturan bisnis yang tidak lagi digunakan sebagai **tidak digunakan lagi**. |
 | **Waktu dan Pengeluaran** | 2091249 | Memperketat kontrol sehingga pengguna tidak dapat mengubah tugas pada entri waktu yang telah diajukan atau disetujui. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Di Dynamics 365 Project Service Automation versi 3.0, tampilan waktu dan pengelu
 Sebelumnya, tampilan kalender dan kisi untuk waktu dan pengeluaran diterapkan sebagai kontrol DHTMLX. Artefak yang terkait dengan penerapan tampilan kalender dan kisi sekarang sudah usang (ditolak).
 
 Untuk daftar lengkap sumber daya yang ditolak, lihat [sumber daya web yang ditolak dalam Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

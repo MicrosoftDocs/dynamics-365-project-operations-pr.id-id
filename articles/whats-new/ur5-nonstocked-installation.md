@@ -125,3 +125,6 @@ Pembaruan berikut pada hak istimewa keamanan entitas diperlukan sebagai bagian d
  
  ![Sinkronisasi peta buku besar](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

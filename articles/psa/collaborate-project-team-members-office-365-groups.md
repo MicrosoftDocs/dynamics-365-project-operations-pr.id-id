@@ -43,3 +43,6 @@ Dengan [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], Anda dapat b
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

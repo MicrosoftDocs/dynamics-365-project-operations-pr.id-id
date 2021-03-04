@@ -81,3 +81,6 @@ Masalah berikut telah diperbaiki:
 - Tombol **refresh aktual** salah menghitung tugas ringkasan.
 - Add-In Microsoft Project: Memperbaiki kesalahan referensi null jika salah satu anggota tim memiliki unit sumber daya kosong.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Bila Anda menyalin seluruh baris perkiraan proyek, daftar harga akan diperbarui.
 ### <a name="copying-a-project-team"></a>Menyalin tim proyek
 
 Bila Anda menyalin tim proyek dari template proyek untuk sebuah proyek, sumber daya generik akan disalin di seluruhnya, bersama dengan keterampilan dan penguasaan yang didefinisikan dalam template. Tugas sumber generik juga dikelola seperti template proyek. Sumber daya bernama tidak didukung dalam template proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

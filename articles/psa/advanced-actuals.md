@@ -34,3 +34,6 @@ ms.locfileid: "5145722"
 Semua transaksi keuangan yang terjadi selama proyek dicatat. Transaksi ini direkam sebagai **aktual** Tabel berikut Menampilkan jenis aktual yang berbeda yang dibuat, tergantung apakah proyek adalah proyek waktu dan bahan atau proyek harga tetap, dalam tahap pra-penjualan, atau merupakan proyek internal.
 
 > ![Tabel yang menunjukkan bagaimana aktual direkam](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Ada dua cara manajer proyek dapat melakukan proyeksi ulang upaya pada tugas:
 - Menimpa persentase kemajuan default dengan perkiraan baru dari kemajuan sebenarnya pada tugas.
 
 Masing-masing pendekatan ini menyebabkan penghitungan ulang dari ETC, estimasi untuk menyelesaikan (EAC) tugas, dan persentase progres, serta proyeksi varians upaya pada tugas. EAC, ETC, dan persentase kemajuan pada ringkasan tugas dihitung ulang, dan menghasilkan proyeksi baru dari varians upaya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

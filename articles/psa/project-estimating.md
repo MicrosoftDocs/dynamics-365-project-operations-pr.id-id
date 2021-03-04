@@ -97,3 +97,6 @@ Di tampilan kisi dan tampilan berdasar waktu, Anda dapat memilih bidang yang aka
 ## <a name="expense-estimates"></a>Perkiraan pengeluaran
 
 Tombol **Tambah perkiraan biaya baru** di tampilan kisi memungkinkan Anda merekam setiap pengeluaran yang terjadi dalam proyek, namun yang tidak terkait langsung dengan tenaga kerja. Anda dapat merekam perkiraan pengeluaran untuk tugas tertentu atau untuk seluruh proyek. Pilih kategori pengeluaran dan tanggal tentatif bila Anda memperkirakan akan dikenakan biaya. Jika harga biaya yang terkait dan daftar harga penjualan memiliki harga default (atau persentase markup yang didefinisikan untuk kategori pengeluaran) mereka otomatis dimasukkan pada baris perkiraan saat asosiasi terjadi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

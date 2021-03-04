@@ -57,3 +57,6 @@ Panel filter menampilkan pilihan yang terkait dengan pekerjaan, termasuk:
 -   Perusahaan Pencari Sumber Daya
 -   Jenis Sumber Daya
 -   Sumber Daya Pilihan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

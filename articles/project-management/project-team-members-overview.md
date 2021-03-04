@@ -60,3 +60,6 @@ Dari kisi anggota tim, tindakan berikut dapat diambil:
 
 - **Baru** Selain menambahkan sumber daya langsung dari jadwal, manajer proyek dapat menambahkan anggota tim baru bernama atau generik dari kisi anggota tim.
 - **Hapus**: dengan memilih satu atau beberapa anggota tim, manajer proyek dapat menghapus sumber daya yang tidak lagi akan berpartisipasi dalam proyek. Menghapus anggota tim juga akan menghapus semua tugas sumber daya terkait dan membatalkan semua Pemesanan yang ada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

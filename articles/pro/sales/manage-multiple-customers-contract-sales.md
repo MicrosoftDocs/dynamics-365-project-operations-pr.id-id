@@ -52,3 +52,6 @@ Pelanggan kontrak dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan** 
 Persentase pemecahan penagihan dapat diedit dengan pengalaman pengeditan kisi inline. Bila persentase pemecahan penagihan tidak berjumlah Total 100 persen, kesalahan akan terjadi. Setelah Anda mengedit persentase pemecahan penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
 Anda juga dapat memilih **mendistribusikan secara merata** pada subkisi **pelanggan kontrak** untuk mengalokasikan pemecahan tagihan secara merata ke semua pelanggan kontrak. Jika ada faktor pembulatan, maka akan ditambahkan ke pelanggan pembulatan. Salah satu dari pelanggan kontrak selalu ditandai sebagai pelanggan **pembulatan**, yang berarti bahwa rekaman pelanggan kontrak memiliki rangkaian bendera pembulatan yang diatur ke **ya**. Biasanya, ini adalah pelanggan utama kontrak, namun juga dapat diubah.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner peny
 
 Untuk penyebaran ini, lihat [pendaftaran untuk langganan pratinjau](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) dan [penyediaan lingkungan baru](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

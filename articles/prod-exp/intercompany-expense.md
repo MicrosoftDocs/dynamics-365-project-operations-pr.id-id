@@ -35,3 +35,6 @@ Sebelum pekerja dapat membuat dan mengirimkan pengeluaran antarperusahaan, Anda 
 
 Sebelum Anda dapat menggunakan grup pajak yang terkait dengan entitas hukum yang meminjamkan (sumber), bukan entitas hukum peminjam (tujuan) dalam laporan pengeluaran, Anda harus mengaktifkan fungsi dalam konfigurasi pajak penjualan buku besar umum. Bila **entitas hukum untuk parameter posting pajak antarperusahaan** diatur ke **Sumber** dan **Terapkan aturan perpajakan pajak penjualan** diatur ke **Tidak**, kombinasi pajak untuk entitas hukum yang meminjamkan digunakan. Bila parameter yang sama diatur ke **tujuan**, kombinasi pajak untuk entitas hukum peminjam akan digunakan. Untuk entitas hukum di Amerika Serikat, bila parameter diatur ke **sumber**, bidang **piutang pajak penjualan** juga harus dikonfigurasi pada halaman **grup posting buku besar** baru. Mesin akuntansi akan menggunakan informasi dari bidang ini untuk entri akuntansi terkait pajak.   
 Perilaku ini sesuai untuk baris pengeluaran yang diposting dengan atau tanpa proyek.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Untuk informasi lebih lanjut, lihat:
 - [Gambaran umum Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Ikhtisar Dynamics 365 Project Operations 2020 rilis gelombang 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

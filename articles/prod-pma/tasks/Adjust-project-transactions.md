@@ -44,3 +44,6 @@ Panduan tugas ini menunjukkan cara menyesuaikan transaksi pada proyek. Namun, An
 13. Di daftar, Tandai baris yang dipilih. 
 14. Di bidang harga biaya, masukkan angka. 
 15. Klik posting. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

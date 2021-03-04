@@ -48,3 +48,6 @@ Selanjutnya, Anda akan membuat struktur rincian kerja untuk proyek Anda untuk me
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

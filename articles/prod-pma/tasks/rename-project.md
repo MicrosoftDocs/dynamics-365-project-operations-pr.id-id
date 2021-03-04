@@ -35,3 +35,6 @@ Tahapan proyek dapat berfungsi sebagai panduan untuk siklus hidup proyek. Anda d
 4. Dalam daftar, pilih tahap standar atau yang ditentukan pengguna yang akan dimodifikasi. 
 5. Di bidang tahapan proyek, masukkan nama baru.
 6. Klik Simpan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

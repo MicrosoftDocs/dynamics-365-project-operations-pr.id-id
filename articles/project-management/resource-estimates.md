@@ -34,3 +34,6 @@ Harga penjualan diterapkan sekali per transaksi. Hierarki untuk daftar harga pen
 1. Organisasi
 2. Pelanggan
 3. Kuotasi/Kontrak
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

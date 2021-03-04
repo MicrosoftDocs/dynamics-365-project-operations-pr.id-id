@@ -68,3 +68,6 @@ Setiap organisasi harus mengkonfigurasi peran ini di halaman **kategori sumber d
 ## <a name="price-lists"></a>Daftar Harga
 
 Daftar harga memungkinkan Anda menetapkan biaya dan harga penjualan untuk peran sumber, kategori pengeluaran, produk, dan elemen lain dalam organisasi. Sebelum Anda membuat perkiraan keuangan untuk pekerjaan yang harus dilaksanakan untuk proyek, Anda harus membuat daftar harga biaya dan penjualan cadangan. Di bagian parameter, Anda juga harus mengkonfigurasi daftar harga dan harga penjualan default yang berlaku untuk semua proyek yang dibuat di organisasi. Pada halaman **parameter proyek aktif**, pastikan Anda mengkonfigurasi daftar biaya dan harga penjualan default.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

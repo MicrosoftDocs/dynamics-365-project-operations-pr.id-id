@@ -39,3 +39,6 @@ Selesaikan langkah-langkah berikut untuk menagih pelanggan untuk uang muka.
     | **Status Faktur** | Ini adalah pengaturan pilihan yang menunjukkan apakah uang muka ini ditambahkan ke draf faktur untuk pelanggan ini. Nilai yang mungkin adalah:</br>- **Belum siap dibuatkan faktur**</br>- **Siap dibuatkan faktur** | Bila uang muka atau pra-pembayaran ditandai sebagai **siap faktur**, maka ditambahkan sebagai waktu baris pada faktur draft. Hanya uang muka yang sepenuhnya ditagih yang dapat digunakan untuk rekonsiliasi dengan biaya proyek untuk periode faktur berikutnya. |
 
 4. Pilih **Simpan dan tutup** di dialog buat cepat untuk merekam uang muka atau pembayaran di awal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

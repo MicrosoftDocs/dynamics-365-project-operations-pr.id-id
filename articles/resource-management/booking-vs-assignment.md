@@ -26,3 +26,6 @@ Tidak seperti pemesanan, penetapan adalah komitmen sumber daya untuk tugas proye
 Biasanya, jumlah pemesanan untuk sumber daya akan sama dengan jumlah penetapan sumber daya di satu atau banyak tugas. Namun, Project Operations tidak menegakkan Perjanjian ini. Tampilan **rekonsiliasi** menunjukkan manajer proyek tempat di mana Pemesanan sumber daya dan penetapan tidak sesuai.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

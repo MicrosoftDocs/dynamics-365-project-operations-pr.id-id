@@ -43,3 +43,6 @@ Jika kuotasi proyek yang ditutup sebagai hilang kalah memiliki proyek yang diruj
 
 > [!NOTE]
 > Dalam Project Operations, penutupan kuotasi karena menang atau kalah tidak akan memengaruhi status peluang, yang akan tetap terbuka hingga ditutup secara manual.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

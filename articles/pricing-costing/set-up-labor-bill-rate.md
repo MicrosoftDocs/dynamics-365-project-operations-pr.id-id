@@ -55,3 +55,6 @@ Contohnya, seorang pengembang dari Divisi Robotika fabrikam India yang bekerja p
     | Pengembang | Fabrikam AS | Fabrikam AS-Robotika | $150 |
 
 3. Lampirkan daftar harga penjualan, **tarif tagihan Fabrikam AS** ke daftar harga proyek dari kontrak proyek atau ke akun tertentu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

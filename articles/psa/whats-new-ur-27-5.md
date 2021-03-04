@@ -42,3 +42,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
 Masalah berikut telah diperbaiki:
 
 - Menjadwalkan degradasi kinerja pencarian bantuan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

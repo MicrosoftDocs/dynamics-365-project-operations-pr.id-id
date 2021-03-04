@@ -54,3 +54,6 @@ Untuk informasi selengkapnya tentang manajemen Proyek dan akuntansi di Dynamics 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
 Untuk informasi tentang pembaruan wajib untuk aplikasi Finance and Operations, lihat [pembaruan wajib](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Sumber daya yang ditetapkan dengan cara ini ditambahkan ke tim tanpa pemesanan. 
 
 3. Pilih sumber daya yang akan ditetapkan ke tugas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

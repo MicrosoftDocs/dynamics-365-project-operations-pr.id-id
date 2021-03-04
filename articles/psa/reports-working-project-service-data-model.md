@@ -123,3 +123,6 @@ Saat Anda bekerja dengan entitas **aktual**, penting bagi Anda untuk memahami tr
 Entitas **asal transaksi** merekam asal rekaman **aktual**, dan entitas **sambungan transaksi** merekam rekaman terkait untuk rekaman **aktual**. Selain itu, rekaman **aktual** berisi referensi proyek, kontrak proyek (pesanan), sumber daya dapat dipesan, dan pelanggan.
 
 ![Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual](media/PS-Reporting-image6.png "Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

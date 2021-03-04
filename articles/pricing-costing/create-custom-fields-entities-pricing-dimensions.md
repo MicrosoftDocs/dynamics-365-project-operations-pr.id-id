@@ -77,3 +77,6 @@ Anda dapat membuat data untuk dimensi berbasis entitas secara manual atau dengan
 5. Ulangi langkah 1-3 untuk membuat judul standar lain untuk "senior Systems Engineer".
 
 > ![Data sampel untuk entitas Judul Standar](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

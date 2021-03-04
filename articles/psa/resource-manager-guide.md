@@ -73,3 +73,6 @@ Kemampuan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
  [Panduan Manajer Akun](../psa/account-manager-guide.md)   
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)   
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

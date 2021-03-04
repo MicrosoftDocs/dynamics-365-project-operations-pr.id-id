@@ -62,3 +62,6 @@ Masalah berikut telah diperbaiki:
 - Izin daftar **harga unit organisasi** tumpang tindih di efektivitas tanggal.
 - Pengguna tidak diizinkan untuk mengubah **orgunit** saat jenis pesanan tidak berbasis pekerjaan karena akan menyebabkan kesalahan pengecualian referensi kosong.
 - Saat mencoba menavigasi dari formulir **rincian baris kuotasi**, kembali ke tab **kuotasi**, formulir akan menyegarkan dan menampilkan tab **ringkasan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Setelah beberapa kali entri dibuat, pengguna dapat membuat beberapa entri waktu 
 
 ## <a name="import"></a>Impor
 Proses dasar yang sama digunakan untuk mengimpor dari Pemesanan, tugas, dan pertukaran. Anda dapat menentukan rentang tanggal Pemesanan untuk diimpor, lalu secara eksplisit memilih Pemesanan yang harus disalin ke entri waktu draf. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

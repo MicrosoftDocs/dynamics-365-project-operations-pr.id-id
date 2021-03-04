@@ -94,3 +94,6 @@ Pengaturan prioritas dimensi akan membantu harga project service menghasilkan ha
 
 - **Prioritas biaya**: nilai prioritas biaya dimensi akan menunjukkan bobot dimensi saat mencocokkan dengan penyiapan harga biaya. Nilai **prioritas biaya** harus unik di seluruh dimensi yang **berlaku untuk biaya**.
 - **Prioritas penjualan**: nilai prioritas biaya dimensi penjualan akan menunjukkan bobot dimensi saat mencocokkan dengan penyiapan harga penjualan atau tingkat tagihan. Nilai **prioritas penjualan** harus unik di seluruh dimensi yang **berlaku untuk penjualan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

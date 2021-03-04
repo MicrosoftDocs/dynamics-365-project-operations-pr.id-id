@@ -101,3 +101,6 @@ Jika Anda tidak melihat pemanfaatan dikenakan biaya, berikut adalah beberapa hal
   - Peran pada baris kontrak proyek yang mendukung proyek telah ditetapkan untuk tidak dikenakan biaya.
   - Proyek tidak memiliki baris kontrak terkait.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

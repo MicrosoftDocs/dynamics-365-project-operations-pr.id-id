@@ -44,3 +44,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk V3, pemb
 - Diperbaiki Menangani template jam kerja 24 jam yang secara tidak akurat menambahkan hari tambahan ke tugas.
 - Diperbaiki: Menangani + 13 GMT template jam kerja secara tidak akurat mengalihkan tugas satu hari ke depan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

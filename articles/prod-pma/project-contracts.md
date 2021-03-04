@@ -344,3 +344,6 @@ Selama bulan pertama, Total 800 jam dicatat dicatat oleh konsultan pada proyek. 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

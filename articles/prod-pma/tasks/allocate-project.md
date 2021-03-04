@@ -44,3 +44,6 @@ Setelah revisi anggaran atau anggaran telah dialokasikan, Anda dapat meninjau ju
 10. Bila alokasi adalah cara yang Anda inginkan, klik Kirim di halaman anggaran proyek untuk mengirim revisi anggaran atau anggaran ke alur kerja persetujuan.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

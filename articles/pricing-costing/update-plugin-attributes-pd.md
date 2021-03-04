@@ -52,3 +52,6 @@ Lakukan langkah-langkah berikut untuk memperbarui dan mendaftarkan ulang plug-in
 7. Pilih **OK** untuk menutup halaman, lalu pilih **Perbarui Langkah**.
 8. Ulangi langkah 2-7 untuk plug-in kedua, **PreOperationQuoteLineDetail**. Untuk plug-in ini, Anda harus memperbarui langkah **Pembaruan msdyn_quotelinetransaction**.
 9. Tutup **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

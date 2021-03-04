@@ -77,3 +77,6 @@ Masalah berikut telah diperbaiki:
 - Logika **resolusi daftar harga penjualan** menangani zona waktu dengan tidak baik, sehingga pilihan daftar harganya salah.
 - Biaya **total aktual proyek** dapat dinonaktifkan dengan jumlah pecahan setelah entri satu kali disetujui.
 - Logika **resolusi harga** tidak menyediakan pesan kesalahan yang mudah digunakan jika **Harga Peran yang Diperoleh** tidak memiliki nilai pada bidang **'unit utama'** dan **'harga di unit utama'**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

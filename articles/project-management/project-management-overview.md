@@ -26,3 +26,6 @@ Alat manajemen proyek dalam Dynamics 365 Project Operations membantu Anda menjal
 - Menggunakan perkiraan proyek selama proses penjualan.
 - Meramalkan kebutuhan sumber daya untuk proyek-proyek yang ada di alur.
 - Berhasil melaksanakan proyek dengan melacak perkembangan dan konsumsi biaya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

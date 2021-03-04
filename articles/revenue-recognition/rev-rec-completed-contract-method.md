@@ -90,3 +90,6 @@ Estimasi akan berubah status menjadi **Dihilangkan**.
 Gunakan halaman ini untuk membalik semua penghilangan dengan tanggal estimasi yang ditentukan dan dengan status estimasi **Dihilangkan**. Status transaksi berubah setelah Anda memilih bidang yang sesuai.
 
 Hal ini juga secara otomatis mengubah status proyek ke **Dalam proses** jika tahapan proyek diatur selesai. Status estimasi periode proyek berubah kembali ke **Diposting**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

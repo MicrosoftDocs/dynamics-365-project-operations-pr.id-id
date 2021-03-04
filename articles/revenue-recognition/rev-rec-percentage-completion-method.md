@@ -35,3 +35,6 @@ Untuk meninjau proyek estimasi pendapatan harga tetap, lakukan langkah-langkah b
 
   Biaya proyek, profil pendapatan, template biaya, dan kode periode dapat diatur secara manual. Jika tidak diatur secara manual, nilai default selama perhitungan estimasi pertama untuk proyek menggunakan aturan yang dikonfigurasi untuk profil pendapatan dan biaya proyek.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

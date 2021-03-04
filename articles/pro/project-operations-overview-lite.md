@@ -37,3 +37,6 @@ Gunakan jenis penyebaran ini jika ekspektasi Anda dari Project Operations adalah
 - Sistem terintegrasi yang mengelola proyek internal dan dapat ditagih untuk jadwal dan keuangan dari penjualan proyek hingga pemfakturan.
 - Sistem Perencanaan sumber daya perusahaan (ERP/akuntansi keuangan) pihak ketiga untuk diintegrasikan dengan Project Operations.
 - Sistem pihak ketiga untuk bekerja dengan pajak penjualan, nilai tukar, penggantian biaya pengeluaran, dan pengeluaran non-proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

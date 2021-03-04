@@ -57,3 +57,6 @@ Aturan: proyek dan kelas transaksi tertentu hanya dapat disertakan pada satu bar
 | C1       | CL2           | P1      | No           | Ya             | No          | Valid           | Waktu dan ongkos pada proyek P1 disertakan pada CL1. pengeluaran pada proyek P1 disertakan pada CL2. </br>   Tidak ada tumpang tindih dalam apa yang sedang dimasukkan pada setiap baris kontrak dan karena itu valid.  |
 | C1       | CL1           | P1      | Ya          | Ya             | Ya         | Tidak valid       | Melanggar aturan. Waktu, pengeluaran, dan ongkos pada proyek P1 disertakan pada baris dua kontrak.                                                                                               |
 | CL2      | CL2           | P1      | Ya          | Ya             | Ya         | Tidak valid       | Melanggar aturan. Waktu, pengeluaran, dan ongkos pada proyek P1 disertakan pada baris dua kontrak.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Setiap baris kontrak proyek yang memiliki metode penagihan harga tetap harus men
 Untuk meninjau tonggak waktu penagihan, buka **Sales** \> **tagihan** \> **tonggak waktu harga tetap**. Pilih tonggak waktu yang siap ditagih yang siap ditagih, lalu pilih **siap untuk faktur**. Status tagihan tonggak waktu ini diubah ke **siap untuk faktur**.
 
 ![Tonggak waktu Harga Tetap](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

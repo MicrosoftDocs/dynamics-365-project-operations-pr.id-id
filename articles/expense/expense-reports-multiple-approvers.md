@@ -41,3 +41,6 @@ Jika Anda memutuskan untuk meminta beberapa penyetuju laporan pengeluaran, Anda 
 
     1. Manajer karyawan menyetujui laporan pengeluaran.
     2. Pemilik anggaran menyetujui laporan pengeluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

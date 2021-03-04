@@ -61,3 +61,6 @@ Bila tim proyek disalin dari proyek sumber, sumber daya generik akan disalin. Tu
 Saat proyek disalin, baris sumber daya maupun perkiraan pengeluaran disalin dari proyek sumber. 
 
 Untuk informasi tentang cara mengakses salinan proyek secara programatik, lihat [mengembangkan template proyek dengan salinan proyek](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

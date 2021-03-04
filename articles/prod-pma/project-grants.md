@@ -79,3 +79,6 @@ Anda dapat membuat hibah dengan memasukkan semua rincian dalam rekaman baru, ata
 2. Pilih hibah untuk dimodifikasi.
 3. Pada panel tindakan, pada tab **Hibah** , di grup **Kelola** , pilih **Edit**.
 4. Tinjau rincian hibah, dan buat perubahan yang diperlukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

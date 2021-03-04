@@ -96,3 +96,6 @@ Untuk memastikan keberhasilan peningkatan, Relasi berikut harus dipelihara denga
 
 - Semua dependensi tugas proyek harus terkait dengan proyek yang sama.
 - Tugas tidak dapat memiliki dependensi yang sama yang dirujuk lebih dari satu kali.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Tabel berikut mencantumkan semua formulir dan tampilan siap pakai, berdasarkan e
 2. Pada halaman **Parameter**, di tab **Dimensi Harga Berbasis Jumlah**, pastikan kisi menampilkan record di entitas **Dimensi Harga**.
 3. Tambahkan **Kategori Transaksi** ke daftar ini dan atur bidang **Berlaku untuk Biaya** dan **Berlaku untuk Penjualan** ke **Ya**.
 4. Di bidang **Jenis Dimensi**, pilih **Berbasis jumlah**, lalu pilih prioritas untuk **Kategori Transaksi** yang terkait dengan biaya dan penjualan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Topik ini menjelaskan cara membuat model perkiraan untuk anggaran yang tersisa. 
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

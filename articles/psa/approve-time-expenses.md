@@ -47,3 +47,6 @@ Setelah konsultan memasukkan waktu dan biaya mereka untuk proyek, Anda harus men
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

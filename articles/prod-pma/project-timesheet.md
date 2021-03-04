@@ -96,3 +96,6 @@ Klik **kirim** untuk mengirim lembar waktu ke alur kerja persetujuan.
 ## <a name="review-timesheets"></a>Tinjau Lembar waktu
 
 Daftar lembar waktu yang perlu ditinjau akan tersedia dalam menu. Pilihan ini hanya tersedia jika Anda telah ditetapkan sebagai pemberi persetujuan alur kerja. Persetujuan header dan baris didukung. Persetujuan tingkat baris menawarkan kemampuan untuk menandai satu atau beberapa baris untuk disetujui. Setelah meninjau informasi lembar waktu, klik **setujui** , **Delegasikan** , atau **kembali** untuk melanjutkan alur kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

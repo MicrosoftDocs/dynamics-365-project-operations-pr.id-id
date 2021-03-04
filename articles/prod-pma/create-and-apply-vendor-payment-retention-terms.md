@@ -65,3 +65,6 @@ Setelah Anda membuat persyaratan retensi vendor, Anda dapat menerapkannya persya
 6. Jika proyek juga memiliki persyaratan bayar-saat-dibayar (PWP) yang diatur untuk vendor, masukkan persentase ambang batas untuk proyek di bidang **persentase ambang PWP**.
 
 Persyaratan retensi vendor juga ditampilkan pada pesanan pembelian yang Anda buat untuk vendor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

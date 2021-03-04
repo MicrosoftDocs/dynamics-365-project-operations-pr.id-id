@@ -51,3 +51,6 @@ Untuk menghapus estimasi proyek, itu harus diselesaikan. Langkah-langkah berikut
 5. Setelah proses eliminasi selesai, proyek estimasi yang dihapus ditampilkan dengan nilai negatif. 
 
 Jika Anda tidak bermaksud menghapus estimasi, Anda dapat memilih estimasi yang dihapus dan memilih **Balikkan eliminasi**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

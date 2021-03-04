@@ -68,3 +68,6 @@ Perhitungan profitabilitas mengkonversi jumlah rincian baris kontrak untuk **bia
 
 > [!NOTE]
 > Kesalahan membulatkan mata uang dan margin yang berubah dapat terjadi karena tidak ada nilai tukar efektif tanggal. Gunakan penghitungan ini pada kontrak proyek hanya sebagai perkiraan dan bukan untuk peraturan aktual atau pelaporan lainnya yang memerlukan ketepatan lebih tinggi dalam pembulatan dan kesadaran efektivitas tanggal untuk nilai tukar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ ms.locfileid: "5148962"
 
 Project Service Automation (PSA) tidak memungkinkan Anda menghapus aktual karena berfungsi sebagai sumber kebenaran untuk transaksi yang memiliki implikasi keuangan terhadap sistem hilir, seperti buku besar. Jika aktual dapat dihapus, integritas transaksi pelaporan keuangan dapat dipertanyakan. Untuk membuat jejak audit, pelanggan harus menggunakan jurnal untuk membuat transaksi kompensasi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

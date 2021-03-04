@@ -70,3 +70,6 @@ Otorisasi sekarang selesai.
 Anda telah berhasil terhubung langganan Azure Anda. Anda sekarang dapat menyebarkan lingkungan host Cloud Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

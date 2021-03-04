@@ -27,3 +27,6 @@ Anggota tim proyek membuat dan mengirimkan entri waktu untuk disetujui dan pembe
 
 Untuk informasi tentang cara membuat, mengirimkan, atau menarik entri, dan alat lain untuk membantu menyelesaikan pelaporan, lihat [perilaku pengguna entri waktu](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

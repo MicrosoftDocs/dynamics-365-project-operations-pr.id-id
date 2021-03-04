@@ -132,3 +132,6 @@ Anda harus menggunakan validasi plug-in untuk validasi yang memerlukan konteks l
 
 > [!IMPORTANT] 
 > Saat ini, masalah yang diketahui pada halaman TBX mencegah pengguna mengoreksi informasi dan memilih ulang Selesai saat pembaruan gagal dalam validasi plug-in. Untuk mengatasinya, konfigurasikan validasi aturan bisnis untuk mencegah situasi ini sebisa mungkin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

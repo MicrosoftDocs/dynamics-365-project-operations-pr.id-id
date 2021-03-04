@@ -440,3 +440,6 @@ Setelah pernyataan dihitung, Anda dapat melihat informasi berikut tentang berbag
 -   **Konsumsi** – informasi tentang konsumsi jam, item, pengeluaran, dan transaksi penggajian.
 -   **Faktur** -informasi tentang faktur dan faktur pada akun.
 -   **Tingkat jam** – tingkat jam untuk jam yang diposting ke akun pendapatan dan biaya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

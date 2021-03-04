@@ -24,3 +24,6 @@ Peluang proyek dapat ditutup sebagai menang atau kalah. Kotak dialog **tutup pel
 Anda tidak akan diizinkan untuk menutup peluang jika ada kuotasi aktif yang terkait dengannya. Anda dapat menutup semua kuotasi aktif dan draft yang terkait dengan peluang pada waktu yang sama. Kemudian, Anda akan diizinkan untuk menutup peluang.
 
 Untuk informasi umum lebih lanjut tentang menutup peluang, lihat [Menutup peluang sebagai menang atau kalah](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

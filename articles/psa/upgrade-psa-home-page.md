@@ -65,3 +65,6 @@ Mulai 1 Maret 2020, pelanggan Dynamics PSA tidak akan lagi dapat membuat lingkun
 
 > [!NOTE]
 > Untuk pengalaman terbaik saat Anda menggunakan versi lama dari aplikasi Field Service dan PSA, buka halaman **pengaturan sistem**, dan untuk bidang, bidang **gunakan Antarmuka Terpadu baru saja (disarankan)**, pilih **tidak** karena versi ini tidak dirancang untuk dimuat dengan benar di UCI. Setelah Anda telah menonaktifkan UCI, Anda dapat membuka dan menjalankan versi Field Service dan PSA menggunakan klien web lama. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

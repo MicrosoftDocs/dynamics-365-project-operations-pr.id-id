@@ -124,3 +124,6 @@ Misalnya, jika ada properti berikut:
 - **SKU Produk** 
 
 Properti **Jumlah pengguna** dan **Jumlah bulan** dapat ditandai sebagai faktor kuantitas dengan mengedit properti lini produk. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

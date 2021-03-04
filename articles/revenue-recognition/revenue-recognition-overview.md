@@ -60,3 +60,6 @@ Di Dynamics 365 Project Operations, prinsip pengakuan pendapatan bervariasi berd
 [Mengelola estimasi pendapatan](rev-rec-completed-contract-method.md)
 
 [Metode biaya penyelesaian](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Setelah daftar harga untuk penjualan teratasi, sistem menyelesaikan langkah-lang
     | &nbsp; | Markup atas biaya | Menerapkan markup sebagaimana didefinisikan oleh baris harga kategori pada tingkat biaya unit dari aktual biaya terkait |
 
 4. Jika sistem tidak dapat mencocokkan nilai bidang **kategori** dan **unit**, tarif penjualan default ke nol (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

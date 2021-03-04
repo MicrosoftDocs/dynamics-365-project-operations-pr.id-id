@@ -38,3 +38,6 @@ Atribut berikut ditentukan untuk setiap item baris pengeluaran:
 - **Harga unit biaya**: harga unit yang digunakan untuk menghitung biaya pengeluaran.
 - **Harga unit penjualan**: harga unit yang digunakan untuk menghitung harga penjualan dari pengeluaran.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

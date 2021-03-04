@@ -273,3 +273,6 @@ Aktual penjualan yang ditagihkan untuk baris produk dengan kuantitas dan jumlah 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

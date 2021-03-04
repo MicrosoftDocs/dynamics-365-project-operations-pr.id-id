@@ -135,3 +135,6 @@ Jika Anda memiliki aktual yang masuk setelah faktur dibuat, Anda dapat menyertak
 2. Buka faktur proforma dan, pada **tindakan** pita, klik **Segarkan transaksi baris faktur**.
 
   Hal ini membuat rincian baris faktur untuk setiap aktual yang tanggalnya terlewat dan ditandai sebagai **siap faktur**; namun tidak termasuk dalam faktur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

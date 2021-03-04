@@ -42,3 +42,6 @@ Anda dapat menggunakan kotak pencarian di **pemilih sumber daya** untuk mencari 
 1. Dari kisi tugas, papan, atau kronologi, navigasi ke sel **ditetapkan ke**.
 2. Di kotak pencarian, mulai ketik nama. Hasil pencarian untuk nama akan ditampilkan di **pemilih sumber daya** dalam **sumber daya lainnya**.
 3. Pilih sumber daya yang akan ditetapkan ke tugas atau pilih nama sumber daya di bawah **sumber daya tim lainnya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

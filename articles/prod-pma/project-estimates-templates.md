@@ -170,3 +170,6 @@ Ilustrasi berikut menunjukkan contoh pemetaan tugas template dalam integrasi dat
 [![Pemetaan template transaksi estimasi pengeluaran](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Pemetaan template estimasi pengeluaran](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

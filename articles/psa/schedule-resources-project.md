@@ -83,3 +83,6 @@ Jika Anda menggunakan versi yang lebih tua, untuk ketersediaan sumber daya, liha
   
 ### <a name="additional-resources"></a>Sumber daya tambahan  
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

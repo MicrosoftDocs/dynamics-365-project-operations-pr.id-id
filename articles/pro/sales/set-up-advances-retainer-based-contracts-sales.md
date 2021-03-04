@@ -37,3 +37,6 @@ Panjar di Project Operations tidak tersedia untuk digunakan hingga ditagih kepad
 | --- | --- | --- |
 | Jumlah Tersedia | Jumlah yang tersedia untuk digunakan pada rekaman panjar atau uang muka. | Hingga panjar atau uang muka ditagih, ia tidak tersedia untuk digunakan yang berarti jumlah yang tersedia akan menjadi nol. |
 | Jumlah Digunakan | Jumlah yang sudah digunakan pada panjar atau uang muka. | Panjar atau uang muka sebagian dapat direkonsiliasi pada faktur dengan biaya aktual yang akan memiliki beberapa bagian yang ditandai sebagai telah digunakan atau dikonsumsi. Sisa jumlah panjar atau uang muka tersedia untuk direkonsiliasi pada faktur berikutnya dengan biaya aktual. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

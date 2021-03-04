@@ -51,3 +51,6 @@ Manajer akun dan manajer proyek secara teratur meminta sumber daya untuk proyek-
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

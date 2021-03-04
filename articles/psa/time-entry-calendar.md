@@ -42,3 +42,6 @@ Kalender tidak mendukung tindakan pada item kalender individual, dan Anda tidak 
 ## <a name="extensibility"></a>Ekstensibilitas
 
 Pada halaman **entri waktu** yang memiliki kisi waktu entri, Anda dapat menambahkan bidang kustom, mengkonfigurasi bidang pencarian, dan membuat tampilan kustom. Anda juga dapat mengkonfigurasi logika bisnis kustom yang didasarkan pada nilai yang dipilih atau dimasukkan di bidang kustom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

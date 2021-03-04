@@ -66,3 +66,6 @@ Sebagai manajer proyek, Anda mungkin perlu memesan sumber daya untuk proyek, nam
 
 > [!NOTE]
 > Metode ini tidak membuat pemesanan untuk sumber daya. Justru, ia menambahkan sumber daya ke tim. Setelah anggota tim ditambahkan ke proyek, manajer proyek dapat menggunakan memelihara Pemesanan atau memperpanjang Pemesanan untuk menambahkan Pemesanan yang diperlukan ke sumber daya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

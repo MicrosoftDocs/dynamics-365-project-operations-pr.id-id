@@ -64,3 +64,6 @@ Topik ini menunjukkan cara menyiapkan faktur proyek antara dua perusahaan di org
 32. Di bidang **harga** , masukkan angka.
 33. Pilih **Simpan**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

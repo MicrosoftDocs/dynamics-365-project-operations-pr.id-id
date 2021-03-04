@@ -98,3 +98,6 @@ Bila Anda memproses jumlah anggaran yang tersisa, Anda dapat membuat transaksi d
 5. Untuk setiap proyek yang akan diproses, pilih pilihan di awal baris untuk proyek. 
 6. Pilih **proses** untuk mentransfer jumlah anggaran yang tersisa untuk proyek yang dipilih ke tahun fiskal yang dipilih.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

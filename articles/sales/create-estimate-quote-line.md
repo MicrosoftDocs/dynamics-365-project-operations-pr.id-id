@@ -88,3 +88,6 @@ Jika Anda menambahkan bidang kustom pada detail baris kuotasi dan ingin sistem m
 7. Pilih **OK** untuk menutup kotak dialog, lalu pilih **Perbarui langkah**.
 8. Ulangi langkah 1 hingga 7 untuk plug-in kedua.
 9. Tutup PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

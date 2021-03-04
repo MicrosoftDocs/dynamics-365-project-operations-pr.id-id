@@ -45,3 +45,6 @@ Informasi berikut tidak disalin dari **sumber** ke **kontrak target**:
   - Informasi anggaran Pelanggan
 
 Karena informasi ini spesifik untuk setiap kontrak, bidang dan rekaman ini tidak disalin. Baris kontrak untuk proyek dan produk, detail estimasi baris kontrak, dan nilai yang tidak melebihi batas pada tingkat kontrak akan disalin. Harga dan tingkat biaya default tergantung pada pilihan di bidang **Salin harga** yang dipilih pada halaman dialog **Salin parameter**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

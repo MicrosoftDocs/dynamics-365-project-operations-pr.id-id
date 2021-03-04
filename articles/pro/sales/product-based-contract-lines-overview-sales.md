@@ -46,3 +46,6 @@ Jika baris kontrak didasarkan pada Katalog Produk, Anda dapat menimpa harga penj
 Jika Anda menetapkan bidang **Harga** ke **Timpa Harga**, harga default tidak ditetapkan. Masukkan harga untuk produk pada baris kontrak. Jika Anda mengatur bidang ke **Gunakan default**, harga penjualan default akan digunakan dan bidang tidak dapat diedit.
 
 Setelah Anda menginstal Project Operations, harga penjualan default dimasukkan pada baris berbasis produk pada kontrak. Bidang **harga** kemudian diatur ke **Timpa Harga** sehingga Anda dapat mengedit harga default pada baris kontrak. Ini adalah penimpaan spesifik Project Operations pada perilaku baris berbasis produk di Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

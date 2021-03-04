@@ -127,3 +127,6 @@ Untuk membuat struktur rincian kerja baru menggunakan Microsoft Project Client d
 8.  Pilih **kalender** yang akan digunakan untuk sumber daya.
 
 11. Klik **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

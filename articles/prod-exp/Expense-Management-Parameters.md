@@ -89,3 +89,6 @@ Parameter mengontrol perilaku umum dalam manajemen Pengeluaran.
 | <strong>Pesan antikorupsi untuk pemohon</strong> |                                                                                             Masukkan teks yang akan ditampilkan kepada karyawan saat membuat laporan pengeluaran baru. Untuk memasukkan teks spesifik bahasa yang akan ditampilkan, berdasarkan bahasa pengguna, klik tombol <strong>terjemahan</strong>.                                                                                             |
 | <strong>Pesan antikorupsi untuk pemberi persetujuan</strong>  |                                                                                             Masukkan teks yang akan ditampilkan kepada pemberi persetujuan saat membuat laporan pengeluaran baru. Untuk memasukkan teks spesifik bahasa yang akan ditampilkan, berdasarkan bahasa pengguna, klik tombol <strong>terjemahan</strong>.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

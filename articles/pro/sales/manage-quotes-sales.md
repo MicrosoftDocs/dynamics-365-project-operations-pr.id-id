@@ -33,3 +33,6 @@ Daftar semua kuotasi proyek dapat dilihat dari halaman daftar **Kuotasi**.
 2. Gunakan **Pengalih tampilan** untuk memilih tampilan terfilter lainnya dari kuotasi. Menggunakan kriteria filter kustom, Anda dapat mengkonfigurasi tampilan Anda sendiri dan pilihan navigasi.
 
 Kuotasi dapat dibuat atau dihapus dari halaman daftar ini atau halaman detail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

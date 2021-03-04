@@ -38,3 +38,6 @@ Pilih **Login** > **masuk ke lingkungan** untuk menavigasi ke modul **manajemen 
 
 > [!NOTE]
 > Anda dapat mengakses Project Operations di Common Data Service dan modul **manajemen proyek dan akuntansi** secara langsung dengan menggunakan URL masing-masing. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

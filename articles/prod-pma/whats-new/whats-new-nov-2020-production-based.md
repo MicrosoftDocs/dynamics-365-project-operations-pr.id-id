@@ -26,3 +26,6 @@ Untuk informasi tentang perbaikan yang tercakup dalam pembaruan ini, masuk ke Li
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
 Untuk informasi tentang pembaruan wajib untuk aplikasi Dynamics 365 Finance and Operations, lihat [pembaruan wajib](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

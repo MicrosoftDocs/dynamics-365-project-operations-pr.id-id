@@ -33,3 +33,6 @@ Daftar semua kontrak proyek dapat dilihat pada halaman daftar **kontrak**.
 2. Pilih **pengalih tampilan** (panah drop-down di sebelah nama tampilan) untuk memilih tampilan terfilter lainnya. Anda dapat membuat tampilan sendiri dengan kriteria filter kustom.
 
 Kontrak dapat dibuat atau dihapus dari halaman daftar ini atau halaman detail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

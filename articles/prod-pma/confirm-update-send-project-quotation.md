@@ -57,3 +57,6 @@ Untuk memodifikasi kuotasi proyek yang ada, status kuotasi harus **dibuat**. Sel
 
 > [!NOTE]
 > Anda tidak dapat memodifikasi kuotasi proyek setelah status diubah ke **dikirim**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

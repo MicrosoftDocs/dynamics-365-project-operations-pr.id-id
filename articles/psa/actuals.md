@@ -330,3 +330,6 @@ PSA mencatat transaksi keuangan yang terjadi selama proyek berlangsung. Transaks
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Ada dua metode untuk menangani pengeluaran pribadi pekerja:
 - **Dibayar oleh perusahaan** -organisasi Anda membayar seluruh tagihan untuk kartu kredit perusahaan dan kemudian mendebet rekening pekerja untuk pengeluaran pribadi.
 
 Anda dapat memilih metode yang digunakan organisasi pada halaman **parameter manajemen pengeluaran**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

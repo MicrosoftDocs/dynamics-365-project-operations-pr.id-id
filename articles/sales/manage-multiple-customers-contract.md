@@ -47,3 +47,6 @@ Anda dapat membuat, memperbarui, atau menghapus pelanggan kontrak dari tab **Pel
 Anda dapat mengedit persentase pemecahan penagihan dengan mengedit di kisi. Apabila jumlah persentase pemecahan penagihan tidak sama dengan 100 persen, kesalahan terjadi. Setelah Anda mengedit persentase pemecahan, segarkan halaman **Kontrak Proyek** untuk menghapus kesalahan.
 
 Anda juga dapat memilih **Distribusikan Secara Merata** pada subkisi pelanggan kontrak proyek. Pemecahan penagihan dialokasikan secara merata ke semua pelanggan pada kontrak proyek. Jika terdapat faktor pembulatan, faktor tersebut akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kontrak selalu memiliki tanda **Pembulatan** yang diatur ke **Ya**. Pelanggan tersebut adalah pelanggan pembulatan. Biasanya, pelanggan pembulatan juga merupakan pelanggan utama kontrak, namun itu tidak diperlukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

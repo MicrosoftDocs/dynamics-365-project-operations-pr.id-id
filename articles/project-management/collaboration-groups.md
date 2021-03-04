@@ -26,3 +26,6 @@ Grup Office memungkinkan Anda berbagi proyek dengan anggota tim lainnya dalam Co
 > [!NOTE] 
 > Pengguna hanya ditambahkan ke grup jika Anda menekan **grup** dan menambahkannya. Hal ini berbeda dengan perilaku proyek untuk web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

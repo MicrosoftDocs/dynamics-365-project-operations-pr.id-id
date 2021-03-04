@@ -43,3 +43,6 @@ Diagram berikut menunjukkan faktur antarperusahaan yang terkait dengan aktivitas
 - [Mengonfigurasikan faktur antarperusahaan](configure-intercompany-invoicing.md)
 - [Mencatat transaksi antarperusahaan](create-intercompany-transactions.md)
 - [Membuat faktur vendor dan pelanggan antarperusahaan](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

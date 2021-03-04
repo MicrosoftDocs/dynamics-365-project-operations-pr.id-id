@@ -70,3 +70,6 @@ Masalah berikut telah diperbaiki:
 - Memperbaiki penanganan kesalahan untuk mengatasi pengecualian referensi null yang dihasilkan dari **salinan proyek: perkiraan manajemen HelperResource**.
 - **Tidak siap untuk faktur** pada **Akumulasi tagihan waktu dan material** tidak menghapus status penagihan.
 - Mengoreksi tombol **harga** yang salah label pada tab **Harga Peran** dan **item Katalog**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Gunakan validasi plug-in untuk validasi yang memerlukan konteks lebih daripada t
 
 ### <a name="copying-time-entries"></a>Menyalin entri waktu
 Gunakan tampilan **Salin Kolom Entri Waktu** untuk menentukan daftar bidang yang akan disalin selama entri waktu. **Tanggal** dan **Durasi** adalah bidang yang diperlukan dan tidak boleh dihapus dari tampilan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

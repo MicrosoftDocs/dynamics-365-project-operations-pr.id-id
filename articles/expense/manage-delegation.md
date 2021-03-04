@@ -39,3 +39,6 @@ Jika tombol manajemen fitur **memungkinkan halaman daftar pengeluaran delegasi**
 Delegasi dapat dengan cepat memfilter dan mencari laporan pengeluaran yang ada dan telah didelegasikan kepada mereka. Delegasi juga dapat dengan cepat membuat laporan pengeluaran baru untuk pengguna lain dengan memilih **laporan pengeluaran baru**.
 
 Delegasi dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain dengan membuka **manajemen pengeluaran** > **pengeluaran saya** > **Laporan pengeluaran** dan memilih **buka pengeluaran pengguna lain**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

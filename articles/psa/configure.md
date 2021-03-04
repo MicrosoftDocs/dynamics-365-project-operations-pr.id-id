@@ -58,3 +58,6 @@ Sebelum Anda dapat menggunakan kemampuan otomatisasi [!INCLUDE[pn_project_servic
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)   
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)   
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

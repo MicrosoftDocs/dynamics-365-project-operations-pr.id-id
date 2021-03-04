@@ -73,3 +73,6 @@ Anda dapat melakukan re-evaluasi massal dari status tidak boleh terlewati. Evalu
 Untuk mengevaluasi ulang status tidak boleh terlewati, pilih satu atau beberapa aktual dari tampilan **akumulasi tagihan waktu dan material** atau **aktual**, dan pilih **Evaluasi ulang status tidak boleh terlewati**.
 
 Semua aktual tertentu yang relevan dengan batas yang tidak boleh terlewati akan dievaluasi terhadap konfigurasi yang tidak boleh terlewati. Aktual yang relevan untuk evaluasi ulang status tidak boleh terlewati adalah aktual penjualan belum ditagih yang tidak difaktur, bukan pada faktur draf, dan ditandai sebagai kena biaya. Setiap aktual terpilih lainnya dipilih.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

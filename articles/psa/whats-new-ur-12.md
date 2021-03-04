@@ -61,3 +61,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
     - Tetap: id objek duplikat yang ditemukan pada formulir **utama kontrak**.
     - Tetap: logika telah diperbarui untuk membuat tab **analisis kuotasi** terlihat sehingga menampilkan konfigurasi metadata tab.
     - Tetap: tanggal akuntansi pada rekaman aktual sekarang berasal dari tanggal waktu/tanggal entri pengeluaran dan bukan tanggal persetujuan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

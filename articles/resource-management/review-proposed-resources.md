@@ -62,3 +62,6 @@ Karena Dynamics 365 Project Operations menggunakan mesin Universal Resource Sche
 
 Untuk melihat rincian lebih lanjut tentang sumber daya individual, klik kanan untuk membuka kartu sumber daya.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

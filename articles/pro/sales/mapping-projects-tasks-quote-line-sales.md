@@ -90,3 +90,6 @@ Anda juga dapat menghapus kaitan tugas proyek ke baris kuotasi dari tab **tugas 
 
 >[!NOTE]
 > Prosedur ini tidak menghapus tugas dari proyek. Ini hanya akan menghapus asosiasi tugas dari baris kuotasi berbasis proyek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

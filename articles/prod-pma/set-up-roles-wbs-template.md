@@ -107,3 +107,6 @@ Pilihan tambahan telah ditambahkan dalam WBS untuk lebih baik menggunakan fungsi
     > Anda tidak menerima peringatan bahwa sumber daya yang ditentukan sekarang 2, karena jumlah sumber daya tetap 1.
 
 14. Pada halaman **struktur rincian kerja** , validasi tugas sumber daya pada WBS, dan kemudian pilih **Simpan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Pesan sumber daya langsung untuk proyek:
 Pesan sumber daya dari persyaratan sumber daya:
 - [Menetapkan sumber daya generik yang dapat dipesan ke tugas dan membuat persyaratan sumber daya](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Memesan sumber daya bernama dari persyaratan sumber daya](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

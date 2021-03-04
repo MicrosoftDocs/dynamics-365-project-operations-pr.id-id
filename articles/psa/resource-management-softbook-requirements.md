@@ -63,3 +63,6 @@ Anda dapat menggunakan metode yang sama untuk membatalkan pemesanan definitif at
 Untuk mengkonversi sumber daya yang dipesan dengan tentatif ke definitif pada tab **tim** proyek, pilih sumber daya, lalu pilih **konfirmasikan**.
 
 ![Perintah Konfirmasi](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

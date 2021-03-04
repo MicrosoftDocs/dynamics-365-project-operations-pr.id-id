@@ -41,3 +41,6 @@ Jika pelanggan menyetujui kuotasi proyek, Anda dapat menyalin informasi dalam ku
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

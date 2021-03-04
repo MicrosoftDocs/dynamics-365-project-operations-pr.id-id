@@ -95,3 +95,6 @@ Panduan ini menyediakan informasi yang Anda perlukan untuk membuat dan mengelola
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)   
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Saat Anda menentukan pilihan, sumber daya akan ditambahkan ke tim proyek dan dit
 Anda dapat menggunakan tab **rekonsiliasi** untuk memperluas kemampuan Pemesanan atau **papan jadwal** untuk memesan kapasitas sumber daya ke proyek.
 
 Setelah anggota tim dipesan pada proyek Anda, Anda dapat menggunakan **memelihara Pemesanan** atau **papan jadwal** secara langsung untuk mengelola Pemesanan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

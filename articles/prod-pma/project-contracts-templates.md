@@ -153,3 +153,6 @@ Ilustrasi berikut menunjukkan contoh pemetaan tugas template dalam integrasi dat
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Pemetaan tonggak pencapaian baris kontrak proyek dalam proyek dan kontrak (PSA 3. x ke Dynamics)- template V2:
 
 [![Pemetaan tonggak baris kontrak proyek dengan template versi dua](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Semua faktur proyek yang dibuat tersedia pada halaman **faktur** di Bagian **tag
 Faktur proforma juga dapat dibuat dari halaman rincian **Kontrak Proyek**. Sistem akan memverifikasi apakah kontrak proyek memiliki backlog **siap untuk faktur** dengan tanggal sebelum tanggal hari ini. Dari kontrak ini, sistem membuat rancangan faktur proforma berdasarkan jumlah pelanggan pada setiap baris kontrak.
 
 Bila ada faktur proforma tunggal yang dibuat, halaman **faktur** akan terbuka. Jika beberapa faktur dibuat untuk kontrak proyek tersebut, halaman daftar **Faktur** akan terbuka untuk menampilkan semua faktur yang dibuat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Tonggak pencapaian harga tetap dapat dihasilkan secara manual saat mereka tidak 
 | Pajak | Buat Cepat | Jumlah pajak yang berlaku pada tonggak. | Ini disertakan dalam tonggak pencapaian baris kontrak proyek dan faktur. |
 
 4. Pilih **Simpan dan Tutup**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

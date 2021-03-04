@@ -57,3 +57,6 @@ Daftar harga biaya tidak default ke entitas mana pun dalam Project Operations. M
 5. Selanjutnya sistem melihat efektivitas tanggal dari daftar harga yang cocok dengan tanggal estimasi masuk atau baris aktual. 
 6. Jika ada beberapa daftar harga yang efektif untuk tanggal pada estimasi masuk atau aktual, daftar harga yang paling baru dibuat akan dipilih.
 7. Jika tidak ada daftar harga biaya yang melekat pada parameter proyek yang sesuai dengan mata uang dan tanggal efektif, sistem men-default tarif biaya ke nol (0) pada estimasi masuk atau baris aktual.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Saat pekerjaan untuk proyek selesai, manajer proyek dapat memperbarui tahapan ke
 
 Bila semua transaksi direkam untuk proyek, manajer proyek dapat memperbarui tahapan ke **Tutup**. Pada titik tersebut, tidak ada transaksi yang dapat direkam, dan proyek diatur ke hanya baca.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

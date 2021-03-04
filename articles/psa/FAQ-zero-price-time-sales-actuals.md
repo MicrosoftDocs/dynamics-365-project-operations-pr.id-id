@@ -57,3 +57,6 @@ Jika tidak ada baris di kisi harga peran untuk dimensi harga pada penjualan wakt
 
 Jika Anda tetap tidak melihat harga yang valid pada penjualan waktu aktual setelah melakukan pemeriksaan tiga di atas, buat log tiket dukungan. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

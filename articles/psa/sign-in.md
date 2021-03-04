@@ -56,3 +56,6 @@ Ketika Anda masuk ke aplikasi Dynamics 365, Anda harus memiliki informasi beriku
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

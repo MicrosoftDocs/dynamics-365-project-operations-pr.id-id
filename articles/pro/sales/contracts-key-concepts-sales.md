@@ -93,3 +93,6 @@ Kontrak Project Operations dibuat berdasarkan kontrak di Dynamics 365 Sales. Nam
 - Kontrak Project Operations memiliki formulir dan elemen UI sendiri, aturan Bisnis, logika bisnis di plug-in, dan skrip sisi klien yang membuatnya unik dari Kontrak Sales.
 
 Untuk alasan ini, Anda tidak boleh menggunakan kontrak penjualan dan kontrak proyek secara bergantian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

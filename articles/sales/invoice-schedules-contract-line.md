@@ -74,3 +74,6 @@ Anda dapat membuat tonggak harga tetap secara manual saat tidak dibagi secara be
 | Pajak | Buat Cepat | Jumlah pajak yang berlaku pada tonggak. | Ini dibawa ke tonggak baris kontrak proyek dan ke faktur. |
 
 3. Pilih **Simpan dan Tutup**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

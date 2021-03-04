@@ -37,3 +37,6 @@ Karena Bunga bekerja pada dua proyek terpisah saat berada di Frankfurt, ketika i
 |Hotel         |EUR 725              |EUR 557                        |EUR 168                          |
 |Makan         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

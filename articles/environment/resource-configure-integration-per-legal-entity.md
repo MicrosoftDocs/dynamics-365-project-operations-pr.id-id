@@ -51,3 +51,6 @@ Setiap entitas hukum yang menggunakan Project Operations pada Dynamics 365 Custo
   - **Jenis penagihan default**: Project Operations menggunakan rangkaian tetap default jenis penagihan yang harus dipetakan ke properti baris Finance. Buat rekaman untuk setiap jenis penagihan: **tidak ditentukan**, **Dikenakan biaya**, **Tidak dikenakan biaya**, **gratis**, dan **tidak tersedia**.
   - **Default kategori proyek**: Pilih kategori proyek default yang akan digunakan untuk setiap jenis transaksi. Default ini akan digunakan dalam **jurnal integrasi Project Operations** dan di perkiraan yang mana tidak ada kategori transaksi yang ditentukan untuk aktual proyek.
   - **Perkiraan**: Pilih model perkiraan yang akan digunakan untuk perkiraan waktu dan pengeluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

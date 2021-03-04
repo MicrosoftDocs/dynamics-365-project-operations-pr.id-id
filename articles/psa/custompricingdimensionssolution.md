@@ -68,3 +68,6 @@ Anda harus menambahkan entitas Project Service berikut ke solusi harga. Selesaik
 > ![Jangan sertakan semua komponen terkait](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

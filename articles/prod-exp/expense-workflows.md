@@ -50,3 +50,6 @@ Tabel berikut mencantumkan jenis alur kerja yang dapat Anda buat di **pengeluara
 |      <strong>Permintaan Uang muka</strong>      |         Buat alur kerja persetujuan untuk permintaan uang muka.          |
 |        <strong>Pemulihan PPN</strong>        | Buat alur kerja persetujuan untuk pemulihan pajak pertambahan nilai (PPN).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

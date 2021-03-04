@@ -140,3 +140,6 @@ Ilustrasi berikut menunjukkan contoh pemetaan tugas template dalam integrasi dat
 [![Pemetaan template-pembaruan aktual](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Pemetaan template-pembaruan transaksi](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

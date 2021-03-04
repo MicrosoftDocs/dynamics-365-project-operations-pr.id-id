@@ -66,3 +66,6 @@ Jika Anda tetap tidak melihat harga yang valid pada biaya waktu aktual setelah m
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

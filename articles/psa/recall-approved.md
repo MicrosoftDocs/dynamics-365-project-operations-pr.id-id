@@ -107,3 +107,6 @@ Ilustrasi berikut menunjukkan perubahan yang terjadi untuk entri waktu yang dise
 Ilustrasi berikut menunjukkan perubahan yang terjadi untuk entri pengeluaran yang disetujui saat mereka ditarik.
 
 ![Transisi status entri pengeluaran](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

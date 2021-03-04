@@ -57,3 +57,6 @@ Anda dapat melihat daftar anggota tim proyek Anda, dan dari sana Anda dapat meng
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

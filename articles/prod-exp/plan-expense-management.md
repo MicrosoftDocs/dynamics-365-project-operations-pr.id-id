@@ -160,3 +160,6 @@ Dengan membuat kebijakan laporan pengeluaran, Anda dapat membantu organisasi men
 - Kapan kebijakan berakhir?
 - Apa aturan kebijakan?
 - Apa hasil dari aturan kebijakan?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

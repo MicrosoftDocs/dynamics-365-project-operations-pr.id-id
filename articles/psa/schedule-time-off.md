@@ -57,3 +57,6 @@ Jadwalkan waktu liburan atau cuti dalam cara yang sangat mirip dengan cara Anda 
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

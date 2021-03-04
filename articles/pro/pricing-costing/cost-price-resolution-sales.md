@@ -36,3 +36,6 @@ Setelah daftar harga biaya teratasi, bidang **Peran** dan **Unit sumber daya** p
 Baris estimasi untuk pengeluaran adalah detail baris kontrak dan kuotasi untuk pengeluaran dan baris estimasi pengeluaran pada proyek.
 
 Setelah daftar harga biaya ditangani, sistem menggunakan kombinasi bidang **Kategori** dan **Unit** pada baris perkiraan pengeluaran yang cocok dengan baris **Harga Kategori** pada daftar harga yang diselesaikan. Jika sistem menemukan garis harga kategori yang memiliki tarif biaya untuk kombinasi bidang **Kategori** dan **Unit**, tarif biaya adalah default. Jika sistem tidak dapat sesuai dengan nilai **Kategori** dan **Unit**, atau jika sistem dapat menemukan baris harga kategori yang cocok, namun metode harga bukan **Harga Per Unit**, tingkat biaya akan berubah menjadi nol (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

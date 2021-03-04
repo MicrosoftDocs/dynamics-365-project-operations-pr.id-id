@@ -49,3 +49,6 @@ Sebaiknya Anda menggunakan kumpulan. Pilihan tersedia selama sinkronisasi Pemesa
     | Tanggal berakhir    | Masukkan tanggal akhir untuk proses sinkronisasi untuk akumulasi kapasitas sumber daya. |
 
 [![Proses Sinkronisasi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

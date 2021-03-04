@@ -77,3 +77,6 @@ Perkiraan atau aktual yang dibuat untuk pengeluaran hanya akan dianggap dikenaka
 | No | Ya | Keseluruhan proyek | Tidak dapat diatur | Tidak Dikenakan Biaya | Tidak dapat diatur | Penagihan pada aktual Waktu: Tidak tersedia </br>Jenis penagihan pada aktual Pengeluaran: Tidak Dikenakan biaya |
 | Ya | No | Keseluruhan proyek | Dikenakan biaya | Tidak dapat diatur | Tidak dapat diatur | Penagihan pada aktual Waktu: Dikenakan Biaya</br>Jenis penagihan pada aktual Pengeluaran: Tidak tersedia |
 | Ya | No | Keseluruhan proyek | Tidak Dikenakan Biaya | Tidak dapat diatur | Tidak dapat diatur | Penagihan pada aktual Waktu: Tidak Dikenakan Biaya </br>Jenis penagihan pada aktual Pengeluaran: Tidak tersedia |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

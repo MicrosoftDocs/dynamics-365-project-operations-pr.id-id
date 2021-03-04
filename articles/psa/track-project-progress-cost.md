@@ -40,3 +40,6 @@ Kadang-kadang Anda mungkin perlu merevisi estimasi asli pada tugas. Tugas mungki
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

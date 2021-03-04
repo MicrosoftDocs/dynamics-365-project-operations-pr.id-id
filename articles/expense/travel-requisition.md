@@ -56,3 +56,6 @@ Pilih permintaan perjalanan yang ingin Anda setujui, lalu pilih **alur kerja** >
 
 > [!NOTE]
 > Bila Anda memetakan laporan pengeluaran untuk permintaan perjalanan yang disetujui, jumlah transaksi tidak dapat melebihi jumlah yang diizinkan. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

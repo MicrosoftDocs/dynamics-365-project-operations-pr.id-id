@@ -40,3 +40,6 @@ Manajer proyek dapat merencanakan peran sumber daya yang diperlukan untuk proyek
 7. Pilih pekerja, kemudian pilih **tetapkan**.
 8. Verifikasikan bahwa baris untuk **Pengembang perangkat lunak 1** telah dihapus untuk proyek **proyek peningkatan XYZ tahap 2**.
 9. Pada tab **tim proyek dan penjadwalan** , untuk proyek **peningkatan XYZ fase 2** , Verifikasikan bahwa pekerja yang Anda pilih pada langkah sebelumnya telah ditambahkan sebagai **pengembang perangkat lunak**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

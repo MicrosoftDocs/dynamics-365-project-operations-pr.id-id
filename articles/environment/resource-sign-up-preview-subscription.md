@@ -98,3 +98,6 @@ Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-enviro
 
 Instal data pengaturan dan konfigurasi CDS sebagaimana dijelaskan dalam topik, [atur dan terapkan data konfigurasi di Common Data Service](resource-apply-pro-setup-config-data.md).
 Selesaikan langkah ini hanya setelah lingkungan demo Finance disebarkan dan data demo di FO siap.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

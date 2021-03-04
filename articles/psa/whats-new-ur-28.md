@@ -55,3 +55,6 @@ Masalah berikut telah diperbaiki:
 - Pengecualian referensi null dihasilkan ketika plug-in **GetEstimatesForProject** dipanggil.
 - **Tandai siap untuk faktur** pada kisi tonggak pencapaian hanya sebagian memperbarui atribut, kecuali untuk atribut **InvoiceStatus**, yang diperbarui.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Atur delegasi untuk membiarkan orang lain membuat entri waktu atau biaya atas na
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

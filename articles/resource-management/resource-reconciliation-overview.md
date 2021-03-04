@@ -48,3 +48,6 @@ Jika Anda memiliki penetapan tugas untuk sumber daya, pilih kekurangan pemesanan
 Pemesanan yang dibuat melalui tindakan **Perluas Pemesanan** dikaitkan dengan kebutuhan proyek utama. Bila perluasan diawali, persyaratan khusus yang harus diperluas tidak dapat ditentukan karena sumber daya mungkin terkait dengan lebih dari satu persyaratan untuk proyek.
 
 Manajer proyek atau manajer sumber daya kemudian dapat menggunakan papan jadwal untuk mengelola setiap situasi dengan sumber daya yang dipesan berlebihan di luar kapasitasnya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

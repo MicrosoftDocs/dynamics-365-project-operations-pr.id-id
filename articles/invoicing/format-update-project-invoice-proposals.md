@@ -143,3 +143,6 @@ Untuk melihat faktur sebelum posting, kosongkan kotak centang **Posting**. **Pro
 Selain halaman **Proposal faktur**, proposal faktur juga dapat diposting dengan menjalankan pekerjaan berkala, **Posting proposal faktur**. Untuk menemukan pekerjaan ini, buka **Manajemen proyek dan akuntansi** > **Berkala** > **Faktur Proyek** > **Proposal faktur berkala**.
 
 Halaman ini menampilkan semua proposal faktur yang siap diposting. Anda dapat menjadwalkan posting proposal faktur dengan memilih **Kumpulan**. Atur **parameter Pemrosesan kumpulan** ke **Ya** dan atur pengulangan pemrosesan kumpulan dengan memilih **Pengulangan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

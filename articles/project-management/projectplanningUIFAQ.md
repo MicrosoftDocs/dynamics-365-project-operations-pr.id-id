@@ -106,3 +106,6 @@ Ketika satu atau beberapa pembaruan dibuat pada struktur rincian kerja, perubaha
   - Sistem Project Operations
   - Sistem proyek
   - Sistem Tulis Ganda Project Operations (Peran ini diperlukan jika Anda menyebarkan skenario berbasis sumber daya/non-stok Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Agar dapat memesan dari papan jadwal, Anda harus membuat atau menghasilkan persy
 Persyaratan terpenuhi dengan menggunakan sumber daya yang dipilih. Di panel **persyaratan Pemesanan**, perhatikan bahwa persyaratan telah diperbarui, dan sumber daya ditampilkan seperti yang dipesan pada proyek.
 
 ![Sumber daya dipesan pada proyek](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

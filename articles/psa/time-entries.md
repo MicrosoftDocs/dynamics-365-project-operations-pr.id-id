@@ -70,3 +70,6 @@ Anda dapat mengimpor data dari Pemesanan dan tugas proyek. Saat mengimpor data, 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Kemampuan Kelompokkan berdasarkan, Urutkan, pencarian, dan filter
 
 Anda dapat mengelompokkan dan memfilter entri waktu berdasarkan dimensi yang ditentukan di kolom. Di bidang **Kelompokkan berdasarkan**, pilih dimensi yang akan digunakan untuk memfilter entri waktu. Anda juga dapat mengurutkan rekaman entri waktu dalam urutan naik atau turun menggunakan panah urut pada heading kolom. Selain itu, Anda dapat menampilkan atau menyembunyikan entri dengan memilih tombol **filter** pada heading kolom, lalu, di kotak **pencarian**, memasukkan teks yang akan digunakan untuk mencari entri waktu berdasarkan nama proyek, tugas proyek, waktu entri, atau sumber daya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

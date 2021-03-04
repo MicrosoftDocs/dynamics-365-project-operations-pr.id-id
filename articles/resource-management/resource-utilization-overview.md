@@ -45,3 +45,6 @@ Selain itu, peran default harus ditetapkan ke setiap sumber daya yang dapat dipe
 Di tab **Project Service**, Anda juga dapat menetapkan pemanfaatan target individual untuk sumber daya. Perhitungan pemanfaatan kemudian menggunakan pemanfaatan target untuk mengevaluasi target sumber daya bukan target dari peran default sumber daya.
 
 Pemanfaatan hanya ditampilkan untuk sumber daya hanya jika sumber daya telah disetujui, waktu yang dapat ditagih selama periode yang ditampilkan di kisi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Template proyek menghemat waktu Anda jika perusahaan Anda secara teratur mengaju
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

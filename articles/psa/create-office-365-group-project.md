@@ -43,3 +43,6 @@ Sediakan ruang agar anggota tim untuk sebuah proyek dapat berkolaborasi pada dok
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Proyek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

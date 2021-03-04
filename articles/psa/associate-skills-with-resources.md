@@ -45,3 +45,6 @@ Di langkah sebelumnya, Anda sudah mengasosiasikan beberapa keterampilan dengan s
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Membuat kuotasi mirip dengan membuat peluang. Sementara peluang adalah untuk inf
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

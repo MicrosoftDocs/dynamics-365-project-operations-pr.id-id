@@ -68,3 +68,6 @@ Setelah fungsi perpanjangan Pemesanan telah digunakan untuk setiap sumber daya, 
 Perhatikan bahwa melihat lebih dekat rincian pemesanan menunjukkan perbedaan dalam waktu mulai pemesanan. Pemesanan tidak dimulai lebih awal dari waktu mulai kontur penetapan dan tidak lebih awal dari waktu mulai yang tersedia untuk sumber daya.
 
 ![Pemesanan baru sumber daya di papan jadwal](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

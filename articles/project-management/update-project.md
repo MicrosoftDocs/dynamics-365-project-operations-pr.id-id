@@ -48,3 +48,6 @@ Di bawah ini adalah ringkasan bidang yang dapat diperbarui pada proyek setelah d
 - **status proyek keseluruhan**: kesehatan proyek keseluruhan yang dilakukan oleh manajer proyek.
 - **Komentar** : narasi tentang kesehatan saat ini proyek yang dilakukan oleh manajer proyek.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

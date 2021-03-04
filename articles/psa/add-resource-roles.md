@@ -47,3 +47,6 @@ Mengatur tingkat pemanfaatan target untuk setiap peran. Pengaturan ini menentuka
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Anda juga dapat mengkonfigurasi daftar harga proyek tertentu pelanggan saat Anda
 ## <a name="custom-pricing-on-a-project-contract"></a>Harga kustom pada kontrak proyek
 
 Setelah Anda memiliki daftar harga proyek default organisasi dan spesifik pelanggan, kontrak proyek Anda akan dibuat dengan Asosiasi daftar harga proyek ini secara otomatis. Namun, daftar harga proyek pada kontrak proyek selalu disalin dengan nama tanggal dan kontrak yang ditambahkan. Manajer akun dan proyek kemudian dapat mulai membuat pengeditan pada harga pada salinan ini. Harga yang telah diubah ini akan berlaku hanya untuk kontrak proyek ini.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Anda dapat menentukan perkiraan upaya kerja dan jadwal dengan menggunakan bidang
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Mengimpor perkiraan dari sebuah proyek ke kuotasi
 
 Setelah menentukan perkiraan proyek, Anda dapat mengimpornya ke baris kuotasi. Pada halaman **detail baris kuotasi**, pilih **impor dari perkiraan** pada pita untuk meringkas perkiraan proyek berdasarkan jenis transaksi, peran, atau tingkat tugas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Anda dapat menganalisis kuotasi dan membuat diagram untuk ekspektasi pelanggan t
 Analisis ekspektasi pelanggan tentang jadwal dilakukan dengan membandingkan tanggal akhir terbaru detail baris kuotasi dengan tanggal pengiriman yang diminta di semua baris kuotasi dalam kuotasi.
 
 Analisis ekspektasi pelanggan tentang anggaran dilakukan dengan membandingkan jumlah total anggaran pelanggan dengan jumlah yang dikutip di semua baris kuotasi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Ketika entitas hukum yang meminjamkan, USSI, memposting faktur pelanggan antarpe
 Untuk informasi lebih lanjut, lihat [konfigurasi faktur proyek antarperusahaan](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

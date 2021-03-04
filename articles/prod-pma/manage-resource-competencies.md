@@ -53,3 +53,6 @@ Untuk mengkonfigurasi kompetensi pekerja, Anda dapat menggunakan halaman daftar 
 5. Di bidang **Tanggal Level** , pilih **14/1/2014**.
 6. Di bidang **Tahun pengalaman** , masukkan **10**.
 7. Pilih **Simpan** , lalu tutup halaman.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

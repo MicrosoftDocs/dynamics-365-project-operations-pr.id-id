@@ -43,3 +43,6 @@ Anda dapat memeriksa pemanfaatan sumber daya untuk menentukan tingkat pemanfaata
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Sumber Daya](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

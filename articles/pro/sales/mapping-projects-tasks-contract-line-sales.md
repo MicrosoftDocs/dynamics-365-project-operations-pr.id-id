@@ -82,3 +82,6 @@ Ini adalah pengalaman yang lebih optimal untuk menghapus kaitan tugas dari baris
 4. Di halaman dialog yang terbuka, pilih baris kontrak dari drop-down.
 5. Pilih kotak centang untuk menunjukkan apakah asosiasi juga dihapus dari tugas anak dari tugas yang dipilih. Mencentang kotak juga akan menghapus kaitan tugas anak dari tugas yang dipilih dari baris kontrak.
 6. Pilih **OK**. Pesan peringatan menunjukkan bahwa menghapus Asosiasi ini dapat mengakibatkan pembalikan setiap aktual yang direkam sebelumnya pada tugas. Pilih **OK** pada dialog peringatan untuk menghapus kaitan antara tugas dan baris kontrak berbasis proyek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

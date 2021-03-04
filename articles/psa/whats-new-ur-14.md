@@ -64,3 +64,6 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, 
      - Tetap: Total harga penjualan tidak dihitung hingga pengguna juga memasukkan harga biaya untuk perkiraan pengeluaran pada suatu proyek.
      - Tetap: menutup kuotasi sebagai **menang** gagal jika kontrak proyek terkait tidak dalam status **draf**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

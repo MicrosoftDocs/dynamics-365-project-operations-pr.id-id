@@ -105,3 +105,6 @@ Masukkan pengeluaran Anda setidaknya setiap pekan—atau pada frekuensi yang dim
  [Ikhtisar Project Service](../psa/overview.md)   
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

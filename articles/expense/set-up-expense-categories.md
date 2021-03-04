@@ -61,3 +61,6 @@ Sebelum Anda dapat memulai proses konfigurasi, keputusan berikut harus dibuat un
 
     - Apakah ada subkategori yang dikecualikan dari pemulihan pajak?
     - Apa yang dimaksud dengan grup pajak penjualan item dari subkategori?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

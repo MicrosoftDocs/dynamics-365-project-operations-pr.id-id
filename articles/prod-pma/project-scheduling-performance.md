@@ -69,3 +69,6 @@ Untuk mengaktifkan peningkatan performa penjadwalan sumber daya, selesaikan lang
 
 > [!NOTE]
 > Ini akan mendistribusikan data umum ke tabel **ResRollup** di semua perusahaan di lingkungan Anda, sehingga pekerjaan batch hanya perlu dijalankan di satu entitas hukum. Pekerjaan batch ini diperlukan untuk semua tampilan **ketersediaan sumber daya**. Jika pekerjaan batch ini tidak berjalan, data **ResRollup** akan dibuat sambil berjalan, yang dapat memakan waktu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

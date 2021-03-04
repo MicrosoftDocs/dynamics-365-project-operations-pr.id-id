@@ -30,3 +30,6 @@ Bila baris kontrak berbasis produk dibuat untuk produk katalog, biaya baris di-d
 Memiliki biaya unit pada baris kontrak berbasis produk memungkinkan biaya produk yang berbeda untuk setiap penjualan unit. Meskipun tidak selalu diperlukan, ada skenario tertentu dengan biaya produk yang dapat didiskon untuk pelanggan oleh pemasok. Pertimbangkan skenario berikut:
 
 Fabrikam robotik memasang lengan robotik di lini perakitan Adatum Corporation. Fabrikam menyediakan layanan penginstalan, namun lengan robot berasal dari Trey Research. Jika pemasangan senjata robot di Adatum Corporation membuka industri vertikal baru untuk lengan robot Trey Research, mereka dapat menawarkan diskon khusus untuk penawaran ini ke fabrikam. Dalam kasus ini, Fabrikam membuat baris kontrak berbasis produk untuk Robotic Arms. Biaya per unit dimasukkan untuk kontrak ini. Biayanya berbeda dengan biaya lengan robot dari Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
