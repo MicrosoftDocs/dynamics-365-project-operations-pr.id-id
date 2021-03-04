@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078678"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144597"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Tambahkan formulir entitas kustom baru (Project Service Automation 2. x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Bidang Jenis 
 
-Dynamics 365 Project Service Automation bergantung pada bidang **jenis** ( **msdyn\_ordertype** ) pada entitas peluang, kuotasi, pesanan, dan faktur untuk membedakan versi **berbasis pekerjaan** entitas ini dari **berbasis item** dan versi **berbasis layanan**. Versi berbasis pekerjaan dari entitas ini ditangani oleh PSA. Banyak logika bisnis di sisi klien dan server solusi tergantung pada bidang **jenis**. Oleh karena itu, penting bahwa bidang diinisialisasi dengan nilai yang benar saat entitas dibuat. Nilai yang salah dapat menyebabkan perilaku yang tidak benar, dan beberapa logika bisnis mungkin tidak berjalan dengan benar.
+Dynamics 365 Project Service Automation bergantung pada bidang **jenis** (**msdyn\_ordertype**) pada entitas peluang, kuotasi, pesanan, dan faktur untuk membedakan versi **berbasis pekerjaan** entitas ini dari **berbasis item** dan versi **berbasis layanan**. Versi berbasis pekerjaan dari entitas ini ditangani oleh PSA. Banyak logika bisnis di sisi klien dan server solusi tergantung pada bidang **jenis**. Oleh karena itu, penting bahwa bidang diinisialisasi dengan nilai yang benar saat entitas dibuat. Nilai yang salah dapat menyebabkan perilaku yang tidak benar, dan beberapa logika bisnis mungkin tidak berjalan dengan benar.
 
 ## <a name="automatic-form-switching"></a>Pengalihan formulir otomatis
 
@@ -37,17 +39,17 @@ Logika peralihan formulir otomatis tergantung pada pemetaan antara nilai **formI
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Tambahkan formulir kustom dan Hidupkan logika beralih formulir
 
-Contoh berikut menunjukkan cara menambahkan formulir kustom, **informasi proyek saya** , sehingga berfungsi pada peluang berbasis pekerjaan. Proses yang sama digunakan untuk menambahkan formulir kustom agar berfungsi dengan kuotasi, pesanan, dan faktur.
+Contoh berikut menunjukkan cara menambahkan formulir kustom, **informasi proyek saya**, sehingga berfungsi pada peluang berbasis pekerjaan. Proses yang sama digunakan untuk menambahkan formulir kustom agar berfungsi dengan kuotasi, pesanan, dan faktur.
 
 Ikuti langkah berikut untuk membuat formulir **informasi proyek** versi kustom.
 
-1. Di entitas peluang, buka formulir **informasi proyek** , dan Simpan salinan dalam nama **informasi proyek saya**.
+1. Di entitas peluang, buka formulir **informasi proyek**, dan Simpan salinan dalam nama **informasi proyek saya**.
 2. Buka formulir baru, dan kemudian, di properti, pastikan bahwa skrip inisialisasi formulir dari formulir **informasi proyek** ada. 
 
     > [!IMPORTANT]
     > Jangan hapus skrip. Jika tidak, beberapa data mungkin diinisialisasi dengan tidak benar.
 
-3. Verifikasikan bahwa bidang **jenis** ( **msdyn\_ordertype** ) ada di formulir. 
+3. Verifikasikan bahwa bidang **jenis** (**msdyn\_ordertype**) ada di formulir. 
 
     > [!IMPORTANT]
     > Jangan hapus bidang ini. Jika tidak, skrip inisiasi akan gagal.

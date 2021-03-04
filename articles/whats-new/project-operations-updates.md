@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
-ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
+ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
+ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689414"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141211"
 ---
 # <a name="project-operations-updates"></a>Pembaruan Project Operations
 
@@ -26,36 +26,40 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-s
 
 Dynamics 365 Project Operations terdiri dari dua komponen:
 
-- Lingkungan Project Operations di Common Data Service (CDS) mencakup kemampuan dari peluang hingga faktur proforma. CDS digunakan dalam penyebaran Lite dan penyebaran skenario sumber daya/non-stok dari Project Operations.
+- Lingkungan Project Operations di Dataverse mencakup kemampuan dari peluang hingga faktur proforma. Dataverse digunakan dalam penyebaran Lite dan penyebaran skenario sumber daya/non-stok dari Project Operations.
 - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. Lingkungan aplikasi Finance and Operations digunakan dalam Project Operations untuk skenario berbasis sumber daya/non-stok dan Project Operations untuk skenario berbasis stok/produksi.
 
 ## <a name="project-operations-latest-version"></a>Versi terbaru Project Operations
 
-| Lingkungan Project Operations di CDS | Manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations |
+| Project Operations di Lingkungan Dataverse | Manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations |
 | --- | --- |
-| 4.5.0.134 | 10.0.15 |
+| 4.7.0.95 | 10.0.16 |
 
-Catatan rilis Project Operations Desember 2020 untuk [Sumber daya/nonstok](whats-new-dec-2020-resource-based.md).
+Catatan rilis Project Operations Januari 2021 untuk skenario [sumber daya/non-stok](whats-new-feb-2021-resource-based.md), [penyebaran Lite](../pro/whats-new/whats-new-feb-2021-lite.md), dan [stok/produksi](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
 
-## <a name="release-schedule-for-project-operations-on-cds-environment"></a>Jadwal rilis untuk Project Operations di lingkungan CDS
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Jadwal rilis untuk Project Operations di lingkungan Dataverse
 
-Pembaruan untuk Project Operations pada lingkungan CDS tersedia setiap bulan. 
+Pembaruan untuk Project Operations pada lingkungan Dataverse tersedia setiap bulan. 
 
-| Stasiun   | Wilayah        | Versi saat ini | Versi berikutnya | Umumnya tersedia |
+| Stasiun   | Kawasan        | Versi saat ini | Versi berikutnya | Umumnya tersedia |
 |-----------|---------------|-----------------|--------------|---------------------|
+| Stasiun 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | Rilis pertama |  4.7.0.95       | TBD     | 19-Feb-21           |
 | Stasiun 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan |  4.5.0.134       | TBD     | 08-Jan-21           |
-|    &nbsp; | Kanada        |  4.5.0.134       | TBD     | 08-Jan-21          |
-|   &nbsp;  | India         |  4.5.0.134       | TBD     | 08-Jan-21           |
+|   &nbsp;  | Amerika Selatan |  4.7.0.95       | TBD     | 19-Feb-21           |
+|    &nbsp; | Kanada        |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | India         |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | Prancis         |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | Uni Emirat Arab         |  4.7.0.95       | TBD     | 19-Feb-21           |
 | Stasiun 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Jepang         |  4.5.0.134       | TBD     | 15-Jan-21           |
-|   &nbsp;  | Asia Pasifik  |  4.5.0.134       | TBD     | 15-Jan-21           |
-|   &nbsp;  | Britania Raya |  4.5.0.134       | TBD     | 15-Jan-21           |
-|   &nbsp;  | Oseania       |  4.5.0.134       | TBD     | 15-Jan-21           |
+|   &nbsp;  | Jepang         |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Asia Pasifik  |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Britania Raya |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Oseania       |  4.7.0.95       | TBD     | 26-Feb-21           |
 | Stasiun 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Eropa        |  4.4.0.70       | 4.5.0.134     | 11-Des-20           |
+|   &nbsp;  | Eropa        |  4.6.0.161       | 4.7.0.95     | 12-Feb-21           |
 | Stasiun 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amerika Utara |  4.4.0.70       | 4.5.0.134     | 18-Des-20           |
+|   &nbsp;  | Amerika Utara |  4.6.0.161       | 4.7.0.95     | 19-Feb-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations
 
@@ -63,13 +67,13 @@ Pembaruan untuk manajemen proyek dan akuntansi dirilis delapan kali dalam setahu
 
 | Rilis yang didukung | Umumnya tersedia (pembaruan mandiri) |
 | --- | --- |
+| 10.0.16 | 22 January 2021 |
 | 10.0.15 | 4 Desember 2020 |
-| 10.0.14 | 23 Oktober 2020 |
+
 
 Tanggal rilis yang ditargetkan dapat berubah. Untuk informasi lebih lanjut, lihat [Ketersediaan pembaruan layanan](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Tanggal rilis yang ditargetkan | Umumnya tersedia (diperbarui mandiri) |
 | --- | --- |
-| 10.0.16 | 22 January 2021 |
-| 10.0.17 | 1 Februari 2021 |
-
+| 10.0.17 | 19 Maret 2021 |
+| 10.0.18 | 16 April 2021 |

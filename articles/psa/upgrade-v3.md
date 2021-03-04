@@ -2,6 +2,7 @@
 title: Pertimbangan peningkatan – Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x ke versi 3
 description: Topik ini menyediakan informasi tentang pertimbangan yang harus anda buat saat melakukan upgrade dari versi Project Service Automation 2. x atau 1. x ke versi 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121717"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144170"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan peningkatan – PSA versi 2.x atau 1.x ke versi 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation dan Field Service
-Baik Dynamics 365 Project Service Automation maupun Dynamics 365 Field Service menggunakan solusi Universal Resource Scheduling (Urs) untuk penjadwalan sumber daya. Jika Anda memiliki Project Service Automation dan Field Service di instans Anda, Anda harus merencanakan peningkatan kedua solusi ke versi terbaru (versi 3. x untuk Project Service Automation, versi 8. x untuk Field Service). Meningkatkan Project Service Automation atau Field Service akan menginstal versi terbaru dari URS, yang berarti bahwa perilaku yang tidak konsisten dimungkinkan jika solusi Project Service Automation dan Project Service di instans yang sama tidak ditingkatkan ke versi terbaru.
+Baik Dynamics 365 Project Service Automation maupun Dynamics 365 Field Service menggunakan solusi Universal Resource Scheduling (Urs) untuk penjadwalan sumber daya. Bila Anda memiliki Project Service Automation dan Field Service di instans Anda, tingkatkan kedua solusi itu ke versi terbarunya. Untuk Project Service Automation, ia adalah versi 3.x. Untuk Field Service, ini adalah versi 8.x. Memutakhirkan Project Service Automation atau Field Service akan menginstal URS versi terbaru. Jika solusi Project Service Automation dan Field Service dalam instans yang sama tidak ditingkatkan ke versi terbaru, mungkin ada beberapa perilaku yang tidak konsisten.
 
 ## <a name="resource-assignments"></a>Penetapan sumber daya
 Di Project Service Automation versi 2 dan versi 1, penetapan tugas disimpan sebagai tugas anak (juga disebut tugas baris di **) entitas tugas**, dan tidak langsung terkait dengan entitas **penetapan sumber daya**. Tugas baris terlihat di jendela pop-up tugas di struktur rincian kerja (WBS).
@@ -40,9 +44,9 @@ Dalam versi 3 dari Project Service Automation, skema yang mendasari penetapan su
 Perubahan ini mempengaruhi peningkatan proyek yang ada yang memiliki tugas sumber daya untuk nama sumber daya dapat dipesan bernama dan sumber daya generik pada tim proyek. Topik ini memberikan pertimbangan bahwa anda akan perlu memperhitungkan proyek anda saat anda mengupgrade ke versi 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tugas ditetapkan ke sumber daya bernama
-Menggunakan entitas tugas yang mendasari, tugas di versi 2 dan versi 1 memungkinkan anggota tim untuk menggambarkan peran selain dari peran yang ditentukan default. Misalnya, Pramudita Cahyadewi, yang secara default menetapkan peran manajer program, dapat ditetapkan ke tugas dengan peran pengembang. Di versi 3, peran anggota tim yang disebutkan selalu default, sehingga tugas yang diberikan pada Pramudita Cahyadewi menggunakan peran default manajer program.
+Menggunakan entitas tugas yang mendasari, tugas di versi 2 dan versi 1 memungkinkan anggota tim untuk menggambarkan peran selain dari peran yang ditentukan default. Misalnya, Pramudita Cahyadewi, yang secara default menetapkan peran manajer program, dapat ditetapkan ke tugas dengan peran pengembang. Di versi 3, peran anggota tim yang disebutkan selalu default, sehingga tugas yang diberikan pada Pramudita Cahyadewi menggunakan peran default Pramudita sebagai manajer program.
 
-Jika Anda telah menetapkan sumber daya untuk tugas di luar peran default mereka dalam versi 2 dan versi 1, saat Anda meningkatkan, sumber daya bernama akan ditetapkan peran default untuk semua penetapan tugas, terlepas dari penetapan peran di versi 2. Hal ini akan mengakibatkan perbedaan dalam perkiraan perkiraan dari versi 2 atau versi 1 ke versi 3 karena perkiraan dihitung berdasarkan peran sumber daya dan bukan penetapan tugas baris. Misalnya, di versi 2, dua tugas telah ditetapkan ke Latisha Aquina. Peran pada tugas baris untuk tugas 1 adalah Developer dan untuk tugas 2, manajer program. Latisha Aquina memiliki peran default manajer program.
+Jika Anda telah menetapkan sumber daya untuk tugas di luar peran default mereka dalam versi 2 dan versi 1, saat Anda meningkatkan, sumber daya bernama akan ditetapkan peran default untuk semua penetapan tugas, terlepas dari penetapan peran di versi 2. Hasil penetapan ini akan mengakibatkan perbedaan dalam perkiraan perkiraan dari versi 2 atau versi 1 ke versi 3 karena perkiraan dihitung berdasarkan peran sumber daya dan bukan penetapan tugas baris. Misalnya, di versi 2, dua tugas telah ditetapkan ke Latisha Aquina. Peran pada tugas baris untuk tugas 1 adalah Developer dan untuk tugas 2, manajer program. Latisha Aquina memiliki peran default manajer program.
 
 ![Peran ganda ditetapkan ke satu sumber daya](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Bila Anda mengupgrade ke versi 3, tugas baris digantikan dengan tugas sumber day
 
 ![Penetapan sumber daya](media/resource-assignment-v2-05.png)
 
-Karena perkiraan didasarkan pada peran default untuk sumber daya, perkiraan penjualan dan biaya dapat berubah. Perhatikan bahwa dalam grafik berikut, Anda tidak lagi melihat peran **pengembang** karena peran sekarang diambil dari peran default sumber daya yang dapat dipesan.
+Karena perkiraan didasarkan pada peran default untuk sumber daya, perkiraan penjualan dan biaya dapat berubah. Dalam grafik berikut, Anda tidak lagi melihat peran **pengembang** karena peran sekarang diambil dari peran default sumber daya yang dapat dipesan.
 
 ![Perkiraan biaya untuk peran default](media/resource-assignment-cost-estimate-06.png)
 ![Perkiraan penjualan untuk peran default](media/resource-assignment-sales-estimate-07.png)
 
-Setelah pembaruan selesai, Anda dapat mengedit peran anggota tim untuk menjadi yang lain selain default yang ditetapkan. Namun, jika Anda mengubah peran anggota tim, itu akan diubah pada semua tugas yang ditetapkan karena anggota tim tidak lagi diizinkan untuk ditetapkan peran ganda di versi 3.
+Setelah pembaruan selesai, Anda dapat mengedit peran anggota tim untuk menjadi yang lain selain default yang ditetapkan. Namun, jika Anda mengubah peran anggota tim, itu akan diubah pada semua tugas yang ditetapkan karena anggota tim tidak dapat ditetapkan peran ganda di versi 3.
 
 ![Memperbarui peran sumber daya](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Anda dapat melihat unit organisasi pada tampilan perkiraan.
  
 Setelah peningkatan selesai, unit organisasi pada tugas baris yang terkait dengan anggota tim generik ditambahkan ke anggota tim generik, dan tugas baris akan dihapus. Oleh karena itu, sebaiknya lakukan sebelum meningkatkan, buat atau buat ulang tim pada setiap proyek yang berisi sumber daya generik.
 
-Untuk tugas yang ditetapkan ke peran dengan unit organisasi yang berbeda dari unit organisasi proyek kontrak, dan tim belum dihasilkan, peningkatan akan membuat anggota tim generik untuk peran tersebut, namun akan menggunakan unit kontrak proyek untuk unit organisasi anggota tim. Merujuk kembali ke contoh dengan Project Z, ini berarti bahwa unit organisasi kontrak Aswono AS, dan tugas pengujian rencana proyek dalam fase penerapan telah ditetapkan peran Konsultan teknis dengan unit organisasi yang ditetapkan ke Aswono India. Tes integrasi yang diselesaikan setelah fase implementasi telah ditugaskan ke konsultan teknis peran. Unit organisasi Aswono AS dan tim belum dibuat. Peningkatan akan membuat satu anggota tim generik, konsultan teknis yang memiliki jam penugasan dari ketiga tugas, dan unit organisasi Aswono AS, unit organisasi kontrak proyek.   
+Untuk tugas yang ditetapkan ke peran dengan unit organisasi yang berbeda dari unit organisasi proyek kontrak, dan tim belum dihasilkan, peningkatan akan membuat anggota tim generik untuk peran tersebut, namun akan menggunakan unit kontrak proyek untuk unit organisasi anggota tim. Merujuk kembali ke contoh dengan Project Z, unit organisasi kontrak Aswono AS, dan tugas pengujian rencana proyek dalam fase penerapan telah ditetapkan peran Konsultan teknis dengan unit organisasi yang ditetapkan ke Aswono India. Tes integrasi yang diselesaikan setelah fase implementasi telah ditugaskan ke konsultan teknis peran. Unit organisasi Aswono AS dan tim belum dibuat. Peningkatan akan membuat satu anggota tim generik, konsultan teknis yang memiliki jam penugasan dari ketiga tugas, dan unit organisasi Aswono AS, unit organisasi kontrak proyek.   
  
 Mengubah default unit organisasi sumber daya berbeda pada anggota tim yang belum dibuat adalah alasan kami menyarankan Anda membuat atau membuat ulang tim pada setiap proyek yang berisi sumber daya generik sebelum peningkatan sehingga tugas unit organisasi tidak hilang.
 

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078553"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144867"
 ---
 # <a name="create-custom-fields-and-entities"></a>Membuat bidang dan entitas kustom 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Selesaikan langkah-langkah berikut saat anda ingin membuat rangkaian pilihan kustom atau entitas pada platform Power Apps.  
 Prosedur dalam topik ini harus diselesaikan menggunakan antarmuka web dari Project Service Automation (PSA).
@@ -39,7 +41,7 @@ Dimensi harga dapat berupa rangkaian pilihan atau entitas. Keduanya harus dibuat
 
 ### <a name="entity-based-dimensions"></a>Dimensi berdasarkan entitas
 
-1. Di PSA, klik **pengaturan** > **solusi** , lalu klik dua kali **dimensi harga \<your organization name>**.
+1. Di PSA, klik **pengaturan** > **solusi**, lalu klik dua kali **dimensi harga \<your organization name>**.
 2. Di penelusur solusi, di panel navigasi kiri, pilih **Entitas**.
 3. Klik **baru** untuk membuat entitas baru yang disebut **judul standar**. Masukkan informasi tersisa yang diperlukan dan kemudian klik **Simpan**.
 
@@ -50,7 +52,7 @@ Dimensi harga dapat berupa rangkaian pilihan atau entitas. Keduanya harus dibuat
 Anda dapat membuat dua dimensi berbasis rangkaian pilihan. Gunakan **lokasi kerja sumber daya** untuk melacak harga lokasi kerja **Awal** dan pekerjaan **di lokasi** serta gunakan **jam kerja sumber daya** dengan nilai **reguler** dan **lembur** untuk menerapkan markup saat pekerjaan selesai.
 
 
-1. Di PSA, klik **pengaturan** > **solusi** , lalu klik dua kali  **dimensi harga \<your organization name>**. 
+1. Di PSA, klik **pengaturan** > **solusi**, lalu klik dua kali  **dimensi harga \<your organization name>**. 
 2. Di penelusur solusi, di panel navigasi kiri, pilih  **rangkaian pilihan**. 
 3. Klik **baru** untuk membuat rangkaian pilihan baru, masukkan informasi yang diperlukan lainnya, lalu klik **simpan**.
 
@@ -63,8 +65,8 @@ Anda dapat membuat dua dimensi berbasis rangkaian pilihan. Gunakan **lokasi kerj
 
 Anda dapat membuat data untuk dimensi berbasis entitas secara manual atau dengan menggunakan impor Microsoft Excel atau panggilan layanan. Gunakan langkah-langkah dalam prosedur ini untuk membuat dua judul standar , **Insinyur Sistem** dan **Insinyur Sistem Senior** dari dimensi berbasis entitas, yakni **Judul Standar**. Jika data yang ingin Anda buat kecil, seperti dalam contoh berikut, Anda dapat menggunakan formulir standar.
 
-1. Di PSA, Klik **Pencarian Tingkat Lanjut**. Pilih entitas **judul standar** , lalu klik **hasil**. Semua baris di entitas **judul standar** akan ditampilkan.
-2. Klik **Baru**. Di bidang **Nama** , masukkan "Systems Engineer", lalu klik **Simpan**.
+1. Di PSA, Klik **Pencarian Tingkat Lanjut**. Pilih entitas **judul standar**, lalu klik **hasil**. Semua baris di entitas **judul standar** akan ditampilkan.
+2. Klik **Baru**. Di bidang **Nama**, masukkan "Systems Engineer", lalu klik **Simpan**.
 3. Tutup formulir. 
 4. Ulangi langkah 1-3 untuk membuat judul standar lain untuk "senior Systems Engineer".
 

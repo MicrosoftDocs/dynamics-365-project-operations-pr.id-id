@@ -17,29 +17,31 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078493"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144643"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Membuat solusi kustom untuk dimensi harga
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Semua perubahan dimensi harga kustom harus dalam solusi terpisah. Praktik terbaik yang penting ini memberikan fleksibilitas di masa mendatang untuk memperbarui atau menghapus perubahan yang diperlukan, akan membantu penggunaan ulang pekerjaan Anda, dan membuatnya lebih mudah untuk memindahkan perubahan ini ke instans lainnya. Setelah anda membuat perubahan yang diperlukan, ekspor solusi ini sebagai **solusi terkelola** dan impor ke instans lain untuk menggunakan kembali konfigurasi harga anda.
 
-1. Pilih **Pengaturan** > **Solusi** , lalu pilih **Baru**. 
-2. Namai solusi, **\<your organization name> dimensi harga** , masukkan informasi yang diperlukan lainnya, lalu pilih **Simpan**.
+1. Pilih **Pengaturan** > **Solusi**, lalu pilih **Baru**. 
+2. Namai solusi, **\<your organization name> dimensi harga**, masukkan informasi yang diperlukan lainnya, lalu pilih **Simpan**.
 
 > ![Membuat solusi kustom untuk dimensi harga](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambahkan semua entitas yang diperlukan dan komponen terkait ke solusi dimensi harga
 Anda harus menambahkan entitas Project Service berikut ke solusi harga. Selesaikan langkah-langkah dalam prosedur ini untuk membuat beberapa perubahan skema penting dalam solusi harga sehingga entitas mengetahui dimensi harga baru.
 
-1. Pilih **pengaturan** > **solusi** , lalu klik dua kali **dimensi harga \<your organization name>**. 
+1. Pilih **pengaturan** > **solusi**, lalu klik dua kali **dimensi harga \<your organization name>**. 
 2. Di penelusur solusi, di panel navigasi kiri, pilih **Tambahkan yang Ada** > **Entitas**.
-3. Di kotak dialog **komponen solusi** , pilih entitas berikut:
+3. Di kotak dialog **komponen solusi**, pilih entitas berikut:
 
 - Aktual
 - Sumber Daya Dapat Dipesan
