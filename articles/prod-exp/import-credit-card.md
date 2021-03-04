@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bf75c13bb190c7b992aa516f1593d886dfa604d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078637"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960431"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Mengimpor dan mengelola transaksi kartu kredit
-
-[!include [banner](../includes/banner.md)]
 
 Transaksi kartu kredit terkait dengan pengeluaran dapat diatur sehingga mereka secara otomatis diimpor pada jadwal yang berulang. Atau, transaksi dapat diimpor secara manual sebagaimana diperlukan. Transaksi kartu kredit diimpor melalui entitas data transaksi kartu kredit.
 
@@ -35,10 +33,10 @@ Untuk informasi lebih lanjut tentang entitas data, lihat [entitas data](https://
 
 ## <a name="import-credit-card-transactions"></a>Mengimpor transaksi kartu kredit
 
-1. Pada halaman **transaksi kartu kredit** , pilih **impor transaksi**. Jika Anda membuka manajemen data untuk pertama kalinya, sistem harus memperbarui daftar entitas data agar dapat melanjutkan.
-2. Di bidang **Nama** , masukkan deskripsi unik untuk pekerjaan impor.
-3. Di bidang **format data sumber** , pilih format file yang berisi transaksi kartu kredit yang akan diimpor.
-4. Pilih **Unggah** , lalu Cari dan pilih file yang akan diimpor.
+1. Pada halaman **transaksi kartu kredit**, pilih **impor transaksi**. Jika Anda membuka manajemen data untuk pertama kalinya, sistem harus memperbarui daftar entitas data agar dapat melanjutkan.
+2. Di bidang **Nama**, masukkan deskripsi unik untuk pekerjaan impor.
+3. Di bidang **format data sumber**, pilih format file yang berisi transaksi kartu kredit yang akan diimpor.
+4. Pilih **Unggah**, lalu Cari dan pilih file yang akan diimpor.
 5. Setelah file diunggah, validasi pemetaan file transaksi kartu kredit dan kolom entitas data transaksi kartu kredit dengan memilih tautan **Lihat peta** pada ubin. Jika terjadi kesalahan pemetaan, atau jika Anda harus mengubah pemetaan, buat perubahan pemetaan dari tab **visualisasi pemetaan** atau tab **rincian pemetaan**.
 6. Untuk mengotomatisasi transaksi kartu kredit, pilih **buat pekerjaan data yang berulang**. Selanjutnya Anda dapat mengatur pengulangan yang menentukan seberapa sering transaksi kartu kredit harus diimpor. Setelah selesai, pilih **OK**.
 7. Untuk mengimpor file yang dipilih sekarang, pilih **impor**.
@@ -49,6 +47,6 @@ Untuk informasi lebih lanjut tentang entitas data, lihat [entitas data](https://
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Tetapkan ulang transaksi kartu kredit untuk karyawan yang dihentikan
 
-Setelah rekaman karyawan dihentikan, akun Active Directory Domain Services (AD DS) karyawan dinonaktifkan. Namun, mungkin ada transaksi kartu kredit aktif yang harus tetap dikeluarkan dan diganti. Dari halaman **transaksi kartu kredit** , Anda dapat menetapkan ulang karyawan untuk setiap transaksi kartu kredit dengan karyawan yang terkait telah dihentikan.
+Setelah rekaman karyawan dihentikan, akun Active Directory Domain Services (AD DS) karyawan dinonaktifkan. Namun, mungkin ada transaksi kartu kredit aktif yang harus tetap dikeluarkan dan diganti. Dari halaman **transaksi kartu kredit**, Anda dapat menetapkan ulang karyawan untuk setiap transaksi kartu kredit dengan karyawan yang terkait telah dihentikan.
 
 Pilih satu atau beberapa transaksi kartu kredit, lalu pilih **tetapkan ulang transaksi**. Selanjutnya Anda dapat memilih karyawan lain untuk ditetapkan transaksi kartu kredit. Setelah transaksi kartu kredit telah dipindahkan, mereka dapat dipilih untuk laporan pengeluaran dan dibayar melalui proses biasa untuk penggantian laporan pengeluaran.

@@ -3,17 +3,17 @@ title: Menerapkan konfigurasi demo dan data konfigurasi - lite
 description: Topik ini menyediakan informasi tentang cara menerapkan konfigurasi demo dan data konfigurasi untuk Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642097"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089123"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Menerapkan konfigurasi demo dan data konfigurasi untuk Project Operations - lite 
 
@@ -32,47 +32,45 @@ Sebelum Anda memulai konfigurasi, Anda harus memiliki lingkungan Common Data Ser
 2. Arahkan ke folder *ProjOpsDemoDataSetupAndMaster - Integrated CMT* dan Jalankan file eksekusi, *DataMigrationUtility*.
 3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
 
-![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
+    ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
 4. Di Halaman 2 CMT Wizard, pilih **Microsoft 365** sebagai **jenis penyebaran**.
 5. Pilih **Tampilkan daftar organisasi tersedia** dan **Tampilkan kotak centang tingkat lanjut**.
 6. Pilih kawasan penyewa Anda, masukkan kredensial, lalu pilih **masuk**.
 
-![Masuk untuk konfigurasi](./media/2ConfigurationSignin.png)
+   ![Masuk untuk konfigurasi](./media/2ConfigurationSignin.png)
 
 7. Pada halaman 3, dari daftar organisasi pada penyewa, pilih organisasi yang akan diimpor data demo dan kemudian pilih **masuk**.
 8. Pada halaman 4, pilih file zip, *MasterAndSetupData* dari folder yang dibongkar, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-![File Zip](./media/3ZipFile.png)
+   ![File Zip](./media/3ZipFile.png)
 
-![Pilih file](./media/4SelectAFile.png)
+   ![Pilih file](./media/4SelectAFile.png)
 
 9. Setelah file zip dipilih, pilih **impor data**.
 
-![Impor data](./media/5ImportData.png)
+   ![Impor data](./media/5ImportData.png)
 
 10. Impor akan berjalan selama sekitar dua-sepuluh menit tergantung pada kecepatan jaringan Anda. Setelah selesai, keluar dari Wizard CMT. 
 11. Periksa organisasi Anda untuk data dalam 20 entitas berikut:
 
--   Mata uang
--   Akun
--   Unit Organisasi
--   Kontak
--   Grup pajak
--   Grup Pelanggan
--   Unit
--   Grup Unit
--   Daftar Harga
--   Daftar Harga Parameter Proyek 
--   Frekuensi Faktur
--   Kategori Sumber Daya yang Dapat Dipesan
--   Kategori Transaksi
--   Kategori Pengeluaran
--   Harga Peran
--   Harga Kategori Transaksi
--   Karakteristik
--   Sumber Daya Dapat Dipesan
--   Keterkaitan Kategori Sumber Daya yang Dapat Dipesan
--   Karakteristik Sumber Daya yang Dapat Dipesan
+    -   Mata uang
+    -   Akun
+    -   Unit Organisasi
+    -   Kontak
+    -   Unit
+    -   Grup Unit
+    -   Daftar Harga
+    -   Daftar Harga Parameter Proyek 
+    -   Frekuensi Faktur
+    -   Kategori Sumber Daya yang Dapat Dipesan
+    -   Kategori Transaksi
+    -   Kategori Pengeluaran
+    -   Harga Peran
+    -   Harga Kategori Transaksi
+    -   Karakteristik
+    -   Sumber Daya Dapat Dipesan
+    -   Keterkaitan Kategori Sumber Daya yang Dapat Dipesan
+    -   Karakteristik Sumber Daya yang Dapat Dipesan
 
-![Impor Selesai](./media/6CompleteImport.png)
+    ![Impor Selesai](./media/6CompleteImport.png)

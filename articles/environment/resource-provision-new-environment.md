@@ -3,17 +3,18 @@ title: Penyediaan lingkungan baru
 description: Topik ini menyediakan informasi tentang bagaimana menyediakan lingkungan Project Operations baru.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642979"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727794"
 ---
 # <a name="provision-a-new-environment"></a>Penyediaan lingkungan baru
 
@@ -60,17 +61,15 @@ Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Proj
 
 ![Persetujuan Penyebaran](./media/2DeploymentConsent.png)
 
-7. Lengkapi bidang yang diperlukan yang tersisa di Wizard dan konfirmasikan penyebaran. Waktu penyediaan lingkungan bervariasi berdasarkan jenis lingkungan. Penyediaan mungkin memerlukan waktu hingga enam jam.
+7. Opsional - Terapkan data demo ke lingkungan. Buka **Pengaturan tingkat lanjut**, pilih **Sesuaikan Konfigurasi Database SQL**, dan atur **Tentukan kumpulan data untuk Aplikasi database** ke **Demo**.
+
+8. Lengkapi bidang yang diperlukan yang tersisa di Wizard dan konfirmasikan penyebaran. Waktu untuk menyediakan lingkungan bervariasi berdasarkan jenis lingkungan. Penyediaan mungkin memerlukan waktu hingga enam jam.
 
   Setelah penyebaran berhasil diselesaikan, lingkungan akan ditampilkan sebagai **disebarkan**.
 
-8. Untuk mengonfirmasi bahwa lingkungan telah berhasil disebarkan, pilih **masuk** dan masuk ke lingkungan untuk mengonfirmasi.
+9. Untuk mengkonfirmasikan bahwa lingkungan telah berhasil disebarkan, pilih **Masuk** dan masuk ke lingkungan untuk mengkonfirmasi.
 
 ![Rincian lingkungan ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Terapkan data demo Project Operations Finance (langkah opsional)
-
-Terapkan data demo Project Operations Finance ke lingkungan host cloud rilis Layanan 10.0.13 seperti dijelaskan dalam [artikel ini](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Terapkan pembaruan ke lingkungan Finance
 
@@ -151,6 +150,21 @@ Setelah entitas diterapkan, Semua pemetaan yang tersedia didaftarkan di lingkung
 Penyegaran akan berlangsung sekitar 20 menit. Anda akan menerima pemberitahuan setelah selesai.
 
 ![Segarkan Konfirmasi](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Memperbarui pengaturan keamanan di Project Operations di Dataverse
+
+1. Buka Project Operations di lingkungan Dataverse. 
+2. Buka **Pengaturan** > **Keamanan** > **Peran Keamanan**. 
+3. Pada halaman **Peran keamanan**, dalam daftar peran, pilih **pengguna aplikasi penulisan ganda** dan pilih tab **Entitas Kustom**.  
+4. Pastikan peran memiliki izin **Baca** dan **Lampirkan ke** untuk:
+      
+      - **Jenis Nilai Tukar Mata Uang**
+      - **Bagan Akun**
+      - **Kalender Fiskal**
+      - **Buku besar**
+
+5. Setelah peran keamanan diperbarui, buka **Pengaturan** > **Keamanan** > **Tim**, dan pilih tim default dalam tampilan tim **Pemilik Bisnis Lokal**.
+6. Pilih **Kelola Peran** dan verifikasikan bahwa hak istimewa keamanan **pengguna aplikasi penulisan ganda** diterapkan ke tim ini.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Jalankan peta Tulis Ganda Project Operations
 

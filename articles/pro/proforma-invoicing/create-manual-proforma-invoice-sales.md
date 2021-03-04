@@ -5,21 +5,22 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176390"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764507"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Membuat faktur proforma manual - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Di Dynamics 365 Project Operations, faktur proforma dapat dibuat secara manual sesuai kebutuhan. Anda dapat secara manual membuat faktur proforma dari halaman daftar **kontrak proyek** atau dari halaman rincian **kontrak proyek**.
+Di Dynamics 365 Project Operations, faktur proforma dapat dibuat secara manual jika diperlukan. Anda dapat secara manual membuat faktur proforma dari halaman daftar **kontrak proyek** atau dari halaman rincian **kontrak proyek**.
 
 ##  <a name="project-contracts-list-page"></a>Daftar Harga Kontrak Proyek
 
@@ -31,6 +32,6 @@ Semua faktur proyek yang dibuat tersedia pada halaman **faktur** di Bagian **tag
 
 ## <a name="project-contract-details-page"></a>Halaman Detail Kontrak Proyek
 
-Faktur proforma juga dapat dibuat dari halaman rincian **kontrak proyek**, yang membuat faktur untuk kontrak proyek tertentu. Sistem akan memverifikasi bahwa kontrak proyek memiliki backlog **siap untuk faktur** dengan tanggal sebelum tanggal hari ini. Dari kontrak ini, sistem membuat rancangan faktur proforma berdasarkan jumlah pelanggan pada setiap baris kontrak.
+Faktur proforma juga dapat dibuat dari halaman rincian **Kontrak Proyek**. Sistem akan memverifikasi apakah kontrak proyek memiliki backlog **siap untuk faktur** dengan tanggal sebelum tanggal hari ini. Dari kontrak ini, sistem membuat rancangan faktur proforma berdasarkan jumlah pelanggan pada setiap baris kontrak.
 
-Bila ada faktur proforma tunggal yang dibuat, halaman **faktur** akan terbuka. Jika ada beberapa faktur yang dibuat untuk kontrak proyek tersebut, maka halaman daftar **faktur** akan terbuka untuk menampilkan semua faktur yang dibuat.
+Bila ada faktur proforma tunggal yang dibuat, halaman **faktur** akan terbuka. Jika beberapa faktur dibuat untuk kontrak proyek tersebut, halaman daftar **Faktur** akan terbuka untuk menampilkan semua faktur yang dibuat.

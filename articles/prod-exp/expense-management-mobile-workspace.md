@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078643"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960476"
 ---
 # <a name="expense-management-mobile-workspace"></a>Ruang kerja seluler manajemen pengeluaran
-
-[!include [banner](../includes/banner.md)]
 
 Topik ini menyediakan informasi tentang ruang kerja seluler **manajemen pengeluaran**. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran. Selain itu, pemberi izin dapat menggunakan ruang kerja seluler **manajemen pengeluaran** untuk melihat laporan pengeluaran yang ditetapkan kepadanya, dan menyetujui atau menolak laporan pengeluaran tersebut.
 
@@ -115,12 +113,12 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 3. Pilih **Ambil foto** atau **pilih gambar**.
 4. Ikuti salah satu langkah berikut:
 
-    - Jika Anda memilih **Ambil foto** , ikuti langkah berikut:
+    - Jika Anda memilih **Ambil foto**, ikuti langkah berikut:
 
         1. Anda akan diarahkan ke kamera di perangkat seluler, sehingga Anda dapat mengambil foto tanda terima. Setelah selesai mengambil foto, pilih **OK** untuk menerima foto.
         2. Opsional: masukkan nama untuk foto, lalu masukkan catatan.
 
-    - Jika Anda memilih **pilih gambar** , ikuti langkah berikut:
+    - Jika Anda memilih **pilih gambar**, ikuti langkah berikut:
 
         1. Pilih gambar dalam daftar.
         2. Opsional: masukkan nama untuk gambar, lalu masukkan catatan.
@@ -138,8 +136,8 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 8. Pilih **Ambil foto** atau **pilih gambar**.
 9. Ikuti salah satu langkah berikut:
 
-    - Jika Anda memilih **Ambil foto** , Anda akan diarahkan ke kamera di perangkat seluler, sehingga Anda dapat mengambil foto tanda terima. Setelah selesai mengambil foto, pilih **OK** untuk menerima foto.
-    - Jika Anda memilih **pilih gambar** , pilih gambar dalam daftar.
+    - Jika Anda memilih **Ambil foto**, Anda akan diarahkan ke kamera di perangkat seluler, sehingga Anda dapat mengambil foto tanda terima. Setelah selesai mengambil foto, pilih **OK** untuk menerima foto.
+    - Jika Anda memilih **pilih gambar**, pilih gambar dalam daftar.
 
 10. Pilih **Selesai**.
 
@@ -151,14 +149,14 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
     
 3. Pilih laporan pengeluaran untuk melihat rincian pengeluaran untuk itu.
 4. Pilih pengeluaran untuk melihat rincian untuk itu. Informasi yang ditampilkan untuk pengeluaran mencakup tanda terima, tamu, dan detail perincian.
-5. Kembali pada halaman **laporan pengeluaran** , pilih untuk menyetujui atau menolak laporan pengeluaran.
+5. Kembali pada halaman **laporan pengeluaran**, pilih untuk menyetujui atau menolak laporan pengeluaran.
 6. Masukkan Komentar untuk tindakan persetujuan.
 7. Pilih **Selesai**.
 
 ## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Buat laporan pengeluaran baru dan ajukan untuk persetujuan dengan menggunakan ruang kerja seluler manajemen pengeluaran (jika Anda menggunakan Pembaruan 2017 Juli)
 1. Di perangkat seluler, buka ruang kerja **manajemen pengeluaran**.
 2. Pilih **entri pengeluaran**.
-3. Pilih **laporan baru** , atau pilih laporan pengeluaran yang ada dalam daftar.
+3. Pilih **laporan baru**, atau pilih laporan pengeluaran yang ada dalam daftar.
 4. Untuk laporan pengeluaran baru, masukkan tujuan dan informasi tambahan yang tersedia. Informasi ini berbeda-beda, tergantung pada cara manajemen pengeluaran dikonfigurasi untuk perusahaan Anda.
 5. Pilih **Selesai**.
 6. Untuk menambahkan pengeluaran yang ada, seperti transaksi kartu kredit, ke laporan pengeluaran, pilih **lampirkan**.
@@ -172,60 +170,60 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 14. Pilih mata uang pengeluaran. Anda melihat daftar kode mata uang yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 400 mata uang dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata uang Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan mata uang, atau beralih ke pencarian berdasarkan nama.
 15. Pilih **Selesai**.
 16. Untuk menambahkan rincian lainnya ke pengeluaran, pilih **Tambah rincian lainnya**. Bidang yang tersedia tergantung pada konfigurasi manajemen pengeluaran untuk perusahaan Anda.
-17. Jika kebijakan perusahaan memerlukan tanda terima untuk pengeluaran, pilih **tanda terima** , lalu ikuti langkah-langkah berikut:
+17. Jika kebijakan perusahaan memerlukan tanda terima untuk pengeluaran, pilih **tanda terima**, lalu ikuti langkah-langkah berikut:
 
     1. Pilih **Ambil tanda terima** atau **lampirkan tanda terima**.
     2. Ikuti salah satu langkah berikut:
 
-        - Jika Anda memilih **Ambil tanda terima** , ikuti langkah berikut:
+        - Jika Anda memilih **Ambil tanda terima**, ikuti langkah berikut:
 
             1. Pilih **Ambil foto** atau **pilih gambar**.
             2. Ikuti salah satu langkah berikut:
 
-                - Jika Anda memilih **Ambil foto** , ikuti langkah berikut:
+                - Jika Anda memilih **Ambil foto**, ikuti langkah berikut:
 
                     1. Anda akan diarahkan ke kamera di perangkat seluler, sehingga Anda dapat mengambil foto tanda terima. Setelah selesai mengambil foto, pilih **OK** untuk menerima foto.
                     2. Opsional: masukkan nama untuk foto, lalu masukkan catatan.
 
-                - Jika Anda memilih **pilih gambar** , ikuti langkah berikut:
+                - Jika Anda memilih **pilih gambar**, ikuti langkah berikut:
 
                     1. Pilih gambar dalam daftar.
                     2. Opsional: masukkan nama untuk gambar, lalu masukkan catatan.
 
             3.  Pilih **Selesai**.
 
-        - Jika Anda memilih **Lampirkan tanda terima** , ikuti langkah berikut:
+        - Jika Anda memilih **Lampirkan tanda terima**, ikuti langkah berikut:
 
             1.  Pilih satu atau beberapa gambar dalam daftar.
             2.  Pilih **Selesai**.
 
     3. Pilih tombol **kembali** untuk kembali ke rincian pengeluaran.
 
-18. Jika kebijakan perusahaan memerlukan tamu untuk pengeluaran, pilih **Tamu** , lalu ikuti langkah-langkah berikut:
+18. Jika kebijakan perusahaan memerlukan tamu untuk pengeluaran, pilih **Tamu**, lalu ikuti langkah-langkah berikut:
 
-    1. Pilih **tamu** , **tamu sebelumnya** , atau **rekan kerja**.
+    1. Pilih **tamu**, **tamu sebelumnya**, atau **rekan kerja**.
     2. Ikuti salah satu langkah berikut:
 
-        - Jika Anda memilih **Tamu** , ikuti langkah berikut:
+        - Jika Anda memilih **Tamu**, ikuti langkah berikut:
 
             1. Masukkan nama tamu.
             2. Opsional: masukkan organisasi dan/atau negara tamu.
             3. Opsional: Masukkan jabatan tamu.
             4. Pilih **Selesai**.
 
-        - Jika Anda memilih **Tamu sebelumnya** , ikuti langkah berikut:
+        - Jika Anda memilih **Tamu sebelumnya**, ikuti langkah berikut:
 
             1. Pilih satu atau beberapa tamu sebelumnya dalam daftar. Anda akan melihat daftar tamu sebelumnya yang telah ditambahkan ke laporan pengeluaran sebelumnya yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika tamu sebelumnya tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan organisasi, negara, atau jabatan.
             2. Pilih **Selesai**.
 
-        - Jika Anda memilih **Rekan kerja** , ikuti langkah berikut:
+        - Jika Anda memilih **Rekan kerja**, ikuti langkah berikut:
 
             1. Pilih satu atau beberapa rekan kerja dalam daftar. Anda melihat daftar rekan kerja yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika rekan kerja Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan perusahaan atau jabatan.
             2. Pilih **Selesai**.
 
     3. Pilih tombol **kembali** untuk kembali ke rincian pengeluaran.
 
-19. Jika kebijakan perusahaan mengharuskan agar pengeluaran dirinci, pilih **Rinci** , lalu ikuti langkah-langkah berikut:
+19. Jika kebijakan perusahaan mengharuskan agar pengeluaran dirinci, pilih **Rinci**, lalu ikuti langkah-langkah berikut:
 
     1. Pilih tanggal pertama yang akan diperinci.
     2. Pilih **Tambah Perincian**.

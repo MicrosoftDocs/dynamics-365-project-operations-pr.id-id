@@ -5,37 +5,38 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ad206232d616cdbdc83e2a17b9177cfb98ffda9
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8d387816f51f63ecd95df6534c7c012b323e6ddc
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175715"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764868"
 ---
 # <a name="close-a-quote---lite"></a>Menutup kuotasi - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Kuotasi proyek dapat ditutup sebagai menang atau kalah. Operasi mengaktifkan dan merevisi pada kuotasi tidak didukung dalam Microsoft Dynamics 365 Project Operations, sehingga Anda dapat menutup draf kuotasi.
+Kuotasi proyek dapat ditutup sebagai menang atau kalah. Kuotasi draf dapat ditutup karena operasi Aktifkan dan Revisi pada kuotasi tidak didukung di Microsoft Dynamics 365 Project Operations.
 
 ## <a name="close-a-quote-as-won"></a>Menutup kuotasi sebagai Menang
 
-Penutupan kuotasi proyek sebagai menang akan menutup kuotasi dengan status diatur ke ditutup dan alasan status ke menang. Menutup kuotasi membuat kuotasi proyek hanya bisa dibaca dan membuat kontrak proyek draf yang berisi informasi kuotasi. Karena kuotasi yang ditutup tidak dapat dibuka kembali, ada dialog konfirmasi sebelum perubahan dilakukan karena kuotasi yang ditutup tidak dapat dibuka kembali dan perubahannya tidak dapat diubah.
+Bila Anda menutup kuotasi proyek sebagai Menang, status diatur ke Ditutup dan alasan status adalah Menang. Menutup kuotasi membuat kuotasi proyek hanya bisa dibaca dan membuat kontrak proyek draf yang berisi informasi kuotasi. Karena kuotasi tertutup tidak dapat dibuka kembali, dialog konfirmasi akan mengkonfirmasikan perubahan Anda.
 
 Jika kuotasi dilampirkan pada peluang, setiap proyek lain pada peluang ditutup secara otomatis sebagai Kalah.
 
 ### <a name="financial-impact-of-closing-a-quote-as-won"></a>Dampak keuangan menutup kuotasi sebagai menang
 
-Jika ada aktual apa pun untuk waktu yang direkam pada proyek saat masih dilampirkan pada kuotasi draf, hanya biaya waktu atau pengeluaran yang tercatat. Setelah kuotasi ditutup sebagai menang, aplikasi akan merefaktorisasi biaya dengan membalik aktual biaya yang lebih lama dan membuat ulang aktual biaya baru. Aplikasi akan memproses aktual biaya ini berdasarkan metode penagihan pada baris kontrak proyek terkait. Jika aktual biaya merujuk pada baris waktu dan kontrak material, sistem akan secara otomatis membuat aktual penjualan tidak tertagih yang sesuai saat kuotasi ditutup dan kontrak proyek dibuat. Jika aktual biaya merujuk baris kontrak harga tetap, aplikasi akan menghentikan pemrosesan ulang aktual biaya berdasarkan aturan penagihan terpisah untuk pelanggan kontrak proyek.
+Jika ada aktual selama waktu proyek saat masih terlampir pada draf kuotasi, hanya biaya waktu atau pengeluaran yang dicatat. Setelah kuotasi ditutup sebagai menang, aplikasi akan merefaktorisasi biaya dengan membalik aktual biaya yang lebih lama dan membuat ulang aktual biaya baru. Aplikasi akan memproses aktual biaya ini berdasarkan metode penagihan pada baris kontrak proyek terkait. Jika aktual biaya mengacu ke waktu dan baris kontrak material, aktual penjualan tidak tertagih yang tidak terkait dibuat untuk saat kuotasi ditutup dan kontrak proyek dibuat. Jika aktual biaya mengacu ke baris kontrak harga tetap, aplikasi akan berhenti memproses ulang aktual biaya yang didasarkan pada aturan penagihan terpisah untuk pelanggan kontrak proyek.
 
 ## <a name="closing-a-quote-as-lost"></a>Menutup kuotasi sebagai kalah:
 
-Penutupan kuotasi proyek sebagai kalah akan menentukan status ke ditutup dan alasan status ke kalah. Penutupan kuotasi membuat kuotasi proyek hanya bisa dibaca. Karena kuotasi yang ditutup tidak dapat dibuka kembali, dan sebelum Anda menutup kuotasi, dialog konfirmasi akan mengonfirmasi perubahan Anda.
+Bila Anda menutup kuotasi proyek sebagai Kalah, status diatur ke Ditutup dan alasan status adalah Kalah. Penutupan kuotasi membuat kuotasi proyek hanya bisa dibaca. Karena kuotasi yang ditutup tidak dapat dibuka kembali, dan sebelum Anda menutup kuotasi, dialog konfirmasi akan mengonfirmasi perubahan Anda.
 
-Jika kuotasi proyek yang ditutup sebagai hilang kalah memiliki proyek yang dirujuk pada salah satu baris, proyek tersebut juga ditandai sebagai Ditutup dan setiap Pemesanan sumber daya dari hari itu ke depan dibatalkan.
+Jika kuotasi proyek yang ditutup sebagai Kalah mengacu ke proyek pada salah satu barisnya, proyek tersebut juga ditandai sebagai Ditutup. Setiap Pemesanan sumber daya dari waktu itu ke depan dibatalkan.
 
 > [!NOTE]
 > Dalam Project Operations, penutupan kuotasi karena menang atau kalah tidak akan memengaruhi status peluang, yang akan tetap terbuka hingga ditutup secara manual.

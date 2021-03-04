@@ -3,19 +3,19 @@ title: Uang muka
 description: Topik ini menyediakan informasi tentang kasbon.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122753"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098888"
 ---
 # <a name="cash-advance"></a>Uang muka
 
@@ -24,8 +24,9 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 kasbon memungkinkan karyawan untuk meminjam uang dari perusahaan mereka sebelum menimbulkan pengeluaran. Bila kasbon yang diminta disetujui dan dibayar, karyawan dapat menggunakan uang untuk pengeluaran bisnis yang mungkin akan segera timbul. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Membuat dan mengirimkan permintaan kasbon
+Untuk membuat kasbon baru dan mengajukan permintaan uang tunai, lakukan langkah berikut: 
 
-1. Dalam **pengeluaran saya**, pilih **kasbon** > **baru** untuk membuat kasbon baru. 
+1. Dalam **Pengeluaran Saya**, pilih **kasbon** > **Baru**. 
 2. Pada halaman **permintaan kasbon baru**, masukkan tujuan pengeluaran dan pilih lokasi dengan pengeluaran yang akan dikeluarkan.
 3. Masukkan jumlah dan mata uang yang diminta, lalu pilih **Simpan**. 
 4. Setelah Anda siap mengirimkan permintaan kasbon, pada halaman **permintaan kasbon**, pilih **alur kerja** > **Ajukan**.
@@ -34,7 +35,7 @@ kasbon memungkinkan karyawan untuk meminjam uang dari perusahaan mereka sebelum 
 
 Anda dapat memodifikasi permintaan kasbon jika belum diajukan untuk disetujui.
 
-1. Di dalam **pengeluaran saya: kasbon** mencari dan memilih kasbon yang ingin Anda edit.
+1. Dalam **Pengeluaran Saya: kasbon** cari dan pilih kasbon yang akan diedit.
 2. Pilih **Edit**, dan buat perubahan yang diperlukan untuk permintaan kasbon. 
 3. Pilih **Simpan dan Tutup**.
 
@@ -57,7 +58,8 @@ Prosedur berikut biasanya diselesaikan oleh akuntan atau pengguna dengan izin ak
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Ajukan laporan pengeluaran terhadap kasbon yang telah dibayar 
 
-Bila Anda membuat dan mengirimkan laporan pengeluaran untuk kasbon yang telah Anda terima, pengeluaran akan disesuaikan secara otomatis dengan sebelumnya. Jika kasbon lebih besar dari jumlah yang dikeluarkan, Anda harus mengembalikan saldo ke perusahaan menggunakan kategori pengeluaran **uang tunai dikembalikan**. Jika kasbon perusahaan yang dibayar kurang dari jumlah yang Anda belanjakan, perusahaan harus mengganti saldo Anda. 
+Saat Anda membuat dan mengirimkan laporan pengeluaran untuk kasbon yang telah Anda terima, pengeluaran akan secara otomatis disesuaikan dengan kasbon tersebut. Jika kasbon lebih besar dari jumlah yang dikeluarkan, Anda harus mengembalikan saldo ke perusahaan menggunakan kategori pengeluaran **uang tunai dikembalikan**. Jika kasbon yang dibayar perusahaan kurang dari jumlah yang Anda keluarkan, perusahaan harus mengganti selisihnya. 
 
 ### <a name="example"></a>Contoh
-Anda berencana untuk melakukan perjalanan konferensi dari Seattle ke New York City. Anda membuat permintaan kasbon 3000,00 USD karena Anda telah memperkirakan biaya tiket konferensi, penerbangan, Hotel, makan, dan taksi untuk menjadi sekitar jumlah ini. Anda tidak akan dibayar kecuali manajer menyetujui permintaan ini. Setelah manajer menyetujui, kasbon yang diminta akan dibayarkan sebagai 3000,00 USD ke rekening bank Anda. Anda kemudian menghadiri konferensi. Setelah menyelesaikan perjalanan, Anda mendapati bahwa Total pengeluaran hanya 2790,00 USD. Pilih **Kas** di bidang **metode pembayaran**, dan ajukan pengeluaran 2790,00 USD. Jumlah pengeluaran yang dikirim akan disesuaikan secara otomatis dengan 3000,00 USD kasbon yang dipinjamkan kepada Anda. Anda sekarang berutang saldo 210,00 USD (3000,00-2790,00) ke perusahaan, yang dapat Anda kembali ke perusahaan menggunakan kategori pengeluaran **pengembalian uang tunai**. 
+Anda berencana melakukan perjalanan dari Seattle ke New York City untuk konferensi. Anda membuat permintaan kasbon untuk 3000,00 USD berdasarkan perkiraan biaya tiket konferensi, penerbangan, hotel, makan siang, dan taksi. Anda tidak akan dibayar, kecuali manajer Anda menyetujui permintaan ini. Setelah manajer menyetujui, kasbon yang diminta akan dibayarkan sebagai 3000,00 USD ke rekening bank Anda. Anda kemudian menghadiri konferensi. Setelah menyelesaikan perjalanan, Anda mendapati bahwa Total pengeluaran hanya 2790,00 USD. Pilih **Kas** pada bidang **metode Pembayaran**, lalu kirim pengeluaran untuk 2790,00 USD. Jumlah pengeluaran yang dikirim akan disesuaikan secara otomatis dengan 3000,00 USD kasbon yang dipinjamkan kepada Anda. Anda sekarang berutang selisih 210,00 USD (3000,00 - 2790,00), yang dapat Anda kembalikan ke perusahaan menggunakan kategori Pengeluaran **Kas kembali**.
+

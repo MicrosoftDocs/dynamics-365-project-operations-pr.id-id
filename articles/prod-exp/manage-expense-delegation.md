@@ -1,6 +1,6 @@
 ---
 title: Mengelola delegasi pengeluaran
-description: Pengguna delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran atas nama karyawan lain dalam organisasi.
+description: Pengguna delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain di organisasi.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078636"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960791"
 ---
 # <a name="manage-expense-delegation"></a>Mengelola delegasi pengeluaran
 
-[!include [banner](../includes/banner.md)]
+Delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain.
 
-Pengguna delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran atas nama karyawan lain dalam organisasi.
+## <a name="configure-expense-delegation"></a>konfigurasi delegasi pengeluaran
 
-## <a name="configuring-expense-delegation"></a>Mengkonfigurasi delegasi pengeluaran
+1. Untuk mengkonfigurasi pengguna sebagai delegasi pengeluaran, buka **Manajemen pengeluaran > Konfigurasi > Umum > Delegasi**.
+2. Pada halamanw **Delegasi**, pilih **baru**.
+3. Pilih karyawan yang akan memiliki delegasi yang ditentukan. 
+4. Masukkan alias pengguna delegasi, dan tanggal mulai dan berakhir untuk periode delegasi.
 
-Untuk mengkonfigurasi pengguna sebagai delegasi pengeluaran, buka **manajemen pengeluaran > konfigurasi > umum > delegasi** untuk membuka halaman **delegasi**. Pilih **baru** , lalu pilih karyawan yang akan memiliki delegasi yang ditentukan. Masukkan alias pengguna delegasi, dan tanggal mulai dan berakhir untuk periode delegasi.
+## <a name="manage-expense-delegation-for-another-employee"></a>Mengelola delegasi pengeluaran untuk karyawan lain
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Mengelola delegasi pengeluaran atas nama karyawan lain
+Bila tombol manajemen fitur **Aktifkan halaman daftar delegasi pengeluaran** diaktifkan, halaman daftar **Pengeluaran yang didelegasikan ke saya** akan tersedia. Buka **manajemen pengeluaran** > **pengeluaran saya** > **Pengeluaran yang didelegasikan kepada saya**.
 
-Jika tombol manajemen fitur memungkinkan **halaman delegasi daftar pengeluaran** diaktifkan, halaman daftar **pengeluaran yang didelegasikan kepada saya** akan tersedia dengan menelusuri hingga **manajemen pengeluaran> pengeluaran saya> pengeluaran yang didelegasikan kepada saya**.
+Pengguna delegasi dapat dengan cepat memfilter dan mencari pada laporan pengeluaran yang ada dan telah didelegasikan kepada mereka. Mereka juga dapat membuat laporan pengeluaran baru untuk pengguna lain dengan memilih **laporan pengeluaran baru**.
 
-Pengguna delegasi dapat dengan cepat memfilter dan mencari laporan pengeluaran yang ada dan telah didelegasikan kepada pengguna. Pengguna juga dapat dengan cepat membuat laporan pengeluaran baru atas nama pengguna lain dengan mengeklik **laporan pengeluaran baru**.
-
-Pengguna delegasi dapat membuat dan mengelola laporan pengeluaran atas nama karyawan lain dengan menelusuri **manajemen pengeluaran > pengeluaran saya > Laporan pengeluaran** dan mengeklik tombol **buka pengeluaran pengguna lain**.
+Pengguna delegasi juga dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain dengan membuka **manajemen Pengeluaran** > **pengeluaran Saya** > **Laporan pengeluaran** dan memilih **Buka pengeluaran pengguna lain**.
