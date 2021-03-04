@@ -1,6 +1,6 @@
 ---
 title: Mengelola delegasi pengeluaran
-description: Pengguna delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran atas nama karyawan lain dalam organisasi.
+description: Pengguna delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain di organisasi.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078636"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960791"
 ---
-# <a name="manage-expense-delegation"></a><span data-ttu-id="0dd36-103">Mengelola delegasi pengeluaran</span><span class="sxs-lookup"><span data-stu-id="0dd36-103">Manage expense delegation</span></span>
+# <a name="manage-expense-delegation"></a><span data-ttu-id="c7789-103">Mengelola delegasi pengeluaran</span><span class="sxs-lookup"><span data-stu-id="c7789-103">Manage expense delegation</span></span>
 
-[!include [banner](../includes/banner.md)]
+<span data-ttu-id="c7789-104">Delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain.</span><span class="sxs-lookup"><span data-stu-id="c7789-104">An expense delegate can create and manage expense reports for another employee.</span></span>
 
-<span data-ttu-id="0dd36-104">Pengguna delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran atas nama karyawan lain dalam organisasi.</span><span class="sxs-lookup"><span data-stu-id="0dd36-104">An expense delegate user can create and manage expense reports on behalf of another employee in the organization.</span></span>
+## <a name="configure-expense-delegation"></a><span data-ttu-id="c7789-105">konfigurasi delegasi pengeluaran</span><span class="sxs-lookup"><span data-stu-id="c7789-105">Configure expense delegation</span></span>
 
-## <a name="configuring-expense-delegation"></a><span data-ttu-id="0dd36-105">Mengkonfigurasi delegasi pengeluaran</span><span class="sxs-lookup"><span data-stu-id="0dd36-105">Configuring expense delegation</span></span>
+1. <span data-ttu-id="c7789-106">Untuk mengkonfigurasi pengguna sebagai delegasi pengeluaran, buka **Manajemen pengeluaran > Konfigurasi > Umum > Delegasi**.</span><span class="sxs-lookup"><span data-stu-id="c7789-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates**.</span></span>
+2. <span data-ttu-id="c7789-107">Pada halamanw **Delegasi**, pilih **baru**.</span><span class="sxs-lookup"><span data-stu-id="c7789-107">On the **Delegates** page, select **New**.</span></span>
+3. <span data-ttu-id="c7789-108">Pilih karyawan yang akan memiliki delegasi yang ditentukan.</span><span class="sxs-lookup"><span data-stu-id="c7789-108">Select the employee that will have a delegate defined.</span></span> 
+4. <span data-ttu-id="c7789-109">Masukkan alias pengguna delegasi, dan tanggal mulai dan berakhir untuk periode delegasi.</span><span class="sxs-lookup"><span data-stu-id="c7789-109">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
 
-<span data-ttu-id="0dd36-106">Untuk mengkonfigurasi pengguna sebagai delegasi pengeluaran, buka **manajemen pengeluaran > konfigurasi > umum > delegasi** untuk membuka halaman **delegasi**.</span><span class="sxs-lookup"><span data-stu-id="0dd36-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates** to open the **Delegates** page.</span></span> <span data-ttu-id="0dd36-107">Pilih **baru** , lalu pilih karyawan yang akan memiliki delegasi yang ditentukan.</span><span class="sxs-lookup"><span data-stu-id="0dd36-107">Select **New** and then select the employee that will have a delegate defined.</span></span> <span data-ttu-id="0dd36-108">Masukkan alias pengguna delegasi, dan tanggal mulai dan berakhir untuk periode delegasi.</span><span class="sxs-lookup"><span data-stu-id="0dd36-108">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
+## <a name="manage-expense-delegation-for-another-employee"></a><span data-ttu-id="c7789-110">Mengelola delegasi pengeluaran untuk karyawan lain</span><span class="sxs-lookup"><span data-stu-id="c7789-110">Manage expense delegation for another employee</span></span>
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a><span data-ttu-id="0dd36-109">Mengelola delegasi pengeluaran atas nama karyawan lain</span><span class="sxs-lookup"><span data-stu-id="0dd36-109">Managing expense delegation on behalf of another employee</span></span>
+<span data-ttu-id="c7789-111">Bila tombol manajemen fitur **Aktifkan halaman daftar delegasi pengeluaran** diaktifkan, halaman daftar **Pengeluaran yang didelegasikan ke saya** akan tersedia.</span><span class="sxs-lookup"><span data-stu-id="c7789-111">When the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="c7789-112">Buka **manajemen pengeluaran** > **pengeluaran saya** > **Pengeluaran yang didelegasikan kepada saya**.</span><span class="sxs-lookup"><span data-stu-id="c7789-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
 
-<span data-ttu-id="0dd36-110">Jika tombol manajemen fitur memungkinkan **halaman delegasi daftar pengeluaran** diaktifkan, halaman daftar **pengeluaran yang didelegasikan kepada saya** akan tersedia dengan menelusuri hingga **manajemen pengeluaran> pengeluaran saya> pengeluaran yang didelegasikan kepada saya**.</span><span class="sxs-lookup"><span data-stu-id="0dd36-110">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available by navigating to **Expense management > My expenses > Expenses delegated to me**.</span></span>
+<span data-ttu-id="c7789-113">Pengguna delegasi dapat dengan cepat memfilter dan mencari pada laporan pengeluaran yang ada dan telah didelegasikan kepada mereka.</span><span class="sxs-lookup"><span data-stu-id="c7789-113">A delegate user can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="c7789-114">Mereka juga dapat membuat laporan pengeluaran baru untuk pengguna lain dengan memilih **laporan pengeluaran baru**.</span><span class="sxs-lookup"><span data-stu-id="c7789-114">They can also create a new expense report for other users by selecting **New expense report**.</span></span>
 
-<span data-ttu-id="0dd36-111">Pengguna delegasi dapat dengan cepat memfilter dan mencari laporan pengeluaran yang ada dan telah didelegasikan kepada pengguna.</span><span class="sxs-lookup"><span data-stu-id="0dd36-111">A delegate user can quickly filter and search on existing expense reports that hae been delegated to the user.</span></span> <span data-ttu-id="0dd36-112">Pengguna juga dapat dengan cepat membuat laporan pengeluaran baru atas nama pengguna lain dengan mengeklik **laporan pengeluaran baru**.</span><span class="sxs-lookup"><span data-stu-id="0dd36-112">The user can also quickly create a new expense report on behalf of other users by clicking **New expense report**.</span></span>
-
-<span data-ttu-id="0dd36-113">Pengguna delegasi dapat membuat dan mengelola laporan pengeluaran atas nama karyawan lain dengan menelusuri **manajemen pengeluaran > pengeluaran saya > Laporan pengeluaran** dan mengeklik tombol **buka pengeluaran pengguna lain**.</span><span class="sxs-lookup"><span data-stu-id="0dd36-113">Delegate users can also create and manage expense reports on behalf of other employees by navigating to **Expense management > My expenses > Expense reports** and clicking the **Open other user's expenses** button.</span></span>
+<span data-ttu-id="c7789-115">Pengguna delegasi juga dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain dengan membuka **manajemen Pengeluaran** > **pengeluaran Saya** > **Laporan pengeluaran** dan memilih **Buka pengeluaran pengguna lain**.</span><span class="sxs-lookup"><span data-stu-id="c7789-115">Delegate users can also create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>
