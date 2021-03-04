@@ -18,26 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 68816b00b752249023f053836994a083bba5362d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126937"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150897"
 ---
-# <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a><span data-ttu-id="299de-103">Berkolaborasi dengan anggota tim proyek Anda dengan Grup Office 365 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="299de-103">Collaborate with your project team members with Office 365 Groups (Project Service)</span></span>
+# <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a><span data-ttu-id="10b3a-103">Berkolaborasi dengan anggota tim proyek Anda dengan Grup Office 365 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="10b3a-103">Collaborate with your project team members with Office 365 Groups (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="299de-104">Dengan [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], Anda dapat berkolaborasi dengan anggota tim Anda pada proyek dokumen, melihat kalender tim Anda, dan mengadakan percakapan grup.</span><span class="sxs-lookup"><span data-stu-id="299de-104">With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can collaborate with your team members on project documents, view your team’s calendar, and have group conversations.</span></span>  
+<span data-ttu-id="10b3a-104">Dengan [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], Anda dapat berkolaborasi dengan anggota tim Anda pada proyek dokumen, melihat kalender tim Anda, dan mengadakan percakapan grup.</span><span class="sxs-lookup"><span data-stu-id="10b3a-104">With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can collaborate with your team members on project documents, view your team’s calendar, and have group conversations.</span></span>  
   
-1. <span data-ttu-id="299de-105">Pergi ke **Project Service > Proyek**.</span><span class="sxs-lookup"><span data-stu-id="299de-105">Go to **Project Service > Projects**.</span></span>  
+1. <span data-ttu-id="10b3a-105">Pergi ke **Project Service > Proyek**.</span><span class="sxs-lookup"><span data-stu-id="10b3a-105">Go to **Project Service > Projects**.</span></span>  
   
-2. <span data-ttu-id="299de-106">Klik proyek yang sedang Anda kerjakan.</span><span class="sxs-lookup"><span data-stu-id="299de-106">Click the project you’re working on.</span></span>  
+2. <span data-ttu-id="10b3a-106">Klik proyek yang sedang Anda kerjakan.</span><span class="sxs-lookup"><span data-stu-id="10b3a-106">Click the project you’re working on.</span></span>  
   
-3. <span data-ttu-id="299de-107">Di bar di bagian atas layar, pilih panah bawah di sebelah nama proyek, dan kemudian klik **Grup Office 365**.</span><span class="sxs-lookup"><span data-stu-id="299de-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Office 365 Groups**.</span></span> <span data-ttu-id="299de-108">Ini akan menampilkan proyek Anda, bersama dengan item yang dibagi dengan grup Anda.</span><span class="sxs-lookup"><span data-stu-id="299de-108">This displays your project, along with items shared with your group.</span></span>  
+3. <span data-ttu-id="10b3a-107">Di bar di bagian atas layar, pilih panah bawah di sebelah nama proyek, dan kemudian klik **Grup Office 365**.</span><span class="sxs-lookup"><span data-stu-id="10b3a-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Office 365 Groups**.</span></span> <span data-ttu-id="10b3a-108">Ini akan menampilkan proyek Anda, bersama dengan item yang dibagi dengan grup Anda.</span><span class="sxs-lookup"><span data-stu-id="10b3a-108">This displays your project, along with items shared with your group.</span></span>  
   
-4. <span data-ttu-id="299de-109">Untuk membuka ruang kerja tim Anda di [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], klik **buka kalender**, **buka percakapan**, **buka Notebook**, **buka dokumen**, atau **buka orang**.</span><span class="sxs-lookup"><span data-stu-id="299de-109">To open your team’s workspace in [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], click **Open Calendar**, **Open Conversations**, **Open Notebook**, **Open Documents**, or **Open People**.</span></span>  
+4. <span data-ttu-id="10b3a-109">Untuk membuka ruang kerja tim Anda di [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], klik **buka kalender**, **buka percakapan**, **buka Notebook**, **buka dokumen**, atau **buka orang**.</span><span class="sxs-lookup"><span data-stu-id="10b3a-109">To open your team’s workspace in [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], click **Open Calendar**, **Open Conversations**, **Open Notebook**, **Open Documents**, or **Open People**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="299de-110">Lihat Juga</span><span class="sxs-lookup"><span data-stu-id="299de-110">See Also</span></span>  
- [<span data-ttu-id="299de-111">Panduan Waktu, biaya dan kolaborasi</span><span class="sxs-lookup"><span data-stu-id="299de-111">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="10b3a-110">Lihat Juga</span><span class="sxs-lookup"><span data-stu-id="10b3a-110">See Also</span></span>  
+ [<span data-ttu-id="10b3a-111">Panduan Waktu, biaya dan kolaborasi</span><span class="sxs-lookup"><span data-stu-id="10b3a-111">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
