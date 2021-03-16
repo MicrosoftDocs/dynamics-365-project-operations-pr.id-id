@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Apa yang baru
       items:
+        - name: Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februari 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: Januari 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -318,52 +320,52 @@
       items:
         - name: Sekilas pengeluaran
           href: expense/expense-overview.md
-        - name: Pengalaman manajemen pengeluaran untuk proyek
+        - name: Pengalaman pengeluaran baru
           items:
-            - name: Konfigurasi dan persiapan
-              items:
-                - name: Mengonfigurasi kebijakan
-                  href: expense/set-up-policies.md
-                - name: Mengonfigurasi alur kerja
-                  href: expense/set-up-workflows.md
-                - name: Mengelola delegasi
-                  href: expense/manage-delegation.md
-                - name: Mengonfigurasi parameter manajemen pengeluaran
-                  href: expense/configure-expense-management-parameters.md
-                - name: Mengonfigurasi integrasi kartu kredit
-                  href: expense/set-up-credit-card-integration.md
-                - name: Mengonfigurasi kategori pengeluaran
-                  href: expense/set-up-expense-categories.md
-            - name: Menangani pengeluaran pribadi pada laporan pengeluaran
-              href: expense/personal-expenses-expense-report.md
-            - name: Membuat laporan pengeluaran
-              items:
-                - name: Distribusi pada laporan pengeluaran
-                  href: expense/distributions-expense-report.md
-            - name: Menyetujui laporan pengeluaran
-              items:
-                - name: Laporan pengeluaran dan beberapa pemberi izin
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Memposting laporan pengeluaran
-              href: expense/posting-expense-reports.md
-            - name: Permintaan perjalanan
-              href: expense/travel-requisition.md
-            - name: Uang muka
-              href: expense/cash-advance.md
-            - name: Pembayaran harian
-              href: expense/per-diems.md
-            - name: Manajemen keuangan
-              items:
-                - name: Pemulihan PPN
-                  href: expense/vat-recovery.md
-            - name: Pengalaman pengeluaran baru
-              items:
-                - name: Laporan pengeluaran model baru
-                  href: expense/expense-reports-reimagined.md
-                - name: Mencocokkan tanda terima dengan pengeluaran menggunakan OCR
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Manajemen Pengeluaran Mobile
-              href: expense/expense-using-mobile.md
+            - name: Laporan pengeluaran model baru
+              href: expense/expense-reports-reimagined.md
+            - name: Merekam tanda terima dengan OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurasi dan persiapan
+          items:
+            - name: Mengonfigurasi kebijakan
+              href: expense/set-up-policies.md
+            - name: Mengonfigurasi alur kerja
+              href: expense/set-up-workflows.md
+            - name: Mengelola delegasi
+              href: expense/manage-delegation.md
+            - name: Mengonfigurasi parameter manajemen pengeluaran
+              href: expense/configure-expense-management-parameters.md
+            - name: Mengonfigurasi integrasi kartu kredit
+              href: expense/set-up-credit-card-integration.md
+            - name: Mengonfigurasi kategori pengeluaran
+              href: expense/set-up-expense-categories.md
+        - name: Pengeluaran pribadi
+          href: expense/personal-expenses-expense-report.md
+        - name: Pengeluaran antarperusahaan
+          href: prod-exp/intercompany-expense.md
+        - name: Membuat laporan pengeluaran
+          items:
+            - name: Distribusi pada laporan pengeluaran
+              href: expense/distributions-expense-report.md
+        - name: Menyetujui laporan pengeluaran
+          items:
+            - name: Laporan pengeluaran dan beberapa pemberi izin
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Memposting laporan pengeluaran
+          href: expense/posting-expense-reports.md
+        - name: Permintaan perjalanan
+          href: expense/travel-requisition.md
+        - name: Uang muka
+          href: expense/cash-advance.md
+        - name: Pembayaran harian
+          href: expense/per-diems.md
+        - name: Aplikasi Pengeluaran Mobile
+          href: expense/expense-using-mobile.md
+        - name: Manajemen keuangan
+          items:
+            - name: Pemulihan PPN
+              href: expense/vat-recovery.md
     - name: Persetujuan
       items:
         - name: Sekilas persetujuan
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
+        - name: Apa yang baru di bulan Maret 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Apa yang baru di bulan Februari 2021 - penyebaran lite
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: Apa yang baru di bulan Januari 2021 - penyebaran lite
@@ -894,44 +898,52 @@
   items:
     - name: Ikhtisar manajemen pengeluaran
       href: prod-exp/expense-management.md
-    - name: Laporan pengeluaran model baru
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Merencanakan manajemen pengeluaran
-      href: prod-exp/plan-expense-management.md
-    - name: Parameter manajemen pengeluaran
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Ruang kerja seluler manajemen pengeluaran
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Mengonfigurasi alur kerja untuk manajemen pengeluaran
-      href: prod-exp/expense-workflows.md
-    - name: Alur kerja manajemen pengeluaran
-      href: prod-exp/expense-workflow.md
-    - name: Mengelola delegasi pengeluaran
-      href: prod-exp/manage-expense-delegation.md
-    - name: Pemrosesan tanda terima pengeluaran
-      href: prod-exp/expense-receipt-processing.md
-    - name: Mengimpor dan mengelola transaksi kartu kredit
-      href: prod-exp/import-credit-card.md
-    - name: Distribusi pada laporan pengeluaran
-      href: prod-exp/expense-report-distributions.md
+    - name: Pengalaman pengeluaran baru
+      items:
+        - name: Laporan pengeluaran model baru
+          href: expense/expense-reports-reimagined.md
+        - name: Merekam tanda terima dengan OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Konfigurasi dan persiapan
+      items:
+        - name: Mengonfigurasi kebijakan
+          href: expense/set-up-policies.md
+        - name: Mengonfigurasi alur kerja
+          href: expense/set-up-workflows.md
+        - name: Mengelola delegasi
+          href: expense/manage-delegation.md
+        - name: Mengonfigurasi parameter manajemen pengeluaran
+          href: expense/configure-expense-management-parameters.md
+        - name: Mengonfigurasi integrasi kartu kredit
+          href: expense/set-up-credit-card-integration.md
+        - name: Mengonfigurasi kategori pengeluaran
+          href: expense/set-up-expense-categories.md
+    - name: Pengeluaran pribadi
+      href: expense/personal-expenses-expense-report.md
     - name: Pengeluaran antarperusahaan
       href: prod-exp/intercompany-expense.md
-    - name: Menentukan kebijakan pengeluaran
-      href: prod-exp/travel-expense-policies.md
-    - name: Melihat laporan pengeluaran
-      href: prod-exp/view-expense-report.md
+    - name: Membuat laporan pengeluaran
+      items:
+        - name: Distribusi pada laporan pengeluaran
+          href: expense/distributions-expense-report.md
+    - name: Menyetujui laporan pengeluaran
+      items:
+        - name: Laporan pengeluaran dan beberapa pemberi izin
+          href: expense/expense-reports-multiple-approvers.md
     - name: Memposting laporan pengeluaran
-      href: prod-exp/post-expense.md
-    - name: Laporan pengeluaran dan beberapa pemberi izin
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: Pemulihan PPN di manajemen pengeluaran
-      href: prod-exp/VAT-expense-report.md
-    - name: Aturan uang saku
-      href: prod-exp/per-diem.md
+      href: expense/posting-expense-reports.md
     - name: Permintaan perjalanan
-      href: prod-exp/travel-req.md
-    - name: Pengeluaran pribadi pada laporan pengeluaran
-      href: prod-exp/personal-expenses.md
+      href: expense/travel-requisition.md
+    - name: Uang muka
+      href: expense/cash-advance.md
+    - name: Pembayaran harian
+      href: expense/per-diems.md
+    - name: Aplikasi Pengeluaran Mobile
+      href: expense/expense-using-mobile.md
+    - name: Manajemen keuangan
+      items:
+        - name: Pemulihan PPN
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 29, V3'
+          href: psa/whats-new-ur-29.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 28.6 Hotfix, V3'
+          href: psa/whats-new-ur-28-6.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 28.5 Hotfix, V3'
           href: psa/whats-new-ur-28-5.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 28, V3'
           href: psa/whats-new-ur-28.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 27.6 Hotfix, V3'
+          href: psa/whats-new-ur-27-6.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 27.5 Hotfix, V3'
           href: psa/whats-new-ur-27-5.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 27, V3'
