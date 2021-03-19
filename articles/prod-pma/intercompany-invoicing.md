@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078510"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270772"
 ---
 # <a name="intercompany-invoicing"></a>Faktur Antarperusahaan
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078510"
 
 Artikel ini menyediakan informasi dan contoh tentang faktur antarperusahaan untuk proyek.
 
-Organisasi Anda mungkin memiliki beberapa divisi, anak perusahaan, dan entitas hukum lainnya yang mentransfer produk dan layanan satu sama lain untuk proyek. Badan hukum yang menyediakan layanan atau produk disebut *entitas hukum yang meminjamkan* , dan entitas hukum yang menerima layanan atau produk disebut *entitas hukum yang meminjam*. 
+Organisasi Anda mungkin memiliki beberapa divisi, anak perusahaan, dan entitas hukum lainnya yang mentransfer produk dan layanan satu sama lain untuk proyek. Badan hukum yang menyediakan layanan atau produk disebut *entitas hukum yang meminjamkan*, dan entitas hukum yang menerima layanan atau produk disebut *entitas hukum yang meminjam*. 
 
 Ilustrasi berikut menunjukkan skenario umum di mana dua entitas hukum, SI FR (entitas hukum yang meminjam) dan SI USA (entitas hukum yang meminjam) berbagi sumber daya untuk memberikan proyek untuk pelanggan A. Untuk skenario ini, SI FR dikontrak untuk memberikan pekerjaan kepada pelanggan A. 
 
@@ -65,20 +65,20 @@ Untuk contoh ini, FRSI harus pelanggan di entitas hukum USSI, dan USSI harus ven
    |  C   |                                  Di FRSI, buka rekaman vendor yang baru saja Anda buat.                                  | Pada panel tindakan, pada tab <strong>Umum</strong>, di grup <strong>Konfigurasi</strong>, klik <strong>Antarperusahaan</strong>. Pada halaman <strong>antarperusahaan</strong>, pada tab <strong>relasi perdagangan</strong>, atur penggeser <strong>aktif</strong> ke <strong>ya</strong>. Di bidang <strong>perusahaan pelanggan</strong>, pilih rekaman Pelanggan yang Anda buat di langkah A. |
 
 
-2. Klik **manajemen proyek dan akuntansi** &gt; **Konfigurasi** &gt; **parameter akuntansi manajemen proyek** , dan kemudian klik tab **antarperusahaan**. Cara Anda mengkonfigurasi parameter tergantung pada apakah Anda adalah entitas hukum yang meminjam atau entitas hukum yang meminjamkan.
+2. Klik **manajemen proyek dan akuntansi** &gt; **Konfigurasi** &gt; **parameter akuntansi manajemen proyek**, dan kemudian klik tab **antarperusahaan**. Cara Anda mengkonfigurasi parameter tergantung pada apakah Anda adalah entitas hukum yang meminjam atau entitas hukum yang meminjamkan.
    -   Jika Anda entitas hukum yang meminjam, pilih kategori pengadaan yang harus digunakan untuk mencocokkan faktur vendor, yang dihasilkan secara otomatis.
    -   Jika Anda adalah badan hukum yang meminjamkan, untuk setiap entitas yang meminjam, pilih kategori proyek default untuk setiap jenis transaksi. Kategori proyek digunakan untuk konfigurasi pajak bila kategori yang ditagih dalam transaksi antarperusahaan hanya ada di entitas hukum yang meminjam. Anda dapat memilih untuk mengakumulasikan pendapatan untuk transaksi antarperusahaan. Akrual ini dilakukan saat transaksi dikirim, dan kemudian dibalik saat faktur antarperusahaan dikirim.
 
 3. Klik **manajemen proyek dan akuntansi** &gt; **konfigurasi** &gt; **Harga** &gt; **harga transfer**.
 4. Pilih mata uang, jenis transaksi, dan model transfer harga. Mata uang yang digunakan pada faktur adalah mata uang yang dikonfigurasi dalam rekaman pelanggan untuk entitas hukum yang meminjam di entitas hukum yang meminjamkan. Mata uang digunakan untuk mencocokkan entri dalam tabel transfer harga.
-5. Klik **Buku besar umum** &gt; **penataan posting** &gt; **akuntansi antarperusahaan** , dan atur hubungan untuk USSI dan FRSI.
+5. Klik **Buku besar umum** &gt; **penataan posting** &gt; **akuntansi antarperusahaan**, dan atur hubungan untuk USSI dan FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Contoh 2: membuat dan memposting lembar waktu Antarperusahaan
 USSI, entitas hukum yang meminjamkan, harus membuat dan memposting lembar waktu untuk proyek dari FRSI, entitas hukum yang meminjam. Terdapat dua titik masuk untuk langkah yang diperlukan untuk tugas ini.
 
 | Langkah | Titik Masuk                                                                       | Deskripsi                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Manajemen proyek dan akuntansi** &gt; **lembar waktu** &gt; **Semua lembar waktu** | Membuat lembar waktu baru. Pada baris lembar waktu, di bidang **entitas hukum** , pilih **FRSI**. Di bidang **id proyek** , pilih proyek di FRSI. Masukkan jam untuk setiap hari dalam seminggu. |
+| A    | **Manajemen proyek dan akuntansi** &gt; **lembar waktu** &gt; **Semua lembar waktu** | Membuat lembar waktu baru. Pada baris lembar waktu, di bidang **entitas hukum**, pilih **FRSI**. Di bidang **id proyek**, pilih proyek di FRSI. Masukkan jam untuk setiap hari dalam seminggu. |
 | B    | Halaman **lembar waktu**                                                                | Setelah alur kerja berjalan, posting lembar waktu, dan buat catatan nomor voucher.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Contoh 3: membuat dan memposting faktur vendor Antarperusahaan
@@ -87,7 +87,7 @@ USSI, entitas hukum yang meminjamkan, harus membuat dan memposting faktur vendor
 | Langkah | Titik Masuk                                                                                      | Deskripsi                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **utang dagang** &gt; **faktur** &gt; **buka vendor faktur** &gt; **Faktur vendor baru** | Buat faktur vendor baru, dan masukkan layanan yang diperoleh atas nama proyek FRSI.                                                                                                                                                                                  |
-| B    | Halaman **faktur vendor**                                                                      | Masukkan baris yang menunjukkan layanan alihdaya atas nama FRSI. Pada fasttab **rincian baris** , pada tab **proyek** untuk baris faktur, di bidang **perusahaan proyek** , masukkan **FRSI**. Masukkan proyek dan informasi yang terkait. Kemudian posting faktur vendor. |
+| B    | Halaman **faktur vendor**                                                                      | Masukkan baris yang menunjukkan layanan alihdaya atas nama FRSI. Pada fasttab **rincian baris**, pada tab **proyek** untuk baris faktur, di bidang **perusahaan proyek**, masukkan **FRSI**. Masukkan proyek dan informasi yang terkait. Kemudian posting faktur vendor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Contoh 4: membuat dan memposting faktur Antarperusahaan
 USSI, entitas hukum pinjaman, harus membuat dan memposting faktur antarperusahaan. Terdapat dua titik masuk untuk langkah yang diperlukan untuk tugas ini.
@@ -95,7 +95,7 @@ USSI, entitas hukum pinjaman, harus membuat dan memposting faktur antarperusahaa
 | Langkah | Titik Masuk                                                                                             | Deskripsi                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Manajemen proyek dan akuntansi** &gt; **faktur proyek** &gt; **faktur pelanggan antarperusahaan**  | Klik **baru** untuk membuka halaman **Buat faktur antarperusahaan**.                                                                                  |
-| B    | **Manajemen proyek dan akuntansi** &gt; **faktur proyek** &gt; **faktur pelanggan antarperusahaan** | Pada halaman **Buat faktur antarperusahaan** , masukkan entitas hukum, tentukan transaksi yang harus disertakan, lalu klik **Cari**. |
+| B    | **Manajemen proyek dan akuntansi** &gt; **faktur proyek** &gt; **faktur pelanggan antarperusahaan** | Pada halaman **Buat faktur antarperusahaan**, masukkan entitas hukum, tentukan transaksi yang harus disertakan, lalu klik **Cari**. |
 | C    | **Manajemen proyek dan akuntansi** &gt; **faktur proyek** &gt; **faktur pelanggan antarperusahaan** | Pilih transaksi untuk faktur, atau klik **Pilih Semua** untuk menagih semua transaksi dalam daftar, lalu klik **OK**.                  |
 | D    | Halaman **faktur antarperusahaan**                                                                       | Proposal faktur pelanggan antarperusahaan ditampilkan.                                                                                             |
 | E    | Halaman **faktur antarperusahaan**                                                                       | Klik **posting**.                                                                                                                                  |

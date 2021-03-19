@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274417"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Mengonfigurasikan tarif tagihan tenaga kerja - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tarif tagihan untuk waktu dalam Dynamics 365 Project Operations dapat diatur hanya dalam satu mata uang, yakni mata uang pada header daftar harga.
+Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tingkat tagihan untuk waktu di Dynamics 365 Project Operations dapat diatur dalam hanya satu mata uang, yang merupakan mata uang pada header Daftar harga.
 
 1. Untuk mengkonfigurasikan tarif tagihan tenaga kerja untuk daftar harga penjualan, buat daftar harga berdasarkan header daftar harga. 
 2. Pada tab **harga peran**, di subkisi, pilih **+ harga peran baru**. 

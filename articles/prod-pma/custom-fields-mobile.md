@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270997"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android
 
@@ -61,11 +61,11 @@ Properti **fieldbasetype** pada objek **tstimesheetcustom** menentukan jenis bid
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Jika properti **stringoptions** tidak diberikan pada objek **tstimesheetcustomfield** , bidang teks bebas diberikan kepada pengguna.
+- Jika properti **stringoptions** tidak diberikan pada objek **tstimesheetcustomfield**, bidang teks bebas diberikan kepada pengguna.
 
     Properti **stringlength** dapat digunakan untuk mengatur panjang maksimum string yang dapat dimasukkan pengguna.
 
-- Jika properti **stringoptions** diberikan pada objek **tstimesheetcustomfield** , elemen daftar tersebut adalah satu-satunya nilai yang dapat dipilih pengguna dengan menggunakan tombol pilihan (tombol radio).
+- Jika properti **stringoptions** diberikan pada objek **tstimesheetcustomfield**, elemen daftar tersebut adalah satu-satunya nilai yang dapat dipilih pengguna dengan menggunakan tombol pilihan (tombol radio).
 
     Dalam kasus ini, bidang string dapat bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke database sebagai enum, secara manual petakan nilai string kembali ke nilai enum sebelum anda menyimpan database dengan menggunakan rantai perintah (lihat bagian "gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" kemudian di topik ini misalnya).
 
@@ -125,31 +125,31 @@ Properti ini mengontrol urutan bidang kustom yang ditampilkan di aplikasi saat l
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Untuk bidang jenis **Boolean** , properti ini meneruskan nilai Boolean bidang antara server dan aplikasi.
+Untuk bidang jenis **Boolean**, properti ini meneruskan nilai Boolean bidang antara server dan aplikasi.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Untuk bidang jenis **GUID** , properti ini meneruskan nilai pengidentifikasi unik global (GUID) bidang antara server dan aplikasi.
+Untuk bidang jenis **GUID**, properti ini meneruskan nilai pengidentifikasi unik global (GUID) bidang antara server dan aplikasi.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Untuk bidang jenis **Int64** , properti ini meneruskan nilai Int64 bidang antara server dan aplikasi.
+Untuk bidang jenis **Int64**, properti ini meneruskan nilai Int64 bidang antara server dan aplikasi.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Untuk bidang jenis **Int** , properti ini meneruskan nilai Int bidang antara server dan aplikasi.
+Untuk bidang jenis **Int**, properti ini meneruskan nilai Int bidang antara server dan aplikasi.
 
 ### <a name="realvalue-real"></a>realValue (riil)
 
-Untuk bidang jenis **Riil** , properti ini meneruskan nilai riil bidang antara server dan aplikasi.
+Untuk bidang jenis **Riil**, properti ini meneruskan nilai riil bidang antara server dan aplikasi.
 
 ### <a name="stringvalue-str"></a>stringValue (Str)
 
-Untuk bidang jenis **String** , properti ini meneruskan nilai String bidang antara server dan aplikasi. Juga digunakan untuk bidang jenis **Riil** yang diformat sebagai mata uang. Untuk bidang tersebut, properti akan digunakan untuk meneruskan kode mata uang ke aplikasi.
+Untuk bidang jenis **String**, properti ini meneruskan nilai String bidang antara server dan aplikasi. Juga digunakan untuk bidang jenis **Riil** yang diformat sebagai mata uang. Untuk bidang tersebut, properti akan digunakan untuk meneruskan kode mata uang ke aplikasi.
 
 ### <a name="datevalue-date"></a>dateValue (tanggal)
 
-Untuk bidang jenis **Tanggal** , properti ini meneruskan nilai tanggal bidang antara server dan aplikasi.
+Untuk bidang jenis **Tanggal**, properti ini meneruskan nilai tanggal bidang antara server dan aplikasi.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Menampilkan dan menyimpan bidang kustom di bagian entri lembar waktu
 
@@ -179,9 +179,9 @@ Di bawah ini adalah screenshot dari Visual Studio pohon objek aplikasi. Ini menu
 
 Kode ini mengontrol pengaturan tampilan untuk bidang di aplikasi. Contohnya, kontrol jenis bidang, label, Apakah bidang wajib, dan di bagian apa bidang ditampilkan.
 
-Contoh berikut menunjukkan bidang string pada entri waktu. Bidang ini memiliki dua pilihan, **pilihan pertama** dan **pilihan kedua** , yang tersedia melalui tombol pilihan (tombol radio). Bidang di aplikasi dikaitkan dengan bidang **testlinestring** yang ditambahkan ke tabel TSTimesheetLine.
+Contoh berikut menunjukkan bidang string pada entri waktu. Bidang ini memiliki dua pilihan, **pilihan pertama** dan **pilihan kedua**, yang tersedia melalui tombol pilihan (tombol radio). Bidang di aplikasi dikaitkan dengan bidang **testlinestring** yang ditambahkan ke tabel TSTimesheetLine.
 
-Ingat penggunaan metode **tstimesheetcustomfield::newfrommetatdata()** untuk menyederhanakan inisialisasi properti bidang kustom: **fieldbasetype** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** , dan **numberOfDecimals**. Anda juga dapat mengatur parameter ini secara manual, seperti yang Anda inginkan.
+Ingat penggunaan metode **tstimesheetcustomfield::newfrommetatdata()** untuk menyederhanakan inisialisasi properti bidang kustom: **fieldbasetype**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength**, dan **numberOfDecimals**. Anda juga dapat mengatur parameter ini secara manual, seperti yang Anda inginkan.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Untuk menyimpan bidang kustom kembali ke database dalam penggunaan umum, Anda ha
 - Metode **populateTimesheetWeekFromEntry** juga dapat diperpanjang Jika bidang kustom yang dipetakan ke objek **TSTimesheetEntry** harus menulis kembali ke tabel database TSTimesheetLineweek.
 
 > [!NOTE]
-> Contoh berikut menyimpan nilai **firstoption** atau **secondoption** yang dipilih pengguna ke database sebagai nilai string mentah. Jika bidang database adalah bidang dari jenis **Enum** , nilai tersebut dapat secara manual dipetakan ke nilai Enum dan kemudian disimpan ke bidang Enum pada tabel database.
+> Contoh berikut menyimpan nilai **firstoption** atau **secondoption** yang dipilih pengguna ke database sebagai nilai string mentah. Jika bidang database adalah bidang dari jenis **Enum**, nilai tersebut dapat secara manual dipetakan ke nilai Enum dan kemudian disimpan ke bidang Enum pada tabel database.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Logika yang ada untuk fungsi lembar waktu di tingkat database akan tetap berfung
 
 - Jika **validateWrite** pada tabel TSTimesheetLine mengembalikan **false** selama operasi Simpan untuk baris lembar waktu, pesan kesalahan ditampilkan di aplikasi mobile.
 - Jika **validateSubmit** pada tabel TSTimesheetTable mengembalikan **false** selama pengiriman dalam aplikasi, pesan kesalahan ditampilkan pada pengguna.
-- Logika yang mengisi dalam bidang (misalnya, **properti baris** ) selama metode **insert** pada tabel TSTimesheetLine masih akan berjalan.
+- Logika yang mengisi dalam bidang (misalnya, **properti baris**) selama metode **insert** pada tabel TSTimesheetLine masih akan berjalan.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Menyembunyikan dan menandai bidang bawaan sebagai hanya baca melalui konfigurasi
 

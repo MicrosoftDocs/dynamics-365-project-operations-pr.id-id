@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180960"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272437"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Informasi ringkasan tentang kuotasi proyek - lite
 
@@ -21,7 +21,7 @@ _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Artikel ini menjelaskan informasi yang berlaku untuk kuotasi proyek. Ini mencakup pengaturan yang mempengaruhi semua kuotasi baris, dan informasi tentang kuotasi yang diringkas di seluruh item baris untuk mendorong KPI kuotasi proyek.
 
-Tabel berikut mencantumkan bidang informasi ringkasan pada kuotasi proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari kuotasi Dynamics 365 Sales.
+Tabel berikut berisi daftar bidang informasi ringkasan pada kuotasi proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari kuotasi Dynamics 365 Sales.
 
 | **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |

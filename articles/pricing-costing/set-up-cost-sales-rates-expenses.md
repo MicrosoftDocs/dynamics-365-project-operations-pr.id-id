@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274912"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Mengonfigurasikan biaya dan tarif penjualan untuk pengeluaran
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Anda dapat mengkonfigurasi harga biaya dan penjualan untuk kategori transaksi di Dynamics 365 Project Operations. Karena biaya dan harga penjualan dirancang untuk pengeluaran, setiap kategori transaksi yang mencakup ini, juga harus diatur sebagai kategori pengeluaran. Pengaturan ini memastikan akurasi di fungsi hilir. Biaya dan harga penjualan untuk kategori transaksi hanya dapat didaftarkan dalam satu mata uang, yang harus berupa mata uang pada header daftar harga.
+Anda dapat mengkonfigurasi biaya dan harga penjualan untuk kategori transaksi di Dynamics 365 Project Operations. Karena biaya dan harga penjualan dirancang untuk pengeluaran, setiap kategori transaksi yang mencakup ini, juga harus diatur sebagai kategori pengeluaran. Pengaturan ini memastikan akurasi di fungsi hilir. Biaya dan harga penjualan untuk kategori transaksi hanya dapat didaftarkan dalam satu mata uang, yang harus berupa mata uang pada header daftar harga.
 
 Untuk mengatur biaya dan tarif penjualan untuk kategori transaksi, selesaikan langkah berikut. 
 

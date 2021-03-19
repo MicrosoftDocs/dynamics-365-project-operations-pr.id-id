@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078619"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270727"
 ---
 # <a name="create-a-new-project"></a>Buat proyek baru
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078619"
 
 Selesaikan langkah-langkah berikut untuk membuat proyek baru.
 
-1. Di **Manajemen proyek** , pilih **Proyek baru** dan masukkan nilai berikut:
+1. Di **Manajemen proyek**, pilih **Proyek baru** dan masukkan nilai berikut:
 
     - **Jenis proyek:** waktu dan material
     - **Nama proyek:** Peningkatan XYZ fase 2
@@ -42,10 +42,10 @@ Selesaikan langkah-langkah berikut untuk membuat proyek baru.
 
 ## <a name="assign-a-resource-to-a-project"></a>Menetapkan sumber daya untuk proyek
 
-1. Pada halaman **pekerja** , dalam **Daftar pekerja** , pilih rekaman untuk pekerja yang sebelumnya Anda konfigurasikan kompetensinya, dan buka rekaman pekerja.
-2. Pada panel tindakan, pada tab **Proyek** , di grup **Konfigurasi** , pilih **tetapkan proyek**.
-3. Pada halaman **penugasan proyek validasi sumber daya** , pada tab **proyek** , di bidang **Tambah proyek ke proyek yang dipilih** , filter proyek **Peningkatan XYZ fase 2**.
-4. Di panel **proyek lainnya** , pilih proyek, lalu pilih tombol panah untuk menambahkannya ke panel **proyek yang dipilih**.
+1. Pada halaman **pekerja**, dalam **Daftar pekerja**, pilih rekaman untuk pekerja yang sebelumnya Anda konfigurasikan kompetensinya, dan buka rekaman pekerja.
+2. Pada panel tindakan, pada tab **Proyek**, di grup **Konfigurasi**, pilih **tetapkan proyek**.
+3. Pada halaman **penugasan proyek validasi sumber daya**, pada tab **proyek**, di bidang **Tambah proyek ke proyek yang dipilih**, filter proyek **Peningkatan XYZ fase 2**.
+4. Di panel **proyek lainnya**, pilih proyek, lalu pilih tombol panah untuk menambahkannya ke panel **proyek yang dipilih**.
 
 Anda juga dapat menetapkan kategori untuk sumber daya sesuai kebutuhan. Jenis kategori adalah **biaya** atau **pendapatan**. Jenis kategori ditentukan oleh organisasi Anda. Jika tidak ada kategori yang ditetapkan untuk sumber daya, Finance akan mencari kategori default pada harga jam untuk biaya dan pendapatan.
 
@@ -59,26 +59,26 @@ Manajer proyek dapat menggunakan fungsi sumber daya proyek untuk membuat peran y
 
 Langkah-langkah berikut ini menunjukkan cara manajer sumber daya dapat mengkonfigurasi peran manajer proyek senior dan mengaitkan karakteristik sumber daya dengannya. Selanjutnya, peran dapat digunakan untuk mencari sumber daya yang tersedia yang sesuai dengan kompetensi sumber daya yang diperlukan.
 
-1. Di **Konfigurasi Peran** , pilih **baru** dan masukkan nilai berikut:
+1. Di **Konfigurasi Peran**, pilih **baru** dan masukkan nilai berikut:
 
     - **ID peran:** manajer proyek senior
     - **Deskripsi:** manajer proyek senior
 
 2. Pilih **Buat**.
-3. Pilih peran **manajer proyek senior** , lalu pilih **Konfigurasikan karakteristik**.
-4. Di bidang **Jenis karakteristik** , pilih **Keterampilan**.
-5. Di bidang **Karakteristik yang tersedia** , masukkan keterampilan yang akan dicari.
-6. Di bidang **Jenis karakteristik** , pilih **sertifikat**.
-7. Di bidang **Karakteristik yang tersedia** , masukkan jenis sertifikat yang akan dicari.
+3. Pilih peran **manajer proyek senior**, lalu pilih **Konfigurasikan karakteristik**.
+4. Di bidang **Jenis karakteristik**, pilih **Keterampilan**.
+5. Di bidang **Karakteristik yang tersedia**, masukkan keterampilan yang akan dicari.
+6. Di bidang **Jenis karakteristik**, pilih **sertifikat**.
+7. Di bidang **Karakteristik yang tersedia**, masukkan jenis sertifikat yang akan dicari.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Menetapkan sumber daya proyek untuk proyek
 
-1. Pada halaman **semua proyek** , pilih proyek **peningkatan XYZ fase 2**.
-2. Pada tab **tim proyek dan penjadwalan** , pilih **Tambah**.
-3. Di bidang **peran** , pilih **anggota tim**.
+1. Pada halaman **semua proyek**, pilih proyek **peningkatan XYZ fase 2**.
+2. Pada tab **tim proyek dan penjadwalan**, pilih **Tambah**.
+3. Di bidang **peran**, pilih **anggota tim**.
 4. Pilih **Pesan dari kalender**.
-5. Pada halaman **ketersediaan sumber daya** , pilih **lihat pengaturan**.
-6. Pada halaman **Atur pengaturan tampilan** , masukkan nilai berikut:
+5. Pada halaman **ketersediaan sumber daya**, pilih **lihat pengaturan**.
+6. Pada halaman **Atur pengaturan tampilan**, masukkan nilai berikut:
 
     - **Format untuk tampilan rentang tanggal:** Hari
     - **Tampilkan deskripsi ketersediaan:** ya
@@ -95,15 +95,15 @@ Selama reservasi sumber daya, manajer proyek dapat memfilter sumber daya peran y
 
 **Skenario:** proyek yang disetujui telah dimulai, dan peran manajer proyek senior dicadangkan sebagai sumber daya yang direncanakan selama tahap perencanaan proyek. Manajer sumber daya sekarang memperoleh sumber daya untuk memenuhi peran manajer proyek senior.
 
-1. Pada halaman **daftar sumber daya** , pilih **Daniel goldschmidt**.
-2. Di **Peran sumber daya** , pilih **baru** dan masukkan nilai berikut:
+1. Pada halaman **daftar sumber daya**, pilih **Daniel goldschmidt**.
+2. Di **Peran sumber daya**, pilih **baru** dan masukkan nilai berikut:
 
     - **Efektif:** masukkan tanggal saat ini.
     - **Kedaluwarsa:** Masukkan **tidak pernah**.
     - **Peran:** Masukkan **manajer proyek senior**.
 
-3. Pilih **Simpan** , lalu tutup halaman.
-4. Pada tab **kompetensi** , tambahkan Keterampilan **projectmgmt** dan sertifikat **PMP**.
+3. Pilih **Simpan**, lalu tutup halaman.
+4. Pada tab **kompetensi**, tambahkan Keterampilan **projectmgmt** dan sertifikat **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

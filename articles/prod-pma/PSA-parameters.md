@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270907"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parameter Integrasi Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Di halaman **parameter integrasi Project Service Automation** , Anda dapat mengonfigurasi cara data default dimasukkan saat mengintegrasikan Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Agar proyek berhasil disinkronisasi dari Project Service Automation ke Finance, Anda harus mengkonfigurasi bidang berikut.
+Di halaman **parameter integrasi Project Service Automation**, Anda dapat mengonfigurasi cara data default dimasukkan saat mengintegrasikan Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Agar proyek berhasil disinkronisasi dari Project Service Automation ke Finance, Anda harus mengkonfigurasi bidang berikut.
 
-Untuk membuka halaman **parameter integrasi Project Service Automation** , buka **manajemen proyek dan parameter akuntansi** \> **Konfigurasi** \> **parameter integrasi Dynamics 365 for Project Service Automation**. 
+Untuk membuka halaman **parameter integrasi Project Service Automation**, buka **manajemen proyek dan parameter akuntansi** \> **Konfigurasi** \> **parameter integrasi Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - Integrasi tugas proyek, kategori transaksi pengeluaran, estimasi jam, estimasi pengeluaran, dan penguncian fungsi tersedia dalam versi 8.0.

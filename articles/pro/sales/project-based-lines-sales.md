@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181008"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272527"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Baris peluang berbasis proyek - lite
 
@@ -27,7 +27,7 @@ Di bawah ini adalah bidang pada baris peluang berbasis proyek:
 
 | **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
-| Jenis Produk | Tab Umum (tersembunyi) | Anda dapat memilih salah satu dari opsi berikut ini:</br>- Layanan berbasis proyek (tersedia hanya Jika Dynamics 365 Operations terinstal)</br>- Produk (tersedia hanya bila Project Operations dan Dynamics 365 Sales diinstal) | Nilai bidang ini diatur ke **layanan berbasis proyek** saat Anda membuat baris peluang berbasis proyek dari kisi baris berbasis proyek pada peluang. <br> Jika Anda mengubah atau mengganti nilai ini, fungsi proyek tidak akan diaktifkan pada item baris berbasis proyek. |
+| Jenis Produk | Tab Umum (tersembunyi) | Anda dapat memilih salah satu dari opsi berikut ini:</br>- Layanan berbasis proyek (hanya tersedia bila Dynamics 365 Project Operations diinstal)</br>- Produk (tersedia hanya bila Project Operations dan Dynamics 365 Sales diinstal) | Nilai bidang ini diatur ke **layanan berbasis proyek** saat Anda membuat baris peluang berbasis proyek dari kisi baris berbasis proyek pada peluang. <br> Jika Anda mengubah atau mengganti nilai ini, fungsi proyek tidak akan diaktifkan pada item baris berbasis proyek. |
 | Peluang | Tab Umum | Bidang ini hanya baca dan merujuk rekaman peluang induk yang dimiliki item baris ini. | Tidak ada dampak hilir dari bidang ini. |
 | Nama | Tab Umum | Ini adalah bidang teks yang dapat diedit yang dapat digunakan untuk memberikan identitas singkat ke item baris ini. | Nilai ini dibawa ke baris kuotasi saat Anda membuat kuotasi dari peluang ini. |
 | Anggaran Pelanggan | Tab Umum | Bidang mata uang yang dapat diedit ini dapat digunakan untuk melacak jumlah yang bersedia dikeluarkan oleh pelanggan untuk item baris ini. | Nilai ini dibawa ke bidang terkait di baris kuotasi saat Anda membuat kuotasi dari peluang ini. |

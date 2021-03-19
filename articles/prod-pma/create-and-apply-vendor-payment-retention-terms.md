@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270952"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Membuat dan menerapkan persyaratan retensi pembayaran vendor
 
@@ -39,10 +39,10 @@ Gunakan langkah-langkah berikut untuk mengkonfigurasi dan memelihara persyaratan
 
 1. Buka **manajemen proyek dan akuntansi** > **Retensi** > **persyaratan retensi pembayaran vendor**.
 2. Pilih **baru** untuk menambahkan persyaratan retensi vendor baru. Nilai **id aturan** untuk persyaratan baru akan dimasukkan secara otomatis. 
-3. Masukkan deskripsi singkat di bidang **deskripsi** , dan pada fasttab **persyaratan** , pilih **Tambah baris** untuk memasukkan nilai persyaratan untuk berikut ini:
+3. Masukkan deskripsi singkat di bidang **deskripsi**, dan pada fasttab **persyaratan**, pilih **Tambah baris** untuk memasukkan nilai persyaratan untuk berikut ini:
 
-   - **Persentase unit yang dikirim** : masukkan persentase penyelesaian untuk persyaratan. Jumlah akan ditahan secara otomatis pada faktur vendor hingga tahapan penyelesaian proyek setara dengan persentase yang ditentukan. Misalnya, jika Anda memasukkan 50,00, jumlah ditahan hingga proyek 50 persen selesai.
-   - **Persentase untuk ditahan** : masukkan persentase jumlah faktur vendor yang akan ditahan. Misalnya, jika Anda memasukkan 10,00, maka 10 persen dari jumlah faktur vendor ditahan hingga proyek mencapai persentase Penyelesaian sebagaimana diatur dalam **bidang persentase unit yang dikirim**.
+   - **Persentase unit yang dikirim**: masukkan persentase penyelesaian untuk persyaratan. Jumlah akan ditahan secara otomatis pada faktur vendor hingga tahapan penyelesaian proyek setara dengan persentase yang ditentukan. Misalnya, jika Anda memasukkan 50,00, jumlah ditahan hingga proyek 50 persen selesai.
+   - **Persentase untuk ditahan**: masukkan persentase jumlah faktur vendor yang akan ditahan. Misalnya, jika Anda memasukkan 10,00, maka 10 persen dari jumlah faktur vendor ditahan hingga proyek mencapai persentase Penyelesaian sebagaimana diatur dalam **bidang persentase unit yang dikirim**.
    - **Persentase untuk rilis** : Pilih **Tambah baris** untuk memasukkan persentase dari jumlah yang sebelumnya ditahan akan dirilis untuk tingkat penyelesaian proyek yang dipilih.
 
 > [!NOTE]
@@ -53,15 +53,15 @@ Setelah Anda membuat persyaratan retensi vendor, Anda dapat menerapkannya persya
 ## <a name="apply-vendor-retention-terms-to-a-project"></a>Terapkan persyaratan retensi vendor ke proyek
 
 1. Buka **Management Proyek dan Akuntansi** > **Proyek** > **semua proyek** dan buka proyek dari halaman daftar proyek.
-2. Pada fasttab **perjanjian vendor** , pilih **Tambah baris**.
-3. Di **bidang kode akun** , pilih salah satu pilihan berikut: 
+2. Pada fasttab **perjanjian vendor**, pilih **Tambah baris**.
+3. Di **bidang kode akun**, pilih salah satu pilihan berikut: 
 
-   - **Tabel** : persyaratan retensi vendor berlaku untuk satu vendor.
-   - **Grup** : persyaratan retensi vendor berlaku untuk semua vendor dalam grup vendor.
-   - **Semua** : persyaratan retensi vendor berlaku untuk semua vendor.
+   - **Tabel**: persyaratan retensi vendor berlaku untuk satu vendor.
+   - **Grup**: persyaratan retensi vendor berlaku untuk semua vendor dalam grup vendor.
+   - **Semua**: persyaratan retensi vendor berlaku untuk semua vendor.
 
-4. Di **bidang vendor/grup vendor** , pilih vendor atau grup vendor yang menerapkan persyaratan retensi vendor. Jika Anda memilih **semua** di langkah sebelumnya, bidang ini tidak tersedia.
-5. Di bidang **persyaratan retensi vendor** , pilih persyaratan retensi yang Anda buat di prosedur sebelumnya.
+4. Di **bidang vendor/grup vendor**, pilih vendor atau grup vendor yang menerapkan persyaratan retensi vendor. Jika Anda memilih **semua** di langkah sebelumnya, bidang ini tidak tersedia.
+5. Di bidang **persyaratan retensi vendor**, pilih persyaratan retensi yang Anda buat di prosedur sebelumnya.
 6. Jika proyek juga memiliki persyaratan bayar-saat-dibayar (PWP) yang diatur untuk vendor, masukkan persentase ambang batas untuk proyek di bidang **persentase ambang PWP**.
 
 Persyaratan retensi vendor juga ditampilkan pada pesanan pembelian yang Anda buat untuk vendor.

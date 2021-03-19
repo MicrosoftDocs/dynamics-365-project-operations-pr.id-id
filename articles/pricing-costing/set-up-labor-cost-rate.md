@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180601"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274777"
 ---
 # <a name="set-up-labor-cost-rates"></a>Mengonfigurasikan tarif biaya tenaga kerja
 
@@ -40,7 +40,7 @@ Tabel berikut ini mencakup beberapa bidang yang penting saat membuat tarif tenag
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transfer harga dan biaya untuk sumber daya di luar divisi atau badan hukum Anda
 
-Di perusahaan berbasis proyek, umum untuk menggunakan karyawan dari berbagai entitas hukum dan divisi untuk mengerjakan proyek. Proyek dapat dijalankan oleh satu entitas hukum, tetapi karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda, atau mungkin kombinasinya. Dalam Dynamics 365 Project Operations, entitas hukum yang memiliki proyek yang dilaksanakan disebut **perusahaan pemilik**, dan divisi yang bertanggung jawab atas pelaksanaan disebut **unit kontrak**. Badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Di sebagian besar negara, perusahaan diharuskan untuk memastikan bahwa badan hukum atau divisi sumber daya membebankan biaya kepada perusahaan pemilik dan unit kontrak untuk penggunaan sumber daya.
+Di perusahaan berbasis proyek, umum untuk menggunakan karyawan dari berbagai entitas hukum dan divisi untuk mengerjakan proyek. Proyek dapat dijalankan oleh satu entitas hukum, tetapi karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda, atau mungkin kombinasinya. Dalam Dynamics 365 Project Operations, entitas hukum yang bertanggung jawab atas pelaksanaan proyek adalah **Perusahaan Pemilik** dan divisi yang bertanggung jawab atas pelaksanaannya adalah **Unit Kontrak**. Badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Di sebagian besar negara, perusahaan diharuskan untuk memastikan bahwa badan hukum atau divisi sumber daya membebankan biaya kepada perusahaan pemilik dan unit kontrak untuk penggunaan sumber daya.
 
 Misalnya, perusahaan Fabrikam harus memastikan bahwa Fabrikam India-Robotika memiliki kartu tarif biaya hasil negosiasi dengan Fabrikam US-Robotics atau Fabrikam UK-Robotics.
 

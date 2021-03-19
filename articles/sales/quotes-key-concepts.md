@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121312"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277522"
 ---
 # <a name="quotes---key-concepts"></a>Kuotasi - Konsep utama
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dalam Dynamics 365 Project Operations, ada dua jenis kuotasi, proyek, dan penjualan. Kedua jenis kuotasi ini berbeda dalam hal berikut:
+Di Dynamics 365 Project Operations, ada dua jenis kuotasi: proyek dan penjualan. Kedua jenis kuotasi ini berbeda dalam hal berikut:
 
 - **Kisi untuk item baris**: Pada kuotasi penjualan, hanya ada satu kisi untuk item baris. Di kuotasi proyek, ada dua kisi untuk item baris. Satu kisi adalah untuk baris proyek dan lainnya adalah untuk baris produk.
 - **Aktivasi dan revisi**: kuotasi penjualan mendukung aktivasi dan revisi. Proses ini tidak didukung pada kuotasi proyek.

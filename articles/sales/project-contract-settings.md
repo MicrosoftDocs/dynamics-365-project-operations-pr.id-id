@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181141"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277612"
 ---
 # <a name="project-contract-settings"></a>Pengaturan kontrak proyek
 
@@ -21,7 +21,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Topik ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang mempengaruhi semua baris kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
 
-Tabel berikut mencantumkan bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari pesanan penjualan di Dynamics 365 Sales.
+Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari perintah penjualan di Dynamics 365 Sales.
 
 | Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |

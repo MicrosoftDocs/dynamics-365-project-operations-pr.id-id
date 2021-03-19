@@ -1,6 +1,6 @@
 ---
 title: Laporan pengeluaran desain ulang
-description: Topik ini menyediakan informasi tentang pengalaman yang didesain ulang dan yang dirancang ulang untuk entri laporan pengeluaran di Microsoft Dynamics 365 Finance. Pengalaman baru ini menyederhanakan proses penyelesaian laporan pengeluaran dan mengurangi waktu yang diperlukan.
+description: Topik ini menyediakan informasi tentang pengalaman yang didesain ulang dan yang dirancang ulang untuk entri laporan pengeluaran.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960251"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271987"
 ---
 # <a name="redesigned-expense-reports"></a>Laporan pengeluaran desain ulang
 
@@ -40,12 +40,6 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untu
 - Item menu baru untuk visibilitas bidang pengeluaran ditambahkan.
 - Tidak ada item menu untuk laporan pengeluaran (halaman yang ada) atau bidang laporan pengeluaran dihapus.
 - Alur kerja dan persetujuan apa pun tetap akan membawa Anda ke halaman laporan pengeluaran yang ada.
-
-## <a name="getting-started-video-for-new-users"></a>Persiapan video untuk pengguna baru
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Pengalaman pengeluaran di Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditampilkan di atas) tercakup dalam [Daftar putar Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
 
 ## <a name="new-features"></a>Fitur baru
 

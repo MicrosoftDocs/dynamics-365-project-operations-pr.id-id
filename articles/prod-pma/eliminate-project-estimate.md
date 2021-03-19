@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078537"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270682"
 ---
 # <a name="eliminate-a-project-estimate"></a>Menghapus estimasi proyek
 
@@ -34,16 +34,16 @@ Perkiraan proyek memberikan tampilan keuangan untuk pekerjaan yang diperkirakan 
 Untuk menghapus estimasi proyek, itu harus diselesaikan. Langkah-langkah berikut menjelaskan cara menghapus estimasi.
 
 1. Buka **manajemen proyek dan akuntansi** > **Semua proyek** dan buka proyek. 
-2. Pada tab **Kelola** , pilih **Estimasi** , dan pada halaman **Estimasi** pilih **Hapus**.
-3. Pada halaman **Hapus estimasi** pada tab **Umum** , atur opsi berikut ini:
+2. Pada tab **Kelola**, pilih **Estimasi**, dan pada halaman **Estimasi** pilih **Hapus**.
+3. Pada halaman **Hapus estimasi** pada tab **Umum**, atur opsi berikut ini:
 
-   - **Kode periode** : Pilih kode periode untuk memilih estimasi proyek yang sesuai. 
-   - **Tanggal estimasi** : Pilih tanggal estimasi yang sesuai untuk eliminasi.
-   - **Hapus dengan peringatan WIP** : Aktifkan opsi ini untuk memberikan pemberitahuan ketika perkiraan yang terkait dengan pekerjaan yang sedang berlangsung (WIP) akan dihilangkan. Ketika opsi ini tidak diaktifkan, eliminasi tidak dapat dilanjutkan jika ada transaksi yang tidak diestimasi. 
+   - **Kode periode**: Pilih kode periode untuk memilih estimasi proyek yang sesuai. 
+   - **Tanggal estimasi**: Pilih tanggal estimasi yang sesuai untuk eliminasi.
+   - **Hapus dengan peringatan WIP**: Aktifkan opsi ini untuk memberikan pemberitahuan ketika perkiraan yang terkait dengan pekerjaan yang sedang berlangsung (WIP) akan dihilangkan. Ketika opsi ini tidak diaktifkan, eliminasi tidak dapat dilanjutkan jika ada transaksi yang tidak diestimasi. 
    > [!NOTE]
-   > Opsi ini hanya tersedia saat eliminasi diterapkan ke proyek estimasi. Ini tidak tersedia jika Anda menggunakan posting berkala. Pengaturan ini berfungsi dengan pengaturan pada tab **Estimasi** pada halaman **Parameter proyek** , di grup bidang **Perbolehkan penghapusan saat transaksi yang tidak diestimasi ada**.
-   - **Atur tahap ke Selesai** : Aktifkan opsi ini untuk mengatur tahap estimasi proyek ke **Selesai** setelah Anda menjalankan eliminasi.
-   - **Cetak Daftar estimasi** : Pilih informasi yang akan disertakan ketika daftar estimasi dicetak.
+   > Opsi ini hanya tersedia saat eliminasi diterapkan ke proyek estimasi. Ini tidak tersedia jika Anda menggunakan posting berkala. Pengaturan ini berfungsi dengan pengaturan pada tab **Estimasi** pada halaman **Parameter proyek**, di grup bidang **Perbolehkan penghapusan saat transaksi yang tidak diestimasi ada**.
+   - **Atur tahap ke Selesai**: Aktifkan opsi ini untuk mengatur tahap estimasi proyek ke **Selesai** setelah Anda menjalankan eliminasi.
+   - **Cetak Daftar estimasi**: Pilih informasi yang akan disertakan ketika daftar estimasi dicetak.
    - **Tampilkan Infolog** : Aktifkan opsi ini untuk menampilkan Infolog.
    - **Tanggal posting** : Pilih tanggal posting buku besar dari estimasi.
 
