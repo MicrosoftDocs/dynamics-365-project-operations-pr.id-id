@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078616"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289688"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Mensinkronisasikan aktual proyek secara langsung dari Project Service Automation ke jurnal integrasi proyek untuk posting di Finance and Operations
 
@@ -50,7 +50,7 @@ Ilustrasi berikut menunjukkan bagaimana data disinkronisasikan antara Project Se
 
 ### <a name="template-and-tasks"></a>Template dan tugas
 
-Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pilih **proyek** , lalu di sudut kanan atas, pilih **proyek baru** untuk memilih template publik.
+Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pilih **proyek**, lalu di sudut kanan atas, pilih **proyek baru** untuk memilih template publik.
 
 Template berikut dan tugas yang mendasari digunakan untuk mensinkronisasikan aktual proyek dari Project Service Automation ke Finance:
 
@@ -88,8 +88,8 @@ Di template proyek aktual, anda harus menggunakan Microsoft Power Query untuk Ex
 #### <a name="contract-organizational-unit"></a>Unit organisasi kontrak
 Untuk memperbarui kolom kondisional yang disisipkan dalam template, klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter** untuk membuka Power query.
 
-- Jika anda menggunakan template default proyek aktual (PSA ke Fin and Ops), di Power Query, pilih **kondisi dimasukkan** terakhir dari bagian **langkah yang diterapkan**. Di entri **fungsi** , ganti **USSI** dengan nama entitas hukum yang harus digunakan dengan integrasi. Tambahkan kondisi tambahan ke entri **fungsi** sesuai kebutuhan Anda, dan perbarui kondisi **else** dari **usmf** ke entitas hukum yang benar.
-- Jika Anda membuat template baru, Anda harus menambahkan kolom untuk mendukung waktu dan pengeluaran antarperusahaan. Pilih **Tambah kolom kondisional** , dan masukkan nama untuk kolom, misalnya **LegalEntity**. Masukkan kondisi untuk kolom, di mana, jika **msdyn\_contractorganizationalunitid.msdyn\_name** adalah \<organizational unit\>, maka \<enter the legal entity\>; jika tidak maka null.
+- Jika anda menggunakan template default proyek aktual (PSA ke Fin and Ops), di Power Query, pilih **kondisi dimasukkan** terakhir dari bagian **langkah yang diterapkan**. Di entri **fungsi**, ganti **USSI** dengan nama entitas hukum yang harus digunakan dengan integrasi. Tambahkan kondisi tambahan ke entri **fungsi** sesuai kebutuhan Anda, dan perbarui kondisi **else** dari **usmf** ke entitas hukum yang benar.
+- Jika Anda membuat template baru, Anda harus menambahkan kolom untuk mendukung waktu dan pengeluaran antarperusahaan. Pilih **Tambah kolom kondisional**, dan masukkan nama untuk kolom, misalnya **LegalEntity**. Masukkan kondisi untuk kolom, di mana, jika **msdyn\_contractorganizationalunitid.msdyn\_name** adalah \<organizational unit\>, maka \<enter the legal entity\>; jika tidak maka null.
 
 ### <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
 

@@ -18,23 +18,23 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078460"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288097"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Mentransfer kuotasi ke proyek
 
 [!include [banner](../includes/banner.md)]
 
-Bila kuotasi proyek memiliki status **dikonfirmasi** , Anda dapat mentransfer beberapa atau semua baris kuotasi ke proyek baru atau yang ada dengan menggunakan Wizard **transfer ke proyek**. 
+Bila kuotasi proyek memiliki status **dikonfirmasi**, Anda dapat mentransfer beberapa atau semua baris kuotasi ke proyek baru atau yang ada dengan menggunakan Wizard **transfer ke proyek**. 
 
 Untuk menggunakan wizard, ikuti langkah berikut ini.
 
 1. Buka **manajemen proyek dan akuntansi** > **Kuotasi** > **Kuotasi proyek**.
-2. Pilih kuotasi yang ingin anda transfer dan pada tab **tindak lanjut** , dalam grup **modifikasi** , pilih **transfer ke proyek**.
+2. Pilih kuotasi yang ingin anda transfer dan pada tab **tindak lanjut**, dalam grup **modifikasi**, pilih **transfer ke proyek**.
 3. Ikuti wizard **transfer kuotasi ke proyek** untuk mengaitkan dan mentransfer kuotasi dengan proyek.
 
 

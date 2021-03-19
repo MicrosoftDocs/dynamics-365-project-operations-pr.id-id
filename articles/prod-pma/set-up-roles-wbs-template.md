@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288653"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Mengonfigurasi peran pada template struktur rincian kerja
 
@@ -33,7 +33,7 @@ Manajer proyek dapat mengkonfigurasi template struktur rincian kerja (WBS) yang 
 
 1. Pilih **manajemen Proyek dan akuntansi** > **konfigurasi** > **Proyek** > **template struktur rincian kerja**.
 2. Pilih **rincian** untuk template WBS yang dipilih.
-3. Pilih tugas dalam daftar, lalu di bidang **peran** , pilih peran yang akan ditetapkan ke tugas.
+3. Pilih tugas dalam daftar, lalu di bidang **peran**, pilih peran yang akan ditetapkan ke tugas.
 
 ## <a name="work-with-a-wbs"></a>Menggunakan WBS
 
@@ -79,7 +79,7 @@ Pilihan tambahan telah ditambahkan dalam WBS untuk lebih baik menggunakan fungsi
 </tbody>
 </table>
 
-1. Pada halaman **semua proyek** , pilih proyek **peningkatan XYZ fase 2**.
+1. Pada halaman **semua proyek**, pilih proyek **peningkatan XYZ fase 2**.
 2. Pilih **skema** > **aktivitas** > **struktur rincian kerja**.
 3. Pilih **baru** untuk menambahkan aktivitas satu tingkat berikut ke WBS:
 
@@ -93,20 +93,20 @@ Pilihan tambahan telah ditambahkan dalam WBS untuk lebih baik menggunakan fungsi
 
     [![Mengatur tanggal dan upaya](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Pilih baris tugas **memulai** , lalu di bidang **peran** , pilih **manajer proyek senior**.
+5. Pilih baris tugas **memulai**, lalu di bidang **peran**, pilih **manajer proyek senior**.
 6. Pilih **Terbitkan**.
-7. Pada baris yang sama, di bidang **sumber daya** , pilih **Daniel goldschmidt** , lalu pilih **terima**.
-8. Pilih baris tugas **perencanaan** , lalu di bidang **peran** , pilih **analis bisnis**.
-9. Pilih **publikasikan** , lalu pilih **Buat otomatis tim**.
+7. Pada baris yang sama, di bidang **sumber daya**, pilih **Daniel goldschmidt**, lalu pilih **terima**.
+8. Pilih baris tugas **perencanaan**, lalu di bidang **peran**, pilih **analis bisnis**.
+9. Pilih **publikasikan**, lalu pilih **Buat otomatis tim**.
 10. Dalam kotak pesan yang ditampilkan, pilih **Ya**.
-11. Di bidang **sumber daya** , Verifikasikan bahwa nilai adalah **analis bisnis 1**.
-12. Untuk sumber daya **Analisis bisnis 1** , buka pencarian, dan pilih **peluncuran tugas sumber daya**. Kemudian pilih pekerja untuk tugas.
+11. Di bidang **sumber daya**, Verifikasikan bahwa nilai adalah **analis bisnis 1**.
+12. Untuk sumber daya **Analisis bisnis 1**, buka pencarian, dan pilih **peluncuran tugas sumber daya**. Kemudian pilih pekerja untuk tugas.
 13. Pilih **Penugasan tentatif** &gt; **kapasitas penuh**.
 
     > [!NOTE] 
     > Anda tidak menerima peringatan bahwa sumber daya yang ditentukan sekarang 2, karena jumlah sumber daya tetap 1.
 
-14. Pada halaman **struktur rincian kerja** , validasi tugas sumber daya pada WBS, dan kemudian pilih **Simpan**.
+14. Pada halaman **struktur rincian kerja**, validasi tugas sumber daya pada WBS, dan kemudian pilih **Simpan**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

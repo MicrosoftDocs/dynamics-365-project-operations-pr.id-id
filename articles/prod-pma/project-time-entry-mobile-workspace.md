@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288878"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja seluler entri waktu proyek
 
@@ -36,7 +36,7 @@ Ruang kerja Mobile ini ditujukan untuk digunakan dengan aplikasi mobile Dynamics
 ## <a name="overview"></a>Gambaran Umum
 Sebagai bagian dari pekerjaan sehari-hari, sumber daya proyek sering berada di lokasi atau bepergian. Ruang kerja seluler **entri waktu proyek** memungkinkan pengguna memasukkan waktu yang dapat ditagih atau tidak dapat ditagih terhadap proyek pada perangkat selular pilihan mereka. Oleh karena itu, sumber daya proyek dapat merekam entri waktu Kapan saja dan dimana pun. Mereka juga dapat melihat entri waktu yang telah direkam. 
 
-Khususnya, di ruang kerja seluler **entri waktu proyek** , pengguna dapat melakukan tugas ini:
+Khususnya, di ruang kerja seluler **entri waktu proyek**, pengguna dapat melakukan tugas ini:
 
 -   Untuk tanggal yang dipilih, masukkan jumlah jam yang Anda habiskan pada tugas tertentu.
 -   Cari berdasarkan nama proyek atau pelanggan untuk menemukan proyek untuk memasukkan waktunya.

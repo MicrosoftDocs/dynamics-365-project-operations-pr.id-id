@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078615"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289553"
 ---
 # <a name="project-contracts"></a>Kontrak Proyek
 
@@ -260,7 +260,7 @@ Anda dapat mengkonfigurasi jenis aturan penagihan berikut:
 
 Untuk semua jenis aturan penagihan, Anda dapat menentukan persentase retensi yang dipotong dari faktur pelanggan hingga proyek mencapai tahapan yang disepakati. Persentase retensi pembayaran ditentukan dalam kontrak proyek. Jumlah dihitung berdasarkan, dan dikurangi dari, nilai total baris di faktur pelanggan. 
 
-Untuk aturan penagihan **waktu dan material** dan **progres** , Anda dapat menetapkan kategori yang dikenakan biaya. Kategori yang dibebankan menunjukkan transaksi yang harus disertakan dalam faktur pelanggan. 
+Untuk aturan penagihan **waktu dan material** dan **progres**, Anda dapat menetapkan kategori yang dikenakan biaya. Kategori yang dibebankan menunjukkan transaksi yang harus disertakan dalam faktur pelanggan. 
 
 Ketika Anda siap untuk faktur pelanggan, jumlah faktur untuk proyek dihitung berdasarkan aturan penagihan, dan proposal proyek faktur dibuat. 
 

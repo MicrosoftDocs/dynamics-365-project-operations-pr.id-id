@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078459"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287962"
 ---
 # <a name="work-breakdown-structures-overview"></a>Gambaran umum struktur rincian kerja
 
@@ -49,8 +49,8 @@ Untuk membuat WBS, Anda harus dapat membuat jadwal kerja dan memperkirakan biaya
 Untuk menggunakan kemampuan penjadwalan penuh fitur WBS, selesaikan konfigurasi berikut:
 
 1.  Atur kalender default dan kalender proyek:
-    1.  Klik **manajemen proyek dan akuntansi** &gt; **Konfigurasi** &gt; **manajemen proyek dan parameter akuntansi** &gt; **Penjadwalan**. Di bidang **kalender kerja default** , tentukan kalender default. Ini akan menjadi kalender kerja default untuk proyek baru yang dibuat.
-    2.  Anda dapat mengubah kalender default untuk proyek tertentu. Klik halaman rincian proyek, lalu di fasttab **tim proyek dan penjadwalan** , perbarui bidang **kalender penjadwalan** dengan memilih kalender lainnya.
+    1.  Klik **manajemen proyek dan akuntansi** &gt; **Konfigurasi** &gt; **manajemen proyek dan parameter akuntansi** &gt; **Penjadwalan**. Di bidang **kalender kerja default**, tentukan kalender default. Ini akan menjadi kalender kerja default untuk proyek baru yang dibuat.
+    2.  Anda dapat mengubah kalender default untuk proyek tertentu. Klik halaman rincian proyek, lalu di fasttab **tim proyek dan penjadwalan**, perbarui bidang **kalender penjadwalan** dengan memilih kalender lainnya.
 
 2.  Konfigurasikan hari kerja standar dan jam kerja. Kalender yang Anda tetapkan sebagai kalender kerja untuk proyek Anda akan digunakan di WBS untuk menentukan informasi berikut:
 
@@ -98,7 +98,7 @@ Saat ini, Anda tidak dapat menyesuaikan penomoran WBS.
 
 **Tugas outdent** ketika Anda meng-outdent tugas, itu tidak lagi merupakan tugas konstituen dari induknya. Nomor WBS tugas ini secara otomatis dihitung ulang untuk mencerminkan tingkat baru tugas dalam hirarki. Upaya, biaya, dan tanggal tugas induk sebelumnya dari tugas dihitung ulang untuk mengeluarkan tugas itu. 
 
-**Pindahkan ke atas dan ke bawah** saat Anda mengeklik **Pindahkan ke atas** dan **Pindahkan ke bawah** , Anda mengubah posisi tugas dalam hirarki induknya. Posisi tugas tidak mempengaruhi upaya, biaya, tanggal, atau durasi tugas. Namu, nomor WBS tugas ini secara otomatis dihitung ulang untuk mencerminkan posisi baru tugas.
+**Pindahkan ke atas dan ke bawah** saat Anda mengeklik **Pindahkan ke atas** dan **Pindahkan ke bawah**, Anda mengubah posisi tugas dalam hirarki induknya. Posisi tugas tidak mempengaruhi upaya, biaya, tanggal, atau durasi tugas. Namu, nomor WBS tugas ini secara otomatis dihitung ulang untuk mencerminkan posisi baru tugas.
 
 ### <a name="schedule-estimation"></a>Estimasi Jadwal
 

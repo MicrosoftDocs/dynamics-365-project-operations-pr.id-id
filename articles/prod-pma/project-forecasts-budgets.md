@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289418"
 ---
 # <a name="project-forecasts-and-budgets"></a>Perkiraan proyek dan anggaran
 
@@ -63,7 +63,7 @@ Anda dapat merevisi, menyalin, menghapus, atau mengalihkan perkiraan proyek ke a
 
 -   **Revisi** – Anda dapat merevisi transaksi perkiraan dalam formulir tempat entri asli dimasukkan.
 -   **Salin atau Hapus** – bila Anda menyalin transaksi perkiraan, Anda menyalin baris transaksi satu model perkiraan ke model perkiraan lainnya. Bila Anda menghapus perkiraan, Anda akan menghapus transaksi perkiraan dari model perkiraan. Untuk membatasi transaksi perkiraan yang disalin atau dihapus, pilih jenis transaksi dan tanggal tertentu. Hal ini memungkinkan Anda menyalin atau menghapus hanya bagian tertentu dari perkiraan.
--   **Transfer** – saat Anda mentransfer perkiraan proyek ke anggaran buku besar, Anda mentransfer transaksi perkiraan model perkiraan ke anggaran buku besar. Anda dapat menimpa transaksi yang ditransfer sebelumnya dalam anggaran buku besar yang Anda transfer perkiraan proyeknya.
+-   **Transfer**– saat Anda mentransfer perkiraan proyek ke anggaran buku besar, Anda mentransfer transaksi perkiraan model perkiraan ke anggaran buku besar. Anda dapat menimpa transaksi yang ditransfer sebelumnya dalam anggaran buku besar yang Anda transfer perkiraan proyeknya.
 
 ## <a name="project-budgets"></a>Anggaran proyek
 Penganggaran proyek adalah metode yang lebih sederhana daripada peramalan, meskipun berintegrasi dengan model perkiraan. Ia menggunakan formulir entri tunggal untuk rincian dan revisi anggaran yang asli, dan memungkinkan untuk proyeksi yang hanya didasarkan pada jumlah, kategori, atau aktivitas. 

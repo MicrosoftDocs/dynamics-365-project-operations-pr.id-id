@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078612"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289463"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronisasikan estimasi proyek secara langsung dari Project Service Automation ke Finance and Operations
 
@@ -46,7 +46,7 @@ Ilustrasi berikut menunjukkan bagaimana data disinkronisasikan antara Project Se
 
 ### <a name="template-and-tasks"></a>Template dan tugas
 
-Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pilih **proyek** , lalu di sudut kanan atas, pilih **proyek baru** untuk memilih template publik.
+Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pilih **proyek**, lalu di sudut kanan atas, pilih **proyek baru** untuk memilih template publik.
 
 Template berikut dan tugas yang mendasari digunakan untuk mensinkronisasikan estimasi jam proyek dari Project Service Automation ke Finance:
 
@@ -82,8 +82,8 @@ Di template estimasi jam proyek, anda harus menggunakan Microsoft Power Query un
 
 Untuk memperbarui ID model perkiraan default dalam template, klik panah **peta** untuk membuka pemetaan. Lalu pilih tautan **kueri lanjutan dan filter**.
 
-- Jika anda menggunakan estimasi jam proyek default (PSA ke Fin and Ops), pilih **kondisi dimasukkan** di daftar **langkah yang diterapkan**. Di entri **fungsi** , ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
-- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambah kolom kondisional** , dan masukkan nama untuk kolom baru, misalnya **ModelID**. Masukkan kondisi untuk kolom, di mana, jika tugas proyek tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
+- Jika anda menggunakan estimasi jam proyek default (PSA ke Fin and Ops), pilih **kondisi dimasukkan** di daftar **langkah yang diterapkan**. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
+- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambah kolom kondisional**, dan masukkan nama untuk kolom baru, misalnya **ModelID**. Masukkan kondisi untuk kolom, di mana, jika tugas proyek tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
 
 #### <a name="filter-out-resource-specific-records"></a>Memfilter rekaman khusus sumber daya
 
@@ -137,18 +137,18 @@ Di template estimasi pengeluaran proyek, anda harus menggunakan Power Query untu
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filter untuk menyertakan hanya baris estimasi pengeluaran
 
-Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) memiliki filter default yang mencakup hanya baris pengeluaran di integrasi. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini. Pilih tugas **Relasi transaksi** , lalu klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter**. Filter kolom **msdyn\_transactiontype1** sehingga mencakup hanya **msdyn\_estimateline**.
+Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) memiliki filter default yang mencakup hanya baris pengeluaran di integrasi. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini. Pilih tugas **Relasi transaksi**, lalu klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter**. Filter kolom **msdyn\_transactiontype1** sehingga mencakup hanya **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Mengatur ID model default perkiraan
 
-Untuk memperbarui ID model perkiraan default dalam template, pilih tugas **Estimasi pengeluaran** , lalu klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter**.
+Untuk memperbarui ID model perkiraan default dalam template, pilih tugas **Estimasi pengeluaran**, lalu klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter**.
 
-- Jika anda menggunakan template estimasi pengeluaran proyek default (PSA ke Fin and Ops), di Power Query, pilih **kondisi dimasukkan** pertama dari bagian **langkah yang diterapkan**. Di entri **fungsi** , ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
-- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambah kolom kondisional** , dan masukkan nama untuk kolom baru, misalnya **ModelID**. Masukkan kondisi untuk kolom, di mana, jika ID baris estimasi tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
+- Jika anda menggunakan template estimasi pengeluaran proyek default (PSA ke Fin and Ops), di Power Query, pilih **kondisi dimasukkan** pertama dari bagian **langkah yang diterapkan**. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
+- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambah kolom kondisional**, dan masukkan nama untuk kolom baru, misalnya **ModelID**. Masukkan kondisi untuk kolom, di mana, jika ID baris estimasi tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
 
 #### <a name="transform-the-billing-types"></a>Ubah jenis penagihan
 
-Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) mencakup bidang kondisional yang digunakan untuk mengubah jenis penagihan yang diterima dari Project Service Automation selama integrasi. Jika Anda membuat template sendiri, Anda harus menambahkan kolom bersyarat ini. Pilih tautan **kueri lanjutan dan pemfilteran** , lalu pilih **Tambah kolom kondisional**. Masukkan nama untuk kolom baru, seperti **billingtype**. Lalu masukkan kondisi berikut:
+Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) mencakup bidang kondisional yang digunakan untuk mengubah jenis penagihan yang diterima dari Project Service Automation selama integrasi. Jika Anda membuat template sendiri, Anda harus menambahkan kolom bersyarat ini. Pilih tautan **kueri lanjutan dan pemfilteran**, lalu pilih **Tambah kolom kondisional**. Masukkan nama untuk kolom baru, seperti **billingtype**. Lalu masukkan kondisi berikut:
 
 If **msdyn\_billingtype** = 192350000, then **NonChargeable**  
 else if **msdyn\_billingtype** = 192350001, then **Chargeable**  
@@ -157,7 +157,7 @@ else **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>Ubah jenis transaksi
 
-Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) mencakup bidang kondisional yang digunakan untuk mengubah jenis transaksi yang diterima dari Project Service Automation selama integrasi. Jika Anda membuat template sendiri, Anda harus menambahkan kolom bersyarat ini. Pilih tautan **kueri lanjutan dan pemfilteran** , lalu pilih **Tambah kolom kondisional**. Masukkan nama untuk kolom baru, seperti **TransactionType**. Lalu masukkan kondisi berikut:
+Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) mencakup bidang kondisional yang digunakan untuk mengubah jenis transaksi yang diterima dari Project Service Automation selama integrasi. Jika Anda membuat template sendiri, Anda harus menambahkan kolom bersyarat ini. Pilih tautan **kueri lanjutan dan pemfilteran**, lalu pilih **Tambah kolom kondisional**. Masukkan nama untuk kolom baru, seperti **TransactionType**. Lalu masukkan kondisi berikut:
 
 If **msdyn\_transactiontypecode** = 192350000, then **Cost**  
 else if **msdyn\_transactiontypecode** = 192350005, then **Sales**  

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078665"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289373"
 ---
 # <a name="project-grants"></a>Hibah proyek
 
@@ -42,9 +42,9 @@ Anda dapat membuat hibah dengan memasukkan semua rincian dalam rekaman baru, ata
 
 1. Buka **manajemen proyek dan akuntansi** \> **Hibah** \> **Hibah**.
 2. Pilih **baru** \> **hibah**.
-3. Pada halaman rincian hibah, pada fasttab **umum** , di bidang **id hibah** , masukkan pengidentifikasi alfanumerik untuk hibah.
-4. Di bidang **Nama hibah** , masukkan nama unik untuk hibah.
-5. Di bidang **Deskripsi** , Tambahkan rincian tentang hibah baru.
+3. Pada halaman rincian hibah, pada fasttab **umum**, di bidang **id hibah**, masukkan pengidentifikasi alfanumerik untuk hibah.
+4. Di bidang **Nama hibah**, masukkan nama unik untuk hibah.
+5. Di bidang **Deskripsi**, Tambahkan rincian tentang hibah baru.
 
     Sebagian besar bidang lain pada halaman bersifat opsional, dan Anda dapat memasukkan sesedikit atau sebanyak mungkin informasi yang Anda inginkan.
 
@@ -59,7 +59,7 @@ Anda dapat membuat hibah dengan memasukkan semua rincian dalam rekaman baru, ata
         - **Tambahkan kontrak proyek** -Tambahkan atau perbarui informasi kontrak proyek.
         - **Tambah proyek** -Tambah atau Perbarui rincian proyek.
 
-    - **Konfigurasi** -Masukkan rincian tentang dana yang cocok, jika informasi ini diperlukan. Banyak organisasi yang memberikan hibah mengharuskan Penerima menghabiskan sejumlah uang atau sumber daya mereka sendiri untuk mencocokkan jumlah yang dianugerahkan dalam hibah. Di bidang **proyek lokal atau id pelacakan** , Anda dapat memasukkan pengidentifikasi yang berbeda dari pengidentifikasi proyek.
+    - **Konfigurasi** -Masukkan rincian tentang dana yang cocok, jika informasi ini diperlukan. Banyak organisasi yang memberikan hibah mengharuskan Penerima menghabiskan sejumlah uang atau sumber daya mereka sendiri untuk mencocokkan jumlah yang dianugerahkan dalam hibah. Di bidang **proyek lokal atau id pelacakan**, Anda dapat memasukkan pengidentifikasi yang berbeda dari pengidentifikasi proyek.
 
         > [!NOTE]
         > Jika bagian dari hibah akan diberikan ke organisasi lain, atur pilihan **subpemberi** ke **ya**. Untuk hibah yang diberikan di Amerika Serikat, Anda dapat menentukan apakah hibah akan diberikan berdasarkan mandat negara bagian atau mandat federal.
@@ -77,7 +77,7 @@ Anda dapat membuat hibah dengan memasukkan semua rincian dalam rekaman baru, ata
 
 1. Buka **manajemen proyek dan akuntansi** \> **Hibah** \> **Hibah**.
 2. Pilih hibah untuk dimodifikasi.
-3. Pada panel tindakan, pada tab **Hibah** , di grup **Kelola** , pilih **Edit**.
+3. Pada panel tindakan, pada tab **Hibah**, di grup **Kelola**, pilih **Edit**.
 4. Tinjau rincian hibah, dan buat perubahan yang diperlukan.
 
 

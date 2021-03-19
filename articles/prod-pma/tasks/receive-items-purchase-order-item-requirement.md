@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078651"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288232"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Menerima item pesanan pembelian dari persyaratan item
 
@@ -39,13 +39,13 @@ Tugas ini menggunakan himpunan data USSI.
 4. Pilih **persyaratan item**.
 5. Pilih **baru**.
 6. Di baris baru, masukkan atau pilih nilai pada bidang **nomor item**.
-7. Di bidang **Kuantitas** , masukkan angka.
+7. Di bidang **Kuantitas**, masukkan angka.
 8. Pilih **Simpan**.
 9. Pada panel tindakan, pilih **Kelola**.
 10. Pilih **Fungsi**.
 11. Pilih **Buat Pesanan Pembelian**.
 12. Pilih kotak centang **sertakan semua**.
-13. Di bidang **Akun vendor** , masukkan atau pilih nilai.
+13. Di bidang **Akun vendor**, masukkan atau pilih nilai.
 14. Pilih **OK**.
 15. Di panel navigasi, buka **modul > piutang > Pesanan pembelian > Semua pesanan pembelian**.
 16. Dalam daftar, pilih tautan di baris yang diinginkan.
@@ -53,7 +53,7 @@ Tugas ini menggunakan himpunan data USSI.
 18. Pilih **Konfirmasi**.
 19. Pada panel tindakan, pilih **Tanda terima**.
 20. Pilih **Resi produk**.
-21. Di bidang **Resi produk** , masukkan nilai.
+21. Di bidang **Resi produk**, masukkan nilai.
 22. Pilih **OK**.
 
 

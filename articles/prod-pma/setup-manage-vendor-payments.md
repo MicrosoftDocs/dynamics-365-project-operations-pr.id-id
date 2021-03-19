@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078463"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288604"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Mengonfigurasi dan menggunakan pembayaran vendor "bayar jika dibayar"
 
@@ -49,27 +49,27 @@ Saat Anda menyiapkan persyaratan PWP untuk suatu proyek, Anda harus menentukan, 
 
 1. Buka **manajemen proyek dan akuntansi** \> **proyek** \> **Semua proyek**.
 2. Cari dan buka proyek yang ingin Anda konfigurasikan persyaratan PWP-nya.
-3. Pada fasttab **perjanjian vendor** , pilih **Tambah baris**.
-3. Di bidang **kode akun** , pilih salah satu pilihan berikut:
+3. Pada fasttab **perjanjian vendor**, pilih **Tambah baris**.
+3. Di bidang **kode akun**, pilih salah satu pilihan berikut:
 
     - **Tabel** – persyaratan PWP berlaku untuk satu vendor.
-    - **Grup** – persyaratan PWP berlaku untuk semua vendor dalam grup vendor.
+    - **Grup**– persyaratan PWP berlaku untuk semua vendor dalam grup vendor.
     - **Semua** – persyaratan PWP berlaku untuk semua vendor.
 
-4. Jika Anda memilih **tabel** atau **grup** dalam langkah sebelumnya, di bidang **grup vendor/vendor** , pilih vendor atau grup Penjual yang menerapkan persyaratan PWP. Jika Anda memilih **semua** di langkah sebelumnya, bidang **grup vendor/vendor** tidak dapat diedit.
-5. Jika persyaratan retensi vendor diatur untuk vendor dalam proyek, di bidang **persyaratan retensi vendor** , pilih id aturan untuk persyaratan retensi.
-6. Di bidang **persentase ambang PWP** , masukkan persentase ambang batas untuk proyek. Persentase yang Anda masukkan untuk proyek menentukan jumlah minimum yang harus dibayar pelanggan sebelum Anda akan membayar vendor.
+4. Jika Anda memilih **tabel** atau **grup** dalam langkah sebelumnya, di bidang **grup vendor/vendor**, pilih vendor atau grup Penjual yang menerapkan persyaratan PWP. Jika Anda memilih **semua** di langkah sebelumnya, bidang **grup vendor/vendor** tidak dapat diedit.
+5. Jika persyaratan retensi vendor diatur untuk vendor dalam proyek, di bidang **persyaratan retensi vendor**, pilih id aturan untuk persyaratan retensi.
+6. Di bidang **persentase ambang PWP**, masukkan persentase ambang batas untuk proyek. Persentase yang Anda masukkan untuk proyek menentukan jumlah minimum yang harus dibayar pelanggan sebelum Anda akan membayar vendor.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Membuat PO yang memiliki persyaratan PWP
 
 Bila Anda memposting faktur dari vendor, jika vendor tunduk pada persyaratan PWP, persyaratan tersebut akan ditampilkan pada baris PO. Untuk membuat PO yang memiliki persyaratan PWP, ikuti langkah berikut.
 
 1. Buka **pengadaan dan pembekalan** \> **pesanan pembelian** \> **semua pesanan pembelian**.
-2. Pada panel tindakan, pilih **Baru**. Kemudian, di kotak dialog **buat pesanan pembelian** , masukkan informasi yang diperlukan, dan pilih **OK**.
+2. Pada panel tindakan, pilih **Baru**. Kemudian, di kotak dialog **buat pesanan pembelian**, masukkan informasi yang diperlukan, dan pilih **OK**.
 
     Atau, buka PO yang ada pada halaman daftar **semua pesanan pembelian**.
 
-4. Pada halaman **pesanan pembelian** , di fasttab **baris pesanan pembelian** , Tinjau rincian baris PO untuk vendor. Pilihan **bayar saat berbayar** dipilih secara otomatis, dan nilai di bidang **persentase ambang PWP** secara otomatis disalin dari bidang **persentase ambang PWP** di halaman **proyek**.
+4. Pada halaman **pesanan pembelian**, di fasttab **baris pesanan pembelian**, Tinjau rincian baris PO untuk vendor. Pilihan **bayar saat berbayar** dipilih secara otomatis, dan nilai di bidang **persentase ambang PWP** secara otomatis disalin dari bidang **persentase ambang PWP** di halaman **proyek**.
 6. Jika Anda tidak ingin menerapkan persyaratan PWP ke vendor untuk baris PO, kosongkan pilihan **bayar saat berbayar**. Dalam kasus ini, bidang **persentase ambang PWP** untuk baris PO akan diatur ulang ke 0 (nol).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Memperbarui pembayaran pelanggan dan membayar vendor
@@ -77,8 +77,8 @@ Bila Anda memposting faktur dari vendor, jika vendor tunduk pada persyaratan PWP
 Bila vendor menyelesaikan tugasnya dalam proyek dan mengirimkan faktur, Anda harus meninjau status proyek dan faktur pelanggan untuk menentukan apakah persyaratan PWP telah dipenuhi untuk proyek. Jika persyaratan PWP untuk vendor terpenuhi, Anda dapat menentukan baris pada faktur vendor untuk membayar, berdasarkan pembayaran pelanggan untuk proyek. Jika Anda memutuskan untuk membayar vendor meskipun persyaratan PWP tidak terpenuhi, Anda dapat menimpa persyaratan PWP pada halaman **faktur vendor dengan bayar saat dibayar**.
 
 1. Buka **manajemen proyek dan akuntansi** \> **pertanyaan dan laporan** \> **permintaan retensi** \> **Faktur dengan pembayaran saat dibayar**.
-2. Pada halaman **faktur vendor dengan bayar saat dibayar** , di bidang pencarian, masukkan nilai untuk menemukan faktur vendor yang ingin Anda tinjau, lalu pilih **Cari**.
-3. Pada fasttab **baris faktur vendor** , pilih baris yang akan diubah.
+2. Pada halaman **faktur vendor dengan bayar saat dibayar**, di bidang pencarian, masukkan nilai untuk menemukan faktur vendor yang ingin Anda tinjau, lalu pilih **Cari**.
+3. Pada fasttab **baris faktur vendor**, pilih baris yang akan diubah.
 4. Jika **syarat bayar saat dibayar** terpenuhi untuk baris faktur, pilih **Lakukan pembayaran vendor**. Opsi **bayar saat dibayar** dikosongkan, dan nilai bidang **siap untuk pembayaran** diubah ke **ya**.
 
 

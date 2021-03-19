@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b36f671fb8d6c77446d66c41fc45837e1ee8e25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c86043a79d119c00a64ba5336df5b5ad69006b11
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078653"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288698"
 ---
 # <a name="set-up-role-based-pricing"></a>Mengkonfigurasi harga berdasarkan peran
 
@@ -31,9 +31,9 @@ ms.locfileid: "4078653"
 
 Semua harga biaya, penjualan, dan transfer dapat diatur untuk peran. Selesaikan langkah-langkah berikut untuk mengaitkan harga ke peran tertentu.
 
-1. Pada halaman **harga penjualan (jam)** , pilih **baru** , lalu masukkan tanggal berlaku.
-2. Di kolom **peran** , pilih peran.
-3. Di kolom **harga** , masukkan harga untuk peran sumber daya yang dipilih.
+1. Pada halaman **harga penjualan (jam)**, pilih **baru**, lalu masukkan tanggal berlaku.
+2. Di kolom **peran**, pilih peran.
+3. Di kolom **harga**, masukkan harga untuk peran sumber daya yang dipilih.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

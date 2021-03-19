@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078656"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288743"
 ---
 # <a name="set-up-project-resources"></a>Konfigurasi sumber daya proyek
 
@@ -37,11 +37,11 @@ Prosedur berikut menjelaskan cara mengkonfigurasi pekerja sebagai sumber daya pr
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Mengkonfigurasi pekerja sebagai sumber daya proyek
 
-1. Pada halaman **pekerja** , dalam **Daftar pekerja** , pilih pekerja yang Anda tambahkan sebagai sumber daya proyek, dan buka rekaman pekerja.
+1. Pada halaman **pekerja**, dalam **Daftar pekerja**, pilih pekerja yang Anda tambahkan sebagai sumber daya proyek, dan buka rekaman pekerja.
 2. Pada panel tindakan, pilih **proyek** &gt; **konfigurasi** &gt; **Konfigurasi proyek**.
 3. Pilih kalender, lalu tutup halaman.
 
-Anda juga dapat menentukan proyek default untuk sumber daya sebagai jenis pra-penugasan. Pra-penugasan dapat digunakan saat manajer sumber daya atau manajer proyek mengetahui proyek yang akan dikerjakan oleh sumber daya sebelumnya. Pra-penugasan juga dapat didasarkan pada permintaan sponsor proyek atau pelanggan. Untuk melakukan pra-penugasan proyek, pada halaman **Tugaskan proyek** , pada tab **proyek** , dalam **Daftar proyek yang tersisa** , pilih proyek yang sesuai.
+Anda juga dapat menentukan proyek default untuk sumber daya sebagai jenis pra-penugasan. Pra-penugasan dapat digunakan saat manajer sumber daya atau manajer proyek mengetahui proyek yang akan dikerjakan oleh sumber daya sebelumnya. Pra-penugasan juga dapat didasarkan pada permintaan sponsor proyek atau pelanggan. Untuk melakukan pra-penugasan proyek, pada halaman **Tugaskan proyek**, pada tab **proyek**, dalam **Daftar proyek yang tersisa**, pilih proyek yang sesuai.
 
 ## <a name="set-up-an-intercompany-resource"></a>Mengkonfigurasi sumber daya Antarperusahaan
 
@@ -50,16 +50,16 @@ Bila Anda mengkonfigurasi pekerja sebagai sumber daya antar, Anda harus menyeles
 ### <a name="in-the-lending-company"></a>Di perusahaan yang meminjamkan
 
 1. Dalam Finance, verifikasikan bahwa perusahaan yang meminjamkan dipilih, lalu selesaikan prosedur di bagian sebelumnya, "Atur pekerja sebagai sumber daya proyek."
-2. Pada halaman **Akuntansi antarperusahaan** , pilih **baru**.
-3. Di bidang **id entitas hukum** , pilih perusahaan yang meminjamkan. Isi bidang tersisa sebagaimana dibutuhkan, lalu pilih **Simpan**.
-4. Pada halaman **Transfer harga** , pilih **baru**.
-5. Di bidang **Entitas hukum yang meminjam** , pilih perusahaan yang sesuai.
-6. Untuk meminjamkan pada perusahaan yang meminjam, hanya sumber daya yang Anda buat di awal bagian ini, di bidang **sumber daya** , pilih nama sumber daya yang Anda buat. Untuk membuat semua sumber daya di perusahaan pinjaman yang tersedia untuk perusahaan pinjaman, biarkan bidang **sumber daya** kosong.
-7. Pada halaman **manajemen proyek dan parameter akuntansi** , pada tab **Antarperusahaan** , atur pilihan **Aktifkan penjadwalan sumber daya dan lembar waktu** ke **ya**.
+2. Pada halaman **Akuntansi antarperusahaan**, pilih **baru**.
+3. Di bidang **id entitas hukum**, pilih perusahaan yang meminjamkan. Isi bidang tersisa sebagaimana dibutuhkan, lalu pilih **Simpan**.
+4. Pada halaman **Transfer harga**, pilih **baru**.
+5. Di bidang **Entitas hukum yang meminjam**, pilih perusahaan yang sesuai.
+6. Untuk meminjamkan pada perusahaan yang meminjam, hanya sumber daya yang Anda buat di awal bagian ini, di bidang **sumber daya**, pilih nama sumber daya yang Anda buat. Untuk membuat semua sumber daya di perusahaan pinjaman yang tersedia untuk perusahaan pinjaman, biarkan bidang **sumber daya** kosong.
+7. Pada halaman **manajemen proyek dan parameter akuntansi**, pada tab **Antarperusahaan**, atur pilihan **Aktifkan penjadwalan sumber daya dan lembar waktu** ke **ya**.
 
 ### <a name="in-the-borrowing-company"></a>Di perusahaan yang meminjam
 
-- Pada halaman **daftar sumber daya** , di filter pencarian, masukkan nama sumber daya yang Anda buat untuk perusahaan yang eminjamkan, untuk memverifikasi bahwa nama tersebut tercakup dalam daftar sumber daya untuk perusahaan yang meminjam.
+- Pada halaman **daftar sumber daya**, di filter pencarian, masukkan nama sumber daya yang Anda buat untuk perusahaan yang eminjamkan, untuk memverifikasi bahwa nama tersebut tercakup dalam daftar sumber daya untuk perusahaan yang meminjam.
 
 ## <a name="request-project-resources"></a>Meminta sumber daya proyek
 Fungsi untuk penjadwalan sumber daya proyek hanya memungkinkan manajer sumber daya mendistribusikan sumber daya pada keterlibatan atau proyek. Untuk mengaktifkan fungsi ini, selesaikan tugas berikut, atau Verifikasikan bahwa mereka telah selesai:

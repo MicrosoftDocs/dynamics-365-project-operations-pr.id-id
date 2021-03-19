@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287737"
 ---
 # <a name="manage-the-billing-backlog"></a>Mengelola akumulasi tagihan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations memiliki dua tampilan khusus untuk membantu Anda bekerja dengan dan mengelola akumulasi penagihan. Mereka adalah **Tonggak Harga Tetap** dan **Akumulasi Penagihan Waktu dan Material** Untuk memilih tampilan, di area **Penjualan** Project Operations, di halaman navigasi kiri, pilih **Penagihan**. Tautan akumulasi penagihan disimpan di sana.
+Dynamics 365 Project Operations memiliki dua tampilan khusus untuk membantu Anda menangani dan mengelola akumulasi tagihan. Mereka adalah **Tonggak Harga Tetap** dan **Akumulasi Penagihan Waktu dan Material** Untuk memilih tampilan, di area **Penjualan** Project Operations, di halaman navigasi kiri, pilih **Penagihan**. Tautan akumulasi penagihan disimpan di sana.
 
 ## <a name="fixed-price-milestones"></a>Tahapan Harga Tetap
 

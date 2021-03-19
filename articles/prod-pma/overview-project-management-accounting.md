@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078627"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289778"
 ---
 # <a name="project-management-and-accounting-overview"></a>Ikhtisar manajemen proyek dan akuntansi
 
@@ -205,7 +205,7 @@ Anda dapat memesan item dari inventaris perusahaan untuk konsumsi pada proyek. A
 
 Cara memesan item tergantung dari mana Anda memesannya:
 
--   Untuk memesan item dari inventaris perusahaan, Anda harus memasukkan pesanan sebagai persyaratan item. Jika Anda menggunakan halaman **persyaratan item** , Anda dapat mengkonfigurasi persyaratan agar Anda menerima item sebagai Pengiriman parsial. Oleh karena itu, Anda dapat menunda konsumsi sejumlah item hingga item tersebut diperlukan.
+-   Untuk memesan item dari inventaris perusahaan, Anda harus memasukkan pesanan sebagai persyaratan item. Jika Anda menggunakan halaman **persyaratan item**, Anda dapat mengkonfigurasi persyaratan agar Anda menerima item sebagai Pengiriman parsial. Oleh karena itu, Anda dapat menunda konsumsi sejumlah item hingga item tersebut diperlukan.
 -   Untuk memesan item dari vendor eksternal, Anda harus membuat pesanan sebagai pesanan pembelian pada halaman **pesanan pembelian**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Untuk informasi lebih lanjut tentang cara memproses faktur proyek, lihat [Pembua
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Menghitung biaya untuk menyelesaikan proyek
 
-Saat membuat perkiraan, Anda dapat memilih metode yang digunakan untuk menghitung biaya untuk menyelesaikan proyek. Anda memilih metode di bidang **Metode biaya untuk menyelesaikan** pada halaman **Buat perkiraan**. Metode yang Anda pilih diterapkan secara terpisah untuk setiap baris biaya dalam perkiraan biaya. Sementara baris memiliki status **dibuat** , Anda dapat mengubah metode yang diterapkan pada halaman **perkiraan biaya**. 
+Saat membuat perkiraan, Anda dapat memilih metode yang digunakan untuk menghitung biaya untuk menyelesaikan proyek. Anda memilih metode di bidang **Metode biaya untuk menyelesaikan** pada halaman **Buat perkiraan**. Metode yang Anda pilih diterapkan secara terpisah untuk setiap baris biaya dalam perkiraan biaya. Sementara baris memiliki status **dibuat**, Anda dapat mengubah metode yang diterapkan pada halaman **perkiraan biaya**. 
 
 Tabel berikut menjelaskan metode untuk menghitung biaya untuk menyelesaikan proyek.
 
@@ -300,12 +300,12 @@ Berdasarkan konfigurasi, Anda dapat memperkirakan arus masuk kas untuk proyek ya
 -   **Tanggal proyek:** 5 maret 2012.
 -   **Tanggal faktur:** 31 maret 2012. Tanggal ini ditentukan berdasarkan frekuensi faktur. Untuk contoh ini, Anda mengatur frekuensi faktur ke bulan berjalan. Oleh karena itu, Semua transaksi yang dikirim dalam bulan Maret ditagih pada hari terakhir dalam sebulan.
 -   **Tanggal jatuh tempo:** 14 April 2012. Tanggal ini ditentukan berdasarkan persyaratan pembayaran yang ditetapkan untuk proyek. Untuk contoh ini, Anda memilih persyaratan pembayaran 14 hari. Oleh karena itu, 14 hari ditambahkan ke tanggal faktur agar tiba pada tanggal jatuh tempo 14 April 2012.
--   **Perkiraan tanggal pembayaran penjualan:** 27 April 2012. Tanggal ini dihitung dengan menambahkan jumlah hari di bidang **hari penyangga umum** pada halaman **manajemen proyek dan parameter akuntansi** ke jumlah hari di bidang **hari penyangga individual** pada halaman **kontrak proyek** , lalu tambahkan total ke jumlah hari pada bidang **tanggal jatuh tempo**. Untuk contoh ini, Anda memasukkan **3** di bidang **hari penyangga umum** dan **10** di bidang **hari penyangga individual**. Oleh karena itu, 13 hari ditambahkan ke tanggal jatuh tempo agar tiba pada perkiraan tanggal pembayaran penjualan 27 April 2012.
+-   **Perkiraan tanggal pembayaran penjualan:** 27 April 2012. Tanggal ini dihitung dengan menambahkan jumlah hari di bidang hari **penyangga umum** pada halaman **manajemen proyek dan parameter akuntansi** ke jumlah hari di bidang **hari penyangga individual** pada halaman **kontrak proyek**, lalu tambahkan total ke jumlah hari pada bidang **tanggal jatuh tempo**. Untuk contoh ini, Anda memasukkan **3** di bidang **hari penyangga umum** dan **10** di bidang **hari penyangga individual**. Oleh karena itu, 13 hari ditambahkan ke tanggal jatuh tempo agar tiba pada perkiraan tanggal pembayaran penjualan 27 April 2012.
 
 Hari penyangga umum dapat menggantikan setiap hari penyangga atau ditambahkan ke hari penyangga individual:
 
 -   Untuk menggunakan hari penyangga umum sebagai pengganti hari penyangga individual, masukkan jumlah hari rata-rata antara tanggal jatuh tempo dan tanggal pembayaran yang sebenarnya untuk pelanggan.
--   Untuk menambahkan hari penyangga umum ke hari penyangga individual, pada bidang **hari penyangga umum** , masukkan perkiraan Anda untuk jumlah hari antara hari saat pelanggan mengirimkan pembayaran dan hari saat organisasi Anda menerima pembayaran.
+-   Untuk menambahkan hari penyangga umum ke hari penyangga individual, pada bidang **hari penyangga umum**, masukkan perkiraan Anda untuk jumlah hari antara hari saat pelanggan mengirimkan pembayaran dan hari saat organisasi Anda menerima pembayaran.
 
 Atur hari penyangga individual dalam kontrak proyek. Hari dihitung berdasarkan tanggal jatuh tempo faktur penjualan dan pengalaman organisasi Anda dengan pola pembayaran pelanggan.
 
@@ -323,9 +323,9 @@ Berdasarkan hari yang ditentukan, tanggal pembayaran biaya dapat berbeda dari ta
 
 Misalnya, tanggal proyek dari transaksi adalah 5 Maret 2012, dan persyaratan pembayaran berikut diatur:
 
--   **Jam:** bulan berjalan ( **M** )
--   **Pengeluaran:** 14 hari ( **D14** )
--   **Item:** 30 hari ( **D30** )
+-   **Jam:** bulan berjalan (**M**)
+-   **Pengeluaran:** 14 hari (**D14**)
+-   **Item:** 30 hari (**D30**)
 
 Berdasarkan pengaturan ini, di sini adalah tanggal pembayaran biaya untuk setiap jenis transaksi:
 
@@ -364,14 +364,14 @@ Anda dapat memantau biaya yang timbul organisasi Anda selama proyek pada halaman
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Melihat jumlah anggaran yang tersisa
 
-Jika **sisa anggaran** dipilih sebagai metode kontrol biaya pada halaman **manajemen proyek dan parameter akuntansi** , halaman **kontrol biaya** menghitung biaya yang belum diposting sebagai aktual atau ditandai sebagai komitmen. Khususnya, jumlah pada tab **Umum** di panel bawah halaman **kontrol biaya** dihitung dengan cara berikut:
+Jika **sisa anggaran** dipilih sebagai metode kontrol biaya pada halaman **manajemen proyek dan parameter akuntansi**, halaman **kontrol biaya** menghitung biaya yang belum diposting sebagai aktual atau ditandai sebagai komitmen. Khususnya, jumlah pada tab **Umum** di panel bawah halaman **kontrol biaya** dihitung dengan cara berikut:
 
 -   **Biaya aktual** – jumlah total yang telah dibelanjakan pada proyek untuk baris biaya yang dipilih. Jumlah biaya aktual dihitung pada halaman **pembaruan buku besar**.
 -   **Komitmen biaya** – jumlah pengeluaran tambahan yang telah diberi komitmen oleh entitas hukum untuk membayar. Jumlah komitmen biaya tertentu dihitung pada halaman **komitmen biaya**.
 -   **Sisa anggaran** -jumlah asli yang dianggarkan yang masih tersedia untuk baris biaya yang dipilih. Jumlah anggaran yang tersisa dihitung pada halaman **pratinjau buku besar**.
 -   **Total Biaya** – jumlah biaya aktual, komitmen biaya, dan jumlah anggaran tersisa.
 
-Pada halaman **kontrol biaya** , pada tab **deviasi** , Anda dapat melihat perbandingan dari total biaya yang diharapkan dengan anggaran asli. Perbandingan ini menunjukkan perbedaan antara jumlah ini. Oleh karena itu, Anda dapat melihat di mana data tidak sesuai. Jumlah deviasi dihitung dengan cara berikut:
+Pada halaman **kontrol biaya**, pada tab **deviasi**, Anda dapat melihat perbandingan dari total biaya yang diharapkan dengan anggaran asli. Perbandingan ini menunjukkan perbedaan antara jumlah ini. Oleh karena itu, Anda dapat melihat di mana data tidak sesuai. Jumlah deviasi dihitung dengan cara berikut:
 
 -   **Anggaran asli** -jumlah yang awalnya dianggarkan untuk baris biaya yang dipilih. Jumlah anggaran asli dihitung pada halaman **pratinjau buku besar**.
 -   **Total Biaya** – jumlah biaya aktual, komitmen biaya, dan jumlah anggaran tersisa, sebagaimana dilaporkan di tab **Umum**.
@@ -381,14 +381,14 @@ Pada halaman **kontrol biaya** , pada tab **deviasi** , Anda dapat melihat perba
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Melihat jumlah anggaran total
 
-Jika **anggaran Total** dipilih sebagai metode kontrol biaya pada **halaman manajemen proyek dan parameter akuntansi** , halaman **kontrol biaya** akan menghitung biaya aktual dan biaya total proyek untuk membantu Anda mendeteksi perbedaan antara keduanya. Khususnya, pada halaman **Kontrol biaya** , jumlah di kolom panel bawah di tab **Umum** dihitung dengan cara berikut:
+Jika **anggaran Total** dipilih sebagai metode kontrol biaya pada **halaman manajemen proyek dan parameter akuntansi**, halaman **kontrol biaya** akan menghitung biaya aktual dan biaya total proyek untuk membantu Anda mendeteksi perbedaan antara keduanya. Khususnya, pada halaman **Kontrol biaya**, jumlah di kolom panel bawah di tab **Umum** dihitung dengan cara berikut:
 
 -   **Total biaya yang dianggarkan** – jumlah yang dianggaran total untuk baris biaya yang dipilih.
 -   **Biaya aktual** – jumlah total biaya yang telah dikenakan pada proyek hingga saat ini untuk baris biaya yang dipilih.
 -   **Komitmen biaya** – jumlah total yang telah diberi komitmen untuk proyek untuk baris biaya yang dipilih.
 -   **Varians** – perbedaan antara jumlah biaya aktual dan komitmen dan total biaya. Varians menunjukkan apakah biaya tambahan harus ditentukan untuk anggaran total.
 
-Pada halaman **kontrol biaya** , pada tab **deviasi** , Anda dapat melihat perbedaan antara anggaran total dan anggaran asli dengan melihat ke bidang berikut:
+Pada halaman **kontrol biaya**, pada tab **deviasi**, Anda dapat melihat perbedaan antara anggaran total dan anggaran asli dengan melihat ke bidang berikut:
 
 -   **Anggaran asli** – jumlah yang awalnya dianggarkan untuk baris biaya. Anggaran asli dihitung pada halaman **pratinjau buku besar**.
 -   **Total Anggaran biaya** -Total biaya yang awalnya dianggarkan untuk baris biaya. Anggaran biaya yang dianggarkan dihitung pada halaman **pratinjau buku besar**.
@@ -414,7 +414,7 @@ Anda menghitung tingkat pemanfaatan pada halaman **utilisasi jam**. Penghitungan
 -   **Menurut properti baris** -properti baris dari transaksi jam tertentu menentukan apakah jam dipertimbangkan untuk ditagih atau pemanfaatan efisiensi.
 -   **Tidak termasuk** -jam tidak diperhitungkan dalam penghitungan dapat ditagih atau pemanfaatan efisiensi.
 
-Pada halaman **pemanfaatan jam** , selain persentase tingkat pemanfaatan secara keseluruhan untuk pekerja atau proyek, Anda dapat melihat jumlah jam yang digunakan untuk penghitungan tingkat pemanfaatan untuk masing-masing jenis jam berikut:
+Pada halaman **pemanfaatan jam**, selain persentase tingkat pemanfaatan secara keseluruhan untuk pekerja atau proyek, Anda dapat melihat jumlah jam yang digunakan untuk penghitungan tingkat pemanfaatan untuk masing-masing jenis jam berikut:
 
 -   **Jam tidak disertakan** -jam ini tidak disertakan dalam tingkat pemanfaatan jam.
 -   **Jam yang disertakan** -jam ini dihitung dengan menambahkan jam penggunaan dan jam beban. Jam tersebut tercakup dalam tingkat pemanfaatan.
@@ -432,7 +432,7 @@ Anda dapat membuat pernyataan proyek untuk melihat snapshot singkat dari kemajua
 -   Tanggal proyek/tanggal buku besar
 -   Data
 
-Setelah pernyataan dihitung, Anda dapat melihat informasi berikut tentang berbagai tab pada halaman **laporan proyek** :
+Setelah pernyataan dihitung, Anda dapat melihat informasi berikut tentang berbagai tab pada halaman **laporan proyek**:
 
 -   **Umum** – informasi umum tentang struktur laba dan rugi dasar proyek.
 -   **Laba dan rugi** – informasi tentang pendapatan yang diperoleh.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289328"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasi Microsoft Project client
 
@@ -39,10 +39,10 @@ Untuk mengaktifkan integrasi dengan Microsoft Project Client, Add-in Microsoft D
 
 •   Klik **Konfigurasikan Add-in klien proyek** dari bagian **Tautan** > **Konfigurasi** di ruang kerja.
 
-•   Klik **buka** , lalu klik **Jalankan** saat diminta.
+•   Klik **buka**, lalu klik **Jalankan** saat diminta.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Membuka dan mengedit struktur rincian kerja konsep yang ada di Microsoft Project Client
-Jika proyek di Dynamics 365 Finance sudah memiliki struktur rincian kerja yang dibuat, struktur rincian kerja dapat dibuka di aplikasi Microsoft Project Client jika struktur rincian kerja berada dalam status draf. Untuk membuka dari halaman **proyek** , klik tautan **buka di Microsoft Project** dari tab **Paket**. Halaman ini juga dapat dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik tab **buka** di **Microsoft Dynamics 365.** Pilih **entitas hukum** dan **proyek** dari daftar.
+Jika proyek di Dynamics 365 Finance sudah memiliki struktur rincian kerja yang dibuat, struktur rincian kerja dapat dibuka di aplikasi Microsoft Project Client jika struktur rincian kerja berada dalam status draf. Untuk membuka dari halaman **proyek**, klik tautan **buka di Microsoft Project** dari tab **Paket**. Halaman ini juga dapat dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik tab **buka** di **Microsoft Dynamics 365.** Pilih **entitas hukum** dan **proyek** dari daftar.
 
 > [!NOTE]
 > Jika Anda menggunakan Internet Explorer sebagai browser, Anda harus mengklik **Simpan** untuk membuka secara manual dari lokasi yang akan diunduh file-nya. Atau, klik **Simpan dan buka** untuk membuka file di Microsoft Project Client. Jangan Namai ulang file saat menyimpan.
@@ -82,7 +82,7 @@ Untuk membuat struktur rincian kerja menggunakan Microsoft Project Client, ikuti
 
 1.  Buka Microsoft Project Client.
 
-2.  Di tab **Microsoft Dynamics 365** , klik **Buka**.
+2.  Di tab **Microsoft Dynamics 365**, klik **Buka**.
 
 3.  Pilih **entitas hukum** untuk proyek.
 
@@ -99,7 +99,7 @@ Untuk membuat struktur rincian kerja baru menggunakan Microsoft Project Client d
 
 2.  Buat jadwal di Microsoft Project Client.
 
-3.  Pada tab **Microsoft Dynamics 365** , klik **Simpan perubahan** > **ganti proyek yang ada**.
+3.  Pada tab **Microsoft Dynamics 365**, klik **Simpan perubahan** > **ganti proyek yang ada**.
 
 4.  Pilih **entitas hukum** untuk proyek.
 
@@ -114,15 +114,15 @@ Untuk membuat struktur rincian kerja baru menggunakan Microsoft Project Client d
 
 2.  Buat jadwal di Microsoft Project Client.
 
-3.  Pada tab **Microsoft Dynamics 365** , klik **Simpan perubahan** > **Simpan ke Proyek baru**.
+3.  Pada tab **Microsoft Dynamics 365**, klik **Simpan perubahan** > **Simpan ke Proyek baru**.
 
 4.  Pilih **entitas hukum** untuk proyek.
 
-5.  Masukkan **id proyek** , jika perlu.
+5.  Masukkan **id proyek**, jika perlu.
 
 6.  Masukkan **nama proyek**.
 
-7.  Pilih **jenis proyek** , **grup proyek** , dan **id kontrak proyek**. Atau, Anda dapat membuat kontrak proyek baru dengan mengeklik **baru**.
+7.  Pilih **jenis proyek**, **grup proyek**, dan **id kontrak proyek**. Atau, Anda dapat membuat kontrak proyek baru dengan mengeklik **baru**.
 
 8.  Pilih **kalender** yang akan digunakan untuk sumber daya.
 
