@@ -18,78 +18,81 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 252fff0b60d221233c881e68db176e6763cdcdc0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145542"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291578"
 ---
-# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="aa247-103">Memungkinkan orang lain untuk memasukkan entri waktu atau biaya Anda (Project Service)</span><span class="sxs-lookup"><span data-stu-id="aa247-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="07824-103">Memungkinkan orang lain untuk memasukkan entri waktu atau biaya Anda (Project Service)</span><span class="sxs-lookup"><span data-stu-id="07824-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="aa247-104">Atur delegasi untuk membiarkan orang lain membuat entri waktu atau biaya atas nama Anda di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="aa247-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+<span data-ttu-id="07824-104">Atur delegasi untuk membiarkan orang lain membuat entri waktu atau biaya atas nama Anda di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="07824-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
   
-## <a name="create-a-delegate"></a><span data-ttu-id="aa247-105">Buat delegasi</span><span class="sxs-lookup"><span data-stu-id="aa247-105">Create a delegate</span></span>  
+## <a name="create-a-delegate"></a><span data-ttu-id="07824-105">Buat delegasi</span><span class="sxs-lookup"><span data-stu-id="07824-105">Create a delegate</span></span>  
   
-1.  <span data-ttu-id="aa247-106">Dari menu utama, klik **Project Service** > **Delegasi**.</span><span class="sxs-lookup"><span data-stu-id="aa247-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="07824-106">Dari menu utama, klik **Project Service** > **Delegasi**.</span><span class="sxs-lookup"><span data-stu-id="07824-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="aa247-107">Di baris perintah, klik **Baru**.</span><span class="sxs-lookup"><span data-stu-id="aa247-107">On the command bar, click **New**.</span></span>  
+2.  <span data-ttu-id="07824-107">Di baris perintah, klik **Baru**.</span><span class="sxs-lookup"><span data-stu-id="07824-107">On the command bar, click **New**.</span></span>  
   
-3. <span data-ttu-id="aa247-108">**Nama**: masukkan nama untuk rekaman.</span><span class="sxs-lookup"><span data-stu-id="aa247-108">**Name**: Enter a name for the record.</span></span>  
+3. <span data-ttu-id="07824-108">**Nama**: masukkan nama untuk rekaman.</span><span class="sxs-lookup"><span data-stu-id="07824-108">**Name**: Enter a name for the record.</span></span>  
   
-4. <span data-ttu-id="aa247-109">**Tipe**: Pilih Apakah delegasi dapat memasukkan entri waktu atau biaya atas nama Anda.</span><span class="sxs-lookup"><span data-stu-id="aa247-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
+4. <span data-ttu-id="07824-109">**Tipe**: Pilih Apakah delegasi dapat memasukkan entri waktu atau biaya atas nama Anda.</span><span class="sxs-lookup"><span data-stu-id="07824-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
   
-5. <span data-ttu-id="aa247-110">**Delegasi**: Pilih nama orang yang Anda ingin menjadi delegasi.</span><span class="sxs-lookup"><span data-stu-id="aa247-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
+5. <span data-ttu-id="07824-110">**Delegasi**: Pilih nama orang yang Anda ingin menjadi delegasi.</span><span class="sxs-lookup"><span data-stu-id="07824-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
   
-6. <span data-ttu-id="aa247-111">**Tanggal mulai dan berakhir**: Pilih tanggal Kapan delegasi dimulai dan berakhir.</span><span class="sxs-lookup"><span data-stu-id="aa247-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
+6. <span data-ttu-id="07824-111">**Tanggal mulai dan berakhir**: Pilih tanggal Kapan delegasi dimulai dan berakhir.</span><span class="sxs-lookup"><span data-stu-id="07824-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
   
-7.  <span data-ttu-id="aa247-112">Setelah selesai, klik **Simpan & tutup**.</span><span class="sxs-lookup"><span data-stu-id="aa247-112">When you're done, click **Save & Close**.</span></span>  
+7.  <span data-ttu-id="07824-112">Setelah selesai, klik **Simpan & tutup**.</span><span class="sxs-lookup"><span data-stu-id="07824-112">When you're done, click **Save & Close**.</span></span>  
   
-## <a name="turn-off-delegation"></a><span data-ttu-id="aa247-113">Mematikan delegasi</span><span class="sxs-lookup"><span data-stu-id="aa247-113">Turn off delegation</span></span>  
+## <a name="turn-off-delegation"></a><span data-ttu-id="07824-113">Mematikan delegasi</span><span class="sxs-lookup"><span data-stu-id="07824-113">Turn off delegation</span></span>  
   
-1.  <span data-ttu-id="aa247-114">Dari menu utama, klik **Project Service** > **Delegasi**.</span><span class="sxs-lookup"><span data-stu-id="aa247-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="07824-114">Dari menu utama, klik **Project Service** > **Delegasi**.</span><span class="sxs-lookup"><span data-stu-id="07824-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="aa247-115">Pilih rekaman delegasi yang Anda inginkan untuk menonaktifkan.</span><span class="sxs-lookup"><span data-stu-id="aa247-115">Select the delegation record you want to turn off.</span></span>  
+2.  <span data-ttu-id="07824-115">Pilih rekaman delegasi yang Anda inginkan untuk menonaktifkan.</span><span class="sxs-lookup"><span data-stu-id="07824-115">Select the delegation record you want to turn off.</span></span>  
   
-3.  <span data-ttu-id="aa247-116">Di bilah perintah, klik atau ketuk **+ Nonaktifkan**.</span><span class="sxs-lookup"><span data-stu-id="aa247-116">On the command bar, click **Deactivate**.</span></span>  
+3.  <span data-ttu-id="07824-116">Di bilah perintah, klik atau ketuk **+ Nonaktifkan**.</span><span class="sxs-lookup"><span data-stu-id="07824-116">On the command bar, click **Deactivate**.</span></span>  
   
-4.  <span data-ttu-id="aa247-117">Dalam kotak dialog **konfirmasi Penonaktifan**, klik **Nonaktifkan**.</span><span class="sxs-lookup"><span data-stu-id="aa247-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
+4.  <span data-ttu-id="07824-117">Dalam kotak dialog **konfirmasi Penonaktifan**, klik **Nonaktifkan**.</span><span class="sxs-lookup"><span data-stu-id="07824-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
   
-## <a name="enter-time-for-someone-else"></a><span data-ttu-id="aa247-118">Masukkan waktu untuk orang lain</span><span class="sxs-lookup"><span data-stu-id="aa247-118">Enter time for someone else</span></span>  
+## <a name="enter-time-for-someone-else"></a><span data-ttu-id="07824-118">Masukkan waktu untuk orang lain</span><span class="sxs-lookup"><span data-stu-id="07824-118">Enter time for someone else</span></span>  
   
-1.  <span data-ttu-id="aa247-119">Dari menu utama, klik **Project Service** > **Entri Waktu**.</span><span class="sxs-lookup"><span data-stu-id="aa247-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
+1.  <span data-ttu-id="07824-119">Dari menu utama, klik **Project Service** > **Entri Waktu**.</span><span class="sxs-lookup"><span data-stu-id="07824-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
   
-2.  <span data-ttu-id="aa247-120">Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA**, lalu pilih nama orang yang Anda masukkan waktunya.</span><span class="sxs-lookup"><span data-stu-id="aa247-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
+2.  <span data-ttu-id="07824-120">Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA**, lalu pilih nama orang yang Anda masukkan waktunya.</span><span class="sxs-lookup"><span data-stu-id="07824-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
   
-3.  <span data-ttu-id="aa247-121">Klik **OK**.</span><span class="sxs-lookup"><span data-stu-id="aa247-121">Click **OK**.</span></span>  
+3.  <span data-ttu-id="07824-121">Klik **OK**.</span><span class="sxs-lookup"><span data-stu-id="07824-121">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="aa247-122">Tombol ini menampilkan kalender.</span><span class="sxs-lookup"><span data-stu-id="aa247-122">This brings up the calendar.</span></span> <span data-ttu-id="aa247-123">Untuk melihat kalender pekan sebelumnya atau minggu depan, klik **sebelumnya** atau **berikutnya**.</span><span class="sxs-lookup"><span data-stu-id="aa247-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="aa247-124">Klik **hari ini** untuk kembali ke minggu saat ini.</span><span class="sxs-lookup"><span data-stu-id="aa247-124">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="07824-122">Tombol ini menampilkan kalender.</span><span class="sxs-lookup"><span data-stu-id="07824-122">This brings up the calendar.</span></span> <span data-ttu-id="07824-123">Untuk melihat kalender pekan sebelumnya atau minggu depan, klik **sebelumnya** atau **berikutnya**.</span><span class="sxs-lookup"><span data-stu-id="07824-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="07824-124">Klik **hari ini** untuk kembali ke minggu saat ini.</span><span class="sxs-lookup"><span data-stu-id="07824-124">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="aa247-125">Untuk memasukkan waktu Anda, klik **Baru** atau klik dua kali dalam kalendar di bawah hari Anda ingin memasukkan waktu.</span><span class="sxs-lookup"><span data-stu-id="aa247-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+5.  <span data-ttu-id="07824-125">Untuk memasukkan waktu Anda, klik **Baru** atau klik dua kali dalam kalendar di bawah hari Anda ingin memasukkan waktu.</span><span class="sxs-lookup"><span data-stu-id="07824-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-6.  <span data-ttu-id="aa247-126">Isi kolom di formulir **Entri waktu** dan klik **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="aa247-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+6.  <span data-ttu-id="07824-126">Isi kolom di formulir **Entri waktu** dan klik **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="07824-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-7.  <span data-ttu-id="aa247-127">Lanjutkan memasukkan waktu selama seminggu.</span><span class="sxs-lookup"><span data-stu-id="aa247-127">Continue entering time for the week.</span></span> <span data-ttu-id="aa247-128">Ketika Anda sudah selesai dan segala sesuatu tampak benar, klik **Ajukan**.</span><span class="sxs-lookup"><span data-stu-id="aa247-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
+7.  <span data-ttu-id="07824-127">Lanjutkan memasukkan waktu selama seminggu.</span><span class="sxs-lookup"><span data-stu-id="07824-127">Continue entering time for the week.</span></span> <span data-ttu-id="07824-128">Ketika Anda sudah selesai dan segala sesuatu tampak benar, klik **Ajukan**.</span><span class="sxs-lookup"><span data-stu-id="07824-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
   
-## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="aa247-129">Masukkan biaya untuk orang lain</span><span class="sxs-lookup"><span data-stu-id="aa247-129">Enter expenses for someone else</span></span>  
+## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="07824-129">Masukkan biaya untuk orang lain</span><span class="sxs-lookup"><span data-stu-id="07824-129">Enter expenses for someone else</span></span>  
   
-1.  <span data-ttu-id="aa247-130">Dari menu utama, klik **Project Service** > **Pengeluaran**.</span><span class="sxs-lookup"><span data-stu-id="aa247-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
+1.  <span data-ttu-id="07824-130">Dari menu utama, klik **Project Service** > **Pengeluaran**.</span><span class="sxs-lookup"><span data-stu-id="07824-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
   
-2.  <span data-ttu-id="aa247-131">Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA**, lalu pilih nama orang yang Anda masukkan biayanya.</span><span class="sxs-lookup"><span data-stu-id="aa247-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
+2.  <span data-ttu-id="07824-131">Pada bilah perintah, pilih menu drop-down **NAMA SUMBER DAYA**, lalu pilih nama orang yang Anda masukkan biayanya.</span><span class="sxs-lookup"><span data-stu-id="07824-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
   
-3.  <span data-ttu-id="aa247-132">Klik **OK**.</span><span class="sxs-lookup"><span data-stu-id="aa247-132">Click **OK**.</span></span>  
+3.  <span data-ttu-id="07824-132">Klik **OK**.</span><span class="sxs-lookup"><span data-stu-id="07824-132">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="aa247-133">Untuk melihat kalender pekan sebelumnya atau minggu depan, klik **sebelumnya** atau **berikutnya**.</span><span class="sxs-lookup"><span data-stu-id="aa247-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="aa247-134">Klik **hari ini** untuk kembali ke minggu saat ini.</span><span class="sxs-lookup"><span data-stu-id="aa247-134">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="07824-133">Untuk melihat kalender pekan sebelumnya atau minggu depan, klik **sebelumnya** atau **berikutnya**.</span><span class="sxs-lookup"><span data-stu-id="07824-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="07824-134">Klik **hari ini** untuk kembali ke minggu saat ini.</span><span class="sxs-lookup"><span data-stu-id="07824-134">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="aa247-135">Untuk memasukkan biaya, klik **baru**</span><span class="sxs-lookup"><span data-stu-id="aa247-135">To enter an expense, either click **New**</span></span>  
+5.  <span data-ttu-id="07824-135">Untuk memasukkan biaya, klik **baru**</span><span class="sxs-lookup"><span data-stu-id="07824-135">To enter an expense, either click **New**</span></span>  
   
-6.  <span data-ttu-id="aa247-136">Isi kolom di formulir **Biaya Baru**.</span><span class="sxs-lookup"><span data-stu-id="aa247-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="aa247-137">Anda juga dapat menambahkan tanda terima.</span><span class="sxs-lookup"><span data-stu-id="aa247-137">You can also add receipts.</span></span>  
+6.  <span data-ttu-id="07824-136">Isi kolom di formulir **Biaya Baru**.</span><span class="sxs-lookup"><span data-stu-id="07824-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="07824-137">Anda juga dapat menambahkan tanda terima.</span><span class="sxs-lookup"><span data-stu-id="07824-137">You can also add receipts.</span></span>  
   
-7.  <span data-ttu-id="aa247-138">Setelah selesai, klik **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="aa247-138">When you’re done, click **Save**.</span></span>  
+7.  <span data-ttu-id="07824-138">Setelah selesai, klik **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="07824-138">When you’re done, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="aa247-139">Lihat Juga</span><span class="sxs-lookup"><span data-stu-id="aa247-139">See Also</span></span>  
- [<span data-ttu-id="aa247-140">Panduan Waktu, biaya dan kolaborasi</span><span class="sxs-lookup"><span data-stu-id="aa247-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="07824-139">Lihat Juga</span><span class="sxs-lookup"><span data-stu-id="07824-139">See Also</span></span>  
+ [<span data-ttu-id="07824-140">Panduan Waktu, biaya dan kolaborasi</span><span class="sxs-lookup"><span data-stu-id="07824-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
