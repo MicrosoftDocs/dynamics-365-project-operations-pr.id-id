@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131977"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287647"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations mendukung berbagai pilihan akuntansi untuk proyek yang dapat ditagih yang mencakup waktu dan materi, serta transaksi harga tetap.
+Dynamics 365 Project Operations mendukung berbagai pilihan akuntansi untuk proyek yang dapat ditagihkan yang mencakup transaksi waktu dan bahan dan harga tetap.
 
 - **Transaksi waktu dan material**: transaksi ini ditagih sebagai kemajuan kerja berdasarkan konsumsi jam, biaya, item, atau biaya pada proyek. Biaya transaksi ini dapat disesuaikan dengan pendapatan pada setiap transaksi dan proyek ditagih seiring pekerjaan berlangsung. Pendapatan proyek juga dapat diperoleh pada saat transaksi terjadi. Selama faktur, pendapatan diakui dan jika berlaku, pendapatan yang diperoleh akan dibalik.
 - **Transaksi harga tetap**: Transaksi ini ditagih berdasarkan jadwal penagihan yang didasarkan pada kontrak proyek. Pendapatan transaksi harga tetap dapat dikenali pada faktur atau dihitung dan diposkan secara berkala, berdasarkan **kontrak yang telah diselesaikan** atau **metode persentase yang telah selesai**.

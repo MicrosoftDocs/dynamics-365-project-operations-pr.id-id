@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133366"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287242"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
@@ -28,9 +28,9 @@ Entri waktu dan pengeluaran membuat transaksi **Aktual** yang mewakili tampilan 
 Rekaman dalam jurnal Integrasi Project Operations dibuat menggunakan proses berkala, **Impor dari tabel penahapan**. Anda dapat menjalankan proses ini dengan masuk ke **Dynamics 365 Finance** > **Manajemen proyek dan akuntansi** > **Berkala** > **Integrasi Project Operations** > **Impor dari tabel penahapan**. Anda dapat menjalankan proses secara interaktif atau mengonfigurasi proses untuk berjalan di latar belakang sesuai kebutuhan.
 
 Ketika proses berkala berjalan, setiap aktual yang belum ditambahkan ke jurnal Integrasi Project Operations ditemukan. Baris jurnal untuk setiap transaksi aktual dibuat.
-Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam bidang **Unit periode di jurnal Integrasi Project Operations Integration** (**Finance** > **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, **Project Operations di Dynamics 365 Customer Engagement** _ tab). Nilai yang mungkin untuk bidang ini meliputi:
+Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam bidang **Unit periode di jurnal Integrasi Project Operations Integration** tab (**Keuangan** > **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, **Project Operations di Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
 
-  - _*Hari**: Aktual dikelompokkan menurut tanggal transaksi. Jurnal terpisah dibuat untuk setiap hari.
+  - **Hari**: Aktual dikelompokkan menurut tanggal transaksi. Jurnal terpisah dibuat untuk setiap hari.
   - **Bulan**: Aktual dikelompokkan menurut bulan kalender. Jurnal terpisah dibuat untuk setiap bulan.
   - **Tahun**: Aktual dikelompokkan menurut bulan tahun. Jurnal terpisah dibuat untuk setiap tahun.
   - **Semua**: Semua transaksi aktual disertakan dalam jurnal integrasi yang sama. Jika jurnal tidak tersedia ketika proses berkala berjalan, misalnya jika jurnal sedang dalam proses memposting transaksi, jurnal baru dibuat.
