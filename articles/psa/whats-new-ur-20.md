@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280672"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation Pembaruan Rilis 20, V3
 
@@ -42,7 +42,7 @@ Masalah berikut telah diperbaiki:
 
 - Mengimpor anggota tim proyek dengan metode alokasi yang memerlukan jam menghasilkan pesan kesalahan yang tidak jelas saat jam yang ditentukan adalah nol.
 - Pengguna menerima kesalahan yang salah ketika jumlah maksimum karakter telah dimasukkan ke dalam bidang **Deskripsi** untuk tugas proyek.
-- Halaman **unduh Add-in Microsoft Dynamics 365 Project Service Automation** mengalihkan ke halaman unduh bahasa Inggris saat pengaturan bahasa pengguna diatur ke Jepang.
+- Halaman **unduh add-in Microsoft Dynamics 365 Project Service Automation** akan mengalihkan ke halaman unduh bahasa Inggris bila pengaturan bahasa pengguna diatur ke bahasa Jepang.
 - Bila terjadi kesalahan server, label sinkronisasi pada tab **jadwal** formulir **proyek** terkadang tetap ada.
 - Pembaruan tugas berlebihan dikirim ke server saat tugas dimodifikasi.
 

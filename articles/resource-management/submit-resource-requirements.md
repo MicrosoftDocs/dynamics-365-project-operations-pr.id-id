@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279142"
 ---
 # <a name="submit-a-resource-request"></a>Mengajukan permintaan sumber daya
 
@@ -21,7 +21,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan sumber daya. Permintaan tersebut kemudian dikirim ke manajer sumber daya untuk pemenuhan.
 
-1. Di Dynamics 365 Project Operations, di halaman **proyek**, pilih tab **tim** untuk melihat daftar sumber daya yang dapat dipesan. 
+1. Di Dynamics 365 Project Operations, pada halaman **proyek**, pilih tab **tim** untuk melihat daftar sumber daya yang dapat dipesan. 
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu klik **Ajukan Permintaan**.
 
 Status permintaan anggota tim umum akan berubah menjadi **Diajukan**.

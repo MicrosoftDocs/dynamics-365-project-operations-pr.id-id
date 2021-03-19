@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277882"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mengelola beberapa pelanggan pada kuotasi proyek
 
@@ -23,7 +23,7 @@ Kuotasi proyek mendukung skenario di mana proposal melibatkan beberapa pelanggan
 
 Semua pelanggan kuotasi pada tab **pelanggan** kuotasi proyek memiliki default sebagai pelanggan baris kuotasi pada baris kuotasi berbasis proyek **baru** yang dibuat untuk kuotasi. Setiap baris kuotasi berbasis proyek yang ada tidak akan mewarisi rekaman pelanggan kuotasi baru yang dibuat setelah mereka.
 
-Pelanggan kuotasi dan pelanggan baris kuotasi dapat ditambahkan, diperbarui, atau dihapus kapan pun sebelum kuotasi dimenangkan. Pelanggan yang valid dalam kuotasi harus diatur sebagai pelanggan di perusahaan pemilik atau entitas hukum pada halaman **pelanggan**. Entitas hukum dikonfigurasi di modul **manajemen proyek dan akuntansi** dari Dynamics 365 Project Operations dan dibuat tersedia sebagai perusahaan dalam modul **penjualan dan pengiriman proyek** dari Project Operations.
+Pelanggan kuotasi dan pelanggan baris kuotasi dapat ditambahkan, diperbarui, atau dihapus kapan pun sebelum kuotasi dimenangkan. Pelanggan yang valid dalam kuotasi harus diatur sebagai pelanggan di perusahaan pemilik atau entitas hukum pada halaman **pelanggan**. Entitas hukum diatur dalam modul **Manajemen dan akuntansi proyek** di Dynamics 365 Project Operations dan tersedia sebagai perusahaan pada modul **Penjualan dan pelaksanaan Proyek** di Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konsep pelanggan utama
 
