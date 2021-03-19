@@ -3,17 +3,17 @@ title: Perilaku UI entri waktu
 description: Topik ini menyediakan informasi tentang perilaku UI untuk entri waktu.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124507"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499618"
 ---
 # <a name="time-entry-ui-behavior"></a>Perilaku UI entri waktu
 
@@ -21,6 +21,19 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 
 Kisi **entri waktu mingguan** baru adalah kontrol kustom yang memiliki dua bagian utama, **dimensi**, dan **durasi**.
+
+## <a name="keyboard-shortcuts"></a>Pintasan keyboard
+| Tindakan        | Pintasan                  |
+|------------   |------------------------   |
+| Baru           | Alt + Shift + n           |
+| Salin baris      | Alt + Shift + c           |
+| Edit entri    | Alt + Shift + e           |
+| Edit baris      | Alt + Shift + Ctrl + e    |
+| Buka entri    | Alt + Shift + o           |
+| Kirimkan        | Alt + Shift + s           |
+| Tarik Kembali        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Salin minggu     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensi
 Bagian **dimensi** menunjukkan dimensi yang waktunya dapat dimasukkan. Dimensi berikut didukung secara default:

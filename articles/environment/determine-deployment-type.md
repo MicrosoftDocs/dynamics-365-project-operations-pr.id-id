@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401222"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479568"
 ---
 # <a name="determine-your-deployment-type"></a>Menentukan jenis penyebaran Anda
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 > [!IMPORTANT]
-> Setelah Anda membeli lisensi, mulai di sini untuk menentukan model penyebaran terbaik dari Dynamics 365 Project Operations menggunakan [alur penginstalan terpandu](https://aka.ms/provisionprojectoperations).
+> Setelah Anda membeli lisensi, mulai di sini untuk menentukan model penyebaran Dynamics 365 Project Operations terbaik menggunakan [alur penginstalan Terpandu](https://aka.ms/provisionprojectoperations).
 > Setelah Anda menyelesaikan alur penginstalan terpandu, Anda akan diarahkan ke Portal manajemen yang benar untuk menyelesaikan penginstalan. Lihat rincian penyebaran untuk menyelesaikan penginstalan.
 
 
@@ -31,6 +31,9 @@ Project Operations mencakup kemampuan yang disertakan dengan Project Service Aut
 
 Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakannya sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
 
+
+## <a name="deployment-regions"></a>Wilayah Penyebaran
+Untuk menentukan kawasan yang mendukung penyebaran Project Operations, lihat [ketersediaan geografis untuk Dynamics 365 dan laporan Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Pilih **Lihat Laporan**, lalu perluas **Dynamics 365 > Aplikasi Operasi > Dynamics 365 Project Operations** untuk melihat kawasan yang didukung.
 
 ## <a name="deployment-types"></a>Jenis Penyebaran
 Project Operations mendukung beberapa pilihan penyebaran agar sesuai dengan kebutuhan Anda. Apakah Anda adalah pelanggan Dynamics 365 baru atau lama, Project Operations dapat mendukung kebutuhan Anda.

@@ -1,9 +1,9 @@
 ---
 title: Laporan pengeluaran model baru
-description: Topik ini menyediakan informasi tentang pengalaman yang didesain ulang dan yang dirancang ulang untuk entri laporan pengeluaran.
+description: Laporan topik menjelaskan pengalaman yang didesain ulang dan ditata ulang untuk entri laporan pengeluaran.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122798"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499720"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan pengeluaran model baru
 
@@ -59,25 +59,22 @@ Video [Pengalaman pengeluaran di Dynamics 365 for Finance and Operations](https:
 | Mengurangi pesan di bilah pesan| Jumlah pesan Infolog menurun, dan upaya dibuat untuk mencegah pesan duplikat ditampilkan di banyak kasus. |
 | Dikelompokkan bersama tindakan umum | Antarmuka dibersihkan dengan penambahan tombol tindakan baru untuk sebagian besar tindakan tingkat baris Umum dan penambahan tombol elipsis (...) untuk header dan tindakan lainnya yang kurang sering. |
 | Ruang kerja baru untuk meningkatkan visibilitas | Ruang kerja baru menyatukan fitur dan tautan yang memungkinkan pengguna beralih ke area yang berbeda. |
-| Menambahkan biaya dan penerimaan yang ada selama pembuatan pengeluaran | Saat membuat laporan pengeluaran, Anda dapat menambahkan semua pengeluaran dan kuitansi yang dipilih. |
+| Menambahkan biaya dan penerimaan yang ada selama pembuatan pengeluaran | Saat membuat laporan pengeluaran, Anda dapat menambahkan semua pengeluaran, atau memilih pengeluaran yang tidak dilampirkan. Pengeluaran yang tidak dilampirkan adalah pengeluaran yang diimpor dari umpan atau pengeluaran kartu kredit korporasi yang dibuat secara manual oleh pengguna, namun belum dilampirkan ke laporan pengeluaran.|
 | Kalkulator kurs | Kalkulator kurs ditambahkan yang memungkinkan Anda menghitung nilai tukar untuk transaksi multi mata uang mandiri. |
 | Simpan dan tambahkan baris pengeluaran baru | Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran. |
 | Visibilitas yang lebih baik ke baris terpisah dan terperinci | Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan. |
 | Tampilkan tanda terima selama itemisasi | Tanda terima dapat ditampilkan selama itemisasi. |
+| Pilihan Uang muka | Pilih satu atau beberapa uang muka tunai untuk memenuhi satu transaksi pengeluaran. |
+| saldo Uang muka | Tinjau saldo uang muka secara real time bila Anda membuat entri pengeluaran dengan uang muka yang disetujui dan dibayar. |
 
 Rilis awal difokuskan pada skenario entri pengeluaran. Skenario pengeluaran laporan atau skenario persetujuan akan terus menggunakan halaman entri pengeluaran yang ada.
 
-Fitur berikut ada di halaman lama namun belum ada di halaman baru. Fitur ini akan diperkenalkan ulang selama beberapa rilis berikutnya:
+Fitur berikut tidak didukung di Ruang Kerja Pengeluaran yang Ditata Ulang:
 
-- Persetujuan
-- Persetujuan utang dagang dan kemampuan untuk mengedit akuntansi
-- Beberapa titik masuk
 - Integrasi Permintaan perjalanan
-- Entitas data untuk visibilitas bidang pengeluaran
-- Entri untuk pengeluaran uang saku
-- Alur kerja tingkat baris
+- Entri pengeluaran uang saku
 - Dukungan pemberi persetujuan sementara
-- Itemisasi lanjutan
+- Kemampuan untuk melihat riwayat alur kerja
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
