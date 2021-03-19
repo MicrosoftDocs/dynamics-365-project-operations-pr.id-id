@@ -8,129 +8,132 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642232"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289823"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a><span data-ttu-id="69041-103">Pengaturan dan penerapan data konfigurasi di Common Data Service</span><span class="sxs-lookup"><span data-stu-id="69041-103">Set up and apply configuration data in the Common Data Service</span></span> 
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a><span data-ttu-id="65836-103">Pengaturan dan penerapan data konfigurasi di Common Data Service</span><span class="sxs-lookup"><span data-stu-id="65836-103">Set up and apply configuration data in the Common Data Service</span></span> 
 
-<span data-ttu-id="69041-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_</span><span class="sxs-lookup"><span data-stu-id="69041-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="65836-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_</span><span class="sxs-lookup"><span data-stu-id="65836-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-## <a name="prerequisites"></a><span data-ttu-id="69041-105">Prasyarat</span><span class="sxs-lookup"><span data-stu-id="69041-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="65836-105">Prasyarat</span><span class="sxs-lookup"><span data-stu-id="65836-105">Prerequisites</span></span>
 
-<span data-ttu-id="69041-106">Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyarat berikut harus dipenuhi:</span><span class="sxs-lookup"><span data-stu-id="69041-106">Before you beging to configure data in the Common Data Service (CDS), the following prerequisites must be met:</span></span>
+<span data-ttu-id="65836-106">Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyarat berikut harus dipenuhi:</span><span class="sxs-lookup"><span data-stu-id="65836-106">Before you beging to configure data in the Common Data Service (CDS), the following prerequisites must be met:</span></span>
 
-1.  <span data-ttu-id="69041-107">Penyediaan lingkungan CDS dan lingkungan Dynamics 365 Finance untuk Project Operations.</span><span class="sxs-lookup"><span data-stu-id="69041-107">Provision a CDS environment and a Dynamics 365 Finance environment for Project Operations.</span></span>
-2.  <span data-ttu-id="69041-108">Informasi entitas hukum dari Dynamics 365 Finance dibagi ke lingkungan CDS.</span><span class="sxs-lookup"><span data-stu-id="69041-108">Legal entity information from Dynamics 365 Finance is shared to the CDS environment.</span></span> <span data-ttu-id="69041-109">Ini berarti bahwa entitas **perusahaan** dalam CDS memiliki rekaman perusahaan berikut:</span><span class="sxs-lookup"><span data-stu-id="69041-109">This means that the **Company** entity in CDS has the following company records:</span></span>
-  - <span data-ttu-id="69041-110">THPM</span><span class="sxs-lookup"><span data-stu-id="69041-110">THPM</span></span>
-  - <span data-ttu-id="69041-111">USPM</span><span class="sxs-lookup"><span data-stu-id="69041-111">USPM</span></span>
-  - <span data-ttu-id="69041-112">GBPM</span><span class="sxs-lookup"><span data-stu-id="69041-112">GBPM</span></span>
+1.  <span data-ttu-id="65836-107">Penyediaan lingkungan CDS dan lingkungan Dynamics 365 Finance untuk Project Operations.</span><span class="sxs-lookup"><span data-stu-id="65836-107">Provision a CDS environment and a Dynamics 365 Finance environment for Project Operations.</span></span>
+2.  <span data-ttu-id="65836-108">Informasi entitas hukum dari Dynamics 365 Finance dibagi ke lingkungan CDS.</span><span class="sxs-lookup"><span data-stu-id="65836-108">Legal entity information from Dynamics 365 Finance is shared to the CDS environment.</span></span> <span data-ttu-id="65836-109">Ini berarti bahwa entitas **perusahaan** dalam CDS memiliki rekaman perusahaan berikut:</span><span class="sxs-lookup"><span data-stu-id="65836-109">This means that the **Company** entity in CDS has the following company records:</span></span>
+  - <span data-ttu-id="65836-110">THPM</span><span class="sxs-lookup"><span data-stu-id="65836-110">THPM</span></span>
+  - <span data-ttu-id="65836-111">USPM</span><span class="sxs-lookup"><span data-stu-id="65836-111">USPM</span></span>
+  - <span data-ttu-id="65836-112">GBPM</span><span class="sxs-lookup"><span data-stu-id="65836-112">GBPM</span></span>
 
-## <a name="install-setup-and-configuration-data"></a><span data-ttu-id="69041-113">Menginstal data pengaturan dan konfigurasi</span><span class="sxs-lookup"><span data-stu-id="69041-113">Install setup and configuration data</span></span>
+## <a name="install-setup-and-configuration-data"></a><span data-ttu-id="65836-113">Menginstal data pengaturan dan konfigurasi</span><span class="sxs-lookup"><span data-stu-id="65836-113">Install setup and configuration data</span></span>
 
-1. <span data-ttu-id="69041-114">Unduh, buka blokir, dan buka [Paket paket data pengaturan dan konfigurasi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span><span class="sxs-lookup"><span data-stu-id="69041-114">Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span></span>
-2. <span data-ttu-id="69041-115">Arahkan ke folder zip terbuka dan Jalankan file eksekusi, *DataMigrationUtility*.</span><span class="sxs-lookup"><span data-stu-id="69041-115">Navigate to the unzipped folder and run the executable file, *DataMigrationUtility*.</span></span>
-3. <span data-ttu-id="69041-116">Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.</span><span class="sxs-lookup"><span data-stu-id="69041-116">On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.</span></span>
+1. <span data-ttu-id="65836-114">Unduh, buka blokir, dan buka [Paket paket data pengaturan dan konfigurasi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span><span class="sxs-lookup"><span data-stu-id="65836-114">Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).</span></span>
+2. <span data-ttu-id="65836-115">Arahkan ke folder zip terbuka dan Jalankan file eksekusi, *DataMigrationUtility*.</span><span class="sxs-lookup"><span data-stu-id="65836-115">Navigate to the unzipped folder and run the executable file, *DataMigrationUtility*.</span></span>
+3. <span data-ttu-id="65836-116">Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.</span><span class="sxs-lookup"><span data-stu-id="65836-116">On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.</span></span>
 
 ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
-4. <span data-ttu-id="69041-118">Di Halaman 2 CMT Wizard, pilih **Microsoft 365** sebagai **jenis penyebaran**.</span><span class="sxs-lookup"><span data-stu-id="69041-118">On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.</span></span>
-5. <span data-ttu-id="69041-119">Pilih **Tampilkan daftar organisasi tersedia** dan **Tampilkan kotak centang tingkat lanjut**.</span><span class="sxs-lookup"><span data-stu-id="69041-119">Select the **Display a list of available organizations** and **Show Advanced** check boxes.</span></span>
-6. <span data-ttu-id="69041-120">Pilih kawasan penyewa Anda, masukkan kredensial, lalu pilih **masuk**.</span><span class="sxs-lookup"><span data-stu-id="69041-120">Select the region of your tenant, enter your credentials, and select **Login**.</span></span>
+4. <span data-ttu-id="65836-118">Di Halaman 2 CMT Wizard, pilih **Microsoft 365** sebagai **jenis penyebaran**.</span><span class="sxs-lookup"><span data-stu-id="65836-118">On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.</span></span>
+5. <span data-ttu-id="65836-119">Pilih **Tampilkan daftar organisasi tersedia** dan **Tampilkan kotak centang tingkat lanjut**.</span><span class="sxs-lookup"><span data-stu-id="65836-119">Select the **Display a list of available organizations** and **Show Advanced** check boxes.</span></span>
+6. <span data-ttu-id="65836-120">Pilih kawasan penyewa Anda, masukkan kredensial, lalu pilih **masuk**.</span><span class="sxs-lookup"><span data-stu-id="65836-120">Select the region of your tenant, enter your credentials, and select **Login**.</span></span>
 
 ![Masuk untuk konfigurasi](./media/2ConfigurationSignin.png)
 
-7. <span data-ttu-id="69041-122">Pada halaman 3, dari daftar organisasi pada penyewa, pilih organisasi yang akan diimpor data demo dan pilih **masuk**.</span><span class="sxs-lookup"><span data-stu-id="69041-122">On page 3, from the list of organizations on the tenant, select the organization you want to import the demo data into and select **Login**.</span></span>
-8. <span data-ttu-id="69041-123">Pada halaman 4, pilih file zip, *SampleSetupAndConfigData* dari folder yang telah dibongkar.</span><span class="sxs-lookup"><span data-stu-id="69041-123">On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder.</span></span>
+7. <span data-ttu-id="65836-122">Pada halaman 3, dari daftar organisasi pada penyewa, pilih organisasi yang akan diimpor data demo dan pilih **masuk**.</span><span class="sxs-lookup"><span data-stu-id="65836-122">On page 3, from the list of organizations on the tenant, select the organization you want to import the demo data into and select **Login**.</span></span>
+8. <span data-ttu-id="65836-123">Pada halaman 4, pilih file zip, *SampleSetupAndConfigData* dari folder yang telah dibongkar.</span><span class="sxs-lookup"><span data-stu-id="65836-123">On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder.</span></span>
 
 ![Pilihan file zip](./media/3ZipFile.png)
 
 ![Pilih file](./media/4SelectAFile.png)
 
-9. <span data-ttu-id="69041-126">Setelah file zip dipilih, pilih **impor data**.</span><span class="sxs-lookup"><span data-stu-id="69041-126">After the zip file is selected, select **Import Data**.</span></span>
+9. <span data-ttu-id="65836-126">Setelah file zip dipilih, pilih **impor data**.</span><span class="sxs-lookup"><span data-stu-id="65836-126">After the zip file is selected, select **Import Data**.</span></span>
 
 ![Impor Data](./media/5ImportData.png)
 
-10. <span data-ttu-id="69041-128">Impor akan berjalan selama sekitar dua-sepuluh menit tergantung pada kecepatan jaringan Anda.</span><span class="sxs-lookup"><span data-stu-id="69041-128">Import will run for approximately two-ten minutes depending on your network speed.</span></span> <span data-ttu-id="69041-129">Setelah impor selesai, keluar dari Wizard CMT.</span><span class="sxs-lookup"><span data-stu-id="69041-129">After import completes, exit the CMT Wizard.</span></span> 
-11. <span data-ttu-id="69041-130">Periksa organisasi Anda untuk data dalam 19 entitas berikut:</span><span class="sxs-lookup"><span data-stu-id="69041-130">Check your organization for data in the following 19 entities:</span></span>
+10. <span data-ttu-id="65836-128">Impor akan berjalan selama sekitar dua-sepuluh menit tergantung pada kecepatan jaringan Anda.</span><span class="sxs-lookup"><span data-stu-id="65836-128">Import will run for approximately two-ten minutes depending on your network speed.</span></span> <span data-ttu-id="65836-129">Setelah impor selesai, keluar dari Wizard CMT.</span><span class="sxs-lookup"><span data-stu-id="65836-129">After import completes, exit the CMT Wizard.</span></span> 
+11. <span data-ttu-id="65836-130">Periksa organisasi Anda untuk data dalam 19 entitas berikut:</span><span class="sxs-lookup"><span data-stu-id="65836-130">Check your organization for data in the following 19 entities:</span></span>
 
-  - <span data-ttu-id="69041-131">Mata uang</span><span class="sxs-lookup"><span data-stu-id="69041-131">Currency</span></span>
-  - <span data-ttu-id="69041-132">Unit Organisasi</span><span class="sxs-lookup"><span data-stu-id="69041-132">Organizational Unit</span></span>
-  - <span data-ttu-id="69041-133">Kontak</span><span class="sxs-lookup"><span data-stu-id="69041-133">Contact</span></span>
-  - <span data-ttu-id="69041-134">Grup pajak</span><span class="sxs-lookup"><span data-stu-id="69041-134">Tax Group</span></span>
-  - <span data-ttu-id="69041-135">Grup Pelanggan</span><span class="sxs-lookup"><span data-stu-id="69041-135">Customer Group</span></span>
-  - <span data-ttu-id="69041-136">Unit</span><span class="sxs-lookup"><span data-stu-id="69041-136">Unit</span></span>
-  - <span data-ttu-id="69041-137">Grup Unit</span><span class="sxs-lookup"><span data-stu-id="69041-137">Unit Group</span></span>
-  - <span data-ttu-id="69041-138">Daftar Harga</span><span class="sxs-lookup"><span data-stu-id="69041-138">Price List</span></span>
-  - <span data-ttu-id="69041-139">Daftar Harga Parameter Proyek</span><span class="sxs-lookup"><span data-stu-id="69041-139">Project Parameter Price List</span></span>
-  - <span data-ttu-id="69041-140">Frekuensi Faktur</span><span class="sxs-lookup"><span data-stu-id="69041-140">Invoice Frequency</span></span>
-  - <span data-ttu-id="69041-141">Kategori Sumber Daya yang Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="69041-141">Bookable Resource Category</span></span>
-  - <span data-ttu-id="69041-142">Kategori Transaksi</span><span class="sxs-lookup"><span data-stu-id="69041-142">Transaction Category</span></span>
-  - <span data-ttu-id="69041-143">Kategori Pengeluaran</span><span class="sxs-lookup"><span data-stu-id="69041-143">Expense Category</span></span>
-  - <span data-ttu-id="69041-144">Harga Peran</span><span class="sxs-lookup"><span data-stu-id="69041-144">Role Price</span></span>
-  - <span data-ttu-id="69041-145">Harga Kategori Transaksi</span><span class="sxs-lookup"><span data-stu-id="69041-145">Transaction Category Price</span></span>
-  - <span data-ttu-id="69041-146">Karakteristik</span><span class="sxs-lookup"><span data-stu-id="69041-146">Characteristic</span></span>
-  - <span data-ttu-id="69041-147">Sumber Daya Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="69041-147">Bookable Resource</span></span>
-  - <span data-ttu-id="69041-148">Keterkaitan Kategori Sumber Daya yang Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="69041-148">Bookable resource category Assn</span></span>
-  - <span data-ttu-id="69041-149">Karakteristik Sumber Daya yang Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="69041-149">Bookable Resource Characteristic</span></span>
+  - <span data-ttu-id="65836-131">Mata uang</span><span class="sxs-lookup"><span data-stu-id="65836-131">Currency</span></span>
+  - <span data-ttu-id="65836-132">Unit Organisasi</span><span class="sxs-lookup"><span data-stu-id="65836-132">Organizational Unit</span></span>
+  - <span data-ttu-id="65836-133">Kontak</span><span class="sxs-lookup"><span data-stu-id="65836-133">Contact</span></span>
+  - <span data-ttu-id="65836-134">Grup pajak</span><span class="sxs-lookup"><span data-stu-id="65836-134">Tax Group</span></span>
+  - <span data-ttu-id="65836-135">Grup Pelanggan</span><span class="sxs-lookup"><span data-stu-id="65836-135">Customer Group</span></span>
+  - <span data-ttu-id="65836-136">Unit</span><span class="sxs-lookup"><span data-stu-id="65836-136">Unit</span></span>
+  - <span data-ttu-id="65836-137">Grup Unit</span><span class="sxs-lookup"><span data-stu-id="65836-137">Unit Group</span></span>
+  - <span data-ttu-id="65836-138">Daftar Harga</span><span class="sxs-lookup"><span data-stu-id="65836-138">Price List</span></span>
+  - <span data-ttu-id="65836-139">Daftar Harga Parameter Proyek</span><span class="sxs-lookup"><span data-stu-id="65836-139">Project Parameter Price List</span></span>
+  - <span data-ttu-id="65836-140">Frekuensi Faktur</span><span class="sxs-lookup"><span data-stu-id="65836-140">Invoice Frequency</span></span>
+  - <span data-ttu-id="65836-141">Kategori Sumber Daya yang Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="65836-141">Bookable Resource Category</span></span>
+  - <span data-ttu-id="65836-142">Kategori Transaksi</span><span class="sxs-lookup"><span data-stu-id="65836-142">Transaction Category</span></span>
+  - <span data-ttu-id="65836-143">Kategori Pengeluaran</span><span class="sxs-lookup"><span data-stu-id="65836-143">Expense Category</span></span>
+  - <span data-ttu-id="65836-144">Harga Peran</span><span class="sxs-lookup"><span data-stu-id="65836-144">Role Price</span></span>
+  - <span data-ttu-id="65836-145">Harga Kategori Transaksi</span><span class="sxs-lookup"><span data-stu-id="65836-145">Transaction Category Price</span></span>
+  - <span data-ttu-id="65836-146">Karakteristik</span><span class="sxs-lookup"><span data-stu-id="65836-146">Characteristic</span></span>
+  - <span data-ttu-id="65836-147">Sumber Daya Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="65836-147">Bookable Resource</span></span>
+  - <span data-ttu-id="65836-148">Keterkaitan Kategori Sumber Daya yang Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="65836-148">Bookable resource category Assn</span></span>
+  - <span data-ttu-id="65836-149">Karakteristik Sumber Daya yang Dapat Dipesan</span><span class="sxs-lookup"><span data-stu-id="65836-149">Bookable Resource Characteristic</span></span>
 
 ![Impor Selesai](./media/6CompleteImport.png)
 
-## <a name="update-project-operations-configurations"></a><span data-ttu-id="69041-151">Memperbarui konfigurasi Project Operations</span><span class="sxs-lookup"><span data-stu-id="69041-151">Update Project Operations configurations</span></span>
+## <a name="update-project-operations-configurations"></a><span data-ttu-id="65836-151">Memperbarui konfigurasi Project Operations</span><span class="sxs-lookup"><span data-stu-id="65836-151">Update Project Operations configurations</span></span>
 
-1. <span data-ttu-id="69041-152">Telusuri ke lingkungan CE.</span><span class="sxs-lookup"><span data-stu-id="69041-152">Navigate to the CE environment.</span></span> <span data-ttu-id="69041-153">Anda dapat menemukannya dengan membuka [Pusat admin Power Platform](https://admin.powerplatform.microsoft.com/environments), memilih lingkungan, lalu memilih **buka lingkungan**.</span><span class="sxs-lookup"><span data-stu-id="69041-153">You can find it by opening the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments), selecting the environment, and then selecting **Open Environment**.</span></span> 
+1. <span data-ttu-id="65836-152">Telusuri ke lingkungan CE.</span><span class="sxs-lookup"><span data-stu-id="65836-152">Navigate to the CE environment.</span></span> <span data-ttu-id="65836-153">Anda dapat menemukannya dengan membuka [Pusat admin Power Platform](https://admin.powerplatform.microsoft.com/environments), memilih lingkungan, lalu memilih **buka lingkungan**.</span><span class="sxs-lookup"><span data-stu-id="65836-153">You can find it by opening the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments), selecting the environment, and then selecting **Open Environment**.</span></span> 
 
 ![Buka Lingkungan](./media/7OpenEnvironment.png)
 
-2. <span data-ttu-id="69041-155">Buka **proyek** > **sumber daya**, lalu pilih **baru** untuk membuat sumber daya yang dapat dipesan untuk pengguna Anda.</span><span class="sxs-lookup"><span data-stu-id="69041-155">Go to **Projects** > **Resources** and then select **New** to create a bookable resource for your user.</span></span>
+2. <span data-ttu-id="65836-155">Buka **proyek** > **sumber daya**, lalu pilih **baru** untuk membuat sumber daya yang dapat dipesan untuk pengguna Anda.</span><span class="sxs-lookup"><span data-stu-id="65836-155">Go to **Projects** > **Resources** and then select **New** to create a bookable resource for your user.</span></span>
 
 ![Sumber Daya yang Dapat Dipesan](./media/8BookableResources.png)
 
-3. <span data-ttu-id="69041-157">Pada tab **Umum**, pilih pengguna admin.</span><span class="sxs-lookup"><span data-stu-id="69041-157">On the **General** tab, select your admin user.</span></span> <span data-ttu-id="69041-158">Verifikasikan bahwa zona waktu sesuai dengan yang Anda miliki.</span><span class="sxs-lookup"><span data-stu-id="69041-158">Verify that the time zone matches the one you are in.</span></span> 
+3. <span data-ttu-id="65836-157">Pada tab **Umum**, pilih pengguna admin.</span><span class="sxs-lookup"><span data-stu-id="65836-157">On the **General** tab, select your admin user.</span></span> <span data-ttu-id="65836-158">Verifikasikan bahwa zona waktu sesuai dengan yang Anda miliki.</span><span class="sxs-lookup"><span data-stu-id="65836-158">Verify that the time zone matches the one you are in.</span></span> 
 
 ![Sumber Daya Dapat Dipesan Baru](./media/9NewBookableResource.png)
 
-4. <span data-ttu-id="69041-160">Pada tab **penjadwalan**, di bidang **perusahaan**, pilih perusahaan **USPM**, lalu pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="69041-160">On the **Scheduling** tab, in the **Company** field, pick the **USPM** company, and then select **Save**.</span></span> 
+4. <span data-ttu-id="65836-160">Pada tab **penjadwalan**, di bidang **perusahaan**, pilih perusahaan **USPM**, lalu pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="65836-160">On the **Scheduling** tab, in the **Company** field, pick the **USPM** company, and then select **Save**.</span></span> 
 
 ![Tab Penjadwalan](./media/10SchedulingTab.png)
 
-5. <span data-ttu-id="69041-162">Pilih tab **Jam kerja**.</span><span class="sxs-lookup"><span data-stu-id="69041-162">Select the **Work hours** tab.</span></span>  
+5. <span data-ttu-id="65836-162">Pilih tab **Jam kerja**.</span><span class="sxs-lookup"><span data-stu-id="65836-162">Select the **Work hours** tab.</span></span>  
 
 ![Waktu Kerja](./media/11WorkHours.png)
 
-6. <span data-ttu-id="69041-164">Klik dua kali pada nilai yang ada di kalender dan pilih **Edit** > **semua aktivitas dalam rangkaian**.</span><span class="sxs-lookup"><span data-stu-id="69041-164">Double-click on any value in the calendar and select **Edit** > **All events in the series**.</span></span> 
+6. <span data-ttu-id="65836-164">Klik dua kali pada nilai yang ada di kalender dan pilih **Edit** > **semua aktivitas dalam rangkaian**.</span><span class="sxs-lookup"><span data-stu-id="65836-164">Double-click on any value in the calendar and select **Edit** > **All events in the series**.</span></span> 
 
 ![Kalender Kerja](./media/12WorkCalendar.png)
 
-7. <span data-ttu-id="69041-166">Ubah jam kerja menjadi hari kerja selama delapan (8) jam, tandai akhir pekan sebagai hari non-kerja, dan pastikan zona waktu cocok dengan Anda.</span><span class="sxs-lookup"><span data-stu-id="69041-166">Change work hours to an eight (8) hour work day, mark weekends as non-work days, and make sure time zone matches yours.</span></span> 
-8. <span data-ttu-id="69041-167">Pilih **Simpan dan Tutup**.</span><span class="sxs-lookup"><span data-stu-id="69041-167">Select **Save and close**.</span></span>
+7. <span data-ttu-id="65836-166">Ubah jam kerja menjadi hari kerja selama delapan (8) jam, tandai akhir pekan sebagai hari non-kerja, dan pastikan zona waktu cocok dengan Anda.</span><span class="sxs-lookup"><span data-stu-id="65836-166">Change work hours to an eight (8) hour work day, mark weekends as non-work days, and make sure time zone matches yours.</span></span> 
+8. <span data-ttu-id="65836-167">Pilih **Simpan dan Tutup**.</span><span class="sxs-lookup"><span data-stu-id="65836-167">Select **Save and close**.</span></span>
 
 ![Perbarui Kalender](./media/13UpdateCalendar.png)
 
-9. <span data-ttu-id="69041-169">Buka **pengaturan** > **template kalender** dan pilih **baru**.</span><span class="sxs-lookup"><span data-stu-id="69041-169">Go to **Settings** > **Calendar templates** and select **New**.</span></span>
+9. <span data-ttu-id="65836-169">Buka **pengaturan** > **template kalender** dan pilih **baru**.</span><span class="sxs-lookup"><span data-stu-id="65836-169">Go to **Settings** > **Calendar templates** and select **New**.</span></span>
  
  ![Template Kalender](./media/14CalendarTemplates.png)
  
- 10. <span data-ttu-id="69041-171">Masukkan nama, pilih sumber daya template yang Anda buat, lalu pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="69041-171">Enter a name, select the template resource you created, and then select **Save**.</span></span> 
+ 10. <span data-ttu-id="65836-171">Masukkan nama, pilih sumber daya template yang Anda buat, lalu pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="65836-171">Enter a name, select the template resource you created, and then select **Save**.</span></span> 
  
  ![Simpan Template kalender](./media/15SaveCalendarTemplate.png)
  
- 11. <span data-ttu-id="69041-173">Buka **parameter** dan klik dua kali rekaman.</span><span class="sxs-lookup"><span data-stu-id="69041-173">Go to **Parameters** and double-click the record.</span></span> 
+ 11. <span data-ttu-id="65836-173">Buka **parameter** dan klik dua kali rekaman.</span><span class="sxs-lookup"><span data-stu-id="65836-173">Go to **Parameters** and double-click the record.</span></span> 
  
  ![Parameter Proyek](./media/16ProjectParameters.png)
  
-12. <span data-ttu-id="69041-175">Perbarui bidang berikut:</span><span class="sxs-lookup"><span data-stu-id="69041-175">Update the following fields:</span></span>
+12. <span data-ttu-id="65836-175">Perbarui bidang berikut:</span><span class="sxs-lookup"><span data-stu-id="65836-175">Update the following fields:</span></span>
 
- - <span data-ttu-id="69041-176">**Perusahaan Default**: USPM</span><span class="sxs-lookup"><span data-stu-id="69041-176">**Default company**: USPM</span></span>
- - <span data-ttu-id="69041-177">**Unit organisasi default**:Aswono Robotics global</span><span class="sxs-lookup"><span data-stu-id="69041-177">**Default Organizational Unit**: Contoso Robotics Global</span></span>
- - <span data-ttu-id="69041-178">**Frekuensi faktur**: hari ketujuh dan terakhir</span><span class="sxs-lookup"><span data-stu-id="69041-178">**Invoice Frequency**: Seventh and Last day</span></span>
- - <span data-ttu-id="69041-179">**Template jam kerja**: Ubah ke template yang Anda buat.</span><span class="sxs-lookup"><span data-stu-id="69041-179">**Work hour template**: Change to the template you created.</span></span>
+ - <span data-ttu-id="65836-176">**Perusahaan Default**: USPM</span><span class="sxs-lookup"><span data-stu-id="65836-176">**Default company**: USPM</span></span>
+ - <span data-ttu-id="65836-177">**Unit organisasi default**:Aswono Robotics global</span><span class="sxs-lookup"><span data-stu-id="65836-177">**Default Organizational Unit**: Contoso Robotics Global</span></span>
+ - <span data-ttu-id="65836-178">**Frekuensi faktur**: hari ketujuh dan terakhir</span><span class="sxs-lookup"><span data-stu-id="65836-178">**Invoice Frequency**: Seventh and Last day</span></span>
+ - <span data-ttu-id="65836-179">**Template jam kerja**: Ubah ke template yang Anda buat.</span><span class="sxs-lookup"><span data-stu-id="65836-179">**Work hour template**: Change to the template you created.</span></span>
 
-13. <span data-ttu-id="69041-180">Pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="69041-180">Select **Save**.</span></span> 
+13. <span data-ttu-id="65836-180">Pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="65836-180">Select **Save**.</span></span> 
 
 ![Pembaruan Parameter Proyek](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

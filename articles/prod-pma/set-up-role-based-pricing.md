@@ -18,19 +18,22 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b36f671fb8d6c77446d66c41fc45837e1ee8e25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c86043a79d119c00a64ba5336df5b5ad69006b11
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078653"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288698"
 ---
-# <a name="set-up-role-based-pricing"></a><span data-ttu-id="1fcab-103">Mengkonfigurasi harga berdasarkan peran</span><span class="sxs-lookup"><span data-stu-id="1fcab-103">Set up role-based pricing</span></span>
+# <a name="set-up-role-based-pricing"></a><span data-ttu-id="3e4a3-103">Mengkonfigurasi harga berdasarkan peran</span><span class="sxs-lookup"><span data-stu-id="3e4a3-103">Set up role-based pricing</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1fcab-104">Semua harga biaya, penjualan, dan transfer dapat diatur untuk peran.</span><span class="sxs-lookup"><span data-stu-id="1fcab-104">All cost, sales, and transfer prices can be set up for roles.</span></span> <span data-ttu-id="1fcab-105">Selesaikan langkah-langkah berikut untuk mengaitkan harga ke peran tertentu.</span><span class="sxs-lookup"><span data-stu-id="1fcab-105">Complete the following steps to associate pricing to a specific role.</span></span>
+<span data-ttu-id="3e4a3-104">Semua harga biaya, penjualan, dan transfer dapat diatur untuk peran.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-104">All cost, sales, and transfer prices can be set up for roles.</span></span> <span data-ttu-id="3e4a3-105">Selesaikan langkah-langkah berikut untuk mengaitkan harga ke peran tertentu.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-105">Complete the following steps to associate pricing to a specific role.</span></span>
 
-1. <span data-ttu-id="1fcab-106">Pada halaman **harga penjualan (jam)** , pilih **baru** , lalu masukkan tanggal berlaku.</span><span class="sxs-lookup"><span data-stu-id="1fcab-106">On the **Sales price (hour)** page, select **New** , and enter an effective date.</span></span>
-2. <span data-ttu-id="1fcab-107">Di kolom **peran** , pilih peran.</span><span class="sxs-lookup"><span data-stu-id="1fcab-107">In the **Role** column, select a role.</span></span>
-3. <span data-ttu-id="1fcab-108">Di kolom **harga** , masukkan harga untuk peran sumber daya yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="1fcab-108">In the **Pricing** column, enter a price for the selected resource role.</span></span>
+1. <span data-ttu-id="3e4a3-106">Pada halaman **harga penjualan (jam)**, pilih **baru**, lalu masukkan tanggal berlaku.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-106">On the **Sales price (hour)** page, select **New**, and enter an effective date.</span></span>
+2. <span data-ttu-id="3e4a3-107">Di kolom **peran**, pilih peran.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-107">In the **Role** column, select a role.</span></span>
+3. <span data-ttu-id="3e4a3-108">Di kolom **harga**, masukkan harga untuk peran sumber daya yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-108">In the **Pricing** column, enter a price for the selected resource role.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
