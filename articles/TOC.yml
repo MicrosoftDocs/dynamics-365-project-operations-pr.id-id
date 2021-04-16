@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Apa yang baru
       items:
+        - name: April 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februari 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -64,7 +66,7 @@
           items:
             - name: Sekilas tentang mengelola peluang proyek
               href: sales/manage-project-based-opportunities.md
-            - name: Pengaturan peluang berbasis proyek
+            - name: Rincian header untuk peluang berbasis proyek
               href: sales/opportunity-header.md
             - name: Baris peluang berbasis proyek
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Sekilas tentang mengelola kuotasi proyek
               href: pro/sales/manage-quotes-sales.md
-            - name: Konsep kuotasi proyek
+            - name: Konsep unik untuk kuotasi berbasis proyek
               href: sales/quotes-key-concepts.md
-            - name: Pengaturan kuotasi proyek
+            - name: Rincian header untuk kuotasi berbasis proyek
               href: sales/quote-values-budget-limits-contract.md
             - name: Mengelola beberapa pelanggan pada kuotasi proyek
               href: sales/manage-multiple-customers-quote.md
             - name: Mengelola daftar harga proyek pada kuotasi
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Baris kuotasi berbasis proyek
               items:
                 - name: Sekilas baris kuotasi berbasis proyek
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Memetakan proyek dan tugas ke baris-baris kuotasi berbasis proyek
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Mengonfigurasikan komponen yang dikenakan biaya untuk baris kuotasi berbasis proyek
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Mengonfigurasikan komponen yang dikenakan biaya pada baris kuotasi proyek
                   href: sales/configure-chargeable-quoteline.md
-                - name: Membuat estimasi pada baris kuotasi
+                - name: Mengestimasi baris kuotasi proyek
                   href: sales/create-estimate-quote-line.md
                 - name: Mengimpor estimasi dari proyek pada baris kuotasi berbasis proyek
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Sekilas tentang mengelola kontrak proyek
               href: pro/sales/manage-contracts-sales.md
-            - name: Konsep kontrak proyek
+            - name: Konsep unik untuk kontrak berbasis proyek
               href: sales/contracts-key-concepts.md
-            - name: Pengaturan kontrak proyek
+            - name: Rincian header untuk kontrak berbasis proyek
               href: sales/project-contract-settings.md
             - name: Mengelola daftar harga proyek pada kontrak proyek
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Baris kontrak berbasis proyek
               items:
                 - name: Sekilas baris kontrak berbasis proyek
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Mengelola beberapa pelanggan pada baris kontrak berbasis proyek
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Mengestimasi baris kontrak berbasis proyek
+                - name: Memetakan proyek dan tugas pada baris kontrak proyek
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Mengonfigurasikan komponen yang dikenakan biaya untuk baris kontrak proyek
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Mengestimasi baris kontrak proyek
                   href: sales/create-estimate-contract-line.md
                 - name: Mengimpor estimasi dari proyek pada baris kontrak berbasis proyek
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Mengonfirmasikan kontrak proyek
               href: pro/sales/confirm-contract-sales.md
-            - name: Menyalin kontrak proyek
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Panjar dan uang muka
               items:
                 - name: Kontrak berbasis uang muka dan panjar
@@ -146,16 +152,16 @@
       items:
         - name: Mengatur daftar harga
           items:
-            - name: Mengonfigurasikan daftar harga
+            - name: Definisi daftar harga
               href: pricing-costing/price-list-setup.md
-            - name: Daftar harga produk
-              href: pricing-costing/product-price-list.md
             - name: Mengonfigurasikan tarif tagihan tenaga kerja
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Mengonfigurasikan tarif biaya tenaga kerja
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Mengonfigurasikan biaya dan tarif penjualan untuk pengeluaran
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Mengonfigurasikan biaya dan tarif penjualan untuk bahan
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Default dan penimpaan
           items:
             - name: Daftar harga default
@@ -164,10 +170,12 @@
               href: pricing-costing/override-project-sales-price-list-default.md
             - name: Menyelesaikan harga biaya untuk estimasi dan aktual
               href: pricing-costing/cost-price-resolution.md
-            - name: Menyelesaikan harga penjualan untuk estimasi dan aktual
+            - name: Menangani harga penjualan untuk estimasi dan aktual
               href: pricing-costing/sales-price-resolution.md
             - name: Menyalin daftar harga
               href: pricing-costing/copy-price-lists.md
+            - name: Menonaktifkan daftar harga
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensi harga
           items:
             - name: Ikhtisar dimensi harga
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Membuat penugasan
               href: project-management/create-assignments.md
-        - name: Estimasi proyek
+        - name: Estimasi keuangan untuk proyek
           items:
-            - name: Ikhtisar estimasi proyek
+            - name: Konsep estimasi keuangan
               href: project-management/estimating-projects-overview.md
-            - name: Estimasi sumber daya
+            - name: Estimasi keuangan untuk waktu sumber daya pada proyek
               href: project-management/resource-estimates.md
-            - name: Membuat estimasi pengeluaran
+            - name: Estimasi keuangan untuk pengeluaran pada proyek
               href: project-management/create-expense-estimates.md
+            - name: Estimasi keuangan untuk bahan pada proyek
+              href: project-management/create-material-estimate.md
         - name: Pelacakan proyek
           items:
-            - name: Sekilas pelacakan proyek
+            - name: Pelacakan upaya proyek
               href: project-management/project-tracking-overview.md
+            - name: Pelacakan biaya tenaga kerja pada proyek
+              href: project-management/project-cost-tracking.md
+            - name: Pelacakan pendapatan tenaga kerja pada proyek
+              href: project-management/project-sales-tracking.md
             - name: Memperbarui perkiraan saat penyelesaian
               href: project-management/update-completed-estimate.md
         - name: Anggota tim proyek
@@ -248,6 +262,8 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
+            - name: Menggunakan API Jadwal (Pratinjau Umum)
+              href: project-management/schedule-api-preview.md
     - name: Manajemen sumber daya
       items:
         - name: Konsep kunci
@@ -366,6 +382,10 @@
           items:
             - name: Pemulihan PPN
               href: expense/vat-recovery.md
+    - name: Penggunaan Bahan
+      items:
+        - name: Merekam penggunaan bahan pada proyek dan tugas proyek
+          href: material/material-usage-log.md
     - name: Persetujuan
       items:
         - name: Sekilas persetujuan
@@ -378,6 +398,8 @@
       items:
         - name: Sekilas aktual
           href: actuals/actuals-overview.md
+        - name: Menautkan aktual ke rekaman asli
+          href: actuals/linkingactuals.md
         - name: Jurnal koreksi
           items:
             - name: Membuat dan mengonfirmasi jurnal Koreksi
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Faktur proforma
           items:
-            - name: Mengelola akumulasi penagihan proyek
+            - name: Mengelola akumulasi penagihan berbasis proyek
               href: proforma-invoicing/manage-billing-backlog.md
             - name: Mengelola status dan validasi yang tidak boleh dilewati
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Membuat faktur proyek proforma secara manual
+            - name: Faktur berbasis proyek proforma
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Mengelola faktur proyek proforma
+            - name: Mengelola faktur berbasis proyek proforma
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Menagih uang muka atau panjar
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Mengonfirmasikan faktur proyek proforma
+            - name: Mengonfirmasikan faktur berbasis proyek proforma
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Mengonfigurasikan otomatisasi faktur proyek
+            - name: Membuat koreksi faktur berbasis proyek
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Mengonfigurasikan otomatisasi faktur berbasis proyek
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Akuntansi proyek
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
+        - name: Apa yang baru di bulan April 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Apa yang baru di bulan Maret 2021 - penyebaran lite
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Apa yang baru di bulan Februari 2021 - penyebaran lite
@@ -486,7 +512,7 @@
           items:
             - name: Sekilas tentang peluang proyek
               href: sales/manage-project-based-opportunities.md
-            - name: Pengaturan peluang proyek
+            - name: Rincian header untuk peluang proyek
               href: pro/sales/opportunity-header-sales.md
             - name: Mengelola baris peluang berbasis produk
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Sekilas kuotasi berbasis proyek
               href: pro/sales/manage-quotes-sales.md
-            - name: Konsep kuotasi proyek
+            - name: Konsep unik untuk kuotasi proyek
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Pengaturan kuotasi proyek
+            - name: Rincian header untuk kuotasi proyek
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Beberapa pelanggan pada kuotasi proyek
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Sekilas kontrak berbasis proyek
               href: pro/sales/manage-contracts-sales.md
-            - name: Konsep kontrak proyek
+            - name: Konsep unik untuk kontrak proyek
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Pengaturan kontrak proyek
+            - name: Rincian header untuk kontrak proyek
               href: pro/sales/project-contract-settings-sales.md
             - name: Beberapa pelanggan pada kontrak proyek
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Mengatur daftar harga
           items:
-            - name: Mengonfigurasikan daftar harga
+            - name: Definisi daftar harga
               href: pricing-costing/price-list-setup.md
-            - name: Mengatur daftar harga penjualan
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Mengonfigurasikan tarif tagihan tenaga kerja - lite
+            - name: Mengatur daftar harga produk
+              href: pricing-costing/product-price-list.md
+            - name: Mengatur tarif tagihan untuk tenaga kerja
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Mengonfigurasikan tarif biaya tenaga kerja - lite
+            - name: Mengatur tarif biaya untuk tenaga kerja
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Mengonfigurasikan biaya dan tarif penjualan untuk produk katalog - lite
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Mengonfigurasikan biaya dan tarif penjualan untuk pengeluaran
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Mengonfigurasikan biaya dan tarif penjualan untuk bahan
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Default dan penimpaan
           items:
             - name: Daftar harga default
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Menimpa daftar harga penjualan proyek
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Menyelesaikan harga biaya pada estimasi dan aktual - lite
+            - name: Menangani harga biaya pada aktual dan estimasi proyek
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Menyelesaikan harga penjualan untuk estimasi dan aktual - lite
+            - name: Menangani harga penjualan untuk aktual dan estimasi proyek
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Menyalin daftar harga
               href: pricing-costing/copy-price-lists.md
+            - name: Menonaktifkan daftar harga proyek
+              href: pricing-costing/deactivatepricelists.md
         - name: Dimensi harga
           items:
             - name: Ikhtisar dimensi harga
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Membuat penugasan
               href: project-management/create-assignments.md
-        - name: Estimasi proyek
+        - name: Estimasi keuangan untuk proyek
           items:
-            - name: Ikhtisar estimasi proyek
+            - name: Konsep estimasi keuangan
               href: project-management/estimating-projects-overview.md
-            - name: Estimasi sumber daya
+            - name: Estimasi keuangan untuk waktu sumber daya pada proyek
               href: project-management/resource-estimates.md
-            - name: Membuat estimasi pengeluaran
+            - name: Estimasi keuangan untuk pengeluaran pada proyek
               href: project-management/create-expense-estimates.md
+            - name: Estimasi keuangan untuk bahan pada proyek
+              href: project-management/create-material-estimate.md
         - name: Pelacakan proyek
           items:
-            - name: Sekilas pelacakan proyek
+            - name: Pelacakan upaya proyek
               href: project-management/project-tracking-overview.md
+            - name: Pelacakan biaya tenaga kerja pada proyek
+              href: project-management/project-cost-tracking.md
+            - name: Pelacakan pendapatan tenaga kerja pada proyek
+              href: project-management/project-sales-tracking.md
             - name: Memperbarui perkiraan saat penyelesaian
               href: project-management/update-completed-estimate.md
         - name: Anggota tim proyek
@@ -694,6 +728,8 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
+            - name: Menggunakan API Jadwal (Pratinjau Umum)
+              href: project-management/schedule-api-preview.md
     - name: Manajemen sumber daya
       items:
         - name: Konsep kunci
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Entri pengeluaran (sederhana)
           href: expense/basic-expense.md
+    - name: Penggunaan Bahan
+      items:
+        - name: Merekam penggunaan bahan pada proyek dan tugas proyek
+          href: material/material-usage-log.md
     - name: Persetujuan
       items:
         - name: Sekilas persetujuan
@@ -780,6 +820,8 @@
       items:
         - name: Sekilas aktual
           href: actuals/actuals-overview.md
+        - name: Menautkan aktual ke rekaman asli
+          href: actuals/linkingactuals.md
         - name: Jurnal koreksi
           items:
             - name: Membuat dan mengonfirmasi jurnal Koreksi
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: Mengelola status dan validasi yang tidak boleh dilewati
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Membuat faktur proyek proforma secara manual
+        - name: Faktur proyek proforma
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Mengelola faktur proyek proforma
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Apa yang baru
       items:
+        - name: Yang baru di bulan Maret 2021 - Project Operations untuk skenario berbasis stok/produksi
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Yang baru di bulan Januari 2021 - Project Operations untuk skenario berbasis stok/produksi
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Yang baru di bulan Desember 2020 - Project Operations untuk skenario berbasis stok/produksi
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Faktur proyek
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Kinerja proposal faktur proyek
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Kontrak proyek
       href: prod-pma/project-contracts.md
     - name: Membuat kontrak lanjutan untuk penagihan berdasarkan progres
@@ -952,6 +998,10 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 29.5 Hotfix, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 28.6 Hotfix, V3'
