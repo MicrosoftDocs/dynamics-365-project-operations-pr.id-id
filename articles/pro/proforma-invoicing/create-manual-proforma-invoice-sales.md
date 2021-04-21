@@ -1,40 +1,104 @@
 ---
-title: Membuat faktur proforma manual - lite
-description: Topik ini memberikan informasi tentang membuat faktur proforma manual di Project Operations.
+title: Faktur proyek proforma
+description: Laporan topik memberikan informasi tentang faktur proyek di Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 104c2f3f7f0ca0682158d0f7fa0f50a4967e6dd0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d08e2b0422a991aa4c98ae5d1e0f60aa0eb9daa6
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274192"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867180"
 ---
-# <a name="create-a-manual-proforma-invoice---lite"></a>Membuat faktur proforma manual - lite
+# <a name="proforma-project-pnvoices"></a>Faktur proyek proforma
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Di Dynamics 365 Project Operations, faktur proforma dapat dibuat secara manual jika diperlukan. Anda dapat secara manual membuat faktur proforma dari halaman daftar **kontrak proyek** atau dari halaman rincian **kontrak proyek**.
+Faktur proyek proforma memberikan tingkat persetujuan kepada manajer proyek kedua sebelum membuat faktur untuk pelanggan. Tingkat persetujuan pertama diselesaikan saat entri waktu, pengeluaran, dan bahan yang diajukan anggota tim proyek disetujui.
 
-##  <a name="project-contracts-list-page"></a>Daftar Harga Kontrak Proyek
+Penyebaran Dynamics 365 Project Operations Lite tidak dirancang untuk menghasilkan faktur sisi pelanggan. Daftar berikut ini menunjukkan mengapa faktur tidak dapat dibuat:
 
-Dari halaman daftar **kontrak proyek**, pilih satu atau beberapa kontrak proyek, dan buat faktur untuk semua rekaman yang dipilih.
+- Tidak berisi informasi pajak.
+- Tidak dapat mengkonversi mata uang lain ke mata uang faktur.
+- Tidak dapat memformat faktur untuk dicetak dengan benar.
 
-Sistem akan memeriksa untuk melihat yang mana dari kontrak proyek yang dipilih memiliki backlog **siap untuk faktur** dengan tanggal sebelum tanggal hari ini. Dari kontrak tersebut, sistem membuat faktur proforma draft. Jika kontrak proyek memiliki beberapa pelanggan, mungkin ada satu faktur dibuat per pelanggan, dan beberapa faktur per kontrak proyek.
+Namun, Anda dapat menggunakan sistem keuangan atau akuntansi untuk membuat faktur sisi Pelanggan yang menggunakan informasi dalam proposal faktur yang dihasilkan.
 
-Semua faktur proyek yang dibuat tersedia pada halaman **faktur** di Bagian **tagihan** area **penjualan**.
+## <a name="creating-project-invoices"></a>Membuat Faktur Proyek
 
-## <a name="project-contract-details-page"></a>Halaman Detail Kontrak Proyek
+Faktur proyek dapat dibuat satu per satu atau dalam jumlah besar. Anda dapat membuatnya secara manual, atau dapat dikonfigurasi sehingga dibuat dalam jalur otomatis.
 
-Faktur proforma juga dapat dibuat dari halaman rincian **Kontrak Proyek**. Sistem akan memverifikasi apakah kontrak proyek memiliki backlog **siap untuk faktur** dengan tanggal sebelum tanggal hari ini. Dari kontrak ini, sistem membuat rancangan faktur proforma berdasarkan jumlah pelanggan pada setiap baris kontrak.
+### <a name="manually-create-project-invoices"></a>Buat Faktur Proyek secara manual 
 
-Bila ada faktur proforma tunggal yang dibuat, halaman **faktur** akan terbuka. Jika beberapa faktur dibuat untuk kontrak proyek tersebut, halaman daftar **Faktur** akan terbuka untuk menampilkan semua faktur yang dibuat.
+Di halaman daftar **kontrak proyek**, Anda dapat membuat faktur proyek secara terpisah untuk setiap kontrak proyek, atau Anda dapat membuat faktur secara massal untuk beberapa kontrak proyek.
+
+   - Untuk membuat faktur untuk kontrak proyek spesifik, di halaman daftar **kontrak proyek**, buka kontrak proyek, lalu pilih **buat faktur**.
+
+   Faktur dibuat untuk semua transaksi untuk kontrak proyek yang dipilih yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, bahan, tonggak prestasi, baris kontrak berbasis produk, dan baris jurnal penjualan belum tertagih lainnya yang mungkin telah dikonfirmasi.
+
+Untuk membuat faktur secara massal:
+
+1. Pada halaman daftar **kontrak proyek**, pilih satu atau beberapa kontrak proyek untuk membuat fakturnya, lalu pilih **buat faktur proyek**.
+2. Pesan peringatan akan menginformasikan bahwa mungkin ada penundaan sebelum faktur dibuat. Proses ini juga ditampilkan. Pilih **OK** untuk menutup kotak pesan.
+
+   Faktur dibuat untuk semua transaksi di baris kontrak yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, bahan, tonggak prestasi, baris kontrak berbasis produk, dan baris jurnal penjualan belum tertagih lainnya yang mungkin telah dikonfirmasi.
+
+3. Lihat faktur yang dihasilkan, dengan membuka **Sales** \> **Penagihan** \> **Faktur**. Anda akan melihat satu faktur untuk setiap kontrak proyek.
+
+### <a name="set-up-automated-creation-of-project-invoices"></a>Mengkonfigurasi pembuatan faktur proyek secara otomatis 
+
+Ikuti langkah berikut untuk mengkonfigurasi faktur otomatis yang berjalan.
+
+1. Buka **Pengaturan** \> **Pekerjaan bets**.
+2. Membuat batch pekerjaan, dan namai **Project operations buat faktur**. Nama pekerjaan batch harus mencakup istilah "Create Invoices".
+3. Di bidang **jenis pekerjaan**, pilih **tidak ada**. Secara default, **frekuensi harian** dan opsi **aktif** diatur ke **ya**.
+4. Pilih **Jalankan alur kerja**. Di kotak dialog **mencari rekaman**, Anda akan melihat alur kerja berikut ini:
+
+    - ProcessRunCaller
+    - ProcessRunner
+    - UpdateRoleUtilization
+
+5. Pilih **ProcessRunCaller** dan kemudian pilih **Tambahkan**.
+6. Pilih **OK** di kotak dialog berikutnya. Alur kerja **tidur** diikuti dengan alur kerja **proses**.
+
+    Anda juga dapat memilih **ProcessRunner** di langkah 5. Kemudian, bila Anda memilih **OK**, alur kerja **proses** diikuti dengan alur kerja **tidur**.
+
+Alur kerja **ProcessRunCaller** dan **ProcessRunner** membuat faktur. **ProcessRunCaller** memanggil **ProcessRunner**. **ProcessRunner** adalah alur kerja yang membuat faktur. Alur kerja ini melalui semua baris kontrak pembuatan faktur, dan membuat fakturnya. Untuk menentukan baris kontrak yang harus dibuat faktur, alur kerja akan melihat tanggal faktur berjalan untuk baris kontrak. Jika baris kontrak milik satu kontrak memiliki tanggal yang sama saat menjalankan faktur, transaksi digabungkan menjadi satu faktur yang memiliki dua baris faktur. Jika tidak ada transaksi untuk membuat faktur, tidak ada faktur yang dibuat.
+
+Setelah **ProcessRunner** selesai berjalan, maka ia memanggil **ProcessRunCaller**, menyediakan waktu berakhir, dan ditutup. **ProcessRunCaller** kemudian memulai timer yang berjalan selama 24 jam dari waktu berakhir yang ditentukan. Di akhir timer, **ProcessRunCaller** ditutup.
+
+Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika proses batch ini dijalankan berkali-kali, beberapa instans pekerjaan dibuat dan dapat menyebabkan kesalahan. Untuk mengatasi masalah ini, mulai proses batch hanya satu kali, dan cukup restart jika berhenti berjalan.
+
+> [!NOTE]
+> Faktur bets hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Hal yang sama berlaku untuk baris kontrak berbasis proyek.      
+ 
+### <a name="edit-a-draft-invoice"></a>Mengedit faktur draft
+
+Bila Anda membuat faktur draf proyek, Semua transaksi penjualan yang tidak ditagih yang dibuat saat entri waktu dan pengeluaran disetujui akan ditarik ke faktur. Anda dapat melakukan penyesuaian berikut saat faktur masih dalam tahap draf:
+
+- Hapus atau edit rincian baris faktur.
+- Edit dan sesuaikan jenis kuantitas dan penagihan.
+- Tambahkan waktu, pengeluaran, bahan, dan biaya secara langsung sebagai transaksi pada faktur. Anda dapat menggunakan fitur ini jika baris faktur dipetakan ke baris kontrak yang memungkinkan untuk kelas transaksi ini.
+
+Pilih **konfirmasikan** untuk mengonfirmasi faktur. Tindakan ini adalah tindakan satu arah. Bila Anda memilih **konfirmasikan**, faktur menjadi hanya baca dan membuat aktual penjualan yang ditagih dari setiap detail baris faktur untuk setiap baris faktur. Jika detail baris faktur merujuk penjualan yang belum ditagih, aktual penjualan belum tertagih dibalik. Setiap detail baris faktur yang dibuat dari entri penggunaan waktu, pengeluaran, atau bahan akan mereferensikan aktual penjualan belum tertagih. Sistem integrasi buku besar dapat menggunakan pembalikan ini untuk membalikkan pekerjaan dalam proses proyek (WIP) untuk keperluan akuntansi.
+
+### <a name="correct-a-confirmed-invoice"></a>Koreksi faktur dikonfirmasi
+
+Faktur yang Dikonfirmasi dapat diedit. Setelah Anda memperbaiki faktur yang telah dikonfirmasi, faktur draf perbaikan baru akan dibuat. Karena asumsi adalah bahwa Anda ingin membalikkan semua transaksi dan kuantitas dari faktur asli, faktur perbaikan ini mencakup semua transaksi dari faktur asli, dan semua kuantitas di atasnya adalah nol.
+
+Jika ada transaksi yang tidak memerlukan koreksi, Anda dapat menghapusnya dari draf faktur perbaikan. Jika Anda ingin membalikkan atau mengembalikan hanya kuantitas parsial, Anda dapat mengedit bidang **kuantitas** pada detail baris. Jika Anda membuka detail baris faktur, Anda dapat melihat jumlah faktur asli. Selanjutnya, Anda dapat mengedit kuantitas faktur saat ini sehingga lebih kecil atau lebih besar dari kuantitas faktur asli.
+
+Setelah Anda mengonfirmasikan faktur koreksi, aktual penjualan yang belum ditagih asli dibalik, dan aktual penjualan baru yang ditagih dibuat. Jika kuantitas dikurangi, perbedaannya akan menyebabkan penjualan baru yang belum ditagih dibuat. Misalnya, jika penjualan tagihan asli selama delapan jam, dan detail baris faktur perbaikan memiliki kuantitas kurang dari enam jam, baris penjualan asli yang ditagih dibalikkan dan dua aktual baru dibuat:
+
+- Penjualan yang ditagih untuk enam jam.
+- Tagihan penjualan yang belum ditagih untuk dua jam yang tersisa. Transaksi ini dapat ditagih nanti atau ditandai sebagai tidak dikenakan biaya, tergantung pada negosiasi dengan pelanggan.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

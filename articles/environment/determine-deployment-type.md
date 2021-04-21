@@ -3,17 +3,17 @@ title: Menentukan jenis penyebaran Anda
 description: Topik ini memberikan informasi untuk membantu Anda menentukan jenis penyebaran Project operations yang benar untuk perusahaan Anda.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479568"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663598"
 ---
 # <a name="determine-your-deployment-type"></a>Menentukan jenis penyebaran Anda
 
@@ -44,7 +44,7 @@ Project Operations mendukung beberapa pilihan penyebaran agar sesuai dengan kebu
 - [Project Operations untuk skenario sumber daya/tanpa stok](#integrated)
 - [Project Operations untuk skenario pesanan dengan stok/produksi](#pma)
 
-Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario non-stok/berbasis sumber daya pada lingkungan yang sama melalui konfigurasi tingkat entitas hukum. Misalnya, Aswono dapat menggunakan kemampuan pesanan produksi/penuh di fasilitas produksi AS (entitas hukum = Aswono Manufacturing Indonesia). Aswono dapat menggunakan kemampuan berbasis sumber daya/non-stok di fasilitas layanan Aswono Lengan Robotika di Inggris (entitas hukum = Aswono Robotics United Kingdom).
+Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario non-stok/berbasis sumber daya pada lingkungan yang sama melalui konfigurasi tingkat entitas hukum. Misalnya, Contoso dapat menggunakan kemampuan pesanan persediaan/produksi di fasilitas produksi AS mereka (Entitas hukum = Contoso Produksi Amerika Serikat). Contoso dapat menggunakan kemampuan non-stok/berbasis sumber daya di fasilitas pelayanan Contoso Robotics Arms mereka di Inggris (Entitas hukum = Contoso Robotik Inggris).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Penyebaran sederhana - menangani faktur proforma
 
@@ -56,7 +56,7 @@ Penyebaran sederhana mencakup kemampuan berikut:
 - Manajemen sumber daya terpadu
 - Pelacakan Waktu
 - Pengeluaran dasar
-- faktur Proforma dan sisi pelanggan 
+- Faktur proforma untuk tinjauan dan edit manajer proyek 
 
 #### <a name="deployment-steps"></a>Langkah-langkah penyebaran
 Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner penyebaran](https://aka.ms/provisionprojectoperations).
@@ -89,12 +89,12 @@ Untuk penyebaran ini, lihat [pendaftaran untuk langganan pratinjau](resource-sig
 - Perencanaan proyek dengan WBS
 - Manajemen sumber daya
 - Pelacakan Waktu
-- Pengeluaran Penuh
+- Pengeluaran penuh
 - OCR Tanda Terima
 - Faktur Lengkap
 - Pengakuan pendapatan
 - Pesanan Produksi
-- Dukungan material
+- Dukungan bahan ber-stok dengan inventaris
 
 #### <a name="deployment-steps"></a>Langkah-langkah penyebaran
 Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner penyebaran](https://aka.ms/provisionprojectoperations).

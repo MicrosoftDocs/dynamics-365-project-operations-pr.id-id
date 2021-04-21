@@ -1,21 +1,21 @@
 ---
-title: Sekilas pelacakan proyek
-description: Topik ini menyediakan informasi tentang cara melacak kemajuan proyek dan konsumsi biaya.
+title: Pelacakan upaya proyek
+description: Topik ini menyediakan informasi tentang cara melacak upaya proyek dan kemajuan pekerjaan.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286612"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710944"
 ---
-# <a name="project-tracking-overview"></a>Sekilas pelacakan proyek
+# <a name="project-effort-tracking"></a>Pelacakan upaya proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
@@ -26,50 +26,28 @@ Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Be
 Tampilan **pelacakan upaya** melacak kemajuan tugas dalam jadwal dengan membandingkan jam kerja aktual yang dihabiskan pada tugas ke jam kerja yang direncanakan untuk tugas. Dynamics 365 Project Operations menggunakan rumus berikut untuk menghitung metrik pelacakan:
 
 - **Persentase Kemajuan**: upaya yang sebenarnya yang dihabiskan sampai saat ini ÷Estimasi saat penyelesaian (EAC) 
-- **Perkiraan untuk menyelesaikan (ETC)**: rencana upaya – upaya yang sebenarnya yang dihabiskan sampai saat ini 
+- **Upaya tersisa**: Estimasi upaya saat selesai – upaya yang sebenarnya digunakan sampai saat ini 
 - **EAC**: usaha tersisa + upaya yang sebenarnya yang dihabiskan sampai saat ini 
 - **Varian proyeksi upaya**: upaya yang direncanakan – EAC
 
 Project Operations menunjukkan proyeksi dari varians upaya terhadap tugas. Jika EAC lebih dari upaya yang direncanakan, tugas diproyeksikan untuk mengambil lebih banyak waktu daripada yang direncanakan dan terlambat dari jadwal. Jika EAC lebih sedikit dari upaya yang direncanakan, tugas diproyeksikan untuk mengambil lebih sedikit waktu daripada yang direncanakan dan maju dari jadwal.
 
-## <a name="reprojecting-effort"></a>Upaya memproyeksikan ulang
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Memproyeksikan ulang upaya pada tugas node leaf
 
-Manajer proyek sering merevisi perkiraan asli pada tugas. Proyeksi proyek kembali adalah persepsi manajer proyek tentang perkiraan, mengingat status proyek saat ini. Namun, kami tidak menyarankan agar manajer proyek mengubah angka dasar. Ini karena dasar proyek mewakili sumber kebenaran yang mapan untuk jadwal proyek dan perkiraan biaya yang mana semua stakeholder proyek telah setuju.
+Manajer proyek sering merevisi perkiraan asli pada tugas. Proyeksi proyek kembali adalah persepsi manajer proyek tentang perkiraan, mengingat status proyek saat ini. Namun, kami tidak menyarankan manajer proyek mengubah jumlah upaya yang direncanakan. Hal ini karena upaya yang direncanakan proyek menunjukkan sumber sebenarnya yang ditetapkan untuk jadwal proyek dan perkiraan biaya, dan semua pemangku kepentingan proyek telah menyetujuinya.
 
-Ada dua cara manajer proyek dapat melakukan proyeksi ulang upaya pada tugas:
-
-- Menimpa ETC default dengan perkiraan baru dari upaya tersisa yang sebenarnya pada tugas. 
-- Menimpa persentase kemajuan default dengan perkiraan baru dari kemajuan sebenarnya pada tugas.
-
-Masing-masing pendekatan ini menyebabkan penghitungan ulang dari ETC, EAC tugas, persentase progres, serta proyeksi varians upaya pada tugas. EAC, ETC, dan persentase kemajuan pada ringkasan tugas juga dihitung ulang, dan menghasilkan proyeksi baru dari varians upaya.
+Manajer proyek dapat memproyeksikan ulang upaya pada tugas dengan memperbarui **Upaya Sisa** default dengan estimasi baru pada tugas. Pembaruan ini menyebabkan penghitungan ulang estimasi tugas saat selesai (EAC), persentase progres, dan varians upaya perkiraan pada tugas. EAC, ETC, dan persentase kemajuan pada ringkasan tugas juga dihitung ulang, dan menghasilkan proyeksi baru dari varians upaya.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Proyeksi ulang upaya pada tugas ringkasan
 
-Upaya pada ringkasan tugas atau tugas kontainer dapat diproyeksikan ulang. Terlepas dari apakah pengguna memproyeksikan kembali menggunakan usaha yang tersisa atau persentase kemajuan pada tugas ringkasan, rangkaian perhitungan berikut dimulai:
+Upaya pada ringkasan tugas atau tugas kontainer dapat diproyeksikan ulang. Manajer proyek dapat memperbarui upaya lainnya pada tugas ringkasan. Memperbarui upaya yang tersisa memicu rangkaian perhitungan berikut di aplikasi:
 
-- EAC, ETC, dan persentase kemajuan tugas dihitung.
+- EAC dan persentase kemajuan tugas dihitung.
 - EAC baru didistribusikan ke tugas anak di proporsi yang sama seperti EAC asli pada tugas.
 - EAC baru pada setiap tugas individual hingga tugas node leaf dihitung. 
-- Tugas anak yang terpengaruh hingga node leaf memiliki persentase ETC dan kemajuan yang akan dihitung ulang berdasarkan nilai EAC. Ini menghasilkan proyeksi baru untuk varians upaya dari tugas. 
+- Tugas anak yang terpengaruh hingga node leaf memiliki persentase upaya tersisa mereka dan kemajuan yang akan dihitung ulang berdasarkan nilai EAC. Ini menghasilkan proyeksi baru untuk varians upaya dari tugas. 
 - EAC dari tugas ringkasan sepenuhnya hingga node root dihitung ulang.
 
-### <a name="cost-tracking-view"></a>Tampilan Pelacakan Biaya 
-
-Tampilan **pelacakan biaya** membandingkan biaya aktual yang dihabiskan pada tugas dengan rencana biaya pada tugas. 
-
-> [!NOTE]
-> Tampilan ini hanya menampilkan biaya tenaga kerja dan tidak mencakup biaya dari perkiraan pengeluaran. Project Operations menggunakan rumus berikut untuk menghitung metrik pelacakan:
-
-- **Persentase dari biaya yang dihabiskan**: biaya aktual yang dibelanjakan hingga sekarang ÷ Estimasi biaya saat penyelesaian
-- **Biaya untuk menyelesaikan (CTC)**: rencana biaya – biaya sebenarnya yang dihabiskan sampai saat ini
-- **EAC**: Sisa Biaya + Biaya Aktual yang digunakan hingga sekarang
-- **varians Biaya diproyeksikan**: biaya direncanakan - EAC
-
-Proyeksi varians biaya ditampilkan terhadap tugas. Jika EAC lebih dari biaya yang direncanakan, tugas diproyeksikan untuk menghabiskan lebih banyak biaya daripada yang direncanakan semula. Oleh karena itu, tren lebih dari anggaran. Jika EAC kurang dari biaya yang direncanakan, tugas diproyeksikan untuk menghabiskan lebih sedikit biaya daripada yang direncanakan semula. Oleh karena itu, tren di bawah anggaran.
-
-## <a name="project-managers-reprojection-of-cost"></a>Proyeksi ulang biaya manajer proyek
-
-Bila upaya diproyeksikan ulang, CTC, EAC, persentase biaya yang dihabiskan, dan variasi biaya yang diproyeksikan akan dihitung ulang dalam tampilan **pelacakan biaya**.
 
 ## <a name="project-status-summary"></a>Ringkasan Status Proyek
 

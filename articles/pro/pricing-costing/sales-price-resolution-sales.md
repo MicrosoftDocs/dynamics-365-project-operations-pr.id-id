@@ -1,21 +1,21 @@
 ---
-title: Menyelesaikan harga penjualan untuk estimasi dan aktual - lite
-description: Topik ini memberikan informasi tentang menyelesaikan harga penjualan pada estimasi dan aktual.
+title: Menangani harga penjualan untuk aktual dan estimasi proyek
+description: Pembaruan topik memberikan informasi tentang menangani harga penjualan pada estimasi proyek dan aktual.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274507"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877360"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Menyelesaikan harga penjualan untuk estimasi dan aktual - lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Menangani harga penjualan untuk aktual dan estimasi proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -55,5 +55,14 @@ Setelah daftar harga untuk penjualan teratasi, sistem menyelesaikan langkah-lang
 
 4. Jika sistem tidak dapat mencocokkan nilai bidang **kategori** dan **unit**, tarif penjualan default ke nol (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Menangani tingkat penjualan pada baris aktual dan estimasi untuk bahan
+
+Dalam Project Operations, Baris estimasi untuk bahan digunakan untuk menunjukkan detail baris kuotasi dan kontrak untuk bahan dan baris estimasi bahan pada proyek.
+
+Setelah daftar harga untuk penjualan teratasi, sistem menyelesaikan langkah-langkah berikut untuk default harga penjualan unit .
+
+1. Sistem menggunakan kombinasi bidang **Produk** dan **Unit** pada baris perkiraan untuk bahan yang cocok dengan baris item daftar harga pada daftar harga yang ditangani.
+2. Jika sistem menemukan baris item daftar harga yang memiliki tingkat penjualan untuk kombinasi bidang **Produk** dan **Unit** dan metode harga adalah **Jumlah mata uang**, harga penjualan yang ditentukan pada baris daftar harga akan digunakan.
+3. Jika nilai bidang **Produk** dan **Unit** tidak cocok, tingkat penjualan akan default ke nol.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

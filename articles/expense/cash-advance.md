@@ -3,19 +3,19 @@ title: Uang muka
 description: Topik ini menyediakan informasi tentang kasbon.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276712"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715564"
 ---
 # <a name="cash-advance"></a>Uang muka
 
@@ -60,7 +60,22 @@ Prosedur berikut biasanya diselesaikan oleh akuntan atau pengguna dengan izin ak
 
 Saat Anda membuat dan mengirimkan laporan pengeluaran untuk kasbon yang telah Anda terima, pengeluaran akan secara otomatis disesuaikan dengan kasbon tersebut. Jika kasbon lebih besar dari jumlah yang dikeluarkan, Anda harus mengembalikan saldo ke perusahaan menggunakan kategori pengeluaran **uang tunai dikembalikan**. Jika kasbon yang dibayar perusahaan kurang dari jumlah yang Anda keluarkan, perusahaan harus mengganti selisihnya. 
 
-### <a name="example"></a>Contoh
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Pilih uang muka tunai yang berlaku untuk pengeluaran Anda
+Sebelum mengajukan laporan pengeluaran, Anda dapat memilih uang muka yang sesuai dengan transaksi pengeluaran pada laporan. Untuk menggunakan fungsi ini, dua fitur berikut harus diaktifkan dari ruang kerja **manajemen Fitur**:
+
+  - Laporan pengeluaran model baru
+  - Kemampuan untuk memetakan uang muka tunai ke baris pengeluaran
+ 
+ Bila fitur ini diaktifkan:
+ 
+  - Anda dapat menambahkan satu atau lebih uang muka untuk setiap baris pengeluaran.
+  - Saldo uang muka yang tersedia dapat dilihat secara real time saat laporan pengeluaran disimpan. Langkah ini memungkinkan Anda memproses transaksi pengeluaran dan menghasilkan transaksi tunai pada waktu yang sama.
+  - Anda dapat memilih beberapa uang muka untuk satu transaksi pengeluaran.
+  - Data rekonsiliasi tunai muka tersedia menggunakan kueri. 
+ 
+Jika Anda tidak menggunakan fitur ini, fungsi akan tetap sama, dengan uang muka yang ada akan dikurangi secara otomatis setelah pengeluaran diajukan.
+
+### <a name="example"></a>Contoh 
 Anda berencana melakukan perjalanan dari Seattle ke New York City untuk konferensi. Anda membuat permintaan kasbon untuk 3000,00 USD berdasarkan perkiraan biaya tiket konferensi, penerbangan, hotel, makan siang, dan taksi. Anda tidak akan dibayar, kecuali manajer Anda menyetujui permintaan ini. Setelah manajer menyetujui, kasbon yang diminta akan dibayarkan sebagai 3000,00 USD ke rekening bank Anda. Anda kemudian menghadiri konferensi. Setelah menyelesaikan perjalanan, Anda mendapati bahwa Total pengeluaran hanya 2790,00 USD. Pilih **Kas** pada bidang **metode Pembayaran**, lalu kirim pengeluaran untuk 2790,00 USD. Jumlah pengeluaran yang dikirim akan disesuaikan secara otomatis dengan 3000,00 USD kasbon yang dipinjamkan kepada Anda. Anda sekarang berutang selisih 210,00 USD (3000,00 - 2790,00), yang dapat Anda kembalikan ke perusahaan menggunakan kategori Pengeluaran **Kas kembali**.
 
 

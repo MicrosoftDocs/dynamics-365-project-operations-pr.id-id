@@ -3,7 +3,7 @@ title: Laporan pengeluaran model baru
 description: Laporan topik menjelaskan pengalaman yang didesain ulang dan ditata ulang untuk entri laporan pengeluaran.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499720"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717699"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan pengeluaran model baru
 
@@ -41,11 +41,7 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untu
 - Tidak ada item menu untuk laporan pengeluaran (halaman yang ada) atau bidang laporan pengeluaran dihapus.
 - Alur kerja dan persetujuan apa pun tetap akan membawa Anda ke halaman laporan pengeluaran yang ada.
 
-## <a name="getting-started-video-for-new-users"></a>Persiapan video untuk pengguna baru
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Pengalaman pengeluaran di Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditampilkan di atas) tercakup dalam [Daftar putar Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Fitur baru
 

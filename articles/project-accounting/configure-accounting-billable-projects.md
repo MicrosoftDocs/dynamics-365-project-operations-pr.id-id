@@ -3,17 +3,17 @@ title: Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
 description: Topik ini menyediakan informasi tentang pilihan akuntansi untuk proyek yang dapat ditagih.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287647"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858657"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
 
@@ -58,13 +58,25 @@ Selesaikan langkah-langkah berikut untuk membuat profil biaya dan pendapatan pro
 
          - **Keseimbangan**: ketika memposting jurnal integrasi Project Operations, biaya transaksi pengeluaran akan didebet ke tipe akun buku besar *nilai WIP-biaya* sebagaimana ditetapkan pada tab **biaya** pada halaman **penataan posting buku besar** dan dikreditkan ke akun offset pada baris jurnal. Akun offset default untuk pengeluaran ditentukan dalam **manajemen proyek dan akuntansi** > **penataan** \> **posting** \> **Akun offset default untuk pengeluaran**. Akuntan akan menggunakan fungsi **posting biaya** untuk memindahkan biaya ini dari akun saldo ke akun laba-rugi secara periodik.
         - **Laba dan rugi**: ketika memposting jurnal integrasi Project Operations, biaya transaksi pengeluaran akan didebet ke tipe akun buku besar *Biaya* sebagaimana ditetapkan pada tab **biaya** pada halaman **penataan posting buku besar** dan dikreditkan ke akun offset pada baris jurnal. Akun offset default untuk pengeluaran ditentukan dalam **manajemen proyek dan akuntansi** \> **penataan** \> **posting** \> **Akun offset default untuk pengeluaran**.
+      
+    - **Biaya posting – item**:
+
+         - **Saldo**: Bila memposting artikel Integrasi Project Operations, biaya transaksi item akan didebitkan ke jenis akun Buku besar *WIP - Nilai biaya - item* seperti ditentukan pada tab **Biaya** pada halaman **Pengaturan Posting Buku besar** dan dikreditkan ke berikut ini:
+    
+              - Untuk penggunaan jenis dokumen: akun **Biaya - item** di **Pengaturan posting Buku Besar**.  
+              - Untuk pembelian jenis dokumen: **Akun integrasi Pengadaan** pada **parameter Manajemen Proyek dan akuntansi**.
+           Akuntan akan menggunakan fungsi **posting biaya** untuk memindahkan biaya ini dari akun saldo ke akun laba-rugi secara periodik.
+        - **Laba-rugi**: Bila memposting artikel Integrasi Project Operations, biaya transaksi item akan didebitkan ke jenis akun Buku besar *Biaya* seperti ditentukan pada tab **Biaya** pada halaman **Pengaturan Posting Buku besar** dan dikreditkan ke berikut ini:
+         
+             - Untuk penggunaan jenis dokumen: akun **Biaya - item** di **Pengaturan posting Buku Besar**.  
+             - Untuk pembelian jenis dokumen: **Akun integrasi Pengadaan** pada **parameter Manajemen Proyek dan akuntansi**.
        
     - **Tentang memfaktur akun**:
 
         - **Saldo**: saat posting proposal faktur proyek, transaksi pada akun (tonggak penagihan) akan dikreditkan ke akun buku besar jenis *WIP ditagih - pada akun yang* sebagaimana ditetapkan pada tab **pendapatan** pada halaman **penataan posting Buku besar**, dan didebet ke akun saldo pelanggan.
          - **Laba-rugi**: saat posting proposal faktur proyek, transaksi pada akun (tonggak penagihan) akan dikreditkan ke akun buku besar jenis *pendapatan ditagih - pada akun yang* sebagaimana ditetapkan pada tab **pendapatan** pada halaman **penataan posting Buku besar**, dan didebet ke akun saldo pelanggan. Akun saldo Pelanggan yang ditentukan dalam **piutang dagang** \> **Penataan** \> **profil posting pelanggan**.
 
-   Bila Anda menentukan profil posting untuk metode penagihan waktu dan material, Anda memiliki pilihan untuk mengumpulkan pendapatan per jenis transaksi (jam, pengeluaran, dan ongkos). Jika opsi **akumulasikan pendapatan** diatur ke **ya**, transaksi penjualan yang belum ditagih di jurnal integrasi Project Operations akan direkam ke buku besar. Nilai penjualan didebet ke **WIP - akun nilai penjualan** dan dikreditkan ke akun **pendapatan akrual-nilai penjualan** yang dikonfigurasi pada halaman **pengaturan posting buku besar**, pada tab **pendapatan**. 
+   Bila Anda menentukan profil posting untuk metode penagihan Waktu dan bahan, Anda memiliki pilihan untuk menambah pendapatan per jenis transaksi (jam, pengeluaran, item, dan biaya). Jika opsi **akumulasikan pendapatan** diatur ke **ya**, transaksi penjualan yang belum ditagih di jurnal integrasi Project Operations akan direkam ke buku besar. Nilai penjualan didebet ke **WIP - akun nilai penjualan** dan dikreditkan ke akun **pendapatan akrual-nilai penjualan** yang dikonfigurasi pada halaman **pengaturan posting buku besar**, pada tab **pendapatan**. 
   
   > [!NOTE]
   > Pilihannya, **Akumulasi pendapatan** tersedia hanya bila masing-masing jenis transaksi **biaya** diposkan ke akun laba-rugi.

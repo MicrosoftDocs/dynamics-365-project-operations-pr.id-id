@@ -3,17 +3,17 @@ title: Mengonfigurasikan biaya dan tarif penjualan untuk pengeluaran
 description: Topik ini memberikan informasi tentang cara mengatur tarif biaya dan penjualan untuk kategori transaksi dan pengeluaran.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274912"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877224"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Mengonfigurasikan biaya dan tarif penjualan untuk pengeluaran
 
@@ -23,9 +23,10 @@ Anda dapat mengkonfigurasi biaya dan harga penjualan untuk kategori transaksi di
 
 Untuk mengatur biaya dan tarif penjualan untuk kategori transaksi, selesaikan langkah berikut. 
 
-1. Buat daftar harga berdasarkan header daftar harga. 
-2. Pada **kategori harga**, pada menu subkisi, pilih **+ harga kategori baru**. 
-3. Pada halaman **Buat cepat**, masukkan kategori transaksi dan unit yang Anda buat dengan harga baru.
+1. Buka **Penjualan** > **Pelanggan** > **Daftar Harga**.
+2. Untuk membuat daftar harga baru, pilih **Baru**. 
+3. Pada **kategori harga**, pada menu subkisi, pilih **harga kategori baru**. 
+4. Pada halaman **Buat cepat**, masukkan kategori transaksi dan unit yang Anda buat dengan harga baru.
 
 Tabel berikut mencantumkan bidang pada tab **Umum** dan halaman **Buat cepat** dari baris harga kategori yang harus diingat saat Anda membuat harga kategori pada daftar harga penjualan atau biaya.
 

@@ -1,31 +1,41 @@
 ---
-title: Ikhtisar estimasi proyek
-description: Topik ini menyediakan informasi tentang perkiraan di Dynamics 365 Project Operations.
-author: ruhercul
+title: Konsep estimasi keuangan
+description: Laporan topik memberikan informasi tentang estimasi keuangan proyek di Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286882"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701740"
 ---
-# <a name="estimate-projects-overview"></a>Ikhtisar estimasi proyek
+# <a name="financial-estimation-concepts"></a>Konsep estimasi keuangan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
+Dalam Dynamics 365 Project Operations, Anda dapat memperkirakan proyek secara keuangan dalam dua tahapan: 
+1. Selama tahapan pra penjualan sebelum transaksi dimenangkan. 
+2. Selama tahapan eksekusi setelah kontrak proyek dibuat. 
+
+Anda dapat membuat perkiraan keuangan untuk pekerjaan berbasis proyek menggunakan salah satu dari 3 halaman berikut:
+- Halaman **baris kuotasi**, menggunakan rincian baris kuotasi.  
+- Halaman **baris kontrak proyek**, menggunakan rincian baris kontrak. 
+- Halaman **Proyek**, menggunakan halaman tab **Tugas**  atau **Estimasi Pengeluaran**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Gunakan kuotasi proyek untuk membuat estimasi
 Pada kuotasi berbasis proyek, Anda dapat menggunakan entitas **detail baris kuotasi** untuk memperkirakan pekerjaan yang diperlukan untuk melaksanakan proyek. Selanjutnya Anda dapat berbagi perkiraan dengan pelanggan.
 
 Baris kuotasi berbasis proyek tidak boleh memiliki nol pada banyak detail baris kuotasi. Rincian baris kuotasi digunakan untuk memperkirakan waktu, pengeluaran, atau biaya. Microsoft Dynamics 365 Project Operations tidak memungkinkan perkiraan material pada rincian baris kuotasi. Ini disebut kelas transaksi. Jumlah perkiraan pajak juga dapat dimasukkan pada kelas transaksi.
 
 Selain kelas transaksi, rincian baris kuotasi memiliki jenis transaksi. Dua jenis transaksi didukung untuk rincian baris kuotasi: **biaya** dan **kontrak proyek**.
 
-## <a name="estimate-by-using-a-contract"></a>Perkirakan menggunakan kontrak
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Gunakan kontrak proyek untuk membuat estimasi
 
 Jika Anda menggunakan kuotasi saat membuat kontrak berbasis proyek, perkiraan yang Anda lakukan untuk setiap baris kuotasi pada kuotasi disalin ke kontrak proyek. Struktur kontrak proyek itu seperti struktur kuotasi proyek yang memiliki baris, rincian baris, dan jadwal faktur.
 
@@ -35,27 +45,21 @@ Rincian baris kontrak dapat digunakan untuk memperkirakan waktu, pengeluaran, at
 
 Estimasi material tidak diizinkan pada rincian baris kontrak.
 
-Proses yang didukung pada kontrak proyek adalah pembuatan faktur dan konfirmasi. Pembuatan faktur membuat draf faktur berbasis proyek yang mencakup semua aktual penjualan yang tidak ditagih hingga tanggal saat ini.
+## <a name="use-a-project-to-create-an-estimate"></a>Gunakan proyek untuk membuat estimasi 
 
-Konfirmasi membuat kontrak hanya baca dan mengubah statusnya dari **draf** menjadi **dikonfirmasi**. Setelah melakukan tindakan ini, Anda tidak dapat mengurungkannya. Karena tindakan ini bersifat permanen, praktik terbaik adalah menjaga kontrak tetap dalam status **draf**.
-
-Satu-satunya perbedaan antara kontrak draft dan kontrak yang dikonfirmasi adalah status mereka dan fakta bahwa kontrak draft dapat diedit sedangkan kontrak yang dikonfirmasi tidak dapat. Pembuatan faktur dan aktual pelacakan dapat dilakukan pada kontrak draf maupun kontrak yang dikonfirmasi.
-
-Project Operations tidak mendukung perubahan perintah pada kontrak atau proyek.
-
-## <a name="estimating-projects"></a>Perkiraan Proyek
-
-Anda dapat memperkirakan waktu dan biaya pada proyek. Project Operations tidak memungkinkan perkiraan material atau biaya pada proyek.
+Anda dapat memperkirakan waktu dan biaya pada proyek. Project Operations tidak mendukung estimasi bahan atau ongkos pada proyek.
 
 Perkiraan waktu dihasilkan saat Anda membuat tugas dan mengidentifikasi atribut sumber daya umum yang diperlukan untuk melakukan tugas. Perkiraan waktu dihasilkan dari tugas jadwal. Perkiraan waktu tidak dibuat jika Anda membuat anggota tim generik di luar konteks jadwal.
 
-Perkiraan biaya dimasukkan di kisi pada halaman **Perkiraan**.
+Perkiraan biaya dimasukkan di kisi pada halaman **Estimasi Pengeluaran**.
 
-## <a name="understanding-estimation"></a>Memahami estimasi
+Membuat estimasi untuk proyek dianggap sebagai praktik terbaik karena Anda dapat membangun estimasi terperinci dari bawah untuk tenaga kerja atau waktu dan pengeluaran pada setiap tugas dalam rencana proyek. Selanjutnya Anda dapat menggunakan perkiraan terperinci ini untuk membuat estimasi untuk setiap baris kuotasi dan membangun kuotasi yang lebih kredibel untuk pelanggan. Saat Anda mengimpor atau membuat estimasi terperinci pada baris kuotasi menggunakan rencana proyek, Project Operations mengimpor nilai penjualan dan nilai biaya dari estimasi ini. Setelah mengimpor, Anda dapat melihat metrik profitabilitas, margin, dan kelayakan pada kuotasi proyek.
+
+## <a name="understanding-estimates"></a>Memahami estimasi
 
 Gunakan tabel berikut sebagai panduan untuk memahami logika bisnis dalam fase estimasi.
 
-| Skenario                                                                                                                                                                                                                                                                                                                                          | Rekaman Entitas                                                                                                                                                                                                       | Jenis Transaksi | Kelas Transaksi | Informasi tambahan                                                            |
+| Skenario                                                                                                                                                                                                                                                                                                                                          | Rekaman entitas                                                                                                                                                                                                       | Jenis Transaksi | Kelas Transaksi | Informasi tambahan                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Bila Anda perlu memperkirakan nilai penjualan waktu pada kuotasi                                                                                                                                                                                                                                                                                    | Rekaman detail baris kuotasi (QLD) dibuat                                                                                                                                                                               | Kontrak proyek | Time        | Bidang asal transaksi pada baris QLD sisi penjualan merujuk pada sisi biaya QLD |
 |                                                                                                                                                                                                                                                                                     | Rekaman QLD kedua dibuat oleh sistem untuk menyimpan nilai biaya yang terkait. Semua bidang non-uang disalin dari penjualan QLD ke QLD biaya oleh sistem.                                                                                                                                                                               | Biaya | Time        | Bidang asal transaksi pada baris detail baris kuotasi (QLD) sisi penjualan merujuk pada sisi biaya QLD |

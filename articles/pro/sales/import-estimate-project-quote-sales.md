@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273427"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858252"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Mengimpor estimasi untuk proyek pada baris kuotasi berbasis proyek - lite
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Mengimpor estimasi untuk proyek pada baris kuotasi berbasis proyek 
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Penyebaran Lite- faktur dari penawaran hingga proforma, Project Operations untuk skenario berbasis sumber daya/non-stok_
 
 Jika proyek dibuat selama tahap pra-penjualan, Anda dapat memilih untuk mengimpor perkiraan keuangan dari proyek ke baris kuotasi berbasis proyek.
 
@@ -30,7 +30,7 @@ Jika proyek dibuat selama tahap pra-penjualan, Anda dapat memilih untuk mengimpo
   - **Peran** 
   - **Tugas proyek**
 
-Berdasarkan pilihan Anda, perkiraan dari proyek untuk semua kelas transaksi yang tercakup dalam baris kuotasi ini disalin. Untuk memeriksa jenis kelas transaksi yang disertakan, pilih tab **Umum** pada baris kuotasi berbasis proyek, dan periksa nilai untuk **mencakup waktu**, **mencakup pengeluaran**, dan **mencakup biaya**.  Untuk memeriksa tugas yang disertakan, pilih tab **tugas yang dikenakan biaya** pada baris kuotasi.
+Berdasarkan pilihan Anda, perkiraan dari proyek untuk semua kelas transaksi yang tercakup dalam baris kuotasi ini disalin. Untuk memeriksa kelas transaksi yang tercakup, pilih tab **Umum** pada baris kuotasi berbasis proyek, dan periksa nilai untuk **Sertakan Waktu** **Sertakan Pengeluaran**, **Sertakan Bahan**, dan **Sertakan Ongkos**.  Untuk memeriksa tugas yang disertakan, pilih tab **tugas yang dikenakan biaya** pada baris kuotasi.
 
 Tergantung pada tugas yang terkait dan kelas transaksi yang tercakup, estimasi untuk tugas dan kombinasi kelas transaksi tersebut diimpor ke baris kuotasi.
 

@@ -3,17 +3,17 @@ title: Menyelesaikan harga penjualan untuk estimasi dan aktual
 description: Topik ini memberikan informasi tentang bagaimana menyelesaikan tarif penjualan untuk estimasi dan aktual.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274957"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877449"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Menyelesaikan harga penjualan untuk estimasi dan aktual
 
@@ -54,6 +54,17 @@ Setelah daftar harga untuk penjualan teratasi, sistem menyelesaikan langkah-lang
     | &nbsp; | Markup atas biaya | Dengan menerapkan markup sebagaimana didefinisikan oleh baris harga kategori pada tingkat biaya unit dari aktual biaya terkait |
 
 4. Jika sistem tidak dapat mencocokkan nilai bidang **kategori** dan **unit**, tarif penjualan default ke nol (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Menangani tingkat penjualan pada baris aktual dan estimasi untuk bahan
+
+Dalam Project Operations, Baris estimasi untuk bahan digunakan untuk menunjukkan detail baris kuotasi dan kontrak untuk bahan dan baris estimasi bahan pada proyek.
+
+Setelah daftar harga untuk penjualan teratasi, sistem menyelesaikan langkah-langkah berikut untuk default harga penjualan unit .
+
+1. Sistem menggunakan kombinasi bidang **Produk** dan **Unit** pada baris perkiraan untuk bahan yang cocok dengan baris item daftar harga pada daftar harga yang ditangani.
+2. Jika sistem menemukan baris item daftar harga yang memiliki tingkat penjualan untuk kombinasi bidang **Produk** dan **Unit** dan metode harga adalah **Jumlah mata uang**, harga penjualan yang ditentukan pada baris daftar harga akan digunakan.
+3. Jika nilai bidang **Produk** dan **Unit** tidak cocok, tingkat penjualan akan default ke nol.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

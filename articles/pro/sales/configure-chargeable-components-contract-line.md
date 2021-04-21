@@ -1,5 +1,5 @@
 ---
-title: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek - lite
+title: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek
 description: Topik ini memberikan informasi tentang cara menambahkan komponen yang dikenakan biaya ke lini kontrak dalam Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273922"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858477"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek - lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Penyebaran Lite- faktur dari penawaran hingga proforma, Project Operations untuk skenario berbasis sumber daya/non-stok_
 
 Baris kontrak berbasis proyek telah *menyertakan* komponen dan komponen *yang dapat dikenakan biaya*.
 
@@ -62,23 +62,582 @@ Jenis penagihan transaksi dapat dikonfigurasi pada tab **Kategori Kena Biaya** d
 
 ### <a name="resolve-chargeability"></a>Menangani pengenaan biaya
 
-Perkiraan atau aktual yang dibuat untuk waktu hanya akan dianggap dikenakan biaya jika **Waktu** disertakan pada baris kontrak, dan jika **Tugas** dan **Peran** dikonfigurasi sebagai dikenakan biaya pada baris kontrak.
+Perkiraan atau aktual yang dibuat untuk waktu hanya dianggap dibebankan jika:
 
-Perkiraan atau aktual yang dibuat untuk pengeluaran hanya akan dianggap dikenakan biaya jika **Pengeluaran** disertakan pada baris kontrak, dan jika **Tugas** dan kategori **Transaksi** dikonfigurasi sebagai dikenakan biaya pada baris kontrak.
+   - **Waktu** tercakup di baris kontrak.
+   - **Peran** dikonfigurasi sebagai dibebankan pada baris kontrak.
+   - **Tugas yang Tercakup** diatur ke **Tugas yang dipilih** pada baris kontrak.
+ 
+ Jika ketiga hal ini benar, maka tugas dikonfigurasi sebagai dikenakan biaya. 
+
+Perkiraan atau aktual yang dibuat untuk pengeluaran hanya dianggap dibebankan jika:
+
+   - **pengeluaran** tercakup di baris kontrak
+   - **Kategori transaksi** dikonfigurasi sebagai dibebankan pada baris kontrak
+   - **Tugas yang Tercakup** diatur ke **Tugas yang dipilih** pada baris kontrak
+  
+ Jika ketiga hal ini benar, maka **tugas** dikonfigurasi sebagai dikenakan biaya. 
+
+Perkiraan atau aktual yang dibuat untuk bahan hanya dianggap dibebankan jika:
+
+   - **Bahan** tercakup di baris kontrak
+   - **Tugas yang Tercakup** diatur ke **Tugas yang dipilih** pada baris kontrak
+
+Jika kedua hal ini benar, maka **tugas** dikonfigurasi sebagai dikenakan biaya. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Mencakup Waktu</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Mencakup Pengeluaran</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Mencakup Bahan</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Tugas Disertakan</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Peran</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategori</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tugas</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Dampak pengenaan biaya</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Dikenakan Biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: <strong>Dikenakan biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: <strong>Dikenakan biaya</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hanya tugas yang dipilih </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Dikenakan Biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: <strong>Dikenakan biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: <strong>Dikenakan biaya</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hanya tugas yang dipilih </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: Dikenakan biaya </p>
+                <p>
+Jenis penagihan pada aktual bahan: Dikenakan biaya </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hanya tugas yang dipilih </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: <strong>Tidak Dikenakan biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: <strong>Tidak Dikenakan biaya</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hanya tugas yang dipilih </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: <strong>Tidak Dikenakan biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: <strong>Tidak Dikenakan biaya</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Hanya tugas yang dipilih </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: <strong>Tidak Dikenakan biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: Dikenakan biaya </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Dikenakan biaya</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak tersedia</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: Dikenakan biaya </p>
+                <p>
+Jenis penagihan pada aktual bahan: Dikenakan biaya </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak tersedia</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: <strong> Tidak Dikenakan biaya</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: Dikenakan biaya </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: Dikenakan Biaya </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran:<strong> Tidak tersedia</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: Dikenakan biaya </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak Dikenakan Biaya </strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran:<strong> Tidak tersedia</strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: Dikenakan biaya </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Dikenakan biaya </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: Dikenakan Biaya </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran: Dikenakan biaya </p>
+                <p>
+Jenis penagihan pada aktual bahan: <strong> Tidak tersedia</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ya </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Keseluruhan proyek </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Tidak Dikenakan Biaya</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Tidak dapat diatur </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Penagihan pada aktual Waktu: <strong>Tidak Dikenakan Biaya </strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual Pengeluaran:<strong> Tidak Dikenakan biaya </strong>
+                </p>
+                <p>
+Jenis penagihan pada aktual bahan: <strong> Tidak tersedia</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Mencakup Waktu | Mencakup Pengeluaran | Mencakup Tugas | Peran           | Kategori       | Tugas                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Ya           | Ya              | Keseluruhan proyek | Dikenakan biaya     | Dikenakan biaya     | Penagihan pada aktual Waktu: **Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran: **Dikenakan biaya**           |
-| Ya           | Ya              | Tugas yang dipilih | Dikenakan biaya     | Dikenakan biaya     | Penagihan pada aktual Waktu: **Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran: **Dikenakan biaya**           |
-| Ya           | Ya              | Tugas yang dipilih | Tidak Dikenakan Biaya | Dikenakan biaya     | Penagihan pada aktual Waktu: **Tidak Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran: **Dikenakan biaya**       |
-| Ya           | Ya              | Tugas yang dipilih | Dikenakan biaya     | Dikenakan biaya     | Penagihan pada aktual Waktu: **Tidak Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran:   **Tidak Dikenakan biaya** |
-| Ya           | Ya              | Tugas yang dipilih | Tidak Dikenakan Biaya | Dikenakan biaya     | Penagihan pada aktual Waktu: **Tidak Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran:   **Tidak Dikenakan biaya** |
-| Ya           | Ya              | Tugas yang dipilih | Tidak Dikenakan Biaya | Tidak Dikenakan Biaya | Penagihan pada aktual Waktu: **Tidak Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran:   **Tidak Dikenakan biaya** |
-| No            | Ya              | Keseluruhan proyek | Tidak dapat diatur   | Dikenakan biaya     | Penagihan pada aktual Waktu: **Tidak tersedia**</br>Jenis penagihan pada aktual Pengeluaran: **Dikenakan biaya**          |
-| No            | Ya              | Keseluruhan proyek | Tidak dapat diatur   | Tidak Dikenakan Biaya | Penagihan pada aktual Waktu: **Tidak tersedia**</br> Jenis penagihan pada aktual Pengeluaran: **Tidak Dikenakan biaya**     |
-| Ya           | No               | Keseluruhan proyek | Dikenakan biaya     | Tidak dapat diatur   | Penagihan pada aktual Waktu: **Dikenakan Biaya** </br> Jenis penagihan pada aktual Pengeluaran: **Tidak tersedia**        |
-| Ya           | No               | Keseluruhan proyek | Tidak Dikenakan Biaya | Tidak dapat diatur   | Penagihan pada aktual Waktu: **Tidak Dikenakan Biaya** </br>Jenis penagihan pada aktual Pengeluaran: **Tidak tersedia**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

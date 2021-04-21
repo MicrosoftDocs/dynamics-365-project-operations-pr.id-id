@@ -1,22 +1,22 @@
 ---
-title: Menyelesaikan harga biaya pada estimasi dan aktual - lite
-description: Topik ini memberikan informasi tentang bagaimana harga biaya pada estimasi dan aktual diselesaikan.
+title: Menangani harga biaya pada aktual dan estimasi proyek
+description: Pembaruan topik memberikan informasi tentang cara menangani harga biaya pada estimasi proyek dan aktual.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274553"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877269"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Menyelesaikan harga biaya pada estimasi dan aktual - lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Menangani harga biaya pada aktual dan estimasi proyek 
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -36,6 +36,12 @@ Setelah daftar harga biaya teratasi, bidang **Peran** dan **Unit sumber daya** p
 Baris estimasi untuk pengeluaran adalah detail baris kontrak dan kuotasi untuk pengeluaran dan baris estimasi pengeluaran pada proyek.
 
 Setelah daftar harga biaya ditangani, sistem menggunakan kombinasi bidang **Kategori** dan **Unit** pada baris perkiraan pengeluaran yang cocok dengan baris **Harga Kategori** pada daftar harga yang diselesaikan. Jika sistem menemukan garis harga kategori yang memiliki tarif biaya untuk kombinasi bidang **Kategori** dan **Unit**, tarif biaya adalah default. Jika sistem tidak dapat sesuai dengan nilai **Kategori** dan **Unit**, atau jika sistem dapat menemukan baris harga kategori yang cocok, namun metode harga bukan **Harga Per Unit**, tingkat biaya akan berubah menjadi nol (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menangani tingkat biaya pada baris aktual dan estimasi untuk bahan
+
+Baris estimasi untuk bahan adalah detail baris kuotasi dan kontrak untuk bahan dan baris estimasi bahan pada proyek.
+
+Setelah daftar harga biaya ditangani, sistem menggunakan kombinasi bidang **Produk** dan **Unit** pada baris estimasi untuk agar estimasi bahan sesuai dengan baris **Item Daftar Harga** pada daftar harga yang ditangani. Jika sistem menemukan baris harga produk yang memiliki tingkat biaya untuk kombinasi bidang **Produk** dan **Unit**, maka tingkat biaya akan di-default. Jika sistem tidak dapat sesuai dengan nilai **Produk** dan **Unit**, atau jika sistem dapat menemukan baris item daftar harga yang cocok, namun metode harga didasarkan pada biaya Standar atau Biaya saat ini dan tidak ditentukan pada produk, biaya unit diatur default ke nol.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

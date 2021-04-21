@@ -3,17 +3,17 @@ title: Mengonfigurasikan tarif tagihan tenaga kerja
 description: Topik ini memberikan informasi tentang cara mengatur tarif tagihan tenaga kerja di Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274822"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877404"
 ---
 # <a name="set-up-labor-bill-rates"></a>Mengonfigurasikan tarif tagihan tenaga kerja
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274822"
 
 Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tingkat tagihan untuk waktu di Dynamics 365 Project Operations dapat diatur dalam hanya satu mata uang, yang merupakan mata uang pada header Daftar harga.
 
-1. Untuk mengkonfigurasikan tarif tagihan tenaga kerja untuk daftar harga penjualan, buat daftar harga berdasarkan header daftar harga. 
-2. Pada tab **harga peran**, di subkisi, pilih **+ harga peran baru**. 
+1. Untuk mengkonfigurasi tingkat tagihan tenaga kerja untuk daftar harga penjualan, buka **Penjualan** > **Pelanggan** > **Daftar Harga**, dan pilih **Baru** untuk membuat daftar harga baru. 
+2. Pada tab **harga peran**, di subkisi, pilih **harga peran baru**. 
 3. Pada panel **buat cepat**, masukkan peran dan kombinasi unit organisasi yang harus Anda konfigurasikan tarif tagihannya.
 
    Tabel berikut mencantumkan bidang pada tab **Umum** dan panel **Buat cepat** dari baris harga peran yang harus diingat saat Anda membuat harga peran pada daftar harga penjualan:

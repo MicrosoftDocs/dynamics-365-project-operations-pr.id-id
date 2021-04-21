@@ -3,17 +3,17 @@ title: Mengelola daftar harga proyek pada kontrak proyek
 description: Topik ini menyediakan informasi tentang mengelola daftar harga proyek pada kontrak proyek.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278602"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858567"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Mengelola daftar harga proyek pada kontrak proyek
 
@@ -21,13 +21,13 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Kontrak proyek di Dynamics 365 Project Operations dirancang untuk mendukung beberapa daftar harga penjualan efektif tanggal pada kontrak. Dalam Project Operations, ada entitas baru yang terkait disebut **Daftar harga proyek**. Entitas ini memiliki relasi satu ke banyak dengan kontrak proyek.
 
-Daftar harga proyek digunakan untuk transaksi waktu harga dan pengeluaran pada suatu proyek. Bila kontrak memiliki satu atau beberapa daftar harga proyek, daftar harga ini digunakan untuk harga untuk perkiraan waktu dan biaya dan aktual pada proyek yang terkait dengan kontrak melalui baris kontrak.
+Daftar harga proyek digunakan untuk transaksi waktu harga, bahan, dan pengeluaran pada proyek. Bila kontrak memiliki satu atau beberapa daftar harga proyek, daftar harga ini digunakan pada harga untuk waktu, materi, estimasi pengeluaran, dan aktual pada proyek yang terkait dengan kontrak melalui baris kontrak.
 
-Bila tidak ada daftar harga proyek pada kontrak proyek, Anda akan melihat pesan peringatan bahwa tidak ada daftar harga proyek dan estimasi, pekerjaan proyek yang sebenarnya, dan pengeluaran Anda tidak akan diberi harga. Tidak akan ada harga untuk nilai penjualan.
+Bila tidak ada daftar harga proyek pada kontrak proyek, Anda akan melihat pesan peringatan bahwa tidak ada daftar harga proyek dan estimasi, pekerjaan proyek aktual, bahan, dan pengeluaran yang dicatat tidak akan dianggarkan. Tidak akan ada harga untuk nilai penjualan.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Mengaitkan atau membatalkan kaitan daftar harga proyek pada kontrak proyek
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Membuat atau mengaitkan daftar harga tertentu untuk memperkirakan pekerjaan dan pengeluaran berbasis proyek
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Membuat atau mengaitkan daftar harga tertentu untuk memperkirakan pekerjaan, bahan, dan pengeluaran berbasis proyek
 
 1. Pada kontrak proyek, pilih tab **daftar harga proyek**.
 2. Di subkisi, pilih **+ Tambah daftar harga proyek baru**.
@@ -52,7 +52,7 @@ Bila tidak ada daftar harga proyek pada kontrak proyek, Anda akan melihat pesan 
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Mengkonfigurasi default otomatis daftar harga proyek pada kontrak
 
-Daftar harga proyek dapat diatur sebagai daftar default pada kontrak proyek. Konfigurasi ini dapat membantu memastikan bahwa semua kontrak di organisasi Anda selalu diawali dengan daftar harga standar untuk periode harga tersebut.
+Daftar harga proyek dapat diatur sebagai daftar harga proyek default. Konfigurasi ini memastikan bahwa semua kontrak di organisasi Anda selalu dimulai dengan daftar harga proyek standar untuk periode harga tersebut.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Mengkonfigurasi default organisasi untuk daftar harga proyek
 

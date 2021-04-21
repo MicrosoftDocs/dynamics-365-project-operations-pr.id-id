@@ -1,6 +1,6 @@
 ---
-title: Mengestimasi baris kontrak berbasis proyek
-description: Topik ini menyediakan informasi tentang estimasi pada baris kontrak berbasis proyek.
+title: Mengestimasi baris kontrak proyek
+description: Halaman topik ini menyediakan informasi tentang estimasi pada baris kontrak proyek.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7cb7d7eccf62837ee5abf4cbe29a21dc728eb7ef
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278512"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858522"
 ---
-# <a name="estimate-a-projectbased-contract-line"></a>Mengestimasi baris kontrak berbasis proyek
+# <a name="estimate-a-project-contract-line"></a>Mengestimasi baris kontrak proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_ 
 
@@ -26,31 +26,36 @@ Untuk memperkirakan baris kontrak berbasis proyek, buka tab **rincian baris kont
    - Buat estimasi secara langsung pada baris kontrak dengan menambahkan rincian baris kontrak secara manual.
    - Membuat proyek dan rencana proyek, lalu kaitkan proyek dan tugas ke baris kontrak proyek. Hal ini memungkinkan proses dengan mana Anda dapat mengimpor estimasi rencana proyek ke baris kontrak berdasarkan komponen yang disertakan pada baris kontrak.
 
-## <a name="create-an-estimate-directly-on-a-projectbased-contract-line"></a>Membuat estimasi langsung di baris kontrak berbasis proyek
+## <a name="create-an-estimate-directly-on-a-project-contract-line"></a>Membuat estimasi langsung di baris kontrak proyek
+
+Untuk membuat estimasi langsung di baris kontrak proyek, ikuti langkah-langkah ini:
 
 1. Buka baris kontrak, lalu pilih tab **rincian baris kontrak**. Baris yang Anda buat pada tab ini diringkas dan ditampilkan sebagai **nilai kontrak** untuk **baris kontrak** ini. 
-2. Di subkisi **rincian baris kontrak**, pilih **+ detail baris kontrak baru**. Penggeser buat cepat terbuka. Bidang berikut tersedia pada formulir **rincian baris kontrak**:
+2. Di subkisi **rincian baris kontrak**, pilih **detail baris kontrak baru**. Penggeser buat cepat terbuka. Bidang berikut tersedia di halaman **Rincian Baris Kontrak**.
 
 | Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
-| **Keterangan** | **Buat Cepat** | Deskripsi estimasi tertentu. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Kelas Transaksi** | **Buat Cepat** | Drop-down ini adalah daftar kelas transaksi yang disertakan pada tab **Umum** baris kontrak berbasis proyek. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Peran** | **Buat Cepat** | Peran orang yang melakukan pekerjaan ini atau memikul pengeluaran ini. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Kategori** | **Buat Cepat** | Kategori pekerjaan atau pengeluaran. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Tanggal Mulai** | **Buat Cepat** | Tanggal pekerjaan dimulai. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Tanggal Akhir** | **Buat Cepat** | Tanggal akhir pekerjaan. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Perusahaan Sumber Daya** | **Buat Cepat** | Perusahaan sumber daya atau entitas hukum yang memikul biaya ini dan menyediakan sumber daya untuk mengerjakannya. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. Bidang ini juga digunakan dalam pengambilan harga biaya. |
-| **Unit Sumber Daya** | **Buat Cepat** | Unit sumber daya yang memikul biaya ini dan memberikan sumber daya untuk mengerjakannya. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. Bidang ini juga digunakan dalam pengambilan harga biaya. |
-| **Jadwal Unit** | **Buat cepat** | Grup unit pekerjaan atau pengeluaran. Unit milik jadwal unit atau grup unit. Contohnya, *Mil* dan *kilometer (km)* adalah unit yang tergabung dalam grup unit yang menjelaskan jarak. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Unit** | **Buat Cepat** | Unit pekerjaan atau pengeluaran. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Kuantitas** | **Buat Cepat** | Kuantitas pekerjaan atau pengeluaran. | Bidang ini ter-default untuk detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
-| **Harga unit** | **Buat Cepat** | Tingkat tagihan peran yang melakukan pekerjaan atau harga penjualan dari kategori pengeluaran. Bidang ini default untuk **waktu** berdasarkan kombinasi peran dan sumber daya pada daftar harga proyek yang efektif untuk tanggal mulai. Untuk pengeluaran, default bidang ini adalah dari konfigurasi harga untuk kategori transaksi dalam daftar harga proyek yang efektif untuk tanggal mulai. Jika metode harga untuk kategori transaksi bukan **harga per unit**, tidak ada default, dan bidang ini akan dibiarkan kosong. | Tingkat biaya peran yang melakukan pekerjaan atau biaya per unit dari kategori pengeluaran. Bidang ini ter-default untuk **waktu berdasarkan peran** dan kombinasi unit sumber daya pada baris harga peran dari daftar harga biaya yang dilampirkan ke unit kontrak yang efektif untuk tanggal mulai. Untuk pengeluaran, default bidang ini didasarkan pada baris harga kategori dari daftar harga biaya yang terlampir pada unit kontrak yang efektif untuk tanggal mulai. Jika metode harga untuk kategori transaksi bukan harga per unit, tidak ada default, dan bidang ini akan dibiarkan kosong. |
-| **Perkiraan Pajak** | **Buat Cepat** | Perkiraan pajak untuk pekerjaan atau pengeluaran ini seperti yang diinput oleh pengguna. | Perkiraan pajak untuk pekerjaan atau pengeluaran ini seperti yang diinput oleh pengguna. |
-| **Jumlah** | **Buat Cepat** | Nilai di bidang ini dapat ditambahkan oleh pengguna jika bidang **kuantitas** dan **harga** dibiarkan kosong. Jika **kuantitas** dan **harga** diisi, bidang **Juta** hanya bisa dibaca dan dihitung sebagai **(Kuantitas \* harga satuan) + pajak**. | &nbsp; |
+| **Deskripsi** | **Buat Cepat** | Deskripsi estimasi tertentu. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Kelas Transaksi** | **Buat Cepat** | Daftar kelas transaksi ini tercakup di tab **Umum** pada baris kontrak berbasis proyek. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Pilih Produk** | **Buat cepat** | Berlaku bila kelas transaksi adalah **Bahan**. Anda dapat memilih untuk menentukan baris estimasi ini adalah untuk produk **yang Ada** (katalog) atau produk **pilihan**. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Produk** | **Buat cepat** | ID produk dari katalog produk. Bidang ini hanya diaktifkan bila Anda memilih **produk yang ada** dalam bidang **pilih Produk**. ID tersebut digunakan untuk mengambil harga penjualan dari daftar harga proyek pada kontrak. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Produk Pilihan** | **Buat cepat** | Bidang teks untuk memasukkan nama produk. Bidang ini hanya diaktifkan bila Anda memilih **Pilihan** dalam bidang **pilih Produk**.| Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Peran** | **Buat Cepat** | Peran orang yang melakukan pekerjaan ini atau memikul pengeluaran ini. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis.|
+| **Kategori** | **Buat Cepat** | Kategori pekerjaan atau pengeluaran. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis.|
+| **Tanggal Mulai** | **Buat Cepat** | Tanggal pekerjaan dimulai. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Tanggal Akhir** | **Buat Cepat** | Tanggal akhir pekerjaan. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Perusahaan Sumber Daya** | **Buat Cepat** | Perusahaan sumber daya atau entitas hukum yang mengenakan biaya ini dan menyediakan sumber daya untuk mengerjakannya. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis dan digunakan dalam pengambilan harga biaya. |
+| **Unit Sumber Daya** | **Buat Cepat** | Unit sumber daya yang mengenakan biaya ini dan menyediakan sumber daya untuk mengerjakannya. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis dan digunakan dalam pengambilan harga biaya. |
+| **Jadwal Unit** | **Buat cepat** | Grup unit kerja, produk, atau pengeluaran. Unit milik jadwal unit atau grup unit. Contohnya, *Mil* dan *kilometer (km)* adalah unit yang tergabung dalam grup unit yang menjelaskan jarak. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Unit** | **Buat Cepat** | Unit kerja, produk, atau pengeluaran. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Quantity** | **Buat Cepat** | Kuantitas kerja, produk, atau pengeluaran. | Nilai ini diatur default ke detail baris kontrak terkait untuk biaya yang dibuat secara otomatis. |
+| **Harga unit** | **Buat Cepat** | Tingkat tagihan peran yang melakukan pekerjaan, harga unit produk, atau harga penjualan produk atau kategori pengeluaran. Default untuk **Waktu** didasarkan pada kombinasi nilai dimensi harga pada baris harga peran pada daftar harga proyek yang berlaku untuk tanggal mulai. Untuk **Pengeluaran**, default untuk bidang ini adalah dari konfigurasi harga untuk kategori transaksi dalam daftar harga proyek yang berlaku untuk tanggal mulai. Jika metode harga untuk kategori transaksi bukan **harga per unit**, tidak ada default, dan bidang ini akan dibiarkan kosong. Untuk produk, default bidang ini didasarkan pada baris **item Daftar harga**  dalam daftar harga proyek yang berlaku untuk tanggal mulai.| Tingkat biaya peran yang melakukan pekerjaan, atau biaya per unit kategori pengeluaran atau biaya per unit dari produk. Default untuk **Waktu** didasarkan pada kombinasi nilai dimensi harga pada baris harga peran pada daftar harga biaya yang dilaporkan ke unit kontrak yang berlaku untuk tanggal mulai. Untuk **Pengeluaran**, default untuk bidang ini didasarkan pada baris harga kategori dari daftar harga biaya yang dilampirkan ke unit kontrak yang berlaku untuk tanggal mulai. Jika metode harga untuk kategori transaksi bukan harga per unit, tidak ada default, dan bidang ini akan dibiarkan kosong. Untuk produk, default untuk bidang ini didasarkan pada baris **Item daftar harga** dari daftar harga biaya yang dilampirkan ke unit kontrak yang berlaku untuk tanggal mulai.|
+| **Perkiraan Pajak** | **Buat Cepat** | Perkiraan pajak untuk pekerjaan atau pengeluaran ini seperti yang diinput oleh pengguna. | &nbsp; |
+| **Jumlah** | **Buat Cepat** | Nilai di bidang ini dapat ditambahkan jika bidang **Kuantitas** dan **Harga** dibiarkan kosong. Jika bidang **Kuantitas** dan **Harga** diisi, bidang **Jumlah** hanya bisa dibaca dan dihitung sebagai **(Kuantitas \* Harga Per Unit) + Pajak**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Memperbarui harga pada rincian baris kontrak
 
-Jika Anda mengubah harga pada daftar harga proyek yang dilampirkan ke kontrak atau daftar harga biaya unit kontrak, Anda dapat menyegarkan harga pada rincian baris kontrak individual untuk mencerminkan perubahan. Pada halaman **kontrak**, pilih **hitung ulang**. Peringatan akan terbuka untuk menginformasikan Anda bahwa harga untuk semua baris kontrak pada kontrak ini diatur ulang. Pilih **ya** untuk menyegarkan harga untuk rincian baris kontrak penjualan dan biaya.
+Jika Anda mengubah harga pada daftar harga proyek yang dilampirkan ke kontrak atau daftar harga biaya unit kontrak, Anda dapat menyegarkan harga pada rincian baris kontrak individual untuk mencerminkan perubahan. Pada halaman **kontrak**, pilih **hitung ulang**. Peringatan muncul untuk memberi tahu Anda bahwa harga untuk semua baris kontrak di kontrak ini diatur ulang. Pilih **ya** untuk menyegarkan harga untuk rincian baris kontrak penjualan dan biaya.
 
 ## <a name="access-contract-line-details-for-cost"></a>Akses rincian baris kontrak untuk biaya
 
@@ -68,7 +73,7 @@ Rincian baris kontrak untuk **Biaya** menetapkan mata uang default dari daftar h
 Perhitungan profitabilitas mengkonversi jumlah rincian baris kontrak untuk **biaya** dan **penjualan** ke dalam mata uang dasar lingkungan untuk melaporkan keseluruhan margin aktual dan perkiraan pada kontrak.
 
 > [!NOTE]
-> Kesalahan membulatkan mata uang dan margin yang berubah dapat terjadi karena tidak ada nilai tukar efektif tanggal. Gunakan penghitungan ini pada kontrak proyek hanya sebagai perkiraan dan bukan untuk peraturan aktual atau pelaporan lainnya yang memerlukan ketepatan lebih tinggi dalam pembulatan dan kesadaran efektivitas tanggal untuk nilai tukar.
+> Kesalahan membulatkan mata uang dan margin yang berubah dapat terjadi karena tidak ada nilai tukar efektif tanggal. Gunakan perhitungan ini hanya pada kontrak proyek karena ini merupakan perkiraan dan bukan untuk pelaporan resmi aktual atau laporan lainnya yang memerlukan presisi pembulatan yang lebih tinggi dan kesadaran terhadap efektivitas tanggal untuk nilai tukar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,24 @@
 ---
-title: Perkiraan pengeluaran
+title: Estimasi keuangan untuk pengeluaran pada proyek
 description: Topik ini memberikan informasi tentang mendefinisikan atau memperkirakan biaya berdasarkan proyek.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287062"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701786"
 ---
-# <a name="expense-estimates"></a>Perkiraan pengeluaran
+# <a name="financial-estimates-for-expenses-on-projects"></a>Estimasi keuangan untuk pengeluaran pada proyek
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Bersama dengan penentuan estimasi berbasis sumber daya, Dynamics 365 Project Operations memungkinkan manajer proyek menentukan pengeluaran berbasis proyek untuk setiap proyek. Setiap item biaya dapat dikaitkan dengan tugas proyek atau kategori pengeluaran tertentu. Kategori pengeluaran biasanya ditentukan pada tingkat organisasi. Harga untuk setiap kategori pengeluaran biasanya didefinisikan dalam hierarki berikut:
-
-- Organisasi
-- Pelanggan
-- Kuotasi/Kontrak
+Dynamics 365 Project Operations memungkinkan manajer proyek menentukan pengeluaran berbasis proyek untuk setiap proyek atau tugas. Setiap item pengeluaran dapat dikaitkan dengan tugas proyek tertentu. Pengeluaran dikategorikan ke dalam berbagai kategori pengeluaran, yang ditentukan pada tingkat organisasional. Harga dan biaya untuk setiap kategori pengeluaran ditentukan dalam daftar harga. 
 
 Selesaikan langkah berikut untuk melihat, menambah, atau menghapus biaya proyek.
 
@@ -30,14 +26,20 @@ Selesaikan langkah berikut untuk melihat, menambah, atau menghapus biaya proyek.
 2. Pilih tab **estimasi proyek** dan lihat daftar pengeluaran proyek.
 3. Pilih **pengeluaran baru** untuk menambahkan pengeluaran. Atau, pilih pengeluaran untuk dihapus, lalu pilih **Hapus pengeluaran**.
 
-Atribut berikut ditentukan untuk setiap item baris pengeluaran:
+Tabel berikut memberikan informasi tentang bidang pada **baris estimasi Pengeluaran** di Proyek. 
 
-- **Kategori**: pengelompokan umum yang digunakan untuk menjelaskan semua pengeluaran yang terjadi pada suatu proyek.
-- **Tanggal mulai**: tanggal saat pengeluaran diperkirakan akan dikeluarkan.
-- **Kuantitas**: perkiraan jumlah item pengeluaran untuk kategori tertentu.
-- **Harga unit biaya**: harga unit yang digunakan untuk menghitung biaya pengeluaran.
-- **Harga unit penjualan**: harga unit yang digunakan untuk menghitung harga penjualan dari pengeluaran.
-
+| **Bidang** | **Deskripsi** | **Dampak hilir** |
+| --- | --- | --- |
+| Tugas | Semua tugas dalam proyek. Ini mencakup tugas node leaf dan ringkasan. | Memilih tugas untuk baris estimasi pengeluaran akan mempengaruhi estimasi biaya pengeluaran dan estimasi penjualan pengeluaran untuk tugas. Jika bidang ini dibiarkan kosong, perkiraan pengeluaran dilacak dan diringkas hanya pada tingkat proyek. |
+| Kategori | Daftar kategori transaksi yang memiliki kategori pengeluaran tertaut pada aplikasi. | Memilih kategori akan mendorong harga dan biaya pada baris estimasi pengeluaran. |
+| Tanggal mulai | Tanggal perkiraan pengeluaran akan terjadi. | Tidak ada dampak hilir untuk bidang ini. |
+| Grup Unit | Nilai default pada bidang ini berasal dari grup unit yang disiapkan sebagai default pada kategori yang dipilih. Anda dapat memperbarui bidang ini untuk memilih grup unit lain. | Tidak ada dampak hilir untuk bidang ini. |
+| Unit | Nilai di bidang ini akan default ke unit default dari kategori yang dipilih. Anda dapat memperbarui bidang ini untuk memilih unit lain. | Mengubah unit menghasilkan biaya dan harga per unit default yang berbeda. |
+| Quantity | Kuantitas estimasi pengeluaran yang akan Anda kenakan. | Tidak ada dampak hilir untuk bidang ini. |
+| Biaya Unit | Biaya kategori dan kombinasi unit yang dipilih sebagaimana diatur dalam daftar harga biaya yang berlaku | Biaya unit selalu ditampilkan dalam mata uang biaya proyek. |
+| Harga Unit | Harga kategori dan kombinasi unit yang dipilih sebagaimana diatur dalam daftar harga penjualan yang berlaku. | Harga per unit selalu ditampilkan dalam mata uang penjualan proyek. |
+| Biaya Total | Jumlah biaya yang dihitung sebagai kuantitas \* biaya per unit.| Jumlah Biaya selalu ditampilkan dalam mata uang biaya proyek. |
+| Penjualan Total | Jumlah penjualan yang dihitung sebagai kuantitas \* harga per unit. | Jumlah penjualan selalu ditampilkan dalam mata uang penjualan proyek. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

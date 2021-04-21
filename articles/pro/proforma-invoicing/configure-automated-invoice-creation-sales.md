@@ -1,29 +1,27 @@
 ---
-title: Mengonfigurasi pembuatan faktur otomatis - lite
-description: Topik ini menyediakan informasi tentang mengonfigurasikan pembuatan otomatis faktur proforma.
+title: Mengonfigurasi pembuatan faktur otomatis
+description: Laporan topik menyediakan informasi tentang mengatur dan mengkonfigurasi pembuatan faktur proforma secara otomatis.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274327"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866821"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Mengonfigurasi pembuatan faktur otomatis - lite
+# <a name="set-up-automatic-invoice-creation"></a>Mengonfigurasi pembuatan faktur otomatis 
  
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Penyebaran Lite- faktur dari penawaran hingga proforma, Project Operations untuk skenario berbasis sumber daya/non-stok_
 
 Anda dapat mengonfigurasi pembuatan faktur otomatis di Dynamics 365 Project Operations. Sistem membuat draf faktur proforma berdasarkan jadwal faktur untuk setiap baris kontrak dan kontrak proyek. Jadwal faktur dikonfigurasi pada tingkat baris kontrak. Setiap baris pada kontrak dapat memiliki jadwal faktur yang berbeda, atau jadwal faktur yang sama dapat disertakan pada setiap baris kontrak.
 
-Bila Anda membuat faktur, sistem selalu membuat minimal satu faktur per kontrak proyek. Dalam kasus tertentu, mungkin terdapat beberapa faktur yang dibuat.
-
-Misalnya, jika kontrak memiliki beberapa pelanggan, jumlah faktur yang sama akan dibuat sebagai jumlah pelanggan yang memiliki transaksi yang dapat ditagih ke faktur pada kontrak proyek tersebut.
+Bila Anda membuat faktur, sistem selalu membuat minimal satu faktur per kontrak proyek. Dalam kasus tertentu, mungkin terdapat beberapa faktur yang dibuat. Misalnya, jika kontrak memiliki beberapa pelanggan, jumlah faktur yang sama akan dibuat sebagai jumlah pelanggan yang memiliki transaksi yang dapat ditagih ke faktur pada kontrak proyek tersebut.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Memahami bagaimana transaksi disertakan dalam faktur 
 

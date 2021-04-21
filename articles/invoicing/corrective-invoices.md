@@ -1,23 +1,23 @@
 ---
-title: Membuat faktur koreksi
-description: Laporan topik memberikan informasi tentang cara membuat dan mengkonfirmasikan faktur perbaikan di Project Operations.
+title: Membuat koreksi faktur berbasis proyek
+description: Laporan topik memberikan informasi tentang faktur koreksi di Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866595"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788866"
 ---
-# <a name="corrective-project-invoices"></a>Membuat faktur koreksi
+# <a name="create-corrective-project-based-invoices"></a>Membuat koreksi faktur berbasis proyek 
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 Faktur proyek yang dikonfirmasi dapat diperbaiki untuk memproses perubahan atau kredit seperti yang dinegosiasikan dengan pelanggan dan manajer proyek.
 
@@ -26,18 +26,17 @@ Untuk melakukan pengeditan pada faktur yang dikonfirmasi, buka faktur yang dikon
 > [!NOTE]
 > Pilihan ini tidak tersedia kecuali faktur proyek dikonfirmasi.
 
-Faktur draf baru dibuat dari faktur yang dikonfirmasi. Semua detail baris faktur dari faktur yang dikonfirmasi sebelumnya disalin ke draf baru. Berikut ini adalah beberapa poin penting untuk dipahami tentang detail baris pada faktur baru yang dikoreksi:
+Faktur draf baru dibuat dari faktur yang dikonfirmasi. Semua detail baris faktur dari faktur yang dikonfirmasi sebelumnya disalin ke draf baru. Berikut ini adalah beberapa poin penting untuk membantu Anda memahami lebih lanjut tentang rincian baris pada faktur dikoreksi yang baru:
 
-- Semua kuantitas diperbarui ke nol. Aplikasi ini mengasumsikan bahwa semua item yang ditagih sepenuhnya dikreditkan. Jika diperlukan, Anda dapat memperbarui jumlah ini secara manual untuk mencerminkan kuantitas yang sedang ditagih, dan bukan kuantitas yang dikreditkan. Berdasarkan kuantitas yang Anda masukkan, aplikasi menghitung jumlah yang dikreditkan. Jumlah ini tercermin dalam aktual yang dibuat ketika faktur yang dikoreksi dikonfirmasi. Jika Anda membuat perubahan pada jumlah pajak, Anda harus memasukkan jumlah pajak yang benar dan bukan jumlah pajak yang dikreditkan.
-- Baris kontrak berbasis produk yang dikonfirmasi sebelumnya tidak disalin. Memproses koreksi pada faktur proyek berbasis produk tidak didukung.
+- Semua kuantitas diperbarui ke nol. Hal ini mengasumsikan bahwa semua item ditagih sepenuhnya dikreditkan. Jika diperlukan, Anda dapat memperbarui jumlah ini secara manual untuk mencerminkan kuantitas yang sedang ditagih, dan bukan kuantitas yang dikreditkan. Berdasarkan kuantitas yang Anda masukkan, aplikasi menghitung jumlah yang dikreditkan. Jumlah ini tercermin dalam aktual yang dibuat ketika faktur yang dikoreksi dikonfirmasi. Jika Anda membuat perubahan pada jumlah pajak, Anda harus memasukkan jumlah pajak yang benar dan bukan jumlah pajak yang dikreditkan.
 - Koreksi tonggak pencapaian selalu diproses sebagai kredit penuh.
 - Panjar atau jumlah uang muka dapat diperbaiki jika pelanggan ditagih dengan jumlah yang salah.
 - Rekonsiliasi panjar dan uang muka dapat diperbaiki jika jumlah yang salah digunakan untuk merekonsiliasi terhadap biaya pada faktur yang dikonfirmasi sebelumnya.
 
 > [!IMPORTANT]
-> Detail baris faktur yang merupakan koreksi biaya lain yang sudah ditagih memiliki bidang **Koreksi** yang diatur ke **Ya**. Faktur yang telah memperbaiki detail baris faktur memiliki bidang yang disebut **Memiliki koreksi** yang juga diatur ke **Ya**.
+> Rincian baris faktur yang merupakan koreksi terhadap tagihan yang sudah ditagih memiliki bidang **Koreksi** yang diatur ke **Ya**. Faktur yang telah memperbaiki detail baris faktur memiliki bidang yang disebut **Memiliki koreksi** yang juga diatur ke **Ya**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Aktual yang dibuat ketika faktur korektif dikonfirmasi
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Aktual yang dibuat pada Konfirmasi faktur korektif
 
 Tabel berikut berisi daftar aktual yang dibuat saat faktur perbaikan dikonfirmasi.
 
@@ -214,51 +213,6 @@ Aktual penjualan baru yang belum ditagih yang kena biaya untuk kuantitas dan jum
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Menagih kredit penuh dari transaksi bahan yang ditagih sebelumnya.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Pembalikan penjualan tertagih untuk kuantitas dan jumlah pada detail baris faktur asli untuk bahan.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Aktual penjualan tak tertagih baru untuk kuantitas dan jumlah pada detail baris faktur asli untuk bahan.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Menagih kredit parsial pada transaksi bahan.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Pembalikan penjualan tertagih untuk kuantitas dan jumlah yang ditagih pada detail baris faktur asli untuk bahan.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Aktual penjualan belum teragih baru yang dibebankan untuk kuantitas dan jumlah pada detail baris faktur yang diedit, pembalikannya, dan aktual penjualan tertagih setara.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Aktual penjualan baru yang belum ditagih yang kena biaya untuk kuantitas dan jumlah yang tersisa setelah dikurangi angka yang dikoreksi pada detail baris faktur.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Menagih kredit penuh dari transaksi ongkos yang ditagih sebelumnya.
                 </p>
             </td>
@@ -319,20 +273,9 @@ Menagih kredit parsial dari tonggak pencapaian yang ditagih sebelumnya.
                 <p>
 Tidak Didukung </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Kredit dan koreksi baris kontrak berbasis produk yang ditagih sebelumnya.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Tidak Didukung </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

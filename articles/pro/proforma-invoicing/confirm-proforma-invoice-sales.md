@@ -1,26 +1,26 @@
 ---
-title: Mengonfirmasikan faktur proforma - lite
-description: Topik ini memberikan informasi tentang mengonfirmasikan faktur proforma di Project Operations.
+title: Mengonfirmasikan faktur proyek proforma
+description: Laporan topik memberikan informasi tentang mengkonfirmasikan faktur proyek di Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274282"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867090"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Mengonfirmasikan faktur proforma - lite
+# <a name="confirm-a-proforma-project-invoice"></a>Mengonfirmasikan faktur proyek proforma 
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 
-Setelah faktur proforma dikonfirmasi, status faktur proyek diperbarui ke **Dikonfirmasi**. Ketika faktur dikonfirmasi, itu menjadi baca-saja. Ke depannya, faktur hanya dapat diperbaiki jika ada koreksi atau kredit yang dimulai pelanggan, atau jika faktur ditandai sebagai dibayar.
+Setelah faktur proforma dikonfirmasi, status faktur proyek diperbarui ke **Dikonfirmasi**. Ketika faktur dikonfirmasi, itu menjadi baca-saja. Selanjutnya, faktur hanya dapat diperbaiki jika ada koreksi atau kredit yang diawali pelanggan.
 
 Tabel berikut ini mencantumkan aktual yang dibuat oleh sistem. Aktual ini dibuat ketika operasi tertentu dilakukan pada draf faktur proyek sebelum dikonfirmasi.
 
@@ -225,6 +225,70 @@ Pembalikan penjualan yang belum ditagih untuk kuantitas dan jumlah saat persetuj
             <td width="408" valign="top">
                 <p>
 Aktual penjualan baru belum ditagih yang dikenakan biaya untuk kuantitas dan jumlah pada detail baris faktur yang diedit, pembalikan aktual penjualan yang belum ditagih, dan aktual penjualan belum ditagih yang setara. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih transaksi bahan tanpa pengeditan pada draf faktur.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan tak tertagih untuk kuantitas dan jumlah saat persetujuan penggunaan bahan asli.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan tertagih untuk kuantitas dan jumlah saat persetujuan penggunaan bahan asli.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Menagih transaksi bahan yang diedit untuk mengurangi kuantitas.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan tak tertagih untuk kuantitas dan jumlah saat persetujuan waktu asli.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru belum ditagih yang dikenakan biaya untuk kuantitas dan jumlah pada detail baris faktur yang diedit, pembalikan aktual penjualan yang belum ditagih, dan aktual penjualan belum ditagih yang setara.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru belum ditagih yang tidak dikenakan biaya untuk sisa kuantitas dan jumlah setelah mengurangkan angka yang dikoreksi pada detail baris faktur yang diedit, pembalikan aktual penjualan yang belum ditagih, dan aktual penjualan belum ditagih yang setara.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih transaksi bahan yang diedit untuk meningkatkan kuantitas.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan tak tertagih untuk kuantitas dan jumlah saat persetujuan penggunaan bahan asli.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru belum ditagih yang dikenakan biaya untuk kuantitas dan jumlah pada detail baris faktur yang diedit, pembalikan aktual penjualan yang belum ditagih, dan aktual penjualan belum ditagih yang setara.
                 </p>
             </td>
         </tr>
