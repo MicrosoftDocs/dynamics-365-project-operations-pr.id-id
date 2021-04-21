@@ -3,7 +3,7 @@ title: Aktual
 description: Pembaruan topik ini menyediakan informasi tentang cara bekerja dengan aktual di Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,329 +16,347 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291803"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852548"
 ---
-# <a name="actuals"></a><span data-ttu-id="782e7-103">Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-103">Actuals</span></span> 
+# <a name="actuals"></a><span data-ttu-id="3dfd1-103">Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-103">Actuals</span></span> 
 
-<span data-ttu-id="782e7-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_</span><span class="sxs-lookup"><span data-stu-id="782e7-104">_**Applies to:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="3dfd1-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-stok, penyebaran Lite -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="3dfd1-104">_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="782e7-105">Nilai aktual adalah jumlah pekerjaan yang telah diselesaikan pada suatu proyek.</span><span class="sxs-lookup"><span data-stu-id="782e7-105">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="782e7-106">Mereka dibuat sebagai hasil dari entri waktu dan pengeluaran, serta entri jurnal dan faktur.</span><span class="sxs-lookup"><span data-stu-id="782e7-106">They are created as a result of time and expense entries, and journal entries and invoices.</span></span>
+<span data-ttu-id="3dfd1-105">Aktual menunjukkan progres keuangan dan jadwal yang ditinjau dan disetujui pada proyek.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-105">Actuals represent the reviewed and approved financial and schedule progress on a project.</span></span> <span data-ttu-id="3dfd1-106">Entri dibuat sebagai hasil dari persetujuan waktu, pengeluaran, entri penggunaan bahan, serta entri jurnal dan faktur.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-106">They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices.</span></span>
 
-## <a name="journal-lines-and-time-submission"></a><span data-ttu-id="782e7-107">Baris jurnal dan penyerahan waktu</span><span class="sxs-lookup"><span data-stu-id="782e7-107">Journal lines and time submission</span></span>
+## <a name="journal-lines-and-time-submission"></a><span data-ttu-id="3dfd1-107">Baris jurnal dan penyerahan waktu</span><span class="sxs-lookup"><span data-stu-id="3dfd1-107">Journal lines and time submission</span></span>
 
-<span data-ttu-id="782e7-108">Untuk informasi lebih lanjut tentang entri waktu, lihat [Ikhtisar entri waktu](../time/time-entry-overview.md).</span><span class="sxs-lookup"><span data-stu-id="782e7-108">For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).</span></span>
+<span data-ttu-id="3dfd1-108">Untuk informasi lebih lanjut tentang entri waktu, lihat [Ikhtisar entri waktu](../time/time-entry-overview.md).</span><span class="sxs-lookup"><span data-stu-id="3dfd1-108">For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).</span></span>
 
-### <a name="time-and-materials"></a><span data-ttu-id="782e7-109">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="782e7-109">Time and materials</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="3dfd1-109">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="3dfd1-109">Time and materials</span></span>
 
-<span data-ttu-id="782e7-110">Bila entri waktu yang dikirim ditautkan ke proyek yang dipetakan ke baris kontrak waktu dan material, sistem akan membuat dua baris jurnal, satu untuk biaya dan satu untuk penjualan yang belum ditagih.</span><span class="sxs-lookup"><span data-stu-id="782e7-110">When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+<span data-ttu-id="3dfd1-110">Bila entri waktu yang dikirim ditautkan ke proyek yang dipetakan ke baris kontrak waktu dan material, sistem akan membuat dua baris jurnal, satu untuk biaya dan satu untuk penjualan yang belum ditagih.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-110">When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
 
-### <a name="fixed-price"></a><span data-ttu-id="782e7-111">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="782e7-111">Fixed price</span></span>
+### <a name="fixed-price"></a><span data-ttu-id="3dfd1-111">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-111">Fixed price</span></span>
 
-<span data-ttu-id="782e7-112">Jika entri waktu yang diajukan tertaut ke proyek yang dipetakan ke baris kontrak waktu harga tetap, sistem membuat satu baris jurnal untuk biaya.</span><span class="sxs-lookup"><span data-stu-id="782e7-112">When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+<span data-ttu-id="3dfd1-112">Jika entri waktu yang diajukan tertaut ke proyek yang dipetakan ke baris kontrak waktu harga tetap, sistem membuat satu baris jurnal untuk biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-112">When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
 
-### <a name="default-pricing"></a><span data-ttu-id="782e7-113">Harga default</span><span class="sxs-lookup"><span data-stu-id="782e7-113">Default pricing</span></span>
+### <a name="default-pricing"></a><span data-ttu-id="3dfd1-113">Harga default</span><span class="sxs-lookup"><span data-stu-id="3dfd1-113">Default pricing</span></span>
 
-<span data-ttu-id="782e7-114">Logika untuk membuat harga default berada pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="782e7-114">The logic for creating default prices resides on the journal line.</span></span> <span data-ttu-id="782e7-115">Nilai bidang dari entri waktu akan disalin ke baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="782e7-115">The field values from the time entry are copied to the journal line.</span></span> <span data-ttu-id="782e7-116">Nilai ini mencakup tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan hasil mata uang dalam daftar harga yang sesuai.</span><span class="sxs-lookup"><span data-stu-id="782e7-116">These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span>
+<span data-ttu-id="3dfd1-114">Logika untuk membuat harga default berada pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-114">The logic for creating default prices resides on the journal line.</span></span> <span data-ttu-id="3dfd1-115">Nilai bidang dari entri waktu akan disalin ke baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-115">The field values from the time entry are copied to the journal line.</span></span> <span data-ttu-id="3dfd1-116">Nilai ini mencakup tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan hasil mata uang dalam daftar harga yang sesuai.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-116">These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span>
 
-<span data-ttu-id="782e7-117">Bidang yang mempengaruhi harga default, seperti **peran** dan **unit organisasi**, digunakan untuk menentukan harga yang sesuai pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="782e7-117">The fields that affect default pricing, such as **Role** and **Org Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="782e7-118">Anda dapat menambahkan bidang kustom pada entri waktu.</span><span class="sxs-lookup"><span data-stu-id="782e7-118">You can add a custom field on the time entry.</span></span> <span data-ttu-id="782e7-119">Jika Anda ingin nilai bidang diterapkan ke aktual, buat bidang pada entitas aktual, dan gunakan pemetaan bidang untuk menyalin bidang dari entri waktu ke aktual.</span><span class="sxs-lookup"><span data-stu-id="782e7-119">If you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
+<span data-ttu-id="3dfd1-117">Bidang yang mempengaruhi harga default, seperti **peran** dan **unit sumber daya**, digunakan untuk menentukan harga yang sesuai untuk dimasukkan secara default pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-117">The fields that affect default pricing, such as **Role** and **Resourcing Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="3dfd1-118">Anda dapat menambahkan bidang kustom pada entri waktu.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-118">You can add a custom field on the time entry.</span></span> <span data-ttu-id="3dfd1-119">Jika Anda menginginkan nilai bidang disebarkan ke aktual, buat bidang dalam tabel **Aktual** dan **Baris Jurnal**.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-119">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="3dfd1-120">Gunakan kode kustom untuk menyebarkan nilai bidang yang dipilih dari Entri Waktu ke Aktual melalui baris jurnal menggunakan asal transaksi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-120">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="3dfd1-121">Untuk informasi lebih lanjut tentang asal transaksi dan koneksi, lihat [Menautkan Aktual ke rekaman asli](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="3dfd1-121">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
 
-## <a name="journal-lines-and-basic-expense-submission"></a><span data-ttu-id="782e7-120">Baris jurnal dan pengajuan pengeluaran dasar</span><span class="sxs-lookup"><span data-stu-id="782e7-120">Journal lines and basic expense submission</span></span>
+## <a name="journal-lines-and-basic-expense-submission"></a><span data-ttu-id="3dfd1-122">Baris jurnal dan pengajuan pengeluaran dasar</span><span class="sxs-lookup"><span data-stu-id="3dfd1-122">Journal lines and basic expense submission</span></span>
 
-<span data-ttu-id="782e7-121">Untuk informasi lebih lanjut tentang entri pengeluaran, lihat [Ikhtisar pengeluaran](../expense/expense-overview.md).</span><span class="sxs-lookup"><span data-stu-id="782e7-121">For more information about expense entry, see [Expense overview](../expense/expense-overview.md).</span></span>
+<span data-ttu-id="3dfd1-123">Untuk informasi lebih lanjut tentang entri pengeluaran, lihat [Ikhtisar pengeluaran](../expense/expense-overview.md).</span><span class="sxs-lookup"><span data-stu-id="3dfd1-123">For more information about expense entry, see [Expense overview](../expense/expense-overview.md).</span></span>
 
-### <a name="time-and-materials"></a><span data-ttu-id="782e7-122">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="782e7-122">Time and materials</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="3dfd1-124">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="3dfd1-124">Time and materials</span></span>
 
-<span data-ttu-id="782e7-123">Bila entri pengeluaran dasar yang dikirim ditautkan ke proyek yang dipetakan ke baris kontrak waktu dan material, sistem akan membuat dua baris jurnal, satu untuk biaya dan satu untuk penjualan yang belum ditagih.</span><span class="sxs-lookup"><span data-stu-id="782e7-123">When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+<span data-ttu-id="3dfd1-125">Bila entri pengeluaran dasar yang dikirim ditautkan ke proyek yang dipetakan ke baris kontrak waktu dan material, sistem akan membuat dua baris jurnal, satu untuk biaya dan satu untuk penjualan yang belum ditagih.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-125">When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
 
-### <a name="fixed-price"></a><span data-ttu-id="782e7-124">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="782e7-124">Fixed price</span></span>
+### <a name="fixed-price"></a><span data-ttu-id="3dfd1-126">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-126">Fixed price</span></span>
 
-<span data-ttu-id="782e7-125">Jika entri pengeluaran dasar yang diajukan tertaut ke proyek yang dipetakan ke baris kontrak waktu harga tetap, sistem membuat satu baris jurnal untuk biaya.</span><span class="sxs-lookup"><span data-stu-id="782e7-125">When a basic expense entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+<span data-ttu-id="3dfd1-127">Jika entri pengeluaran dasar yang diajukan ditautkan ke suatu proyek yang dipetakan ke baris kontrak waktu harga tetap, sistem membuat satu baris jurnal untuk biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-127">When a submitted basic expense entry is linked to a project that's mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
 
-### <a name="default-pricing"></a><span data-ttu-id="782e7-126">Harga default</span><span class="sxs-lookup"><span data-stu-id="782e7-126">Default pricing</span></span>
+### <a name="default-pricing"></a><span data-ttu-id="3dfd1-128">Harga default</span><span class="sxs-lookup"><span data-stu-id="3dfd1-128">Default pricing</span></span>
 
-<span data-ttu-id="782e7-127">Logika untuk memasukkan harga default untuk pengeluaran didasarkan pada kategori pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="782e7-127">The logic for entering default prices for expenses is based on the expense category.</span></span> <span data-ttu-id="782e7-128">Tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan mata uang semua digunakan untuk menentukan daftar harga yang sesuai.</span><span class="sxs-lookup"><span data-stu-id="782e7-128">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="782e7-129">Namun, per default, jumlah yang dimasukkan untuk harga itu sendiri diatur secara langsung pada baris jurnal pengeluaran terkait untuk biaya dan penjualan.</span><span class="sxs-lookup"><span data-stu-id="782e7-129">However, by default, the amount that is entered for the price itself is set directly on the related expense journal lines for cost and sales.</span></span>
+<span data-ttu-id="3dfd1-129">Logika untuk memasukkan harga default untuk pengeluaran didasarkan pada kategori pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-129">The logic for entering default prices for expenses is based on the expense category.</span></span> <span data-ttu-id="3dfd1-130">Tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan mata uang semua digunakan untuk menentukan daftar harga yang sesuai.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-130">The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list.</span></span> <span data-ttu-id="3dfd1-131">Bidang yang mempengaruhi harga default, seperti **Kategori transaksi** dan **unit**, digunakan untuk menentukan harga yang sesuai untuk dimasukkan secara default pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-131">The fields that affect default pricing, such as **Transaction Category** and **Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="3dfd1-132">Namun, hal ini hanya berfungsi bila metode harga dalam daftar harga adalah **Harga per unit**.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-132">However, this only works when the pricing method in the price list is **Price per unit**.</span></span> <span data-ttu-id="3dfd1-133">Jika metode harga **Pada biaya** atau **Markup atas biaya**, harga yang dimasukkan saat entri pengeluaran dibuat akan digunakan untuk biaya dan harga pada baris jurnal penjualan dihitung berdasarkan metode penetapan harga.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-133">If pricing method is **At cost** or **Markup over cost**, the price entered when the expense entry is created is used for cost and the price on the sales journal line is calculated based on the pricing method.</span></span> 
 
-<span data-ttu-id="782e7-130">Entri berdasarkan Kategori dari harga default per unit pada entri pengeluaran tidak tersedia.</span><span class="sxs-lookup"><span data-stu-id="782e7-130">Category-based entry of per-unit default prices on expense entries isn't available.</span></span>
+<span data-ttu-id="3dfd1-134">Anda dapat menambahkan bidang kustom pada entri pengeluaran.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-134">You can add a custom field on the expense entry.</span></span> <span data-ttu-id="3dfd1-135">Jika Anda menginginkan nilai bidang disebarkan ke aktual, buat bidang dalam tabel **Aktual** dan **Baris Jurnal**.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-135">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="3dfd1-136">Gunakan kode kustom untuk menyebarkan nilai bidang yang dipilih dari Entri Waktu ke Aktual melalui baris jurnal menggunakan asal transaksi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-136">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="3dfd1-137">Untuk informasi lebih lanjut tentang asal transaksi dan koneksi, lihat [Menautkan Aktual ke rekaman asli](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="3dfd1-137">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
 
-## <a name="use-entry-journals-to-record-costs"></a><span data-ttu-id="782e7-131">Menggunakan jurnal entri untuk mencatat biaya</span><span class="sxs-lookup"><span data-stu-id="782e7-131">Use entry journals to record costs</span></span>
+## <a name="journal-lines-and-material-usage-log-submission"></a><span data-ttu-id="3dfd1-138">Pengajuan Baris jurnal dan log penggunaan bahan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-138">Journal lines and material usage log submission</span></span>
 
-<span data-ttu-id="782e7-132">Anda dapat menggunakan jurnal entri untuk merekam biaya atau pendapatan dalam materi, biaya, waktu, pengeluaran, atau kelas transaksi pajak.</span><span class="sxs-lookup"><span data-stu-id="782e7-132">You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="782e7-133">Jurnal dapat digunakan untuk tujuan berikut:</span><span class="sxs-lookup"><span data-stu-id="782e7-133">Journals can be used for the following purposes:</span></span>
+<span data-ttu-id="3dfd1-139">Untuk informasi lebih lanjut tentang entri pengeluaran, lihat [Log Penggunaan Bahan](../material/material-usage-log.md).</span><span class="sxs-lookup"><span data-stu-id="3dfd1-139">For more information about expense entry, see [Material Usage Log](../material/material-usage-log.md).</span></span>
 
-- <span data-ttu-id="782e7-134">Mencatat biaya aktual material dan penjualan pada proyek.</span><span class="sxs-lookup"><span data-stu-id="782e7-134">Record the actual cost of materials and sales on a project.</span></span>
-- <span data-ttu-id="782e7-135">Pindahkan aktual transaksi dari sistem lain ke Microsoft Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="782e7-135">Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.</span></span>
-- <span data-ttu-id="782e7-136">Mencatat biaya yang terjadi di sistem lain.</span><span class="sxs-lookup"><span data-stu-id="782e7-136">Record costs that occurred in another system.</span></span> <span data-ttu-id="782e7-137">Biaya ini dapat mencakup biaya pengadaan atau subkontrak.</span><span class="sxs-lookup"><span data-stu-id="782e7-137">These costs can include procurement or subcontracting costs.</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="3dfd1-140">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="3dfd1-140">Time and materials</span></span>
+
+<span data-ttu-id="3dfd1-141">Bila entri log penggunaan bahan yang diajukan ditautkan ke proyek yang dipetakan ke baris kontrak waktu dan bahan, sistem membuat dua baris jurnal, satu untuk biaya dan satu untuk penjualan yang belum tertagih.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-141">When a submitted material usage log entry is linked to a project that is mapped to a time and materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+
+### <a name="fixed-price"></a><span data-ttu-id="3dfd1-142">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-142">Fixed price</span></span>
+
+<span data-ttu-id="3dfd1-143">Jika entri log penggunaan bahan yang diajukan ditautkan ke suatu proyek yang dipetakan ke baris kontrak waktu harga tetap, sistem membuat satu baris jurnal untuk biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-143">When a submitted material usage log entry is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+
+### <a name="default-pricing"></a><span data-ttu-id="3dfd1-144">Harga default</span><span class="sxs-lookup"><span data-stu-id="3dfd1-144">Default pricing</span></span>
+
+<span data-ttu-id="3dfd1-145">Logika untuk memasukkan harga default untuk bahan didasarkan pada kombinasi produk dan unit.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-145">The logic for entering default prices for material is based on the product and unit combination.</span></span> <span data-ttu-id="3dfd1-146">Tanggal transaksi, baris kontrak yang dipetakan ke proyek, dan mata uang semua digunakan untuk menentukan daftar harga yang sesuai.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-146">The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list.</span></span> <span data-ttu-id="3dfd1-147">Bidang yang mempengaruhi harga default, seperti **ID produk** dan **unit**, digunakan untuk menentukan harga yang sesuai untuk dimasukkan secara default pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-147">The fields that affect default pricing, such as **Product ID** and **Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="3dfd1-148">Namun, ini hanya berfungsi untuk produk katalog.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-148">However, this only works for catalog products.</span></span> <span data-ttu-id="3dfd1-149">Untuk produk pilihan, harga yang dimasukkan saat entri log penggunaan bahan dibuat digunakan untuk biaya dan harga penjualan di baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-149">For write-in products, the price entered when the material usage log entry is created is used for cost and sales price on the journal lines.</span></span> 
+
+<span data-ttu-id="3dfd1-150">Anda dapat menambahkan bidang kustom pada entri **Log Penggunaan Bahan**.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-150">You can add a custom field on the **Material Usage Log** entry.</span></span> <span data-ttu-id="3dfd1-151">Jika Anda menginginkan nilai bidang disebarkan ke aktual, buat bidang dalam tabel **Aktual** dan **Baris Jurnal**.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-151">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="3dfd1-152">Gunakan kode kustom untuk menyebarkan nilai bidang yang dipilih dari Entri Waktu ke Aktual melalui baris jurnal menggunakan asal transaksi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-152">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="3dfd1-153">Untuk informasi lebih lanjut tentang asal transaksi dan koneksi, lihat [Menautkan Aktual ke rekaman asli](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="3dfd1-153">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
+
+## <a name="use-entry-journals-to-record-costs"></a><span data-ttu-id="3dfd1-154">Menggunakan jurnal entri untuk mencatat biaya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-154">Use entry journals to record costs</span></span>
+
+<span data-ttu-id="3dfd1-155">Anda dapat menggunakan jurnal entri untuk merekam biaya atau pendapatan dalam materi, biaya, waktu, pengeluaran, atau kelas transaksi pajak.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-155">You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="3dfd1-156">Jurnal dapat digunakan untuk tujuan berikut:</span><span class="sxs-lookup"><span data-stu-id="3dfd1-156">Journals can be used for the following purposes:</span></span>
+
+- <span data-ttu-id="3dfd1-157">Pindahkan aktual transaksi dari sistem lain ke Microsoft Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-157">Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.</span></span>
+- <span data-ttu-id="3dfd1-158">Mencatat biaya yang terjadi di sistem lain.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-158">Record costs that occurred in another system.</span></span> <span data-ttu-id="3dfd1-159">Biaya ini dapat mencakup biaya pengadaan atau subkontrak.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-159">These costs can include procurement or subcontracting costs.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="782e7-138">Aplikasi tidak memvalidasi jenis baris jurnal atau harga terkait yang dimasukkan pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="782e7-138">The application doesn't validate the journal line type or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="782e7-139">Oleh karena itu, hanya pengguna yang sepenuhnya menyadari dampak akuntansi yang dimiliki aktual pada proyeklah yang harus menggunakan jurnal entri untuk membuat aktual.</span><span class="sxs-lookup"><span data-stu-id="782e7-139">Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals.</span></span> <span data-ttu-id="782e7-140">Karena dampak jenis jurnal ini, Anda harus hati-hati memilih siapa yang memiliki akses untuk membuat jurnal entri.</span><span class="sxs-lookup"><span data-stu-id="782e7-140">Because of the impact of this journal type, you should carefully choose who has access to create entry journals.</span></span>
-## <a name="record-actuals-based-on-project-events"></a><span data-ttu-id="782e7-141">Mencatat aktual berdasarkan aktivitas proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-141">Record actuals based on project events</span></span>
+> <span data-ttu-id="3dfd1-160">Aplikasi tidak memvalidasi jenis baris jurnal atau harga terkait yang dimasukkan pada baris jurnal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-160">The application doesn't validate the journal line type or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="3dfd1-161">Oleh karena itu, hanya pengguna yang sepenuhnya menyadari dampak akuntansi yang dimiliki aktual pada proyeklah yang harus menggunakan jurnal entri untuk membuat aktual.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-161">Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals.</span></span> <span data-ttu-id="3dfd1-162">Karena dampak jenis jurnal ini, Anda harus hati-hati memilih siapa yang memiliki akses untuk membuat jurnal entri.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-162">Because of the impact of this journal type, you should carefully choose who has access to create entry journals.</span></span>
 
-<span data-ttu-id="782e7-142">Project Operations mencatat transaksi keuangan yang terjadi selama proyek berlangsung.</span><span class="sxs-lookup"><span data-stu-id="782e7-142">Project Operations records the financial transactions that occur during a project.</span></span> <span data-ttu-id="782e7-143">Transaksi ini direkam sebagai aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-143">These transactions are recorded as actuals.</span></span> <span data-ttu-id="782e7-144">Tabel berikut Menampilkan jenis aktual yang berbeda yang dibuat, tergantung apakah proyek adalah proyek waktu dan bahan atau proyek harga tetap, dalam tahap pra-penjualan, atau merupakan proyek internal.</span><span class="sxs-lookup"><span data-stu-id="782e7-144">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+## <a name="record-actuals-based-on-project-events"></a><span data-ttu-id="3dfd1-163">Mencatat aktual berdasarkan aktivitas proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-163">Record actuals based on project events</span></span>
 
-### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a><span data-ttu-id="782e7-145">Sumber daya adalah milik unit organisasi yang sama dengan unit kontrak proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-145">The resource belongs to same organizational unit as the project's contracting unit</span></span>
+<span data-ttu-id="3dfd1-164">Project Operations mencatat transaksi keuangan yang terjadi selama proyek berlangsung.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-164">Project Operations records the financial transactions that occur during a project.</span></span> <span data-ttu-id="3dfd1-165">Transaksi ini direkam sebagai aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-165">These transactions are recorded as actuals.</span></span> <span data-ttu-id="3dfd1-166">Tabel berikut Menampilkan jenis aktual yang berbeda yang dibuat, tergantung apakah proyek adalah proyek waktu dan bahan atau proyek harga tetap, dalam tahap pra-penjualan, atau merupakan proyek internal.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-166">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+
+### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a><span data-ttu-id="3dfd1-167">Sumber daya adalah milik unit organisasi yang sama dengan unit kontrak proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-167">The resource belongs to same organizational unit as the project's contracting unit</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="782e7-146">Aktivitas</span><span class="sxs-lookup"><span data-stu-id="782e7-146">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="782e7-147">Proyek yang dapat ditagih atau dijual</span><span class="sxs-lookup"><span data-stu-id="782e7-147">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="782e7-148">Proyek dalam tahap pra-penjualan</span><span class="sxs-lookup"><span data-stu-id="782e7-148">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="782e7-149">Proyek internal</span><span class="sxs-lookup"><span data-stu-id="782e7-149">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3dfd1-168">Aktivitas</span><span class="sxs-lookup"><span data-stu-id="3dfd1-168">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="3dfd1-169">Proyek yang dapat ditagih atau dijual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-169">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3dfd1-170">Proyek dalam tahap pra-penjualan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-170">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="3dfd1-171">Proyek internal</span><span class="sxs-lookup"><span data-stu-id="3dfd1-171">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="782e7-150">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="782e7-150">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="782e7-151">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="782e7-151">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="3dfd1-172">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="3dfd1-172">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="3dfd1-173">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-173">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="782e7-152">Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-152">Actuals</span></span></th>
-<th><span data-ttu-id="782e7-153">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="782e7-153">Transaction currency</span></span></th>
-<th><span data-ttu-id="782e7-154">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="782e7-154">Fixed price</span></span></th>
-<th><span data-ttu-id="782e7-155">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="782e7-155">Transaction currency</span></span></th>
+<th><span data-ttu-id="3dfd1-174">Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-174">Actuals</span></span></th>
+<th><span data-ttu-id="3dfd1-175">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="3dfd1-175">Transaction currency</span></span></th>
+<th><span data-ttu-id="3dfd1-176">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-176">Fixed price</span></span></th>
+<th><span data-ttu-id="3dfd1-177">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="3dfd1-177">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="782e7-156">Entri Waktu dibuat.</span><span class="sxs-lookup"><span data-stu-id="782e7-156">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="782e7-157">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-157">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3dfd1-178">Entri Waktu dibuat.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-178">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="3dfd1-179">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-179">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-158">Entri Waktu diajukan.</span><span class="sxs-lookup"><span data-stu-id="782e7-158">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="782e7-159">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-159">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3dfd1-180">Entri Waktu diajukan.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-180">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="3dfd1-181">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-181">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="782e7-160">Waktu disetujui, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="782e7-160">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="782e7-161">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-161">Cost actual</span></span></td>
-<td><span data-ttu-id="782e7-162">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-162">Contracting unit currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-163">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-163">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-164">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-164">Contracting unit currency</span></span>
-<td rowspan="2"><span data-ttu-id="782e7-165">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-165">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-166">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-166">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-182">Waktu disetujui, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-182">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3dfd1-183">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-183">Cost actual</span></span></td>
+<td><span data-ttu-id="3dfd1-184">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-184">Contracting unit currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-185">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-185">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-186">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-186">Contracting unit currency</span></span>
+<td rowspan="2"><span data-ttu-id="3dfd1-187">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-187">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-188">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-188">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-167">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya</span><span class="sxs-lookup"><span data-stu-id="782e7-167">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="782e7-168">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-168">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-189">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-189">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="3dfd1-190">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-190">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="782e7-169">Waktu disetujui, dan penurunan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="782e7-169">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="782e7-170">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-170">Cost actual</span></span></td>
-<td><span data-ttu-id="782e7-171">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-171">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-172">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-172">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-173">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-173">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-174">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-174">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-175">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-175">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-191">Waktu disetujui, dan penurunan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-191">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3dfd1-192">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-192">Cost actual</span></span></td>
+<td><span data-ttu-id="3dfd1-193">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-193">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-194">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-194">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-195">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-195">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-196">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-196">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-197">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-197">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-176">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="782e7-176">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="782e7-177">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-177">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-198">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="3dfd1-198">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3dfd1-199">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-199">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-178">Aktual penjualan Belum Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="782e7-178">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="782e7-179">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-179">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-200">Aktual penjualan Belum Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-200">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3dfd1-201">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-201">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="782e7-180">Faktur dikonfirmasi, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="782e7-180">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="782e7-181">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-181">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="782e7-182">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-182">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-183">Penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="782e7-183">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-184">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-184">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-185">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-185">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-186">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-186">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-202">Faktur dikonfirmasi, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-202">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3dfd1-203">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-203">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-204">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-204">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-205">Penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="3dfd1-205">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-206">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-206">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-207">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-207">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-208">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-208">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-187">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-187">Billed sales</span></span></td>
-<td><span data-ttu-id="782e7-188">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-188">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-209">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-209">Billed sales</span></span></td>
+<td><span data-ttu-id="3dfd1-210">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-210">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="782e7-189">Faktur dikonfirmasi, dan penurunan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="782e7-189">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="782e7-190">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-190">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="782e7-191">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-191">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-192">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-192">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-193">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-193">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-194">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-194">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-195">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-195">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-211">Faktur dikonfirmasi, dan penurunan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-211">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3dfd1-212">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-212">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-213">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-213">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-214">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-214">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-215">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-215">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-216">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-216">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-217">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-217">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-196">Penjualan Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="782e7-196">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="782e7-197">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-197">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-218">Penjualan Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="3dfd1-218">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3dfd1-219">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-219">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-198">Penjualan Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="782e7-198">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="782e7-199">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-199">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-220">Penjualan Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-220">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3dfd1-221">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-221">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="782e7-200">Faktur diperbaiki untuk meningkatkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="782e7-200">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="782e7-201">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="782e7-201">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="782e7-202">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-202">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-222">Faktur diperbaiki untuk meningkatkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-222">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3dfd1-223">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-223">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-224">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-224">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="782e7-203">Pembalikan penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="782e7-203">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="782e7-204">Perubahan status tonggak waktu dari <strong>ditagih</strong> ke <strong>siap untuk faktur</strong></span><span class="sxs-lookup"><span data-stu-id="782e7-204">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="3dfd1-225">Pembalikan penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="3dfd1-225">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="3dfd1-226">Perubahan status tonggak waktu dari <strong>ditagih</strong> ke <strong>siap untuk faktur</strong></span><span class="sxs-lookup"><span data-stu-id="3dfd1-226">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="782e7-205">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-205">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-206">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-206">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-207">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-207">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-227">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-227">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-228">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-228">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-229">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-229">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-208">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-208">Billed sales</span></span></td>
-<td><span data-ttu-id="782e7-209">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-209">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-230">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-230">Billed sales</span></span></td>
+<td><span data-ttu-id="3dfd1-231">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-231">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="782e7-210">Faktur diperbaiki untuk menurunkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="782e7-210">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="782e7-211">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="782e7-211">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="782e7-212">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-212">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-232">Faktur diperbaiki untuk menurunkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-232">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3dfd1-233">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-233">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-234">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-234">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-213">Penjualan Tertagih untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="782e7-213">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="782e7-214">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-214">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-235">Penjualan Tertagih untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="3dfd1-235">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="3dfd1-236">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-236">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-215">Penjualan Tidak Tertagih – Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="782e7-215">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="782e7-216">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-216">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-237">Penjualan Tidak Tertagih – Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-237">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3dfd1-238">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-238">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a><span data-ttu-id="782e7-217">Sumber daya adalah milik unit organisasi yang berbeda dengan unit kontrak proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-217">The resource belongs to an organizational unit that differs from the project's contracting unit</span></span>
+### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a><span data-ttu-id="3dfd1-239">Sumber daya adalah milik unit organisasi yang berbeda dengan unit kontrak proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-239">The resource belongs to an organizational unit that differs from the project's contracting unit</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="782e7-218">Aktivitas</span><span class="sxs-lookup"><span data-stu-id="782e7-218">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="782e7-219">Proyek yang dapat ditagih atau dijual</span><span class="sxs-lookup"><span data-stu-id="782e7-219">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="782e7-220">Proyek dalam tahap pra-penjualan</span><span class="sxs-lookup"><span data-stu-id="782e7-220">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="782e7-221">Proyek internal</span><span class="sxs-lookup"><span data-stu-id="782e7-221">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3dfd1-240">Aktivitas</span><span class="sxs-lookup"><span data-stu-id="3dfd1-240">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="3dfd1-241">Proyek yang dapat ditagih atau dijual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-241">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="3dfd1-242">Proyek dalam tahap pra-penjualan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-242">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="3dfd1-243">Proyek internal</span><span class="sxs-lookup"><span data-stu-id="3dfd1-243">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="782e7-222">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="782e7-222">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="782e7-223">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="782e7-223">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="3dfd1-244">Waktu dan Material</span><span class="sxs-lookup"><span data-stu-id="3dfd1-244">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="3dfd1-245">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-245">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="782e7-224">Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-224">Actuals</span></span></th>
-<th><span data-ttu-id="782e7-225">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="782e7-225">Transaction currency</span></span></th>
-<th><span data-ttu-id="782e7-226">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="782e7-226">Fixed price</span></span></th>
-<th><span data-ttu-id="782e7-227">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="782e7-227">Transaction currency</span></span></th>
+<th><span data-ttu-id="3dfd1-246">Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-246">Actuals</span></span></th>
+<th><span data-ttu-id="3dfd1-247">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="3dfd1-247">Transaction currency</span></span></th>
+<th><span data-ttu-id="3dfd1-248">Harga Tetap</span><span class="sxs-lookup"><span data-stu-id="3dfd1-248">Fixed price</span></span></th>
+<th><span data-ttu-id="3dfd1-249">mata uang transaksi</span><span class="sxs-lookup"><span data-stu-id="3dfd1-249">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="782e7-228">Entri Waktu dibuat.</span><span class="sxs-lookup"><span data-stu-id="782e7-228">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="782e7-229">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-229">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3dfd1-250">Entri Waktu dibuat.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-250">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="3dfd1-251">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-251">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-230">Entri Waktu diajukan.</span><span class="sxs-lookup"><span data-stu-id="782e7-230">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="782e7-231">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-231">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="3dfd1-252">Entri Waktu diajukan.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-252">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="3dfd1-253">Tidak ada aktivitas di entitas aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-253">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="4"><span data-ttu-id="782e7-232">Waktu disetujui, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="782e7-232">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="782e7-233">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-233">Cost actual</span></span></td>
-<td><span data-ttu-id="782e7-234">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-234">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="782e7-235">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-235">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="782e7-236">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-236">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="782e7-237">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-237">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="782e7-238">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-238">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="3dfd1-254">Waktu disetujui, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-254">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3dfd1-255">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-255">Cost actual</span></span></td>
+<td><span data-ttu-id="3dfd1-256">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-256">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="3dfd1-257">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-257">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="3dfd1-258">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-258">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="3dfd1-259">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-259">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="3dfd1-260">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-260">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-239">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya</span><span class="sxs-lookup"><span data-stu-id="782e7-239">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="782e7-240">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-240">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-261">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-261">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="3dfd1-262">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-262">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-241">Biaya Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="782e7-241">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="782e7-242">Mata uang Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="782e7-242">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="3dfd1-263">Biaya Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-263">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="3dfd1-264">Mata uang Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-264">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-243">Penjualan Interorganisasi</span><span class="sxs-lookup"><span data-stu-id="782e7-243">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="782e7-244">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-244">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="3dfd1-265">Penjualan Interorganisasi</span><span class="sxs-lookup"><span data-stu-id="3dfd1-265">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="3dfd1-266">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-266">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="5"><span data-ttu-id="782e7-245">Waktu disetujui, dan penurunan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="782e7-245">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="782e7-246">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-246">Cost actual</span></span></td>
-<td><span data-ttu-id="782e7-247">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-247">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-248">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-248">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-249">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-249">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-250">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-250">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-251">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="782e7-251">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-267">Waktu disetujui, dan penurunan dalam jam yang dapat ditagih terjadi selama persetujuan.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-267">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="3dfd1-268">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-268">Cost actual</span></span></td>
+<td><span data-ttu-id="3dfd1-269">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-269">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-270">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-270">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-271">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-271">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-272">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-272">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-273">Biaya Aktual</span><span class="sxs-lookup"><span data-stu-id="3dfd1-273">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-252">Biaya Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="782e7-252">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="782e7-253">Mata uang Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="782e7-253">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="3dfd1-274">Biaya Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-274">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="3dfd1-275">Mata uang Unit Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="3dfd1-275">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-254">Penjualan Interorganisasi</span><span class="sxs-lookup"><span data-stu-id="782e7-254">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="782e7-255">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="782e7-255">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="3dfd1-276">Penjualan Interorganisasi</span><span class="sxs-lookup"><span data-stu-id="3dfd1-276">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="3dfd1-277">Mata uang Unit Kontrak</span><span class="sxs-lookup"><span data-stu-id="3dfd1-277">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-256">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="782e7-256">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="782e7-257">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-257">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-278">Aktual penjualan Belum Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="3dfd1-278">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3dfd1-279">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-279">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-258">Aktual penjualan Belum Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="782e7-258">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="782e7-259">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-259">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-280">Aktual penjualan Belum Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-280">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3dfd1-281">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-281">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="782e7-260">Faktur dikonfirmasi, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="782e7-260">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="782e7-261">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-261">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="782e7-262">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-262">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-263">Penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="782e7-263">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-264">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-264">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-265">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-265">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="782e7-266">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-266">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-282">Faktur dikonfirmasi, dan tidak ada perubahan atau peningkatan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-282">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3dfd1-283">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-283">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-284">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-284">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-285">Penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="3dfd1-285">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-286">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-286">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-287">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-287">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-288">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-288">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-267">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-267">Billed sales</span></span></td>
-<td><span data-ttu-id="782e7-268">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-268">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-289">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-289">Billed sales</span></span></td>
+<td><span data-ttu-id="3dfd1-290">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-290">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="782e7-269">Faktur dikonfirmasi, dan penurunan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="782e7-269">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="782e7-270">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-270">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="782e7-271">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-271">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-272">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-272">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-273">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-273">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-274">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-274">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="782e7-275">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-275">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-291">Faktur dikonfirmasi, dan penurunan dalam jam yang dapat ditagih terjadi.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-291">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="3dfd1-292">Pembalikan penjualan yang tidak ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-292">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-293">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-293">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-294">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-294">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-295">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-295">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-296">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-296">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-297">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-297">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-276">Penjualan Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="782e7-276">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="782e7-277">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-277">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-298">Penjualan Tertagih – Dapat Dikenakan Biaya untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="3dfd1-298">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="3dfd1-299">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-299">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-278">Penjualan Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="782e7-278">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="782e7-279">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-279">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-300">Penjualan Tertagih – Tidak Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-300">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3dfd1-301">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-301">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="782e7-280">Faktur diperbaiki untuk meningkatkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="782e7-280">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="782e7-281">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="782e7-281">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="782e7-282">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-282">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="3dfd1-302">Faktur diperbaiki untuk meningkatkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-302">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3dfd1-303">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-303">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-304">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-304">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="782e7-283">Pembalikan penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="782e7-283">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="782e7-284">Perubahan status tonggak waktu dari <strong>ditagih</strong> ke <strong>siap untuk faktur</strong></span><span class="sxs-lookup"><span data-stu-id="782e7-284">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="3dfd1-305">Pembalikan penjualan yang ditagih untuk tonggak waktu</span><span class="sxs-lookup"><span data-stu-id="3dfd1-305">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="3dfd1-306">Perubahan status tonggak waktu dari <strong>ditagih</strong> ke <strong>siap untuk faktur</strong></span><span class="sxs-lookup"><span data-stu-id="3dfd1-306">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="782e7-285">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-285">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-286">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-286">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="782e7-287">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="782e7-287">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-307">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-307">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-308">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-308">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="3dfd1-309">Tidak berlaku</span><span class="sxs-lookup"><span data-stu-id="3dfd1-309">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-288">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="782e7-288">Billed sales</span></span></td>
-<td><span data-ttu-id="782e7-289">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-289">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-310">Penjualan yang Ditagih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-310">Billed sales</span></span></td>
+<td><span data-ttu-id="3dfd1-311">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-311">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="782e7-290">Faktur diperbaiki untuk menurunkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="782e7-290">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="782e7-291">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="782e7-291">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="782e7-292">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-292">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="3dfd1-312">Faktur diperbaiki untuk menurunkan kuantitas yang dikenai biaya.</span><span class="sxs-lookup"><span data-stu-id="3dfd1-312">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="3dfd1-313">penjualan tertagih – Pembalikan</span><span class="sxs-lookup"><span data-stu-id="3dfd1-313">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="3dfd1-314">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-314">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-293">Penjualan Tertagih untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="782e7-293">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="782e7-294">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-294">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-315">Penjualan Tertagih untuk kuantitas baru</span><span class="sxs-lookup"><span data-stu-id="3dfd1-315">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="3dfd1-316">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-316">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="782e7-295">Penjualan Tidak Tertagih – Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="782e7-295">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="782e7-296">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="782e7-296">Project contract currency</span></span></td>
+<td><span data-ttu-id="3dfd1-317">Penjualan Tidak Tertagih – Dapat Dikenakan Biaya untuk selisih</span><span class="sxs-lookup"><span data-stu-id="3dfd1-317">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="3dfd1-318">Mata uang Kontrak Proyek</span><span class="sxs-lookup"><span data-stu-id="3dfd1-318">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
