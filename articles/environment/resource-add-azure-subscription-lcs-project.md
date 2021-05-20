@@ -3,17 +3,17 @@ title: Menambahkan langganan Azure ke proyek LCS
 description: Topik ini menyediakan informasi tentang cara menyambungkan langganan Azure ke proyek lcs.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289913"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880542"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
 
@@ -62,7 +62,7 @@ Otorisasi sekarang selesai.
 3. Di bidang **Konfigurasikan untuk menggunakan Azure Resource Manager**, pilih **ya**.
 4. Pastikan domain penyewa AAD langganan Azure cocok dengan langganan Azure pemilik domain yang Anda gunakan, lalu pilih **berikutnya**.
 5. Di layar **konfigurasi Microsoft Azure**, pilih **berikutnya** untuk mengonfirmasi. Jika Anda menerima kesalahan pada layar ini, kembali ke bagian [menyediakan akses Dynamics Deployment Services ke langganan Azure](#provide) di topik ini, dan pastikan Anda telah menyelesaikan semua langkah.
-6. Unduh sertifikat Manajemen Azure ke folder lokal di komputer, lalu Unggah ke Portal Manajemen Azure dengan membuka **pengaturan** > **sertifikat Manajemen**. Sertifikat ini akan mengaktifkan LCS untuk berkomunikasi dengan Azure atas nama Anda. Anda dapat melewatkan langkah ini jika pengguna Anda memiliki akses ke langganan.
+6. Unduh Sertifikat Manajemen Azure ke folder lokal di komputer Anda. Minta administrator langganan Azure untuk mengunggah sertifikat ke Portal Manajemen Azure dengan memilih langganan dan masuk ke **Pengaturan** > **Manajemen Sertifikat**. Sertifikat ini memungkinkan LCS berkomunikasi dengan Azure atas nama Anda. Anda dapat melewatkan langkah ini jika pengguna Anda memiliki akses ke langganan.
 7. Pilih  **Selanjutnya**.
 8. Pilih kawasan Azure untuk disebarkan, lalu pilih pusat data yang dekat dengan lokasi Anda berencana menggunakan sistem ini.
 9.  Pilih  **Sambungkan**.

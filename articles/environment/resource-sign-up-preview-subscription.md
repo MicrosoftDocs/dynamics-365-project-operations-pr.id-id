@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4c2cd4c5d4dfbb95398932d432864cf0d4d5d54d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276847"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948468"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok
 
@@ -92,7 +92,7 @@ Untuk menyelesaikan tugas ini, ikuti langkah-langkah di topik, [tambahkan langga
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Terapkan lingkungan demo Finance dengan Project Operations untuk skenario sumber daya/non-stok
 
-Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau. 
+Ikuti panduan di topik, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi CDS
 

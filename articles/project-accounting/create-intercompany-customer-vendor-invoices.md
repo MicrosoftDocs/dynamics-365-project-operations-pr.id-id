@@ -3,17 +3,17 @@ title: Membuat faktur vendor dan pelanggan antarperusahaan
 description: Topik ini memberikan informasi tentang cara membuat faktur pelanggan dan vendor antarperusahaan.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287467"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948399"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Membuat faktur vendor dan pelanggan antarperusahaan
 
@@ -25,7 +25,9 @@ Akuntan proyek untuk entitas hukum pemberi pinjaman dapat mengonfigurasi proses 
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Membuat faktur pelanggan antarperusahaan secara manual untuk transaksi proyek 
 
-Gunakan prosedur ini untuk membuat faktur pelanggan antarperusahaan secara manual untuk transaksi proyek. Cari jumlah jam yang diposting oleh pekerja pada proyek di entitas hukum peminjam dan untuk biaya yang ditimbulkan oleh entitas hukum Anda atas nama entitas hukum peminjam. Anda dapat mencari berdasarkan nama entitas hukum, nomor kontrak proyek, nomor proyek, rentang tanggal, atau kombinasi beberapa pilihan ini. Di hasil pencarian, pilih transaksi untuk ditambahkan ke faktur antarperusahaan.
+Gunakan prosedur ini untuk membuat faktur pelanggan antarperusahaan secara manual untuk transaksi proyek. Cari jumlah jam yang diposting oleh pekerja pada proyek di entitas hukum peminjam dan untuk biaya yang ditimbulkan oleh entitas hukum Anda atas nama entitas hukum peminjam. Anda dapat mencari berdasarkan nama entitas hukum, nomor kontrak proyek, nomor proyek, rentang tanggal, atau kombinasi beberapa pilihan ini. Di hasil pencarian, pilih transaksi untuk ditambahkan ke faktur antarperusahaan. 
+
+Langkah-langkah berikut harus dilakukan dalam entitas hukum pemberian kredit. 
 
 1. Di Dynamics 365 Finance, buka **Manajemen dan akuntansi proyek** > **Faktur proyek** > **Faktur pelanggan antarperusahaan**. Pada halaman daftar **Faktur pelanggan antarperusahaan**, di Panel Tindakan, pilih **Baru**.
 2. Pada halaman **Buat faktur antarperusahaan**, di bidang **Entitas hukum**, pilih entitas hukum peminjam.
@@ -35,9 +37,9 @@ Gunakan prosedur ini untuk membuat faktur pelanggan antarperusahaan secara manua
 6. Di hasil pencarian, pilih transaksi yang akan disertakan dalam proposal faktur antarperusahaan, lalu pilih **OK**.
 7. Pada halaman **Faktur pelanggan antarperusahaan**, transaksi proyek antarperusahaan yang Anda pilih dari hasil pencarian akan ditampilkan. Untuk mengubah transaksi sebelum Anda mengirim faktur ke entitas hukum peminjam, lakukan langkah-langkah berikut:
   
-    1. Buka halaman **Buat proposal faktur**. Pilih transaksi antarperusahaan tambahan untuk faktur saat ini, lalu pilih **Tambah baris**.
+    1. Di halaman **faktur pelanggan antar perusahaan**, buka rincian faktur, lalu pilih **Tambah baris**.
     2. Untuk menghilangkan baris, pilih komponen, lalu pilih **Hilangkan**.
-    3. Lihat komentar, alasan, dimensi keuangan, dan informasi lainnya tentang baris yang dipilih pada FastTab **Baris faktur**.
+    3. Lihat komentar, alasan, dimensi keuangan, dan informasi lain tentang baris yang dipilih pada rincian baris faktur.
     
 8. Untuk memposting faktur pelanggan antarperusahaan, pada Panel Tindakan, pilih **Posting**.
 
@@ -52,7 +54,7 @@ Anda dapat membuat beberapa faktur antarperusahaan secara bersamaan untuk semua 
 2. Pada halaman **Buat faktur pelanggan antarperusahaan**, di bidang **Perusahaan**, pilih entitas hukum yang akan dibuatkan fakturnya. Jika Anda tidak memilih perusahaan, semua transaksi yang memenuhi kriteria pencarian akan ditampilkan untuk semua entitas hukum peminjam.
 3. Di **Buat satu faktur per**, pilih apakah akan membuat faktur untuk transaksi antarperusahaan berdasarkan proyek atau berdasarkan entitas hukum peminjam.
 4. Opsional: Untuk memilih proyek dan kontrak proyek tertentu untuk membuat faktur antarperusahaan, klik **Pilih**. Pada halaman **Pertanyaan**, di bidang **Kriteria**, pilih kontrak proyek, nomor proyek, atau keduanya, lalu pilih **OK**.
-5. Pada tab **Batch**, konfigurasikan proses batch untuk membuat faktur antarperusahaan secara berulang. Untuk informasi lebih lanjut, lihat [Mengirimkan pekerjaan pemrosesan batch dari formulir](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Pada tab **Batch**, konfigurasikan proses batch untuk membuat faktur antarperusahaan secara berulang. Untuk informasi lebih lanjut, lihat [Mengirimkan pekerjaan pemrosesan batch dari formulir](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Untuk memposting faktur antarperusahaan, pada Panel Tindakan, pilih **Posting**.
 
 > [!NOTE]

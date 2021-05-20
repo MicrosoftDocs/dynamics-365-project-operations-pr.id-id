@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877539"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948243"
 ---
 # <a name="project-operations-updates"></a>Pembaruan Project Operations
 
@@ -49,23 +49,23 @@ Pembaruan untuk Project Operations pada lingkungan Dataverse tersedia setiap bul
 | Stasiun   | Kawasan        | Versi saat ini | Versi berikutnya | Umumnya tersedia |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Stasiun 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Rilis pertama |  4.9.0.221       | TBD     | 23 Apr 21           |
+|   &nbsp;  | Rilis pertama |  4.9.0.221       | TBD     | 30 Apr 21           |
 | Stasiun 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan |  4.9.0.221       | TBD     | 23 Apr 21           |
-|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 23 Apr 21           |
-|   &nbsp;  | India         |  4.9.0.221       | TBD     | 23 Apr 21           |
-|   &nbsp;  | Prancis         |  4.9.0.221       | TBD     | 23 Apr 21           |
-|   &nbsp;  | Uni Emirat Arab         |  4.9.0.221       | TBD     | 23 Apr 21           |
-|   &nbsp;  | Afrika Selatan         |  4.9.0.221       | TBD     | 23 Apr 21           |
+|   &nbsp;  | Amerika Selatan |  4.9.0.221       | TBD     | 30 Apr 21           |
+|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 30 Apr 21           |
+|   &nbsp;  | India         |  4.9.0.221       | TBD     | 30 Apr 21           |
+|   &nbsp;  | Prancis         |  4.9.0.221       | TBD     | 30 Apr 21           |
+|   &nbsp;  | Uni Emirat Arab         |  4.9.0.221       | TBD     | 30 Apr 21           |
+|   &nbsp;  | Afrika Selatan         |  4.9.0.221       | TBD     | 30 Apr 21           |
 | Stasiun 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Jepang         |  4.9.0.221       | TBD     | 30 Apr 21           |
-|   &nbsp;  | Asia Pasifik  |  4.9.0.221       | TBD     | 30 Apr 21           |
-|   &nbsp;  | Britania Raya |  4.9.0.221       | TBD     | 30 Apr 21           |
-|   &nbsp;  | Oseania       |  4.9.0.221       | TBD     | 30 Apr 21           |
+|   &nbsp;  | Jepang         |  4.9.0.221       | TBD     | 07 Mei 21           |
+|   &nbsp;  | Asia Pasifik  |  4.9.0.221       | TBD     | 07 Mei 21           |
+|   &nbsp;  | Britania Raya |  4.9.0.221       | TBD     | 07 Mei 21           |
+|   &nbsp;  | Oseania       |  4.9.0.221       | TBD     | 07 Mei 21           |
 | Stasiun 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Eropa        |  4.8.0.92       | 4.9.0.221     | 16 Apr 21           |
+|   &nbsp;  | Eropa        |  4.9.0.221       | TBD     | 14 Mei 21           |
 | Stasiun 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amerika Utara |  4.8.0.92       | 4.9.0.221     | 23 Apr 21           |
+|   &nbsp;  | Amerika Utara |  4.9.0.221       | TBD     | 21 Mei 21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations
 
@@ -73,15 +73,15 @@ Pembaruan untuk manajemen proyek dan akuntansi dirilis delapan kali dalam setahu
 
 | Rilis yang didukung | Umumnya tersedia (pembaruan mandiri) |
 | --- | --- |
+| 10.0.18 | 16 April 2021 |
 | 10.0.17 | 19 Maret 2021 |
 | 10.0.16 | 22 January 2021 |
 
 
-Tanggal rilis yang ditargetkan dapat berubah. Untuk informasi lebih lanjut, lihat [Ketersediaan pembaruan layanan](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Tanggal rilis yang ditargetkan dapat berubah. Untuk informasi lebih lanjut, lihat [Ketersediaan pembaruan layanan](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Tanggal rilis yang ditargetkan | Umumnya tersedia (diperbarui mandiri) |
 | --- | --- |
-| 10.0.18 | 16 April 2021 |
 | 10.0.19 | 18 Juni 2021 |
 | 10.0.20 | 16 Juli 2021 |
 

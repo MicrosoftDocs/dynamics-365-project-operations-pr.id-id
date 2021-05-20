@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283777"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948150"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Panduan Pengguna untuk Project Resource Hub
 
@@ -48,7 +48,7 @@ Ada dua jenis [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-
 ## <a name="install-the-mobile-app"></a>Instal aplikasi mobile
 Sebelum Anda dapat mulai menggunakan aplikasi Project Resource Hub, Anda harus menginstal aplikasi seluler di perangkat. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instal Dynamics 365 for phones and tablet](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instal Dynamics 365 for phones and tablet](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Navigasi Dasar
 1.  Bila Anda masuk ke aplikasi seluler, Anda akan melihat halaman MyApps berisi daftar aplikasi yang Anda akses. 
@@ -99,7 +99,7 @@ Masukkan pengeluaran Anda setidaknya setiap pekan—atau pada frekuensi yang dim
 5. Lanjutkan memasukkan pengeluaran selama seminggu. Ketika Anda sudah selesai dan segala sesuatu tampak benar, ketuk **Ajukan**. Manajer akan meninjau dan menyetujui pengeluaran Anda.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Informasi umum tentang cara menggunakan aplikasi seluler 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panduan Dasar-dasar perangkat bergerak](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panduan Dasar-dasar perangkat bergerak](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Lihat Juga  
  [Ikhtisar Project Service](../psa/overview.md)   

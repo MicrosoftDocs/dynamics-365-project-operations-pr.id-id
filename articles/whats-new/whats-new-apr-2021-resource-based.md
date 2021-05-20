@@ -3,18 +3,18 @@ title: Yang baru di April 2021 - Project Operations untuk skenario berbasis sumb
 description: Pembaruan topik ini menyediakan informasi tentang pembaruan kualitas yang tersedia di rilis Project Operations april 2021 untuk skenario berbasis sumber daya/non stok.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867997"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935478"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di April 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
@@ -33,8 +33,26 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
   - Memperkirakan dan menentukan harga bahan yang tidak tersedia selama siklus penjualan untuk proyek. Untuk informasi lebih lanjut, lihat [Mengonfigurasikan biaya dan tarif penjualan untuk produk katalog - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Melacak penggunaan bahan yang tidak tersedia selama pelaksanaan proyek. Untuk informasi lebih lanjut, lihat [Merekam penggunaan bahan pada proyek dan tugas proyek](../material/material-usage-log.md).
   - Menagih biaya bahan non stok yang digunakan. Untuk informasi lebih lanjut, [lihat Mengelola akumulasi penagihan](../proforma-invoicing/manage-billing-backlog.md).
+  - Untuk informasi tentang cara mengkonfigurasi fitur ini, lihat [Mengkonfigurasi bahan non-stok dan faktur vendor tertunda](../procurement/configure-materials-nonstocked.md)
 - Penagihan berbasis tugas: Menambahkan kemampuan untuk mengaitkan tugas proyek dengan baris kontrak proyek, sehingga tergantung pada metode penagihan, frekuensi faktur, dan pelanggan yang sama seperti yang ada di baris kontrak. Keterkaitan ini memastikan faktur, akuntansi, estimasi pendapatan, dan pengakuan yang akurat untuk berfungsi sesuai dengan konfigurasi ini pada tugas proyek.
 - API baru di Dynamics 365 Dataverse memungkinkan operasi buat, perbarui, dan hapus dengan **entitas Penjadwalan**. Untuk informasi lebih lanjut, lihat [Menggunakan API Jadwal untuk melakukan operasi dengan entitas Penjadwalan](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Pembaruan peta Penulisan Ganda Project Operations
+
+Daftar berikut menampilkan peta penulisan ganda yang telah dimodifikasi atau ditambahkan dalam rilis Project Operations April 2021.
+
+| **Peta entitas** | **Pembaruan versi** | **Komentar** |
+| --- | --- | --- |
+| Aktual Integrasi Project Operations (msdyn\_actuals) | 1.0.0.14 | Petakan dimodifikasi untuk mensinkronisasi aktual proyek bahan. |
+| Entitas integrasi Project Operations untuk estimasi pengeluaran (msdyn\_estimateslines) | 1.0.0.2 | Menambahkan sinkronisasi baris kontrak proyek ke aplikasi Finance and Operations untuk dukungan penagihan berbasis tugas. |
+| Entitas integrasi Project Operations untuk estimasi jam (msdyn\_resourceassignments) | 1.0.0.5 | Menambahkan sinkronisasi baris kontrak proyek ke aplikasi Finance and Operations untuk dukungan penagihan berbasis tugas. |
+| Tabel integrasi Project Operations untuk estimasi bahan (msdyn\_estimatelines) | 1.0.0.0 | Peta tabel baru untuk mensinkronisasikan estimasi bahan dari Dataverse ke aplikasi Finance and Operations. |
+| Entitas ekspor faktur vendor proyek integrasi Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Peta tabel baru untuk mensinkronisasikan header faktur vendor dari aplikasi Finance and Operations ke Dataverse. |
+| Entitas ekspor baris faktur vendor proyek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Peta tabel baru untuk mensinkronisasikan baris faktur vendor dari aplikasi Finance and Operations ke Dataverse. |
+
+Anda harus selalu menjalankan versi peta terbaru di lingkungan Anda dan mengaktifkan semua peta tabel terkait saat memperbarui solusi Project Operations Dataverse dan versi solusi Finance and Operations Anda. Fitur dan kemampuan tertentu mungkin tidak berfungsi dengan benar jika versi peta terbaru tidak diaktifkan. Anda dapat melihat versi aktif peta pada kolom **Versi** pada halaman **Penulisan ganda**. Anda dapat mengaktifkan versi baru peta dengan memilih **versi peta Tabel**, memilih versi terbaru, kemudian menyimpan versi yang dipilih. Jika Anda telah menyesuaikan peta tabel siap pakai, aplikasikan ulang perubahan. Untuk informasi lebih lanjut, lihat [manajemen siklus hidup aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Jika Anda menemui masalah saat memulai peta, ikuti petunjuk dalam bagian [masalah kolom tabel Tidak Ada pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) dari panduan pemecahan masalah Penulisan ganda.
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
@@ -67,7 +85,7 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
 
 | **Area fitur** | **Nomor Referensi** | **Pembaruan kualitas** |
 | --- | --- | --- |
-| Manajemen proyek dan akuntansi | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminasi estimasi terbalik tidak berfungsi dalam **Berkala**.  |
+| Manajemen proyek dan akuntansi | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Penghapusan perkiraan mundur tidak berfungsi pada bagian **Berkala**.  |
 | Manajemen proyek dan akuntansi | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Fitur **penyesuaian akuntansi** membuat masalah dengan akun buku besar yang **tidak mengizinkan entri manual** dipilih. |
 | Manajemen proyek dan akuntansi | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Menambahkan logika bisnis untuk memproses faktur koreksi termasuk jumlah panjar atau jumlah panjar yang diterapkan. |
 | Manajemen proyek dan akuntansi | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP - nilai penjualan yang diposting dalam pembuatan faktur proyek antarperusahaan memilih akun yang tidak terduga. |

@@ -3,17 +3,17 @@ title: Membuat transaksi antarperusahaan
 description: Topik ini memberikan informasi tentang cara membuat transaksi antarperusahaan.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287422"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880452"
 ---
 # <a name="create-intercompany-transactions"></a>Membuat transaksi antarperusahaan
 
@@ -62,7 +62,7 @@ Molly Clark, pengembang yang bekerja di GBPM mencatat 10 jam kerja untuk proyek 
     4. Atur mata uang ke **USD**.
     5. Simpan rekaman ini.
 3. Buka **Penjualan** > **Kontrak Proyek** dan buat kontrak proyek baru untuk Adventure Works.
-    1. Atur Perusahaan pemilik ke **USPM** dan unit kontrak ke **Contoso Robotics US**.
+    1. Atur perusahaan pemilik ke **USPM** dan unit kontrak ke **Contoso Robotics US**.
     2. Pilih Adventure Works sebagai pelanggan.
     3. Pilih daftar harga produk dan simpan record.
     4. Di tab **Baris Kontrak**, buat baris kontrak baru. Atur nama, lalu pilih **Waktu dan Materi** sebagai metode penagihan.
@@ -94,7 +94,7 @@ Molly Clark, pengembang yang bekerja di GBPM mencatat 10 jam kerja untuk proyek 
     Penjualan yang belum tertagih ini sekarang siap untuk pembuatan faktur. Faktur untuk Adventure Works pelanggan dapat diposting secara finansial bila diperlukan.
 
 10. Masuk sebagai akuntan **GBPM**. Buka instans Keuangan di Project Operations, dan buka **GBPM** perusahaan. 
-11. Buka **Manajemen dan akuntansi proyek** > **Berkala** > **Project Operations di Customer Engagement** > **Impor dari penahapan** dan jalankan proses berkala untuk mengisi jurnal Project Operations Integration.
+11. Buka **Manajemen proyek dan akuntansi** > **Berkala** > **Integrasi Project Operations** > **Impor dari tabel penahapan** dan jalankan proses berkala untuk mengisi jurnal Integrasi Project Operations.
 12. Buka **Manajemen dan akuntansi proyek** > **Jurnal** > **jurnal integrasi Project Operations** dan tinjau barisnya. Sistem membuat item berikut ini.
 
     | **Jenis transaksi** | **Harga** | **mata uang transaksi** | **Jumlah** |

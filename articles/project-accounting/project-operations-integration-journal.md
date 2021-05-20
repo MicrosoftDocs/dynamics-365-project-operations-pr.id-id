@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287242"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948334"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
@@ -38,7 +38,7 @@ Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nila
 Baris jurnal dibuat berdasarkan aktual proyek. Daftar berikut ini mencakup beberapa aturan default dan transformasi yang lebih penting:
 
   - Setiap transaksi aktual proyek memiliki baris dalam jurnal Integrasi Project Operations. Biaya dan transaksi penjualan yang tidak tertagih untuk jenis penagihan waktu dan material ditampilkan pada baris terpisah.
-  - Bidang **Tanggal** menunjukkan tanggal transaksi. Bidang **Tanggal akuntansi** menunjukkan tanggal di mana transaksi dicatat ke buku besar. Jika tanggal akuntansi berada dalam [periode keuangan tertutup](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), dan parameter **secara otomatis menetapkan tanggal akuntansi ke periode buku besar terbuka** ditetapkan pada tab **Keuangan** dari halaman parameter **manajemen proyek dan akuntansi**, sistem akan menyesuaikan tanggal akuntansi transaksi ke tanggal pertama dalam periode buku besar terbuka berikutnya.
+  - Bidang **Tanggal** menunjukkan tanggal transaksi. Bidang **Tanggal akuntansi** menunjukkan tanggal di mana transaksi dicatat ke buku besar. Jika tanggal akuntansi berada dalam [periode keuangan tertutup](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), dan parameter **secara otomatis menetapkan tanggal akuntansi ke periode buku besar terbuka** ditetapkan pada tab **Keuangan** dari halaman parameter **manajemen proyek dan akuntansi**, sistem akan menyesuaikan tanggal akuntansi transaksi ke tanggal pertama dalam periode buku besar terbuka berikutnya.
   - Kolom **Voucher** menunjukkan nomor voucher untuk setiap transaksi aktual. Urutan nomor voucher didefinisikan pada tab **Urutan angka**, pada halaman parameter **manajemen Proyek dan akuntansi**. Setiap baris diberi nomor baru. Setelah voucher diposting, Anda dapat melihat bagaimana biaya dan transaksi penjualan yang belum ditagih terkait dengan memilih **voucher terkait** pada halaman **transaksi voucher**.
   - Bidang **kategori** mewakili transaksi proyek dan di-default berdasarkan Kategori transaksi untuk aktual proyek terkait.
     - Jika **kategori transaksi** diatur dalam aktual proyek dan **kategori proyek** ada di entitas hukum tertentu, kategori di-default ke kategori proyek ini.
