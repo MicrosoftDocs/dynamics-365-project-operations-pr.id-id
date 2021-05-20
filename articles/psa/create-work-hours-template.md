@@ -1,6 +1,6 @@
 ---
-title: Membuat template jam kerja baru
-description: Bagaimana membuat template jam kerja di Project Service
+title: Membuat template jam kerja
+description: Topik ini mendeskripsikan bagaimana membuat template jam kerja di Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285037"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981259"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="2a70e-103">Buat template jam kerja (Project Service)</span><span class="sxs-lookup"><span data-stu-id="2a70e-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="ebe3c-103">Buat template jam kerja (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ebe3c-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="2a70e-104">Sebelum Anda membuat Jadwal proyek, Anda harus mengatur kalender proyek yang mendefinisikan jumlah jam kerja untuk mengakomodasi setiap hari dalam jadwal dan penutupan bisnis apapun.</span><span class="sxs-lookup"><span data-stu-id="2a70e-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="2a70e-105">Anda melakukan ini dengan template jam kerja, yang berisi rincian tentang jam kerja per hari, hari libur, dan setiap penutupan bisnis lainnya.</span><span class="sxs-lookup"><span data-stu-id="2a70e-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="2a70e-106">Ketika Anda membuat sebuah proyek, Anda mengaitkan template kerja ke kalender proyek untuk menerapkan jadwal untuk proyek.</span><span class="sxs-lookup"><span data-stu-id="2a70e-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="2a70e-107">Ada dua cara Anda dapat membuat template jam kerja:</span><span class="sxs-lookup"><span data-stu-id="2a70e-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="2a70e-108">Membuat template jam kerja berdasarkan kalender sumber daya.</span><span class="sxs-lookup"><span data-stu-id="2a70e-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="2a70e-109">Membuat template jam kerja baru.</span><span class="sxs-lookup"><span data-stu-id="2a70e-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="2a70e-110">Membuat template jam kerja berdasarkan kalender sumber daya</span><span class="sxs-lookup"><span data-stu-id="2a70e-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="2a70e-111">Lihat **Project Service > Sumber Daya**.</span><span class="sxs-lookup"><span data-stu-id="2a70e-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="2a70e-112">Pilih sumber daya sebagai dasar jam kerja Anda.</span><span class="sxs-lookup"><span data-stu-id="2a70e-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="2a70e-113">Klik **Simpan kalender sebagai**, masukkan nama untuk template jam kerja, dan kemudian klik **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="2a70e-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="2a70e-114">Setelah selesai mengubah opsi, klik **Simpan dan tutup**.</span><span class="sxs-lookup"><span data-stu-id="2a70e-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="2a70e-115">Klik tombol **Simpan** di sudut kanan bawah layar.</span><span class="sxs-lookup"><span data-stu-id="2a70e-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="2a70e-116">Membuat template jam kerja baru</span><span class="sxs-lookup"><span data-stu-id="2a70e-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="2a70e-117">Pergi ke **Project Service > template jam kerja**.</span><span class="sxs-lookup"><span data-stu-id="2a70e-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="2a70e-118">Klik **Baru**.</span><span class="sxs-lookup"><span data-stu-id="2a70e-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="2a70e-119">Masukkan nama untuk template jam kerja.</span><span class="sxs-lookup"><span data-stu-id="2a70e-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="2a70e-120">Pilih sumber daya sebagai dasar jam kerja, dan kemudian klik **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="2a70e-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="2a70e-121">Lihat Juga</span><span class="sxs-lookup"><span data-stu-id="2a70e-121">See Also</span></span>  
- [<span data-ttu-id="2a70e-122">Konfigurasi Sumber Daya</span><span class="sxs-lookup"><span data-stu-id="2a70e-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="ebe3c-104">Untuk membuat dan mengelola proyek, Anda harus menerapkan template kalender ke proyek.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="ebe3c-105">Template kalender menentukan atribut proyek berikut:</span><span class="sxs-lookup"><span data-stu-id="ebe3c-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="ebe3c-106">Jam kerja, termasuk waktu mulai dan berakhir</span><span class="sxs-lookup"><span data-stu-id="ebe3c-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="ebe3c-107">Hari kerja</span><span class="sxs-lookup"><span data-stu-id="ebe3c-107">Working days</span></span>
+- <span data-ttu-id="ebe3c-108">Pengecualian kalender seperti non-hari kerja</span><span class="sxs-lookup"><span data-stu-id="ebe3c-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="ebe3c-109">Template kalender yang diterapkan ke proyek adalah salinan template kalender yang ditentukan dalam pengaturan organisasi Anda.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ebe3c-110">Jika Anda mengubah template kalender, perubahan tersebut tidak akan diterapkan ke jam kerja proyek.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="ebe3c-111">Untuk mengubah jam kerja proyek, template baru harus diterapkan.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="ebe3c-112">Untuk membuat template kalender untuk organisasi Anda, ada dua persyaratan utama:</span><span class="sxs-lookup"><span data-stu-id="ebe3c-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="ebe3c-113">Tentukan jam kerja yang diinginkan dari template menggunakan sumber daya baru atau saat ini yang dapat dipesan.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="ebe3c-114">Buat template kalender baru dan kaitkan template dengan sumber daya yang dapat dipesan.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="ebe3c-115">**Tentukan jam kerja template**</span><span class="sxs-lookup"><span data-stu-id="ebe3c-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="ebe3c-116">Buka **Sumber Daya** \> **Sumber daya**.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="ebe3c-117">Buat sumber daya baru untuk referensi di template kalender, atau pilih sumber daya yang ada.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="ebe3c-118">Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) agar dapat mengkonfigurasi aturan kalender.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="ebe3c-119">**Membuat template kalender baru**</span><span class="sxs-lookup"><span data-stu-id="ebe3c-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="ebe3c-120">Buka **Pengaturan** \> **Template Kalender**.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="ebe3c-121">Pilih **Baru**, lalu masukkan nama, deskripsi, dan sumber daya template.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="ebe3c-122">Bila sumber daya direferensikan di template kalender, salinan kalender sumber daya dikaitkan dengan template kalender.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="ebe3c-123">Jika jam kerja template yang disalin berubah, perubahan tersebut tidak akan diperbanyak ke template kalender.</span><span class="sxs-lookup"><span data-stu-id="ebe3c-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="ebe3c-124">Lihat Juga</span><span class="sxs-lookup"><span data-stu-id="ebe3c-124">See Also</span></span>  
+ [<span data-ttu-id="ebe3c-125">Konfigurasi sumber daya</span><span class="sxs-lookup"><span data-stu-id="ebe3c-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
