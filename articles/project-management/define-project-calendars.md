@@ -1,9 +1,9 @@
 ---
 title: Menentukan kalender proyek
-description: Topik ini menyediakan informasi tentang penggunaan kalender proyek untuk melacak jadwal proyek.
+description: Halaman topik ini menyediakan informasi tentang cara menerapkan template kalender ke proyek untuk melacak jadwal proyek.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286972"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981304"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="130ca-103">Menentukan kalender proyek</span><span class="sxs-lookup"><span data-stu-id="130ca-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="db2eb-103">Menentukan kalender proyek</span><span class="sxs-lookup"><span data-stu-id="db2eb-103">Define project calendars</span></span>
 
-<span data-ttu-id="130ca-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="130ca-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="db2eb-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_</span><span class="sxs-lookup"><span data-stu-id="db2eb-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="130ca-105">Untuk membuat jadwal proyek, Anda membuat template kalender proyek yang mendefinisikan jumlah jam kerja setiap hari dan penutupan bisnis apapun.</span><span class="sxs-lookup"><span data-stu-id="130ca-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="130ca-106">Untuk membuat template kalender proyek, Anda mengaitkan template kerja dengan bidang **template kalender** untuk proyek.</span><span class="sxs-lookup"><span data-stu-id="130ca-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="130ca-107">Ikuti langkah berikut untuk membuat template kerja.</span><span class="sxs-lookup"><span data-stu-id="130ca-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="db2eb-105">Untuk membuat dan mengelola proyek, Anda harus menerapkan template kalender ke proyek.</span><span class="sxs-lookup"><span data-stu-id="db2eb-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="db2eb-106">Template kalender menentukan atribut proyek berikut:</span><span class="sxs-lookup"><span data-stu-id="db2eb-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="130ca-108">Pilih **Sumber daya** di panel navigasi kiri.</span><span class="sxs-lookup"><span data-stu-id="130ca-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="130ca-109">Di halaman daftar **sumber daya**, buka rekaman pengguna, lalu pilih **Tampilkan Jam Kerja**.</span><span class="sxs-lookup"><span data-stu-id="130ca-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="db2eb-107">Jam kerja, termasuk waktu mulai dan berakhir</span><span class="sxs-lookup"><span data-stu-id="db2eb-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="db2eb-108">Hari kerja</span><span class="sxs-lookup"><span data-stu-id="db2eb-108">Working days</span></span>
+- <span data-ttu-id="db2eb-109">Pengecualian kalender seperti non-hari kerja</span><span class="sxs-lookup"><span data-stu-id="db2eb-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="130ca-110">Pastikan Anda mengizinkan pop-up di halaman browser.</span><span class="sxs-lookup"><span data-stu-id="130ca-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="130ca-111">Dengan demikian, Anda dapat melihat jam kerja yang ditetapkan untuk sumber daya.</span><span class="sxs-lookup"><span data-stu-id="130ca-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="130ca-112">Pada tab **tampilan bulanan**, pilih **Atur**.</span><span class="sxs-lookup"><span data-stu-id="130ca-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="130ca-113">Daftar tiga pilihan muncul:</span><span class="sxs-lookup"><span data-stu-id="130ca-113">A list of three options appears:</span></span> 
+<span data-ttu-id="db2eb-110">Template kalender yang diterapkan ke proyek adalah salinan template kalender yang ditentukan dalam pengaturan organisasi Anda.</span><span class="sxs-lookup"><span data-stu-id="db2eb-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="130ca-114">Jadwal Mingguan Baru</span><span class="sxs-lookup"><span data-stu-id="130ca-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="130ca-115">Jadwal Kerja untuk Satu Hari</span><span class="sxs-lookup"><span data-stu-id="130ca-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="130ca-116">Waktu Nonaktif</span><span class="sxs-lookup"><span data-stu-id="130ca-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="db2eb-111">Jika Anda mengubah template kalender, perubahan tersebut tidak akan diterapkan ke jam kerja proyek.</span><span class="sxs-lookup"><span data-stu-id="db2eb-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="db2eb-112">Untuk mengubah jam kerja proyek, template baru harus diterapkan.</span><span class="sxs-lookup"><span data-stu-id="db2eb-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="130ca-117">Pilih **jadwal mingguan baru**, lalu Atur pilihan untuk jadwal sumber daya ini.</span><span class="sxs-lookup"><span data-stu-id="130ca-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="130ca-118">Anda dapat mengatur jadwal mingguan yang berulang, parameter jam harian, penutupan bisnis, dan banyak lagi.</span><span class="sxs-lookup"><span data-stu-id="130ca-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="130ca-119">Atur rentang tanggal, pilih **Simpan**, lalu pilih **tutup**.</span><span class="sxs-lookup"><span data-stu-id="130ca-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="130ca-120">Kembali ke halaman daftar **sumber daya**, dan pilih sumber daya yang Anda tetapkan jam kerja.</span><span class="sxs-lookup"><span data-stu-id="130ca-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="130ca-121">Pilih **Atur kalender sebagai** untuk mengatur template kerja.</span><span class="sxs-lookup"><span data-stu-id="130ca-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="130ca-122">Di kotak dialog **template kerja**, masukkan nama untuk template kerja, lalu pilih **Terapkan**.</span><span class="sxs-lookup"><span data-stu-id="130ca-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="db2eb-113">Untuk membuat template kalender untuk organisasi Anda, ada dua persyaratan utama:</span><span class="sxs-lookup"><span data-stu-id="db2eb-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="130ca-123">Sekarang Anda dapat mengaitkan template kerja dengan template kalender proyek.</span><span class="sxs-lookup"><span data-stu-id="130ca-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="db2eb-114">Tentukan jam kerja yang diinginkan dari template menggunakan sumber daya baru atau saat ini yang dapat dipesan.</span><span class="sxs-lookup"><span data-stu-id="db2eb-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="db2eb-115">Buat template kalender baru dan kaitkan template dengan sumber daya yang dapat dipesan.</span><span class="sxs-lookup"><span data-stu-id="db2eb-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="db2eb-116">**Tentukan jam kerja template**</span><span class="sxs-lookup"><span data-stu-id="db2eb-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="db2eb-117">Buka **Sumber Daya** \> **Sumber daya**.</span><span class="sxs-lookup"><span data-stu-id="db2eb-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="db2eb-118">Buat sumber daya baru untuk referensi di template kalender, atau pilih sumber daya yang ada.</span><span class="sxs-lookup"><span data-stu-id="db2eb-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="db2eb-119">Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) agar dapat mengkonfigurasi aturan kalender.</span><span class="sxs-lookup"><span data-stu-id="db2eb-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="db2eb-120">**Membuat template kalender baru**</span><span class="sxs-lookup"><span data-stu-id="db2eb-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="db2eb-121">Buka **Pengaturan** \> **Template Kalender**.</span><span class="sxs-lookup"><span data-stu-id="db2eb-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="db2eb-122">Pilih **Baru**, lalu masukkan nama, deskripsi, dan sumber daya template.</span><span class="sxs-lookup"><span data-stu-id="db2eb-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="db2eb-123">Bila sumber daya direferensikan di template kalender, salinan kalender sumber daya dikaitkan dengan template kalender.</span><span class="sxs-lookup"><span data-stu-id="db2eb-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="db2eb-124">Jika jam kerja template yang disalin berubah, perubahan tersebut tidak akan diperbanyak ke template kalender.</span><span class="sxs-lookup"><span data-stu-id="db2eb-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="db2eb-125">Sekarang Anda dapat mengaitkan template kerja dengan template kalender proyek.</span><span class="sxs-lookup"><span data-stu-id="db2eb-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
