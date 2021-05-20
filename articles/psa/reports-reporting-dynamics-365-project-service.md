@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283282"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951483"
 ---
 # <a name="reporting-home-page"></a>Laman beranda pelaporan
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283282"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation memungkinkan organisasi berbasis proyek secara efisien mengelola operasi bisnis mereka. Pada setiap proyek, anggota tim harus mengelola peluang, kuotasi, dan merencanakan pekerjaan, sumber daya proyek, mengelola pekerjaan sesuai rencana, menagih pekerjaan, dan kemudian melakukan pekerjaan untuk menyelesaikan proyek. Kemampuan untuk melaporkan operasi adalah kunci untuk menentukan kesehatan organisasi dan melakukan tindakan perbaikan yang diperlukan. PSA menggunakan metode pelaporan dan teknologi Microsoft Dynamics 365 untuk semua pelaporan. Untuk informasi lebih lanjut tentang pilihan pelaporan, lihat [panduan penulisan laporan untuk Dynamics 365 Customer Engagement (on-premises), versi 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation memungkinkan organisasi berbasis proyek secara efisien mengelola operasi bisnis mereka. Pada setiap proyek, anggota tim harus mengelola peluang, kuotasi, dan merencanakan pekerjaan, sumber daya proyek, mengelola pekerjaan sesuai rencana, menagih pekerjaan, dan kemudian melakukan pekerjaan untuk menyelesaikan proyek. Kemampuan untuk melaporkan operasi adalah kunci untuk menentukan kesehatan organisasi dan melakukan tindakan perbaikan yang diperlukan. PSA menggunakan metode pelaporan dan teknologi Microsoft Dynamics 365 untuk semua pelaporan. Untuk informasi lebih lanjut tentang pilihan pelaporan, lihat [panduan penulisan laporan untuk Dynamics 365 Customer Engagement (on-premises), versi 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Wizard Laporan
 
-Wizard laporan memungkinkan non-pengembang membuat laporan sederhana. Karena aplikasi ini dibuat di platform yang ada, pengalaman sama dengan pengalaman yang didokumentasikan di [membuat atau mengedit laporan menggunakan wizard laporan](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Namun, Anda akan menggunakan entitas khusus Project Service Automation.
+Wizard laporan memungkinkan non-pengembang membuat laporan sederhana. Karena aplikasi ini dibuat di platform yang ada, pengalaman sama dengan pengalaman yang didokumentasikan di [membuat atau mengedit laporan menggunakan wizard laporan](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Namun, Anda akan menggunakan entitas khusus Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Laporan SQL Server Reporting Services
 
-Jika bisnis Anda memerlukan laporan tertentu yang tidak dapat dibuat dengan menggunakan wizard laporan, Anda dapat membuat laporan kustom. Anda harus menginstal Microsoft Visual Studio, bersama dengan Microsoft SQL Server Data Tools yang sesuai dan ekstensi penulisan laporan. Untuk informasi lebih lanjut tentang alat dan versi, Lihat [lingkungan penulisan laporan menggunakan SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Untuk informasi tentang cara membuat laporan kustom, lihat [membuat laporan baru menggunakan SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Jika bisnis Anda memerlukan laporan tertentu yang tidak dapat dibuat dengan menggunakan wizard laporan, Anda dapat membuat laporan kustom. Anda harus menginstal Microsoft Visual Studio, bersama dengan Microsoft SQL Server Data Tools yang sesuai dan ekstensi penulisan laporan. Untuk informasi lebih lanjut tentang alat dan versi, Lihat [lingkungan penulisan laporan menggunakan SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Untuk informasi tentang cara membuat laporan kustom, lihat [membuat laporan baru menggunakan SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>aplikasi wawasan Power BI
 

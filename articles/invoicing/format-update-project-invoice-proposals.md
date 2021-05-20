@@ -3,17 +3,17 @@ title: Mengelola proposal faktur proyek
 description: Laporan topik ini memberikan rincian tentang memproses faktur yang dihadapi pelanggan dengan Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275857"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950718"
 ---
 # <a name="manage-project-invoice-proposals"></a>Mengelola proposal faktur proyek
 
@@ -80,7 +80,8 @@ Baris kontrak proyek yang menggunakan metode penagihan harga tetap ditagihkan me
     - **Pelanggan** Akan selalu di-default ke grup pajak penjualan penagihan dari pelanggan.
     - **Pencarian** Akan mencari di semua entitas di daftar ini dan memilih nilai pertama yang tersedia. Pencarian dimulai dengan entitas **Proyek**, kemudian entitas **kontrak Proyek**, dan kemudian entitas **Pelanggan**.
 
-- **Grup pajak penjualan item tahapan harga tetap** digunakan untuk default nilai ke bidang **grup pajak penjualan Item**.
+- **Grup pajak penjualan item tahapan harga tetap** digunakan sebagai nilai default pada bidang **grup pajak penjualan Item** untuk tahapan penagihan. Akuntan dapat memeriksa dan memodifikasi nilai ini pada halaman **transaksi Cicilan**. Sistem menggunakan nilai dari transaksi cicilan saat membuat baris proposal faktur proyek.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensi keuangan
 
@@ -132,7 +133,7 @@ Halaman **Format proposal faktur** memungkinkan mengelompokkan transaksi kustom 
 
 Manajemen cetak menggunakan file laporan yang berbeda untuk dicetak, menentukan tujuan, dan menyesuaikan teks footer untuk faktur. Manajemen cetak dapat diatur pada tingkat modul, namun pengaturan ini dapat ditimpa untuk pelanggan, kontrak, atau proposal faktur tertentu. Untuk mengakses fungsi ini pada halaman **proposal faktur proyek**, pilih **Cetak** > **manajemen Cetak**.
 
-Konfigurasi manajemen cetak ditampilkan sebagai tampilan pohon, dengan setiap tingkat node menampilkan dokumen yang tersedia untuk disesuaikan. Anda dapat menetapkan hasil cetak kustom pada tingkat dokumen proposal faktur, modul, pelanggan, atau kontrak. Untuk memodifikasi hasil cetak dokumen asli, perluas node yang diinginkan dan pilih **item Asli**. Pada bidang **Format laporan**, pilih format laporan yang akan digunakan untuk cetak. Anda dapat menggunakan format laporan kustom menggunakan [kerangka kerja Manajemen Dokumen Bisnis](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Konfigurasi manajemen cetak ditampilkan sebagai tampilan pohon, dengan setiap tingkat node menampilkan dokumen yang tersedia untuk disesuaikan. Anda dapat menetapkan hasil cetak kustom pada tingkat dokumen proposal faktur, modul, pelanggan, atau kontrak. Untuk memodifikasi hasil cetak dokumen asli, perluas node yang diinginkan dan pilih **item Asli**. Pada bidang **Format laporan**, pilih format laporan yang akan digunakan untuk cetak. Anda dapat menggunakan format laporan kustom menggunakan [kerangka kerja Manajemen Dokumen Bisnis](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>posting proposal faktur
 

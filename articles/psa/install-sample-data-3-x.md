@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275092"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950583"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalasi data sampel untuk aplikasi Project Service
 
@@ -136,7 +136,7 @@ Paket data demo memerlukan enam pengguna. Agar paket terinstal dengan benar, lak
     - Fullname Pengguna = "Molly Clark" sebagai manajer akun   
     - Fullname Pengguna = "Spencer Low" sebagai manajer praktik dan proyek  
     - Fullname Pengguna = "Veronica Quek" sebagai anggota tim   
-    - Fullname Pengguna = "William Contoso"
+    - Nama lengkap pengguna = "William Contoso"
   
 2. Untuk tujuan impor data demo, tetapkan enam pengguna atas Peran Administrator sehingga sampel rekaman diimpor dengan benar. 
 
@@ -149,7 +149,7 @@ Paket data demo memerlukan enam pengguna. Agar paket terinstal dengan benar, lak
 
 5. Kalender pengguna pertama (di **userstocreateandconfigure** tag) digunakan untuk mengisi jam kerja untuk semua sumber daya yang dapat dipesan pada impor data demo. Navigasikan ke **pengaturan** > **keamanan** > **pengguna**, Cari pengguna "Spencer Low" Anda, dan buka pilihan "Jam kerja". Edit jam kerja yang ada, dengan memilih pilihan **seluruh jadwal mingguan berulang dari mulai hingga berakhir**. Pastikan **jam kerja ditetapkan untuk 8 pagi - 5 sore (9 jam), Senin hingga Jumat dan dengan zona waktu yang diatur ke waktu Pasifik (AS & Kanada)**. Hal ini diperlukan untuk memastikan bahwa proyek dan papan jadwal menunjukkan sebagaimana mestinya.
 
-**Rekomendasi:** pertimbangkan untuk membuat cadangan organisasi Anda sekarang, jika Anda perlu Kembalikan ke titik awal jika terjadi kesalahan selama penginstalan data sampel. Untuk informasi lebih lanjut, lihat [instans pencadangan dan pemulihan](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekomendasi:** pertimbangkan untuk membuat cadangan organisasi Anda sekarang, jika Anda perlu Kembalikan ke titik awal jika terjadi kesalahan selama penginstalan data sampel. Untuk informasi lebih lanjut, lihat [instans pencadangan dan pemulihan](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Jalankan Package Deployer
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282292"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951393"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Masuk ke Project Service Automation
 
@@ -39,7 +39,7 @@ Ketika Anda masuk ke aplikasi Dynamics 365, Anda harus memiliki informasi beriku
   
 - Kata sandi Anda  
   
-  Anda mungkin menerima informasi ini di email dari admin Anda. Jika Anda tidak memiliki semua informasi ini, atau jika Anda memiliki masalah masuk, [Temukan staf dukungan atau administrator Anda](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Anda mungkin menerima informasi ini di email dari admin Anda. Jika Anda tidak memiliki semua informasi ini, atau jika Anda memiliki masalah masuk, [Temukan staf dukungan atau administrator Anda](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Mengatur pilihan pribadi untuk memungkinkan email  
  Anda perlu mengkonfigurasi pengaturan email Anda untuk mengizinkan orang lain untuk mengirim email atas nama Anda, sehingga [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] dapat mengirim email pemberitahuan untuk Anda ketika Anda memiliki waktu dan biaya untuk menyetujui atau mendaftar untuk proyek.  

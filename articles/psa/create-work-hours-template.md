@@ -1,6 +1,6 @@
 ---
-title: Membuat template jam kerja baru
-description: Bagaimana membuat template jam kerja di Project Service
+title: Membuat template jam kerja
+description: Topik ini mendeskripsikan bagaimana membuat template jam kerja di Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285037"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981259"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Buat template jam kerja (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Sebelum Anda membuat Jadwal proyek, Anda harus mengatur kalender proyek yang mendefinisikan jumlah jam kerja untuk mengakomodasi setiap hari dalam jadwal dan penutupan bisnis apapun. Anda melakukan ini dengan template jam kerja, yang berisi rincian tentang jam kerja per hari, hari libur, dan setiap penutupan bisnis lainnya.  
-  
- Ketika Anda membuat sebuah proyek, Anda mengaitkan template kerja ke kalender proyek untuk menerapkan jadwal untuk proyek.  
-  
- Ada dua cara Anda dapat membuat template jam kerja:  
-  
--   Membuat template jam kerja berdasarkan kalender sumber daya.  
-  
--   Membuat template jam kerja baru.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Membuat template jam kerja berdasarkan kalender sumber daya  
-  
-1.  Lihat **Project Service > Sumber Daya**.  
-  
-2.  Pilih sumber daya sebagai dasar jam kerja Anda.  
-  
-3.  Klik **Simpan kalender sebagai**, masukkan nama untuk template jam kerja, dan kemudian klik **Simpan**.  
-  
-4.  Setelah selesai mengubah opsi, klik **Simpan dan tutup**.  
-  
-5.  Klik tombol **Simpan** di sudut kanan bawah layar.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Membuat template jam kerja baru  
-  
-1.  Pergi ke **Project Service > template jam kerja**.  
-  
-2.  Klik **Baru**.  
-  
-3.  Masukkan nama untuk template jam kerja.  
-  
-4.  Pilih sumber daya sebagai dasar jam kerja, dan kemudian klik **Simpan**.  
-  
+Untuk membuat dan mengelola proyek, Anda harus menerapkan template kalender ke proyek. Template kalender menentukan atribut proyek berikut:
+
+- Jam kerja, termasuk waktu mulai dan berakhir
+- Hari kerja
+- Pengecualian kalender seperti non-hari kerja
+
+Template kalender yang diterapkan ke proyek adalah salinan template kalender yang ditentukan dalam pengaturan organisasi Anda.
+
+> [!NOTE]
+> Jika Anda mengubah template kalender, perubahan tersebut tidak akan diterapkan ke jam kerja proyek. Untuk mengubah jam kerja proyek, template baru harus diterapkan.
+
+Untuk membuat template kalender untuk organisasi Anda, ada dua persyaratan utama:
+
+- Tentukan jam kerja yang diinginkan dari template menggunakan sumber daya baru atau saat ini yang dapat dipesan.
+- Buat template kalender baru dan kaitkan template dengan sumber daya yang dapat dipesan.
+
+**Tentukan jam kerja template**
+
+1. Buka **Sumber Daya** \> **Sumber daya**.
+2. Buat sumber daya baru untuk referensi di template kalender, atau pilih sumber daya yang ada.
+3. Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) agar dapat mengkonfigurasi aturan kalender.
+
+**Membuat template kalender baru**
+
+1. Buka **Pengaturan** \> **Template Kalender**.
+2. Pilih **Baru**, lalu masukkan nama, deskripsi, dan sumber daya template.
+
+
+> [!NOTE]
+> Bila sumber daya direferensikan di template kalender, salinan kalender sumber daya dikaitkan dengan template kalender. Jika jam kerja template yang disalin berubah, perubahan tersebut tidak akan diperbanyak ke template kalender.
+
+
 ### <a name="see-also"></a>Lihat Juga  
- [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+ [Konfigurasi sumber daya](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

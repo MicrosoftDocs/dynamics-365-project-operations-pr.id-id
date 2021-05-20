@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289778"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950448"
 ---
 # <a name="project-management-and-accounting-overview"></a>Ikhtisar manajemen proyek dan akuntansi
 
@@ -227,7 +227,7 @@ Jenis proyek menentukan prosedur faktur yang harus diterapkan. Hanya dua jenis p
 Sebelum membuat faktur pelanggan untuk proyek, Anda dapat membuat faktur awal atau proposal faktur. Di proposal faktur, Anda dapat memilih transaksi proyek untuk disertakan dalam faktur proyek. Selanjutnya Anda dapat meninjau rincian faktur sebelum Anda mengirim faktur proyek dan mengirimkannya ke pelanggan atau sumber pendanaan lainnya. 
 
 
-Untuk informasi lebih lanjut tentang cara memproses faktur proyek, lihat [Pembuatan faktur proyek](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Untuk informasi lebih lanjut tentang cara memproses faktur proyek, lihat [Pembuatan faktur proyek](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Menghitung biaya untuk menyelesaikan proyek

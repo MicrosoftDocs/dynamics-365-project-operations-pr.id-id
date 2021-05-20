@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288878"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950178"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja seluler entri waktu proyek
 
@@ -48,7 +48,7 @@ Khususnya, di ruang kerja seluler **entri waktu proyek**, pengguna dapat melakuk
 Prasyarat berbeda, berdasarkan versi Microsoft Dynamics 365 yang telah disebarkan untuk organisasi Anda.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika Anda menggunakan Dynamics 365 Finance
-Jika Finance telah disebarkan untuk organisasi Anda, administrator sistem harus mempublikasikan ruang kerja seluler **entri waktu proyek**. Untuk petunjuk, lihat [publikasikan ruang kerja seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Jika Finance telah disebarkan untuk organisasi Anda, administrator sistem harus mempublikasikan ruang kerja seluler **entri waktu proyek**. Untuk petunjuk, lihat [publikasikan ruang kerja seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika Anda menggunakan versi 1611 dengan pembaruan platform 3 atau yang lebih baru
 Jika versi 1611 dengan pembaruan platform 3 atau yang lebih baru telah disebarkan untuk organisasi Anda, administrator sistem harus menyelesaikan prasyarat berikut. 
@@ -68,17 +68,17 @@ Jika versi 1611 dengan pembaruan platform 3 atau yang lebih baru telah disebarka
 <td>Administrator Sistem</td>
 <td>KB 4018050 adalah pembaruan X + + atau hotfix metadata yang berisi ruang kerja seluler <strong>entri waktu proyek</strong>. Untuk menerapkan KB 4018050, administrator sistem harus mengikuti langkah-langkah berikut.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Unduh hotfix metadata dari Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Menginstal hotfix metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Membuat paket yang dapat disebarkan</a> yang berisi model <strong>applicationsuite</strong> dan <strong>projectmobile</strong>, dan kemudian meng-upload paket yang dapat disebarkan untuk LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Terapkan paket yang dapat disebarkan</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Unduh hotfix metadata dari Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Menginstal hotfix metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Membuat paket yang dapat disebarkan</a> yang berisi model <strong>applicationsuite</strong> dan <strong>projectmobile</strong>, dan kemudian meng-upload paket yang dapat disebarkan untuk LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Terapkan paket yang dapat disebarkan</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publikasikan Ruang kerja seluler <strong>entri waktu proyek</strong>.</td>
 <td>Administrator Sistem</td>
-<td>Lihat <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publikasikan ruang kerja seluler</a>.</td>
+<td>Lihat <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publikasikan ruang kerja seluler</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Men-download dan menginstal aplikasi seluler Finance and Operations:
 2.  Pilih **Entri waktu proyek**. Tanggal kalender untuk minggu ini ditampilkan.
 3.  Untuk tanggal yang dipilih, pilih **tindakan** &gt; **entri baru**.
 4.  Masukkan jumlah jam untuk dicatat.
-5.  Pilih proyek untuk entri waktu. Daftar menampilkan proyek yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, lihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Pilih proyek untuk entri waktu. Daftar menampilkan proyek yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, lihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Jika proyek Anda tidak ada dalam daftar, pilih **Cari**. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan nama atau pelanggan proyek.
-7.  Pilih kategori. Daftar menampilkan kategori yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, lihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Pilih kategori. Daftar menampilkan kategori yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, lihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Jika kategori Anda tidak ada dalam daftar, pilih **Cari**. Cari berdasarkan Kategori, atau beralih ke pencarian berdasarkan nama kategori.
-9.  Pilih aktivitas. Daftar menampilkan aktivitas yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, lihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Pilih aktivitas. Daftar menampilkan aktivitas yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, lihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Jika aktivitas Anda tidak ada dalam daftar, pilih **Cari**. Cari berdasarkan nomor aktivitas, atau beralih ke pencarian berdasarkan tujuan.
 
 11. Pilih properti baris.

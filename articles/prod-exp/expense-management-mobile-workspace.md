@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272032"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950483"
 ---
 # <a name="expense-management-mobile-workspace"></a>Ruang kerja seluler manajemen pengeluaran
 
@@ -58,7 +58,7 @@ Anda juga dapat menggunakan fitur ini:
 Prasyarat bervariasi, berdasarkan versi yang telah disebarkan untuk organisasi Anda.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika Anda menggunakan Dynamics 365 Finance 
-Jika Finance telah disebarkan untuk organisasi Anda, administrator sistem harus mempublikasikan ruang kerja seluler **Manajemen pengeluaran**. Untuk petunjuk, lihat [publikasikan ruang kerja seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Jika Finance telah disebarkan untuk organisasi Anda, administrator sistem harus mempublikasikan ruang kerja seluler **Manajemen pengeluaran**. Untuk petunjuk, lihat [publikasikan ruang kerja seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika Anda menggunakan versi 1611 dengan pembaruan platform 3 atau yang lebih baru
 Jika versi 1611 dengan pembaruan platform 3 atau yang lebih baru telah disebarkan untuk organisasi Anda, administrator sistem harus menyelesaikan prasyarat berikut. 
@@ -77,16 +77,16 @@ Jika versi 1611 dengan pembaruan platform 3 atau yang lebih baru telah disebarka
 <td>Administrator Sistem</td>
 <td>KB 4019015 adalah pembaruan X + + atau hotfix metadata yang berisi ruang kerja seluler <strong>Manajemen pengeluaran</strong>. Untuk menerapkan KB 4019015, administrator sistem harus mengikuti langkah-langkah berikut.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Unduh hotfix metadata dari Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Menginstal hotfix metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Membuat paket yang dapat disebarkan</a> yang berisi model <strong>applicationsuite</strong> dan <strong>ExpenseMobile</strong>, dan kemudian meng-upload paket yang dapat disebarkan untuk LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Terapkan paket yang dapat disebarkan</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Unduh hotfix metadata dari Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Menginstal hotfix metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Membuat paket yang dapat disebarkan</a> yang berisi model <strong>applicationsuite</strong> dan <strong>ExpenseMobile</strong>, dan kemudian meng-upload paket yang dapat disebarkan untuk LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Terapkan paket yang dapat disebarkan</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publikasikan ruang kerja seluler <strong>manajemen pengeluaran</strong>.</td>
 <td>Administrator Sistem</td>
-<td>Lihat <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publikasikan ruang kerja seluler</a>.</td>
+<td>Lihat <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publikasikan ruang kerja seluler</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Dengan cepat masukkan pengeluaran dengan menggunakan ruang kerja seluler manajemen pengeluaran
 1. Di perangkat seluler, buka ruang kerja **manajemen pengeluaran**.
 2. Pilih **entri pengeluaran cepat**.
-3. Pilih kategori pengeluaran. Anda melihat daftar kategori pengeluaran yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan Kategori pengeluaran, atau beralih ke pencarian berdasarkan jenis pengeluaran.
+3. Pilih kategori pengeluaran. Anda melihat daftar kategori pengeluaran yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan Kategori pengeluaran, atau beralih ke pencarian berdasarkan jenis pengeluaran.
 4. Masukkan tanggal transaksi pengeluaran.
 5. Opsional: masukkan Penjual untuk pengeluaran.
 6. Masukkan jumlah pengeluaran.
-7. Pilih mata uang pengeluaran. Anda melihat daftar kode mata uang yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 400 mata uang dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata uang Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan mata uang, atau beralih ke pencarian berdasarkan nama.
+7. Pilih mata uang pengeluaran. Anda melihat daftar kode mata uang yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 400 mata uang dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata uang Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan mata uang, atau beralih ke pencarian berdasarkan nama.
 8. Pilih **Ambil foto** atau **pilih gambar**.
 9. Ikuti salah satu langkah berikut:
 
@@ -163,11 +163,11 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 7. Pilih satu atau beberapa pengeluaran dalam daftar.
 8. Pilih **Selesai**.
 9. Untuk menambahkan pengeluaran baru ke laporan biaya, pilih **pengeluaran baru**.
-10. Pilih kategori pengeluaran. Anda melihat daftar kategori pengeluaran yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan Kategori pengeluaran, atau beralih ke pencarian berdasarkan jenis pengeluaran.
+10. Pilih kategori pengeluaran. Anda melihat daftar kategori pengeluaran yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan Kategori pengeluaran, atau beralih ke pencarian berdasarkan jenis pengeluaran.
 11. Opsional: masukkan Penjual untuk pengeluaran.
 12. Masukkan tanggal transaksi pengeluaran.
 13. Masukkan jumlah pengeluaran.
-14. Pilih mata uang pengeluaran. Anda melihat daftar kode mata uang yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 400 mata uang dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata uang Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan mata uang, atau beralih ke pencarian berdasarkan nama.
+14. Pilih mata uang pengeluaran. Anda melihat daftar kode mata uang yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 400 mata uang dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata uang Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan mata uang, atau beralih ke pencarian berdasarkan nama.
 15. Pilih **Selesai**.
 16. Untuk menambahkan rincian lainnya ke pengeluaran, pilih **Tambah rincian lainnya**. Bidang yang tersedia tergantung pada konfigurasi manajemen pengeluaran untuk perusahaan Anda.
 17. Jika kebijakan perusahaan memerlukan tanda terima untuk pengeluaran, pilih **tanda terima**, lalu ikuti langkah-langkah berikut:
@@ -213,12 +213,12 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 
         - Jika Anda memilih **Tamu sebelumnya**, ikuti langkah berikut:
 
-            1. Pilih satu atau beberapa tamu sebelumnya dalam daftar. Anda akan melihat daftar tamu sebelumnya yang telah ditambahkan ke laporan pengeluaran sebelumnya yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika tamu sebelumnya tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan organisasi, negara, atau jabatan.
+            1. Pilih satu atau beberapa tamu sebelumnya dalam daftar. Anda akan melihat daftar tamu sebelumnya yang telah ditambahkan ke laporan pengeluaran sebelumnya yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika tamu sebelumnya tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan organisasi, negara, atau jabatan.
             2. Pilih **Selesai**.
 
         - Jika Anda memilih **Rekan kerja**, ikuti langkah berikut:
 
-            1. Pilih satu atau beberapa rekan kerja dalam daftar. Anda melihat daftar rekan kerja yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika rekan kerja Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan perusahaan atau jabatan.
+            1. Pilih satu atau beberapa rekan kerja dalam daftar. Anda melihat daftar rekan kerja yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika rekan kerja Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama, atau beralih ke pencarian berdasarkan perusahaan atau jabatan.
             2. Pilih **Selesai**.
 
     3. Pilih tombol **kembali** untuk kembali ke rincian pengeluaran.
@@ -227,7 +227,7 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 
     1. Pilih tanggal pertama yang akan diperinci.
     2. Pilih **Tambah Perincian**.
-    3. Pilih subkategori perincian pengeluaran. Anda melihat daftar subkategori pengeluaran yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika subkategori Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama subkategori pengeluaran.
+    3. Pilih subkategori perincian pengeluaran. Anda melihat daftar subkategori pengeluaran yang dimuat ke aplikasi Anda untuk penggunaan offline. Secara default, 50 item dimuat, namun pengembang dapat mengubah nomor ini. Untuk informasi selengkapnya, pengembang harus melihat [platform seluler](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika subkategori Anda tidak ada dalam daftar, pilih **Cari** untuk melakukan pencarian online. Cari berdasarkan nama subkategori pengeluaran.
     4. Masukkan jumlah transaksi untuk perincian.
     5. Edit tanggal transaksi jika diperlukan.
     6. Pilih **Selesai**.

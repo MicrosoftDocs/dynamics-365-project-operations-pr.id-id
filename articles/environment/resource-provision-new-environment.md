@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276892"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950538"
 ---
 # <a name="provision-a-new-environment"></a>Penyediaan lingkungan baru
 
@@ -36,7 +36,7 @@ Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Penyediaan lingkungan Project Operations
 
-1. Buka Dynamics 365 Finance [lingkungan demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau penyebaran [lingkungan produksi/Sandbox](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Buka Dynamics 365 Finance [lingkungan demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau penyebaran [lingkungan produksi/Sandbox](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Lalui Wizard **penyediaan lingkungan**. 
 
 > [!IMPORTANT]

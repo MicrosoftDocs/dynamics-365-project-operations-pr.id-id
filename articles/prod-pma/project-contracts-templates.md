@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289598"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950403"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance 
 
@@ -109,8 +109,8 @@ Bila solusi integrasi Project Service Automation ke Finance diterapkan, skrip pe
 ## <a name="prerequisites-and-mapping-setup"></a>Prasyarat dan konfigurasi pemetaan
 
 - Sebelum sinkronisasi kontrak proyek dan proyek dapat terjadi, Anda harus mensinkronisasikan akun.
-- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_organizationalunits** menjadi **msdyn\_name \[Name\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_projects** ke **msdynce\_projectnumber \[Project Number\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_organizationalunits** menjadi **msdyn\_name \[Name\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](/powerapps/administrator/data-integrator).
+- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_projects** ke **msdynce\_projectnumber \[Project Number\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](/powerapps/administrator/data-integrator).
 - **SourceDataID** untuk kontrak proyek dan proyek dapat diperbarui ke nilai yang berbeda atau dihapus dari pemetaan. Nilai template default adalah **Project Service Automation**.
 - Pemetaan **paymentterms** harus diperbarui sehingga mencerminkan persyaratan pembayaran yang valid di Finance. Anda juga dapat menghapus pemetaan dari tugas proyek. Peta nilai default memiliki nilai default untuk data demo. Tabel berikut Menampilkan nilai dalam Project Service Automation.
 
@@ -131,7 +131,7 @@ Gunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi beri
 Jika anda harus menggunakan Power Query, ikuti petunjuk berikut:
 
 - Template proyek dan kontrak (PSA untuk Fin dan Ops) memiliki filter default yang mencakup hanya pesanan penjualan jenis **item kerja (msdyn\_ordertype = 192350001)**. Filter ini membantu menjamin bahwa kontrak proyek tidak dibuat untuk pesanan penjualan di Finance. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini.
-- Buat filter Power Query yang mencakup hanya organisasi kontrak yang harus disinkronisasi ke entitas hukum dari rangkaian sambungan integrasi. Misalnya, kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono AS harus disinkronisasikan dengan entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
+- Buat filter Power Query yang mencakup hanya organisasi kontrak yang harus disinkronisasi ke entitas hukum dari rangkaian sambungan integrasi. Contohnya, kontrak proyek yang Anda miliki dengan unit organisasional kontrak Contoso AS harus disinkronisasikan ke entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasional kontrak Contoso Global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
 

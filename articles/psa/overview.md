@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284182"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949638"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Apa itu Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Selain itu, untuk membantu Anda memantau dan kontrol biaya untuk pekerjaan Anda 
 ## <a name="whats-new-in-psa"></a>Yang baru di PSA
 Tim sangat senang mengumumkan pembaruan terbaru kami! Mulai dari peningkatan ke antarmuka pengguna, memperbaiki bug, serta menambahkan fitur dan kemampuan baru yang penting. Anda meminta; Kami mendengarkan.
 
-Lihat [Catatan rilis Oktober '19](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan kami terbaru.
+Lihat [Catatan rilis Oktober '19](/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan kami terbaru.
 
 ### <a name="in-development"></a>Dalam pengembangan
-Untuk melihat apa yang kami telah merencanakan di masa mendatang, lihat [rencana rilis Dynamics 365: 2020 gelombang 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Untuk melihat apa yang kami telah merencanakan di masa mendatang, lihat [rencana rilis Dynamics 365: 2020 gelombang 1](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Dapatkan bantuan dengan PSA versi 3.x
 Mencari sumber daya untuk membantu rencanakan penerapan? Lihat panduan dapat diunduh ini.

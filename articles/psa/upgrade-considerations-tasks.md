@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281752"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951348"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Pertimbangan peningkatan untuk struktur rincian kerja
 
@@ -34,20 +34,20 @@ Topik ini menyediakan informasi tentang cara meningkatkan struktur rincian kerja
 ## <a name="key-entities"></a>Entitas utama
 Untuk struktur rincian kerja yang akurat yang telah dimuat dengan sumber daya, entitas berikut diperlukan:
 
-- [Proyek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Tim Proyek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tugas Proyek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Penetapan Sumber Daya](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dependensi Tugas Proyek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Sumber Daya yang Dapat Dipesan](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Proyek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Tim Proyek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tugas Proyek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Penetapan Sumber Daya](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dependensi Tugas Proyek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Sumber Daya yang Dapat Dipesan](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Untuk menentukan struktur rincian kerja yang dimuat sumber daya, Anda harus menyelesaikan langkah-langkah berikut:
 
-1. Buat proyek baru. Untuk informasi lebih lanjut tentang cara membuat proyek baru, lihat [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Buat satu atau beberapa tugas. Untuk informasi lebih lanjut tentang cara membuat tugas baru, lihat [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Tentukan dependensi tugas. Untuk informasi lebih lanjut, Lihat [ketergantungan tugas proyek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Tetapkan anggota tim proyek ke proyek. Untuk informasi selengkapnya, lihat [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Tetapkan anggota tim proyek ke tugas. Untuk informasi selengkapnya, lihat [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Buat proyek baru. Untuk informasi lebih lanjut tentang cara membuat proyek baru, lihat [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Buat satu atau beberapa tugas. Untuk informasi lebih lanjut tentang cara membuat tugas baru, lihat [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Tentukan dependensi tugas. Untuk informasi lebih lanjut, Lihat [ketergantungan tugas proyek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Tetapkan anggota tim proyek ke proyek. Untuk informasi selengkapnya, lihat [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Tetapkan anggota tim proyek ke tugas. Untuk informasi selengkapnya, lihat [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relasi tim proyek
 
