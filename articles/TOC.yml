@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Apa yang baru
       items:
+        - name: Mei 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Mengonfigurasi kategori pengeluaran
               href: expense/set-up-expense-categories.md
+            - name: Mengonfigurasi jarak tempuh dengan menggunakan tahapan tingkat jarak tempuh
+              href: expense/set-up-mileage.md
         - name: Pengeluaran pribadi
           href: expense/personal-expenses-expense-report.md
         - name: Pengeluaran antarperusahaan
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
+        - name: Apa yang baru di bulan Mei 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Apa yang baru di bulan April 2021 - penyebaran lite
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Apa yang baru di bulan Maret 2021 - penyebaran lite
@@ -1028,6 +1034,8 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Menyesuaikan entri waktu mingguan
               href: psa/time-entry-extensibility-v3.md
+            - name: Rangkaian persetujuan
+              href: psa/approval-set.md
     - name: Tanya-jawab dan mengatasi masalah (3.x)
       items:
         - name: Mengapa harga diatur secara default ke nol pada biaya pengeluaran aktual?
