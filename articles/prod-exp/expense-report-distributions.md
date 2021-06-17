@@ -2,11 +2,9 @@
 title: Distribusi laporan pengeluaran
 description: Bila Anda memasukkan biaya pada laporan pengeluaran, Anda dapat mendistribusikan pengeluaran di beberapa proyek, entitas hukum, atau akun di organisasi Anda.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,27 +13,27 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: df0d9eaa6727ab1bca5b9d966b610e37c9c9b913
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271762"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005300"
 ---
-# <a name="expense-report-distributions"></a><span data-ttu-id="491c8-103">Distribusi laporan pengeluaran</span><span class="sxs-lookup"><span data-stu-id="491c8-103">Expense report distributions</span></span>
+# <a name="expense-report-distributions"></a><span data-ttu-id="e3de9-103">Distribusi laporan pengeluaran</span><span class="sxs-lookup"><span data-stu-id="e3de9-103">Expense report distributions</span></span>
 
-<span data-ttu-id="491c8-104">Bila Anda memasukkan biaya pada laporan pengeluaran, Anda dapat mendistribusikan pengeluaran di beberapa proyek, dimensi keuangan, atau akun di organisasi Anda.</span><span class="sxs-lookup"><span data-stu-id="491c8-104">When you enter expenses on an expense report, you can distribute the expense across multiple projects, financial dimensions, or accounts in your organization.</span></span>
+<span data-ttu-id="e3de9-104">Bila Anda memasukkan biaya pada laporan pengeluaran, Anda dapat mendistribusikan pengeluaran di beberapa proyek, dimensi keuangan, atau akun di organisasi Anda.</span><span class="sxs-lookup"><span data-stu-id="e3de9-104">When you enter expenses on an expense report, you can distribute the expense across multiple projects, financial dimensions, or accounts in your organization.</span></span>
 
-<span data-ttu-id="491c8-105">Misalnya, Nancy, perwakilan penjualan fabrikam, melakukan perjalanan dari Kopenhagen ke Frankfurt.</span><span class="sxs-lookup"><span data-stu-id="491c8-105">For example, Nancy, a Fabrikam sales representative, traveled from Copenhagen to Frankfurt.</span></span> <span data-ttu-id="491c8-106">Di Frankfurt, dia bertemu dengan dua organisasi untuk mendiskusikan proyek terpisah untuk setiap organisasi.</span><span class="sxs-lookup"><span data-stu-id="491c8-106">In Frankfurt, she met with two organizations to discuss separate projects for each organization.</span></span> <span data-ttu-id="491c8-107">Nancy menghabiskan tujuh hari kerja dengan organisasi A pada proyek A, dan tiga hari kerja bekerja dengan organisasi B di proyek B.</span><span class="sxs-lookup"><span data-stu-id="491c8-107">Nancy spent seven business days working with organization A on project A, and three business days working with organization B on project B.</span></span>
+<span data-ttu-id="e3de9-105">Misalnya, Nancy, perwakilan penjualan fabrikam, melakukan perjalanan dari Kopenhagen ke Frankfurt.</span><span class="sxs-lookup"><span data-stu-id="e3de9-105">For example, Nancy, a Fabrikam sales representative, traveled from Copenhagen to Frankfurt.</span></span> <span data-ttu-id="e3de9-106">Di Frankfurt, dia bertemu dengan dua organisasi untuk mendiskusikan proyek terpisah untuk setiap organisasi.</span><span class="sxs-lookup"><span data-stu-id="e3de9-106">In Frankfurt, she met with two organizations to discuss separate projects for each organization.</span></span> <span data-ttu-id="e3de9-107">Nancy menghabiskan tujuh hari kerja dengan organisasi A pada proyek A, dan tiga hari kerja bekerja dengan organisasi B di proyek B.</span><span class="sxs-lookup"><span data-stu-id="e3de9-107">Nancy spent seven business days working with organization A on project A, and three business days working with organization B on project B.</span></span>
 
-<span data-ttu-id="491c8-108">Karena Bunga bekerja pada dua proyek terpisah saat berada di Frankfurt, ketika ia masuk ke laporan pengeluaran, Bunga mendistribusikan biaya yang sesuai untuk setiap proyek.</span><span class="sxs-lookup"><span data-stu-id="491c8-108">Because Nancy worked on two separate projects when she was in Frankfurt, when she enters her expense report, she distributes her expenses as appropriate for each project.</span></span> <span data-ttu-id="491c8-109">Tabel berikut ini menunjukkan cara Bunga mendistribusikan pengeluarannya.</span><span class="sxs-lookup"><span data-stu-id="491c8-109">The following table shows how Nancy distributed her expenses.</span></span>
+<span data-ttu-id="e3de9-108">Karena Bunga bekerja pada dua proyek terpisah saat berada di Frankfurt, ketika ia masuk ke laporan pengeluaran, Bunga mendistribusikan biaya yang sesuai untuk setiap proyek.</span><span class="sxs-lookup"><span data-stu-id="e3de9-108">Because Nancy worked on two separate projects when she was in Frankfurt, when she enters her expense report, she distributes her expenses as appropriate for each project.</span></span> <span data-ttu-id="e3de9-109">Tabel berikut ini menunjukkan cara Bunga mendistribusikan pengeluarannya.</span><span class="sxs-lookup"><span data-stu-id="e3de9-109">The following table shows how Nancy distributed her expenses.</span></span>
 
 
-| <span data-ttu-id="491c8-110">Jenis Pengeluaran</span><span class="sxs-lookup"><span data-stu-id="491c8-110">Expense type</span></span> | <span data-ttu-id="491c8-111">Jumlah pengeluaran total</span><span class="sxs-lookup"><span data-stu-id="491c8-111">Total expense amount</span></span>|<span data-ttu-id="491c8-112">Jumlah yang didistribusikan ke proyek A</span><span class="sxs-lookup"><span data-stu-id="491c8-112">Amount distributed to project A</span></span>| <span data-ttu-id="491c8-113">Jumlah yang didistribusikan ke proyek B</span><span class="sxs-lookup"><span data-stu-id="491c8-113">Amount distributed to project B</span></span> |
+| <span data-ttu-id="e3de9-110">Jenis Pengeluaran</span><span class="sxs-lookup"><span data-stu-id="e3de9-110">Expense type</span></span> | <span data-ttu-id="e3de9-111">Jumlah pengeluaran total</span><span class="sxs-lookup"><span data-stu-id="e3de9-111">Total expense amount</span></span>|<span data-ttu-id="e3de9-112">Jumlah yang didistribusikan ke proyek A</span><span class="sxs-lookup"><span data-stu-id="e3de9-112">Amount distributed to project A</span></span>| <span data-ttu-id="e3de9-113">Jumlah yang didistribusikan ke proyek B</span><span class="sxs-lookup"><span data-stu-id="e3de9-113">Amount distributed to project B</span></span> |
 |--------------|---------------------|-------------------------------|---------------------------------|
-|<span data-ttu-id="491c8-114">Tarif kereta</span><span class="sxs-lookup"><span data-stu-id="491c8-114">Train fare</span></span>   |<span data-ttu-id="491c8-115">DKK 578</span><span class="sxs-lookup"><span data-stu-id="491c8-115">DKK 578</span></span>              |<span data-ttu-id="491c8-116">DKK 405</span><span class="sxs-lookup"><span data-stu-id="491c8-116">DKK 405</span></span>                        |<span data-ttu-id="491c8-117">DKK 173</span><span class="sxs-lookup"><span data-stu-id="491c8-117">DKK 173</span></span>                          |
-|<span data-ttu-id="491c8-118">Hotel</span><span class="sxs-lookup"><span data-stu-id="491c8-118">Hotel</span></span>         |<span data-ttu-id="491c8-119">EUR 725</span><span class="sxs-lookup"><span data-stu-id="491c8-119">EUR 725</span></span>              |<span data-ttu-id="491c8-120">EUR 557</span><span class="sxs-lookup"><span data-stu-id="491c8-120">EUR 557</span></span>                        |<span data-ttu-id="491c8-121">EUR 168</span><span class="sxs-lookup"><span data-stu-id="491c8-121">EUR 168</span></span>                          |
-|<span data-ttu-id="491c8-122">Makan</span><span class="sxs-lookup"><span data-stu-id="491c8-122">Meals</span></span>         |<span data-ttu-id="491c8-123">EUR 346</span><span class="sxs-lookup"><span data-stu-id="491c8-123">EUR 346</span></span>              |<span data-ttu-id="491c8-124">EUR 284</span><span class="sxs-lookup"><span data-stu-id="491c8-124">EUR 284</span></span>                        |<span data-ttu-id="491c8-125">EUR 62</span><span class="sxs-lookup"><span data-stu-id="491c8-125">EUR 62</span></span>                           |
+|<span data-ttu-id="e3de9-114">Tarif kereta</span><span class="sxs-lookup"><span data-stu-id="e3de9-114">Train fare</span></span>   |<span data-ttu-id="e3de9-115">DKK 578</span><span class="sxs-lookup"><span data-stu-id="e3de9-115">DKK 578</span></span>              |<span data-ttu-id="e3de9-116">DKK 405</span><span class="sxs-lookup"><span data-stu-id="e3de9-116">DKK 405</span></span>                        |<span data-ttu-id="e3de9-117">DKK 173</span><span class="sxs-lookup"><span data-stu-id="e3de9-117">DKK 173</span></span>                          |
+|<span data-ttu-id="e3de9-118">Hotel</span><span class="sxs-lookup"><span data-stu-id="e3de9-118">Hotel</span></span>         |<span data-ttu-id="e3de9-119">EUR 725</span><span class="sxs-lookup"><span data-stu-id="e3de9-119">EUR 725</span></span>              |<span data-ttu-id="e3de9-120">EUR 557</span><span class="sxs-lookup"><span data-stu-id="e3de9-120">EUR 557</span></span>                        |<span data-ttu-id="e3de9-121">EUR 168</span><span class="sxs-lookup"><span data-stu-id="e3de9-121">EUR 168</span></span>                          |
+|<span data-ttu-id="e3de9-122">Makan</span><span class="sxs-lookup"><span data-stu-id="e3de9-122">Meals</span></span>         |<span data-ttu-id="e3de9-123">EUR 346</span><span class="sxs-lookup"><span data-stu-id="e3de9-123">EUR 346</span></span>              |<span data-ttu-id="e3de9-124">EUR 284</span><span class="sxs-lookup"><span data-stu-id="e3de9-124">EUR 284</span></span>                        |<span data-ttu-id="e3de9-125">EUR 62</span><span class="sxs-lookup"><span data-stu-id="e3de9-125">EUR 62</span></span>                           |
 
 
 
