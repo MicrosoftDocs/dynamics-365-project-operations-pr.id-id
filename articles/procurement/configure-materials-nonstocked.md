@@ -2,19 +2,17 @@
 title: Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
 description: Laporan topik menjelaskan cara mengaktifkan bahan non-stok dan faktur vendor tertunda.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880655"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993915"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
 
@@ -61,11 +59,11 @@ Jika menggunakan data demo standar, Anda juga mungkin harus berhenti dan memulai
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Mengaktifkan alur kerja untuk membuat akun berdasarkan entitas vendor
 
-Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi induk Vendor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Sebagai prasyarat untuk fitur ini, data vendor harus dibuat di entitas **Akun**. Aktifkan proses alur kerja template untuk membuat vendor dalam tabel **Akun** seperti dijelaskan dalam [Beralih di antara desain vendor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi induk Vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Sebagai prasyarat untuk fitur ini, data vendor harus dibuat di entitas **Akun**. Aktifkan proses alur kerja template untuk membuat vendor dalam tabel **Akun** seperti dijelaskan dalam [Beralih di antara desain vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Atur produk untuk dibuat sebagai aktif
 
-Materi yang tidak memiliki persediaan harus dikonfigurasi sebagai **produk yang dirilis** di Finance. Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi produk yang dirilis ke katalog produk Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) default. Secara default, produk dari Finance disinkronisasikan ke Dataverse dalam status draf. Untuk mensinkronisasi produk ke status aktif sehingga dapat langsung digunakan dalam dokumen penggunaan bahan atau faktur vendor tertunda, buka **Sistem** > **Administrasi** > **Administrasi Sistem** > **Pengaturan sistem**, dan pada tab **Penjualan**, atur **Buat produk dalam status aktif** ke **Ya**.
+Materi yang tidak memiliki persediaan harus dikonfigurasi sebagai **produk yang dirilis** di Finance. Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi produk yang dirilis ke katalog produk Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) default. Secara default, produk dari Finance disinkronisasikan ke Dataverse dalam status draf. Untuk mensinkronisasi produk ke status aktif sehingga dapat langsung digunakan dalam dokumen penggunaan bahan atau faktur vendor tertunda, buka **Sistem** > **Administrasi** > **Administrasi Sistem** > **Pengaturan sistem**, dan pada tab **Penjualan**, atur **Buat produk dalam status aktif** ke **Ya**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Mengonfigurasikan prasyarat di Finance
 

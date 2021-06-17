@@ -2,11 +2,9 @@
 title: Menentukan kalender proyek
 description: Halaman topik ini menyediakan informasi tentang cara menerapkan template kalender ke proyek untuk melacak jadwal proyek.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981304"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999000"
 ---
 # <a name="define-project-calendars"></a>Menentukan kalender proyek
 
@@ -48,7 +46,7 @@ Untuk membuat template kalender untuk organisasi Anda, ada dua persyaratan utama
 
 1. Buka **Sumber Daya** \> **Sumber daya**.
 2. Buat sumber daya baru untuk referensi di template kalender, atau pilih sumber daya yang ada.
-3. Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) agar dapat mengkonfigurasi aturan kalender.
+3. Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](/dynamics365/field-service/set-work-hours-resource.md) agar dapat mengkonfigurasi aturan kalender.
 
 **Membuat template kalender baru**
 
