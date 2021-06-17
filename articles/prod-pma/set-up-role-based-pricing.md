@@ -2,11 +2,9 @@
 title: Mengkonfigurasi harga berdasarkan peran
 description: Topik ini menyediakan informasi tentang bagaimana mengkonfigurasi harga untuk peran tertentu.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,22 +16,22 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c86043a79d119c00a64ba5336df5b5ad69006b11
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1410da02800a94f8b61174087aa30694192f3cab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288698"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997650"
 ---
-# <a name="set-up-role-based-pricing"></a><span data-ttu-id="3e4a3-103">Mengkonfigurasi harga berdasarkan peran</span><span class="sxs-lookup"><span data-stu-id="3e4a3-103">Set up role-based pricing</span></span>
+# <a name="set-up-role-based-pricing"></a><span data-ttu-id="584f9-103">Mengkonfigurasi harga berdasarkan peran</span><span class="sxs-lookup"><span data-stu-id="584f9-103">Set up role-based pricing</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3e4a3-104">Semua harga biaya, penjualan, dan transfer dapat diatur untuk peran.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-104">All cost, sales, and transfer prices can be set up for roles.</span></span> <span data-ttu-id="3e4a3-105">Selesaikan langkah-langkah berikut untuk mengaitkan harga ke peran tertentu.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-105">Complete the following steps to associate pricing to a specific role.</span></span>
+<span data-ttu-id="584f9-104">Semua harga biaya, penjualan, dan transfer dapat diatur untuk peran.</span><span class="sxs-lookup"><span data-stu-id="584f9-104">All cost, sales, and transfer prices can be set up for roles.</span></span> <span data-ttu-id="584f9-105">Selesaikan langkah-langkah berikut untuk mengaitkan harga ke peran tertentu.</span><span class="sxs-lookup"><span data-stu-id="584f9-105">Complete the following steps to associate pricing to a specific role.</span></span>
 
-1. <span data-ttu-id="3e4a3-106">Pada halaman **harga penjualan (jam)**, pilih **baru**, lalu masukkan tanggal berlaku.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-106">On the **Sales price (hour)** page, select **New**, and enter an effective date.</span></span>
-2. <span data-ttu-id="3e4a3-107">Di kolom **peran**, pilih peran.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-107">In the **Role** column, select a role.</span></span>
-3. <span data-ttu-id="3e4a3-108">Di kolom **harga**, masukkan harga untuk peran sumber daya yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="3e4a3-108">In the **Pricing** column, enter a price for the selected resource role.</span></span>
+1. <span data-ttu-id="584f9-106">Pada halaman **harga penjualan (jam)**, pilih **baru**, lalu masukkan tanggal berlaku.</span><span class="sxs-lookup"><span data-stu-id="584f9-106">On the **Sales price (hour)** page, select **New**, and enter an effective date.</span></span>
+2. <span data-ttu-id="584f9-107">Di kolom **peran**, pilih peran.</span><span class="sxs-lookup"><span data-stu-id="584f9-107">In the **Role** column, select a role.</span></span>
+3. <span data-ttu-id="584f9-108">Di kolom **harga**, masukkan harga untuk peran sumber daya yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="584f9-108">In the **Pricing** column, enter a price for the selected resource role.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Mengonfigurasi peran pada template struktur rincian kerja
 description: Topik ini menyediakan informasi tentang cara mengkonfigurasi informasi peran pada template struktur rincian kerja.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,34 +16,34 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288653"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997605"
 ---
-# <a name="set-up-roles-on-work-breakdown-structure-templates"></a><span data-ttu-id="04abd-103">Mengonfigurasi peran pada template struktur rincian kerja</span><span class="sxs-lookup"><span data-stu-id="04abd-103">Set up roles on Work breakdown structure templates</span></span>
+# <a name="set-up-roles-on-work-breakdown-structure-templates"></a><span data-ttu-id="27215-103">Mengonfigurasi peran pada template struktur rincian kerja</span><span class="sxs-lookup"><span data-stu-id="27215-103">Set up roles on Work breakdown structure templates</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="04abd-104">Manajer proyek dapat mengkonfigurasi template struktur rincian kerja (WBS) yang dapat diterapkan saat membuat WBS untuk proyek baru.</span><span class="sxs-lookup"><span data-stu-id="04abd-104">Project managers can set up Work breakdown structure (WBS) templates that they can apply when they create a WBS for new projects.</span></span> <span data-ttu-id="04abd-105">Manajer proyek dapat menambahkan peran saat membuat template.</span><span class="sxs-lookup"><span data-stu-id="04abd-105">Project managers can add roles when they create a template.</span></span> <span data-ttu-id="04abd-106">Gunakan prosedur berikut untuk menetapkan peran ke template WBS.</span><span class="sxs-lookup"><span data-stu-id="04abd-106">Use the following procedure to assign a role to a WBS template.</span></span>
+<span data-ttu-id="27215-104">Manajer proyek dapat mengkonfigurasi template struktur rincian kerja (WBS) yang dapat diterapkan saat membuat WBS untuk proyek baru.</span><span class="sxs-lookup"><span data-stu-id="27215-104">Project managers can set up Work breakdown structure (WBS) templates that they can apply when they create a WBS for new projects.</span></span> <span data-ttu-id="27215-105">Manajer proyek dapat menambahkan peran saat membuat template.</span><span class="sxs-lookup"><span data-stu-id="27215-105">Project managers can add roles when they create a template.</span></span> <span data-ttu-id="27215-106">Gunakan prosedur berikut untuk menetapkan peran ke template WBS.</span><span class="sxs-lookup"><span data-stu-id="27215-106">Use the following procedure to assign a role to a WBS template.</span></span>
 
-1. <span data-ttu-id="04abd-107">Pilih **manajemen Proyek dan akuntansi** > **konfigurasi** > **Proyek** > **template struktur rincian kerja**.</span><span class="sxs-lookup"><span data-stu-id="04abd-107">Select **Project management and accounting** > **Setup** > **Projects** > **Work breakdown structure templates**.</span></span>
-2. <span data-ttu-id="04abd-108">Pilih **rincian** untuk template WBS yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="04abd-108">Select **Details** for a selected WBS template.</span></span>
-3. <span data-ttu-id="04abd-109">Pilih tugas dalam daftar, lalu di bidang **peran**, pilih peran yang akan ditetapkan ke tugas.</span><span class="sxs-lookup"><span data-stu-id="04abd-109">Select a task in the list, and then, in the **Role** field, select a role to assign to the task.</span></span>
+1. <span data-ttu-id="27215-107">Pilih **manajemen Proyek dan akuntansi** > **konfigurasi** > **Proyek** > **template struktur rincian kerja**.</span><span class="sxs-lookup"><span data-stu-id="27215-107">Select **Project management and accounting** > **Setup** > **Projects** > **Work breakdown structure templates**.</span></span>
+2. <span data-ttu-id="27215-108">Pilih **rincian** untuk template WBS yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="27215-108">Select **Details** for a selected WBS template.</span></span>
+3. <span data-ttu-id="27215-109">Pilih tugas dalam daftar, lalu di bidang **peran**, pilih peran yang akan ditetapkan ke tugas.</span><span class="sxs-lookup"><span data-stu-id="27215-109">Select a task in the list, and then, in the **Role** field, select a role to assign to the task.</span></span>
 
-## <a name="work-with-a-wbs"></a><span data-ttu-id="04abd-110">Menggunakan WBS</span><span class="sxs-lookup"><span data-stu-id="04abd-110">Work with a WBS</span></span>
+## <a name="work-with-a-wbs"></a><span data-ttu-id="27215-110">Menggunakan WBS</span><span class="sxs-lookup"><span data-stu-id="27215-110">Work with a WBS</span></span>
 
-<span data-ttu-id="04abd-111">Anda dapat membuat WBS baru, atau Anda dapat menyalin WBS dari template WBS yang ada.</span><span class="sxs-lookup"><span data-stu-id="04abd-111">You can create a new WBS, or you can copy a WBS from an existing WBS template.</span></span> <span data-ttu-id="04abd-112">Manajer proyek dapat dengan mudah mengelola sumber daya dengan menetapkan peran untuk tugas baru di WBS.</span><span class="sxs-lookup"><span data-stu-id="04abd-112">A project manager can easily manage the resources by assigning roles to new tasks on the WBS.</span></span> <span data-ttu-id="04abd-113">Peran dapat digantikan setelah sumber daya diperoleh atau setelah sumber daya yang dikonfirmasi untuk bekerja pada tugas teridentifikasi.</span><span class="sxs-lookup"><span data-stu-id="04abd-113">Roles can be replaced either after a resource is acquired or after a confirmed resource to work on the task is identified.</span></span> <span data-ttu-id="04abd-114">Fleksibilitas ini memungkinkan manajer proyek melakukan tugas berikut:</span><span class="sxs-lookup"><span data-stu-id="04abd-114">This flexibility lets project managers perform the following tasks:</span></span>
+<span data-ttu-id="27215-111">Anda dapat membuat WBS baru, atau Anda dapat menyalin WBS dari template WBS yang ada.</span><span class="sxs-lookup"><span data-stu-id="27215-111">You can create a new WBS, or you can copy a WBS from an existing WBS template.</span></span> <span data-ttu-id="27215-112">Manajer proyek dapat dengan mudah mengelola sumber daya dengan menetapkan peran untuk tugas baru di WBS.</span><span class="sxs-lookup"><span data-stu-id="27215-112">A project manager can easily manage the resources by assigning roles to new tasks on the WBS.</span></span> <span data-ttu-id="27215-113">Peran dapat digantikan setelah sumber daya diperoleh atau setelah sumber daya yang dikonfirmasi untuk bekerja pada tugas teridentifikasi.</span><span class="sxs-lookup"><span data-stu-id="27215-113">Roles can be replaced either after a resource is acquired or after a confirmed resource to work on the task is identified.</span></span> <span data-ttu-id="27215-114">Fleksibilitas ini memungkinkan manajer proyek melakukan tugas berikut:</span><span class="sxs-lookup"><span data-stu-id="27215-114">This flexibility lets project managers perform the following tasks:</span></span>
 
-- <span data-ttu-id="04abd-115">Mengidentifikasi jumlah sumber daya yang diperlukan untuk paket kerja WBS.</span><span class="sxs-lookup"><span data-stu-id="04abd-115">Identify the number of resources that are required for WBS work packages.</span></span>
-- <span data-ttu-id="04abd-116">Estimasi biaya proyek.</span><span class="sxs-lookup"><span data-stu-id="04abd-116">Estimate project costs.</span></span>
-- <span data-ttu-id="04abd-117">Tentukan anggaran awal.</span><span class="sxs-lookup"><span data-stu-id="04abd-117">Determine a preliminary budget.</span></span>
-- <span data-ttu-id="04abd-118">Perkirakan durasi aktivitas, berdasarkan peran dan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="04abd-118">Estimate activity duration, based on roles and resources.</span></span>
-- <span data-ttu-id="04abd-119">Kembangkan beberapa rencana manajemen proyek, berdasarkan informasi proyek yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="04abd-119">Develop some project management plans, based on the available project information.</span></span>
+- <span data-ttu-id="27215-115">Mengidentifikasi jumlah sumber daya yang diperlukan untuk paket kerja WBS.</span><span class="sxs-lookup"><span data-stu-id="27215-115">Identify the number of resources that are required for WBS work packages.</span></span>
+- <span data-ttu-id="27215-116">Estimasi biaya proyek.</span><span class="sxs-lookup"><span data-stu-id="27215-116">Estimate project costs.</span></span>
+- <span data-ttu-id="27215-117">Tentukan anggaran awal.</span><span class="sxs-lookup"><span data-stu-id="27215-117">Determine a preliminary budget.</span></span>
+- <span data-ttu-id="27215-118">Perkirakan durasi aktivitas, berdasarkan peran dan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="27215-118">Estimate activity duration, based on roles and resources.</span></span>
+- <span data-ttu-id="27215-119">Kembangkan beberapa rencana manajemen proyek, berdasarkan informasi proyek yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="27215-119">Develop some project management plans, based on the available project information.</span></span>
 
-<span data-ttu-id="04abd-120">Pilihan tambahan telah ditambahkan dalam WBS untuk lebih baik menggunakan fungsi sumber daya.</span><span class="sxs-lookup"><span data-stu-id="04abd-120">Additional options have been added in the WBS to better use the resourcing functionality.</span></span>
+<span data-ttu-id="27215-120">Pilihan tambahan telah ditambahkan dalam WBS untuk lebih baik menggunakan fungsi sumber daya.</span><span class="sxs-lookup"><span data-stu-id="27215-120">Additional options have been added in the WBS to better use the resourcing functionality.</span></span>
 
 <table>
 <colgroup>
@@ -54,59 +52,59 @@ ms.locfileid: "5288653"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="04abd-121">Opsi</span><span class="sxs-lookup"><span data-stu-id="04abd-121">Option</span></span></th>
-<th><span data-ttu-id="04abd-122">Deskripsi</span><span class="sxs-lookup"><span data-stu-id="04abd-122">Description</span></span></th>
+<th><span data-ttu-id="27215-121">Opsi</span><span class="sxs-lookup"><span data-stu-id="27215-121">Option</span></span></th>
+<th><span data-ttu-id="27215-122">Deskripsi</span><span class="sxs-lookup"><span data-stu-id="27215-122">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="04abd-123">Penetapan sumber daya</span><span class="sxs-lookup"><span data-stu-id="04abd-123">Resource assignments</span></span></td>
-<td><span data-ttu-id="04abd-124">Lihat sumber daya yang ditetapkan, tanggal, jumlah jam, dan jenis Pemesanan untuk tugas di WBS.</span><span class="sxs-lookup"><span data-stu-id="04abd-124">View the assigned resources, dates, number of hours, and booking type for tasks on the WBS.</span></span></td>
+<td><span data-ttu-id="27215-123">Penetapan sumber daya</span><span class="sxs-lookup"><span data-stu-id="27215-123">Resource assignments</span></span></td>
+<td><span data-ttu-id="27215-124">Lihat sumber daya yang ditetapkan, tanggal, jumlah jam, dan jenis Pemesanan untuk tugas di WBS.</span><span class="sxs-lookup"><span data-stu-id="27215-124">View the assigned resources, dates, number of hours, and booking type for tasks on the WBS.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="04abd-125">Buat otomatis tim</span><span class="sxs-lookup"><span data-stu-id="04abd-125">Auto generate team</span></span></td>
-<td><span data-ttu-id="04abd-126">Secara otomatis menambahkan sumber daya terencana dengan menggunakan peran yang terkait dengan tugas.</span><span class="sxs-lookup"><span data-stu-id="04abd-126">Automatically add planned resources by using roles that are associated with a task.</span></span> <span data-ttu-id="04abd-127">Finance secara otomatis menyarankan sumber daya terencana dengan menggunakan analisis keputusan multi-kriteria yang didasarkan pada peran.</span><span class="sxs-lookup"><span data-stu-id="04abd-127">Finance automatically suggests planned resources by using multi-criteria decision analysis that is based on roles.</span></span> <span data-ttu-id="04abd-128">Setelah peran dan upaya (jam) telah ditetapkan untuk tugas di WBS, dan setelah struktur telah dirilis, pilih <strong>otomatis membuat tim</strong>.</span><span class="sxs-lookup"><span data-stu-id="04abd-128">After the roles and effort (hours) have been set for the tasks in a WBS, and after the structure has been released, select <strong>Auto generate team</strong>.</span></span> <span data-ttu-id="04abd-129">Jumlah sumber daya terencana yang diperlukan ditambahkan ke WBS dan tab <strong>penjadwalan proyek dan tim</strong>.</span><span class="sxs-lookup"><span data-stu-id="04abd-129">The required number of planned resources is added to the WBS and the <strong>Project and team scheduling</strong> tab.</span></span></td>
+<td><span data-ttu-id="27215-125">Buat otomatis tim</span><span class="sxs-lookup"><span data-stu-id="27215-125">Auto generate team</span></span></td>
+<td><span data-ttu-id="27215-126">Secara otomatis menambahkan sumber daya terencana dengan menggunakan peran yang terkait dengan tugas.</span><span class="sxs-lookup"><span data-stu-id="27215-126">Automatically add planned resources by using roles that are associated with a task.</span></span> <span data-ttu-id="27215-127">Finance secara otomatis menyarankan sumber daya terencana dengan menggunakan analisis keputusan multi-kriteria yang didasarkan pada peran.</span><span class="sxs-lookup"><span data-stu-id="27215-127">Finance automatically suggests planned resources by using multi-criteria decision analysis that is based on roles.</span></span> <span data-ttu-id="27215-128">Setelah peran dan upaya (jam) telah ditetapkan untuk tugas di WBS, dan setelah struktur telah dirilis, pilih <strong>otomatis membuat tim</strong>.</span><span class="sxs-lookup"><span data-stu-id="27215-128">After the roles and effort (hours) have been set for the tasks in a WBS, and after the structure has been released, select <strong>Auto generate team</strong>.</span></span> <span data-ttu-id="27215-129">Jumlah sumber daya terencana yang diperlukan ditambahkan ke WBS dan tab <strong>penjadwalan proyek dan tim</strong>.</span><span class="sxs-lookup"><span data-stu-id="27215-129">The required number of planned resources is added to the WBS and the <strong>Project and team scheduling</strong> tab.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="04abd-130">Sumber daya (Daftar tarik-turun)</span><span class="sxs-lookup"><span data-stu-id="04abd-130">Resource (drop-down list)</span></span></td>
-<td><span data-ttu-id="04abd-131">Pada halaman <strong>peluncuran penugasan sumber daya</strong>, Anda dapat memilih sumber daya untuk definitif atau tentatif, berdasarkan durasi yang ditentukan.</span><span class="sxs-lookup"><span data-stu-id="04abd-131">On the <strong>Launch resource assignment</strong> page, you can select resources to hard-book or soft-book, based on the specified duration.</span></span> <span data-ttu-id="04abd-132">Anda dapat menyesuaikan pengaturan tampilan untuk melihat dan mengatur durasi aktivitas sumber daya.</span><span class="sxs-lookup"><span data-stu-id="04abd-132">You can adjust the view settings to see and set the duration of resource activities.</span></span> <span data-ttu-id="04abd-133">Anda dapat memilih dan menetapkan sumber daya pada tingkat paket kerja dengan menggunakan pilihan berikut:</span><span class="sxs-lookup"><span data-stu-id="04abd-133">You can select and assign resources at the work package level by using the following options:</span></span>
+<td><span data-ttu-id="27215-130">Sumber daya (Daftar tarik-turun)</span><span class="sxs-lookup"><span data-stu-id="27215-130">Resource (drop-down list)</span></span></td>
+<td><span data-ttu-id="27215-131">Pada halaman <strong>peluncuran penugasan sumber daya</strong>, Anda dapat memilih sumber daya untuk definitif atau tentatif, berdasarkan durasi yang ditentukan.</span><span class="sxs-lookup"><span data-stu-id="27215-131">On the <strong>Launch resource assignment</strong> page, you can select resources to hard-book or soft-book, based on the specified duration.</span></span> <span data-ttu-id="27215-132">Anda dapat menyesuaikan pengaturan tampilan untuk melihat dan mengatur durasi aktivitas sumber daya.</span><span class="sxs-lookup"><span data-stu-id="27215-132">You can adjust the view settings to see and set the duration of resource activities.</span></span> <span data-ttu-id="27215-133">Anda dapat memilih dan menetapkan sumber daya pada tingkat paket kerja dengan menggunakan pilihan berikut:</span><span class="sxs-lookup"><span data-stu-id="27215-133">You can select and assign resources at the work package level by using the following options:</span></span>
 <ul>
-<li><span data-ttu-id="04abd-134"><strong>Terima</strong> – konfirmasikan perubahan pada sumber daya yang ditetapkan ke tugas.</span><span class="sxs-lookup"><span data-stu-id="04abd-134"><strong>Accept</strong> – Confirm changes to the resource that is assigned to a task.</span></span></li>
-<li><span data-ttu-id="04abd-135"><strong>Batalkan</strong> – Batalkan perubahan pada sumber daya yang ditetapkan ke tugas.</span><span class="sxs-lookup"><span data-stu-id="04abd-135"><strong>Cancel</strong> – Cancel changes to the resource that is assigned to a task.</span></span></li>
-<li><span data-ttu-id="04abd-136"><strong>Tetapkan secara otomatis</strong> -sumber daya tersedia yang memiliki peran pencocokan dipilih secara otomatis dan ditetapkan ke tugas yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="04abd-136"><strong>Assign automatically</strong> – An available staffed resource that has a matching role is automatically selected and assigned to the selected task.</span></span></li>
+<li><span data-ttu-id="27215-134"><strong>Terima</strong> – konfirmasikan perubahan pada sumber daya yang ditetapkan ke tugas.</span><span class="sxs-lookup"><span data-stu-id="27215-134"><strong>Accept</strong> – Confirm changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="27215-135"><strong>Batalkan</strong> – Batalkan perubahan pada sumber daya yang ditetapkan ke tugas.</span><span class="sxs-lookup"><span data-stu-id="27215-135"><strong>Cancel</strong> – Cancel changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="27215-136"><strong>Tetapkan secara otomatis</strong> -sumber daya tersedia yang memiliki peran pencocokan dipilih secara otomatis dan ditetapkan ke tugas yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="27215-136"><strong>Assign automatically</strong> – An available staffed resource that has a matching role is automatically selected and assigned to the selected task.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1. <span data-ttu-id="04abd-137">Pada halaman **semua proyek**, pilih proyek **peningkatan XYZ fase 2**.</span><span class="sxs-lookup"><span data-stu-id="04abd-137">On the **All projects** page, select the **XYZ Upgrade Phase 2** project.</span></span>
-2. <span data-ttu-id="04abd-138">Pilih **skema** > **aktivitas** > **struktur rincian kerja**.</span><span class="sxs-lookup"><span data-stu-id="04abd-138">Select **Plan** > **Activities** > **Work breakdown structure**.</span></span>
-3. <span data-ttu-id="04abd-139">Pilih **baru** untuk menambahkan aktivitas satu tingkat berikut ke WBS:</span><span class="sxs-lookup"><span data-stu-id="04abd-139">Select **New** to add the following level-one activities to the WBS:</span></span>
+1. <span data-ttu-id="27215-137">Pada halaman **semua proyek**, pilih proyek **peningkatan XYZ fase 2**.</span><span class="sxs-lookup"><span data-stu-id="27215-137">On the **All projects** page, select the **XYZ Upgrade Phase 2** project.</span></span>
+2. <span data-ttu-id="27215-138">Pilih **skema** > **aktivitas** > **struktur rincian kerja**.</span><span class="sxs-lookup"><span data-stu-id="27215-138">Select **Plan** > **Activities** > **Work breakdown structure**.</span></span>
+3. <span data-ttu-id="27215-139">Pilih **baru** untuk menambahkan aktivitas satu tingkat berikut ke WBS:</span><span class="sxs-lookup"><span data-stu-id="27215-139">Select **New** to add the following level-one activities to the WBS:</span></span>
 
-    - <span data-ttu-id="04abd-140">Memulai</span><span class="sxs-lookup"><span data-stu-id="04abd-140">Initiating</span></span>
-    - <span data-ttu-id="04abd-141">Perencanaan</span><span class="sxs-lookup"><span data-stu-id="04abd-141">Planning</span></span>
-    - <span data-ttu-id="04abd-142">Menjalankan</span><span class="sxs-lookup"><span data-stu-id="04abd-142">Executing</span></span>
-    - <span data-ttu-id="04abd-143">Pemantauan dan Kontrol</span><span class="sxs-lookup"><span data-stu-id="04abd-143">Monitoring and Control</span></span>
-    - <span data-ttu-id="04abd-144">Tutup</span><span class="sxs-lookup"><span data-stu-id="04abd-144">Close</span></span>
+    - <span data-ttu-id="27215-140">Memulai</span><span class="sxs-lookup"><span data-stu-id="27215-140">Initiating</span></span>
+    - <span data-ttu-id="27215-141">Perencanaan</span><span class="sxs-lookup"><span data-stu-id="27215-141">Planning</span></span>
+    - <span data-ttu-id="27215-142">Menjalankan</span><span class="sxs-lookup"><span data-stu-id="27215-142">Executing</span></span>
+    - <span data-ttu-id="27215-143">Pemantauan dan Kontrol</span><span class="sxs-lookup"><span data-stu-id="27215-143">Monitoring and Control</span></span>
+    - <span data-ttu-id="27215-144">Tutup</span><span class="sxs-lookup"><span data-stu-id="27215-144">Close</span></span>
 
-4. <span data-ttu-id="04abd-145">Atur tanggal dan upaya (jam), seperti ditunjukkan dalam ilustrasi berikut.</span><span class="sxs-lookup"><span data-stu-id="04abd-145">Set the dates and effort (hours), as shown in the following illustration.</span></span>
+4. <span data-ttu-id="27215-145">Atur tanggal dan upaya (jam), seperti ditunjukkan dalam ilustrasi berikut.</span><span class="sxs-lookup"><span data-stu-id="27215-145">Set the dates and effort (hours), as shown in the following illustration.</span></span>
 
-    <span data-ttu-id="04abd-146">[![Mengatur tanggal dan upaya](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span><span class="sxs-lookup"><span data-stu-id="04abd-146">[![Setting the dates and effort](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span></span>
+    <span data-ttu-id="27215-146">[![Mengatur tanggal dan upaya](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span><span class="sxs-lookup"><span data-stu-id="27215-146">[![Setting the dates and effort](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span></span>
 
-5. <span data-ttu-id="04abd-147">Pilih baris tugas **memulai**, lalu di bidang **peran**, pilih **manajer proyek senior**.</span><span class="sxs-lookup"><span data-stu-id="04abd-147">Select the **Initiating** task line, and then, in the **Role** field, select **Senior Project Manager**.</span></span>
-6. <span data-ttu-id="04abd-148">Pilih **Terbitkan**.</span><span class="sxs-lookup"><span data-stu-id="04abd-148">Select **Publish**.</span></span>
-7. <span data-ttu-id="04abd-149">Pada baris yang sama, di bidang **sumber daya**, pilih **Daniel goldschmidt**, lalu pilih **terima**.</span><span class="sxs-lookup"><span data-stu-id="04abd-149">On the same line, in the **Resource** field, select **Daniel Goldschmidt**, and then select **Accept**.</span></span>
-8. <span data-ttu-id="04abd-150">Pilih baris tugas **perencanaan**, lalu di bidang **peran**, pilih **analis bisnis**.</span><span class="sxs-lookup"><span data-stu-id="04abd-150">Select the **Planning** task line, and then, in the **Role** field, select **Business analyst**.</span></span>
-9. <span data-ttu-id="04abd-151">Pilih **publikasikan**, lalu pilih **Buat otomatis tim**.</span><span class="sxs-lookup"><span data-stu-id="04abd-151">Select **Publish**, and then select **Auto generate team**.</span></span>
-10. <span data-ttu-id="04abd-152">Dalam kotak pesan yang ditampilkan, pilih **Ya**.</span><span class="sxs-lookup"><span data-stu-id="04abd-152">In the message box that appears, select **Yes**.</span></span>
-11. <span data-ttu-id="04abd-153">Di bidang **sumber daya**, Verifikasikan bahwa nilai adalah **analis bisnis 1**.</span><span class="sxs-lookup"><span data-stu-id="04abd-153">In the **Resource** field, verify that the value is **Business analyst 1**.</span></span>
-12. <span data-ttu-id="04abd-154">Untuk sumber daya **Analisis bisnis 1**, buka pencarian, dan pilih **peluncuran tugas sumber daya**.</span><span class="sxs-lookup"><span data-stu-id="04abd-154">For the **Business analyst 1** resource, open the lookup, and select **Launch resource assignments**.</span></span> <span data-ttu-id="04abd-155">Kemudian pilih pekerja untuk tugas.</span><span class="sxs-lookup"><span data-stu-id="04abd-155">Then select a worker for the task.</span></span>
-13. <span data-ttu-id="04abd-156">Pilih **Penugasan tentatif** &gt; **kapasitas penuh**.</span><span class="sxs-lookup"><span data-stu-id="04abd-156">Select **Soft assign** &gt; **Full capacity**.</span></span>
+5. <span data-ttu-id="27215-147">Pilih baris tugas **memulai**, lalu di bidang **peran**, pilih **manajer proyek senior**.</span><span class="sxs-lookup"><span data-stu-id="27215-147">Select the **Initiating** task line, and then, in the **Role** field, select **Senior Project Manager**.</span></span>
+6. <span data-ttu-id="27215-148">Pilih **Terbitkan**.</span><span class="sxs-lookup"><span data-stu-id="27215-148">Select **Publish**.</span></span>
+7. <span data-ttu-id="27215-149">Pada baris yang sama, di bidang **sumber daya**, pilih **Daniel goldschmidt**, lalu pilih **terima**.</span><span class="sxs-lookup"><span data-stu-id="27215-149">On the same line, in the **Resource** field, select **Daniel Goldschmidt**, and then select **Accept**.</span></span>
+8. <span data-ttu-id="27215-150">Pilih baris tugas **perencanaan**, lalu di bidang **peran**, pilih **analis bisnis**.</span><span class="sxs-lookup"><span data-stu-id="27215-150">Select the **Planning** task line, and then, in the **Role** field, select **Business analyst**.</span></span>
+9. <span data-ttu-id="27215-151">Pilih **publikasikan**, lalu pilih **Buat otomatis tim**.</span><span class="sxs-lookup"><span data-stu-id="27215-151">Select **Publish**, and then select **Auto generate team**.</span></span>
+10. <span data-ttu-id="27215-152">Dalam kotak pesan yang ditampilkan, pilih **Ya**.</span><span class="sxs-lookup"><span data-stu-id="27215-152">In the message box that appears, select **Yes**.</span></span>
+11. <span data-ttu-id="27215-153">Di bidang **sumber daya**, Verifikasikan bahwa nilai adalah **analis bisnis 1**.</span><span class="sxs-lookup"><span data-stu-id="27215-153">In the **Resource** field, verify that the value is **Business analyst 1**.</span></span>
+12. <span data-ttu-id="27215-154">Untuk sumber daya **Analisis bisnis 1**, buka pencarian, dan pilih **peluncuran tugas sumber daya**.</span><span class="sxs-lookup"><span data-stu-id="27215-154">For the **Business analyst 1** resource, open the lookup, and select **Launch resource assignments**.</span></span> <span data-ttu-id="27215-155">Kemudian pilih pekerja untuk tugas.</span><span class="sxs-lookup"><span data-stu-id="27215-155">Then select a worker for the task.</span></span>
+13. <span data-ttu-id="27215-156">Pilih **Penugasan tentatif** &gt; **kapasitas penuh**.</span><span class="sxs-lookup"><span data-stu-id="27215-156">Select **Soft assign** &gt; **Full capacity**.</span></span>
 
     > [!NOTE] 
-    > <span data-ttu-id="04abd-157">Anda tidak menerima peringatan bahwa sumber daya yang ditentukan sekarang 2, karena jumlah sumber daya tetap 1.</span><span class="sxs-lookup"><span data-stu-id="04abd-157">You don't receive a warning that the specified resource is now 2, because the number of resources remains 1.</span></span>
+    > <span data-ttu-id="27215-157">Anda tidak menerima peringatan bahwa sumber daya yang ditentukan sekarang 2, karena jumlah sumber daya tetap 1.</span><span class="sxs-lookup"><span data-stu-id="27215-157">You don't receive a warning that the specified resource is now 2, because the number of resources remains 1.</span></span>
 
-14. <span data-ttu-id="04abd-158">Pada halaman **struktur rincian kerja**, validasi tugas sumber daya pada WBS, dan kemudian pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="04abd-158">On the **Work breakdown structure** page, validate the resource assignment on the WBS, and then select **Save**.</span></span>
+14. <span data-ttu-id="27215-158">Pada halaman **struktur rincian kerja**, validasi tugas sumber daya pada WBS, dan kemudian pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="27215-158">On the **Work breakdown structure** page, validate the resource assignment on the WBS, and then select **Save**.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
