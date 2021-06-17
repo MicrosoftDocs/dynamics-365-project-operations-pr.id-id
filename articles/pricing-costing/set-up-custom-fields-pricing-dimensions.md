@@ -2,11 +2,9 @@
 title: Mengonfigurasikan bidang kustom sebagai dimensi harga
 description: Topik ini menyediakan informasi tentang bagaimana mengkonfigurasi dimensi harga menggunakan bidang kustom .
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274867"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004715"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Mengonfigurasikan bidang kustom sebagai dimensi harga
 
@@ -75,12 +73,12 @@ Ada dua jenis dasbor di dimensi harga:
   
 | Peran        | Unit Organisasi    |Lokasi Kerja      |Jabatan standar      |Jam Kerja Sumber daya      |  Mark up|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Aswono India|Di Lokasi            |                    |Lembur                 |15     |
-|             | Aswono India|Lokal             |                    |Lembur                 |10     |
+|             | Contoso India|Di Lokasi            |                    |Lembur                 |15     |
+|             | Contoso India|Lokal             |                    |Lembur                 |10     |
 |             | Contoso AS   |Lokal             |                    |Lembur                 |20     |
 
 
-Jika sumber daya dari Aswono India yang tingkat dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga akan menggunakan tingkat dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
+Jika sumber daya dari Contoso India yang tingkat dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga akan menggunakan tingkat dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
 
 ### <a name="applicable-to-cost"></a>Berlaku untuk Biaya 
 Jika ini diatur ke **ya**, ini menunjukkan bahwa nilai dimensi dari konteks input harus digunakan untuk mencocokkan dengan **harga peran** dan **markup harga peran** saat mengambil biaya dan tingkat markup.

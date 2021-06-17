@@ -2,18 +2,16 @@
 title: Pengaturan dan penerapan data konfigurasi di Common Data Service
 description: Topik ini menyediakan informasi tentang mengonfigurasikan dan menerapkan data konfigurasi di Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289823"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001295"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Pengaturan dan penerapan data konfigurasi di Common Data Service 
 
@@ -33,7 +31,7 @@ Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyar
 
 ## <a name="install-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi
 
-1. Unduh, buka blokir, dan buka [Paket paket data pengaturan dan konfigurasi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Unduh, buka blokir, dan buka [Paket paket data pengaturan dan konfigurasi](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Arahkan ke folder zip terbuka dan Jalankan file eksekusi, *DataMigrationUtility*.
 3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
 
@@ -57,13 +55,20 @@ Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyar
 ![Impor Data](./media/5ImportData.png)
 
 10. Impor akan berjalan selama sekitar dua-sepuluh menit tergantung pada kecepatan jaringan Anda. Setelah impor selesai, keluar dari Wizard CMT. 
-11. Periksa organisasi Anda untuk data dalam 19 entitas berikut:
+11. Periksa organisasi Anda untuk data dalam 26 entitas berikut:
 
   - Mata uang
+  - Bagan Akun
+  - Kalender Fiskal
+  - Jenis Nilai Tukar Mata Uang
+  - Hari Pembayaran
+  - Jadwal Pembayaran
+  - Persyaratan Pembayaran
   - Unit Organisasi
   - Kontak
   - Grup pajak
   - Grup Pelanggan
+  - Grup Vendor
   - Unit
   - Grup Unit
   - Daftar Harga
@@ -127,7 +132,7 @@ Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyar
 12. Perbarui bidang berikut:
 
  - **Perusahaan Default**: USPM
- - **Unit organisasi default**:Aswono Robotics global
+ - **Unit Organisasi Default**: Contoso Robotics Global
  - **Frekuensi faktur**: hari ketujuh dan terakhir
  - **Template jam kerja**: Ubah ke template yang Anda buat.
 

@@ -2,18 +2,16 @@
 title: Sekilas faktur antarperusahaan
 description: Topik ini berisi informasi dan contoh tentang membuat faktur antarperusahaan untuk berbagai proyek.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287332"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002645"
 ---
 # <a name="intercompany-invoicing-overview"></a>Sekilas faktur antarperusahaan
 
@@ -21,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Organisasi Anda mungkin memiliki beberapa divisi, anak perusahaan, dan entitas hukum lainnya yang mentransfer produk dan layanan satu sama lain untuk proyek. Entitas hukum yang menyediakan layanan atau produk disebut *entitas hukum pemberi pinjaman*. Entitas hukum yang menerima layanan atau produk disebut *entitas hukum peminjam*.
 
-Ilustrasi berikut menunjukkan skenario umum di mana dua entitas hukum, Contoso Robotics USA (entitas hukum peminjam) dan Contoso Robotics UK (entitas hukum pemberi pinjaman) berbagi sumber daya untuk menyediakan proyek bagi pelanggan, Adventure works. Untuk skenario ini, Contoso Robotics USA dikontrak untuk memberikan pekerjaan kepada Adventure Works.
+Ilustrasi berikut menampilkan skenario umum, yakni dua entitas hukum, Contoso Robotics USA (entitas hukum peminjam) dan Robotics Contoso UK (entitas hukum pemberia pinjaman) berbagi sumber daya untuk melaksanakan proyek untuk pelanggan, Adventure Works. Untuk skenario ini, Contoso Robotics USA dikontrak untuk memberikan pekerjaan ke Adventure Works.
 
 ![Faktur antarperusahaan](./media/IntercompanyScenario.png) 
 

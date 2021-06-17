@@ -2,8 +2,6 @@
 title: Melihat dan mengirim faktur
 description: Bagaimana melihat dan mengirim faktur di Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55e94386ec086e369ec4e9df9f94572580d72325
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3971c10370f41d6729f2a51bf0c9e1dbe0757bec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281212"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002510"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Melihat dan mengirim faktur (Project Service)
 
