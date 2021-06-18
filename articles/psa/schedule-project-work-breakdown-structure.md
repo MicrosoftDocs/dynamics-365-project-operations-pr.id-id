@@ -2,8 +2,6 @@
 title: Jadwalkan proyek dengan struktur rincian kerja
 description: Cara menjadwalkan proyek dengan struktur rincian kerja di Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a00e39f78890426721a49cd569ba8ce4accb30a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 027bcbc8995ed39af78c7ff9b1028f401c3b0d4d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282697"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008585"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Jadwalkan proyek dengan struktur rincian kerja (Project Service)
 
@@ -122,7 +120,7 @@ Anda akan menggunakan jenis tugas berikut saat membuat struktur rincian kerja An
   
     -   Tanggal mulai tugas yang pendahulunya memiliki default tanggal akhir terbaru dari pendahulunya  
   
-    -   Upaya = jumlah orang * durasi * jam dalam satu hari kerja standar kalendar proyek  
+    -   Upaya = jumlah orang x durasi x jam dalam satu hari kerja standar kalendar proyek  
   
 -   **Penjadwalan manual**.   Dalam beberapa kasus, Anda mungkin ingin menyimpang dari aturan-aturan ini. Dalam kasus ini, Anda dapat mengatur modus tugas untuk tugas untuk secara manual dijadwalkan. Ini menghentikan mesin penjadwalan menghitung nilai untuk atribut penjadwalan lainnya. Mengatur pendahulu pada tugas-tugas selalu berdampak pada tanggal mulai tugas yang tergantung.  
   

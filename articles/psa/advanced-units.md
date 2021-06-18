@@ -2,8 +2,6 @@
 title: Grup unit dan unit
 description: Topik ini menyediakan informasi tentang grup unit dan unit.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291623"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009575"
 ---
 # <a name="unit-groups-and-units"></a>Grup unit dan unit
 
@@ -86,11 +84,11 @@ Contoh berikut menunjukkan cara PSA menggunakan grup unit, unit, dan faktor konv
     - **Unit waktu default**: hari 
     - **Mata Uang**: GBP
 
-| Peran      | Grup Unit | Unit | Unit Organisasi | Harga   |
+| Peran      | Grup Unit | Unit | Unit organisasi | Harga   |
 |-----------|------------|------|---------------------|---------|
-| Pengembang | Time       | Day  | Aswono AS          | 800 GBP |
+| Pengembang | Waktu       | Hari  | Contoso Inggris          | 800 GBP |
 
-### <a name="time-entry"></a>Entri Waktu
+### <a name="time-entry"></a>Entri waktu
 
 Tabel berikut Menampilkan hasil transaksi penjualan yang dibuat oleh PSA selama proyek tiga jam.
 

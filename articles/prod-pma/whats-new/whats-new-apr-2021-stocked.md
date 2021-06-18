@@ -2,19 +2,17 @@
 title: Yang baru atau berubah di Project Operations, April 2021 untuk skenario berbasis stok/produksi
 description: Pembaruan topik ini menyediakan informasi tentang pembaruan kualitas yang tersedia di rilis Project Operations April 2021 untuk skenario berbasis stok/produksi.
 author: andchoi
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2e2e3c1c717b5296964e0921aeec4999dd2f6e29
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
+ms.openlocfilehash: ac157f276badfad031f587fa0ec70c17383133f4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935568"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011960"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Yang baru atau berubah di Project Operations, April 2021 untuk skenario berbasis stok/produksi
 

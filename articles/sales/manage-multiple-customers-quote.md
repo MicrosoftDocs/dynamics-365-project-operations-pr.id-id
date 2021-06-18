@@ -2,18 +2,16 @@
 title: Mengelola beberapa pelanggan pada kuotasi proyek
 description: Topik ini menyediakan informasi tentang menangani kuotasi yang melibatkan beberapa pelanggan yang akan mendanai proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 62bd8e3539102229c79126397cf60287747b187d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277882"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011420"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mengelola beberapa pelanggan pada kuotasi proyek
 
