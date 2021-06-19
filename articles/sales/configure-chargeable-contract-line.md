@@ -2,18 +2,16 @@
 title: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak proyek
 description: Topik ini menyediakan informasi tentang komponen dikenakan biaya dan yang tidak dikenakan yang disertakan di baris kontrak.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: d42dd180dacc45e72eddcac70ae9ede38d4c36c6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858342"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013625"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak proyek
 

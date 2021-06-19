@@ -1,9 +1,7 @@
 ---
 title: Pertimbangan peningkatan - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x ke versi 3
 description: Topik ini menyediakan informasi tentang pertimbangan yang harus anda buat saat melakukan upgrade dari versi Project Service Automation 2. x atau 1. x ke versi 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281662"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014886"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan peningkatan – PSA versi 2.x atau 1.x ke versi 3
 
@@ -83,15 +81,15 @@ Sebelum memulai peningkatan, sebaiknya buat ulang tim untuk setiap proyek yang m
 
 Untuk tugas yang ditetapkan ke anggota tim umum yang dihasilkan dengan **Buat tim**, peningkatan akan meninggalkan sumber daya generik pada tim dan meninggalkan tugas ke anggota tim generik. Sebaiknya buat persyaratan sumber daya untuk anggota tim generik setelah peningkatan, namun sebelum Anda memesan atau mengajukan permintaan sumber daya. Tindakan ini akan mempertahankan penetapan unit organisasi pada anggota tim generik yang berbeda dengan unit organisasi kontrak proyek.
 
-Misalnya, dalam proyek proyek Z, unit organisasi kontrak adalah Aswono AS. Dalam rencana proyek, tugas pengujian dalam fase penerapan telah ditetapkan peran Konsultan teknis, dan unit organisasi yang ditetapkan adalah Aswono India.
+Misalnya, dalam proyek proyek Z, unit organisasi kontrak adalah Contoso AS. Dalam rencana proyek, tugas pengujian dalam fase penerapan telah ditetapkan peran Konsultan teknis, dan unit organisasi yang ditetapkan adalah Contoso India.
 
 ![Tahap penerapan penugasan organisasi](media/org-unit-assignment-09.png)
 
-Setelah tahap penerapan, tugas uji integrasi ditetapkan ke konsultan teknis peran, namun org diatur ke Aswono AS.  
+Setelah tahap penerapan, tugas uji integrasi ditetapkan ke konsultan teknis peran, namun org diatur ke Contoso AS.  
 
 ![Uji integrasi penetapan organisasi tugas](media/org-unit-generate-team-10.png)
 
-Bila Anda membuat tim untuk proyek, dua anggota tim umum dibuat karena unit organisasi yang berbeda pada tugas. Konsultan teknis 1 akan ditugasi tugas Aswono India dan konsultan teknik 2 akan memiliki tugas Aswono AS.  
+Bila Anda membuat tim untuk proyek, dua anggota tim umum dibuat karena unit organisasi yang berbeda pada tugas. Konsultan teknis 1 akan ditugasi tugas Contoso India dan konsultan teknik 2 akan memiliki tugas Contoso AS.  
 
 ![Anggota tim generik dihasilkan](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,7 @@ Anda dapat melihat unit organisasi pada tampilan perkiraan.
  
 Setelah peningkatan selesai, unit organisasi pada tugas baris yang terkait dengan anggota tim generik ditambahkan ke anggota tim generik, dan tugas baris akan dihapus. Oleh karena itu, sebaiknya lakukan sebelum meningkatkan, buat atau buat ulang tim pada setiap proyek yang berisi sumber daya generik.
 
-Untuk tugas yang ditetapkan ke peran dengan unit organisasi yang berbeda dari unit organisasi proyek kontrak, dan tim belum dihasilkan, peningkatan akan membuat anggota tim generik untuk peran tersebut, namun akan menggunakan unit kontrak proyek untuk unit organisasi anggota tim. Merujuk kembali ke contoh dengan Project Z, unit organisasi kontrak Aswono AS, dan tugas pengujian rencana proyek dalam fase penerapan telah ditetapkan peran Konsultan teknis dengan unit organisasi yang ditetapkan ke Aswono India. Tes integrasi yang diselesaikan setelah fase implementasi telah ditugaskan ke konsultan teknis peran. Unit organisasi Aswono AS dan tim belum dibuat. Peningkatan akan membuat satu anggota tim generik, konsultan teknis yang memiliki jam penugasan dari ketiga tugas, dan unit organisasi Aswono AS, unit organisasi kontrak proyek.   
+Untuk tugas yang ditetapkan ke peran dengan unit organisasi yang berbeda dari unit organisasi proyek kontrak, dan tim belum dihasilkan, peningkatan akan membuat anggota tim generik untuk peran tersebut, namun akan menggunakan unit kontrak proyek untuk unit organisasi anggota tim. Merujuk kembali ke contoh dengan Project Z, ini berarti bahwa unit organisasi kontrak Contoso AS, dan tugas pengujian rencana proyek dalam fase penerapan telah ditetapkan peran Konsultan teknis dengan unit organisasi yang ditetapkan ke Contoso India. Tes integrasi yang diselesaikan setelah fase implementasi telah ditugaskan ke konsultan teknis peran. Unit organisasi Contoso AS dan tim belum dibuat. Peningkatan akan membuat satu anggota tim generik, konsultan teknis yang memiliki jam penugasan dari ketiga tugas, dan unit organisasi Contoso AS, unit organisasi kontrak proyek.   
  
 Mengubah default unit organisasi sumber daya berbeda pada anggota tim yang belum dibuat adalah alasan kami menyarankan Anda membuat atau membuat ulang tim pada setiap proyek yang berisi sumber daya generik sebelum peningkatan sehingga tugas unit organisasi tidak hilang.
 
