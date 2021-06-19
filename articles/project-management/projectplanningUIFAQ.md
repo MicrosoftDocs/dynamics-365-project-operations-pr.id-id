@@ -2,19 +2,17 @@
 title: Memecahkan masalah penanganan kisi Tugas
 description: Pembaruan topik memberikan informasi pemecahan masalah yang diperlukan saat menangani kisi Tugas.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286567"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213404"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Memecahkan masalah penanganan kisi Tugas 
 
@@ -34,7 +32,7 @@ Untuk Microsoft Edge atau browser Google Chrome, prosedur berikut menjelaskan ca
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
 
-1. Buka browser Edge Anda.
+1. Buka browser Edgé Anda.
 2. Di sudut kanan atas, pilih **elipsis (...)**, lalu pilih **pengaturan**.
 3. Dalam **Cookie dan izin situs**, pilih **Cookie dan data situs**.
 4. Nonaktifkan **Blokir cookie pihak ketiga**.
@@ -57,7 +55,7 @@ Project Operations mengharuskan parameter proyek mereferensi titik akhir PEX. Ti
  ![Bidang titik akhir PEX pada parameter proyek](media/projectparameter.png)
 
 1. Tambahkan bidang **titik akhir** PEX ke halaman **Parameter Proyek**.
-2. Perbarui bidang dengan nilai berikut ini: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Perbarui bidang dengan nilai berikut ini: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Hilangkan bidang dari halaman **Parameter Proyek**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Hak istimewa untuk Proyek untuk Web

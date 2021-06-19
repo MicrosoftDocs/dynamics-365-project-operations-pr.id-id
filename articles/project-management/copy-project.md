@@ -2,30 +2,29 @@
 title: Menyalin proyek
 description: Topik ini menyediakan informasi tentang menyalin proyek di Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479523"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091258"
 ---
 # <a name="copy-a-project"></a>Menyalin proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek baru dengan memilih **Salin Proyek** pada formulir **Proyek**. Untuk menyalin proyek, buka proyek yang akan disalin, lalu pilih **Salin proyek**. Tindakan akan menyalin:
+Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek baru dengan memilih **Salin Proyek** pada formulir **Proyek**. Untuk menyalin proyek, buka proyek yang akan disalin, lalu pilih **Salin proyek**. Tindakan akan menyalin yang berikut:
 
-- Properti proyek (Perkiraan tanggal mulai disalin dari proyek sumber)
+- Properti proyek 
 - Struktur rincian kerja
 - Anggota tim proyek
 - Perkiraan proyek
 - Estimasi pengeluaran proyek
+- Estimasi bahan proyek
 
 ## <a name="project-properties"></a>Properti proyek
 
@@ -41,12 +40,16 @@ Saat proyek disalin, nilai pada bidang berikut akan disalin:
 - Status
 - Keseluruhan Status Proyek
 - Komentar
-- Perkiraan
-- Perkiraan Tanggal Mulai
-- Tanggal Berakhir
+- Estimasi
+- Estimasi Tanggal Mulai: Tanggal proyek dibuat dari salinan.
+- Estimasi Tanggal Selesai: Tanggal ini disesuaikan berdasarkan tanggal mulai proyek baru yang dibuat dari salinan.
 - Upaya (Jam)
 - Perkiraan Biaya Tenaga Kerja
 - Perkiraan Biaya Pengeluaran
+- Perkiraan Biaya Materi
+
+> [!NOTE]
+> Salin proyek adalah operasi yang berjalan lama. Rekaman proyek, atribut yang relevan, dan banyak entitas terkait juga disalin. Karena sifat operasi yang berjalan lama, setelah salinan dimulai, halaman proyek target dikunci untuk pengeditan hingga operasi penyalinan selesai.
 
 ## <a name="work-breakdown-structure"></a>Struktur rincian kerja
 
@@ -56,9 +59,9 @@ Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. 
 
 Bila tim proyek disalin dari proyek sumber, sumber daya generik akan disalin. Tugas sumber generik juga dikelola seperti proyek sumber. Sumber daya bernama akan dikonversi ke anggota tim generik.
 
-## <a name="estimates"></a>Perkiraan
+## <a name="estimates"></a>Estimasi
 
-Saat proyek disalin, baris sumber daya maupun perkiraan pengeluaran disalin dari proyek sumber. 
+Bila proyek disalin, baris estimasi bahan, pengeluaran, dan sumber daya disalin dari proyek sumber. 
 
 Untuk informasi tentang cara mengakses salinan proyek secara programatik, lihat [mengembangkan template proyek dengan salinan proyek](dev-copy-project.md).
 
