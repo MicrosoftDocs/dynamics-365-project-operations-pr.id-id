@@ -4,6 +4,7 @@ description: Topik ini memberikan informasi tentang kemampuan manajemen sumber d
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -16,41 +17,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 71e1774d097e2929a7d51d19b3cebfcacff28f0c
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008630"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369110"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="1edf5-103">Laman beranda proyek sumber daya</span><span class="sxs-lookup"><span data-stu-id="1edf5-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="949bb-103">Laman beranda proyek sumber daya</span><span class="sxs-lookup"><span data-stu-id="949bb-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="1edf5-104">Sumber daya adalah aset terpenting dari organisasi berbasis layanan.</span><span class="sxs-lookup"><span data-stu-id="1edf5-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="1edf5-105">Kemampuan untuk menemukan sumber daya yang tepat pada waktu yang tepat, memesan sumber daya pada proyek, dan menjaga mereka terus dimanfaatkan membantu organisasi mencapai target pendapatan dan tujuan kepuasan pelanggan.</span><span class="sxs-lookup"><span data-stu-id="1edf5-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="1edf5-106">Anda dapat menggunakan fungsi sumber daya proyek di Project Service Automation (PSA) untuk melakukan langkah berikut:</span><span class="sxs-lookup"><span data-stu-id="1edf5-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="949bb-104">Sumber daya adalah aset terpenting dari organisasi berbasis layanan.</span><span class="sxs-lookup"><span data-stu-id="949bb-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="949bb-105">Kemampuan untuk menemukan sumber daya yang tepat pada waktu yang tepat, memesan sumber daya pada proyek, dan menjaga mereka terus dimanfaatkan membantu organisasi mencapai target pendapatan dan tujuan kepuasan pelanggan.</span><span class="sxs-lookup"><span data-stu-id="949bb-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="949bb-106">Anda dapat menggunakan fungsi sumber daya proyek di Project Service Automation (PSA) untuk melakukan langkah berikut:</span><span class="sxs-lookup"><span data-stu-id="949bb-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="1edf5-107">Membentuk tim proyek dengan Pemesanan sumber daya yang tersedia dan berkualifikasi.</span><span class="sxs-lookup"><span data-stu-id="1edf5-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="1edf5-108">Membuat rekaman anggota tim generik dan menentukan peran dan unit organisasi sumber daya mereka.</span><span class="sxs-lookup"><span data-stu-id="1edf5-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="1edf5-109">Membuat persyaratan sumber daya untuk anggota tim generik dari penetapan tugas mereka.</span><span class="sxs-lookup"><span data-stu-id="1edf5-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="1edf5-110">Mencocokkan keahlian dengan mengidentifikasi keahlian yang ditentukan pada permintaan sumber daya terhadap kemampuan sumber daya yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="1edf5-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="1edf5-111">Mengganti sumber daya.</span><span class="sxs-lookup"><span data-stu-id="1edf5-111">Substitute resources.</span></span>
-- <span data-ttu-id="1edf5-112">Menyelaraskan tugas jadwal tugas dan Pemesanan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="1edf5-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="1edf5-113">Merekonsiliasi perbedaan dalam pemesanan dan tugas.</span><span class="sxs-lookup"><span data-stu-id="1edf5-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="1edf5-114">Mengubah Pemesanan sumber daya sebagai respons status izin.</span><span class="sxs-lookup"><span data-stu-id="1edf5-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="1edf5-115">Berkolaborasi antara manajer proyek dan manajer sumber daya.</span><span class="sxs-lookup"><span data-stu-id="1edf5-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="1edf5-116">Melihat Riwayat pemanfaatan sumber daya terhadap target, termasuk perincian tentang cara penggunaan waktu sumber daya.</span><span class="sxs-lookup"><span data-stu-id="1edf5-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="1edf5-117">Mempertahankan keterampilan dan repositori kemahiran.</span><span class="sxs-lookup"><span data-stu-id="1edf5-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="949bb-107">Membentuk tim proyek dengan Pemesanan sumber daya yang tersedia dan berkualifikasi.</span><span class="sxs-lookup"><span data-stu-id="949bb-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="949bb-108">Membuat rekaman anggota tim generik dan menentukan peran dan unit organisasi sumber daya mereka.</span><span class="sxs-lookup"><span data-stu-id="949bb-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="949bb-109">Membuat persyaratan sumber daya untuk anggota tim generik dari penetapan tugas mereka.</span><span class="sxs-lookup"><span data-stu-id="949bb-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="949bb-110">Mencocokkan keahlian dengan mengidentifikasi keahlian yang ditentukan pada permintaan sumber daya terhadap kemampuan sumber daya yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="949bb-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="949bb-111">Mengganti sumber daya.</span><span class="sxs-lookup"><span data-stu-id="949bb-111">Substitute resources.</span></span>
+- <span data-ttu-id="949bb-112">Menyelaraskan tugas jadwal tugas dan Pemesanan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="949bb-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="949bb-113">Merekonsiliasi perbedaan dalam pemesanan dan tugas.</span><span class="sxs-lookup"><span data-stu-id="949bb-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="949bb-114">Mengubah Pemesanan sumber daya sebagai respons status izin.</span><span class="sxs-lookup"><span data-stu-id="949bb-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="949bb-115">Berkolaborasi antara manajer proyek dan manajer sumber daya.</span><span class="sxs-lookup"><span data-stu-id="949bb-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="949bb-116">Melihat Riwayat pemanfaatan sumber daya terhadap target, termasuk perincian tentang cara penggunaan waktu sumber daya.</span><span class="sxs-lookup"><span data-stu-id="949bb-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="949bb-117">Mempertahankan keterampilan dan repositori kemahiran.</span><span class="sxs-lookup"><span data-stu-id="949bb-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="1edf5-118">Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau bernama di PSA.</span><span class="sxs-lookup"><span data-stu-id="1edf5-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="1edf5-119">Anda dapat menggunakan berbagai metode untuk menambah dan menetapkan anggota tim serta mengelola Pemesanan dan tugas.</span><span class="sxs-lookup"><span data-stu-id="1edf5-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="1edf5-120">Untuk informasi tambahan, lihat topik berikut:</span><span class="sxs-lookup"><span data-stu-id="1edf5-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="949bb-118">Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau bernama di PSA.</span><span class="sxs-lookup"><span data-stu-id="949bb-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="949bb-119">Anda dapat menggunakan berbagai metode untuk menambah dan menetapkan anggota tim serta mengelola Pemesanan dan tugas.</span><span class="sxs-lookup"><span data-stu-id="949bb-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="949bb-120">Untuk informasi tambahan, lihat topik berikut:</span><span class="sxs-lookup"><span data-stu-id="949bb-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="1edf5-121">Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan menetapkan tugas pada mereka</span><span class="sxs-lookup"><span data-stu-id="1edf5-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="1edf5-122">Tetapkan sumber daya yang dapat dipesan generik ke tugas dan buat persyaratan sumber daya</span><span class="sxs-lookup"><span data-stu-id="1edf5-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="1edf5-123">Pesan sumber daya bernama dari persyaratan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="1edf5-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="1edf5-124">Ajukan permintaan sumber daya</span><span class="sxs-lookup"><span data-stu-id="1edf5-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="1edf5-125">Menerima atau menolak sumber daya proyek yang diusulkan dari permintaan sumber daya</span><span class="sxs-lookup"><span data-stu-id="1edf5-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="949bb-121">Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan menetapkan tugas pada mereka</span><span class="sxs-lookup"><span data-stu-id="949bb-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="949bb-122">Tetapkan sumber daya yang dapat dipesan generik ke tugas dan buat persyaratan sumber daya</span><span class="sxs-lookup"><span data-stu-id="949bb-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="949bb-123">Pesan sumber daya bernama dari persyaratan sumber daya.</span><span class="sxs-lookup"><span data-stu-id="949bb-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="949bb-124">Ajukan permintaan sumber daya</span><span class="sxs-lookup"><span data-stu-id="949bb-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="949bb-125">Menerima atau menolak sumber daya proyek yang diusulkan dari permintaan sumber daya</span><span class="sxs-lookup"><span data-stu-id="949bb-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

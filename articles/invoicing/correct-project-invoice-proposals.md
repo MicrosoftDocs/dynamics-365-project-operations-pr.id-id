@@ -1,0 +1,42 @@
+---
+title: Memperbaiki akuntansi pada draf proposal faktur proyek
+description: Topik ini menjelaskan cara menyesuaikan informasi yang terkait dengan akuntansi pada draf proposal faktur.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: id-ID
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251228"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="e1936-103">Memperbaiki akuntansi pada draf proposal faktur proyek</span><span class="sxs-lookup"><span data-stu-id="e1936-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="e1936-104">_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_</span><span class="sxs-lookup"><span data-stu-id="e1936-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="e1936-105">*Rincian operasional* untuk faktur proyek dikelola oleh manajer proyek pada faktur pro forma.</span><span class="sxs-lookup"><span data-stu-id="e1936-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="e1936-106">Rincian ini mencakup keputusan tentang jam, pengeluaran, bahan, atau tahapan yang harus ditagihkan, tarif, serta penerapan jumlah uang muka dan panjar.</span><span class="sxs-lookup"><span data-stu-id="e1936-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="e1936-107">Setelah mengkonfirmasikan faktur pro forma asli, Anda dapat menyesuaikan rincian operasional dengan membuat dan mengkonfirmasikan [faktur pro forma perbaikan](../proforma-invoicing/corrective-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="e1936-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="e1936-108">*Rincian akuntansi* untuk faktur proyek dikelola di dokumen faktur untuk pelanggan.</span><span class="sxs-lookup"><span data-stu-id="e1936-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="e1936-109">Rincian ini mencakup perhitungan pajak penjualan dan dimensi keuangan yang diterapkan ke faktur.</span><span class="sxs-lookup"><span data-stu-id="e1936-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="e1936-110">Laporan topik ini memberikan rincian tentang penyesuaian rincian akuntansi ini pada draf proposal faktur proyek.</span><span class="sxs-lookup"><span data-stu-id="e1936-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="e1936-111">Menyesuaikan Pajak Penjualan</span><span class="sxs-lookup"><span data-stu-id="e1936-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="e1936-112">Grup pajak penjualan penagihan default dan grup pajak penjualan item dapat disesuaikan secara langsung pada dokumen proposal faktur.</span><span class="sxs-lookup"><span data-stu-id="e1936-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="e1936-113">Untuk menyesuaikan grup ini, pilih **Edit**, lalu di setiap baris proposal faktur proyek, masukkan nilai baru di bidang **grup pajak penjualan** atau **grup pajak penjualan Item**.</span><span class="sxs-lookup"><span data-stu-id="e1936-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="e1936-114">Menyesuaikan dimensi keuangan</span><span class="sxs-lookup"><span data-stu-id="e1936-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="e1936-115">Dimensi keuangan tidak dapat diedit secara langsung pada baris proposal faktur proyek.</span><span class="sxs-lookup"><span data-stu-id="e1936-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="e1936-116">Melainkan, ikuti langkah-langkah ini untuk menyesuaikan dimensi keuangan pada proposal faktur proyek.</span><span class="sxs-lookup"><span data-stu-id="e1936-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="e1936-117">Pada proposal faktur proyek, pilih **Hapus semua** untuk menghilangkan baris proposal faktur proyek.</span><span class="sxs-lookup"><span data-stu-id="e1936-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="e1936-118">Tombol **Hapus semua** tersedia hanya setelah administrator sistem mengaktifkan fitur **Hapus baris proposal faktur saat menggunakan Project Operations untuk skenario berbasis sumber daya/non-stok** di ruang kerja **manajemen Fitur**.</span><span class="sxs-lookup"><span data-stu-id="e1936-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="e1936-119">Menyesuaikan dimensi keuangan:</span><span class="sxs-lookup"><span data-stu-id="e1936-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="e1936-120">**Transaksi cicilan (tahapan penagihan):** Buka **Semua proyek** \> **Kelola** \> **transaksi cicilan**, dan pilih tahapan yang memerlukan penyesuaian.</span><span class="sxs-lookup"><span data-stu-id="e1936-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="e1936-121">Kemudian, pada tab **Dimensi keuangan**, perbarui nilai jika diperlukan.</span><span class="sxs-lookup"><span data-stu-id="e1936-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="e1936-122">**Waktu, pengeluaran, dan transaksi bahan**: Pada halaman **Transaksi proyek yang diposting**, pilih **Sesuaikan akuntansi** untuk memperbarui dimensi keuangan.</span><span class="sxs-lookup"><span data-stu-id="e1936-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="e1936-123">Setelah selesai menyesuaikan nilai dimensi keuangan, buka **manajemen proyek dan akuntansi** \> **Berkala** \> **Integrasi Project Operations**, dan pilih **Impor dari tabel penahapan** untuk menjalankan proses berkala.</span><span class="sxs-lookup"><span data-stu-id="e1936-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="e1936-124">Proses tersebut menggunakan nilai dimensi keuangan yang diperbarui untuk membuat ulang baris proposal faktur proyek.</span><span class="sxs-lookup"><span data-stu-id="e1936-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="e1936-125">Nilai yang diperbarui kemudian digunakan dalam buku besar umum dan buku besar pembantu proyek ketika faktur proyek diposting.</span><span class="sxs-lookup"><span data-stu-id="e1936-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>
