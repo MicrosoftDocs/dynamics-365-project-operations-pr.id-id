@@ -1,19 +1,19 @@
 ---
-title: Menggunakan API Jadwal untuk melakukan operasi dengan entitas Penjadwalan
-description: Pembaruan topik memberikan informasi dan sampel untuk menggunakan API Jadwal.
+title: Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
+description: Topik ini memberikan informasi dan sampel untuk menggunakan API jadwal proyek.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116801"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293231"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Menggunakan API Jadwal untuk melakukan operasi dengan entitas Penjadwalan
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
@@ -22,9 +22,9 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 ## <a name="scheduling-entities"></a>Entitas Penjadwalan
 
-API jadwal memberikan kemampuan untuk melakukan operasi pembuatan, pembaruan, dan penghapusan dengan **entitas Penjadwalan**. Entitas ini dikelola melalui mesin Penjadwalan di Project for the Web. Membuat, memperbarui, dan menghapus operasi dengan **entitas Penjadwalan** dibatasi di rilis Dynamics 365 Project Operations sebelumnya.
+API jadwal proyek memberikan kemampuan untuk melakukan operasi pembuatan, pembaruan, dan penghapusan dengan **entitas Penjadwalan**. Entitas ini dikelola melalui mesin Penjadwalan di Project for the Web. Membuat, memperbarui, dan menghapus operasi dengan **entitas Penjadwalan** dibatasi di rilis Dynamics 365 Project Operations sebelumnya.
 
-Tabel berikut menyediakan daftar lengkap **entitas Penjadwalan**.
+Tabel berikut menyediakan daftar lengkap entitas jadwal Proyek.
 
 | Nama entitas  | Nama logika entitas |
 | --- | --- |
@@ -39,19 +39,19 @@ Tabel berikut menyediakan daftar lengkap **entitas Penjadwalan**.
 
 OperationSet adalah pola unit kerja yang dapat digunakan ketika beberapa jadwal yang mempengaruhi permintaan harus diproses dalam transaksi.
 
-## <a name="schedule-apis"></a>API Jadwal
+## <a name="project-schedule-apis"></a>API Jadwal proyek
 
-Berikut adalah daftar API Jadwal saat ini.
+Berikut adalah daftar API jadwal Proyek saat ini.
 
 - **msdyn_CreateProjectV1**: API ini dapat digunakan untuk membuat proyek. Proyek dan wadah proyek default dibuat dengan segera.
 - **msdyn_CreateTeamMemberV1**: API ini dapat digunakan untuk membuat anggota tim proyek. Rekaman anggota tim akan segera dibuat.
 - **msdyn_CreateOperationSetV1**: API ini dapat digunakan untuk menjadwalkan beberapa permintaan yang harus dilakukan dalam transaksi.
-- **msdyn_PSSCreateV1**: API ini dapat digunakan untuk membuat entitas. Entitas dapat menjadi salah satu entitas Penjadwalan yang mendukung operasi pembuatan.
-- **msdyn_PSSUpdateV1**: API ini dapat digunakan untuk memperbarui entitas. Entitas dapat menjadi salah satu entitas Penjadwalan yang mendukung operasi pembaruan.
-- **msdyn_PSSDeleteV1**: API ini dapat digunakan untuk menghapus entitas. Entitas dapat menjadi salah satu entitas Penjadwalan yang mendukung operasi penghapusan.
+- **msdyn_PSSCreateV1**: API ini dapat digunakan untuk membuat entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembuatan.
+- **msdyn_PSSUpdateV1**: API ini dapat digunakan untuk memperbarui entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembaruan.
+- **msdyn_PSSDeleteV1**: API ini dapat digunakan untuk menghapus entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi penghapusan.
 - **msdyn_ExecuteOperationSetV1**: API ini digunakan untuk mengeksekusi semua operasi dalam rangkaian operasi yang ditentukan.
 
-## <a name="using-schedule-apis-with-operationset"></a>Menggunakan API Jadwal dengan OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Menggunakan API jadwal proyek dengan OperationSet
 
 Karena rekaman dengan **CreateProjectV1** dan **CreateTeamMemberV1** dibuat dengan segera, API ini tidak dapat digunakan di **OperationSet** secara langsung. Namun, Anda dapat menggunakan API untuk membuat rekaman yang diperlukan, membuat **OperationSet**, dan kemudian menggunakan rekaman yang dibuat sebelumnya di **OperationSet**.
 
@@ -257,7 +257,7 @@ Tabel berikut menentukan bidang yang dibatasi dari **Buat** dan **Edit**.
 ## <a name="limitations-and-known-issues"></a>Masalah dan batasan yang diketahui
 Berikut adalah daftar batasan dan masalah umum:
 
-- API jadwal hanya dapat digunakan oleh **Pengguna dengan Lisensi Microsoft Project.** Tidak dapat digunakan oleh:
+- API Jadwal Proyek hanya dapat digunakan oleh **Pengguna dengan Lisensi Microsoft Project.** Tidak dapat digunakan oleh:
     - Pengguna Aplikasi
     - Pengguna Sistem
     - Pengguna Integrasi
@@ -271,7 +271,7 @@ Berikut adalah daftar batasan dan masalah umum:
 ## <a name="error-handling"></a>Penanganan kesalahan
 
    - Untuk memeriksa kesalahan yang dihasilkan dari Rangkaian Operasi, buka **Pengaturan** \> **Integrasi Jadwal** \> **Rangkaian Operasi**.
-   - Untuk memeriksa kesalahan yang dihasilkan dari Layanan Penjadwalan Proyek, buka **Pengaturan** \> **Integrasi Jadwal** \> **Log Kesalahan PSS**.
+   - Untuk memeriksa kesalahan yang dihasilkan dari Layanan Jadwal Proyek, buka **pengaturan** \> **integrasi Jadwal** \> **Log Kesalahan PSS**.
 
 ## <a name="sample-scenario"></a>Contoh Skenario
 

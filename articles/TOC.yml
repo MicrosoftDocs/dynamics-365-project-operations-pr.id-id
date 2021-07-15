@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Menyebarkan lingkungan
           items:
+            - name: Sebarkan aplikasi Project Operations Dataverse secara manual dengan dukungan penulisan ganda
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Penyediaan lingkungan baru
               href: environment/resource-provision-new-environment.md
             - name: Model keamanan
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Apa yang baru
       items:
+        - name: Juli 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juni 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Mei 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -282,7 +288,7 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
-            - name: Menggunakan API Jadwal (Pratinjau Umum)
+            - name: Menggunakan API jadwal proyek (Pratinjau Umum)
               href: project-management/schedule-api-preview.md
     - name: Manajemen sumber daya
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Ikhtisar proses pemfakturan
           href: invoicing/post-project-invoices.md
-        - name: Mengelola proposal faktur proyek
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Faktur proforma
           items:
             - name: Mengelola akumulasi penagihan berbasis proyek
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Mengonfigurasikan otomatisasi faktur berbasis proyek
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Mengelola proposal faktur proyek
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Faktur pelanggan
+          items:
+            - name: Mengelola proposal faktur proyek
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Mengoreksi akuntansi pada proposal draf faktur proyek
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Faktur antarperusahaan
+          items:
+            - name: Sekilas faktur antarperusahaan
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Mengonfigurasikan faktur antarperusahaan
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Membuat transaksi antarperusahaan
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Membuat faktur vendor dan pelanggan antarperusahaan
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Akuntansi proyek
       items:
         - name: Default dimensi keuangan
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnal integrasi dalam Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Faktur antarperusahaan
-          items:
-            - name: Sekilas faktur antarperusahaan
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Mengonfigurasikan faktur antarperusahaan
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Membuat transaksi antarperusahaan
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Membuat faktur vendor dan pelanggan antarperusahaan
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Pengakuan pendapatan
       items:
         - name: Sekilas pengakuan pendapatan
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
+        - name: Apa yang baru di bulan Juli 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Apa yang baru di bulan Juni 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Apa yang baru di bulan Mei 2021 - penyebaran lite
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Apa yang baru di bulan April 2021 - penyebaran lite
@@ -762,7 +774,7 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
-            - name: Menggunakan API Jadwal (Pratinjau Umum)
+            - name: Menggunakan API jadwal proyek (Pratinjau Umum)
               href: project-management/schedule-api-preview.md
     - name: Manajemen sumber daya
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Apa yang baru
       items:
+        - name: Yang baru di bulan Juli 2021 - Project Operations untuk skenario berbasis stok/produksi
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Yang baru di bulan Mei 2021 - Project Operations untuk skenario berbasis stok/produksi
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Yang baru di bulan April 2021 - Project Operations untuk skenario berbasis stok/produksi
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Yang baru di bulan Maret 2021 - Project Operations untuk skenario berbasis stok/produksi
@@ -1034,6 +1050,10 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 31, V3'

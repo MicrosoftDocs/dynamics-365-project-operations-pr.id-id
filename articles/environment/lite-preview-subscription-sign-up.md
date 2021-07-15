@@ -2,58 +2,40 @@
 title: Mendaftar untuk berlangganan pratinjau - lite
 description: Topik ini menyediakan informasi tentang cara berlangganan dan menyebarkan penawaran penyebaran Project operation lite ke faktur proforma.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997425"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334786"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Mendaftar untuk berlangganan pratinjau - lite 
 
-Artikel topik menjelaskan cara berlangganan penawaran mitra pratinjau dan menyebarkan penyebaran Dynamics 365 Project Operations lite - untuk membuat faktur proforma.
+Topik ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan penyebaran Dynamics 365 Project Operations lite - kesepakatan hingga faktur proforma.
 
 > [!NOTE]
 > Proses ini akan berubah di rilis mendatang Project Operations.
 
 ## <a name="prerequisites"></a>Prasyarat
-
-- Anda akan menerima email yang mengundang Anda untuk berpartisipasi dalam pratinjau. Anda dapat meminta pratinjau di [situs web Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Pengguna yang menerapkan pratinjau harus memiliki hak administrator global Penyewa Azure.
-- Tinjau semua persyaratan dan ketentuan.
-
-## <a name="subscribe"></a>Berlangganan
-
-Bila Anda menerima persetujuan [permintaan pratinjau](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), Anda akan menerima dua tawaran dari Microsoft melalui email. Penawaran ini memungkinkan Anda menyebarkan pratinjau Project Operations:
-
-- Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau
-- Office 365 Project Operations - Uji coba Pratinjau
+- Pengguna yang menerapkan pratinjau harus memiliki hak administrator global Penyewa Azure. Anda dapat membuat penyewa selama penukaran penawaran pertama.
 
 > [!IMPORTANT]
 > Hanya satu orang, administrator penyewa, dalam organisasi harus melakukan tugas ini. Jika Anda bukan pelanggan untuk rilis ini, tunggu hingga organisasi Anda telah terdaftar dan Anda telah menerima kredensial pengguna Anda.
+> 
+> Uji coba hanya digunakan satu kali dalam penyewa. Anda hanya dapat menjalankan uji coba satu kali. Sebaiknya buat penyewa baru untuk tujuan uji coba.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau 
+### <a name="dynamics-365-project-operations-trial"></a>Uji Coba Dynamics 365 Project Operations 
 
 Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di penyewa tempat Anda menginginkan pratinjau Project Operations.
 
-1. Tukarkan kode penawaran pertama, **Dynamics 365 Project Operations (CRM) - Uji Coba Pratinjau** dengan merekatkannya ke URL browser.
-
-![Tukarkan penawaran](./media/16RedeemFirstOfferNew.png)
-
+1. Buka [Uji coba Project Operations](https://aka.ms/try-po) untuk menukarkan kode penawaran pertama, **Dynamics 365 Project Operations**.
 2. Konfirmasikan pesanan.
-![Konfirmasi pesanan](./media/17ConfirmOrderNew.png)
 
-Anda akan melihat penawaran konfirmasi berhasil ditukarkan.
-
-![Konfirmasi](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Uji coba Pratinjau
-
-Ulangi langkah yang sama seperti dengan kode penawaran pertama. Pastikan untuk menambahkan kode penawaran kedua menggunakan akun pengguna yang sama yang digunakan dengan kode penawaran pertama.
+  Anda akan melihat penawaran konfirmasi berhasil ditukarkan.
 
 ## <a name="assign-licenses"></a>Menetapkan lisensi
 
@@ -62,25 +44,20 @@ Ulangi langkah yang sama seperti dengan kode penawaran pertama. Pastikan untuk m
 
 
 1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
-
-![Halaman Beranda pusat Admin](./media/14AdminPortal.png)
-
 2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
-
-![Menetapkan lisensi](./media/15AssignLicenses.png)
-
-3. Pastikan lisensi **Dynamics 365 Project Operations (CRM) Pratinjau** and **Office 365 Project Operations - pratinjau** dipilih. 
+3. Pastikan lisensi **Dynamics 365 Project Operations** dipilih. 
 4. Pilih **Simpan perubahan**.
 
-## <a name="create-a-new-cds-environment"></a>Buat lingkungan CDS baru
+## <a name="create-a-new-dataverse-environment"></a>Buat lingkungan Dataverse baru
 
-1. LakukanPara Pihakenyediaan lingkungan penyebaran cds Project Operations baru dengan mengikuti petunjuk dalam topik, [model penyebaran cds](lite-deployment.md). Saat Anda memilih tipe lingkungan, pastikan untuk menggunakan **Uji coba (Berbasis langganan)**.
-![Lingkungan baru](./media/19CreateEnvironment.png)
+1. Lakukan penyediaan lingkungan penyebaran Project Operations Dataverse baru dengan mengikuti petunjuk dalam topik, [model penyebaran Dataverse](lite-deployment.md). Saat Anda memilih tipe lingkungan, pastikan untuk menggunakan **Uji coba (Berbasis langganan)**.
+
+  ![Lingkungan baru](./media/19CreateEnvironment.png)
 
 2. Pilih pengaturan **Aktifkan aplikasi Dynamics 365** dan biarkan **Sebarkan Aplikasi ini secara otomatis** kosong.  
 3. Pilih **Simpan** untuk membuat lingkungan.
 
-![Tambahkan database](./media/20CreateEnvironment1.png)
+  ![Tambahkan database](./media/20CreateEnvironment1.png)
 
 4. Setelah lingkungan dibuat, instal solusi **Microsoft Dynamics 365 Project Operations**. 
 

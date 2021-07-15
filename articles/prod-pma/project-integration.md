@@ -2,7 +2,7 @@
 title: Integrasi Microsoft Project client
 description: Merencanakan dan memelihara jadwal proyek dapat menjadi rumit, sehingga manajer proyek harus menggunakan alat bantu yang membantu mereka mengelola tugas ini. Integrasi dengan Microsoft Project Client memberikan dukungan untuk membuka dan mengelola struktur rincian kerja proyek.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999450"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269839"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasi Microsoft Project client
 
@@ -126,5 +126,12 @@ Untuk membuat struktur rincian kerja baru menggunakan Microsoft Project Client d
 
 11. Klik **OK**.
 
+> [!NOTE]
+> Add-in Klien Proyek tidak mendukung karakter berikut dalam format ID proyek:
+> 
+>   - Garis bawah
+>   - Titik
+>   - Spasi
+>   - Garis miring
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
