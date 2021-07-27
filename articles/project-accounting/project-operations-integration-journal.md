@@ -26,7 +26,7 @@ Entri waktu dan pengeluaran membuat transaksi **Aktual** yang mewakili tampilan 
 Rekaman dalam jurnal Integrasi Project Operations dibuat menggunakan proses berkala, **Impor dari tabel penahapan**. Anda dapat menjalankan proses ini dengan masuk ke **Dynamics 365 Finance** > **Manajemen proyek dan akuntansi** > **Berkala** > **Integrasi Project Operations** > **Impor dari tabel penahapan**. Anda dapat menjalankan proses secara interaktif atau mengonfigurasi proses untuk berjalan di latar belakang sesuai kebutuhan.
 
 Ketika proses berkala berjalan, setiap aktual yang belum ditambahkan ke jurnal Integrasi Project Operations ditemukan. Baris jurnal untuk setiap transaksi aktual dibuat.
-Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam bidang **Unit periode di jurnal Integrasi Project Operations Integration** tab (**Keuangan** > **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, **Project Operations di Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
+Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam bidang **Unit periode di jurnal Integrasi Project Operations Integration** tab (**Finance** > **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, **Project Operations di Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
 
   - **Hari**: Aktual dikelompokkan menurut tanggal transaksi. Jurnal terpisah dibuat untuk setiap hari.
   - **Bulan**: Aktual dikelompokkan menurut bulan kalender. Jurnal terpisah dibuat untuk setiap bulan.
