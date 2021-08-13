@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007595"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992390"
 ---
 # <a name="estimates"></a>Perkiraan
 
@@ -83,24 +83,24 @@ Jika Anda menambahkan bidang kustom pada detail baris kuotasi dan ingin sistem m
 1. Buka PluginRegistrationTool, dan Sambungkan ke instans online Anda.
 2. Pilih **pencarian**, dan Cari plug-in untuk memperbarui.
 
-    ![Kotak dialog pohon pencarian](media/basic-guide-19.png)
+    ![Kotak dialog pohon pencarian.](media/basic-guide-19.png)
 
 3. Pilih plug-in, lalu, di halaman utama, pilih **pilih**.
 4. Pilih langkah plug-in untuk memperbarui, klik kanan, lalu pilih **Perbarui**.
 
-    ![Memilih langkah di plug-in](media/basic-guide-20.png)
+    ![Memilih langkah di plug-in.](media/basic-guide-20.png)
 
 5. Di kotak dialog **Perbarui langkah yang ada**, di bidang **atribut filter**, pilih tombol elipsis (**...**):
  
-    ![Kotak dialog Perbarui langkah yang ada](media/basic-guide-21.png)
+    ![Kotak dialog Perbarui langkah yang ada.](media/basic-guide-21.png)
 
 6. Di kotak dialog **Pilih atribut**, pilih kotak centang untuk atribut kustom.
 
-    ![Kotak dialog Pilih atribut](media/basic-guide-22.png)
+    ![Kotak dialog Pilih atribut.](media/basic-guide-22.png)
 
 7. Pilih **OK** untuk menutup kotak dialog, lalu pilih **Perbarui langkah**.
  
-    ![tombol Perbarui langkah](media/basic-guide-23.png)
+    ![tombol Perbarui langkah.](media/basic-guide-23.png)
 
 8. Ulangi langkah 1 hingga 7 untuk plug-in kedua.
 9. Tutup PluginRegistrationTool.

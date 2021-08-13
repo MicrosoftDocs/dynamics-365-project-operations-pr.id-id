@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993301"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987710"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Cara menetapkan sumber daya yang dapat dipesan untuk tugas di aplikasi web (aplikasi Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Dengan metode ini Anda dapat menambahkan sumber daya untuk tim proyek dan kemudi
 3.  Pilih tanggal **dari** dan **hingga**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Tangkapan layar menambahkan anggota tim](media/FAQ-Resources-to-Tasks2-1.png "Tangkapan layar menambahkan anggota tim")
+    > ![Tangkapan layar menambahkan anggota tim.](media/FAQ-Resources-to-Tasks2-1.png "Tangkapan layar menambahkan anggota tim")
  
 4.  Pilih salah satu metode alokasi berikut untuk pemesanan sumber daya:
     - **Kapasitas Penuh** Metode ini memesan kapasitas penuh sumber daya untuk tanggal dari dan hingga yang ditentukan.
@@ -63,12 +63,12 @@ Dengan metode ini Anda dapat menambahkan sumber daya untuk tim proyek dan kemudi
     3. Pilih **OK**. Anggota tim sekarang ditetapkan ke tugas.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot menambahkan sumber daya dengan WBS](media/FAQ-Resources-to-Tasks2-2.png "Screenshot menambahkan sumber daya dengan WBS")
+    > ![Screenshot menambahkan sumber daya dengan WBS.](media/FAQ-Resources-to-Tasks2-2.png "Screenshot menambahkan sumber daya dengan WBS")
  
 Pada kisi anggota tim, Anda akan melihat agregat jam sumber daya yang ditetapkan dalam jam yang ditetapkan. Ini akan menjadi kurang dari atau sama dengan jam tercatat untuk sumber daya. 
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot jam yang ditetapkan untuk sumber daya](media/FAQ-Resources-to-Tasks2-3.png "Screenshot jam yang ditetapkan untuk sumber daya")
+> ![Screenshot jam yang ditetapkan untuk sumber daya.](media/FAQ-Resources-to-Tasks2-3.png "Screenshot jam yang ditetapkan untuk sumber daya")
  
 Jika tugas yang Anda coba untuk tetapkan sumber dayanya dimulai setelah tanggal berakhir Pemesanan sumber daya, sumber daya tidak akan muncul di dropdown.
 
@@ -92,22 +92,22 @@ Metode ini menjamin bahwa sumber daya memiliki cukup Pemesanan untuk tugas. Pert
 4. Pilih **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot menggunakan WBS untuk menambahkan sumber daya](media/FAQ-Resources-to-Tasks2-4.png "Screenshot menggunakan WBS untuk menambahkan sumber daya")
+    > ![Screenshot menggunakan WBS untuk menambahkan sumber daya.](media/FAQ-Resources-to-Tasks2-4.png "Screenshot menggunakan WBS untuk menambahkan sumber daya")
  
 Setelah menyelesaikan penugasan peran untuk tugas dalam WBS, pilih **membuat tim proyek**. Project Service membuat jumlah minimum anggota tim generik berdasarkan peran, unit organisasi sumber daya, dan kalender proyek dengan menggabungkan penugasan tugas.
 
 > [!div class="mx-imgBorder"] 
-> ![Tangkapan layar membuat tim proyek](media/FAQ-Resources-to-Tasks2-5.png "Tangkapan layar membuat tim proyek")
+> ![Tangkapan layar membuat tim proyek.](media/FAQ-Resources-to-Tasks2-5.png "Tangkapan layar membuat tim proyek")
  
 Pada kisi Team Member, Anda akan melihat sumber daya jenis sumber daya generik dengan nama peran dan posisi. Jika dua sumber daya diperlukan untuk peran untuk menyelesaikan pekerjaan, fitur membuat tim membuat dua anggota tim dan menggunakan nama posisi untuk membedakan mereka.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot menambahkan dua sumber daya umum](media/FAQ-Resources-to-Tasks2-6.png "Screenshot menambahkan dua sumber daya umum")
+> ![Screenshot menambahkan dua sumber daya umum.](media/FAQ-Resources-to-Tasks2-6.png "Screenshot menambahkan dua sumber daya umum")
  
 Anda dapat membuka persyaratan sumber daya dukungan untuk anggota generik tim dengan memilih link dalam persyaratan sumber daya.
 
 > [!div class="mx-imgBorder"] 
-> ![Gambar layar membuka persyaratan sumber daya pendukung](media/FAQ-Resources-to-Tasks2-7.png "Gambar layar membuka persyaratan sumber daya pendukung")
+> ![Gambar layar membuka persyaratan sumber daya pendukung.](media/FAQ-Resources-to-Tasks2-7.png "Gambar layar membuka persyaratan sumber daya pendukung")
 
 Pilih **Pesan** untuk sumber daya generik, dan kemudian Anda dapat menggunakan papan jadwal untuk mencari dan memesan sumber daya nyata. Anda juga dapat mengajukan persyaratan untuk pemenuhannya dengan memilih **Ajukan Permintaan**.
 

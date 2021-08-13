@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015020"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985145"
 ---
 # <a name="manage-resource-requests-project-service"></a>Mengelola permintaan sumber daya (Project Service)
 
@@ -43,7 +43,7 @@ Manajer akun dan manajer proyek secara teratur meminta sumber daya untuk proyek-
   
    -   Klik **Filter** untuk menampilkan panel **Filter**, yang memungkinkan Anda menyaring hasil Anda menurut unit organisasi, peran, keterampilan, atau atribut lainnya.  
   
-       ![Layar permintaan sumber daya Project Service](../psa/media/project-service-resource-request-screen.png "Layar permintaan sumber daya Project Service")  
+       ![Layar permintaan sumber daya Project Service.](../psa/media/project-service-resource-request-screen.png "Layar permintaan sumber daya Project Service")  
   
 3. Dalam kalender untuk sumber daya yang Anda ingin pesan, pilih periode waktu untuk memesan sumber daya, dan kemudian klik **Pesan** untuk memesan sumber atau **Usulkan Pemesanan** untuk mengusulkan Pemesanan dan meminta peminta untuk menyetujuinya. Bila Anda memesan sumber daya, Anda dapat melakukan pemesanan tentatif atau pasti.  
   

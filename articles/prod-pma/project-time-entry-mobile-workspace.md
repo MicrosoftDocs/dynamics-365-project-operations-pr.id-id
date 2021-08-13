@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009935"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989555"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja seluler entri waktu proyek
 
@@ -94,7 +94,7 @@ Men-download dan menginstal aplikasi seluler Finance and Operations:
 3.  Saat pertama kali masuk, Anda akan diminta memasukkan nama pengguna dan sandi. Masukkan kredensial Anda.
 4.  Setelah Anda masuk, ruang kerja yang tersedia untuk perusahaan Anda akan ditampilkan. Perhatikan bahwa jika administrator sistem Anda mempublikasikan ruang kerja baru nanti, Anda harus me-refresh Daftar ruang kerja seluler.
 
-[![Tarik untuk me-refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tarik untuk me-refresh.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Masukkan waktu dengan menggunakan ruang kerja seluler entri waktu proyek
 1.  Di perangkat seluler, pilih ruang kerja **entri waktu proyek**.

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992970"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987620"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Buat pemesanan proyek dari papan jadwal
 
@@ -43,7 +43,7 @@ Anda dapat membuat sumber daya generik dan menetapkan satu atau lebih tugas dala
 
 1.  Di papan jadwal, sumber daya ini akan muncul pada tab **persyaratan terbuka**. Anda mungkin harus menggunakan filter kolom pada kisi jika Anda memiliki banyak persyaratan terbuka. 
 
-    ![Buka tab Persyaratan di papan jadwal](media/FAQ-Project-Booking-Schedule-Board-1.png "Tangkapan layar tabel Pemesanan dan tugas")
+    ![Buka tab Persyaratan di papan jadwal.](media/FAQ-Project-Booking-Schedule-Board-1.png "Tangkapan layar tabel Pemesanan dan tugas")
 
 2. Pilih Persyaratan. Tab **cari ketersediaan** akan muncul di bagian atas baris yang dipilih.
  
@@ -53,7 +53,7 @@ Anda dapat membuat sumber daya generik dan menetapkan satu atau lebih tugas dala
 
     Memilih **Pesan** akan memesan sumber daya ke tim proyek.
 
-![Buat panel Pemesanan Sumber Daya](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Buat panel Pemesanan Sumber Daya.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Pesan dari persyaratan utama
@@ -62,7 +62,7 @@ Membuat proyek dalam Project Service secara otomatis membuat persyaratan sumber 
 
 1. Untuk memesan sumber daya dengan persyaratan Utam, di papan jadwal, pilih tab **proyek**. Anda mungkin perlu menggunakan filter kolom di kolom **Proyek** jika Anda punya banyak proyek.
 
-   ![Filter kolom di papan jadwal](media/FAQ-Project-Booking-Schedule-Board-2.png "Tangkapan layar tabel Pemesanan dan tugas")
+   ![Filter kolom di papan jadwal.](media/FAQ-Project-Booking-Schedule-Board-2.png "Tangkapan layar tabel Pemesanan dan tugas")
 
 2. Pilih persyaratan yang hanya memiliki nama proyek sebagai nama dan memiliki durasi nol (0).
 

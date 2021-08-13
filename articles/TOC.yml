@@ -832,6 +832,16 @@
           items:
             - name: Ikhtisar pemanfaatan sumber daya
               href: resource-management/resource-utilization-overview.md
+    - name: Manajemen subkontrak dalam Project Operations
+      items:
+        - name: Sekilas tentang mengelola subkontrak
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Konsep penting dalam subkontrak
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Mengelola vendor dan daftar harga proyek
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subkontraktor sebagai sumber daya yang dapat dipesan
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Waktu
       items:
         - name: Ikhtisar waktu
@@ -1050,6 +1060,8 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 32.5, V3'

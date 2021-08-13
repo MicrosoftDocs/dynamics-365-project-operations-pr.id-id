@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002248"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991490"
 ---
 # <a name="security-model"></a>Model keamanan
 
@@ -58,7 +58,7 @@ Project Operations tidak membuat grup melalui tindakan implisit dan hanya melaku
 
 Pencarian anggota grup di dialog **manajemen grup**, terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan. Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](/power-platform/admin/control-user-access).
 
-![Mode grup](./media/groupsmode.png)
+![Mode grup.](./media/groupsmode.png)
 
 1. Proyek dibuat dan dimiliki oleh pengguna yang membuat.
 2. Pemilik proyek diperbarui ke tim.

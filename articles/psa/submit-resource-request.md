@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985010"
 ---
 # <a name="submitting-a-resource-request"></a>Mengajukan permintaan sumber daya
 
@@ -34,7 +34,7 @@ Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan
 1. Di Project Service Automation (PSA), pada halaman **proyek**, klik tab **tim** untuk melihat daftar sumber daya yang dapat dipesan. 
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu klik **Ajukan Permintaan**.
 
-![Mengajukan permintaan sumber daya](media/RM-how-to-18.png)
+![Mengajukan permintaan sumber daya.](media/RM-how-to-18.png)
 
 Status permintaan anggota tim umum akan berubah menjadi **Diajukan**.
 

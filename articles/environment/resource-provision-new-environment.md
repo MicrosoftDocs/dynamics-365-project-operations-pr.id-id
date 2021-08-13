@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995490"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988565"
 ---
 # <a name="provision-a-new-environment"></a>Penyediaan lingkungan baru
 
@@ -52,12 +52,12 @@ Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Proj
 
 6. Pilih jenis lingkungan untuk penyebaran Anda. Uji coba berbasis langganan akan memungkinkan Anda menyebarkan lingkungan CDS selama 30 hari. 
 
-![Pengaturan penyebaran](./media/1DeploymentSettings.png)
+![Pengaturan penyebaran.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Pilih **setuju** untuk menyetujui persyaratan layanan, lalu pilih **selesai** untuk kembali ke pengaturan penyebaran.
 
-![Persetujuan Penyebaran](./media/2DeploymentConsent.png)
+![Persetujuan Penyebaran.](./media/2DeploymentConsent.png)
 
 7. Opsional - Terapkan data demo ke lingkungan. Buka **Pengaturan tingkat lanjut**, pilih **Sesuaikan Konfigurasi Database SQL**, dan atur **Tentukan kumpulan data untuk Aplikasi database** ke **Demo**.
 
@@ -67,7 +67,7 @@ Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Proj
 
 9. Untuk mengkonfirmasikan bahwa lingkungan telah berhasil disebarkan, pilih **Masuk** dan masuk ke lingkungan untuk mengkonfirmasi.
 
-![Rincian lingkungan ](./media/3EnvironmentDetails.png)
+![Rincian lingkungan.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Terapkan pembaruan ke lingkungan Finance
 
@@ -77,19 +77,19 @@ Anda mungkin perlu menerapkan pembaruan kualitas ke lingkungan Finance Anda untu
 
 1. Di LCS, di halaman **rincian lingkungan**, di Bagian **pembaruan yang tersedia**, pilih **Lihat pembaruan**.
 
-![Lihat pembaruan](./media/5ViewUpdates.png)
+![Lihat pembaruan.](./media/5ViewUpdates.png)
 
 2. Pada halaman **pembaruan biner**, pilih **Simpan paket.**
 
-![Simpan paket](./media/6SavePackage.png)
+![Simpan paket.](./media/6SavePackage.png)
 
 3. Klik **pilih semua**, lalu pilih **Simpan paket**.
 
-![Tinjau dan simpan pembaruan](./media/7ReviewAndSaveUpdates.png)
+![Tinjau dan simpan pembaruan.](./media/7ReviewAndSaveUpdates.png)
 
 4. Masukkan nama dan Deskripsi paket, lalu pilih **Simpan**. Tergantung pada koneksi internet, proses ini mungkin akan memakan waktu.
 
-![Mengunggah paket ke pustaka aset](./media/8UploadPackageToAssetsLibrary.png)
+![Mengunggah paket ke pustaka aset.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Setelah paket disimpan, pilih **selesai** dan Simpan paket ini ke pustaka aset dalam proyek LCS Anda.
 
@@ -97,15 +97,15 @@ Menyimpan dan memvalidasi paket mungkin memerlukan waktu ~ 15 menit.
 
 6. Untuk menerapkan pembaruan, navigasi ke halaman **rincian lingkungan** di lcs dan pilih **memelihara** > **menerapkan pembaruan**.
 
-![Memelihara lingkungan](./media/9MaintainEnvironment.png)
+![Memelihara lingkungan.](./media/9MaintainEnvironment.png)
 
 7. Dalam daftar pembaruan, pilih paket yang Anda buat, lalu pilih **Terapkan**.
 
-![Menerapkan pembaruan](./media/10ApplyUpdates.png)
+![Menerapkan pembaruan.](./media/10ApplyUpdates.png)
 
 Layanan lingkungan akan memakan waktu. Setelah selesai, lingkungan akan kembali ke keadaan disebarkan.
 
-![Lingkungan Disebarkan](./media/11EnvironmentDeployed.png)
+![Lingkungan Disebarkan.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Membuat sambungan tulis ganda 
 
@@ -113,41 +113,41 @@ Layanan lingkungan akan memakan waktu. Setelah selesai, lingkungan akan kembali 
 2. Di dalam **informasi lingkungan Common Data Service**, pilih **tautkan ke CDS for Apps**.
 3. Setelah tautan selesai, pilih **tautkan ke CDS for Apps** lagi. Anda akan diarahkan ke Tulis Ganda di Finance.
 
-![Tautan ke CDS](./media/12LinktoCDS.png)
+![Tautan ke CDS.](./media/12LinktoCDS.png)
 
 4. Pilih **Terapkan solusi** untuk mengakses entitas yang akan dipetakan dalam integrasi.
 
-![Terapkan solusi](./media/13ApplySolutions.png)
+![Terapkan solusi.](./media/13ApplySolutions.png)
 
 5. Pilih kedua solusi, Peta Entitas Penulisan Ganda **Dynamics 365 Finance and Operations** dan Peta Entitas Penulisan Ganda **Dynamics 365 Project Operations**, lalu pilih **Terapkan**.
 
-![Konfirmasi Solusi](./media/14ConfirmSolutions.png)
+![Konfirmasi Solusi.](./media/14ConfirmSolutions.png)
 
 Setelah solusi diterapkan, entitas tulis ganda diterapkan ke lingkungan.
 
-![Menerapkan solusi](./media/15ApplyingSolutions.png)
+![Menerapkan solusi.](./media/15ApplyingSolutions.png)
 
 Setelah entitas diterapkan, Semua pemetaan yang tersedia didaftarkan di lingkungan.
 
-![Peta Tulis Ganda](./media/15DWMappings.png)
+![Peta Tulis Ganda.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Segarkan entitas data setelah pembaruan
 
 1. Di Finance, buka ruang kerja **manajemen data**.
 
-![Ruang kerja manajemen data](./media/16DataManagement.png)
+![Ruang kerja manajemen data.](./media/16DataManagement.png)
 
 2. Pilih ubin **parameter kerangka**.
 
-![Parameter kerangka](./media/17FrameworkParameters.png)
+![Parameter kerangka.](./media/17FrameworkParameters.png)
 
 3. Pada halaman **pengaturan entitas**, pilih **segarkan daftar entitas**.
 
-![Segarkan daftar entitas](./media/18RefreshEntityList.png)
+![Segarkan daftar entitas.](./media/18RefreshEntityList.png)
 
 Penyegaran akan berlangsung sekitar 20 menit. Anda akan menerima pemberitahuan setelah selesai.
 
-![Segarkan Konfirmasi](./media/19RefreshConfirmation.png)
+![Segarkan Konfirmasi.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Memperbarui pengaturan keamanan di Project Operations di Dataverse
 
@@ -188,17 +188,17 @@ Penyegaran akan berlangsung sekitar 20 menit. Anda akan menerima pemberitahuan s
 4. Untuk me-refresh entitas, pilih nama peta, lalu pilih **refresh entitas**. 
 
 
-![Segarkan Peta](./media/20RefreshMapping.png)
+![Segarkan Peta.](./media/20RefreshMapping.png)
 
 5. Jalankan peta setelah penyegaran selesai. Sebelum Anda mengaktifkan peta berikutnya, Verifikasikan bahwa peta dalam tabel dalam status **berjalan**. Menjalankan peta dengan sejumlah besar prasyarat mungkin akan memakan waktu.
 
 Untuk menjalankan peta dengan prasyarat, Aktifkan pengalih **Tampilkan peta entitas yang terkait**. Jika tabel menunjukkan **sinkronisasi awal prasyarat** adalah **Tidak**, Verifikasikan bahwa tanda **sinkronisasi awal** **dinonaktifkan** di semua peta prasyarat sebelum Anda menjalankannya.
 
-![Jalankan Peta](./media/21RunMap.png)
+![Jalankan Peta.](./media/21RunMap.png)
 
 6. Validasi semua peta terkait proyek berada dalam status berjalan.
 
-![Semua peta berjalan](./media/22AllMapsRunning.png)
+![Semua peta berjalan.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Menerapkan data konfigurasi di Project Operations untuk Project Operations (opsional)

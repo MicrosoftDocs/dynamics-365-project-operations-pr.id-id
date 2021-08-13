@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999990"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986585"
 ---
 # <a name="expense-management-integration"></a>Integrasi manajemen pengeluaran
 
@@ -28,7 +28,7 @@ Dalam penyebaran pengeluaran penuh, kategori pengeluaran dibuat dan dikelola di 
 2. Di Finance, buka **manajemen pengeluaran** > **Pengaturan** > **kategori bersama** dan pilih kategori bersama dengan dengan kelas transaksi **Pengeluaran**. Atur parameter **Dapat digunakan dalam Pengeluaran** ke **Benar** dan tentukan jenis pengeluaran yang akan digunakan.
 3. Menggunakan rekaman kategori bersama ini, buat kategori pengeluaran baru dengan masuk ke **manajemen pengeluaran** > **Konfigurasi** > **Kategori baru** dan memilih **Baru**. Ketika rekaman disimpan, penulisan ganda menggunakan peta tabel, **entitas ekspor kategori pengeluaran proyek integrasi Project Operations (msdyn\_expensecategories)** untuk mensinkronisasi rekaman ini ke Dataverse.
 
-  ![Integrasi kategori pengeluaran](./media/DW6ExpenseCategories.png)
+  ![Integrasi kategori pengeluaran.](./media/DW6ExpenseCategories.png)
 
 Kategori pengeluaran dalam aplikasi Finance and Operations adalah spesifik perusahaan atau entitas hukum. Ada rekaman khusus entitas hukum yang terpisah dan terkait di Dataverse. Bila manajer proyek mengestimasi pengeluaran, mereka tidak dapat memilih kategori pengeluaran yang dibuat untuk proyek yang dimiliki oleh perusahaan lain daripada perusahaan yang memiliki proyek yang sedang mereka kerjakan. 
 
@@ -40,7 +40,7 @@ Laporan pengeluaran dibuat dan disetujui di aplikasi Finance and Operations. Unt
   - Sinkronisasi penulisan ganda ke Dataverse menggunakan peta tabel **entitas ekspor pengeluaran proyek integrasi Project Operations (msdyn\_expenses)**.
   - Buku besar pembantu pajak, buku besar pembantu vendor, dan posting keuangan lainnya dicatat sebagai berlaku pada saat posting laporan pengeluaran.
 
-  ![Integrasi laporan pengeluaran](./media/DW6ExpenseReports.png)
+  ![Integrasi laporan pengeluaran.](./media/DW6ExpenseReports.png)
 
 Bila rekaman ditulis ke entitas **Pengeluaran** dalam Dataverse, sistem akan memicu proses persetujuan rekaman otomatis. Jika diperlukan, status proses persetujuan otomatis dapat ditinjau di Dataverse dengan masuk ke **Pengaturan tingkat lanjut** > **Sistem** > **Pekerjaan sistem**. Setelah persetujuan selesai, rekaman kelas transaksi pengeluaran dibuat di entitas **Aktual**.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008675"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990500"
 ---
 # <a name="skills-and-proficiency-models"></a>Model keahlian dan kecakapan
 
@@ -33,7 +33,7 @@ Keahlian adalah karakteristik sumber daya yang digunakan bersama antara Dynamics
 
 Untuk mengelola repositori keahlian dalam Project Service Automation, buka **sumber daya** \> **Keahlian sumber daya**. 
 
-> ![Keterampilan Sumber Daya](media/Resource-Management-image84.png)
+> ![Keterampilan Sumber Daya.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Gunakan model kecakapan untuk menilai sumber daya
 
@@ -43,7 +43,7 @@ Keahlian untuk sumber daya dinilai berdasarkan model kecakapan. Peringkat indivi
 2. Di model peringkat baru, tentukan nilai peringkat minimum, nilai peringkat maksimum, dan entitas yang dinilai.
 3. Di subkisi **nilai peringkat**, Anda dapat menentukan nilai peringkat yang berbeda, dari minimum hingga maksimum.
 
-> ![Peringkat minimum dan maksimum ditentukan](media/Resource-Management-image85.png)
+> ![Peringkat minimum dan maksimum ditentukan.](media/Resource-Management-image85.png)
 
 Nilai peringkat ini ditampilkan pada **persyaratan sumber daya**, **papan jadwal**, dan filter **asisten jadwal**.
 

@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007280"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985550"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalasi data sampel untuk aplikasi Project Service
 
@@ -86,7 +86,7 @@ Anda harus merencanakan untuk komputer untuk tetap tersambung ke jaringan, dan u
 Fungsi screensaver komputer harus dinonaktifkan. Jika tidak, sesi kredensial untuk penginstalan mungkin akan hilang saat screensaver aktif (kecuali Anda menjaga sesi selalu aktif).
 
 > [!div class="mx-imgBorder"]
-> ![Tangkapan layar pengaturan screensaver, dengan screensaver dinonaktifkan](media/sample-data-1.png)
+> ![Tangkapan layar pengaturan screensaver, dengan screensaver dinonaktifkan.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Unduh dan ekstrak
 
@@ -142,7 +142,7 @@ Paket data demo memerlukan enam pengguna. Agar paket terinstal dengan benar, lak
 3. Buka **PkgFolder** lalu Cari dan membuka **ImportUserMapFile.xml**. Perbarui bidang **baru=** ke alamat email pengguna yang terkait di sistem.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot UserMapFile](media/sample-data-7.png)
+   > ![Screenshot UserMapFile.](media/sample-data-7.png)
 
 4. Jika nama lengkap pengguna "Spencer Low" Anda memiliki ID pengguna yang berbeda dari **"spencerl"**, maka Anda harus memperbarui file tambahan. Buka **DemoDataPreImportConfig.xml** file, dan kemudian menemukan **userstocreateandconfigure** tag. Pembaruan tag **\<login\>** dengan loginId (peka huruf besar/kecil). 
 
@@ -172,7 +172,7 @@ Paket data demo memerlukan enam pengguna. Agar paket terinstal dengan benar, lak
 5. Pilih **berikutnya** hingga Anda melihat **konfigurasi Data Demo** dialog.
 
    > [!div class="mx-imgBorder"]
-   > ![Ambil Screenshot dari jendela status Penginstal data demo](media/sample-data-3.png)
+   > ![Ambil Screenshot dari jendela status Penginstal data demo.](media/sample-data-3.png)
 
 6. Sebelum melanjutkan, perhatikan bahwa menginstal data sampel dapat memerlukan waktu hingga satu jam (biasanya ~ 10 menit). Anda harus memastikan bahwa komputer tetap hidup dan tersambung ke jaringan selama seluruh proses penginstalan, dan bahwa sesi Anda tetap aktif.   
 
@@ -191,10 +191,10 @@ Setelah data sampel benar-benar terbuka, masuk sebagai pengguna Spencer Low dan 
 - Jika aplikasi Field Service diinstal, buka **Project Service** > **Pengaturan** > **Daftar harga**. Konfirmasikan bahwa tingkat tagihan dan tingkat biaya sudah ada. Buka **Field Service** > **Pengaturan** > **Daftar harga** dan periksa bahwa tingkat tagihan dan biaya tingkat ada, dengan mata uang yang sesuai, untuk setiap negara/kawasan dalam himpunan data.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot dari daftar harga aktif](media/sample-data-4.png)
+  > ![Screenshot dari daftar harga aktif.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot unit organisasional aktif](media/sample-data-5.png)
+  > ![Screenshot unit organisasional aktif.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Catatan teknis
 
@@ -295,7 +295,7 @@ Jika Anda ingin mengubah jam kerja untuk sampel sumber daya dapat dipesan, buka 
 Pilih pengguna (misalnya, Spencer Low) dan Ubah jam kerja dari Spencer ke jam yang akan diterapkan ke beberapa pengguna. Buka **Universal Resource Scheduling** > **Pengaturan** > **Template Jam Kerja** dan edit rekaman **Template Kerja Default**. Di bidang **sumber daya Template**, pilih pengguna dengan jam kerja yang akan diterapkan ke sumber daya lainnya. Buka **Universal Resource Scheduling** > **Penjadwalan** > **Sumber daya** > **Sumber daya Dapat Dipesan Aktif**. Pilih sumber daya yang akan diubah, dan kemudian pilih **Atur kalender**. Pada **Template kerja** daftar drop-down, pilih **Default jam kerja** template atau template lain dengan sumber daya template yang benar. Saat Anda membuka papan jadwal, Anda dapat melihat bahwa sumber daya sekarang telah memperbarui jam kerja.
 
 > [!div class="mx-imgBorder"]
-> ![Tangkapan layar Sumber Daya yang Dapat Dipesan Aktif](media/sample-data-6.png)
+> ![Tangkapan layar Sumber Daya yang Dapat Dipesan Aktif.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

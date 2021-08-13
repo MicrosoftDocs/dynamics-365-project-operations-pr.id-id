@@ -2,17 +2,17 @@
 title: Memecahkan masalah penanganan kisi Tugas
 description: Pembaruan topik memberikan informasi pemecahan masalah yang diperlukan saat menangani kisi Tugas.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213404"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989105"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Memecahkan masalah penanganan kisi Tugas 
 
@@ -24,7 +24,7 @@ Deskripsi topik menjelaskan cara memperbaiki masalah yang mungkin Anda temui saa
 
 Project Operations mengharuskan cookie pihak ketiga diaktifkan untuk membuat struktur perincian kerja. Bila cookie pihak ketiga tidak diaktifkan, bukan melihat tugas, Anda akan melihat halaman kosong saat memilih tab **Tugas** di halaman **Proyek**.
 
-![Tab kosong bila cookie pihak ketiga tidak diaktifkan](media/blankschedule.png)
+![Tab kosong bila cookie pihak ketiga tidak diaktifkan.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Solusi
@@ -52,11 +52,22 @@ Untuk Microsoft Edge atau browser Google Chrome, prosedur berikut menjelaskan ca
 Project Operations mengharuskan parameter proyek mereferensi titik akhir PEX. Titik akhir ini diperlukan untuk berkomunikasi dengan layanan yang digunakan untuk membuat struktur rincian kerja. Jika parameter tidak diaktifkan, Anda akan menerima kesalahan, "Parameter proyek tidak valid". 
 
 ### <a name="workaround"></a>Solusi
- ![Bidang titik akhir PEX pada parameter proyek](media/projectparameter.png)
 
 1. Tambahkan bidang **titik akhir** PEX ke halaman **Parameter Proyek**.
-2. Perbarui bidang dengan nilai berikut ini: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Hilangkan bidang dari halaman **Parameter Proyek**.
+2. Identifikasikan jenis produk yang Anda gunakan. Nilai ini digunakan saat titik akhir PEX diatur. Setelah pengambilan, jenis produk sudah ditentukan di titik akhir PEX. Pertahankan nilai tersebut. 
+   
+    ![Bidang titik akhir PEX pada parameter proyek.](media/pex-endpoint.png)
+
+3. Perbarui bidang dengan nilai berikut ini: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Jenis Produk                         | Jenis Parameter |
+   |--------------------------------------|----------------|
+   | Project for the Web di organisasi Default   | type=0         |
+   | Project for the Web di organisasi bernama CDS | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Hilangkan bidang dari halaman **Parameter Proyek**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Hak istimewa untuk Proyek untuk Web
 
@@ -67,7 +78,7 @@ Project Operations mengandalkan layanan penjadwalan eksternal. Layanan mengharus
 
 1. Buka **Pengaturan > Keamanan > Pengguna > Pengguna Aplikasi**.  
 
-   ![Pembaca aplikasi](media/applicationuser.jpg)
+   ![Pembaca aplikasi.](media/applicationuser.jpg)
    
 2. Klik dua kali rekaman pengguna aplikasi untuk memverifikasi berikut ini:
 
@@ -76,7 +87,7 @@ Project Operations mengandalkan layanan penjadwalan eksternal. Layanan mengharus
  
 3. Jika pengguna ini tidak ada, Anda dapat membuat rekaman pengguna yang baru. Pilih **pengguna baru**. Ubah formulir entri ke **Pengguna Aplikasi**, lalu tambahkan **ID Aplikasi**.
 
-   ![Rincian pengguna aplikasi](media/applicationuserdetails.jpg)
+   ![Rincian pengguna aplikasi.](media/applicationuserdetails.jpg)
 
 4. Verifikasikan bahwa pengguna telah menerima lisensi yang benar dan layanan diaktifkan dalam rincian paket layanan lisensi.
 5. Pastikan pengguna dapat membuka project.microsoft.com.

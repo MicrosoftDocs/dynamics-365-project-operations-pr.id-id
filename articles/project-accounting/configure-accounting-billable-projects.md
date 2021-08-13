@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012590"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991039"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
 
@@ -101,23 +101,23 @@ Selesaikan langkah-langkah berikut untuk membuat profil biaya dan pendapatan pro
 
 Waktu dan Material – tidak ada WIP
 
-![Profil biaya dan pendapatan: waktu dan material-tanpa WIP](media/time-material-no-wip.png)
+![Profil biaya dan pendapatan: waktu dan material-tanpa WIP.](media/time-material-no-wip.png)
 
 Waktu dan material– WIP (Pendapatan)
 
-![Profil biaya dan pendapatan: waktu dan material-WIP](media/time-material-with-wip.png)
+![Profil biaya dan pendapatan: waktu dan material-WIP.](media/time-material-with-wip.png)
 
 Harga tetap – Tanpa WIP
 
-![profil Biaya dan pendapatan: harga tetap-tidak ada WIP](media/fixed-price-no-wip.png)
+![profil Biaya dan pendapatan: harga tetap-tidak ada WIP.](media/fixed-price-no-wip.png)
 
 Harga tetap – kontrak selesai
 
-![profil Biaya dan pendapatan: harga tetap- Kontrak yang selesai](media/fixed-price-completed-contract.png)
+![profil Biaya dan pendapatan: harga tetap- Kontrak yang selesai.](media/fixed-price-completed-contract.png)
 
 Harga tetap – persentase penyelesaian
 
-![profil Biaya dan pendapatan: harga tetap- Persentase penyelesaian](media/fixed-price-completed-percentage.png)
+![profil Biaya dan pendapatan: harga tetap- Persentase penyelesaian.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Contoh aktivitas akuntansi untuk sampel profil biaya proyek dan pendapatan.

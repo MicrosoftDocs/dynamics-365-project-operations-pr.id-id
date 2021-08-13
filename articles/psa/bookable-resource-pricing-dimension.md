@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012095"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988970"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Gunakan sumber daya yang dapat dipesan sebagai dimensi harga
 
@@ -62,18 +62,18 @@ Untuk sumber daya yang dapat dipesan, entitas **anggota tim proyek** memiliki na
 1. Untuk melakukannya, klik dua kali baris di kisi **dimensi harga** untuk membuka halaman dimensi **msdyn_bookableresource**.
 2. Pada halaman dimensi, pada tab **terkait**, klik **nama bidang dimensi harga**.
 
- ![Tab Nama Bidang Dimensi Harga](media/PD-fieldname.png)
+ ![Tab Nama Bidang Dimensi Harga.](media/PD-fieldname.png)
 
 4. Pada tampilan terkait yang terbuka, klik **Tambah nama bidang dimensi harga baru**.
 
- ![Tambahkan Nama Bidang Dimensi Harga](media/Add-NewPD-fieldname.png)
+ ![Tambahkan Nama Bidang Dimensi Harga.](media/Add-NewPD-fieldname.png)
 
 
 Ini akan membuka halaman **nama bidang dimensi harga baru** untuk **msdyn_bookableresource**. 
 
 5. Tambahkan **msdyn_projectteam** ke bidang **nama logis entitas** dan **msdyn_bookableresourceid** ke bidang **nama bidang**. Simpan rekaman ini.
 
- ![Formulir Nama Bidang Dimensi Harga Baru](media/PD-fieldname-Added.png)
+ ![Formulir Nama Bidang Dimensi Harga Baru.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
