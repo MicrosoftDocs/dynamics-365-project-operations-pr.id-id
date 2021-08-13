@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998330"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tarik entri waktu atau pengeluaran yang telah disetujui sebelumnya
 
@@ -98,13 +98,13 @@ Jika permintaan penarikan ulang ditolak, tidak ada dampak keuangan pada proyek.
 
 Ilustrasi berikut menunjukkan perubahan yang terjadi untuk entri waktu yang disetujui saat mereka ditarik.
 
-![Transisi status entri waktu](media/TimeEntryStateTransitions.png)
+![Transisi status entri waktu.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Perubahan pada rekaman entri pengeluaran
 
 Ilustrasi berikut menunjukkan perubahan yang terjadi untuk entri pengeluaran yang disetujui saat mereka ditarik.
 
-![Transisi status entri pengeluaran](media/ExpenseEntryStateTransitions.png)
+![Transisi status entri pengeluaran.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

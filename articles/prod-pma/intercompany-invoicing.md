@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002780"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995810"
 ---
 # <a name="intercompany-invoicing"></a>Faktur Antarperusahaan
 
@@ -33,7 +33,7 @@ Organisasi Anda mungkin memiliki beberapa divisi, anak perusahaan, dan entitas h
 
 Ilustrasi berikut menunjukkan skenario umum di mana dua entitas hukum, SI FR (entitas hukum yang meminjam) dan SI USA (entitas hukum yang meminjam) berbagi sumber daya untuk memberikan proyek untuk pelanggan A. Untuk skenario ini, SI FR dikontrak untuk memberikan pekerjaan kepada pelanggan A. 
 
-[![Contoh Faktur Antarperusahaan](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Contoh Faktur Antarperusahaan.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Tujuannya adalah untuk membuat kontrol biaya, pengakuan pendapatan, pajak, dan harga transfer untuk transaksi proyek antarperusahaan lebih fleksibel dan bertenaga. Selain itu, kemampuan berikut diberikan:
 

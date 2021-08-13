@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997965"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995045"
 ---
 # <a name="propose-project-resources"></a>Mengusulkan sumber daya proyek
 
@@ -32,17 +32,17 @@ Manajer sumber daya dapat mengusulkan sumber daya untuk manajer proyek menggunak
 1. Dari kisi permintaan atau permintaan itu sendiri, pilih **Cari sumber daya**.
 2. Di halaman **asisten jadwal**, pilih sumber daya, lalu di panel **buat Pemesanan sumber daya**, di bidang **status Pemesanan**, pilih **Pesan**.
 
-    ![Sumber daya yang diusulkan dipilih](media/Resource-Management-image62.png)
+    ![Sumber daya yang diusulkan dipilih.](media/Resource-Management-image62.png)
 
 Terjadi pembaruan status berikut:
 
 - Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
 
-    ![Indikator status untuk usulan Pemesanan pada halaman asisten jadwal](media/Resource-Management-image63.png)
+    ![Indikator status untuk usulan Pemesanan pada halaman asisten jadwal.](media/Resource-Management-image63.png)
 
 - Pada permintaan sumber daya, status berubah menjadi **perlu ditinjau**.
 
-    ![Status permintaan sumber daya berubah menjadi perlu ditinjau](media/Resource-Management-image64.png)
+    ![Status permintaan sumber daya berubah menjadi perlu ditinjau.](media/Resource-Management-image64.png)
 
 - Pada tab **tim** proyek , nilai **status permintaan** anggota tim generik diubah ke **perlu ditinjau**.
 
@@ -70,7 +70,7 @@ Rumus berikut digunakan untuk menghitung pemanfaatan:
 
 Anda dapat menemukan tampilan **pemanfaatan sumber daya** di panel **sumber daya**.
 
-![Tampilan pemanfaatan sumber daya](media/Resource-Management-image65.png)
+![tampilan pemanfaatan sumber daya.](media/Resource-Management-image65.png)
 
 Setiap sel di kisi mewakili persentase pemanfaatan yang dapat ditagih dari sumber daya dalam periode tertentu, seperti hari, pekan atau bulan. Rumus berikut digunakan untuk mewarnai sel:
 
@@ -84,7 +84,7 @@ Kisi-kisi mengharuskan Anda menetapkan Pemanfaatan peran atau sumber daya indivi
 
 Selain itu, peran default harus ditetapkan ke setiap sumber daya yang dapat dipesan. Buka **Sumber Daya** \> **Sumber daya**. Pada tab **Project Service**, periksa apakah peran sumber daya ditentukan, dan bidang **merupakan default** untuk diatur ke **ya**. Anda dapat menambahkan peran tambahan di mana **merupakan default = Tidak**. Peran jika **merupakan default = Ya** digunakan untuk mengevaluasi pemanfaatan sumber daya terhadap target untuk peran tersebut.
 
-![Set Peran Default](media/Resource-Management-image67.png)
+![Set Peran Default.](media/Resource-Management-image67.png)
 
 Di tab **Project Service**, Anda juga dapat menetapkan pemanfaatan target individual untuk sumber daya. Perhitungan pemanfaatan kemudian menggunakan pemanfaatan target untuk mengevaluasi target sumber daya bukan target dari peran default sumber daya.
 
@@ -96,21 +96,21 @@ Sangat penting bagi manajer sumber daya untuk dapat melihat ketersediaan sumber 
 
 Jam kerja sumber daya digunakan sebagai dasar untuk menghitung ketersediaan sumber daya. Pemesanan sumber daya menghabiskan kapasitas sumber daya.
 
-![Papan Jadwal](media/Resource-Management-image68.png)
+![Papan Jadwal.](media/Resource-Management-image68.png)
 
 Papan jadwal menggunakan warna dan arsiran untuk menampilkan Pemesanan, ketersediaan, dan pesanan berlebihan, dan juga status pemesanan. Pengaturan di pengaturan papan jadwal memungkinkan Anda menampilkan legenda.
 
 Jika tanda panah menunjuk ke kanan muncul di samping sumber daya yang dapat dipesan individual pada papan jadwal, sumber daya dapat diperluas untuk menampilkan rincian pekerjaan yang dipesan sumber dayanya.
 
-![Sumber daya yang dapat dipesan diperluas di papan jadwal](media/Resource-Management-image69.png)
+![Sumber daya yang dapat dipesan diperluas di papan jadwal.](media/Resource-Management-image69.png)
 
 Karena Dynamics 365 Project Service Automation menggunakan mesin Universal Resource Scheduling, jika Anda juga telah menginstal Dynamics 365 Field Service, Anda dapat melihat rincian pemesanan sumber daya untuk proyek, perintah kerja, dan entitas lain yang telah Anda gunakan untuk memperpanjang penjadwalan.
 
-![Rincian pemesanan sumber daya untuk proyek dan perintah kerja](media/Resource-Management-image70.png)
+![Rincian pemesanan sumber daya untuk proyek dan perintah kerja.](media/Resource-Management-image70.png)
 
 Untuk melihat rincian lebih lanjut tentang sumber daya individual, klik kanan untuk membuka kartu sumber daya.
 
-![Kartu Sumber Daya](media/Resource-Management-image71.png)
+![Kartu Sumber Daya.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

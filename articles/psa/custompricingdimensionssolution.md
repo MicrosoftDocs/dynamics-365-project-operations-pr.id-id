@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995270"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Membuat solusi kustom untuk dimensi harga
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012320"
 1. Pilih **Pengaturan** > **Solusi**, lalu pilih **Baru**. 
 2. Namai solusi, **\<your organization name> dimensi harga**, masukkan informasi yang diperlukan lainnya, lalu pilih **Simpan**.
 
-> ![Membuat solusi kustom untuk dimensi harga](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Membuat solusi kustom untuk dimensi harga.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambahkan semua entitas yang diperlukan dan komponen terkait ke solusi dimensi harga
 Anda harus menambahkan entitas Project Service berikut ke solusi harga. Selesaikan langkah-langkah dalam prosedur ini untuk membuat beberapa perubahan skema penting dalam solusi harga sehingga entitas mengetahui dimensi harga baru.
@@ -54,16 +54,16 @@ Anda harus menambahkan entitas Project Service berikut ke solusi harga. Selesaik
 - Harga Peran 
 - Entri Waktu 
 
-> ![Menambahkan entitas yang ada ke solusi dimensi harga](media/Existing-entities-to-PD-solution.png)
+> ![Menambahkan entitas yang ada ke solusi dimensi harga.](media/Existing-entities-to-PD-solution.png)
 
-> ![Pilih komponen solusi](media/Dimension-Components.png)
+> ![Pilih komponen solusi.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Pastikan untuk menyertakan semua formulir dan tampilan untuk setiap entitas yang dipilih.
 
 4. Bila diminta untuk menyertakan entitas dependen untuk entitas yang dipilih, pilih **tidak**.
 
-> ![Jangan sertakan semua komponen terkait](media/Do-not-include-required.png)
+> ![Jangan sertakan semua komponen terkait.](media/Do-not-include-required.png)
 
 
 

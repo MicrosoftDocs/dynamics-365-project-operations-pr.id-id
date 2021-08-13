@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997155"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993290"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Menerapkan konfigurasi demo dan data konfigurasi untuk Project Operations - lite 
 
@@ -30,24 +30,24 @@ Sebelum Anda memulai konfigurasi, Anda harus memiliki lingkungan Common Data Ser
 2. Navigasikan ke folder *ProjOpsSampleSetupData - CE hanya CMT* dan jalankan file eksekusi, *DataMigrationUtility*.
 3. Di Halaman 1 Wizard Migrasi Konfigurasi Common Data Service (CMT), pilih **impor data**, lalu pilih **Lanjutkan**.
 
-    ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
+    ![Migrasi Konfigurasi.](./media/1ConfigurationMigration.png)
 
 4. Di Halaman 2 CMT Wizard, pilih **Microsoft 365** sebagai **jenis penyebaran**.
 5. Pilih **Tampilkan daftar organisasi tersedia** dan **Tampilkan kotak centang tingkat lanjut**.
 6. Pilih kawasan penyewa Anda, masukkan kredensial, lalu pilih **masuk**.
 
-   ![Masuk untuk konfigurasi](./media/2ConfigurationSignin.png)
+   ![Masuk untuk konfigurasi.](./media/2ConfigurationSignin.png)
 
 7. Pada halaman 3, dari daftar organisasi pada penyewa, pilih organisasi yang akan diimpor data demo dan kemudian pilih **masuk**.
 8. Pada halaman 4, pilih file zip, *SampleSetupAndConfigData* dari folder yang tidak dibongkar, *ProjOpsSampleSetupData - CE hanya CMT*.
 
-   ![File Zip](./media/3ZipFile.png)
+   ![File Zip.](./media/3ZipFile.png)
 
-   ![Pilih file](./media/4SelectAFile.png)
+   ![Pilih file.](./media/4SelectAFile.png)
 
 9. Setelah file zip dipilih, pilih **impor data**.
 
-   ![Impor data](./media/5ImportData.png)
+   ![Impor Data.](./media/5ImportData.png)
 
 10. Impor akan berjalan selama sekitar dua-sepuluh menit tergantung pada kecepatan jaringan Anda. Setelah selesai, keluar dari Wizard CMT. 
 11. Periksa organisasi Anda untuk data dalam 18 entitas berikut:
@@ -71,7 +71,7 @@ Sebelum Anda memulai konfigurasi, Anda harus memiliki lingkungan Common Data Ser
     -   Keterkaitan Kategori Sumber Daya yang Dapat Dipesan
     -   Karakteristik Sumber Daya yang Dapat Dipesan
 
-    ![Impor Selesai](./media/6CompleteImport.png)
+    ![Impor Selesai.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

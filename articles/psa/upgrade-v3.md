@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014886"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000085"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan peningkatan – PSA versi 2.x atau 1.x ke versi 3
 
@@ -35,7 +35,7 @@ Baik Dynamics 365 Project Service Automation maupun Dynamics 365 Field Service m
 ## <a name="resource-assignments"></a>Penetapan sumber daya
 Di Project Service Automation versi 2 dan versi 1, penetapan tugas disimpan sebagai tugas anak (juga disebut tugas baris di **) entitas tugas**, dan tidak langsung terkait dengan entitas **penetapan sumber daya**. Tugas baris terlihat di jendela pop-up tugas di struktur rincian kerja (WBS).
 
-![Tugas baris di WBS di Project Service Automation versi 2 dan versi 1](media/upgrade-line-task-01.png)
+![Tugas baris di WBS di Project Service Automation versi 2 dan versi 1.](media/upgrade-line-task-01.png)
 
 Dalam versi 3 dari Project Service Automation, skema yang mendasari penetapan sumber daya yang dapat dipesan untuk tugas telah diubah. Tugas baris telah ditolak dan ada relasi 1:1 langsung antara tugas di **entitas tugas** dan anggota tim di entitas **penetapan sumber daya**. Tugas yang ditetapkan ke anggota tim proyek sekarang disimpan langsung dalam entitas tugas sumber daya.  
 
@@ -46,26 +46,26 @@ Menggunakan entitas tugas yang mendasari, tugas di versi 2 dan versi 1 memungkin
 
 Jika Anda telah menetapkan sumber daya untuk tugas di luar peran default mereka dalam versi 2 dan versi 1, saat Anda meningkatkan, sumber daya bernama akan ditetapkan peran default untuk semua penetapan tugas, terlepas dari penetapan peran di versi 2. Hasil penetapan ini akan mengakibatkan perbedaan dalam perkiraan perkiraan dari versi 2 atau versi 1 ke versi 3 karena perkiraan dihitung berdasarkan peran sumber daya dan bukan penetapan tugas baris. Misalnya, di versi 2, dua tugas telah ditetapkan ke Latisha Aquina. Peran pada tugas baris untuk tugas 1 adalah Developer dan untuk tugas 2, manajer program. Latisha Aquina memiliki peran default manajer program.
 
-![Peran ganda ditetapkan ke satu sumber daya](media/upgrade-multiple-roles-02.png)
+![Peran ganda ditetapkan ke satu sumber daya.](media/upgrade-multiple-roles-02.png)
 
 Karena peran pengembang dan manajer program berbeda, perkiraan biaya dan penjualan adalah sebagai berikut:
 
-![Perkiraan biaya untuk peran sumber daya](media/upggrade-cost-estimates-03.png)
+![Perkiraan biaya untuk peran sumber daya.](media/upggrade-cost-estimates-03.png)
 
-![Perkiraan penjualan untuk peran sumber daya](media/upgrade-sales-estimates-04.png)
+![Perkiraan penjualan untuk peran sumber daya.](media/upgrade-sales-estimates-04.png)
 
 Bila Anda mengupgrade ke versi 3, tugas baris digantikan dengan tugas sumber daya pada tugas anggota tim sumber daya yang dapat dipesan. Tugas akan menggunakan peran default sumber daya yang dapat dipesan. Dalam grafik berikut, Latisha Aquina yang memiliki peran manajer program, adalah sumber daya.
 
-![Penetapan sumber daya](media/resource-assignment-v2-05.png)
+![Penetapan sumber daya.](media/resource-assignment-v2-05.png)
 
 Karena perkiraan didasarkan pada peran default untuk sumber daya, perkiraan penjualan dan biaya dapat berubah. Dalam grafik berikut, Anda tidak lagi melihat peran **pengembang** karena peran sekarang diambil dari peran default sumber daya yang dapat dipesan.
 
-![Perkiraan biaya untuk peran default](media/resource-assignment-cost-estimate-06.png)
-![Perkiraan penjualan untuk peran default](media/resource-assignment-sales-estimate-07.png)
+![Perkiraan biaya untuk peran default.](media/resource-assignment-cost-estimate-06.png)
+![Perkiraan penjualan untuk peran default.](media/resource-assignment-sales-estimate-07.png)
 
 Setelah pembaruan selesai, Anda dapat mengedit peran anggota tim untuk menjadi yang lain selain default yang ditetapkan. Namun, jika Anda mengubah peran anggota tim, itu akan diubah pada semua tugas yang ditetapkan karena anggota tim tidak dapat ditetapkan peran ganda di versi 3.
 
-![Memperbarui peran sumber daya](media/resource-role-assignment-08.png)
+![Memperbarui peran sumber daya.](media/resource-role-assignment-08.png)
 
 Hal ini juga berlaku untuk tugas baris yang ditetapkan ke sumber daya bernama saat Anda mengubah unit organisasi sumber daya dari default ke unit organisasi lain. Setelah versi peningkatan 3 selesai, tugas akan menggunakan unit organisasi default sumber daya, bukan yang ditetapkan pada tugas baris.
 
@@ -83,24 +83,24 @@ Untuk tugas yang ditetapkan ke anggota tim umum yang dihasilkan dengan **Buat ti
 
 Misalnya, dalam proyek proyek Z, unit organisasi kontrak adalah Contoso AS. Dalam rencana proyek, tugas pengujian dalam fase penerapan telah ditetapkan peran Konsultan teknis, dan unit organisasi yang ditetapkan adalah Contoso India.
 
-![Tahap penerapan penugasan organisasi](media/org-unit-assignment-09.png)
+![Tahap penerapan penugasan organisasi.](media/org-unit-assignment-09.png)
 
 Setelah tahap penerapan, tugas uji integrasi ditetapkan ke konsultan teknis peran, namun org diatur ke Contoso AS.  
 
-![Uji integrasi penetapan organisasi tugas](media/org-unit-generate-team-10.png)
+![Uji integrasi penetapan organisasi tugas.](media/org-unit-generate-team-10.png)
 
 Bila Anda membuat tim untuk proyek, dua anggota tim umum dibuat karena unit organisasi yang berbeda pada tugas. Konsultan teknis 1 akan ditugasi tugas Contoso India dan konsultan teknik 2 akan memiliki tugas Contoso AS.  
 
-![Anggota tim generik dihasilkan](media/org-unit-assignments-multiple-resources-11.png)
+![Anggota tim generik dihasilkan.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Dalam Project Service Automation versi 2 dan versi 1, anggota tim tidak memegang unit organisasi, yang dikelola pada tugas baris.
 
-![Tugas baris versi 2 dan versi 1 di Project Service Automation](media/line-tasks-12.png)
+![Tugas baris versi 2 dan versi 1 di Project Service Automation.](media/line-tasks-12.png)
 
 Anda dapat melihat unit organisasi pada tampilan perkiraan. 
 
-![Perkiraan unit organisasi](media/org-unit-estimates-view-13.png)
+![Perkiraan unit organisasi.](media/org-unit-estimates-view-13.png)
  
 Setelah peningkatan selesai, unit organisasi pada tugas baris yang terkait dengan anggota tim generik ditambahkan ke anggota tim generik, dan tugas baris akan dihapus. Oleh karena itu, sebaiknya lakukan sebelum meningkatkan, buat atau buat ulang tim pada setiap proyek yang berisi sumber daya generik.
 

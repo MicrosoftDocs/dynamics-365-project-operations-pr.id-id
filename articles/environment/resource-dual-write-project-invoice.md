@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996570"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993245"
 ---
 # <a name="project-invoice-integration"></a>Integrasi faktur proyek
 
@@ -20,7 +20,7 @@ Informasi topik tentang integrasi penulisan ganda Project Operations untuk faktu
 
 Dalam Project Operations, manajer proyek mengelola akumulasi penagihan proyek dan membuat faktur proforma untuk pelanggan dalam Microsoft Dataverse. Berdasarkan faktur proforma ini, petugas piutang dagang atau akuntan Proyek membuat faktur untuk pelanggan. Integrasi penulisan ganda memastikan bahwa rincian faktur proforma disinkronisasikan ke aplikasi Finance and Operations. Setelah faktur pelanggan dikirim, sistem memperbarui aktual proyek yang relevan di Dataverse dengan rincian akuntansi. Grafis berikut memberikan ikhtisar konsep tingkat tinggi integrasi ini.
 
-   ![Integrasi faktur proyek](./media/DW5Invoicing.png)
+   ![Integrasi faktur proyek.](./media/DW5Invoicing.png)
 
 Setelah Manajer proyek mengkonfirmasikan faktur proforma dalam Dataverse, informasi header faktur proforma disinkronisasikan ke aplikasi Finance and Operations menggunakan peta tabel penulisan ganda, **Proposal faktur proyek V2 (faktur)**. Ini adalah integrasi satu arah dari Dataverse ke aplikasi Finance and Operations. Membuat atau menghapus proposal faktur Proyek secara langsung di aplikasi Finance and Operations tidak didukung.
 

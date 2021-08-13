@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000580"
 ---
 # <a name="project-pricing"></a>Harga proyek 
 
@@ -46,7 +46,7 @@ Entitas daftar harga memiliki tiga tabel terkait yang menyimpan harga:
   - **Harga kategori transaksi** - tabel ini menyimpan harga berdasarkan Kategori transaksi dan digunakan untuk mengkonfigurasi harga kategori pengeluaran.
   - **Item daftar harga** - tabel ini menyimpan harga untuk produk Katalog.
 
-> ![Mengonfigurasikan harga dengan daftar harga](media/basic-guide-12.png)
+> ![Mengonfigurasikan harga dengan daftar harga.](media/basic-guide-12.png)
  
 Daftar Harga adalah kartu tarif. kartu tarif adalah kombinasi dari entitas daftar harga dan baris terkait pada harga peran, harga kategori transaksi, dan tabel item daftar harga.
 
@@ -58,7 +58,7 @@ Waktu sumber daya manusia biasanya dikutip berdasarkan peran yang diisi sumber d
 
 Grup unit **waktu** dibuat saat PSA diinstal. Ia memiliki unit default **jam**. Anda tidak dapat menghapus, mengubah nama, atau mengedit atribut untuk grup unit **waktu** atau unit **jam**. Namun, Anda dapat menambahkan unit lain ke grup unit **waktu**. Jika Anda mencoba untuk menghapus Grup unit **waktu** atau unit **jam**, Anda dapat menyebabkan kegagalan dalam logika bisnis PSA.
 
-> ![Mengkonfigurasi harga berdasarkan peran](media/basic-guide-13.png)
+> ![Mengkonfigurasi harga berdasarkan peran.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategori transaksi dan kategori pengeluaran
 
@@ -68,7 +68,7 @@ Biaya perjalanan dan biaya lain yang dikenakan oleh konsultan proyek biasanya di
 - **Persentase markup** -persentase terhadap biaya aktual yang ditagihkan kepada pelanggan. 
 - **Harga per unit** -harga penagihan diatur untuk setiap unit dari kategori pengeluaran. Jumlah tagihan yang ditagihkan pada pelanggan dihitung berdasarkan jumlah unit pengeluaran yang dilaporkan oleh konsultan. Jarak tempuh menggunakan metode harga per unit. Misalnya, kategori pengeluaran jarak tempuh dapat dikonfigurasi untuk 30 dolar AS (USD) per hari atau 2 USD per mil. Bila konsultan melaporkan jarak tempuh pada suatu proyek, jumlah tagihan dihitung berdasarkan jumlah mil yang dilaporkan oleh konsultan.
 
-> ![Mengkonfigurasi harga untuk kategori pengeluaran](media/basic-guide-14.png)
+> ![Mengkonfigurasi harga untuk kategori pengeluaran.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Harga penjualan proyek dan penggantian
 
@@ -114,7 +114,7 @@ Namun, pada kuotasi, Anda dapat menggunakan daftar harga Master. Atau, Anda dapa
 
 Bila Anda membuat daftar harga proyek kustom, hanya komponen proyek dari daftar harga yang akan disalin. Dengan kata lain, daftar harga baru dibuat sebagai salinan dari daftar harga proyek yang ada yang dilampirkan pada kuotasi, dan daftar harga baru ini hanya memiliki harga peran yang terkait dan harga kategori transaksi.
 
-> ![Melihat dan mengkonfigurasi harga kustom untuk kontrak proyek](media/basic-guide-15.png)
+> ![Melihat dan mengkonfigurasi harga kustom untuk kontrak proyek.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Pelacakan Biaya
 

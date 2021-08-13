@@ -2,7 +2,7 @@
 title: Laporan pengeluaran model baru
 description: Laporan topik menjelaskan pengalaman yang didesain ulang dan ditata ulang untuk entri laporan pengeluaran.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251008"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997835"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan pengeluaran model baru
 
@@ -57,12 +57,13 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **manajemen Fitur** untu
 | Kalkulator kurs | Kalkulator kurs ditambahkan yang memungkinkan Anda menghitung nilai tukar untuk transaksi multi mata uang mandiri. |
 | Simpan dan tambahkan baris pengeluaran baru | Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran. |
 | Visibilitas yang lebih baik ke baris terpisah dan terperinci | Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan. |
-| Melihat rincian subkategori di baris terperinci | Baris terperinci dari pengeluaran induk menunjukkan label subkategori dalam laporan pengeluaran, yang akan membantu Anda meninjau sekilas detail terperinci.|
+| Melihat rincian subkategori di baris terperinci | Baris item dari pengeluaran induk memperlihatkan label subkategori pada laporan pengeluaran. Itemisasi memungkinkan Anda meninjau detail terperinci secara sekilas.|
 | Tampilkan tanda terima selama itemisasi | Tanda terima dapat ditampilkan selama itemisasi. |
 | Pilihan Uang muka | Pilih satu atau beberapa uang muka tunai untuk memenuhi satu transaksi pengeluaran. |
 | saldo Uang muka | Tinjau saldo uang muka secara real time bila Anda membuat entri pengeluaran dengan uang muka yang disetujui dan dibayar. |
 
 Rilis awal difokuskan pada skenario entri pengeluaran. Skenario pengeluaran laporan atau skenario persetujuan akan terus menggunakan halaman entri pengeluaran yang ada.
+
 
 Fitur berikut tidak didukung pada ruang kerja nuansa baru laporan Pengeluaran, namun direncanakan untuk rilis mendatang: 
 
