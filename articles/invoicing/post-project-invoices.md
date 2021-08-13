@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369020"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003775"
 ---
 # <a name="invoicing-process-overview"></a>Ikhtisar proses pemfakturan
 
@@ -20,7 +20,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Project Operations untuk skenario berbasis sumber daya/non-stok menawarkan kemampuan komprehensif yang disesuaikan dengan kebutuhan manajer proyek dan akuntan piutang/akuntan proyek. Untuk proses penagihan, manajer proyek mengelola backlog penagihan proyek dan akuntan piutang/proyek membuat dokumen faktur yang sesuai dan akurat untuk pelanggan.
 
-![Diagram alur faktur](./media/invoicing-flow.png)
+![Diagram alur faktur.](./media/invoicing-flow.png)
 
 Baris kontrak proyek menentukan metode penagihan untuk transaksi proyek yang terkait. Ketika manajer proyek menyetujui waktu dan transaksi pengeluaran, sistem merekam transaksi di entitas **Aktual Proyek** dan mengirimkan informasi tersebut ke modul **manajemen Proyek dan akuntansi** di Dynamics 365 Finance. Akuntan proyek kemudian melihat dan memposting rekaman menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini mencakup rincian akuntansi penting untuk aktual proyek, seperti penagihan, grup pajak penjualan, grup pajak penjualan item penagihan, dan dimensi keuangan.
 

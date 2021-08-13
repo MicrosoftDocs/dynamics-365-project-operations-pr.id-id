@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369695"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007510"
 ---
 # <a name="project-management-and-accounting-overview"></a>Ikhtisar manajemen proyek dan akuntansi
 
@@ -34,14 +34,14 @@ Proyek adalah grup aktivitas yang dirancang untuk menyediakan layanan, menghasil
 ## <a name="projects-across-industries"></a>Proyek di seluruh industri
 Fungsi manajemen proyek dan akuntansi dapat digunakan di beberapa industri, seperti ditunjukkan dalam ilustrasi berikut.
 
-[![Proyek di seluruh industri](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Proyek di seluruh industri.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Di pusat panggilan, tiket dapat digunakan untuk menjelaskan rangkaian tindakan yang diperlukan untuk menangani panggilan. Perusahaan konsultan, seperti organisasi konsultasi manajemen atau teknis atau biro iklan, merujuk aktivitas mereka sebagai proyek. Dalam pemasaran, kampanye merupakan rangkaian pekerjaan yang harus diwujudkan. Di manufaktur berbasis proyek, pesanan produksi berhubungan dengan berbagai pekerjaan yang harus dilakukan untuk menghasilkan barang jadi. Nama apa pun yang digunakan untuk mereka, proyek ini melibatkan sumber daya, jadwal, serta biaya, dan fungsi manajemen dan akuntansi proyek dapat membantu perencanaan, pelaksanaan, dan analisis proyek ini.
 
 ## <a name="project-phases"></a>Fase proyek
 Meskipun alur proses berikut ditujukan untuk proyek eksternal, atau proyek yang diselesaikan untuk satu atau beberapa pelanggan, fungsinya juga berlaku untuk proyek internal, hanya biaya. 
 
-![3 Tahapan proyek](./media/3-stages-of-a-project.png) 
+![3 Tahapan proyek.](./media/3-stages-of-a-project.png) 
 
 Seperti ditunjukkan dalam ilustrasi sebelumnya, manajemen proyek dan akuntansi dapat dibagi menjadi tiga tahapan:
 
@@ -50,7 +50,7 @@ Seperti ditunjukkan dalam ilustrasi sebelumnya, manajemen proyek dan akuntansi d
 3.  Menganalisis
 
 ## <a name="initiate-the-project"></a>Memulai proyek
-Selama inisiasi proyek, beberapa proses kunci terjadi. Anda dapat menggunakan kuotasi proyek untuk mengkomunikasikan perkiraan tenaga kerja, biaya, dan materi ke pelanggan. Anda dapat merekam persyaratan, batas, dan perjanjian penagihan dalam kontrak proyek. Anda dapat menggunakan struktur rincian kerja (WBS) untuk merencanakan dan memperkirakan pekerjaan. Anda dapat mengatur perkiraan dan anggaran untuk memandu pelaksanaan proyek. Ilustrasi berikut menunjukkan struktur dari suatu proyek.[![struktur proyek](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Selama inisiasi proyek, beberapa proses kunci terjadi. Anda dapat menggunakan kuotasi proyek untuk mengkomunikasikan perkiraan tenaga kerja, biaya, dan materi ke pelanggan. Anda dapat merekam persyaratan, batas, dan perjanjian penagihan dalam kontrak proyek. Anda dapat menggunakan struktur rincian kerja (WBS) untuk merencanakan dan memperkirakan pekerjaan. Anda dapat mengatur perkiraan dan anggaran untuk memandu pelaksanaan proyek. Ilustrasi berikut menunjukkan struktur dari suatu proyek.[![struktur proyek.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Membuat kuotasi proyek
 

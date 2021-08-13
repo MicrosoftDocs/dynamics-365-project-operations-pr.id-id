@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997515"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005620"
 ---
 # <a name="synchronize-resource-capacity"></a>Mensinkronkan kapasitas sumber daya
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997515"
 
 Proses untuk sinkronisasi sumber daya membantu menjamin bahwa informasi untuk kalender dan kalender dasar menetes ke dalam penjadwalan sumber daya proyek. Jika kalender diubah, proses akan melakukan pembaruan yang diperlukan terhadap penjadwalan sumber daya proyek. Proses juga membantu meningkatkan kinerja, karena informasi sumber daya kalender disinkronisasikan terlebih dahulu. Oleh karena itu, pembaruan untuk informasi penjadwalan sumber daya terjadi lebih cepat. Sebaiknya jadwalkan proses sebagai kumpulan, bukan satu per satu. Jika tidak, ada risiko bahwa seseorang akan melupakan tanggal inklusif saat informasi terakhir disinkronisasi. Jika tanggal inklusif tidak digunakan, kesenjangan dapat terjadi selama sinkronisasi tanggal.
 
-![Sinkronisasi kalender](./media/projectresourcing04-1024x471.jpg)
+![Sinkronisasi kalender.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinkronisasikan akumulasi kapasitas sumber daya
 
@@ -46,7 +46,7 @@ Sebaiknya Anda menggunakan kumpulan. Pilihan tersedia selama sinkronisasi Pemesa
     | Tanggal mulai  | Masukkan tanggal mulai untuk proses sinkronisasi untuk akumulasi kapasitas sumber daya. |
     | Tanggal berakhir    | Masukkan tanggal akhir untuk proses sinkronisasi untuk akumulasi kapasitas sumber daya. |
 
-[![Proses Sinkronisasi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proses Sinkronisasi.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

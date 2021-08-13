@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998505"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008590"
 ---
 # <a name="product-based-quote-lines"></a>Baris kuotasi berbasis produk
 
@@ -58,7 +58,7 @@ Jika Anda menetapkan bidang ini ke **Timpa Harga**, Dynamics 365 tidak menetapka
 
 Setelah Anda menginstal PSA, harga penjualan default dimasukkan pada baris berbasis produk pada kuotasi. Bidang **harga** kemudian diatur ke **Timpa Harga** sehingga Anda dapat mengedit harga default pada baris kuotasi.
 
-> ![Mengatur Timpa Harga](media/basic-guide-10.png)
+> ![Mengatur Timpa Harga.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Faktor kuantitas untuk produk
 
@@ -78,7 +78,7 @@ Misalnya, Dynamics 365 mungkin memiliki properti berikut:
 
 Properti **Jumlah pengguna** dan **Jumlah bulan** dapat ditandai sebagai faktor kuantitas dengan mengedit properti lini produk. 
 
-> ![Menandai Jumlah pengguna dan Jumlah bulan sebagai faktor kualitas](media/basic-guide-11.png)
+> ![Menandai Jumlah pengguna dan Jumlah bulan sebagai faktor kualitas.](media/basic-guide-11.png)
  
 
 

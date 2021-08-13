@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367895"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008230"
 ---
 # <a name="resource-management-modes-overview"></a>Sekilas mode manajemen sumber daya
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations mendukung dua mode agar Anda dapat menjalankan a
 ## <a name="central-mode"></a>Mode Pusat
 Untuk organisasi yang memusatkan alokasi sumber daya ke proyek, mode pusat menyediakan cara untuk memastikan manajer proyek dapat menentukan persyaratan sumber daya di tingkat proyek. Pemenuhan persyaratan sumber daya didelegasikan ke manajer sumber daya. Manajer proyek dapat menerima atau menolak sumber daya yang diusulkan oleh Manajer sumber daya.
 
-![Mode Pusat](./media/resource-management-central.png)
+![Mode Pusat.](./media/resource-management-central.png)
 
 Untuk mengelola sumber daya dengan mode pusat, lihat:
 
@@ -37,7 +37,7 @@ Untuk mengelola sumber daya dengan mode pusat, lihat:
 ## <a name="hybrid-mode"></a>Mode hibrida
 Untuk organisasi yang memerlukan fleksibilitas dalam alokasi sumber daya, mode hibrida memungkinkan untuk manajer proyek dan manajer sumber daya kemampuan untuk memesan sumber daya.
 
-![Mode hibrida](./media/resource-management-hybrid.png)
+![Mode hibrida.](./media/resource-management-hybrid.png)
 
 Selain proses mode pusat yang didukung, lihat topik berikut untuk mengelola semua alur Pemesanan yang didukung lainnya dalam mode hibrida:
 

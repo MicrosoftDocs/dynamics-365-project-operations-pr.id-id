@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009170"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002560"
 ---
 # <a name="project-costs-and-revenue"></a>Penerimaan dan biaya proyek
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009170"
 
 Perkiraan proyek memberikan tampilan keuangan untuk pekerjaan yang diperkirakan dan dijadwalkan pada jadwal proyek. Tab **Estimasi** pada halaman **proyek** menunjukkan dampak biaya dan pendapatan dari pekerjaan yang Anda rencanakan. Ia juga menyediakan informasi tentang banyak dimensi yang telah ditentukan. 
 
-> ![tab Perkiraan](media/project-5.png)
+> ![tab Perkiraan.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Biaya dan nilai penjualan proyek
 
@@ -66,13 +66,13 @@ Jika sistem tidak menemukan harga untuk peran, maka harga penjualan pada baris p
 
 Tab **perkiraan** memiliki tampilan kisi yang menampilkan baris perkiraan. Kisi mencakup kolom untuk unit, harga biaya total, dan harga penjualan total, seperti ditunjukkan dalam ilustrasi berikut. 
 
-> ![Tampilan kisi pada tab perkiraan](media/project-6.png)
+> ![Tampilan kisi pada tab perkiraan.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tampilan bertahap waktu dari estimasi proyek
 
 Tampilan bertahap waktu perkiraan proyek menunjukkan perkiraan data dari tampilan kisi di seluruh Timeline, dalam skala waktu yang Anda pilih. Secara default, data perkiraan berpusat pada dimensi **peran**.
 
-> ![Tampilan bertahap waktu untuk estimasi proyek](media/project-7.png)
+> ![Tampilan bertahap waktu untuk estimasi proyek.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Mengalokasikan estimasi upaya berdasarkan mode tugas
 

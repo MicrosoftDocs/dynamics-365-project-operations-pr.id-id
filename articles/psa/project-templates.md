@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998280"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002515"
 ---
 # <a name="project-templates"></a>Template Proyek 
 
@@ -47,7 +47,7 @@ Ada beberapa cara membuat proyek dari template proyek:
 
 - Ketika Anda membuat proyek dari kuotasi, Anda dapat memilih template proyek dalam kotak dialog **Buat cepat: proyek**.
 
-> ![Kotak dialog buat cepat: proyek](media/project-11.png)
+> ![Kotak dialog buat cepat: proyek.](media/project-11.png)
 
 - Saat membuat proyek dengan memilih **proyek baru**, halaman **proyek** akan ditampilkan sebelum rekaman disimpan. Di bidang **pilih template**, pilih salah satu template proyek yang telah ditetapkan dalam organisasi.
 - Gunakan **buat proyek dari template** di halaman **entitas template**.

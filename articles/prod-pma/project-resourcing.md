@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369470"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007330"
 ---
 # <a name="project-resourcing-home-page"></a>Laman beranda sumber daya proyek
 
@@ -38,7 +38,7 @@ Satu tantangan untuk manajer proyek dan manajer sumber daya selama tahap perenca
 - Memperkirakan jumlah sumber daya yang diperlukan untuk seluruh siklus hidup suatu proyek.
 - Merencanakan struktur rincian kerja (WBS) dengan menggunakan penetapan awal sumber daya.
 
-[![Siklus hidup proyek](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Siklus hidup proyek.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Seiring berjalannya Perencanaan proyek, sumber daya yang direncanakan dapat digantikan dengan sumber daya staf. Manajer Proyek juga dapat kembali dan memperbarui reservasi sumber daya selama setiap tahapan proyek.
 

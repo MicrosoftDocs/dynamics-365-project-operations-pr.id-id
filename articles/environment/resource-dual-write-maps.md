@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025778"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003820"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versi peta penulisan ganda Project Operations
 
@@ -32,7 +32,7 @@ Peta berikut adalah prasyarat yang diperlukan untuk solusi Project Operations. P
 
 1. Dari daftar peta, pilih peta buku besar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. Pada bidang **Master untuk sinkronisasi awal**, pilih **aplikasi Finance and Operations** untuk peta buku besar dan semua peta prasyarat. Pilih **Jalankan**.
 
-![Sinkronisasi peta buku besar](media/DW6.png)
+![Sinkronisasi peta buku besar.](media/DW6.png)
 
 2. Ikuti langkah-langkah yang sama untuk semua peta tabel tersisa yang tercantum pada tabel di atas. Jangan pilih kotak centang **Sinkronisasi awal** saat menjalankan peta tersebut.
 
@@ -65,7 +65,7 @@ Selesaikan langkah-langkah berikut untuk menjalankan peta yang terdaftar.
 
 1. Aktifkan peran sumber daya proyek untuk **semua peta tabel perusahaan (bookableresourcecategories)** karena peta ini memerlukan sinkronisasi awal. Pada bidang **Master untuk sinkronisasi awal**, pilih **Common Data Service**. 
 
- ![Sinkronisasi peta tabel peran sumber daya](media/6ResourceInitialSync.jpg)
+ ![Sinkronisasi peta tabel peran sumber daya.](media/6ResourceInitialSync.jpg)
 
  Tunggu hingga status peta **berjalan** sebelum Anda beralih ke langkah berikutnya.
 

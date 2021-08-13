@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007105"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Tetapkan sumber daya yang dapat dipesan generik ke tugas dan buat persyaratan sumber daya 
 
@@ -33,21 +33,21 @@ Selain memesan dan menetapkan sumber daya bernama atau sumber daya nyata ke proy
 
 1. Di Project Service Automation (PSA), buka halaman **proyek** dan pada tab **jadwal**, masukkan nama posisi sumber daya generik di sel **sumber daya** jadwal. Atau, klik ikon **sumber daya** di sel untuk membuka pemilih sumber daya, lalu masukkan nama sumber daya umum yang ingin Anda buat.
 
-![Membuat dan menetapkan anggota tim Umum](media/RM-how-to-9.png)
+![Membuat dan menetapkan anggota tim Umum.](media/RM-how-to-9.png)
 
 Ini akan membuka panel **Buat Cepat: Anggota Tim Proyek**. 
 
 2. Masukkan peran dan unit organisasi anggota tim sumber daya generik, lalu klik **Simpan**.
 
-![Buat cepat anggota tim generik](media/RM-how-to-10.png)
+![Buat cepat anggota tim generik.](media/RM-how-to-10.png)
 
 3. Setelah Anda membuat anggota tim sumber daya generik baru, maka ditetapkan ke tugas. Anda dapat terus menetapkan sumber daya generik untuk tugas lain dalam jadwal tugas.
 
-![Menetapkan anggota tim generik yang ada ke tugas](media/RM-how-to-11.png)
+![Menetapkan anggota tim generik yang ada ke tugas.](media/RM-how-to-11.png)
 
 4. Setelah Anda menetapkan sumber daya generik, Anda dapat membuat persyaratan sumber daya dan memenuhinya dengan langsung memesan atau mengajukan permintaan sumber daya ke manajer sumber daya.
 
-![Menghasilkan persyaratan untuk anggota tim generik](media/RM-how-to-12.png)
+![Menghasilkan persyaratan untuk anggota tim generik.](media/RM-how-to-12.png)
 
 Pada kisi anggota tim, selain dapat menggunakan pemilih sumber daya sebagaimana disebutkan di atas, Anda dapat menambahkan sumber daya generik secara langsung. Sumber daya ditambahkan dengan persyaratan sumber daya yang didasarkan pada tanggal mulai/akhir dan metode alokasi yang ditentukan dalam panel **Buat Cepat: Anggota Tim Proyek**.
 
@@ -55,7 +55,7 @@ Anda dapat melihat perbedaan jika Anda menambahkan anggota tim umum secara langs
 
 Anda juga dapat mengeklik tautan **persyaratan sumber daya** di kisi tim untuk membuka persyaratan dan menambahkan keahlian, sumber daya pilihan, dll.
 
-![Persyaratan Sumber Daya](media/RM-how-to-13.png)
+![Persyaratan Sumber Daya.](media/RM-how-to-13.png)
 
 
 
