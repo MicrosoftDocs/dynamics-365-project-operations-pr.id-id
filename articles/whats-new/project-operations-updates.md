@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024787"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474497"
 ---
 # <a name="project-operations-updates"></a>Pembaruan Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations terdiri dari dua komponen:
 - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. Lingkungan aplikasi Finance and Operations digunakan dalam Project Operations untuk skenario berbasis sumber daya/non-stok dan Project Operations untuk skenario berbasis stok/produksi.
 
 ## <a name="project-operations-release-notes"></a>Catatan rilis Project Operations
-- Catatan rilis terbaru Project Operations untuk skenario [Sumber daya/non-stok](whats-new-july-2021-resource-based.md).
-- Catatan rilis terbaru Project Operations untuk skenario [penyebaran Lite](../pro/whats-new/whats-new-july-2021-lite.md).
+- Catatan rilis terbaru Project Operations untuk skenario [Sumber daya/non-stok](whats-new-august-2021-resource-based.md).
+- Catatan rilis terbaru Project Operations untuk skenario [penyebaran Lite](../pro/whats-new/whats-new-august-2021-lite.md).
 - Catatan rilis terbaru Project Operations untuk skenario [berstok/produksi](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versi terbaru Project Operations
 
 | Project Operations di Lingkungan Dataverse | Manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Untuk skenario Project Operations/non stok sebaiknya gunakan versi Orkestrasi Penulisan Ganda 2.2.2.83 atau lebih tinggi.
 
@@ -47,27 +47,24 @@ Pembaruan untuk Project Operations pada lingkungan Dataverse tersedia setiap bul
 | Stasiun | Kawasan | Nomor versi saat ini | Pembaruan otomatis untuk penyebaran Lite | Pembaruan otomatis untuk penyebaran Sumber Daya/non-persediaan | Nomor Versi berikutnya | Versi berikutnya yang tersedia secara umum |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stasiun 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Rilis pertama         |  4.13.0.152     | Selesaikan           | 13 Agustus 2021     | TBD                 | 27 Agustus 2021     |
+|   &nbsp;  | Rilis pertama         |  4.14.0.99      | Selesaikan           | 10 September 2021  | TBD                 | 01 Oktober 2021    |
 | Stasiun 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.13.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | TBD                 | 27 Agustus 2021     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | TBD                 | 27 Agustus 2021     |
-|   &nbsp;  | India                 |  4.13.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | TBD                 | 27 Agustus 2021     |
-|   &nbsp;  | Prancis                |  4.13.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | TBD                 | 27 Agustus 2021     |
-|   &nbsp;  | Uni Emirat Arab  |  4.13.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | TBD                 | 27 Agustus 2021     |
-|   &nbsp;  | Afrika Selatan          |  4.13.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | TBD                 | 27 Agustus 2021     |
+|   &nbsp;  | Amerika Selatan         |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | India                 |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | Prancis                |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | Uni Emirat Arab  |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | Afrika Selatan          |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
 | Stasiun 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepang                 |  4.12.0.152     | Lengkap*          | Selesaikan            | 4.13.0.152          | 13 Agustus 2021     |
-|   &nbsp;  | Asia Pasifik          |  4.12.0.152     | Lengkap*          | Selesaikan            | 4.13.0.152          | 13 Agustus 2021     |
-|   &nbsp;  | Britania Raya         |  4.12.0.152     | Lengkap*          | Selesaikan            | 4.13.0.152          | 13 Agustus 2021     |
-|   &nbsp;  | Oseania               |  4.12.0.152     | Lengkap*          | Selesaikan            | 4.13.0.152          | 13 Agustus 2021     |
+|   &nbsp;  | Jepang                 |  4.13.0.152     | Selesaikan           | Selesaikan            | 4.14.0.152          | 10 September 2021  |
+|   &nbsp;  | Asia Pasifik          |  4.13.0.152     | Selesaikan           | Selesaikan            | 4.14.0.152          | 10 September 2021  |
+|   &nbsp;  | Britania Raya         |  4.13.0.152     | Selesaikan           | Selesaikan            | 4.14.0.152          | 10 September 2021  |
+|   &nbsp;  | Oseania               |  4.13.0.152     | Selesaikan           | Selesaikan            | 4.14.0.152          | 10 September 2021  |
 | Stasiun 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropa                |  4.12.0.152     | Selesaikan           | Selesaikan            | 4.13.0.152          | 20 Agustus 2021     |
+|   &nbsp;  | Eropa                |  4.13.0.152     | Selesaikan           | 03 September 2021  | 4.14.0.152          | 17 September 2021  |
 | Stasiun 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.12.0.152     | 13 Agustus 2021    | 20 Agustus 2021     | 4.13.0.152          | 27 Agustus 2021     |
+|   &nbsp;  | Amerika Utara         |  4.13.0.152     | 03 September 2021 | 10 September 2021  | 4.14.0.152          | 24 September 2021  |
 
-
-> [!NOTE]
-> Penyebaran otomatis sudah diselesaikan untuk versi 4.12.0.148. Tidak ada penyebaran otomatis yang direncanakan untuk versi terbaru rilis Bulan Juli 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations
 

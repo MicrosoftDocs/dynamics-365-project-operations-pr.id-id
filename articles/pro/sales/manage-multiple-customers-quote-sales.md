@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001660"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440781"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Mengelola beberapa pelanggan pada kuotasi proyek - lite
 
@@ -37,7 +37,7 @@ Pelanggan kuotasi dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan ku
 
 | **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
-| Akun | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Daftar semua akun aktif. Bidang ini dikunci setelah rekaman dibuat. Jika Anda ingin memperbaruinya, Hapus rekaman, dan buat ulang. Jika Anda telah merekam setiap aktual, atau jika rekaman pelanggan kuotasi adalah pelanggan utama, Anda akan diizinkan untuk menghapus rekaman. | Pelanggan kuotasi disalin sebagai pelanggan kuotasi saat baris kuotasi dibuat. Pelanggan kuotasi juga disalin ke pelanggan kontrak proyek saat kuotasi dimenangkan. |
+| Akun | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Daftar semua akun aktif. Bidang ini dikunci setelah rekaman dibuat. Jika Anda ingin memperbaruinya, Hapus rekaman, dan buat ulang. Jika Anda telah merekam aktual apa pun, atau jika rekaman pelanggan kuotasi adalah pelanggan utama, Anda tidak akan dibolehkan menghapus rekaman. | Pelanggan kuotasi disalin sebagai pelanggan kuotasi saat baris kuotasi dibuat. Pelanggan kuotasi juga disalin ke pelanggan kontrak proyek saat kuotasi dimenangkan. |
 | Persentase pembagian Penagihan | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Menunjukkan persentase setiap transaksi penjualan yang tidak ditagih yang akan dikaitkan dengan pelanggan kuotasi ini. | Disalin ke baris kuotasi baru dan ke pelanggan kontrak proyek. |
 | Tagih ke Nama Kontak | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Ini adalah Bidang teks dan harus digunakan untuk mengidentifikasi kontak orang faktur untuk pelanggan ini. Ini akan default dari rekaman akun terkait | Disalin ke pelanggan kontrak proyek ketika kuotasi dimenangkan dan pada bidang tagih ke nama kontrak pada faktur yang dihasilkan untuk pelanggan ini. |
 | Tagih ke Nama | Kisi yang dapat diedit pada tab **pelanggan kuotasi** dan formulir **utama** dan **Buat Cepat** untuk pelanggan kuotasi. | Bidang teks ini harus digunakan untuk mengidentifikasi orang kontak faktur untuk pelanggan ini. | Disalin ke pelanggan kontrak proyek ketika kuotasi dimenangkan dan pada bidang **tagih ke nama kontrak** pada faktur yang dihasilkan untuk pelanggan ini. |
