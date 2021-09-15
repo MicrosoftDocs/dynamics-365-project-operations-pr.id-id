@@ -4,6 +4,8 @@
   items:
     - name: Menentukan jenis penyebaran Anda
       href: environment/determine-deployment-type.md
+    - name: Mendaftar ke uji coba Project Operations
+      href: environment/admin-trials.md
     - name: Pembaruan Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Apa yang baru
       items:
+        - name: Agustus 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juni 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -418,6 +422,8 @@
       items:
         - name: Sekilas persetujuan
           href: approvals/approvals-overview.md
+        - name: Rangkaian persetujuan
+          href: approvals/approval-sets.md
         - name: Catatan pengembang
           items:
             - name: Catatan pengembang untuk Persetujuan
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
+        - name: Apa yang baru di akses awal 2021 gelombang 2 - penyebaran lite
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Apa yang baru di bulan Agustus 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Apa yang baru di bulan Juli 2021 - penyebaran lite
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Apa yang baru di bulan Juni 2021 - penyebaran lite
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Manajemen subkontrak dalam Project Operations
       items:
-        - name: Sekilas tentang mengelola subkontrak
+        - name: Manajemen subkontrak dalam Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Melakukan subkontrak pada Akses Awal Oktober 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Konsep penting dalam subkontrak
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Mengelola vendor dan daftar harga proyek
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subkontraktor sebagai sumber daya yang dapat dipesan
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Rincian Header untuk Subkontrak
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Baris subkontrak untuk waktu
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Baris subkontrak untuk pengeluaran
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Baris subkontrak untuk produk
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Sumber daya baris subkontrak
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Tahapan baris subkontrak
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Waktu
       items:
         - name: Ikhtisar waktu
@@ -868,6 +892,8 @@
       items:
         - name: Sekilas persetujuan
           href: approvals/approvals-overview.md
+        - name: Rangkaian persetujuan
+          href: approvals/approval-sets.md
         - name: Catatan pengembang
           items:
             - name: Catatan pengembang untuk Persetujuan
@@ -1060,6 +1086,8 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Menyesuaikan entri waktu mingguan
               href: psa/time-entry-extensibility-v3.md
-            - name: Rangkaian persetujuan
+            - name: Rangkaian persetujuan di Project Service Automation
               href: psa/approval-set.md
     - name: Tanya-jawab dan mengatasi masalah (3.x)
       items:
