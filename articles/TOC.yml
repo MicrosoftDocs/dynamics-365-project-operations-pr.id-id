@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Apa yang baru
       items:
+        - name: Oktober 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Agustus 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -292,7 +296,7 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
-            - name: Menggunakan API jadwal proyek (Pratinjau Umum)
+            - name: Menggunakan API jadwal proyek
               href: project-management/schedule-api-preview.md
     - name: Manajemen sumber daya
       items:
@@ -442,8 +446,16 @@
       items:
         - name: Konfigurasikan bahan yang tidak tersedia dan faktur vendor tertunda
           href: procurement/configure-materials-nonstocked.md
-        - name: Mendapatkan bahan yang tidak tersedia untuk proyek dengan menggunakan faktur vendor tertunda
+        - name: Mendapatkan bahan yang tidak memiliki stok untuk proyek dengan menggunakan faktur vendor tertunda
           href: procurement/pending-vendor-invoices.md
+        - name: Memesan bahan yang tidak memiliki stok untuk proyek dengan menggunakan pesanan pembelian proyek
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Retensi vendor
+          items:
+            - name: Ikhtisar retensi vendor
+              href: procurement/vendor-retention-overview.md
+            - name: Mengatur retensi vendor
+              href: procurement/set-up-vendor-retention.md
     - name: Faktur
       items:
         - name: Ikhtisar proses pemfakturan
@@ -528,6 +540,10 @@
       items:
         - name: Apa yang baru di akses awal 2021 gelombang 2 - penyebaran lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Yang baru di bulan Oktober 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Yang baru di bulan September 2021 - penyebaran lite
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Apa yang baru di bulan Agustus 2021 - penyebaran lite
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Apa yang baru di bulan Juli 2021 - penyebaran lite
@@ -784,7 +800,7 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
-            - name: Menggunakan API jadwal proyek (Pratinjau Umum)
+            - name: Menggunakan API jadwal proyek
               href: project-management/schedule-api-preview.md
     - name: Manajemen sumber daya
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Baris subkontrak untuk waktu
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Baris subkontrak untuk pengeluaran
+        - name: Baris subkontrak untuk kategori pengeluaran
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Baris subkontrak untuk produk
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 34, V3'
