@@ -2,16 +2,16 @@
 title: Mendaftar ke uji coba Project Operations
 description: Topik ini menyediakan informasi tentang cara menyebarkan uji coba Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418461"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599217"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Mendaftar ke uji coba Project Operations 
 
@@ -85,15 +85,9 @@ Sebelum Anda memulai, masuk ke browser dengan akun kerja pengguna di penyewa tem
 
    Setelah provisi dimulai, Anda akan diarahkan ke daftar lingkungan di pusat admin Power Platform. Saat provisi sedang berlangsung, status lingkungan Anda adalah **PreparingInstance**.
  
-  Setelah provisi selesai, status lingkungan Anda **Siap**.
+  Setelah provisi selesai, status lingkungan Anda **Siap**. Penyediaan lingkungan mencakup penerapan data demo.
  
-4.  Setelah provisi selesai, pilih URL Microsoft Dataverse terkait, dan URL aplikasi Finance and Operations untuk memvalidasi penyebaran.
-
-## <a name="demo-data-installation"></a>Penginstalan data demo
-
-Gunakan link berikut untuk mengakses paket data demo untuk bahan non-stok dan skenario penyebaran lite. 
-- [Data demo bahan tanpa stok](resource-apply-pro-setup-config-data.md)
-- [Data demo lite](lite-apply-demo-setup-config-data.md)
+4.  Pilih URL Microsoft Dataverse dan URL aplikasi Finance and Operations terkait untuk memvalidasi penyebaran.
 
 ## <a name="configuring-dual-write"></a>Mengonfigurasikan tulis ganda
 Untuk penyebaran bahan non-stok, konfigurasikan pemetaan tulis ganda Anda. Untuk informasi lebih lanjut, lihat [versi peta tulis ganda Project Operations](resource-dual-write-maps.md).

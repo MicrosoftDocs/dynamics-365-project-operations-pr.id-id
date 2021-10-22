@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323690"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558551"
 ---
 # <a name="subcontract-lines-for-products"></a>Baris Subkontrak untuk produk
 
@@ -30,25 +30,25 @@ selesaikan langkah-langkah berikut ini untuk membuat baris subkontrak untuk prod
 
 Tabel berikut menyediakan informasi tentang bidang pada halaman **rincian baris Subkontrak** dan halaman **Buat Cepat** karena relevan untuk pembelian produk.
 
-| Bidang | KETERANGAN |
-| ----- | ----------- |
-| Nama | Nama Baris Subkontrak. |
-| KETERANGAN | Deskripsi singkat tentang produk yang dipesan pada baris subkontrak. |
-| Jenis Baris | Bidang ini di-default ke **berbasis Kuantitas**. |
-| Metode Penagihan |  Metode penagihan Baris Subkontrak. Untuk metode penagihan harga tetap, jadwal faktur berbasis tahapan sudah tersedia. |
-| Kelas Transaksi | Bidang ini di-default ke **waktu**. Untuk membuat baris subkontrak untuk pembelian produk, di bidang **Kelas Transaksi**, pilih **Bahan**. Pilihan ini menunjukkan bahwa baris subkontrak sedang digunakan untuk merekam pembelian produk yang akan digunakan pada proyek. |
-| Pilih Produk | Pilih apakah produk yang dibeli dikelola dalam katalog produk atau merupakan produk pilihan. |
-| Produk | Pilih produk aktif dari katalog. Bidang ini tersedia hanya bila **Pilih Produk** diatur ke **yang Ada**. |
-| Produk Pilihan | Masukkan nama produk pilihan. Bidang ini tersedia hanya bila **Pilih Produk** diatur ke **pilihan**.  |
-| Tanggal Pengiriman yang Diminta | Pilih tanggal pengiriman yang diperlukan untuk produk. Tanggal ini juga digunakan untuk memilih daftar harga proyek dari daftar harga proyek yang dilampirkan ke subkontrak. Biaya produk pada baris subkontrak kemudian di-default dari daftar harga tersebut. |
-| Tanggal Pengiriman yang Dikontrak | Pilih tanggal pengiriman produk yang disepakati secara kontrak.  |
-| Kuantitas yang Dipesan | Masukkan kuantitas produk yang dibeli dari vendor. Ketika manajer proyek mengambil berlebihan kuantitas ini, peringatan akan terjadi. |
-| Grup Unit | Nilai ini di-default untuk produk katalog saja. Bila **Produk** dan **tanggal pengiriman yang Diminta** dipilih, sistem akan memilih daftar harga yang berlaku berdasarkan tanggal pengiriman. Item daftar harga terkait dikueri untuk produk yang cocok. Nilai unit dan grup unit diatur default dari konfigurasi pada rekaman item daftar harga. |
-| Unit | Nilai ini diatur default ke konfigurasi unit pada rekaman item daftar harga. Anda dapat mengubahnya ke unit lain bila diperlukan. Kombinasi produk dan unit digunakan untuk men-default harga unit pada baris subkontrak untuk produk katalog yang ada. |
-| Harga Unit | Harga unit di-default dengan kombinasi kategori produk dan unit dari item daftar harga yang terkait dengan daftar harga proyek yang berlaku untuk tanggal pengiriman yang diminta dari baris subkontrak.  |
-| Subtotal | Bidang hanya baca ini dihitung sebagai Kuantitas x Harga Unit jika nilai kedua bidang dimasukkan. Jika salah satu bidang **Kuantitas**, bidang **Harga per unit**, atau kedua bidang kosong, Anda dapat secara manual memasukkan nilainya.  |
-| Pajak Penjualan | Masukkan nilai pajak penjualan. |
-| Jumlah Total | Data bidang terhitung ini menunjukkan jumlah total baris subkontrak setelah pajak disertakan. Nilai dalam bidang ini dihitung sebagai subtotal + pajak. |
+| Bidang | KETERANGAN | Dampak Fungsional|
+| ----- | ----------- | ----------- |
+| Nama | Nama baris subkontrak untuk membantu identifikasi. |Ini akan ditampilkan sebagai kolom pertama di semua pencarian berdasarkan baris subkontrak.
+| KETERANGAN | Deskripsi singkat tentang produk yang dipesan pada baris subkontrak. | Tidak Ada |
+| Jenis Baris | Bidang ini memiliki nilai default **berbasis Kuantitas**. |Tidak Ada |
+| Metode Penagihan | Ini adalah rangkaian pilihan yang menunjukkan dua model kontrak utama yang didukung oleh Project Operations: **Harga Tetap** dan **waktu dan bahan**. | Berdasarkan metode penagihan yang dipilih, jadwal faktur berbasis tahapan disediakan untuk baris subkontrak dengan metode penagihan Harga Tetap. |
+| Kelas Transaksi |Bidang ini memiliki nilai default  **waktu**. Untuk membuat baris subkontrak untuk pembelian produk, atur bidang  **Kelas Transaksi**  ke  **Bahan**.  | Ini menunjukkan bahwa baris subkontrak sedang digunakan untuk merekam pembelian produk yang akan digunakan pada proyek. |
+| Pilih Produk | Pilih apakah produk yang dibeli dikelola dalam katalog produk atau merupakan produk pilihan. |Tidak Ada |
+| Produk | Pilih produk aktif dari katalog. Bidang ini tersedia hanya bila **Pilih Produk** diatur ke **yang Ada**. |Kombinasi **Produk** dan **Unit** akan digunakan sebagai default atau dihitung untuk harga unit untuk baris subkontrak.
+| Produk Pilihan | Masukkan nama produk pilihan. Bidang ini tersedia hanya bila **Pilih Produk** diatur ke **pilihan**.  |Harga pembelian tidak akan secara otomatis diisi untuk produk pilihan.|
+| Tanggal Pengiriman yang Diminta | Masukkan tanggal pengiriman yang diperlukan untuk produk.| Tanggal ini juga digunakan untuk memilih daftar harga proyek dari daftar harga proyek yang dilampirkan ke subkontrak. Biaya produk pada baris subkontrak kemudian di-default dari daftar harga tersebut. |
+| Tanggal Pengiriman yang Dikontrak | Masukkan tanggal pengiriman produk yang disetujui secara kontraktual.  |Tidak Ada|
+| Kuantitas yang Dipesan | Masukkan kuantitas produk yang dibeli dari vendor.| Ini akan digunakan untuk menunjukkan peringatan ketika manajer proyek terlalu banyak menarik dari kuantitas ini.|
+| Grup Unit | Nilai ini di-default untuk produk katalog saja. |Bila **Produk** dan **tanggal pengiriman yang Diminta** dipilih, sistem akan memilih daftar harga yang berlaku berdasarkan tanggal pengiriman. Item daftar harga terkait dikueri untuk produk yang cocok. Nilai unit dan grup unit diatur default dari konfigurasi pada rekaman item daftar harga. |
+| Unit | Nilai ini diatur default ke unit yang diatur pada rekaman item daftar harga. Anda dapat mengubahnya ke unit lain bila diperlukan.| Kombinasi produk dan unit digunakan untuk men-default harga unit pada baris subkontrak untuk produk katalog yang ada. |
+| Harga Unit | Harga unit di-default dengan kombinasi kategori produk dan unit dari item daftar harga yang terkait dengan daftar harga proyek yang berlaku untuk tanggal pengiriman yang diminta dari baris subkontrak.  |Tidak Ada |
+| Subtotal | Bidang hanya baca ini dihitung sebagai Kuantitas x Harga Unit jika nilai kedua bidang dimasukkan. Jika salah satu bidang **Kuantitas**, bidang **Harga per unit**, atau kedua bidang kosong, Anda dapat secara manual memasukkan nilainya.  |Tidak Ada |
+| Pajak Penjualan | Masukkan nilai pajak penjualan. |Tidak Ada |
+| Jumlah Total | Data bidang terhitung ini menunjukkan jumlah total baris subkontrak setelah pajak disertakan. Nilai dalam bidang ini dihitung sebagai subtotal + pajak. |Tidak Ada |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

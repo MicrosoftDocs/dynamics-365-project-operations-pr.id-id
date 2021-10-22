@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323870"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547248"
 ---
 # <a name="subcontract-lines-for-time"></a>Baris Subkontrak untuk waktu
 
@@ -30,23 +30,22 @@ Selesaikan langkah-langkah berikut ini untuk membuat baris subkontrak untuk wakt
 
   Tabel berikut menyediakan informasi tentang bidang pada halaman **baris Subkontrak** dan halaman **Buat Cepat**.
 
-| **Bidang** | **Deskripsi** |
-| --- | --- |
-| Nama | Nama Baris Subkontrak. |
-| KETERANGAN | Deskripsi singkat tentang layanan yang dibeli pada baris subkontrak. | 
-| Jenis Baris | Bidang ini adalah Nilai default.  |
-| Metode Penagihan | Pilih metode penagihan. Berdasarkan metode baris subkontrak yang dirujuk, jadwal faktur berbasis tahapan disediakan untuk metode penagihan harga tetap. |
-| Kelas Transaksi | Bidang ini adalah nilai default yang menunjukkan apakah baris subkontrak sedang digunakan untuk merekam pembelian waktu subkontraktor. |
-| Peran | Peran sumber daya subkontrak yang waktunya dibeli. Peran yang ditetapkan ke sumber daya subkontrak menentukan biaya pembelian. |
-| Awalan yang Diminta | Tanggal saat sumber daya subkontraktor diperlukan untuk mulai bekerja. Awal yang diminta digunakan untuk memilih daftar harga proyek dari daftar harga proyek yang dilampirkan ke subkontrak. Biaya peran pada baris subkontrak kemudian di-default dari daftar harga tersebut. |
-| Akhir yang Diminta | Tanggal berakhirnya penugasan sumber daya subkontraktor. Tanggal ini digunakan untuk menunjukkan peringatan ketika Manajer Proyek menarik dari kapasitas ini untuk persyaratan sumber daya yang terjadi setelah tanggal ini. |
-| Kuantitas yang Dipesan | Jumlah jam peran yang dibeli dari vendor. Nilai ini digunakan untuk menunjukkan peringatan ketika Manajer Proyek menarik berlebihan dari kapasitas ini untuk persyaratan sumber daya. |
-| Grup Unit | Nilai bidang ini di-default ke grup Unit waktu dan tidak dapat diubah.  |
-| Unit | Bidang ini di-default ke unit dasar jam dari grup Unit waktu. Anda dapat mengubah nilai ini untuk membeli unit grup unit Waktu, seperti hari atau pekan. Kombinasi peran dan unit digunakan untuk menghitung harga unit untuk baris subkontrak. |
-| Harga Unit | Harga unit di-default dari kombinasi peran dan unit dari daftar harga proyek yang berlaku untuk tanggal awal yang diminta dari baris subkontrak. Bila daftar harga proyek yang berlaku memiliki harga yang diatur dalam unit yang berbeda dari unit pada baris subkontrak, sistem akan menggunakan konversi unit untuk menghitung per harga unit. |
-| Subtotal | Bidang hanya bisa dibaca ini secara otomatis dihitung sebagai **kuantitas x harga unit** jika nilai kuantitas dan harga unit dimasukkan. Jika salah satu kuantitas, Harga per unit, atau keduanya kosong, Anda dapat memasukkan nilai di bidang. |
-| Pajak Penjualan |  Masukkan jumlah pajak penjualan. |
-| Jumlah Total | Jumlah total baris Subkontrak setelah pajak disertakan. |
-
+| **Bidang** | **Deskripsi** | **Dampak Fungsional** |
+| --- | --- | --- |
+| Nama | Nama baris subkontrak untuk membantu identifikasi. | Ini akan ditampilkan sebagai kolom pertama di semua pencarian berdasarkan baris subkontrak. |
+| KETERANGAN | Deskripsi singkat tentang layanan yang dibeli pada baris subkontrak. |Tidak Ada |
+| Jenis Baris |   Bidang ini memiliki nilai default **berbasis Kuantitas**.| Tidak Ada |
+| Metode Penagihan | Ini adalah rangkaian pilihan yang menunjukkan dua model kontrak utama yang didukung oleh Project Operations: **Harga Tetap** dan **waktu dan bahan**. | Berdasarkan metode penagihan yang dipilih, jadwal faktur berbasis tahapan disediakan untuk baris subkontrak dengan metode penagihan Harga Tetap. |
+| Kelas Transaksi | Secara default, nilainya adalah **waktu**. | Ini menunjukkan bahwa baris subkontrak sedang digunakan untuk merekam pembelian waktu subkontraktor. |
+| Peran | Pilih peran sumber daya subkontrak yang waktunya dibeli. | Peran yang dilakukan oleh sumber daya subkontrak menentukan biaya pembelian. |
+| Awalan yang Diminta | Masukkan tanggal saat sumber daya subkontraktor diperlukan untuk mulai bekerja. | Ini digunakan untuk memilih daftar harga proyek dari daftar harga proyek yang dilampirkan ke subkontrak. Biaya peran pada baris subkontrak berasal dari daftar harga itu. |
+| Akhir yang Diminta | Masukkan tanggal berakhirnya penetapan sumber daya subkontraktor. | Ini akan digunakan untuk menunjukkan peringatan ketika manajer proyek menarik dari kapasitas untuk persyaratan sumber daya yang terjadi setelah tanggal ini. |
+| Kuantitas yang Dipesan | Masukkan jumlah jam peran yang dibeli dari vendor. | Ini akan digunakan untuk menunjukkan peringatan ketika manajer proyek terlalu banyak menarik kapasitas ini untuk persyaratan sumber daya. |
+| Grup Unit | Nilai default adalah **Grup unit Waktu** yang tidak dapat diubah. | Tidak Ada|
+| Unit | Default untuk bidang ini adalah unit dasar jam dari **grup Unit waktu**. Anda dapat mengubah nilai ini untuk membeli unit dari **grup unit Waktu**, seperti hari atau pekan. | Kombinasi **Peran** dan **Unit** akan digunakan sebagai default atau dihitung untuk harga unit untuk baris subkontrak. |
+| Harga Unit | Harga unit default menggunakan kombinasi **Peran** dan **Unit** dari daftar harga proyek, yang berlaku untuk tanggal **Awal yang Diminta** baris subkontrak. | Bila daftar harga proyek yang berlaku memiliki harga yang diatur dalam unit yang berbeda dari unit pada baris subkontrak, sistem akan menggunakan konversi unit untuk menghitung per harga unit. |
+| Subtotal |    Bidang ini bersifat hanya baca yang dihitung sebagai Kuantitas x harga Unit, jika nilai kuantitas dan harga unit dimasukkan. Jika salah satu kuantitas, Harga per unit, atau keduanya kosong, Anda dapat memasukkan nilai di bidang. | Tidak Ada|
+| Pajak Penjualan |   Masukkan jumlah pajak penjualan. |Tidak Ada |
+| Jumlah Total | Jumlah total baris Subkontrak termasuk pajak. Bidang ini dihitung sebagai subtotal + pajak penjualan.|Tidak Ada |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

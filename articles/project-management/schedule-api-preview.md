@@ -2,23 +2,22 @@
 title: Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
 description: Topik ini memberikan informasi dan sampel untuk menggunakan API jadwal proyek.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008770"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487689"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-> [!IMPORTANT] 
-> Beberapa atau semua fungsi yang tercantum dalam topik ini tersedia sebagai bagian dari rilis pratinjau. Konten dan fungsi ini dapat berubah. 
+
 
 ## <a name="scheduling-entities"></a>Entitas Penjadwalan
 

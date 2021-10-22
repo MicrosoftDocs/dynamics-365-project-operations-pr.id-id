@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323780"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558506"
 ---
 # <a name="subcontract-line-milestones"></a>Tahap Baris Subkontrak
 
@@ -50,15 +50,15 @@ Tahapan harga tetap pada baris subkontrak dapat dihasilkan secara manual bila ti
 3. Pada tab **Tahapan baris Subkontrak**, pada subkisi, pilih **+ Tahapan Baris Subkontrak Baru**.
 4. Pada halaman **Tahapan Baris Subkontrak Baru**, masukkan informasi yang diperlukan berdasarkan tabel berikut.
 
-    | Bidang | KETERANGAN |
-    | --- | --- |
-    | Nama Tahap | Nama tonggak. |
-    | KETERANGAN | Deskripsi tahapan.  |
-    | Tanggal Tahap | Tanggal saat proses pembuatan faktur otomatis harus mencari status tahapan ini untuk dipertimbangkan untuk faktur. Nilai ini tercakup di baris faktur vendor saat membuat faktur untuk subkontrak ini. |
-    | Jumlah | Jumlah atau nilai tonggak pencapaian yang akan ditagih kepada pelanggan. Nilai ini tercakup di baris faktur vendor saat membuat faktur untuk subkontrak ini. |
-    | Pajak | Jumlah pajak yang berlaku pada tonggak. Nilai ini tercakup di baris faktur vendor saat membuat faktur untuk subkontrak ini. |
-    | Jumlah setelah Pajak | Bidang hanya baca ini dihitung sebagai Jumlah + Pajak. Nilai ini tercakup di baris faktur vendor saat membuat faktur untuk subkontrak ini. |
-    | Status Faktur | Saat tahapan dibuat, status ini selalu diatur ke  **Tidak siap untuk faktur**.  Bila status **Siap untuk Faktur**, pembuatan faktur vendor mencakup tahapan ini pada faktur vendor. |
+    | Bidang | KETERANGAN |Dampak Fungsional|
+    | --- | --- |----------------------|
+    | Nama Tahap | Nama tonggak. |Ini akan ditampilkan sebagai kolom pertama di semua pencarian berdasarkan tahapan baris subkontrak. Baris faktur vendor yang dibuat berdasarkan tahapan ini juga akan menggunakan nama tahapan baris subkontrak sebagai nama default baris faktur vendor.|
+    | KETERANGAN | Deskripsi tahapan. |Baris faktur vendor yang dibuat berdasarkan tahapan ini juga akan menggunakan deskripsi tahapan baris subkontrak sebagai deskripsi default baris faktur vendor.|
+    | Tanggal Tahap | Tanggal saat proses pembuatan faktur otomatis harus mencari status tahapan ini untuk dipertimbangkan untuk faktur.| Nilai ini akan digunakan sebagai tanggal default baris faktur vendor saat pembuatan faktur untuk baris subkontrak ini. |
+    | Jumlah | Jumlah atau nilai tonggak pencapaian yang akan ditagih kepada pelanggan. |Nilai ini digunakan sebagai jumlah default di baris faktur vendor saat pembuatan faktur untuk baris subkontrak ini. |
+    | Pajak | Jumlah pajak yang berlaku pada tonggak.| Nilai ini digunakan sebagai jumlah pajak default di baris faktur vendor saat pembuatan faktur untuk baris subkontrak ini. |
+    | Jumlah setelah Pajak | Bidang hanya baca ini dihitung sebagai Jumlah + Pajak.|Nilai ini digunakan sebagai default di baris faktur vendor saat pembuatan faktur untuk baris subkontrak ini. |
+    | Status Faktur | Saat tahapan dibuat, status ini selalu diatur ke  **Tidak siap untuk faktur**.|  Bila status **Siap untuk Faktur**, pembuatan faktur vendor mencakup tahapan ini pada faktur vendor. |
 
 5. Pilih **Simpan dan Tutup**.
 
