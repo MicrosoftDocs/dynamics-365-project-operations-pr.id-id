@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623343"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783427"
 ---
 # <a name="project-operations-updates"></a>Pembaruan Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations terdiri dari dua komponen:
 
 | Project Operations di Lingkungan Dataverse | Manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Untuk skenario Project Operations/non stok sebaiknya gunakan versi Orkestrasi Penulisan Ganda 2.2.2.83 atau lebih tinggi.
 
@@ -47,23 +47,23 @@ Pembaruan untuk Project Operations pada lingkungan Dataverse tersedia setiap bul
 | Stasiun | Kawasan | Nomor versi saat ini | Pembaruan otomatis untuk penyebaran Lite | Pembaruan otomatis untuk penyebaran Sumber Daya/non-persediaan | Nomor Versi berikutnya | Versi berikutnya yang tersedia secara umum |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stasiun 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Rilis pertama         |  4.25.0.91      | Selesaikan           | Selesaikan            | TBD                 | 29 Oktober 2021    |
+|   &nbsp;  | Rilis pertama         |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 03 Desember 2021   |
 | Stasiun 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.25.0.91      | Selesaikan           | 15 Oktober 2021    | TBD                 | 29 Oktober 2021    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Selesaikan           | 15 Oktober 2021    | TBD                 | 29 Oktober 2021    |
-|   &nbsp;  | India                 |  4.25.0.91      | Selesaikan           | 15 Oktober 2021    | TBD                 | 29 Oktober 2021    |
-|   &nbsp;  | Prancis                |  4.25.0.91      | Selesaikan           | 15 Oktober 2021    | TBD                 | 29 Oktober 2021    |
-|   &nbsp;  | Afrika Selatan          |  4.25.0.91      | Selesaikan           | 15 Oktober 2021    | TBD                 | 29 Oktober 2021    |
+|   &nbsp;  | Amerika Selatan         |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 03 Desember 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 03 Desember 2021   |
+|   &nbsp;  | India                 |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 03 Desember 2021   |
+|   &nbsp;  | Prancis                |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 03 Desember 2021   |
+|   &nbsp;  | Afrika Selatan          |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 03 Desember 2021   |
 | Stasiun 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepang                 |  4.25.0.91      | 15 Oktober 2021   | 22 Oktober 2021    | TBD                 | 05 November 2021   |
-|   &nbsp;  | Asia Pasifik          |  4.25.0.91      | 15 Oktober 2021   | 22 Oktober 2021    | TBD                 | 05 November 2021   |
-|   &nbsp;  | Britania Raya         |  4.25.0.91      | 15 Oktober 2021   | 22 Oktober 2021    | TBD                 | 05 November 2021   |
-|   &nbsp;  | Oseania               |  4.25.0.91      | 15 Oktober 2021   | 22 Oktober 2021    | TBD                 | 05 November 2021   |
-|   &nbsp;  | Uni Emirat Arab  |  4.25.0.91      | 15 Oktober 2021   | 22 Oktober 2021    | TBD                 | 05 November 2021   |
+|   &nbsp;  | Jepang                 |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 10 Desember 2021   |
+|   &nbsp;  | Asia Pasifik          |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 10 Desember 2021   |
+|   &nbsp;  | Britania Raya         |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 10 Desember 2021   |
+|   &nbsp;  | Oseania               |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 10 Desember 2021   |
+|   &nbsp;  | Uni Emirat Arab  |  4.26.0.145     | 12 November 2021  | 19 November 2021   | TBD                 | 10 Desember 2021   |
 | Stasiun 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropa                |  4.14.0.99      | Selesaikan           | Selesaikan            | 4.25.0.91           | 15 Oktober 2021    |
+|   &nbsp;  | Eropa                |  4.25.0.91      | Selesaikan           | Selesaikan            | 4.26.0.145          | 12 November 2021   |
 | Stasiun 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.14.0.99      | Selesaikan           | 08 Oktober 2021    | 4.25.0.91           | 22 Oktober 2021    |
+|   &nbsp;  | Amerika Utara         |  4.25.0.91      | Selesaikan           | Selesaikan            | 4.26.0.145          | 19 November 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk manajemen proyek dan akuntansi di lingkungan aplikasi Finance and Operations
@@ -72,14 +72,15 @@ Pembaruan untuk manajemen proyek dan akuntansi dirilis delapan kali dalam setahu
 
 |Versi yang didukung| Ketersediaan pratinjau (PEAP) | Umumnya tersedia (pembaruan mandiri) | Tanggal mulai produksi jadwal pembaruan otomatis (melalui Pengaturan Pembaruan LCS) |   Akhir layanan   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 September 2021      |        22 Oktober 2021           |                          5 November 2021                            | 14 January 2022   |
 |    10.0.21      |         02 Agustus 2021     |           17 September 2021      |                             1 Oktober 2021                          |  10 Desember 2021 |
-|    10.0.20      |         28 Mei 2021        |           16 Juli 2021           |                             30 Juli 2021                            |  22 Oktober 2021  |
+
 
 Tanggal rilis yang ditargetkan dapat berubah. Untuk informasi lebih lanjut, lihat [Ketersediaan pembaruan layanan](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Versi target | Ketersediaan pratinjau (PEAP) | Umumnya tersedia (pembaruan mandiri) | Tanggal mulai produksi jadwal pembaruan otomatis (melalui Pengaturan Pembaruan LCS) |   Akhir layanan   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3 September 2021      |          22 Oktober 2021         |                           5 November 2021                           |  14 January 2022  |
 |     10.0.23     |      15 Oktober 2021       |        10 Desember 2021          |                          31 Desember 2021                           | 18 Maret 2022     |
+|     10.0.24     |      3 Desember 2021       |        14 January 2022           |                          4 Februari 2022                            | 15 April 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

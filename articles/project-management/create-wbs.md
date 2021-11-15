@@ -2,16 +2,16 @@
 title: Membuat struktur rincian kerja
 description: Artikel topik menjelaskan cara membuat WBS (struktur perincian kerja) yang mencakup kontrol dasar di antarmuka penjadwalan baru.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998735"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655421"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Membuat struktur rincian kerja (WBS)
 
@@ -117,5 +117,26 @@ Mode tugas tidak berpengaruh pada pembaruan yang dibuat pada tanggal mulai dan b
 
 Kisi **jadwal** sepenuhnya dapat diakses dan dapat digunakan dengan pembaca layar seperti narrator, JAWS, atau NVDA. Anda dapat berpindah melalui area kisi dengan menggunakan tombol panah (sebagaimana di Microsoft Excel), Anda dapat menggunakan tombol tab untuk memajukan melalui elemen antarmuka pengguna interaktif, dan Anda dapat menggunakan tombol panah bawah, tombol Enter, atau spasi untuk memilih dan membuka menu drop-down.
 
+## <a name="project-limitations"></a>Keterbatasan proyek 
+Anda harus mengetahui batasan berikut jika Anda menggunakan struktur perincian kerja di Project Operations. Batas ini berlaku untuk proyek dan tugas. Untuk informasi lebih lanjut, lihat [Batas dan tepi Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Bidang**                                          |  **Batas**           |
+|----------------------------------------------------|----------------------|
+| Tugas total maksimum untuk proyek                  | 500                  |
+| durasi total maksimum untuk proyek               | 3650 hari (10 tahun) |
+| Sumber daya total maksimum untuk proyek              | 150                  |
+| Tautan total maksimum (hanya penerus) untuk proyek | 600                  |
+| bidang kustom total maksimum untuk proyek          | 10                   |
+
+**keterbatasan tugas**
+
+| **Bidang**                               |   **Batas**           |
+|-----------------------------------------|-----------------------|
+| Tingkat hierarki maksimum                 | 10 Tingkat             |
+| Tautan maksimum (penerus + pendahulu) | 20                    |
+| Durasi maksimum tugas daun           | 1250 hari             |
+| Durasi maksimum tugas ringkasan      | 3650 hari (10 tahun)  |
+| Sumber daya maksimum ditetapkan ke tugas    | 20 Sumber Daya          |
+| Rentang tanggal yang didukung untuk tugas         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

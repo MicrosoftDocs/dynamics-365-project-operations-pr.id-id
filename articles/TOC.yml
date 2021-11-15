@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrasi faktur vendor
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Menghapus instalan Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Apa yang baru
       items:
         - name: Oktober 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Menggunakan API jadwal proyek
               href: project-management/schedule-api-preview.md
+            - name: Performa API jadwal proyek
+              href: project-management/project-schedule-api-performance.md
     - name: Manajemen sumber daya
       items:
         - name: Konsep kunci
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Menggunakan API jadwal proyek
               href: project-management/schedule-api-preview.md
+            - name: Performa API jadwal proyek
+              href: project-management/project-schedule-api-performance.md
     - name: Manajemen sumber daya
       items:
         - name: Konsep kunci
@@ -1102,6 +1108,8 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 35, V3'

@@ -1,23 +1,23 @@
 ---
-title: Perbarui proyek
+title: Membuat dan memperbarui proyek
 description: Topik ini menyediakan informasi tentang memperbarui proyek di Project operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000895"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678353"
 ---
-# <a name="update-a-project"></a>Perbarui proyek
+# <a name="create-and-update-a-project"></a>Membuat dan memperbarui proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Di bawah ini adalah ringkasan bidang yang dapat diperbarui pada proyek setelah dibuat dan implikasi pembaruan yang berlaku.
+Berikut adalah ringkasan bidang yang dapat diperbarui pada proyek setelah dibuat. Hal ini juga mencakup segala dampak yang berlaku berdasarkan pembaruan ini.
 
 ## <a name="project-detail-fields"></a>Bidang rincian proyek
 
@@ -25,8 +25,8 @@ Di bawah ini adalah ringkasan bidang yang dapat diperbarui pada proyek setelah d
 - **Deskripsi**: Ikhtisar proyek.
 - **Pelanggan**: perusahaan yang menerima hasil proyek.
 - **Template kalender**: jam kerja proyek. Saat bidang diubah, seluruh jadwal dihitung ulang.
-- **Mata uang**: mata uang proyek. Default bidang ini adalah berdasarkan mata uang yang ditentukan di unit kontrak. Saat unit kontrak diperbarui, bidang juga diperbarui.
-- **Unit kontrak**: unit organisasi yang mewakili grup perusahaan atau divisi yang terutama bertanggung jawab untuk memenangkan penjualan dan mengelola pengiriman pekerjaan dan layanan kepada pelanggan. 
+- **Mata uang**: mata uang proyek. Nilai default untuk bidang ini didasarkan pada mata uang yang ditentukan di unit kontrak. Saat unit kontrak diperbarui, bidang juga diperbarui.
+- **Unit kontrak**: unit organisasi yang mewakili grup perusahaan atau divisi yang terutama bertanggung jawab untuk memenangkan penjualan dan mengelola pengiriman pekerjaan dan layanan kepada pelanggan.  Bila unit organisasi manajer proyek tidak didefinisikan, bidang ini akan diatur default ke nilai yang ditentukan dalam parameter proyek.
 - **Manajer Proyek**: anggota tim proyek yang memiliki wewenang untuk meninjau dan menyetujui entri waktu dan pengeluaran.
 
 ## <a name="estimate-fields"></a>Bidang estimasi
