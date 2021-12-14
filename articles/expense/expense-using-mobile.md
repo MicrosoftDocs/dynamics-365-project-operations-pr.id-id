@@ -2,7 +2,7 @@
 title: Aplikasi pengeluaran mobile
 description: Topik ini menyediakan informasi tentang ruang kerja seluler manajemen pengeluaran.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993200"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818187"
 ---
 # <a name="mobile-expense-app"></a>Aplikasi pengeluaran mobile
 
@@ -47,47 +47,14 @@ Anda juga dapat menggunakan fitur ini:
 - Ajukan Laporan pengeluaran untuk mendapatkan persetujuan dan penggantian.
 - Setujui atau Tolak laporan pengeluaran yang mana Anda persetujuan yang ditetapkan.
 
-## <a name="prerequisites"></a>Prasyarat
-Prasyarat bervariasi, berdasarkan versi yang telah disebarkan untuk organisasi Anda.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika Anda menggunakan Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika Anda menggunakan Dynamics 365 Finance 
 Jika Finance telah disebarkan untuk organisasi Anda, administrator sistem harus mempublikasikan ruang kerja seluler **Manajemen pengeluaran**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika Anda menggunakan versi 1611 dengan pembaruan platform 3 atau yang lebih baru
-Jika versi 1611 dengan pembaruan platform 3 atau yang lebih baru telah disebarkan untuk organisasi Anda, administrator sistem harus menyelesaikan prasyarat berikut. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Prasyarat</th>
-<th>Peran</th>
-<th>KETERANGAN</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Menerapkan KB 4019015.</td>
-<td>Administrator Sistem</td>
-<td>KB 4019015 adalah pembaruan X + + atau hotfix metadata yang berisi ruang kerja seluler <strong>Manajemen pengeluaran</strong>. Untuk menerapkan KB 4019015, administrator sistem harus mengikuti langkah-langkah berikut.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Unduh pembaruan dari Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Menginstal hotfix metadata</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Membuat paket yang dapat disebarkan</a> yang berisi model <strong>applicationsuite</strong> dan <strong>ExpenseMobile</strong>, dan kemudian meng-upload paket yang dapat disebarkan untuk LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Terapkan paket yang dapat disebarkan</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publikasikan ruang kerja seluler <strong>manajemen pengeluaran</strong>.</td>
-<td>Administrator Sistem</td>
-<td>Lihat <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">publikasikan ruang kerja seluler</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops
 Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 
-- [Untuk Android ponsel](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Untuk ponsel Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Untuk iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Masuk ke aplikasi seluler
@@ -103,11 +70,11 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 3. Pilih **Ambil foto** atau **pilih gambar**.
 4. Ikuti salah satu langkah berikut:
 
-   - Jika Anda memilih **Ambil foto**, ikuti langkah berikut:
+    - Jika Anda memilih **Ambil foto**, ikuti langkah berikut:
 
-      1. Anda akan diarahkan ke kamera di perangkat seluler, sehingga Anda dapat mengambil foto tanda terima. 
-      2. Setelah selesai mengambil foto, pilih **OK** untuk menerima foto.
-      3. Opsional: masukkan nama untuk foto, lalu masukkan catatan.
+        1. Anda akan diarahkan ke kamera di perangkat seluler, sehingga Anda dapat mengambil foto tanda terima. 
+        2. Setelah selesai mengambil foto, pilih **OK** untuk menerima foto.
+        3. Opsional: masukkan nama untuk foto, lalu masukkan catatan.
 
     - Jika Anda memilih **pilih gambar**, ikuti langkah berikut:
 
@@ -133,20 +100,20 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 
 10. Pilih **Selesai**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Setujui laporan pengeluaran dengan menggunakan ruang kerja seluler manajemen pengeluaran (jika Anda menggunakan Pembaruan 2017 Juli)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Menyetujui laporan pengeluaran dengan menggunakan ruang kerja seluler Manajemen Pengeluaran
 
 1. Di perangkat seluler, buka ruang kerja **manajemen pengeluaran**.
 2. **Persetujuan pengeluaran** menunjukkan jumlah laporan pengeluaran yang ditetapkan kepada Anda untuk disetujui. Nomor akan diperbarui kira-kira setiap 30 menit. Pilih **persetujuan pengeluaran**.
 
     Korporat daftar pengeluaran yang ditetapkan kepada Anda untuk disetujui ditampilkan.
-    
+
 3. Pilih laporan pengeluaran untuk melihat rincian pengeluaran untuk itu.
 4. Pilih pengeluaran untuk melihat rincian untuk itu. Informasi yang ditampilkan untuk pengeluaran mencakup tanda terima, tamu, dan detail perincian.
 5. Kembali pada halaman **laporan pengeluaran**, pilih untuk menyetujui atau menolak laporan pengeluaran.
 6. Masukkan Komentar untuk tindakan persetujuan.
 7. Pilih **Selesai**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Buat laporan pengeluaran baru dan ajukan untuk persetujuan dengan menggunakan ruang kerja seluler manajemen pengeluaran (jika Anda menggunakan Pembaruan 2017 Juli)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Buat laporan pengeluaran baru dan kirimkan untuk disetujui dengan menggunakan ruang kerja seluler manajemen Biaya
 
 1. Di perangkat seluler, buka ruang kerja **manajemen pengeluaran**.
 2. Pilih **entri pengeluaran**.
@@ -184,12 +151,12 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
                     1. Pilih gambar dalam daftar.
                     2. Opsional: masukkan nama untuk gambar, lalu masukkan catatan.
 
-            3.  Pilih **Selesai**.
+            3. Pilih **Selesai**.
 
         - Jika Anda memilih **Lampirkan tanda terima**, ikuti langkah berikut:
 
-            1.  Pilih satu atau beberapa gambar dalam daftar.
-            2.  Pilih **Selesai**.
+            1. Pilih satu atau beberapa gambar dalam daftar.
+            2. Pilih **Selesai**.
 
     3. Pilih tombol **kembali** untuk kembali ke rincian pengeluaran.
 
@@ -235,5 +202,30 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 23. Masukkan Komentar untuk penyetuju.
 24. Pilih **Selesai**.
 
+## <a name="frequently-asked-questions"></a>Tanya jawab
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Mengapa aplikasi seluler Expense tidak memasukkan metode pembayaran secara default?
+
+Organisasi dapat menyesuaikan **pengaturan metode pembayaran default untuk setiap kategori pengeluaran saat** dibuat. Selain itu, ketika Anda menyiapkan metode pembayaran, Anda dapat mengatur **bidang metode pembayaran default ke Impor** **saja**.
+
+Ketika **Impor hanya diaktifkan untuk metode** pembayaran, metode pembayaran tidak dimasukkan secara default. Ini akan kosong dalam kategori pengeluaran di mana metode pembayaran ini diatur. Perilaku ini konsisten baik dalam pengalaman web dan pengalaman mobile.
+    
+Ketika **Impor hanya tidak diaktifkan untuk metode** pembayaran, nilai yang ditetapkan dimasukkan secara default untuk kategori pengeluaran di mana metode pembayaran ini diatur. Namun, ada masalah yang diketahui di mana nilai default tidak dimasukkan dalam aplikasi seluler Expense. Untuk mengatasi masalah ini, pilih metode pembayaran secara manual sebelum Anda menyimpan laporan pengeluaran. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Mengapa saya tidak dapat menambahkan atau mengedit dimensi keuangan di aplikasi seluler Expense?
+
+Masuknya dimensi dan distribusi tidak didukung. Untuk mengatasi batasan ini, Anda dapat mengatur bidang ini secara default di aplikasi seluler dengan menyiapkan dimensi keuangan default per proyek atau karyawan.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Mengapa terkadang saya melihat kesalahan sinkronisasi di aplikasi seluler Expense?
+
+Jika garis pengeluaran tidak memenuhi persyaratan kebijakan, dan pengguna mengirimkan laporan pengeluaran tanpa menangani peringatan kebijakan, data seluler tidak disinkronkan ke server, dan kegagalan sinkronisasi terjadi. Semua laporan pengeluaran yang diajukan setelah kegagalan sinkronisasi terjadi akan tetap dalam keadaan gagal dan menyebabkan lebih banyak kegagalan sinkronisasi. Satu-satunya cara untuk memperbaiki situasi ini adalah dengan menghapus pemberitahuan sinkronisasi secara manual. Masalah ini telah diatasi dengan menghentikan penyampaian laporan pengeluaran ketika peringatan kebijakan belum ditangani, sehingga kesalahan sinkronisasi dihindari.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Mengapa validasi proyek dan kategori tidak tercermin dengan benar di aplikasi seluler Expense?
+
+Validasi ini saat ini tidak didukung. Namun, dukungan dapat ditambahkan di masa depan. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Jenis dokumen apa yang didukung di aplikasi seluler Expense?
+
+Aplikasi seluler Expense hanya mendukung gambar. Saat ini tidak mendukung PDF atau dokumen lainnya.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

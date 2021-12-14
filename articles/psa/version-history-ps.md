@@ -1,6 +1,6 @@
 ---
 title: Jadwal rilis pembaruan untuk Project Service 3.x
-description: Topik ini menyediakan informasi tentang rilis yang tersedia dan yang akan datang dari Dynamics 365 Project Service Automation.
+description: Ini topik memberikan informasi tentang rilis Dynamics 365 Project Service Automation yang tersedia dan akan datang.
 ms.custom: dyn365-projectservice
 ms.date: 10/04/2021
 ms.reviewer: kfend
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
-ms.translationtype: MT
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773590"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892184"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Jadwal rilis pembaruan untuk Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7773590"
 
 | Solusi  | Versi terbaru |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Automasi Layanan Proyek    | 3.10.58.130 |
 | Add-in desktop Project Service Automation                | 3.15          |
 
 Untuk informasi tentang pembaruan Project Service, lihat [rencana rilis Dynamics 365](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ Untuk informasi tentang pembaruan Project Service, lihat [rencana rilis Dynamics
 | | <i>Jerman</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 Desember 2021
 | | <i>Swiss</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 Desember 2021
 |<strong>Stasiun 3</strong> | |  |  | |
-| | <i>Jepang</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 November 2021
-| | <i>Asia Pasifik</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 November 2021
-| | <i>Britania Raya</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 November 2021
-| | <i>Oseania</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 November 2021
-| | <i>Uni Emirat Arab</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 November 2021
+| | <i>Jepang</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Desember 2021
+| | <i>Asia Pasifik</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Desember 2021
+| | <i>Britania Raya</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Desember 2021
+| | <i>Oseania</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Desember 2021
+| | <i>Uni Emirat Arab</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Desember 2021
 |<strong>Stasiun 4</strong> | |  |  | |
-| | <i>Eropa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 November 2021
+| | <i>Eropa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07 January 2022
 |<strong>Stasiun 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 Desember 2021
+| | <i>Amerika Utara</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 January 2022
 |<strong>Stasiun 6</strong> | |  |  | |
-| | <i>Awan Komunitas Pemerintah</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 Desember 2021
-| | <i>Grup skala khusus</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 Desember 2021
+| | <i>Awan Komunitas Pemerintah</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 January 2022
+| | <i>Grup skala khusus</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 Desember 2021
 
 
 
