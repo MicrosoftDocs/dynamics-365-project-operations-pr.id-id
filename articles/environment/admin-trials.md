@@ -2,16 +2,16 @@
 title: Mendaftar ke uji coba Project Operations
 description: Topik ini menyediakan informasi tentang cara menyebarkan uji coba Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599217"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901621"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Mendaftar ke uji coba Project Operations 
 
@@ -90,7 +90,8 @@ Sebelum Anda memulai, masuk ke browser dengan akun kerja pengguna di penyewa tem
 4.  Pilih URL Microsoft Dataverse dan URL aplikasi Finance and Operations terkait untuk memvalidasi penyebaran.
 
 ## <a name="configuring-dual-write"></a>Mengonfigurasikan tulis ganda
-Untuk penyebaran bahan non-stok, konfigurasikan pemetaan tulis ganda Anda. Untuk informasi lebih lanjut, lihat [versi peta tulis ganda Project Operations](resource-dual-write-maps.md).
+- Untuk mengonfigurasi peran keamanan untuk penulisan ganda, lihat [Memperbarui pengaturan keamanan pada Operasi Proyek di Dataverse](resource-provision-new-environment.md).
+- Untuk mengonfigurasi peta penulisan ganda, lihat [Menjalankan peta penulisan ganda Operasi Proyek](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Menetapkan lisensi
 

@@ -2,16 +2,16 @@
 title: Default dimensi keuangan
 description: Topik ini memberikan informasi tentang cara mengatur default dimensi keuangan.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005440"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922942"
 ---
 # <a name="financial-dimension-defaults"></a>Default dimensi keuangan
 
@@ -60,6 +60,15 @@ Proyek dibuat dan dikelola di (CDS). Atribut akuntansi untuk proyek diatur dalam
 4. Atur Default dimensi keuangan. Perhatikan bahwa dimensi keuangan di-default dari akun pelanggan. Jika proyek dikaitkan dengan baris kontrak dengan beberapa pelanggan kontrak proyek, pelanggan utama digunakan untuk dimensi keuangan default.
 
 Dimensi keuangan default proyek digunakan untuk menetapkan default baris jurnal untuk transaksi waktu, pengeluaran, dan biaya di **Jurnal Integrasi Project Operations,** dan pada baris faktur proyek terkait.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Menerapkan dimensi keuangan untuk entri waktu proyek
+Untuk menerapkan dimensi keuangan untuk entri waktu proyek, perhatikan bahwa nilai dimensi default didasarkan pada urutan berikut:
+
+1. Sumber info
+2. Project
+3. Sumber pendanaan
+
+Misalnya, jika dimensi default ditentukan pada sumber daya, itu akan diterapkan melalui default yang ditentukan pada proyek. Demikian pula, dimensi proyek default akan diterapkan melalui default yang ditentukan dalam sumber pendanaan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
