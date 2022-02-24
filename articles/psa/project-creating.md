@@ -2,6 +2,8 @@
 title: Jadwal proyek
 description: Topik ini menyediakan informasi tentang cara membuat jadwal.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998420"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148422"
 ---
 # <a name="project-schedules"></a>Jadwal proyek 
 
@@ -94,7 +96,7 @@ Kisi **jadwal** sepenuhnya dapat diakses dan dapat digunakan dengan pembaca laya
 
 Nama tugas menjelaskan pekerjaan yang perlu diselesaikan. Dalam PSA, atribut yang terkait dengan tugas menjelaskan jadwal tugas dan persyaratan staf.
 
-> ![Atribut tugas.](media/project-2.png)
+> ![Atribut tugas](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atribut jadwal
 
@@ -147,6 +149,3 @@ Per default, node leaf tidak memiliki pendahulu, tanggal mulainya diatur ke tang
 ### <a name="manual-scheduling"></a>Penjadwalan manual
 
 Jika aturan penjadwalan otomatis tidak memenuhi kebutuhan Anda, Anda dapat mengatur mode tugas untuk tugas yang **dijadwalkan secara manual**. Pengaturan ini menghentikan mesin penjadwalan menghitung nilai untuk atribut penjadwalan lainnya. Terlepas dari mode tugas, jika Anda mengatur pendahulunya pada tugas, Anda selalu mempengaruhi tanggal mulai tugas dependen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

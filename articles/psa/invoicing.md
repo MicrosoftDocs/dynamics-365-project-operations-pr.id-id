@@ -2,10 +2,12 @@
 title: Pemfakturan di Project Service Automation
 description: Topik ini menyediakan informasi tentang pemfakturan.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985505"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151392"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Pemfakturan di Project Service Automation
 
@@ -50,7 +52,7 @@ Ikuti langkah ini untuk membuat faktur untuk kontrak proyek tertentu.
 
 - Pada halaman daftar **kontrak proyek**, buka kontrak proyek, lalu pilih **buat faktur**.
 
-    ![Membuat faktur proyek untuk kontrak proyek tertentu.](media/CreateProjectInvoicesOneByOne.png)
+    ![Membuat faktur proyek untuk kontrak proyek tertentu](media/CreateProjectInvoicesOneByOne.png)
 
     Faktur dibuat untuk semua transaksi untuk kontrak proyek yang dipilih yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, tonggak waktu, dan baris kontrak berbasis produk.
 
@@ -58,7 +60,7 @@ Ikuti langkah berikut untuk membuat faktur secara massal.
 
 1. Pada halaman daftar **kontrak proyek**, pilih satu atau beberapa kontrak proyek yang harus Anda buat faktur, lalu pilih **buat faktur proyek**.
 
-    ![Membuat Faktur Proyek secara massal.](media/CreateProjectInvoicesBulk.png)
+    ![Membuat Faktur Proyek secara massal](media/CreateProjectInvoicesBulk.png)
 
     Pesan peringatan akan menginformasikan bahwa mungkin ada penundaan sebelum faktur dibuat. Proses ini juga ditampilkan.
 
@@ -115,6 +117,3 @@ Setelah Anda mengonfirmasikan faktur koreksi, aktual penjualan yang belum ditagi
 
 - Penjualan yang ditagih untuk enam jam.
 - Tagihan penjualan yang belum ditagih untuk dua jam yang tersisa. Transaksi ini dapat ditagih nanti atau ditandai sebagai tidak dikenakan biaya, tergantung pada negosiasi dengan pelanggan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

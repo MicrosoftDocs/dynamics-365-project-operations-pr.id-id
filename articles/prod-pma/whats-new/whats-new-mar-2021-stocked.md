@@ -2,17 +2,19 @@
 title: Yang baru atau berubah di Project Operations, Maret 2021 untuk skenario berbasis stok/produksi
 description: Pembaruan topik ini menyediakan informasi tentang pembaruan kualitas yang tersedia di rilis Project Operations Maret 2021 untuk skenario berbasis stok/produksi.
 author: andchoi
+manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991175"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701943"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Yang baru atau berubah di Project Operations, Maret 2021 untuk skenario berbasis stok/produksi
 
@@ -121,7 +123,7 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
 | Manajemen proyek dan akuntansi | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Metode kelas struktur perincian kerja (WBS) lama, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** tidak digunakan lagi.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan wajib untuk aplikasi Finance and Operations, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates.md). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi Finance and Operations, lihat [pembaruan wajib](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

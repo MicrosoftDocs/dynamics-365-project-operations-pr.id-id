@@ -2,16 +2,18 @@
 title: Pesan untuk proyek
 description: Topik ini menyediakan informasi tentang cara memesan sumber daya untuk proyek.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994910"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131077"
 ---
 # <a name="book-to-a-project"></a>Pesan untuk proyek
 
@@ -64,6 +66,3 @@ Sebagai manajer proyek, Anda mungkin perlu memesan sumber daya untuk proyek, nam
 
 > [!NOTE]
 > Metode ini tidak membuat pemesanan untuk sumber daya. Justru, ia menambahkan sumber daya ke tim. Setelah anggota tim ditambahkan ke proyek, manajer proyek dapat menggunakan memelihara Pemesanan atau memperpanjang Pemesanan untuk menambahkan Pemesanan yang diperlukan ke sumber daya.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

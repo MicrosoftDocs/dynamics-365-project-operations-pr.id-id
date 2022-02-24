@@ -2,16 +2,18 @@
 title: Mengelola beberapa pelanggan pada kontrak proyek
 description: Topik ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992075"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643176"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mengelola beberapa pelanggan pada kontrak proyek
 
@@ -45,6 +47,3 @@ Anda dapat membuat, memperbarui, atau menghapus pelanggan kontrak dari tab **Pel
 Anda dapat mengedit persentase pemecahan penagihan dengan mengedit di kisi. Apabila jumlah persentase pemecahan penagihan tidak sama dengan 100 persen, kesalahan terjadi. Setelah Anda mengedit persentase pemecahan, segarkan halaman **Kontrak Proyek** untuk menghapus kesalahan.
 
 Anda juga dapat memilih **Distribusikan Secara Merata** pada subkisi pelanggan kontrak proyek. Pemecahan penagihan dialokasikan secara merata ke semua pelanggan pada kontrak proyek. Jika terdapat faktor pembulatan, faktor tersebut akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kontrak selalu memiliki tanda **Pembulatan** yang diatur ke **Ya**. Pelanggan tersebut adalah pelanggan pembulatan. Biasanya, pelanggan pembulatan juga merupakan pelanggan utama kontrak, namun itu tidak diperlukan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

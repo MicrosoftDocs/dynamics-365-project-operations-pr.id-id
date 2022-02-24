@@ -2,9 +2,11 @@
 title: Mengimpor dan mengelola transaksi kartu kredit
 description: Topik ini menjelaskan cara mengimpor dan mengelola transaksi kartu kredit terkait pengeluaran. Transaksi ini dapat diatur sehingga mereka secara otomatis diimpor pada jadwal berulang, atau mereka dapat secara manual diimpor sebagaimana diperlukan.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271582"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Mengimpor dan mengelola transaksi kartu kredit
 
 Transaksi kartu kredit terkait dengan pengeluaran dapat diatur sehingga mereka secara otomatis diimpor pada jadwal yang berulang. Atau, transaksi dapat diimpor secara manual sebagaimana diperlukan. Transaksi kartu kredit diimpor melalui entitas data transaksi kartu kredit.
 
-Untuk informasi lebih lanjut tentang entitas data, lihat [entitas data](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Untuk informasi lebih lanjut tentang entitas data, lihat [entitas data](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Mengimpor transaksi kartu kredit
 

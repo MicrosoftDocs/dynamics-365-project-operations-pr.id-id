@@ -2,16 +2,18 @@
 title: Membuat solusi untuk dimensi harga kustom
 description: Topik ini berisi informasi tentang cara membuat solusi untuk dimensi harga kustom.
 author: Rumant
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992210"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513993"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Membuat solusi untuk dimensi harga kustom
 
@@ -26,7 +28,7 @@ ms.locfileid: "6992210"
 2.  Beri nama untuk solusi tersebut, *dimensi harga <your organization name>*.
 3. Masukkan informasi tersisa yang diperlukan dan kemudian pilih **Simpan**.
 
-  ![Membuat solusi untuk dimensi harga kustom.](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Membuat solusi untuk dimensi harga kustom](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambahkan semua entitas yang diperlukan dan komponen terkait ke solusi dimensi harga
 
@@ -49,19 +51,16 @@ Tambahkan entitas Project Service berikut ke solusi harga Anda untuk membuat per
    - **Harga Peran**
    - **Entri Waktu**
  
-   ![Menambahkan solusi dimensi harga kustom berbagai entitas yang ada.](./media/Existing-entities-to-PD-solution.png)
+   ![Menambahkan solusi dimensi harga kustom berbagai entitas yang ada](./media/Existing-entities-to-PD-solution.png)
  
  4. Untuk setiap entitas, tinjau komponen yang ditambahkan dan daftar akhir aset entitas untuk setiap entitas. 
 
    >[!NOTE]
    > Sertakan semua formulir dan tampilan untuk setiap entitas yang dipilih.
 
-  ![Entitas ditambahkan.](./media/solution-component-selection.png)
+  ![Entitas ditambahkan](./media/solution-component-selection.png)
 
 
 5.  Apabila diminta untuk menyertakan entitas dependen untuk entitas yang dipilih, pilih **Tidak, jangan sertakan komponen yang diperlukan.**
 
-    ![Termasuk entitas dependen.](./media/Do-not-include-required.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![Termasuk entitas dependen](./media/Do-not-include-required.png)

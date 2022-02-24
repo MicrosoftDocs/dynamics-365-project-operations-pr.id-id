@@ -2,22 +2,24 @@
 title: Tutup kuotasi
 description: Topik ini memberikan informasi tentang menutup kuotasi proyek di Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993425"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124687"
 ---
 # <a name="close-a-quote"></a>Tutup kuotasi
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Kuotasi proyek dapat ditutup sebagai menang atau kalah. Karena fungsi Aktifkan dan Revisi tidak didukung pada kuotasi di Microsoft Dynamics 365 Project Operations, Anda dapat menutup kuotasi draf.
+Kuotasi proyek dapat ditutup sebagai menang atau kalah. Karena fungsi mengaktifkan dan merevisi tidak didukung pada kuotasi dalam Microsoft Dynamics 365 Project Operations, Anda dapat menutup draf kuotasi.
 
 ## <a name="close-a-quote-as-won"></a>Menutup kuotasi sebagai Menang
 
@@ -41,6 +43,3 @@ Jika kuotasi proyek yang ditutup sebagai hilang kalah memiliki proyek yang diruj
 
 > [!NOTE]
 > Dalam Project Operations, penutupan kuotasi karena menang atau kalah tidak akan memengaruhi status peluang, yang akan tetap terbuka hingga ditutup secara manual.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

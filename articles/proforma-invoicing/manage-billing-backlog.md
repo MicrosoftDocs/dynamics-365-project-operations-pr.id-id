@@ -2,61 +2,39 @@
 title: Mengelola akumulasi tagihan
 description: Topik ini menyediakan informasi tentang cara melihat dan bekerja dengan akumulasi penagihan di Project Operations.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991085"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122347"
 ---
-# <a name="manage-billing-backlog"></a>Mengelola akumulasi tagihan
+# <a name="manage-the-billing-backlog"></a>Mengelola akumulasi tagihan
 
-**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations memiliki tampilan khusus untuk membantu mengelola akumulasi tagihan. Untuk mengelola akumulasi tagihan, pilih tautan di area **penjualan**, dalam **penagihan**. 
-
-Tampilan berikut tersedia:
-
-- Panjar dan Uang Muka
-- Panjar dan Uang Muka yang Tersedia
-- Tahapan Harga Tetap
-- Waktu dan Materi Backlog Penagihan
-
-## <a name="retainers-and-advances"></a>Panjar dan Uang Muka
-
-Tampilan **Uang muka dan panjar** mencantumkan uang muka dan panjar di seluruh kontrak proyek. Setelah panjar atau uang muka ditagih, jumlah uang muka akan tersedia untuk digunakan.
-
-## <a name="available-retainers-and-advances"></a>Panjar dan Uang Muka yang Tersedia
-
-Tampilan **Uang muka dan panjar yang tersedia** mencantumkan semua uang muka dan panjar yang tersedia di seluruh kontrak proyek. Setelah panjar atau uang muka ditagih, jumlah uang muka akan tersedia untuk digunakan dan ditambahkan ke daftar. Setelah jumlah panjar atau uang muka digunakan seluruhnya, maka jumlah panjar atau uang muka akan dihapus dari daftar.
+Dynamics 365 Project Operations memiliki dua tampilan khusus untuk membantu Anda bekerja dengan dan mengelola akumulasi penagihan. Mereka adalah **Tonggak Harga Tetap** dan **Akumulasi Penagihan Waktu dan Material** Untuk memilih tampilan, di area **Penjualan** Project Operations, di halaman navigasi kiri, pilih **Penagihan**. Tautan akumulasi penagihan disimpan di sana.
 
 ## <a name="fixed-price-milestones"></a>Tahapan Harga Tetap
 
-Tampilan **Tahapan Harga Tetap** mencantumkan semua tahapan harga tetap di seluruh baris kontrak proyek. Dari tampilan ini, satu atau beberapa tahapan dapat ditandai sebagai **Siap ditagih** atau **Tidak siap untuk faktur**. Menandai tonggak pencapaian sebagai **siap faktur** membuatnya tersedia untuk diletakkan pada faktur draft.
+Tampilan ini mencantumkan semua pencapaian harga tetap di semua baris kontrak proyek dalam sistem. Satu atau beberapa tonggak pencapaian dapat ditandai sebagai **Siap untuk Faktur** atau **Tidak Siap untuk Faktur** dari tampilan ini. Saat Anda menandai tonggak pencapaian sebagai **Siap untuk Faktur**, tonggak pencapaian tersedia untuk faktur draf.
 
-Bila baris kontrak multi pelanggan memiliki metode penagihan harga tetap, tonggak pencapaian dibuat untuk setiap pelanggan pada baris kontrak. Sebuah tonggak pencapaian dapat dibuat dan kemudian dibagi menjadi rekaman tonggak pencapaian khusus pelanggan individual. Pemecahan ini bersifat internal dan sesuai dengan pemecahan persentase penagihan yang ditentukan untuk setiap pelanggan pada baris kontrak. Pada tampilan **tonggak pencapaian harga tetap**, Anda akan melihat rekaman tonggak pencapaian spesifik pelanggan individual. Masing-masing rekaman tonggak ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini. Bila satu atau beberapa dari pecahan tahapan terkait ditandai sebagai **Siap Ditagih**, status header akan diperbarui ke **Sedang Berlangsung** dari **Belum Dimulai**. Bila semua pecahan tahapan ditagihkan, status tahapan header akan diperbarui ke **Selesai**.
+Ketika baris kontrak multi-pelanggan memiliki metode penagihan harga tetap, satu tonggak pencapaian dibuat untuk setiap pelanggan di baris kontrak. Pengguna membuat tonggak pencapaian dan tonggak itu dibagi menjadi rekaman tonggak pencapaian spesifik pelanggan secara internal, menurut pemisahan persentase penagihan yang ditentukan untuk setiap pelanggan di baris kontrak. Dalam tampilan **Tonggak Harga Tetap**, Anda akan melihat rekaman tonggak khusus pelanggan individual. Masing-masing rekaman tonggak ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini. Ketika satu atau beberapa pemisahan tonggak terkait ditandai sebagai **Siap untuk Faktur**, header berpindah ke status **Sedang Berlangsung** dari **Belum Dimulai**. Ketika semua pemisahan tonggak pencapaian telah ditagih, status tonggak pencapaian header menjadi **Selesai**.
 
-Tonggak pencapaian pada faktur draf diperlihatkan dalam tampilan ini dengan status tagihan **Faktur Pelanggan Dibuat**. Bila faktur draf dikonfirmasi, status penagihan pada rekaman akan diperbarui ke **faktur Pelanggan diposting**. 
-
-> [!NOTE] 
-> Jangan perbarui nilai status ini menggunakan kode kustom. Project Operations tidak berfungsi dengan benar saat nilai status ini diperbarui dengan kode kustom.
+Tonggak pencapaian pada faktur draf diperlihatkan dalam tampilan ini dengan status tagihan **Faktur Pelanggan Dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Diposting**. Memperbarui nilai status ini dengan menggunakan kode kustom tidak disarankan. Project Operations tidak akan berfungsi dengan benar jika nilai status ini diperbarui dengan kode kustom.
 
 ## <a name="time-and-material-billing-backlog"></a>Waktu dan Materi Backlog Penagihan
 
-Tampilan **akumulasi penagihan waktu dan material** mencantumkan semua aktual penjualan yang tidak ditagih di semua kontrak proyek dalam sistem yang belum ditagih. Satu atau beberapa aktual penjualan yang belum ditagih dapat ditandai sebagai **Siap untuk Faktur** atau **Tidak Siap untuk Faktur** dari tampilan ini. Menandai aktual penjualan belum ditagih sebagai **Siap untuk Faktur** membuatnya tersedia untuk diletakkan pada faktur draf.
+Tampilan ini mencantumkan semua aktual penjualan yang belum ditagih di semua kontrak proyek dalam sistem. Satu atau beberapa aktual penjualan yang belum ditagih dapat ditandai sebagai **Siap untuk Faktur** atau **Tidak Siap untuk Faktur** dari tampilan ini. Menandai aktual penjualan belum ditagih sebagai **Siap untuk Faktur** membuatnya tersedia untuk diletakkan pada faktur draf.
 
-Aktual penjualan yang tidak ditagih dengan status **tidak boleh melebihi** **Gagal** tidak dapat ditandai sebagai **siap untuk faktur**. Jika aktual harus ditandai sebagai **Siap Ditagih**, atur ulang status pada aktual lain pada baris kontrak yang dilaksanakan, lalu evaluasi ulang status ke **Tidak Melebihi**.
+Aktual penjualan yang belum ditagih yang memiliki status **Tidak Boleh Melebihi** **Gagal** tidak dapat ditandai sebagai **Siap untuk Faktur**. Jika aktual ini perlu ditandai seperti itu, reset status pada aktual lain pada baris kontrak yang diterapkan, lalu evaluasi status **Tidak Boleh Melebihi**.
 
-Jika baris kontrak multi-pelanggan memiliki metode tagihan waktu dan material, bila waktu dan pengeluaran disetujui, satu aktual penjualan tidak ditagih dibuat untuk setiap pelanggan pada baris kontrak berdasarkan persentase penagihan yang ditetapkan untuk setiap pelanggan. Pada tampilan **akumulasi penagihan waktu dan material**, Anda akan melihat aktual penjualan tidak ditagih khusus pelanggan individual ini. Masing-masing rekaman aktual penjualan belum ditagih ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini.
+Dalam kasus baris kontrak multi-pelanggan yang memiliki metode penagihan waktu dan material, ketika waktu dan pengeluaran disetujui, aktual penjualan yang belum ditagih dibuat untuk setiap pelanggan di baris kontrak sesuai dengan pemisahan persentase penagihan yang ditentukan untuk setiap pelanggan di baris kontrak. Dalam tampilan **Akumulasi Penagihan Waktu dan Material**, Anda akan melihat aktual penjualan belum ditagih khusus pelanggan ini. Masing-masing rekaman aktual penjualan belum ditagih ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini.
 
-aktual Penjualan belum tertagih yang ada pada draf faktur ditampilkan di tampilan ini dengan status penagihan **Faktur Pelanggan Dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Pelanggan Diposting**. 
-
-> [!NOTE] 
-> Jangan perbarui nilai status ini menggunakan kode kustom. Project Operations tidak berfungsi dengan benar saat nilai status ini diperbarui dengan kode kustom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Aktual penjualan belum ditagih pada faktur draf diperlihatkan dalam tampilan ini dengan **status tagihan** **Faktur Pelanggan Dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Pelanggan Diposting**. Memperbarui nilai status ini ketika berada dalam status ini dengan menggunakan kode kustom tidak disarankan. Project Operations tidak akan berfungsi dengan benar jika nilai status ini diperbarui dengan kode kustom.

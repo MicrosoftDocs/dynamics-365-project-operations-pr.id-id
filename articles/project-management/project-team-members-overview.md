@@ -2,17 +2,18 @@
 title: Anggota tim proyek
 description: Topik ini menyediakan informasi tentang cara bekerja dengan informasi anggota tim proyek, atribut, dan penjadwalan.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994010"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127432"
 ---
 # <a name="project-team-members"></a>Anggota tim proyek
 
@@ -59,6 +60,3 @@ Dari kisi anggota tim, tindakan berikut dapat diambil:
 
 - **Baru** Selain menambahkan sumber daya langsung dari jadwal, manajer proyek dapat menambahkan anggota tim baru bernama atau generik dari kisi anggota tim.
 - **Hapus**: dengan memilih satu atau beberapa anggota tim, manajer proyek dapat menghapus sumber daya yang tidak lagi akan berpartisipasi dalam proyek. Menghapus anggota tim juga akan menghapus semua tugas sumber daya terkait dan membatalkan semua Pemesanan yang ada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

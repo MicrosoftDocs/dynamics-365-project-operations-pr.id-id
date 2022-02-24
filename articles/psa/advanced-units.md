@@ -2,6 +2,8 @@
 title: Grup unit dan unit
 description: Topik ini menyediakan informasi tentang grup unit dan unit.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987575"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145587"
 ---
 # <a name="unit-groups-and-units"></a>Grup unit dan unit
 
@@ -44,7 +46,7 @@ Misalnya, di grup unit **waktu**, jika Anda mengatur **jam** sebagai unit pertam
 
 Gambar berikut menunjukkan contoh konfigurasi untuk unit **hari**, dengan bidang **kuantitas** menampilkan jumlah jam yang berada dalam satu hari, dan **minggu**, dengan bidang **kuantitas** menampilkan jumlah hari dalam seminggu.
 
-> ![Grup unit: Halaman informasi.](media/advanced-2.png)
+> ![Grup unit: Halaman informasi](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Menggunakan grup unit dan unit
 
@@ -84,11 +86,11 @@ Contoh berikut menunjukkan cara PSA menggunakan grup unit, unit, dan faktor konv
     - **Unit waktu default**: hari 
     - **Mata Uang**: GBP
 
-| Peran      | Grup Unit | Unit | Unit organisasi | Harga   |
+| Peran      | Grup Unit | Unit | Unit Organisasi | Harga   |
 |-----------|------------|------|---------------------|---------|
-| Pengembang | Waktu       | Hari  | Contoso Inggris          | 800 GBP |
+| Pengembang | Time       | Day  | Aswono AS          | 800 GBP |
 
-### <a name="time-entry"></a>Entri waktu
+### <a name="time-entry"></a>Entri Waktu
 
 Tabel berikut Menampilkan hasil transaksi penjualan yang dibuat oleh PSA selama proyek tiga jam.
 
@@ -110,6 +112,3 @@ Tidak. Perkiraan jadwal saat saat ini dibatasi hingga jam dan tidak dapat diubah
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Apakah unit dan grup unit dapat diedit, dihapus, dan ditambahkan?
 Ya. Dengan pengecualian grup unit **waktu** dan unit **jam**, Semua unit dapat dihapus atau diedit, dan unit baru dapat ditambahkan. Dalam PSA, grup unit **waktu** dan unit **jam** tidak dapat dihapus. Namun, mereka dapat diperbarui dengan teks terjemahan untuk bidang **nama**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

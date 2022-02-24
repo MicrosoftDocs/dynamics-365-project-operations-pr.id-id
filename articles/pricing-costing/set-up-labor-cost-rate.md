@@ -2,16 +2,18 @@
 title: Mengonfigurasikan tarif biaya tenaga kerja
 description: Topik ini memberikan informasi tentang cara mengatur tarif untuk biaya tenaga kerja di Project Operations
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986180"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180601"
 ---
 # <a name="set-up-labor-cost-rates"></a>Mengonfigurasikan tarif biaya tenaga kerja
 
@@ -38,7 +40,7 @@ Tabel berikut ini mencakup beberapa bidang yang penting saat membuat tarif tenag
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Transfer harga dan biaya untuk sumber daya di luar divisi atau badan hukum Anda
 
-Di perusahaan berbasis proyek, umum untuk menggunakan karyawan dari berbagai entitas hukum dan divisi untuk mengerjakan proyek. Proyek dapat dijalankan oleh satu entitas hukum, tetapi karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda, atau mungkin kombinasinya. Dalam Dynamics 365 Project Operations, entitas hukum yang bertanggung jawab atas pelaksanaan proyek adalah **Perusahaan Pemilik** dan divisi yang bertanggung jawab atas pelaksanaannya adalah **Unit Kontrak**. Badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Di sebagian besar negara, perusahaan diharuskan untuk memastikan bahwa badan hukum atau divisi sumber daya membebankan biaya kepada perusahaan pemilik dan unit kontrak untuk penggunaan sumber daya.
+Di perusahaan berbasis proyek, umum untuk menggunakan karyawan dari berbagai entitas hukum dan divisi untuk mengerjakan proyek. Proyek dapat dijalankan oleh satu entitas hukum, tetapi karyawan atau konsultan yang bekerja pada proyek dapat berasal dari entitas hukum dan divisi yang sama atau dari yang berbeda, atau mungkin kombinasinya. Dalam Dynamics 365 Project Operations, entitas hukum yang memiliki proyek yang dilaksanakan disebut **perusahaan pemilik**, dan divisi yang bertanggung jawab atas pelaksanaan disebut **unit kontrak**. Badan hukum lain yang menyediakan sumber daya disebut **perusahaan sumber daya** dan divisi yang menyediakan sumber daya disebut **unit sumber daya**. Di sebagian besar negara, perusahaan diharuskan untuk memastikan bahwa badan hukum atau divisi sumber daya membebankan biaya kepada perusahaan pemilik dan unit kontrak untuk penggunaan sumber daya.
 
 Misalnya, perusahaan Fabrikam harus memastikan bahwa Fabrikam India-Robotika memiliki kartu tarif biaya hasil negosiasi dengan Fabrikam US-Robotics atau Fabrikam UK-Robotics.
 
@@ -82,6 +84,3 @@ Dalam daftar harga biaya untuk Fabrikam UK-Robotics, tarif biaya dapat dinyataka
 | Pengembang | Fabrikam UK | 115 GBP |
 
 Daftar harga biaya dapat memberikan tarif tenaga kerja dalam beberapa mata uang. Saat menghasilkan estimasi biaya pada proyek, Project Operations akan mengonversi tarif biaya ini ke dalam mata uang proyek, dan menampilkannya kepada pengguna. Ketika entri waktu disetujui dan biaya aktual dibuat, biaya aktual dihargai dalam mata uang dari baris harga peran yang cocok pada daftar harga biaya. Biaya aktual untuk waktu pada satu proyek dapat dicatat dalam beberapa mata uang. Namun, ketika mengakumulasikan atau meringkas biaya tenaga kerja aktual di tingkat proyek, Project Operations akan mengonversi semua jumlah biaya tenaga kerja ke dalam mata uang proyek, yang dapat dilihat pengguna.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

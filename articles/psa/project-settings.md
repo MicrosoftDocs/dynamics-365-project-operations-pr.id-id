@@ -2,6 +2,8 @@
 title: pengaturan proyek
 description: Topik ini menyediakan informasi tentang pengaturan manajemen proyek.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996935"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148152"
 ---
 # <a name="project-settings"></a>pengaturan proyek
 
@@ -47,7 +49,7 @@ Untuk membuat jadwal proyek, Anda membuat template kalender proyek yang mendefin
   - Jadwal Kerja untuk Satu Hari
   - Waktu Nonaktif
 
-> ![Pilihan konfigurasi.](media/project-13.png)
+> ![Pilihan konfigurasi](media/project-13.png)
 
 4. Pilih **jadwal mingguan baru**, lalu Atur pilihan untuk jadwal sumber daya ini. Anda dapat mengatur jadwal mingguan yang berulang, parameter jam harian, penutupan bisnis, dan banyak lagi.
 5. Atur rentang tanggal, pilih **Simpan**, lalu klik **tutup**. 
@@ -66,6 +68,3 @@ Setiap organisasi harus mengkonfigurasi peran ini di halaman **kategori sumber d
 ## <a name="price-lists"></a>Daftar Harga
 
 Daftar harga memungkinkan Anda menetapkan biaya dan harga penjualan untuk peran sumber, kategori pengeluaran, produk, dan elemen lain dalam organisasi. Sebelum Anda membuat perkiraan keuangan untuk pekerjaan yang harus dilaksanakan untuk proyek, Anda harus membuat daftar harga biaya dan penjualan cadangan. Di bagian parameter, Anda juga harus mengkonfigurasi daftar harga dan harga penjualan default yang berlaku untuk semua proyek yang dibuat di organisasi. Pada halaman **parameter proyek aktif**, pastikan Anda mengkonfigurasi daftar biaya dan harga penjualan default.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

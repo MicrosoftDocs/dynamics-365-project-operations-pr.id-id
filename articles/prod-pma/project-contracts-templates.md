@@ -2,9 +2,11 @@
 title: Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance
 description: Topik ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan kontrak dan proyek secara langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001075"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764823"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance 
 
@@ -42,7 +44,7 @@ Solusi integrasi Project Service Automation ke Finance menggunakan fitur integra
 
 Ilustrasi berikut menunjukkan bagaimana data disinkronisasikan antara Project Service Automation dan Finance.
 
-[![Aliran data untuk integrasi Project Service Automation dengan Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Aliran data untuk integrasi Project Service Automation dengan Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Template dan tugas
 
@@ -107,8 +109,8 @@ Bila solusi integrasi Project Service Automation ke Finance diterapkan, skrip pe
 ## <a name="prerequisites-and-mapping-setup"></a>Prasyarat dan konfigurasi pemetaan
 
 - Sebelum sinkronisasi kontrak proyek dan proyek dapat terjadi, Anda harus mensinkronisasikan akun.
-- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_organizationalunits** menjadi **msdyn\_name \[Name\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](/powerapps/administrator/data-integrator).
-- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_projects** ke **msdynce\_projectnumber \[Project Number\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](/powerapps/administrator/data-integrator).
+- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_organizationalunits** menjadi **msdyn\_name \[Name\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Di rangkaian sambungan, tambahkan pemetaan bidang kunci integrasi untuk **msdyn\_projects** ke **msdynce\_projectnumber \[Project Number\]**. Anda mungkin harus terlebih dulu menambahkan proyek ke rangkaian sambungan. Untuk informasi lebih lanjut, lihat [mengintegrasikan data ke Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** untuk kontrak proyek dan proyek dapat diperbarui ke nilai yang berbeda atau dihapus dari pemetaan. Nilai template default adalah **Project Service Automation**.
 - Pemetaan **paymentterms** harus diperbarui sehingga mencerminkan persyaratan pembayaran yang valid di Finance. Anda juga dapat menghapus pemetaan dari tugas proyek. Peta nilai default memiliki nilai default untuk data demo. Tabel berikut Menampilkan nilai dalam Project Service Automation.
 
@@ -129,7 +131,7 @@ Gunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi beri
 Jika anda harus menggunakan Power Query, ikuti petunjuk berikut:
 
 - Template proyek dan kontrak (PSA untuk Fin dan Ops) memiliki filter default yang mencakup hanya pesanan penjualan jenis **item kerja (msdyn\_ordertype = 192350001)**. Filter ini membantu menjamin bahwa kontrak proyek tidak dibuat untuk pesanan penjualan di Finance. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini.
-- Buat filter Power Query yang mencakup hanya organisasi kontrak yang harus disinkronisasi ke entitas hukum dari rangkaian sambungan integrasi. Contohnya, kontrak proyek yang Anda miliki dengan unit organisasional kontrak Contoso AS harus disinkronisasikan ke entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasional kontrak Contoso Global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
+- Buat filter Power Query yang mencakup hanya organisasi kontrak yang harus disinkronisasi ke entitas hukum dari rangkaian sambungan integrasi. Misalnya, kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono AS harus disinkronisasikan dengan entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
 
@@ -140,17 +142,14 @@ Jika anda harus menggunakan Power Query, ikuti petunjuk berikut:
 
 Ilustrasi berikut menunjukkan contoh pemetaan tugas template dalam integrasi data. Pemetaan menampilkan informasi bidang yang akan disinkronisasikan dari Project Service Automation ke Finance.
 
-[![Pemetaan template kontrak proyek.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Pemetaan template kontrak proyek](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Pemetaan template proyek.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Pemetaan template proyek](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Pemetaan template baris kontrak proyek.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Pemetaan template baris kontrak proyek](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Pemetaan template tonggak baris kontrak proyek.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Pemetaan template tonggak baris kontrak proyek](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Pemetaan tonggak pencapaian baris kontrak proyek dalam proyek dan kontrak (PSA 3. x ke Dynamics)- template V2:
 
-[![Pemetaan tonggak baris kontrak proyek dengan template versi dua.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Pemetaan tonggak baris kontrak proyek dengan template versi dua](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

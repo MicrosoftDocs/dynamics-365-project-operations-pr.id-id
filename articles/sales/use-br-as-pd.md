@@ -2,16 +2,18 @@
 title: Menggunakan sumber daya yang dapat dipesan sebagai dimensi harga
 description: Topik ini menyediakan informasi tentang cara menggunakan sumber daya yang dapat dipesan sebagai dimensi harga.
 author: Rumant
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996260"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643087"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Menggunakan sumber daya yang dapat dipesan sebagai dimensi harga
 
@@ -64,18 +66,15 @@ Record dimensi harga untuk **msydn_bookableresource** harus dibuat mengetahui pe
 1. Klik dua kali baris di kisi **Dimensi Harga** untuk membuka halaman dimensi **msdyn_bookableresource**.
 2. Pada halaman dimensi, pada tab **terkait**, pilih **Nama Bidang Dimensi Harga**.
 
-  ![Tab Nama Bidang Dimensi Harga.](media/PD-fieldname.png)
+  ![Tab Nama Bidang Dimensi Harga](media/PD-fieldname.png)
 
 3. Pada tampilan terkait yang terbuka, pilih **Tambahkan Nama Bidang Dimensi Harga Baru**.
 
-  ![Tambahkan Nama Bidang Dimensi Harga.](media/Add-NewPD-fieldname.png)
+  ![Tambahkan Nama Bidang Dimensi Harga](media/Add-NewPD-fieldname.png)
 
   Ini akan membuka halaman **nama bidang dimensi harga baru** untuk **msdyn_bookableresource**. 
 
 4. Pada halaman **Nama Bidang Dimensi Harga Baru**, tambahkan **msdyn_projectteam** ke **Nama Logik Entitas**.
 5. Tambahkan **msdyn_bookableresourceid** ke **Nama Bidang**.
 
- ![Formulir Nama Bidang Dimensi Harga Baru.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Formulir Nama Bidang Dimensi Harga Baru](media/PD-fieldname-Added.png)

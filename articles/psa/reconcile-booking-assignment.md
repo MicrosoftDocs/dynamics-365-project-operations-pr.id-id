@@ -2,6 +2,8 @@
 title: Rekonsiliasi pemesanan dan penetapan
 description: Topik ini menyediakan informasi tentang nilai aktual.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995135"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147927"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Rekonsiliasi pemesanan dan penetapan
 
@@ -51,11 +53,11 @@ Dalam kasus tertentu, bila bidang **skala waktu** diatur ke tingkat yang lebih t
 
 Bila Anda melihat tingkat waktu yang lebih tinggi, sel dalam tab **rekonsiliasi** menunjukkan indikator sel untuk menginformasikan bahwa ada perbedaan pada tingkat waktu yang lebih rendah. Misalnya, dalam ilustrasi berikut, indikator sel muncul di sel untuk bulan Oktober 2018 untuk sumber daya yang bernama Cakrawati Dewani. Oleh karena itu, Anda dapat melihat bahwa, meskipun Pemesanan dan penetapan sumber daya sama saat digabungkan pada tingkat **bulan**, namun tidak sesuai dengan tingkat yang lebih rendah.
 
-![Pemesanan dan penugasan yang tidak cocok di tingkat bulanan.](media/reconcile-assignments-01.JPG)
+![Pemesanan dan penugasan yang tidak cocok di tingkat bulanan](media/reconcile-assignments-01.JPG)
 
 Klik dua kali sel untuk memperbesar ke tingkat lebih rendah berikutnya dan melihat perbedaannya. Misalnya, jika Anda mengeklik dua kali perbedaan oktober 2018 untuk Cakrawati Dewani, Anda telusuri hingga detail ke tingkat **Pekan**. Selanjutnya, Anda dapat melihat bahwa sumber daya memiliki Pemesanan 16 jam, namun tidak ada tugas dalam dua pekan pertama Oktober, dan 16 jam penugasan, namun tidak ada Pemesanan dalam minggu ketiga Oktober.
 
-![Pemesanan dan penugasan yang tidak cocok di tingkat pekanan.](media/reconcile-assignments-02.JPG)
+![Pemesanan dan penugasan yang tidak cocok di tingkat pekanan](media/reconcile-assignments-02.JPG)
 
 Anda dapat mengklik kanan sel untuk memperkecil tingkat yang lebih tinggi berikutnya. Anda juga dapat mematikan indikator sel dengan memilih tombol **pengaturan**. 
 
@@ -68,13 +70,13 @@ Untuk memastikan hasil yang akurat dan dapat diprediksi saat menggunakan perpanj
 
 - Pengguna harus mengkonfigurasi zona waktu perangkat mereka untuk mencocokkan zona waktu yang ditentukan di Pengaturan personalisasi sistem Anda.
  
-  ![Pengaturan zona waktu di Windows 10.](media/reconcile-assignments-03.png)
+  ![Pengaturan zona waktu di Windows 10](media/reconcile-assignments-03.png)
 
-  ![Pengaturan zona waktu di Pengaturan personalisasi.](media/reconcile-assignments-04.png)
+  ![Pengaturan zona waktu di Pengaturan personalisasi](media/reconcile-assignments-04.png)
  
 - Sumber daya yang dapat dipesan harus memiliki minimal satu menit waktu kerja yang tumpang tindih dengan kontur yang digunakan untuk menentukan ekstensi yang diminta. Contohnya, contoh berikut menunjukkan sumber daya ulasan dengan jam kerja yang jatuh antara 9:00 dan 19:00. 
 
-  ![Perbandingan kontur sumber daya.](media/reconcile-assignments-05.png)
+  ![Perbandingan kontur sumber daya](media/reconcile-assignments-05.png)
 
 Tabel berikut menampilkan:
 
@@ -83,22 +85,19 @@ Tabel berikut menampilkan:
 - Sumber daya B: sumber daya ini terletak di zona waktu yang berbeda dari proyek dan oleh karena itu dimulai pada 19:00 di zona waktu mereka. Namun, Pemesanan akan dimulai pada pukul 9:00 karena itu adalah waktu mulai terawal kontur tugas.
 - Sumber daya C dan D: sumber daya juga terletak di zona waktu yang berbeda, keduanya berbeda dari satu sama lain dan proyek, dan Pemesanan mereka tidak dimulai lebih awal dari waktu mulai masing-masing yang tersedia.
 
-|Entity  |Kalender  |
+|Entitas  |Kalender  |
 |-|-|
-|Template kalender Proyek   | ![Kalender Proyek.](media/reconcile-assignments-06.png) |
-|Sumber Daya A  | ![Kalender Sumber Daya A.](media/reconcile-assignments-06.png) |
-|Sumber Daya B  |  ![Kalender Sumber Daya B.](media/reconcile-assignments-07.png) |
-|Sumber Daya C  |  ![Kalender Sumber Daya C.](media/reconcile-assignments-08.png) |
-|Sumber Daya D  | ![Kalender Sumber Daya D.](media/reconcile-assignments-09.png)  |
+|Template kalender Proyek   | ![Kalender Proyek](media/reconcile-assignments-06.png) |
+|Sumber Daya A  | ![Kalender Sumber Daya A](media/reconcile-assignments-06.png) |
+|Sumber Daya B  |  ![Kalender Sumber Daya B](media/reconcile-assignments-07.png) |
+|Sumber Daya C  |  ![Kalender Sumber Daya C](media/reconcile-assignments-08.png) |
+|Sumber Daya D  | ![Kalender Sumber Daya D](media/reconcile-assignments-09.png)  |
  
 Bila Anda menavigasi ke tampilan rekonsiliasi, tugas sumber daya dan kekurangan Pemesanan terkait akan ditampilkan.
- ![Tampilan rekonsiliasi sebelum perpanjangan.](media/reconcile-assignments-10.png)
+ ![Tampilan rekonsiliasi sebelum perpanjangan](media/reconcile-assignments-10.png)
 
 Setelah fungsi perpanjangan Pemesanan telah dieksekusi pada setiap sumber daya, Pemesanan berhasil diperpanjang untuk setiap sumber daya. Hal ini dikarenakan setiap jam kerja sumber daya saling tumpang tindih dengan kontur kekurangan.
- ![Tampilan rekonsiliasi setelah ekstensi pemesanan.](media/reconcile-assignments-11.png) 
+ ![Tampilan rekonsiliasi setelah ekstensi pemesanan](media/reconcile-assignments-11.png) 
 
 Namun, jika dilihat lebih dekat pada rincian pemesanan, tampak adanya perbedaan dalam waktu mulai pemesanan. Pemesanan tidak akan dimulai lebih awal dari waktu mulai kontur tugas dan tidak lebih awal dari waktu mulai sumber daya yang tersedia.
- ![Pemesanan baru sumber daya di papan jadwal.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Pemesanan baru sumber daya di papan jadwal](media/reconcile-assignments-12.png)

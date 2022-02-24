@@ -2,6 +2,8 @@
 title: Tinjau akumulasi faktur pada proyek dan kontrak proyek
 description: Topik ini menyediakan informasi tentang cara meninjau waktu, pengeluaran, dan akumulasi produk, serta cara menandainya sebagai siap digunakan untuk faktur.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006970"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150492"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Tinjau akumulasi faktur pada proyek dan kontrak proyek
 
@@ -40,7 +42,7 @@ Aktual penjualan yang tidak ditagihkan menunjukkan akumulasi tagihan, dan status
 
 Untuk meninjau akumulasi tagihan untuk waktu dan material, buka **Sales** \> **penagihan** \> **Akumulasi penagihan waktu dan material**. Pilih Semua aktual penjualan yang tidak ditagih yang siap ditagih, lalu pilih **siap untuk faktur**. Status tagihan aktual ini diubah ke **siap untuk faktur**.
 
-![Waktu dan Materi Backlog Penagihan.](media/TMBacklog.png)
+![Akumulasi Penagihan Waktu dan Material](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Tinjau Akumulasi Penagihan Produk
 
@@ -48,7 +50,7 @@ Dalam PSA, ketika kontrak proyek memiliki baris kontrak berbasis produk, baris t
 
 Untuk meninjau jaminan akumulasi produk, buka **penjualan** \> **tagihan** \> **Akumulasi tagihan produk**. Pilih Semua baris kontrak berbasis produk yang siap ditagih, lalu pilih **siap untuk faktur**. Status tagihan baris ini diubah ke **siap untuk faktur**.
 
-![Backlog Penagihan Produk.](media/ProductBacklog.png)
+![Akumulasi Penagihan Produk](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Meninjau tonggak waktu penagihan pada kontrak harga tetap
 
@@ -56,7 +58,4 @@ Setiap baris kontrak proyek yang memiliki metode penagihan harga tetap harus men
 
 Untuk meninjau tonggak waktu penagihan, buka **Sales** \> **tagihan** \> **tonggak waktu harga tetap**. Pilih tonggak waktu yang siap ditagih yang siap ditagih, lalu pilih **siap untuk faktur**. Status tagihan tonggak waktu ini diubah ke **siap untuk faktur**.
 
-![Tahapan Harga Tetap.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Tonggak waktu Harga Tetap](media/FPBacklog.png)

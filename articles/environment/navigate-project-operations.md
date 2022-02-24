@@ -2,16 +2,18 @@
 title: Menelusuri Project Operations
 description: Topik ini menyediakan informasi tentang cara mengakses Project Operations dari Lifecycle Services.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994595"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642052"
 ---
 # <a name="navigate-project-operations"></a>Menelusuri Project Operations
 
@@ -28,14 +30,11 @@ Setelah Anda menyediakan Project Operations sebagaimana dijelaskan dalam topik, 
 
 Gunakan nama lingkungan di bagian, **nama lingkungan Common Data Service** untuk menavigasi ke Project Operations di lingkungan CDS. 
 
-  ![Nama Lingkungan Common Data Service.](./media/environment-name.PNG)
+  ![Nama Lingkungan Common Data Service](./media/environment-name.PNG)
 
 Pilih **Login** > **masuk ke lingkungan** untuk menavigasi ke modul **manajemen proyek dan akuntansi** di Finance.  
 
-   ![Masuk ke Finance.](./media/environment-login.PNG)
+   ![Masuk ke Finance](./media/environment-login.PNG)
 
 > [!NOTE]
 > Anda dapat mengakses Project Operations di Common Data Service dan modul **manajemen proyek dan akuntansi** secara langsung dengan menggunakan URL masing-masing. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

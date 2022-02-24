@@ -2,9 +2,10 @@
 title: Apa itu Dynamics 365 Project Service Automation?
 description: Pengantar dan tinjauan Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000265"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150537"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Apa itu Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ Selain itu, untuk membantu Anda memantau dan kontrol biaya untuk pekerjaan Anda 
 ## <a name="whats-new-in-psa"></a>Yang baru di PSA
 Tim sangat senang mengumumkan pembaruan terbaru kami! Mulai dari peningkatan ke antarmuka pengguna, memperbaiki bug, serta menambahkan fitur dan kemampuan baru yang penting. Anda meminta; Kami mendengarkan.
 
-Lihat [Catatan rilis Oktober '19](/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan kami terbaru.
+Lihat [Catatan rilis Oktober '19](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan kami terbaru.
 
 ### <a name="in-development"></a>Dalam pengembangan
-Untuk melihat apa yang kami telah merencanakan di masa mendatang, lihat [rencana rilis Dynamics 365: 2020 gelombang 1](/dynamics365-release-plan/2020wave1/index).
+Untuk melihat apa yang kami telah merencanakan di masa mendatang, lihat [rencana rilis Dynamics 365: 2020 gelombang 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Dapatkan bantuan dengan PSA versi 3.x
 Mencari sumber daya untuk membantu rencanakan penerapan? Lihat panduan dapat diunduh ini.
@@ -79,12 +80,9 @@ Mencari sumber daya untuk membantu rencanakan penerapan? Lihat panduan dapat diu
 
  [Makalah (aplikasi versi 2.x atau 1.x)](../psa/white-papers.md)
 
- [Catatan untuk pengembang (versi aplikasi 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Catatan untuk pengembang (versi aplikasi 2. x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Tonton video ikhtisar 2 menit
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

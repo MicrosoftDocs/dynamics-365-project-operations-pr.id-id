@@ -2,16 +2,18 @@
 title: Menambahkan anggota tim dari kisi anggota Tim
 description: Topik ini menyediakan informasi tentang cara Anda mengelola sumber daya anggota tim.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121537"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Menambahkan anggota tim dari kisi anggota Tim
 
@@ -198,6 +200,3 @@ Bila Anda melihat waktu di tingkat yang lebih tinggi, sel dalam tab **rekonsilia
 Jika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesanan, pada formulir **proyek**, pada tab **rekonsiliasi**, pilih kekurangan Pemesanan, lalu pilih **Perluas Pemesanan**. Kotak dialog **Perluas Pemesanan** muncul dan menunjukkan Pemesanan yang diperlukan untuk mengatasi kekurangan sumber daya. Kotak dialog juga menampilkan Pemesanan sumber daya yang ada di seluruh proyek atau entitas yang dapat dijadwalkan lainnya. Jika Anda memilih **OK** untuk membuat pemesanan untuk sumber daya, terlepas dari ketersediaan sumber daya tersebut, Anda dapat menyebabkan pemesanan berlebihan.
 
 Manajer proyek atau manajer sumber daya kemudian dapat menggunakan papan jadwal untuk mengelola setiap situasi dengan sumber daya yang dipesan berlebihan di luar kapasitasnya.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

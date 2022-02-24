@@ -2,6 +2,8 @@
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 28.5, Hotfix, V3
 description: Topik ini berisi daftar fitur dan perbaikan yang tersedia di Hotfix Project Service Automation V3, pembaruan rilis 28.5, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
 ms.topic: article
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f05dae43174e0dd5f99575a44088cfb999715349f503608004037e616da3b4de
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49693becc1b18d6e966d6c5b94397d82587aeb0d
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002245"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948569"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-285-v3"></a>Yang baru atau diubah di Project Service Automation Rilis Pembaruan 28.5, V3
 

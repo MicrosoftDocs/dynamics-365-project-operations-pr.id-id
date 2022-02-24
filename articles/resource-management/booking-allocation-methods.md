@@ -2,9 +2,11 @@
 title: Metode alokasi pemesanan
 description: Topik ini memberikan informasi tentang cara kerja metode alokasi pemesanan dalam Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004135"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121492"
 ---
 # <a name="booking-allocation-methods"></a>Metode alokasi pemesanan
 
@@ -79,6 +81,3 @@ Untuk meringkas, metode alokasi berikut menyebabkan kelebihan pemesanan jika sum
 - Distribusikan Jam Secara Merata
 
 Saat menggunakan salah satu dari tiga metode alokasi ini, Anda tidak akan diberi tahu bahwa sumber daya kelebihan pemesanan. Untuk memperbaiki kelebihan pemesanan, Anda harus menggunakan papan jadwal.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

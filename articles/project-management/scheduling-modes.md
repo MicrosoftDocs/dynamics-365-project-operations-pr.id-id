@@ -2,16 +2,18 @@
 title: Mode penjadwalan
 description: Topik ini menyediakan informasi tentang mode penjadwalan.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987755"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981439"
 ---
 # <a name="scheduling-modes"></a>Mode penjadwalan
 
@@ -23,12 +25,12 @@ Dynamics 365 Project Operations memberikan kemampuan bagi organisasi untuk menen
 Ada tiga mode penjadwalan yang tersedia di Project Operations:
 
   - Durasi tetap (ini adalah mode default)
-  - Upaya tetap (*Pekerjaan*)
+  - Pekerjaan tetap
   - Unit tetap
 
 Nilai yang dipengaruhi oleh definisi mode penjadwalan tertentu ditentukan oleh rumus berikut:
 
-  Upaya = Durasi x Unit
+  Upaya (*Pekerjaan*) = Durasi x Unit
 
 Saat menentukan mode penjadwalan proyek, Anda menetapkan salah satu nilai ini, yang kemudian tidak dapat diubah. Mempertahankan nilai ini sebagai konstanta menempatkan prioritas pada nilai tersebut, yang akan memberitahukan sistem untuk tidak mengubahnya ketika kedua nilai lainnya berubah. Tabel berikut memberikan informasi tentang dampak memilih mode tertentu.
 

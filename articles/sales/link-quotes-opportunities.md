@@ -2,16 +2,18 @@
 title: Membuat kuotasi proyek dari peluang
 description: Topik ini menyediakan informasi tentang membuat kuotasi proyek dari peluang.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118117"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Membuat kuotasi proyek dari peluang
 
@@ -54,6 +56,3 @@ Kuotasi yang ada dapat ditautkan ke peluang. Selesaikan langkah-langkah berikut 
    Saat Anda memindahkan peluang ke tahapan ini, Anda dapat memilih kuotasi ini dari daftar kuotasi yang terkait dengan peluang ini. Memilih kuotasi ini menunjukkan bahwa Anda bergerak maju dengan itu.
 
    Semua tanda lainnya yang terkait dengan peluang akan tetap tersedia dan aktif hingga salah satunya dimenangkan. Anda dapat memindahkan proses penjualan kembali ke tahap sebelumnya yaitu **Kualifikasi**, dan memilih kuotasi lainnya untuk diteruskan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

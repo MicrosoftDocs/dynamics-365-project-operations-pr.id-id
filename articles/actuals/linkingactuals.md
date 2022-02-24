@@ -2,17 +2,19 @@
 title: Menautkan aktual ke rekaman asli
 description: Laporan topik menjelaskan cara menautkan aktual ke rekaman asli seperti entri waktu, entri pengeluaran, atau log penggunaan bahan.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991760"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852593"
 ---
 # <a name="link-actuals-to-original-records"></a>Menautkan aktual ke rekaman asli
 
@@ -77,7 +79,7 @@ Bersama-sama, **asal transaksi** dan **koneksi transaksi** membantu Anda terus m
 
 Contoh berikut menunjukkan pemrosesan tipikal waktu entri dalam siklus hidup proyek Project Operations.
 
-> ![Waktu pemrosesan entri dalam siklus hidup Project Service.](media/basic-guide-17.png)
+> ![Waktu pemrosesan entri dalam siklus hidup Project Service](media/basic-guide-17.png)
  
 1. Pengajuan entri waktu membuat dua baris jurnal: satu baris untuk biaya dan satu baris untuk penjualan yang belum ditagih.
 2. Persetujuan akhir entri waktu membuat dua aktual: satu aktual untuk biaya dan satu aktual untuk penjualan yang belum ditagih.

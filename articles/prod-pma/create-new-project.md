@@ -2,9 +2,11 @@
 title: Buat proyek baru
 description: Topik ini menyediakan informasi tentang cara membuat proyek baru.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270727"
 ---
 # <a name="create-a-new-project"></a>Buat proyek baru
 
@@ -51,9 +53,9 @@ Anda juga dapat menetapkan kategori untuk sumber daya sesuai kebutuhan. Jenis ka
 
 Manajer proyek dapat menggunakan fungsi sumber daya proyek untuk membuat peran yang diperlukan untuk proyek. Peran dapat digunakan jika sumber daya terkonfirmasi masih belum diketahui saat sumber daya dicadangkan. Peran dapat sementara dicadangkan sebagai sumber daya yang direncanakan, sehingga Anda dapat melanjutkan tahapan Perencanaan proyek.
 
-[![Contoh peran.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Contoh peran](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Skenario:** Contoso dipekerjakan untuk menyelesaikan proyek Waktu dan bahan yang sewa proyeknya telah disetujui. Manajer Proyek Junior masih menyelesaikan cakupan proyek. Manajer sumber daya saat ini mengidentifikasi sumber daya tertentu yang akan dicadangkan untuk mengerjakan proyek baru. Karena sifat penting proyek, sponsor proyek meminta manajer proyek senior sebagai salah satu peran. Manajer sumber daya harus mendapatkan sumber daya baru dan menentukan peran dalam sistem seandainya manajer proyek Junior memerlukan informasi sumber daya selama perencanaan proyek.
+**Skenario:** Aswono dipekerjakan untuk menyelesaikan proyek waktu dan material yang memiliki Piagam proyek disetujui. Manajer Proyek Junior masih menyelesaikan cakupan proyek. Manajer sumber daya saat ini mengidentifikasi sumber daya tertentu yang akan dicadangkan untuk mengerjakan proyek baru. Karena sifat penting proyek, sponsor proyek meminta manajer proyek senior sebagai salah satu peran. Manajer sumber daya harus mendapatkan sumber daya baru dan menentukan peran dalam sistem seandainya manajer proyek Junior memerlukan informasi sumber daya selama perencanaan proyek.
 
 Langkah-langkah berikut ini menunjukkan cara manajer sumber daya dapat mengkonfigurasi peran manajer proyek senior dan mengaitkan karakteristik sumber daya dengannya. Selanjutnya, peran dapat digunakan untuk mencari sumber daya yang tersedia yang sesuai dengan kompetensi sumber daya yang diperlukan.
 

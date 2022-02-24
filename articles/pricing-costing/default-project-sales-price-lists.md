@@ -2,16 +2,18 @@
 title: Daftar harga default
 description: Topik ini menyediakan informasi tentang daftar harga biaya dan penjualan default dalam Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989870"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130942"
 ---
 # <a name="default-price-lists"></a>Daftar harga default
 
@@ -19,7 +21,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 ## <a name="sales-price-lists"></a>Daftar harga penjualan
 
-Setiap kuotasi dan kontrak proyek di Dynamics 365 Project Operations berisi daftar harga penjualan default. 
+Setiap penawaran dan kontrak proyek di Dynamics 365 Project Operations berisi daftar harga penjualan default. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Daftar harga default pada kuotasi proyek
 Sistem menyelesaikan proses berikut untuk menentukan daftar harga mana yang default pada kuotasi proyek:
@@ -55,6 +57,3 @@ Daftar harga biaya tidak default ke entitas mana pun dalam Project Operations. M
 5. Selanjutnya sistem melihat efektivitas tanggal dari daftar harga yang cocok dengan tanggal estimasi masuk atau baris aktual. 
 6. Jika ada beberapa daftar harga yang efektif untuk tanggal pada estimasi masuk atau aktual, daftar harga yang paling baru dibuat akan dipilih.
 7. Jika tidak ada daftar harga biaya yang melekat pada parameter proyek yang sesuai dengan mata uang dan tanggal efektif, sistem men-default tarif biaya ke nol (0) pada estimasi masuk atau baris aktual.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

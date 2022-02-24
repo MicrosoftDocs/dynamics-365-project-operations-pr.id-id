@@ -2,6 +2,8 @@
 title: Membatalkan entri waktu dan biaya yang disetujui sebelumnya
 description: Topik ini menyediakan informasi tentang cara membatalkan transaksi waktu dan biaya proyek yang disetujui.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987440"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150582"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Membatalkan entri waktu dan biaya atau disetujui sebelumnya
 
@@ -60,6 +62,3 @@ Proyek juga terpengaruh secara finansial saat persetujuan dibatalkan. Pertama, a
 Selanjutnya, entri pembalikan dibuat di dalam tabel aktual. Untuk membuat entri pembalikan, sistem menyalin nilai bidang dari aktual asli. Hanya nilai yang tidak disalin adalah nilai kuantitas. Nilai ini dibalik sebagai gantinya. Aktual terbalik dibuat untuk aktual **biaya** dan **penjualan tidak ditagih**. Bidang **status penyesuaian** pada aktual terbalik diatur ke **tidak dapat disesuaikan**, dan status penagihan diatur ke **dibatalkan**.
 
 Setelah perubahan ini dibuat, jumlah yang tercatat sebagai dibelanjakan pada proyek dan akumulasi pendapatan pada proyek tidak mempertimbangkan lagi jumlah yang diwakili oleh aktual ini.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: Pengeluaran antarperusahaan
 description: Topik ini memberikan informasi tentang cara menggunakan pengeluaran antarperusahaan untuk menetapkan pengeluaran pekerja ke entitas hukum tempat pekerjaan dilakukan.
-author: Surya Vaidyanathan
-ms.date: 07/08/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001210"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271537"
 ---
 # <a name="intercompany-expenses"></a>Pengeluaran antarperusahaan
 
@@ -34,17 +36,5 @@ Sebelum pekerja dapat membuat dan mengirimkan pengeluaran antarperusahaan, Anda 
 Sebelum Anda dapat menggunakan grup pajak yang terkait dengan entitas hukum yang meminjamkan (sumber), bukan entitas hukum peminjam (tujuan) dalam laporan pengeluaran, Anda harus mengaktifkan fungsi dalam konfigurasi pajak penjualan buku besar umum. Bila **entitas hukum untuk parameter posting pajak antarperusahaan** diatur ke **Sumber** dan **Terapkan aturan perpajakan pajak penjualan** diatur ke **Tidak**, kombinasi pajak untuk entitas hukum yang meminjamkan digunakan. Bila parameter yang sama diatur ke **tujuan**, kombinasi pajak untuk entitas hukum peminjam akan digunakan. Untuk entitas hukum di Amerika Serikat, bila parameter diatur ke **sumber**, bidang **piutang pajak penjualan** juga harus dikonfigurasi pada halaman **grup posting buku besar** baru. Mesin akuntansi akan menggunakan informasi dari bidang ini untuk entri akuntansi terkait pajak.   
 Perilaku ini sesuai untuk baris pengeluaran yang diposting dengan atau tanpa proyek.  
 
-## <a name="new-expense-expression-builder"></a>Pembuat ekspresi pengeluaran baru
-
-Pembuat ekspresi pengeluaran baru mengatasi masalah dengan skenario pengeluaran antar perusahaan yang menggunakan proyek. Fitur ini memastikan bahwa, ketika Anda membuat biaya antarperusahaan, kebijakan pengeluaran divalidasi dengan benar terhadap proyek yang dipilih pada lini pengeluaran, dan bahwa laporan pengeluaran dapat berhasil dikirimkan.
-
-Agar fitur pembuat ekspresi pengeluaran berfungsi, fitur tersebut harus diaktifkan. Selain itu, kebijakan pengeluaran yang memiliki ID proyek harus disiapkan.
-
-Jika Anda telah mengonfigurasi kebijakan yang memvalidasi ID proyek di lini pengeluaran, kebijakan tersebut harus dihentikan. Anda kemudian dapat mengaktifkan fitur dan mengonfigurasi ulang kebijakan.
-
-Untuk mengaktifkan fitur, ikuti langkah di bawah ini.
-
-1. Buka **Ruang kerja** \> **Manajemen Fitur**.
-2. Di daftar, pilih **Pembuat ekspresi pengeluaran baru untuk mengatasi masalah dengan skenario pengeluaran antar perusahaan yang menggunakan proyek**. Lalu pilih **Aktifkan sekarang**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

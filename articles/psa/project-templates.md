@@ -2,6 +2,8 @@
 title: Template Proyek
 description: Topik ini menyediakan informasi tentang cara menggunakan template proyek untuk konfigurasi proyek cepat.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002515"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148062"
 ---
 # <a name="project-templates"></a>Template Proyek 
 
@@ -47,7 +49,7 @@ Ada beberapa cara membuat proyek dari template proyek:
 
 - Ketika Anda membuat proyek dari kuotasi, Anda dapat memilih template proyek dalam kotak dialog **Buat cepat: proyek**.
 
-> ![Kotak dialog buat cepat: proyek.](media/project-11.png)
+> ![Kotak dialog buat cepat: proyek](media/project-11.png)
 
 - Saat membuat proyek dengan memilih **proyek baru**, halaman **proyek** akan ditampilkan sebelum rekaman disimpan. Di bidang **pilih template**, pilih salah satu template proyek yang telah ditetapkan dalam organisasi.
 - Gunakan **buat proyek dari template** di halaman **entitas template**.
@@ -67,6 +69,3 @@ Bila Anda menyalin seluruh baris perkiraan proyek, daftar harga akan diperbarui.
 ### <a name="copying-a-project-team"></a>Menyalin tim proyek
 
 Bila Anda menyalin tim proyek dari template proyek untuk sebuah proyek, sumber daya generik akan disalin di seluruhnya, bersama dengan keterampilan dan penguasaan yang didefinisikan dalam template. Tugas sumber generik juga dikelola seperti template proyek. Sumber daya bernama tidak didukung dalam template proyek.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

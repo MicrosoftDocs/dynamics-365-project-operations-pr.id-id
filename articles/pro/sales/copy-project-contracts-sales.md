@@ -2,16 +2,18 @@
 title: Menyalin kontrak proyek - lite
 description: Topik ini menyediakan informasi tentang menyalin kontrak proyek di Project operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006025"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181411"
 ---
 # <a name="copy-project-contracts---lite"></a>Menyalin kontrak proyek - lite
 
@@ -43,6 +45,3 @@ Informasi berikut tidak disalin dari **sumber** ke **kontrak target**:
   - Informasi anggaran Pelanggan
 
 Karena informasi ini spesifik untuk setiap kontrak, bidang dan rekaman ini tidak disalin. Baris kontrak untuk proyek dan produk, detail estimasi baris kontrak, dan nilai yang tidak melebihi batas pada tingkat kontrak akan disalin. Harga dan tingkat biaya default tergantung pada pilihan di bidang **Salin harga** yang dipilih pada halaman dialog **Salin parameter**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

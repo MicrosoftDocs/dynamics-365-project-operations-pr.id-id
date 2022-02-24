@@ -2,6 +2,8 @@
 title: Bekerja dengan model data Project Service Automation
 description: Topik ini menyediakan informasi tentang cara bekerja dengan model data.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002425"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147657"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -53,7 +55,7 @@ PSA juga menambahkan entitas baru yang berhubungan dengan kuotasi untuk model da
 
 Entitas lain yang ditambahkan PSA untuk kuotasi adalah **daftar harga proyek baris kuotasi**, **kategori sumber daya kuotasi baris**, dan **kategori transaksi kuotasi**.
 
-![Diagram yang menampilkan kuotasi, baris kuotasi, dan Relasi proyek.](media/PS-Reporting-image2.png "Diagram yang menampilkan kuotasi, baris kuotasi, dan Relasi proyek")
+![Diagram yang menampilkan kuotasi, baris kuotasi, dan Relasi proyek](media/PS-Reporting-image2.png "Diagram yang menampilkan kuotasi, baris kuotasi, dan Relasi proyek")
 
 ## <a name="reporting-on-project-contracts"></a>Melaporkan kontrak proyek
 
@@ -69,7 +71,7 @@ PSA juga menambahkan entitas baru yang dirancang untuk kontrak proyek. Berikut a
 
 Entitas lain yang ditambahkan PSA untuk kontrak adalah **daftar harga proyek kontrak proyek**, **kategori sumber daya kontrak kategori**, dan **kategori transaksi baris kontrak proyek**.
 
-![Diagram yang menampilkan pesanan, baris pesanan, dan Relasi proyek.](media/PS-Reporting-image3.png "Diagram yang menampilkan pesanan, baris pesanan, dan Relasi proyek")
+![Diagram yang menampilkan pesanan, baris pesanan, dan Relasi proyek](media/PS-Reporting-image3.png "Diagram yang menampilkan pesanan, baris pesanan, dan Relasi proyek")
 
 ## <a name="reporting-on-projects"></a>Melaporkan proyek
 
@@ -81,7 +83,7 @@ Entitas **proyek** dan entitas terkaitnya eksklusif untuk PSA. **Proyek** adalah
 - **Persyaratan sumber daya** - entitas ini berisi persyaratan untuk setiap anggota tim sumber daya generik.
 - **Baris perkiraan** dan **perkiraan** – entitas ini memiliki relasi header/baris dan berisi perkiraan pengeluaran untuk proyek. Perkiraan tugas disimpan pada entitas **perkiraan sumber daya**.
 
-![Diagram yang menampilkan persyaratan sumber daya dan Relasi proyek.](media/PS-Reporting-image4.png "Diagram yang menampilkan persyaratan sumber daya dan Relasi proyek")
+![Diagram yang menampilkan persyaratan sumber daya dan Relasi proyek](media/PS-Reporting-image4.png "Diagram yang menampilkan persyaratan sumber daya dan Relasi proyek")
 
 ## <a name="reporting-on-resources"></a>Melaporkan sumber daya
 
@@ -92,7 +94,7 @@ Sumber daya proyek menggunakan entitas **sumber daya dapat dipesan** dari Univer
 - **Kategori sumber daya dapat dipesan** - entitas ini menunjukkan peran sumber daya yang dapat dipesan.
 - **Pemesanan sumber daya yang dapat dipesan** – entitas ini menunjukkan waktu yang dipesan pada proyek untuk sumber daya. Setiap Pemesanan memiliki entitas header dan entitas baris, dan setiap baris memiliki status yang menunjukkan status pemesanan.
 
-![Diagram yang menampilkan relasi karakteristik sumber daya yang dapat dipesan.](media/PS-Reporting-image5.png "Diagram yang menampilkan relasi karakteristik sumber daya yang dapat dipesan")
+![Diagram yang menampilkan relasi karakteristik sumber daya yang dapat dipesan](media/PS-Reporting-image5.png "Diagram yang menampilkan relasi karakteristik sumber daya yang dapat dipesan")
 
 ## <a name="reporting-on-actual-transactions"></a>Pelaporan transaksi aktual
 
@@ -120,7 +122,4 @@ Saat Anda bekerja dengan entitas **aktual**, penting bagi Anda untuk memahami tr
 
 Entitas **asal transaksi** merekam asal rekaman **aktual**, dan entitas **sambungan transaksi** merekam rekaman terkait untuk rekaman **aktual**. Selain itu, rekaman **aktual** berisi referensi proyek, kontrak proyek (pesanan), sumber daya dapat dipesan, dan pelanggan.
 
-![Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual.](media/PS-Reporting-image6.png "Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual](media/PS-Reporting-image6.png "Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual")

@@ -2,16 +2,18 @@
 title: Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
 description: Topik ini menyediakan informasi tentang pilihan akuntansi untuk proyek yang dapat ditagih.
 author: sigitac
+manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991039"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858657"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
 
@@ -101,23 +103,23 @@ Selesaikan langkah-langkah berikut untuk membuat profil biaya dan pendapatan pro
 
 Waktu dan Material – tidak ada WIP
 
-![Profil biaya dan pendapatan: waktu dan material-tanpa WIP.](media/time-material-no-wip.png)
+![Profil biaya dan pendapatan: waktu dan material-tanpa WIP](media/time-material-no-wip.png)
 
 Waktu dan material– WIP (Pendapatan)
 
-![Profil biaya dan pendapatan: waktu dan material-WIP.](media/time-material-with-wip.png)
+![Profil biaya dan pendapatan: waktu dan material-WIP](media/time-material-with-wip.png)
 
 Harga tetap – Tanpa WIP
 
-![profil Biaya dan pendapatan: harga tetap-tidak ada WIP.](media/fixed-price-no-wip.png)
+![profil Biaya dan pendapatan: harga tetap-tidak ada WIP](media/fixed-price-no-wip.png)
 
 Harga tetap – kontrak selesai
 
-![profil Biaya dan pendapatan: harga tetap- Kontrak yang selesai.](media/fixed-price-completed-contract.png)
+![profil Biaya dan pendapatan: harga tetap- Kontrak yang selesai](media/fixed-price-completed-contract.png)
 
 Harga tetap – persentase penyelesaian
 
-![profil Biaya dan pendapatan: harga tetap- Persentase penyelesaian.](media/fixed-price-completed-percentage.png)
+![profil Biaya dan pendapatan: harga tetap- Persentase penyelesaian](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Contoh aktivitas akuntansi untuk sampel profil biaya proyek dan pendapatan.

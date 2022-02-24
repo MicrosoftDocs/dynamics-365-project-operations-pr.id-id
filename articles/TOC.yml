@@ -4,14 +4,8 @@
   items:
     - name: Menentukan jenis penyebaran Anda
       href: environment/determine-deployment-type.md
-    - name: Mendaftar ke uji coba Project Operations
-      href: environment/admin-trials.md
     - name: Pembaruan Project Operations
       href: whats-new/project-operations-updates.md
-    - name: Fitur yang dihapus atau tidak digunakan lagi
-      items:
-        - name: Fitur yang dihapus atau tidak digunakan lagi di Project Operations
-          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations untuk skenario berbasis sumber daya/tanpa stok
   items:
     - name: Mulai
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Menyebarkan lingkungan
           items:
-            - name: Sebarkan aplikasi Project Operations Dataverse secara manual dengan dukungan penulisan ganda
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Penyediaan lingkungan baru
               href: environment/resource-provision-new-environment.md
             - name: Model keamanan
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrasi faktur vendor
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Menghapus instalan Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Apa yang baru
       items:
-        - name: Desember 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: November 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Oktober 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: September 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Agustus 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Juli 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Juni 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Mei 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -306,12 +280,8 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
-            - name: Menggunakan API jadwal proyek
+            - name: Menggunakan API Jadwal (Pratinjau Umum)
               href: project-management/schedule-api-preview.md
-            - name: Performa API jadwal proyek
-              href: project-management/project-schedule-api-performance.md
-            - name: Log penjadwalan proyek
-              href: project-management/schedule-api-logs.md
     - name: Manajemen sumber daya
       items:
         - name: Konsep kunci
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Mengonfigurasi kategori pengeluaran
               href: expense/set-up-expense-categories.md
-            - name: Mengonfigurasi jarak tempuh dengan menggunakan tahapan tingkat jarak tempuh
-              href: expense/set-up-mileage.md
-        - name: Itemisasi pengeluaran
-          href: prod-exp/expense-itemization.md
         - name: Pengeluaran pribadi
           href: expense/personal-expenses-expense-report.md
         - name: Pengeluaran antarperusahaan
@@ -442,8 +408,6 @@
       items:
         - name: Sekilas persetujuan
           href: approvals/approvals-overview.md
-        - name: Rangkaian persetujuan
-          href: approvals/approval-sets.md
         - name: Catatan pengembang
           items:
             - name: Catatan pengembang untuk Persetujuan
@@ -462,20 +426,14 @@
       items:
         - name: Konfigurasikan bahan yang tidak tersedia dan faktur vendor tertunda
           href: procurement/configure-materials-nonstocked.md
-        - name: Mendapatkan bahan yang tidak memiliki stok untuk proyek dengan menggunakan faktur vendor tertunda
+        - name: Mendapatkan bahan yang tidak tersedia untuk proyek dengan menggunakan faktur vendor tertunda
           href: procurement/pending-vendor-invoices.md
-        - name: Memesan bahan yang tidak memiliki stok untuk proyek dengan menggunakan pesanan pembelian proyek
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Retensi vendor
-          items:
-            - name: Ikhtisar retensi vendor
-              href: procurement/vendor-retention-overview.md
-            - name: Mengatur retensi vendor
-              href: procurement/set-up-vendor-retention.md
     - name: Faktur
       items:
         - name: Ikhtisar proses pemfakturan
           href: invoicing/post-project-invoices.md
+        - name: Mengelola proposal faktur proyek
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Faktur proforma
           items:
             - name: Mengelola akumulasi penagihan berbasis proyek
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Mengonfigurasikan otomatisasi faktur berbasis proyek
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Faktur pelanggan
-          items:
-            - name: Mengelola proposal faktur proyek
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Mengoreksi akuntansi pada proposal draf faktur proyek
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Faktur antarperusahaan
-          items:
-            - name: Sekilas faktur antarperusahaan
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Mengonfigurasikan faktur antarperusahaan
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Membuat transaksi antarperusahaan
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Membuat faktur vendor dan pelanggan antarperusahaan
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Mengelola proposal faktur proyek
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Akuntansi proyek
       items:
         - name: Default dimensi keuangan
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnal integrasi dalam Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Faktur antarperusahaan
+          items:
+            - name: Sekilas faktur antarperusahaan
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Mengonfigurasikan faktur antarperusahaan
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Membuat transaksi antarperusahaan
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Membuat faktur vendor dan pelanggan antarperusahaan
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Pengakuan pendapatan
       items:
         - name: Sekilas pengakuan pendapatan
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Mengelola estimasi pendapatan
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Penyelesaian Masalah
-      items:
-        - name: Proses penjualan proyek
-          items:
-            - name: 'Kesalahan ketidaksesuaian mata uang saat membuat proyek, kontrak, kuotasi, atau sumber daya yang dapat dipesan'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Penyebaran sederhana - menangani faktur proforma
   items:
     - name: Mulai
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: Apa yang baru
       items:
-        - name: Apa yang baru di akses awal 2021 gelombang 2 - penyebaran lite
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Apa yang baru di bulan Desember 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Apa yang baru di bulan November 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Yang baru di bulan Oktober 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Yang baru di bulan September 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Apa yang baru di bulan Agustus 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Apa yang baru di bulan Juli 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Apa yang baru di bulan Juni 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Apa yang baru di bulan Mei 2021 - penyebaran lite
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Apa yang baru di bulan April 2021 - penyebaran lite
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Apa yang baru di bulan Maret 2021 - penyebaran lite
@@ -826,10 +756,8 @@
           items:
             - name: Mengembangkan template proyek dengan Salinan Proyek
               href: project-management/dev-copy-project.md
-            - name: Menggunakan API jadwal proyek
+            - name: Menggunakan API Jadwal (Pratinjau Umum)
               href: project-management/schedule-api-preview.md
-            - name: Performa API jadwal proyek
-              href: project-management/project-schedule-api-performance.md
     - name: Manajemen sumber daya
       items:
         - name: Konsep kunci
@@ -886,44 +814,6 @@
           items:
             - name: Ikhtisar pemanfaatan sumber daya
               href: resource-management/resource-utilization-overview.md
-    - name: Manajemen subkontrak dalam Project Operations
-      items:
-        - name: Manajemen subkontrak dalam Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Melakukan subkontrak pada Akses Awal Oktober 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Konsep penting dalam subkontrak
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Mengelola vendor dan daftar harga proyek
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Subkontraktor sebagai sumber daya yang dapat dipesan
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Rincian Header untuk Subkontrak
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Baris subkontrak untuk waktu
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Baris subkontrak untuk kategori pengeluaran
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Baris subkontrak untuk produk
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Sumber daya baris subkontrak
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Tahapan baris subkontrak
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Mensubkontrakkan anggota tim proyek
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Opsi subkontrak untuk anggota tim proyek
-          href: pro/subcontracting/subcon-options.md
-        - name: Perkiraan biaya penetapan sumber daya subkontrak
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Konfigurasikan Papan Jadwal untuk menampilkan pekerja kontrak dan kapasitas subkontrak
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Mengisi staf proyek dengan pekerja kontrak dan kapasitas subkontrak
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Mencatat waktu, pengeluaran, dan penggunaan bahan untuk komponen subkontrak'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Menyatakan transisi pada subkontrak
-          href: pro/subcontracting/subcon-states.md
     - name: Waktu
       items:
         - name: Ikhtisar waktu
@@ -950,8 +840,6 @@
       items:
         - name: Sekilas persetujuan
           href: approvals/approvals-overview.md
-        - name: Rangkaian persetujuan
-          href: approvals/approval-sets.md
         - name: Catatan pengembang
           items:
             - name: Catatan pengembang untuk Persetujuan
@@ -988,14 +876,6 @@
   items:
     - name: Apa yang baru
       items:
-        - name: Yang baru di bulan Oktober 2021 - Project Operations untuk skenario berbasis stok/produksi
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Yang baru di bulan September 2021 - Project Operations untuk skenario berbasis stok/produksi
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Yang baru di bulan Juli 2021 - Project Operations untuk skenario berbasis stok/produksi
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Yang baru di bulan Mei 2021 - Project Operations untuk skenario berbasis stok/produksi
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Yang baru di bulan April 2021 - Project Operations untuk skenario berbasis stok/produksi
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Yang baru di bulan Maret 2021 - Project Operations untuk skenario berbasis stok/produksi
@@ -1148,24 +1028,6 @@
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 38, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 37.5, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 37, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 36, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 35, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 34, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 33, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 32.5, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Yang baru atau berubah dalam Rilis Pembaruan 32, V3'
-          href: psa/whats-new-ur-32.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Yang baru atau berubah dalam Rilis Pembaruan 30, V3'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Panduan pelaporan
           href: psa/implementation-guides/reporting-guide.md
-    - name: Tingkatkan dari Project Service Automation ke Project Operations - lite
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Peningkatan Project Service Automation (versi aplikasi 3.x)
       items:
         - name: Peningkatan Project Service Automation
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: Menyesuaikan entri waktu mingguan
               href: psa/time-entry-extensibility-v3.md
-            - name: Rangkaian persetujuan di Project Service Automation
-              href: psa/approval-set.md
     - name: Tanya-jawab dan mengatasi masalah (3.x)
       items:
         - name: Mengapa harga diatur secara default ke nol pada biaya pengeluaran aktual?

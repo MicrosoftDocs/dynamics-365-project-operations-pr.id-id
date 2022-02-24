@@ -2,9 +2,11 @@
 title: Mengonfigurasikan bidang kustom sebagai dimensi harga
 description: Topik ini menyediakan informasi tentang bagaimana mengkonfigurasi dimensi harga menggunakan bidang kustom .
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003595"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650218"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Mengonfigurasikan bidang kustom sebagai dimensi harga
 
@@ -42,11 +44,11 @@ Agar bidang menjadi dimensi harga, harus:
 
 - Dibuat sebagai baris di tabel **dimensi harga**. Misalnya, tambahkan baris dimensi harga seperti yang ditunjukkan dalam grafik berikut. 
 
-![Baris Dimensi Harga Berdasarkan Jumlah.](media/Amt-based-PD.png)
+![Baris Dimensi Harga Berdasarkan Jumlah](media/Amt-based-PD.png)
 
 Jam kerja sumber daya (**msdyn_resourceworkhours**) telah ditambahkan sebagai dimensi berbasis markup dan telah ditambahkan ke kisi pada tab **Dimensi harga berdasarkan markup**.
 
-![Baris Dimensi Harga Berdasarkan Markup.](media/Markup-based-PD.png)
+![Baris Dimensi Harga Berdasarkan Markup](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -73,12 +75,12 @@ Ada dua jenis dasbor di dimensi harga:
   
 | Peran        | Unit Organisasi    |Lokasi Kerja      |Jabatan standar      |Jam Kerja Sumber daya      |  Mark up|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Di Lokasi            |                    |Lembur                 |15     |
-|             | Contoso India|Lokal             |                    |Lembur                 |10     |
+|             | Aswono India|Di Lokasi            |                    |Lembur                 |15     |
+|             | Aswono India|Lokal             |                    |Lembur                 |10     |
 |             | Contoso AS   |Lokal             |                    |Lembur                 |20     |
 
 
-Jika sumber daya dari Contoso India yang tingkat dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga akan menggunakan tingkat dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
+Jika sumber daya dari Aswono India yang tingkat dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga akan menggunakan tingkat dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
 
 ### <a name="applicable-to-cost"></a>Berlaku untuk Biaya 
 Jika ini diatur ke **ya**, ini menunjukkan bahwa nilai dimensi dari konteks input harus digunakan untuk mencocokkan dengan **harga peran** dan **markup harga peran** saat mengambil biaya dan tingkat markup.
@@ -94,6 +96,3 @@ Pengaturan prioritas dimensi akan membantu harga menghasilkan harga bahkan saat 
 
 - **Prioritas biaya**: nilai prioritas biaya dimensi akan menunjukkan bobot dimensi saat mencocokkan dengan penyiapan harga biaya. Nilai **prioritas biaya** harus unik di seluruh dimensi yang **berlaku untuk biaya**.
 - **Prioritas penjualan**: nilai prioritas biaya dimensi penjualan akan menunjukkan bobot dimensi saat mencocokkan dengan penyiapan harga penjualan atau tingkat tagihan. Nilai **prioritas penjualan** harus unik di seluruh dimensi yang **berlaku untuk penjualan**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

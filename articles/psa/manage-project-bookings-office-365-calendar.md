@@ -2,6 +2,8 @@
 title: Mengelola Pemesanan dan proyek-proyek di kalender Office 365
 description: Cara mengelola Pemesanan dan proyek-proyek di kalender Office 365
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985326"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144462"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Mengelola proyek dan Pemesanan di kalender (Project Service)
 
@@ -50,7 +52,7 @@ Lihat temu janji pribadi, Pemesanan pekerjaan proyek dan tugas perintah kerja fi
   
 - Anda akan perlu untuk memiliki kredensial Global Administrator [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] atau Administrator sistem.  
   
-- Admin Anda perlu mengkonfigurasi profil server email dan setiap pengguna akan perlu untuk mengkonfigurasi kotak pesan mereka. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mengatur email agar memproses melalui sinkronisasi sisi server](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Admin Anda perlu mengkonfigurasi profil server email dan setiap pengguna akan perlu untuk mengkonfigurasi kotak pesan mereka. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mengatur email agar memproses melalui sinkronisasi sisi server](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Aktifkan sinkronisasi untuk organisasi (tugas admin)  
   
@@ -89,6 +91,3 @@ Lihat temu janji pribadi, Pemesanan pekerjaan proyek dan tugas perintah kerja fi
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

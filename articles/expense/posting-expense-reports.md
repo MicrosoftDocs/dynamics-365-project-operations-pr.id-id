@@ -2,9 +2,11 @@
 title: Memposting laporan pengeluaran
 description: Topik ini menjelaskan cara memposting laporan pengeluaran.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007690"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124282"
 ---
 # <a name="post-expense-reports"></a>Memposting laporan pengeluaran
 
@@ -29,6 +31,3 @@ Jika pengeluaran pada laporan pengeluaran dibebankan kepada perusahaan selain pe
 Untuk memposting laporan pengeluaran, pada halaman **laporan pengeluaran yang disetujui**, pilih laporan pengeluaran, lalu di panel tindakan, pilih **posting**.
 
 Anda juga dapat memposting semua laporan pengeluaran dalam daftar secara bersamaan. Pilih Semua laporan pengeluaran, lalu pilih **posting**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

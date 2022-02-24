@@ -2,16 +2,18 @@
 title: Menyalin kuotasi berbasis proyek
 description: Topik ini memberikan informasi tentang cara menyalin kuotasi berbasis proyek di Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992165"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181816"
 ---
 # <a name="copy-project-based-quotes"></a>Menyalin kuotasi berbasis proyek
 
@@ -43,6 +45,3 @@ Bila Anda memilih **OK** pada halaman dialog, sistem akan membuat salinan kuotas
 > - Referensi proyek pada baris kuotasi berbasis proyek- informasi anggaran pelanggan
 >
 >Karena informasi ini sangat spesifik untuk setiap kuotasi, bidang dan rekaman ini tidak disalin. Baris Kuotasi untuk proyek dan produk, detail estimasi baris kuotasi, dan nilai yang tidak melebihi batas pada tingkat kuotasi akan disalin. Harga dan tingkat biaya default tergantung pada pilihan **Salin harga** yang dipilih pada halaman dialog **Salin parameter**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

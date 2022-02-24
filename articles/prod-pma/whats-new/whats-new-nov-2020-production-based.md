@@ -2,16 +2,18 @@
 title: Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis stok/produksi
 description: Topik ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis November 2020 penyebaran Project Operations Lite untuk skenario berbasis produksi/stok.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003190"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365512"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis stok/produksi
 
@@ -23,7 +25,4 @@ Untuk informasi tentang perbaikan yang tercakup dalam pembaruan ini, masuk ke Li
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan wajib untuk aplikasi Dynamics 365 Finance and Operations, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Untuk informasi tentang pembaruan wajib untuk aplikasi Dynamics 365 Finance and Operations, lihat [pembaruan wajib](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.

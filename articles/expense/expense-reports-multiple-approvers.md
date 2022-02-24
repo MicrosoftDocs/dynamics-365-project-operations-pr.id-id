@@ -2,9 +2,11 @@
 title: Laporan pengeluaran dan beberapa pemberi izin
 description: Topik ini menyediakan informasi tentang laporan pengeluaran yang memerlukan persetujuan dari lebih dari satu orang.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988430"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120997"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Laporan pengeluaran dan beberapa pemberi izin
 
@@ -39,6 +41,3 @@ Jika Anda memutuskan untuk meminta beberapa penyetuju laporan pengeluaran, Anda 
 
     1. Manajer karyawan menyetujui laporan pengeluaran.
     2. Pemilik anggaran menyetujui laporan pengeluaran.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

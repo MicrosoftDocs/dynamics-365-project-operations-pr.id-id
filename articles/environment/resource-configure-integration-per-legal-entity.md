@@ -2,22 +2,24 @@
 title: Mengonfigurasikan integrasi Project Operations per entitas hukum
 description: Topik ini menyediakan informasi tentang mengonfigurasikan integrasi per entitas hukum di Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122887"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Mengonfigurasikan integrasi Project Operations per entitas hukum 
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Tindakan topik akan memandu Anda melakukan langkah-langkah yang diperlukan untuk mengkonfigurasi Dynamics 365 Project Operations per entitas hukum.
+Ini topik memandu Anda melakukan langkah-langkah yang diperlukan untuk mengkonfigurasi Dynamics 365 Project Operations per entitas hukum.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Aktifkan kunci target di Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Setiap entitas hukum yang menggunakan Project Operations pada Dynamics 365 Custo
   - **Jenis penagihan default**: Project Operations menggunakan rangkaian tetap default jenis penagihan yang harus dipetakan ke properti baris Finance. Buat rekaman untuk setiap jenis penagihan: **tidak ditentukan**, **Dikenakan biaya**, **Tidak dikenakan biaya**, **gratis**, dan **tidak tersedia**.
   - **Default kategori proyek**: Pilih kategori proyek default yang akan digunakan untuk setiap jenis transaksi. Default ini akan digunakan dalam **jurnal integrasi Project Operations** dan di perkiraan yang mana tidak ada kategori transaksi yang ditentukan untuk aktual proyek.
   - **Perkiraan**: Pilih model perkiraan yang akan digunakan untuk perkiraan waktu dan pengeluaran.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

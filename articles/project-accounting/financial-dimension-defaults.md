@@ -2,16 +2,18 @@
 title: Default dimensi keuangan
 description: Topik ini memberikan informasi tentang cara mengatur default dimensi keuangan.
 author: sigitac
-ms.date: 12/14/2021
+manager: Annbe
+ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: MT
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922942"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642367"
 ---
 # <a name="financial-dimension-defaults"></a>Default dimensi keuangan
 
@@ -19,7 +21,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations menggunakan kerangka kerja [Dimensi keuangan](/dynamics365/finance/general-ledger/financial-dimensions) di Dynamics 365 Finance untuk memberikan wawasan tambahan tentang transaksi buku besar pembantu proyek dan buku besar umum.
+Dynamics 365 Project Operations menggunakan kerangka kerja [Dimensi keuangan](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) di Dynamics 365 Finance untuk memberikan wawasan tambahan tentang transaksi buku besar pembantu proyek dan buku besar umum.
 
 Dimensi keuangan default dapat ditetapkan pada pelanggan, sumber pendanaan proyek, tonggak pencapaian, lini kontrak proyek, atau proyek.
 
@@ -60,15 +62,3 @@ Proyek dibuat dan dikelola di (CDS). Atribut akuntansi untuk proyek diatur dalam
 4. Atur Default dimensi keuangan. Perhatikan bahwa dimensi keuangan di-default dari akun pelanggan. Jika proyek dikaitkan dengan baris kontrak dengan beberapa pelanggan kontrak proyek, pelanggan utama digunakan untuk dimensi keuangan default.
 
 Dimensi keuangan default proyek digunakan untuk menetapkan default baris jurnal untuk transaksi waktu, pengeluaran, dan biaya di **Jurnal Integrasi Project Operations,** dan pada baris faktur proyek terkait.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Menerapkan dimensi keuangan untuk entri waktu proyek
-Untuk menerapkan dimensi keuangan untuk entri waktu proyek, perhatikan bahwa nilai dimensi default didasarkan pada urutan berikut:
-
-1. Sumber info
-2. Project
-3. Sumber pendanaan
-
-Misalnya, jika dimensi default ditentukan pada sumber daya, itu akan diterapkan melalui default yang ditentukan pada proyek. Demikian pula, dimensi proyek default akan diterapkan melalui default yang ditentukan dalam sumber pendanaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

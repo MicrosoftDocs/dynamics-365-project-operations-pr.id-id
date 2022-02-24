@@ -2,22 +2,24 @@
 title: Mengonfigurasikan tarif tagihan tenaga kerja - lite
 description: Topik ini memberikan informasi tentang cara mengatur tarif tagihan tenaga kerja di Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007600"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181185"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Mengonfigurasikan tarif tagihan tenaga kerja - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tingkat tagihan untuk waktu di Dynamics 365 Project Operations dapat diatur dalam hanya satu mata uang, yang merupakan mata uang pada header Daftar harga.
+Setiap daftar harga memiliki seperangkat harga peran, atau tarif tenaga kerja, yang efektif untuk konteks dan efektivitas tanggal yang disertakan pada header daftar harga. Tarif tagihan untuk waktu dalam Dynamics 365 Project Operations dapat diatur hanya dalam satu mata uang, yakni mata uang pada header daftar harga.
 
 1. Untuk mengkonfigurasikan tarif tagihan tenaga kerja untuk daftar harga penjualan, buat daftar harga berdasarkan header daftar harga. 
 2. Pada tab **harga peran**, di subkisi, pilih **+ harga peran baru**. 
@@ -53,6 +55,3 @@ Contohnya, seorang pengembang dari Fabrikam India yang bekerja pada proyek AS di
     | Pengembang | Fabrikam AS | $150 |
 
 3. Lampirkan daftar harga penjualan, **tarif tagihan Fabrikam AS** ke daftar harga proyek dari kontrak proyek atau ke akun tertentu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

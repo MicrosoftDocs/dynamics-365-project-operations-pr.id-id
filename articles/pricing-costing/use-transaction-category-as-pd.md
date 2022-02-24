@@ -2,16 +2,18 @@
 title: Menggunakan Kategori Transaksi sebagai dimensi harga
 description: Topik ini berisi informasi tentang cara menggunakan bidang Kategori Transaksi sebagai dimensi harga.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996125"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513994"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Menggunakan Kategori Transaksi sebagai dimensi harga
 
@@ -48,6 +50,3 @@ Tabel berikut mencantumkan semua formulir dan tampilan siap pakai, berdasarkan e
 2. Pada halaman **Parameter**, di tab **Dimensi Harga Berbasis Jumlah**, pastikan kisi menampilkan record di entitas **Dimensi Harga**.
 3. Tambahkan **Kategori Transaksi** ke daftar ini dan atur bidang **Berlaku untuk Biaya** dan **Berlaku untuk Penjualan** ke **Ya**.
 4. Di bidang **Jenis Dimensi**, pilih **Berbasis jumlah**, lalu pilih prioritas untuk **Kategori Transaksi** yang terkait dengan biaya dan penjualan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

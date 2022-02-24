@@ -3,6 +3,7 @@ title: Penginstalan data sampel
 description: Aplikasi topik menyediakan informasi tentang menginstal data sampel di Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985550"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144507"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalasi data sampel untuk aplikasi Project Service
 
@@ -86,7 +87,7 @@ Anda harus merencanakan untuk komputer untuk tetap tersambung ke jaringan, dan u
 Fungsi screensaver komputer harus dinonaktifkan. Jika tidak, sesi kredensial untuk penginstalan mungkin akan hilang saat screensaver aktif (kecuali Anda menjaga sesi selalu aktif).
 
 > [!div class="mx-imgBorder"]
-> ![Tangkapan layar pengaturan screensaver, dengan screensaver dinonaktifkan.](media/sample-data-1.png)
+> ![Tangkapan layar pengaturan screensaver, dengan screensaver dinonaktifkan](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Unduh dan ekstrak
 
@@ -135,20 +136,20 @@ Paket data demo memerlukan enam pengguna. Agar paket terinstal dengan benar, lak
     - Fullname Pengguna = "Molly Clark" sebagai manajer akun   
     - Fullname Pengguna = "Spencer Low" sebagai manajer praktik dan proyek  
     - Fullname Pengguna = "Veronica Quek" sebagai anggota tim   
-    - Nama lengkap pengguna = "William Contoso"
+    - Fullname Pengguna = "William Contoso"
   
 2. Untuk tujuan impor data demo, tetapkan enam pengguna atas Peran Administrator sehingga sampel rekaman diimpor dengan benar. 
 
 3. Buka **PkgFolder** lalu Cari dan membuka **ImportUserMapFile.xml**. Perbarui bidang **baru=** ke alamat email pengguna yang terkait di sistem.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot UserMapFile.](media/sample-data-7.png)
+   > ![Screenshot UserMapFile](media/sample-data-7.png)
 
 4. Jika nama lengkap pengguna "Spencer Low" Anda memiliki ID pengguna yang berbeda dari **"spencerl"**, maka Anda harus memperbarui file tambahan. Buka **DemoDataPreImportConfig.xml** file, dan kemudian menemukan **userstocreateandconfigure** tag. Pembaruan tag **\<login\>** dengan loginId (peka huruf besar/kecil). 
 
 5. Kalender pengguna pertama (di **userstocreateandconfigure** tag) digunakan untuk mengisi jam kerja untuk semua sumber daya yang dapat dipesan pada impor data demo. Navigasikan ke **pengaturan** > **keamanan** > **pengguna**, Cari pengguna "Spencer Low" Anda, dan buka pilihan "Jam kerja". Edit jam kerja yang ada, dengan memilih pilihan **seluruh jadwal mingguan berulang dari mulai hingga berakhir**. Pastikan **jam kerja ditetapkan untuk 8 pagi - 5 sore (9 jam), Senin hingga Jumat dan dengan zona waktu yang diatur ke waktu Pasifik (AS & Kanada)**. Hal ini diperlukan untuk memastikan bahwa proyek dan papan jadwal menunjukkan sebagaimana mestinya.
 
-**Rekomendasi:** pertimbangkan untuk membuat cadangan organisasi Anda sekarang, jika Anda perlu Kembalikan ke titik awal jika terjadi kesalahan selama penginstalan data sampel. Untuk informasi lebih lanjut, lihat [instans pencadangan dan pemulihan](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Rekomendasi:** pertimbangkan untuk membuat cadangan organisasi Anda sekarang, jika Anda perlu Kembalikan ke titik awal jika terjadi kesalahan selama penginstalan data sampel. Untuk informasi lebih lanjut, lihat [instans pencadangan dan pemulihan](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Jalankan Package Deployer
 
@@ -172,7 +173,7 @@ Paket data demo memerlukan enam pengguna. Agar paket terinstal dengan benar, lak
 5. Pilih **berikutnya** hingga Anda melihat **konfigurasi Data Demo** dialog.
 
    > [!div class="mx-imgBorder"]
-   > ![Ambil Screenshot dari jendela status Penginstal data demo.](media/sample-data-3.png)
+   > ![Ambil Screenshot dari jendela status Penginstal data demo](media/sample-data-3.png)
 
 6. Sebelum melanjutkan, perhatikan bahwa menginstal data sampel dapat memerlukan waktu hingga satu jam (biasanya ~ 10 menit). Anda harus memastikan bahwa komputer tetap hidup dan tersambung ke jaringan selama seluruh proses penginstalan, dan bahwa sesi Anda tetap aktif.   
 
@@ -191,10 +192,10 @@ Setelah data sampel benar-benar terbuka, masuk sebagai pengguna Spencer Low dan 
 - Jika aplikasi Field Service diinstal, buka **Project Service** > **Pengaturan** > **Daftar harga**. Konfirmasikan bahwa tingkat tagihan dan tingkat biaya sudah ada. Buka **Field Service** > **Pengaturan** > **Daftar harga** dan periksa bahwa tingkat tagihan dan biaya tingkat ada, dengan mata uang yang sesuai, untuk setiap negara/kawasan dalam himpunan data.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot dari daftar harga aktif.](media/sample-data-4.png)
+  > ![Screenshot dari daftar harga aktif](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot unit organisasional aktif.](media/sample-data-5.png)
+  > ![Screenshot unit organisasional aktif](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Catatan teknis
 
@@ -295,7 +296,4 @@ Jika Anda ingin mengubah jam kerja untuk sampel sumber daya dapat dipesan, buka 
 Pilih pengguna (misalnya, Spencer Low) dan Ubah jam kerja dari Spencer ke jam yang akan diterapkan ke beberapa pengguna. Buka **Universal Resource Scheduling** > **Pengaturan** > **Template Jam Kerja** dan edit rekaman **Template Kerja Default**. Di bidang **sumber daya Template**, pilih pengguna dengan jam kerja yang akan diterapkan ke sumber daya lainnya. Buka **Universal Resource Scheduling** > **Penjadwalan** > **Sumber daya** > **Sumber daya Dapat Dipesan Aktif**. Pilih sumber daya yang akan diubah, dan kemudian pilih **Atur kalender**. Pada **Template kerja** daftar drop-down, pilih **Default jam kerja** template atau template lain dengan sumber daya template yang benar. Saat Anda membuka papan jadwal, Anda dapat melihat bahwa sumber daya sekarang telah memperbarui jam kerja.
 
 > [!div class="mx-imgBorder"]
-> ![Tangkapan layar Sumber Daya yang Dapat Dipesan Aktif.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Tangkapan layar Sumber Daya yang Dapat Dipesan Aktif](media/sample-data-6.png)

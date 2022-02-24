@@ -1,25 +1,29 @@
 ---
-title: Mengonfigurasi pembuatan faktur otomatis
-description: Laporan topik menyediakan informasi tentang mengatur dan mengkonfigurasi pembuatan faktur proforma secara otomatis.
+title: Mengonfigurasi pembuatan faktur otomatis - lite
+description: Topik ini menyediakan informasi tentang mengonfigurasikan pembuatan otomatis faktur proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997520"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176570"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Mengonfigurasi pembuatan faktur otomatis 
+# <a name="configure-automatic-invoice-creation---lite"></a>Mengonfigurasi pembuatan faktur otomatis - lite
  
-_**Berlaku untuk:** Penyebaran Lite- faktur dari penawaran hingga proforma, Project Operations untuk skenario berbasis sumber daya/non-stok_
+_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Anda dapat mengonfigurasi pembuatan faktur otomatis di Dynamics 365 Project Operations. Sistem membuat draf faktur proforma berdasarkan jadwal faktur untuk setiap baris kontrak dan kontrak proyek. Jadwal faktur dikonfigurasi pada tingkat baris kontrak. Setiap baris pada kontrak dapat memiliki jadwal faktur yang berbeda, atau jadwal faktur yang sama dapat disertakan pada setiap baris kontrak.
+Anda dapat mengkonfigurasi pembuatan faktur otomatis dalam Dynamics 365 Project Operations. Sistem membuat draf faktur proforma berdasarkan jadwal faktur untuk setiap baris kontrak dan kontrak proyek. Jadwal faktur dikonfigurasi pada tingkat baris kontrak. Setiap baris pada kontrak dapat memiliki jadwal faktur yang berbeda, atau jadwal faktur yang sama dapat disertakan pada setiap baris kontrak.
 
-Bila Anda membuat faktur, sistem selalu membuat minimal satu faktur per kontrak proyek. Dalam kasus tertentu, mungkin terdapat beberapa faktur yang dibuat. Misalnya, jika kontrak memiliki beberapa pelanggan, jumlah faktur yang sama akan dibuat sebagai jumlah pelanggan yang memiliki transaksi yang dapat ditagih ke faktur pada kontrak proyek tersebut.
+Bila Anda membuat faktur, sistem selalu membuat minimal satu faktur per kontrak proyek. Dalam kasus tertentu, mungkin terdapat beberapa faktur yang dibuat.
+
+Misalnya, jika kontrak memiliki beberapa pelanggan, jumlah faktur yang sama akan dibuat sebagai jumlah pelanggan yang memiliki transaksi yang dapat ditagih ke faktur pada kontrak proyek tersebut.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Memahami bagaimana transaksi disertakan dalam faktur 
 
@@ -87,6 +91,3 @@ Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika pros
 
 > [!NOTE]
 > Faktur bets di Project Operations hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

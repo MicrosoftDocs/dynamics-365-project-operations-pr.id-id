@@ -2,9 +2,11 @@
 title: Tinjau sumber daya yang diusulkan
 description: Topik ini menyediakan informasi tentang cara mengusulkan sumber daya proyek.
 author: ruhercul
-ms.date: 08/18/2021
+manager: AnnBe
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
-ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403799"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401177"
 ---
 # <a name="review-proposed-resources"></a>Tinjau sumber daya yang diusulkan
 
@@ -28,44 +30,35 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Manajer sumber daya dapat mengusulkan sumber daya untuk manajer proyek menggunakan permintaan sumber daya.
 
-Untuk memeriksa sumber daya yang diajukan, ikuti langkah-langkah berikut:
+1. Dari kisi permintaan atau permintaan itu sendiri, pilih **Cari sumber daya**.
+2. Di halaman **asisten jadwal**, pilih sumber daya, lalu di panel **buat Pemesanan sumber daya**, di bidang **status Pemesanan**, pilih **Pesan**.
 
-1. Dari kisi **permintaan** atau permintaan itu sendiri, pilih **Cari sumber daya**.
-2. Pada halaman **Asisten Jadwal**, pilih sumber daya, lalu konfirmasikan bahwa semua jam yang diajukan tercakup dalam pemesanan yang diusulkan.
-3. Di panel **Buat Pemesanan Sumber Daya**, atur bidang **Status Pemesanan** ke **Diusulkan**, lalu pilih **Pesan**.
+Terjadi pembaruan status berikut:
 
-    > [!NOTE]
-    > Pengaturan **Status Pemesanan** ke **Diusulkan** tidak akan memesan sumber daya secara definitif dan tidak mengganti sumber daya generik dengan anggota tim yang bernama.
-
-    Terjadi pembaruan status berikut:
-
-    - Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
-    - Pada permintaan sumber daya, status berubah menjadi **perlu ditinjau**.
-    - Pada tab **tim** proyek , nilai **status permintaan** anggota tim generik diubah ke **perlu ditinjau**.
+- Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
+- Pada permintaan sumber daya, status berubah menjadi **perlu ditinjau**.
+- Pada tab **tim** proyek , nilai **status permintaan** anggota tim generik diubah ke **perlu ditinjau**.
 
 Manajer proyek dapat menerima atau menolak usulan tersebut.
 
 Bila manajer sumber daya memproses permintaan sumber daya, mereka dapat menggunakan salah satu dari pendekatan berikut:
 
 - Mengusulkan beberapa sumber daya untuk memenuhi permintaan jika tidak ada sumber daya yang tersedia untuk memenuhi jam yang diperlukan. Jam yang diusulkan kemudian dipecah di antara beberapa sumber daya yang dapat memenuhi jam yang diperlukan. Dalam skenario ini, jam tidak dapat tumpang tindih.
-- Mengusulkan sumber daya yang lebih sedikit daripada yang diperlukan. Dalam skenario ini, kapasitas sumber daya yang diusulkan kurang dari jam yang diperlukan yang ditentukan pemohon. Bila pemohon menerima sumber daya yang diusulkan, persyaratan sumber daya yang tidak terpenuhi dibuat untuk merekam permintaan yang tersisa.
+- Mengusulkan sumber daya yang lebih sedikit daripada yang diperlukan. Dalam skenario ini, kapasitas sumber daya yang diusulkan kurang dari jam yang diperlukan yang ditentukan pemohon. Oleh karena itu, bila pemohon menerima sumber daya yang diusulkan, persyaratan sumber daya yang tidak terpenuhi dibuat untuk merekam permintaan yang tersisa.
 - Memesan beberapa sumber daya untuk memenuhi permintaan jika tidak ada sumber daya yang tersedia untuk menyelesaikan pekerjaan.
 - Memesan sumber daya yang lebih sedikit daripada yang diperlukan. Dalam skenario ini, jam yang dipesan kurang dari jam yang diperlukan. Sistem akan memandu Anda mengajukan sumber daya dan bukan Pemesanan, sehingga pemohon dapat memverifikasi dan melacak permintaan yang tersisa.
 
 ## <a name="resource-availability"></a>Ketersediaan Sumber Daya
 
-Manajer sumber daya harus dapat melihat ketersediaan sumber daya dan memperbarui Pemesanan. Dalam kasus tertentu, tidak ada permintaan resmi (permintaan sumber daya). Namun, manajer sumber daya harus merespons permintaan tidak terencana yang masuk melalui saluran lain seperti email, panggilan telepon, atau pesan instan. Manajer sumber daya menggunakan **papan jadwal** untuk memperbarui sumber daya dan Pemesanan.
+Sangat penting bagi manajer sumber daya untuk dapat melihat ketersediaan sumber daya dan memperbarui Pemesanan. Dalam kasus tertentu, tidak ada permintaan formal (permintaan sumber daya), namun manajer sumber daya harus merespons permintaan yang tidak direncanakan yang berasal dari saluran seperti email, panggilan telepon, atau pesan instan. Manajer sumber daya menggunakan papan jadwal untuk memperbarui sumber daya dan Pemesanan.
 
 Jam kerja sumber daya digunakan sebagai dasar untuk menghitung ketersediaan sumber daya. Pemesanan sumber daya menghabiskan kapasitas sumber daya.
 
-**Papan jadwal** menggunakan warna dan arsiran untuk menampilkan Pemesanan, ketersediaan, dan pesanan berlebihan, dan status pemesanan. Pengaturan di **Papan Jadwal** memungkinkan Anda menampilkan legenda.
+Papan jadwal menggunakan warna dan arsiran untuk menampilkan Pemesanan, ketersediaan, dan pesanan berlebihan, dan juga status pemesanan. Pengaturan di pengaturan papan jadwal memungkinkan Anda menampilkan legenda.
 
-Jika tanda panah menunjuk ke kanan muncul di samping sumber daya yang dapat dipesan individual pada **papan jadwal**, sumber daya dapat diperluas untuk menampilkan rincian pekerjaan yang dipesan sumber dayanya.
+Jika tanda panah menunjuk ke kanan muncul di samping sumber daya yang dapat dipesan individual pada papan jadwal, sumber daya dapat diperluas untuk menampilkan rincian pekerjaan yang dipesan sumber dayanya.
 
 Karena Dynamics 365 Project Operations menggunakan mesin Universal Resource Scheduling, jika Anda juga telah menginstal Dynamics 365 Field Service, Anda dapat melihat rincian pemesanan sumber daya untuk proyek, perintah kerja, dan entitas lain yang telah Anda gunakan untuk memperpanjang penjadwalan.
 
-Untuk melihat rincian tambahan tentang sumber daya individual, klik kanan untuk membuka kartu sumber daya.
+Untuk melihat rincian lebih lanjut tentang sumber daya individual, klik kanan untuk membuka kartu sumber daya.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

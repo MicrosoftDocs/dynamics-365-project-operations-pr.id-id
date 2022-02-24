@@ -2,6 +2,8 @@
 title: Membuat template jam kerja
 description: Topik ini mendeskripsikan bagaimana membuat template jam kerja di Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987395"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981259"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Buat template jam kerja (Project Service)
 
@@ -49,7 +51,7 @@ Untuk membuat template kalender untuk organisasi Anda, ada dua persyaratan utama
 
 1. Buka **Sumber Daya** \> **Sumber daya**.
 2. Buat sumber daya baru untuk referensi di template kalender, atau pilih sumber daya yang ada.
-3. Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](/dynamics365/field-service/set-work-hours-resource.md) agar dapat mengkonfigurasi aturan kalender.
+3. Pilih tab **Jam Kerja** sumber daya, lalu lengkapi petunjuk dalam [Atur jam kerja untuk sumber daya](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) agar dapat mengkonfigurasi aturan kalender.
 
 **Membuat template kalender baru**
 

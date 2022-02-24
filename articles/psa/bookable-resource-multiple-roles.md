@@ -2,10 +2,12 @@
 title: Buat estimasi penjualan dan biaya proyek apabila sumber daya yang dapat dipesan mengisi beberapa peran untuk suatu proyek
 description: Topik ini memberikan informasi tentang cara menggunakan dimensi harga untuk mendukung harga dan biaya untuk sumber daya yang mengisi beberapa peran pada satu proyek.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987485"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145047"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Buat estimasi penjualan dan biaya proyek apabila sumber daya yang dapat dipesan mengisi beberapa peran untuk suatu proyek 
 
@@ -72,6 +74,3 @@ Bila Anda memperluas baris rekaman anggota tim tersebut, Anda dapat melihat tuga
 Saat menavigasi kisi **Estimasi**, Anda akan melihat bahwa kedua tugas untuk sumber daya yang sama harganya berbeda.
 Tugas untuk sumber daya pada tugas A harganya menggunakan nilai atribut **peran** **Pimpinan konsultasi**. Tugas untuk sumber daya yang sama pada tugas B harganya menggunakan nilai atribut **peran** **Teknisi Jaringan**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

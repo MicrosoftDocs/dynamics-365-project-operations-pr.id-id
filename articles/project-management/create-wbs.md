@@ -2,16 +2,18 @@
 title: Membuat struktur rincian kerja
 description: Artikel topik menjelaskan cara membuat WBS (struktur perincian kerja) yang mencakup kontrol dasar di antarmuka penjadwalan baru.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: MT
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928619"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841355"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Membuat struktur rincian kerja (WBS)
 
@@ -91,15 +93,13 @@ Tabel berikut menampilkan atribut jadwal tambahan.
 | Nama | Nama tugas. |
 | ID | ID tugas dalam struktur rincian kerja. |
 
-Sebagai administrator, Anda dapat menentukan bidang kustom pada entitas tugas. Namun bidang tidak dapat ditampilkan pada kisi jadwal. Untuk melihat bidang kustom Anda, tambahkan ke halaman rincian **Tugas Proyek**.
-
 ## <a name="staffing-attributes"></a>Atribut staf
 
-Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemetik sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian mengembalikan anggota tim proyek yang ada atau sumber daya aktif yang dapat dipesan.
+Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.
 
 **Peran**, **unit sumber daya**, dan bidang **nama posisi** digunakan untuk menjelaskan persyaratan staf untuk tugas. Atribut staf ini bersama dengan jadwal tugas digunakan untuk menemukan sumber daya yang tersedia untuk melakukan tugas ini.
 
-   - **Peran:** Tentukan jenis sumber daya yang diperlukan untuk melakukan tugas.,
+   - **Peran**: Tentukan jenis sumber daya yang diperlukan untuk melakukan tugas.
    - **Unit sumber daya**: Tentukan unit asal penetapan sumber daya untuk tugas. Atribut ini mempengaruhi perkiraan biaya dan penjualan untuk tugas jika tingkat biaya dan tagihan untuk sumber daya diatur berdasarkan unit sumber daya.
    - **Nama posisi**: masukkan nama untuk sumber daya generik yang berfungsi sebagai placeholder untuk sumber daya yang pada akhirnya akan melakukan pekerjaan.
 
@@ -116,28 +116,3 @@ Mode tugas tidak berpengaruh pada pembaruan yang dibuat pada tanggal mulai dan b
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Cara pintas keyboard dan aksesibilitas
 
 Kisi **jadwal** sepenuhnya dapat diakses dan dapat digunakan dengan pembaca layar seperti narrator, JAWS, atau NVDA. Anda dapat berpindah melalui area kisi dengan menggunakan tombol panah (sebagaimana di Microsoft Excel), Anda dapat menggunakan tombol tab untuk memajukan melalui elemen antarmuka pengguna interaktif, dan Anda dapat menggunakan tombol panah bawah, tombol Enter, atau spasi untuk memilih dan membuka menu drop-down.
-
-## <a name="project-limitations"></a>Keterbatasan proyek 
-Anda harus mengetahui batasan berikut jika Anda menggunakan struktur perincian kerja di Project Operations. Batas ini berlaku untuk proyek dan tugas. Untuk informasi lebih lanjut, lihat [Batas dan tepi Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Bidang**                                          |  **Batas**           |
-|----------------------------------------------------|----------------------|
-| Tugas total maksimum untuk proyek                  | 500                  |
-| durasi total maksimum untuk proyek               | 3650 hari (10 tahun) |
-| Sumber daya total maksimum untuk proyek              | 150                  |
-| Tautan total maksimum (hanya penerus) untuk proyek | 600                  |
-| bidang kustom total maksimum untuk proyek          | 10                   |
-| Item daftar periksa maksimum per tugas                   | 20                   |
-
-**keterbatasan tugas**
-
-| **Bidang**                               |   **Batas**           |
-|-----------------------------------------|-----------------------|
-| Tingkat hierarki maksimum                 | 10 Tingkat             |
-| Tautan maksimum (penerus + pendahulu) | 20                    |
-| Durasi maksimum tugas daun           | 1250 hari             |
-| Durasi maksimum tugas ringkasan      | 3650 hari (10 tahun)  |
-| Sumber daya maksimum ditetapkan ke tugas    | 20 Sumber Daya          |
-| Rentang tanggal yang didukung untuk tugas         | 1/1/2000 - 31/12/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

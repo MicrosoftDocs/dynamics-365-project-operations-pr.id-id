@@ -2,16 +2,18 @@
 title: Mengestimasi baris kuotasi proyek
 description: Halaman topik ini menyediakan informasi tentang bagaimana membuat estimasi pada baris kuotasi proyek.
 author: rumant
+manager: Annbe
 ms.date: 04/01/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 84283ac055aea802fadbd6814ea65a6d3dc01d29e1e3c6290ef11f72f6a75692
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b941511f842a81764ddd1c05a437578b9fd902ce
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003955"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858792"
 ---
 # <a name="estimate-a-project-quote-line"></a>Mengestimasi baris kuotasi proyek
 

@@ -2,16 +2,18 @@
 title: Menyalin peluang-peluang berbasis proyek
 description: Topik ini memberikan informasi tentang cara menyalin peluang berbasis proyek di Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999725"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181658"
 ---
 # <a name="copy-project-based-opportunities"></a>Menyalin peluang-peluang berbasis proyek
 
@@ -32,6 +34,3 @@ Peluang proyek dapat dengan mudah disalin untuk membuat peluang proyek baru.
     | Salin Harga | Nilai ya/tidak yang menunjukkan apakah harga pada peluang harus disalin dari peluang sumber. | Jika **ya** dipilih, daftar harga akan disalin dari sumber ke peluang target. Jika **tidak** dipilih, daftar harga akan di-default berdasarkan daftar harga terbaru yang diatur. |
 
 3. Pilih **OK**. Sistem membuat salinan peluang proyek berdasarkan parameter yang dipilih dan peluang proyek baru dibuka.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

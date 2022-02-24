@@ -2,6 +2,8 @@
 title: Menyesuaikan entri waktu mingguan
 description: Topik ini menyediakan informasi tentang cara menerapkan aturan bisnis kustom yang mendukung praktik organisasi.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002290"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149637"
 ---
 # <a name="customize-weekly-time-entry"></a>Menyesuaikan entri waktu mingguan 
 
@@ -130,6 +132,3 @@ Anda harus menggunakan validasi plug-in untuk validasi yang memerlukan konteks l
 
 > [!IMPORTANT] 
 > Saat ini, masalah yang diketahui pada halaman TBX mencegah pengguna mengoreksi informasi dan memilih ulang Selesai saat pembaruan gagal dalam validasi plug-in. Untuk mengatasinya, konfigurasikan validasi aturan bisnis untuk mencegah situasi ini sebisa mungkin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

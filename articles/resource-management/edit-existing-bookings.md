@@ -2,16 +2,18 @@
 title: Edit pemesanan
 description: Halaman topik memberikan informasi tentang cara memperbarui dan membuat perubahan pada pemesanan.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008320"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841354"
 ---
 # <a name="edit-bookings"></a>Edit pemesanan
 
@@ -31,6 +33,3 @@ Dari kisi **Team Member**, manajer proyek dapat menyorot sumber daya tertentu, l
 ## <a name="schedule-board"></a>Papan Jadwal
 
 Dari **Papan Jadwal**, Manajer sumber daya memiliki tampilan portofolio untuk semua pemesanan di seluruh organisasi. Dari tampilan ini, Manajer sumber daya dapat memperluas, mempersingkat, atau memindahkan pemesanan yang ada sesuai dengan kemampuan yang ditawarkan dalam **Pertahankan Pemesanan**. Manajer Sumber Daya juga dapat mengganti sumber daya yang ada yang dialokasikan ke pemesanan tertentu dengan mengklik kanan pemesanan, dan memilih **Sumber Daya Pengganti**. Manajer sumber daya juga dapat mengedit kontur pemesanan yang ada dengan mengeklik kanan pemesanan dan memilih **Edit**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

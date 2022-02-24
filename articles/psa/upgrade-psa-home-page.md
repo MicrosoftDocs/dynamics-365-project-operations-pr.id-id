@@ -1,10 +1,11 @@
 ---
 title: Laman beranda peningkatan
 description: Topik ini menunjukkan lokasi untuk menemukan informasi penting tentang fitur baru dan yang diubah di Dynamics 365 Project Service Automation, serta proses peningkatan ke versi terbaru.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006745"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150087"
 ---
 # <a name="upgrade-home-page"></a>Laman beranda peningkatan
 
@@ -64,6 +65,3 @@ Mulai 1 Maret 2020, pelanggan Dynamics PSA tidak akan lagi dapat membuat lingkun
 
 > [!NOTE]
 > Untuk pengalaman terbaik saat Anda menggunakan versi lama dari aplikasi Field Service dan PSA, buka halaman **pengaturan sistem**, dan untuk bidang, bidang **gunakan Antarmuka Terpadu baru saja (disarankan)**, pilih **tidak** karena versi ini tidak dirancang untuk dimuat dengan benar di UCI. Setelah Anda telah menonaktifkan UCI, Anda dapat membuka dan menjalankan versi Field Service dan PSA menggunakan klien web lama. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

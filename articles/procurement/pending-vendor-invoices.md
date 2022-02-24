@@ -2,17 +2,17 @@
 title: Beli bahan non-stok dengan faktur vendor tertunda
 description: Laporan topik menjelaskan cara mencatat faktur vendor yang tertunda.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547293"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993801"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Beli bahan non-stok dengan faktur vendor tertunda
 
@@ -20,7 +20,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Sebagai perusahaan yang mendapatkan bahan non-stok untuk proyek, biayanya dapat dengan segera dicatat terhadap proyek. 
 
-Contohnya, Contoso Robotics US melakukan proyek pembaruan perlengkapan dan memerlukan lisensi perangkat lunak. Lisensi ini diperoleh dari vendor pihak ketiga.  Menggunakan Dynamics 365 Finance, petugas utang dagang mencatat dokumen faktur vendor yang tertunda dan mengaitkan biaya lisensi secara langsung terhadap proyek pembaruan perlengkapan. 
+Contohnya, Contoso Robotics US sedang melakukan proyek pembaruan perlengkapan dan memerlukan lisensi perangkat lunak. Lisensi ini diperoleh dari vendor pihak ketiga.  Menggunakan Dynamics 365 Finance, petugas utang dagang mencatat dokumen faktur vendor yang tertunda dan mengaitkan biaya lisensi secara langsung terhadap proyek pembaruan perlengkapan. 
 
 > [!IMPORTANT]
 > Sebelum Anda menggunakan fungsi yang dijelaskan di topik ini, lihat dan terapkan konfigurasi yang diperlukan. Untuk informasi lebih lanjut, lihat [Mengaktifkan materi non-stok dan faktur vendor yang tertunda](configure-materials-nonstocked.md). 
@@ -45,5 +45,4 @@ Faktur vendor yang tertunda dapat direkam pada halaman **faktur vendor tertunda*
     - Jumlah saldo vendor.
     - Jumlah Pajak Penjualan.
     - Biaya terhadap proyek dicatat ke akun integrasi pengadaan.
-    - Transaksi biaya aktual proyek dalam Dataverse.  Transaksi ini diproses lebih lanjut menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Mem-posting jurnal ini akan memindahkan jumlah tersebut dari akun integrasi pengadaan ke akun biaya proyek. 
-    - Pembelian yang ditagihkan ke pelanggan proyek menggunakan metode penagihan waktu dan bahan. Selain itu, transaksi penjualan belum ditagih dibuat untuk pembelian di Dataverse. Daftar harga produk di Dataverse digunakan untuk harga penjualan dan jumlah transaksi penjualan belum tertagih.
+    - Transaksi aktual proyek di Dataverse. Transaksi ini diproses lebih lanjut menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Mem-posting jurnal ini akan memindahkan jumlah tersebut dari akun integrasi pengadaan ke akun biaya proyek.

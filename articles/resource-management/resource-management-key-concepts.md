@@ -2,16 +2,18 @@
 title: Konsep kunci manajemen sumber daya
 description: Topik ini menyediakan informasi tentang kemampuan manajemen sumber daya di Microsoft Dynamics Project operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994820"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123877"
 ---
 # <a name="resource-management-key-concepts"></a>Konsep kunci manajemen sumber daya
 
@@ -33,6 +35,3 @@ Sumber daya adalah aset terpenting dari organisasi berbasis layanan. Kemampuan u
 
 
 Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau bernama di Project Operations. Anda dapat menggunakan berbagai metode untuk menambah dan menetapkan anggota tim serta mengelola Pemesanan dan tugas. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
