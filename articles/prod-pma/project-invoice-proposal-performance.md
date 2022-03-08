@@ -2,11 +2,9 @@
 title: Kinerja proposal faktur proyek
 description: Laporan topik ini berisi informasi tentang peningkatan performa pada proposal faktur proyek.
 author: Yowelle
-manager: AnnBe
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
-ms.translationtype: HT
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920306"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005710"
 ---
 # <a name="project-invoice-proposal-performance"></a>Kinerja proposal faktur proyek
 
@@ -46,4 +44,6 @@ Selesaikan langkah berikut ini untuk menonaktifkan fitur peningkatan performa pr
 3.  Refresh browser Anda.
 
 > [!NOTE]
-> Performa proposal faktur tidak dapat diterapkan saat aturan penagihan diaktifkan atau proses kumpulan berjalan.
+> Performa proposal faktur tidak dapat diterapkan saat aturan penagihan diaktifkan.
+> 
+> Selama proses kumpulan untuk membuat proposal faktur, jumlah subtugas akan memecah tugas menjadi jumlah maksimum berdasarkan jumlah kontrak dengan transaksi yang dapat ditagih, berapa pun yang telah Anda masukkan. Contohnya, jika Anda memasukkan **3** untuk jumlah subtugas untuk pembuatan proposal faktur dalam kumpulan, dan hanya ada dua kontrak dengan transaksi yang dapat ditagih, hanya dua subtugas yang dibuat.

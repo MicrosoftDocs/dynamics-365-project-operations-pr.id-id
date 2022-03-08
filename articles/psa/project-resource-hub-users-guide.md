@@ -2,8 +2,6 @@
 title: Panduan Pengguna untuk Project Resource Hub
 description: Panduan pengguna akhir untuk Project Resource Hub untuk Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948150"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987260"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Panduan Pengguna untuk Project Resource Hub
 
@@ -54,28 +52,28 @@ Sebelum Anda dapat mulai menggunakan aplikasi Project Resource Hub, Anda harus m
 1.  Bila Anda masuk ke aplikasi seluler, Anda akan melihat halaman MyApps berisi daftar aplikasi yang Anda akses. 
 2.  Pilih **Project Resource Hub**.
 
-![Pilih aplikasi](media/chooseApp_1.png "Pilih aplikasi")
+![Pilih aplikasi.](media/chooseApp_1.png "Pilih aplikasi")
 
 **Bilah Navigasi**
 
-Gunakan bilah navigasi untuk sampai ke area kerja, membuat rekaman, pencarian baru, atau melakukan tugas lainnya. Untuk mengakses perintah lainnya, ketuk ![tombol lainnya](media/MoreButton.png "Tombol Lainnya")
+Gunakan bilah navigasi untuk sampai ke area kerja, membuat rekaman, pencarian baru, atau melakukan tugas lainnya. Untuk mengakses perintah lainnya, ketuk ![tombol lainnya.](media/MoreButton.png "Tombol Lainnya")
 
-![Panel Navigasi](media/NavBar_2.png "Panel Navigasi")
+![Panel Navigasi.](media/NavBar_2.png "Panel Navigasi")
 
 **Favorit dan rekaman baru digunakan**
 
 Favorit dan bagian yang baru-baru ini digunakan memberikan akses cepat ke rekaman, tampilan, dan dasbor. 
 
-- Untuk mengakses bagian ini, ketuk tombol **Menu** ![tombol Menu](media/MenuButton.png "Tombol Menu") di bilah navigasi, dan kemudian ketuk tombol **favorit dan terbaru** ![tombol favorit](media/FavButton.png "Tombol favorit").
+- Untuk mengakses bagian ini, ketuk tombol **Menu** ![tombol Menu.](media/MenuButton.png "Tombol Menu") pada bilah navigasi, lalu ketuk tombol **Favorit dan Terbaru** ![Tombol Fav](media/FavButton.png "Tombol favorit").
 
 - Untuk menyematkan item sebagai favorit, dari daftar **Baru digunakan** item, ketuk pin. Ini akan menyematkan dan memindahkan item ke favorit.
 
-  ![Item Favorit dan Terbaru](media/Favs_3.png "Item Favorit dan Terbaru")
+  ![Item Favorit dan Terbaru.](media/Favs_3.png "Item Favorit dan Terbaru")
  
-## <a name="enter-time"></a>Masukkan waktu
+## <a name="enter-time"></a>Memasukkan waktu
 Masukkan jam Anda setidaknya setiap pekan—atau pada frekuensi yang diminta oleh manajer Anda — untuk memastikan klien Anda ditagih dan Anda dikreditkan dengan benar.
 
-1. Ketuk ![tombol menu](media/MenuButton.png "Tombol Menu"), lalu ketuk **Entri Waktu**. Tombol ini menampilkan kalender.
+1. Ketuk tombol menu ![Tombol menu.](media/MenuButton.png "Tombol Menu") lalu ketuk **Entri Waktu**. Tombol ini menampilkan kalender.
 
 2. Untuk melihat kalender pekan sebelumnya atau minggu depan, ketuk **sebelumnya** atau **berikutnya**. Ketuk **hari ini** untuk kembali ke minggu saat ini.
 

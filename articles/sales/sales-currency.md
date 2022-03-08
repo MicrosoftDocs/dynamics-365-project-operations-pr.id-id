@@ -2,11 +2,9 @@
 title: Mata uang
 description: Topik ini memberikan informasi tentang cara menambahkan dan menghapus jenis mata uang dalam Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642277"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999590"
 ---
 # <a name="currency"></a>Mata uang
 
@@ -71,3 +69,6 @@ Sebelum anda memulai prosedur ini, verifikasikan bahwa peran keamanan anda menca
 
 > [!IMPORTANT]
 >  Anda tidak dapat menghapus mata uang yang digunakan oleh rekaman lainnya; Anda hanya dapat menonaktifkan mereka. Menonaktifkan mata uang catatan tidak menghapus informasi mata uang yang disimpan dalam catatan yang sudah ada, seperti peluang atau pesanan. Namun, Anda tidak akan dapat memilih mata uang dinonaktifkan untuk transaksi yang baru.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,35 +1,23 @@
 ---
-title: Pengaturan dan penerapan data konfigurasi di Common Data Service
+title: Atur dan terapkan data konfigurasi di Common Data Service untuk Project Operations
 description: Topik ini menyediakan informasi tentang mengonfigurasikan dan menerapkan data konfigurasi di Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642232"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078357"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Pengaturan dan penerapan data konfigurasi di Common Data Service 
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Atur dan terapkan data konfigurasi di Common Data Service untuk Project Operations
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-## <a name="prerequisites"></a>Prasyarat
-
-Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyarat berikut harus dipenuhi:
-
-1.  Penyediaan lingkungan CDS dan lingkungan Dynamics 365 Finance untuk Project Operations.
-2.  Informasi entitas hukum dari Dynamics 365 Finance dibagi ke lingkungan CDS. Ini berarti bahwa entitas **perusahaan** dalam CDS memiliki rekaman perusahaan berikut:
-  - THPM
-  - USPM
-  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi
 

@@ -2,18 +2,16 @@
 title: Mengonfigurasi parameter manajemen pengeluaran
 description: Topik ini menjelaskan parameter yang mengontrol perilaku umum dalam manajemen pengeluaran.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121042"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007780"
 ---
 # <a name="configure-expense-management-parameters"></a>Mengonfigurasi parameter manajemen pengeluaran
 
@@ -83,3 +81,6 @@ Topik ini menjelaskan parameter yang mengontrol perilaku umum dalam manajemen pe
 | Tampilkan pengesahan anti-korupsi   | Pilih pilihan ini untuk menampilkan teks antikorupsi saat laporan pengeluaran dibuat. Kategori pengeluaran tertentu kemudian dapat diaktifkan yang akan memerlukan pengesahan antikorupsi untuk dipilih pada laporan pengeluaran. Misalnya, kategori hadiah yang terkait dengan pengeluaran resmi pemerintah mungkin mengharuskan karyawan mengkonfirmasi bahwa pengeluaran tersebut memenuhi kebijakan perusahaan yang terkait dengan pejabat pemerintah. |
 | Pesan antikorupsi untuk pemohon | Masukkan teks yang akan ditampilkan kepada karyawan yang membuat laporan pengeluaran. Untuk memasukkan teks spesifik bahasa yang akan ditampilkan, berdasarkan bahasa pengguna, pilih **terjemahan**. |
 | Pesan antikorupsi untuk pemberi persetujuan  | Masukkan teks yang akan ditampilkan kepada pemberi persetujuan ketika laporan pengeluaran dibuat. Untuk memasukkan teks spesifik bahasa yang akan ditampilkan, berdasarkan bahasa pengguna, pilih **terjemahan**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177335"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273203"
 ---
 # <a name="manage-project-contracts"></a>Mengelola kontrak proyek
 
@@ -33,3 +33,6 @@ Daftar semua kontrak proyek dapat dilihat pada halaman daftar **kontrak**.
 2. Pilih **pengalih tampilan** (panah drop-down di sebelah nama tampilan) untuk memilih tampilan terfilter lainnya. Anda dapat membuat tampilan sendiri dengan kriteria filter kustom.
 
 Kontrak dapat dibuat atau dihapus dari halaman daftar ini atau halaman detail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

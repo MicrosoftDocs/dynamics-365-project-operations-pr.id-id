@@ -1,9 +1,9 @@
 ---
-title: Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance
+title: Sinkronisasikan kontrak dan proyek proyek secara langsung dari Project Service Automation ke Finance and Operations
 description: Topik ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan kontrak dan proyek secara langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 12/17/2020
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078618"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance 
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronisasikan kontrak dan proyek proyek secara langsung dari Project Service Automation ke Finance and Operations
 
 [!include[banner](../includes/banner.md)]
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Topik ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan kontrak dan proyek secara langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
@@ -53,24 +51,24 @@ Untuk mengakses template yang tersedia, di Pusat admin Microsoft Power Apps, pil
 Template berikut dan tugas yang mendasari digunakan untuk mensinkronisasikan proyek dan kontrak proyek dari Project Service Automation ke Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Mengintegrasikan dengan Dynamics 365 Project Service Automation v2.x
-- **Nama template dalam integrasi Data**: Proyek dan kontrak (Project Service Automation ke Finance)
+- **Nama template di integrasi data:** Proyek dan kontrak (PSA ke Fin and Ops)
 - **Nama tugas dalam proyek**
 
-    - Kontrak proyek Project Service Automation ke Finance
-    - Proyek Project Service Automation ke Finance
-    - Baris kontrak proyek Project Service Automation ke Finance
-    - Tahapan baris kontrak proyek Project Service Automation ke Finance
+    - PSA kontrak proyek untuk Fin and Ops
+    - PSA proyek ke Fin and Ops
+    - Baris kontrak proyek ke Fin and Ops
+    - Tonggap pencapaian baris kontrak proyek ke Fin and Ops
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Mengintegrasikan dengan Dynamics 365 Project Service Automation v3.x
 Ada perubahan skema dalam Project Service Automation yang mempengaruhi template tonggak garis kontrak proyek dan penggunaan template versi v2 diperlukan untuk mengintegrasikan Project Service Automation v3. x dengan Dynamics 365.
 
-- **Nama template dalam integrasi Data**: Proyek dan kontrak (Project Service Automation 3.x ke Finance) - v2
+- **Nama template di integrasi data:** Proyek dan kontrak (PSA 3.x ke Fin and Ops) - v2
 - **Nama tugas dalam proyek**
 
-    - Kontrak proyek Project Service Automation ke Finance
-    - Proyek Project Service Automation ke Finance
-    - Baris kontrak proyek Project Service Automation ke Finance
-    - Tahapan baris kontrak proyek Project Service Automation ke Finance
+    - PSA kontrak proyek untuk Fin and Ops
+    - PSA proyek ke Fin and Ops
+    - Baris kontrak proyek ke Fin and Ops
+    - Tonggap pencapaian baris kontrak proyek ke Fin and Ops
 
 Sebelum sinkronisasi kontrak proyek dan proyek dapat terjadi, Anda harus mensinkronisasikan akun.
 
@@ -87,8 +85,7 @@ Sebelum sinkronisasi kontrak proyek dan proyek dapat terjadi, Anda harus mensink
 
 Kontrak proyek dikelola dalam Project Service Automation, dan disinkronisasi ke Finance sebagai kontrak proyek. Sebagai bagian dari template integrasi, Anda dapat mengatur sumber integrasi dalam Finance untuk kontrak proyek.
 
-Proyek waktu dan material serta harga tetap dikelola di Project Service Automation dan disinkronisasikan ke Finance sebagai proyek. Sebagai bagian dari integrasi template, Anda dapat mengatur sumber integrasi untuk proyek di Finance. Saat ini, hanya proyek waktu dan material serta proyek harga tetap yang didukung.
-
+Proyek Waktu material dan proyek harga tetap dikelola dalam Project Service Automation, dan disinkronisasi ke Finance sebagai proyek. Sebagai bagian dari template integrasi, Anda dapat mengatur sumber integrasi dalam Finance untuk proyek.
 
 Baris kontrak proyek dikelola dalam Project Service Automation, dan disinkronisasi ke Finance sebagai aturan penagihan kontrak proyek. Jika metode penagihan berbeda dari jenis proyek default, sinkronisasi akan memperbarui jenis proyek untuk baris kontrak proyek dan grup proyek.
 
@@ -114,7 +111,7 @@ Bila solusi integrasi Project Service Automation ke Finance diterapkan, skrip pe
 - **SourceDataID** untuk kontrak proyek dan proyek dapat diperbarui ke nilai yang berbeda atau dihapus dari pemetaan. Nilai template default adalah **Project Service Automation**.
 - Pemetaan **paymentterms** harus diperbarui sehingga mencerminkan persyaratan pembayaran yang valid di Finance. Anda juga dapat menghapus pemetaan dari tugas proyek. Peta nilai default memiliki nilai default untuk data demo. Tabel berikut Menampilkan nilai dalam Project Service Automation.
 
-    | Nilai | KETERANGAN   |
+    | Nilai | Deskripsi   |
     |-------|---------------|
     | 1     | Jatuh tempo 30 hari        |
     | 2     | Diskon 2% untuk pembayaran 10 hari setelah tanggal faktur, jatuh tempo 30 hari |
@@ -123,7 +120,7 @@ Bila solusi integrasi Project Service Automation ke Finance diterapkan, skrip pe
 
 ## <a name="power-query"></a>Power Query
 
-Gunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi berikut terpenuhi:
+Anda harus menggunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi berikut terpenuhi:
 
 - Anda memiliki pesanan penjualan di Dynamics 365 Sales.
 - Anda memiliki beberapa unit organisasi dalam Project Service Automation, dan unit organisasi ini akan dipetakan ke beberapa entitas hukum di keuangan.
@@ -131,7 +128,7 @@ Gunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi beri
 Jika anda harus menggunakan Power Query, ikuti petunjuk berikut:
 
 - Template proyek dan kontrak (PSA untuk Fin dan Ops) memiliki filter default yang mencakup hanya pesanan penjualan jenis **item kerja (msdyn\_ordertype = 192350001)**. Filter ini membantu menjamin bahwa kontrak proyek tidak dibuat untuk pesanan penjualan di Finance. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini.
-- Buat filter Power Query yang mencakup hanya organisasi kontrak yang harus disinkronisasi ke entitas hukum dari rangkaian sambungan integrasi. Misalnya, kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono AS harus disinkronisasikan dengan entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
+- Anda harus membuat filter Power Query yang mencakup hanya organisasi kontrak yang harus disinkronisasi ke entitas hukum dari rangkaian sambungan integrasi. Misalnya, kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono AS harus disinkronisasikan dengan entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
 

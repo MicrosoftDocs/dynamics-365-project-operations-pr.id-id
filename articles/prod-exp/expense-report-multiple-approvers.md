@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078640"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Beberapa pemberi persetujuan pada laporan pengeluaran
+
+[!include [banner](../includes/banner.md)]
 
 Tergantung pada kebijakan persetujuan pengeluaran organisasi Anda, lebih dari satu orang mungkin harus menyetujui laporan pengeluaran yang diajukan oleh seorang karyawan. Bila Anda mengkonfigurasi proses alur kerja untuk persetujuan laporan pengeluaran, Anda dapat menambahkan elemen alur kerja yang mencakup tugas atau langkah-langkah untuk satu pemberi izin laporan pengeluaran. Misalnya, Anda mungkin mengharuskan semua laporan biaya disetujui pertama oleh manajer karyawan yang mengajukan laporan dan kemudian oleh koordinator utang dagang.
 
@@ -40,6 +42,3 @@ Jika Anda memutuskan untuk meminta beberapa penyetuju laporan pengeluaran, Anda 
 
     1. Manajer karyawan menyetujui laporan pengeluaran.
     2. Pemilik anggaran menyetujui laporan pengeluaran.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Konfigurasikan biaya standar untuk tenaga kerja dan pengeluaran
 description: Topik ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan pengeluaran untuk proyek.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078541"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigurasikan biaya standar untuk tenaga kerja dan pengeluaran
 
@@ -52,6 +54,3 @@ Topik ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan penge
 22. Di bidang **harga**, masukkan angka. Harga penjualan aktual, yang diterapkan saat pekerja memasukkan transaksi dalam jurnal pengeluaran, adalah harga penjualan dengan tingkat detail tertinggi. Misalnya, jika harga penjualan Umum dan khusus pekerja ditetapkan, harga penjualan khusus pekerja digunakan.  
 23. Pilih **Simpan**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

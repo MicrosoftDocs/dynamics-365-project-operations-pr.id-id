@@ -1,42 +1,27 @@
 ---
-title: Membuat faktur proforma manual
-description: Topik ini menyediakan informasi tentang membuat faktur proforma.
+title: Faktur proforma
+description: Laporan topik memberikan informasi tentang faktur proforma di Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128062"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866865"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Membuat faktur proforma manual
+# <a name="proforma-invoices"></a>Faktur proforma
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Faktur memberikan tingkat persetujuan kepada manajer proyek kedua sebelum membuat faktur untuk pelanggan. Tingkat persetujuan pertama diselesaikan saat entri waktu dan pengeluaran yang diajukan anggota tim proyek disetujui.
+Faktur proforma memberikan tingkat persetujuan kepada manajer proyek kedua sebelum membuat faktur untuk pelanggan. Tingkat persetujuan pertama diselesaikan saat entri waktu, pengeluaran, dan bahan yang diajukan anggota tim proyek disetujui. Faktur proforma terkonfirmasi tersedia di modul Akuntansi Proyek pada Project Operations. Akuntan proyek dapat melakukan pembaruan tambahan seperti pajak penjualan, akuntansi, dan tata letak faktur.
 
-Dynamics 365 Project Operations tidak dirancang untuk menghasilkan faktur untuk pelanggan, karena alasan berikut:
-
-- Tidak berisi informasi pajak.
-- Tidak dapat mengkonversi mata uang lain ke mata uang faktur dengan menggunakan nilai tukar yang dikonfigurasi dengan benar.
-- Tidak dapat memformat faktur dengan benar sehingga dapat dicetak.
-
-Namun, Anda dapat menggunakan sistem keuangan atau akuntansi untuk membuat faktur sisi Pelanggan yang menggunakan informasi dari proposal faktur yang dibuat.
 
 ## <a name="creating-project-invoices"></a>Membuat Faktur Proyek
 
@@ -50,7 +35,7 @@ Ikuti langkah ini untuk membuat faktur untuk kontrak proyek tertentu.
 
 - Pada halaman daftar **kontrak proyek**, buka kontrak proyek, lalu pilih **buat faktur**.
 
-    Faktur dibuat untuk semua transaksi untuk kontrak proyek yang dipilih yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, tonggak waktu, dan baris kontrak berbasis produk.
+    Faktur dibuat untuk semua transaksi untuk kontrak proyek yang dipilih yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, bahan, tonggak prestasi, dan baris jurnal penjualan belum tertagih lainnya.
 
 Ikuti langkah berikut untuk membuat faktur secara massal.
 
@@ -60,7 +45,7 @@ Ikuti langkah berikut untuk membuat faktur secara massal.
 
 2. Pilih **OK** untuk menutup kotak pesan.
 
-    Faktur dibuat untuk semua transaksi di baris kontrak yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, tonggak waktu, dan baris kontrak berbasis produk.
+    Faktur dibuat untuk semua transaksi di baris kontrak yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, bahan, tonggak prestasi, dan baris jurnal penjualan belum tertagih lainnya.
 
 3. Untuk melihat faktur yang dihasilkan, buka **Sales** \> **Penagihan** \> **Faktur**. Anda akan melihat satu faktur untuk setiap kontrak proyek.
 
@@ -93,11 +78,10 @@ Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika pros
  
 ### <a name="edit-a-draft-invoice"></a>Mengedit faktur draft
 
-Bila Anda membuat faktur draf proyek, Semua transaksi penjualan yang tidak ditagih yang dibuat saat entri waktu dan pengeluaran disetujui akan ditarik ke faktur. Anda dapat melakukan penyesuaian berikut saat faktur masih dalam tahap draf:
+Bila Anda membuat faktur draf proyek, Semua transaksi penjualan yang tidak ditagih yang dibuat saat entri penggunaan waktu, pengeluaran, dan bahan disetujui akan ditarik ke faktur. Anda dapat melakukan penyesuaian berikut saat faktur masih dalam tahap draf:
 
 - Hapus atau edit rincian baris faktur.
 - Edit dan sesuaikan jenis kuantitas dan penagihan.
-- Tambahkan waktu, pengeluaran, dan biaya secara langsung sebagai transaksi pada faktur. Anda dapat menggunakan fitur ini jika baris faktur dipetakan ke baris kontrak yang memungkinkan untuk kelas transaksi ini.
 
 Pilih **konfirmasikan** untuk mengonfirmasi faktur. Tindakan konfirmasi adalah tindakan satu arah. Bila Anda memilih **konfirmasikan**, sistem akan membuat faktur hanya baca dan membuat aktual penjualan yang ditagih dari setiap detail baris faktur untuk setiap baris faktur. Jika detail baris faktur merujuk penjualan yang belum ditagih, sistem juga akan membalikkan penjualan yang belum ditagih. (Detail baris faktur apa pun yang dibuat dari entri waktu atau biaya akan merujuk pada penjualan yang belum ditagih.) Sistem integrasi buku besar dapat menggunakan pembalikan ini untuk membalikkan pekerjaan proyek dalam proses (WIP) untuk tujuan akuntansi.
 
@@ -111,3 +95,6 @@ Setelah Anda mengonfirmasikan faktur koreksi, aktual penjualan yang belum ditagi
 
 - Penjualan yang ditagih untuk enam jam.
 - Tagihan penjualan yang belum ditagih untuk dua jam yang tersisa. Transaksi ini dapat ditagih nanti atau ditandai sebagai tidak dikenakan biaya, tergantung pada negosiasi dengan pelanggan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

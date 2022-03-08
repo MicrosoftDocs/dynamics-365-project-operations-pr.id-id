@@ -2,8 +2,6 @@
 title: Bekerja dengan model data Project Service Automation
 description: Topik ini menyediakan informasi tentang cara bekerja dengan model data.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147657"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008810"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -123,3 +121,6 @@ Saat Anda bekerja dengan entitas **aktual**, penting bagi Anda untuk memahami tr
 Entitas **asal transaksi** merekam asal rekaman **aktual**, dan entitas **sambungan transaksi** merekam rekaman terkait untuk rekaman **aktual**. Selain itu, rekaman **aktual** berisi referensi proyek, kontrak proyek (pesanan), sumber daya dapat dipesan, dan pelanggan.
 
 ![Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual](media/PS-Reporting-image6.png "Diagram yang menunjukkan koneksi transaksi, asal dan Relasi aktual")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Yang baru di bulan Desember 2020 - penyebaran Project Operations Lite - menangani faktur proforma
 description: Topik ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Desember 2020 penyebaran Project Operations Lite -menangani faktur proforma.
 author: sigitac
+manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994050"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707677"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Yang baru di bulan Desember 2020 - penyebaran Project Operations Lite - menangani faktur proforma
 
@@ -55,6 +57,3 @@ Tabel berikut mencantumkan pembaruan Project Operations di lingkungan Dataverse 
 | Waktu dan pengeluaran | 2034882 | Tombol **Baru** ditampilkan dua kali pada bilah perintah untuk entri waktu apabila Dynamics 365 Field Service diinstal. |
 | Waktu dan pengeluaran | 2056028 | Perbarui halaman **Edit Time** untuk menyertakan baris waktu. |
 | Waktu dan pengeluaran | 1983747 | Diagram entri waktu menampilkan data tambahan. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Lihat pemanfaatan sumber daya yang dikenakan biaya
 description: Topik ini menyediakan informasi tentang tampilan pemanfaatan sumber daya.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992838"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122167"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Lihat pemanfaatan sumber daya yang dikenakan biaya
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Tampilan pemanfaatan** pada halaman **pemanfaatan sumber daya Project Service** menampilkan pemanfaatan yang dikenai biaya untuk setiap sumber daya yang dapat dipesan. Karena tampilan didasarkan pada papan jadwal, Anda akan menemukan banyak fungsi yang sama.
 
@@ -99,6 +99,3 @@ Jika Anda tidak melihat pemanfaatan dikenakan biaya, berikut adalah beberapa hal
   - Peran pada baris kontrak proyek yang mendukung proyek telah ditetapkan untuk tidak dikenakan biaya.
   - Proyek tidak memiliki baris kontrak terkait.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

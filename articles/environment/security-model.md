@@ -2,18 +2,16 @@
 title: Model keamanan
 description: Topik ini memberikan informasi tentang model keamanan di Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642907"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002248"
 ---
 # <a name="security-model"></a>Model keamanan
 
@@ -58,7 +56,7 @@ Grup memungkinkan izin proyek dan mendukung artefak kolaborasi agar dapat dikerj
 
 Project Operations tidak membuat grup melalui tindakan implisit dan hanya melakukannya melalui tindakan eksplisit grup penekan.
 
-Pencarian anggota grup di dialog **manajemen grup**, terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan. Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Pencarian anggota grup di dialog **manajemen grup**, terbatas untuk mereka yang ditetapkan sebagai bagian dari grup keamanan lingkungan. Untuk informasi lebih lanjut, lihat [Mengontrol akses pengguna ke lingkungan: grup keamanan dan lisensi](/power-platform/admin/control-user-access).
 
 ![Mode grup](./media/groupsmode.png)
 
@@ -70,7 +68,7 @@ Pencarian anggota grup di dialog **manajemen grup**, terbatas untuk mereka yang 
 ## <a name="deployment-recommendation"></a>Rekomendasi penyebaran
 Seiring model kolaborasi Office Group berkembang, fungsi akan ditambahkan untuk memberikan kontrol yang lebih rinci dari waktu ke waktu. Pelanggan yang menyebarkan Project Operations saat ini didorong untuk fokus pada model keamanan Microsoft Dynamics 365 tradisional.
 
-Untuk informasi lebih lanjut, lihat [keamanan di Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Untuk informasi lebih lanjut, lihat [keamanan di Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Keamanan Microsoft Dynamics 365 Finance dan Project Operations
 Operasi proyek mencakup peran berikut:
@@ -78,6 +76,9 @@ Operasi proyek mencakup peran berikut:
 - Manajer Proyek
 - Akuntan proyek
 
-Untuk informasi lebih lanjut tentang peran keamanan di Finance, lihat [keamanan berbasis peran](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Untuk informasi lebih lanjut tentang peran keamanan di Finance, lihat [keamanan berbasis peran](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

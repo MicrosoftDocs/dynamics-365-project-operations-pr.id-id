@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 0416e93944e7b6686a0e4da1d633188dd51e590b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849628"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279367"
 ---
 # <a name="resource-reconciliation-overview"></a>Ikhtisar rekonsiliasi sumber daya
 
@@ -48,3 +48,6 @@ Jika Anda memiliki penetapan tugas untuk sumber daya, pilih kekurangan pemesanan
 Pemesanan yang dibuat melalui tindakan **Perluas Pemesanan** dikaitkan dengan kebutuhan proyek utama. Bila perluasan diawali, persyaratan khusus yang harus diperluas tidak dapat ditentukan karena sumber daya mungkin terkait dengan lebih dari satu persyaratan untuk proyek.
 
 Manajer proyek atau manajer sumber daya kemudian dapat menggunakan papan jadwal untuk mengelola setiap situasi dengan sumber daya yang dipesan berlebihan di luar kapasitasnya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

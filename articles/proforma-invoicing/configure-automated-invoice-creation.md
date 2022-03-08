@@ -2,18 +2,16 @@
 title: Mengonfigurasi pembuatan faktur otomatis
 description: Topik ini menyediakan informasi tentang cara mengkonfigurasi sistem untuk menghasilkan faktur secara otomatis.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122437"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992660"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Mengonfigurasi pembuatan faktur otomatis
 
@@ -45,3 +43,6 @@ Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika pros
 
 > [!NOTE]
 > Faktur bets hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Hal yang sama berlaku untuk baris kontrak berbasis proyek.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

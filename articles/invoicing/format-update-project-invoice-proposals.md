@@ -2,18 +2,16 @@
 title: Mengelola proposal faktur proyek
 description: Laporan topik ini memberikan rincian tentang memproses faktur yang dihadapi pelanggan dengan Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
-ms.translationtype: HT
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989915"
 ---
 # <a name="manage-project-invoice-proposals"></a>Mengelola proposal faktur proyek
 
@@ -80,7 +78,8 @@ Baris kontrak proyek yang menggunakan metode penagihan harga tetap ditagihkan me
     - **Pelanggan** Akan selalu di-default ke grup pajak penjualan penagihan dari pelanggan.
     - **Pencarian** Akan mencari di semua entitas di daftar ini dan memilih nilai pertama yang tersedia. Pencarian dimulai dengan entitas **Proyek**, kemudian entitas **kontrak Proyek**, dan kemudian entitas **Pelanggan**.
 
-- **Grup pajak penjualan item tahapan harga tetap** digunakan untuk default nilai ke bidang **grup pajak penjualan Item**.
+- **Grup pajak penjualan item tahapan harga tetap** digunakan sebagai nilai default pada bidang **grup pajak penjualan Item** untuk tahapan penagihan. Akuntan dapat memeriksa dan memodifikasi nilai ini pada halaman **transaksi Cicilan**. Sistem menggunakan nilai dari transaksi cicilan saat membuat baris proposal faktur proyek.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensi keuangan
 
@@ -132,7 +131,7 @@ Halaman **Format proposal faktur** memungkinkan mengelompokkan transaksi kustom 
 
 Manajemen cetak menggunakan file laporan yang berbeda untuk dicetak, menentukan tujuan, dan menyesuaikan teks footer untuk faktur. Manajemen cetak dapat diatur pada tingkat modul, namun pengaturan ini dapat ditimpa untuk pelanggan, kontrak, atau proposal faktur tertentu. Untuk mengakses fungsi ini pada halaman **proposal faktur proyek**, pilih **Cetak** > **manajemen Cetak**.
 
-Konfigurasi manajemen cetak ditampilkan sebagai tampilan pohon, dengan setiap tingkat node menampilkan dokumen yang tersedia untuk disesuaikan. Anda dapat menetapkan hasil cetak kustom pada tingkat dokumen proposal faktur, modul, pelanggan, atau kontrak. Untuk memodifikasi hasil cetak dokumen asli, perluas node yang diinginkan dan pilih **item Asli**. Pada bidang **Format laporan**, pilih format laporan yang akan digunakan untuk cetak. Anda dapat menggunakan format laporan kustom menggunakan [kerangka kerja Manajemen Dokumen Bisnis](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Konfigurasi manajemen cetak ditampilkan sebagai tampilan pohon, dengan setiap tingkat node menampilkan dokumen yang tersedia untuk disesuaikan. Anda dapat menetapkan hasil cetak kustom pada tingkat dokumen proposal faktur, modul, pelanggan, atau kontrak. Untuk memodifikasi hasil cetak dokumen asli, perluas node yang diinginkan dan pilih **item Asli**. Pada bidang **Format laporan**, pilih format laporan yang akan digunakan untuk cetak. Anda dapat menggunakan format laporan kustom menggunakan [kerangka kerja Manajemen Dokumen Bisnis](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>posting proposal faktur
 
@@ -143,3 +142,6 @@ Untuk melihat faktur sebelum posting, kosongkan kotak centang **Posting**. **Pro
 Selain halaman **Proposal faktur**, proposal faktur juga dapat diposting dengan menjalankan pekerjaan berkala, **Posting proposal faktur**. Untuk menemukan pekerjaan ini, buka **Manajemen proyek dan akuntansi** > **Berkala** > **Faktur Proyek** > **Proposal faktur berkala**.
 
 Halaman ini menampilkan semua proposal faktur yang siap diposting. Anda dapat menjadwalkan posting proposal faktur dengan memilih **Kumpulan**. Atur **parameter Pemrosesan kumpulan** ke **Ya** dan atur pengulangan pemrosesan kumpulan dengan memilih **Pengulangan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

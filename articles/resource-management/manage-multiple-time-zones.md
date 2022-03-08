@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e0cf24a9916f7ceedee0e9d6fa9399a88c3e4b91
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279547"
 ---
 # <a name="manage-time-zones"></a>Mengelola zona waktu
 
@@ -68,3 +68,6 @@ Setelah fungsi perpanjangan Pemesanan telah digunakan untuk setiap sumber daya, 
 Perhatikan bahwa melihat lebih dekat rincian pemesanan menunjukkan perbedaan dalam waktu mulai pemesanan. Pemesanan tidak dimulai lebih awal dari waktu mulai kontur penetapan dan tidak lebih awal dari waktu mulai yang tersedia untuk sumber daya.
 
 ![Pemesanan baru sumber daya di papan jadwal](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

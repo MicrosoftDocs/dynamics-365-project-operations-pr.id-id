@@ -2,8 +2,6 @@
 title: Temukan proyek berikutnya dengan app Project Finder Mobile
 description: Bagaimana menemukan proyek berikutnya dengan app Project Finder Mobile untuk Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149277"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990782"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Temukan proyek berikutnya dengan app Project Finder Mobile (Project Service)
 
@@ -40,12 +38,15 @@ Dengan app Project Finder Mobile pada [!INCLUDE[tn_iphone](../includes/tn-iphone
   
  Ketuk tanda panah di sebelah kanan proyek yang Anda tertarik untuk melihat rincian lebih lanjut dan mendaftar untuk itu.  
   
- ![Daftar proyek yang cocok dengan keterampilan dalam aplikasi seluler Project Finder](../psa/media/project-service-project-finder-list.png "Daftar proyek yang cocok dengan keterampilan dalam aplikasi seluler Project Finder")  
+ ![Daftar proyek yang cocok dengan keterampilan dalam aplikasi Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Daftar proyek yang cocok dengan keterampilan dalam aplikasi seluler Project Finder")  
   
 ## <a name="update-your-skills"></a>Perbarui keterampilan Anda  
  Tekan tombol profil di kanan bawah layar untuk memperbaharui keahlian Anda dan tingkat kemampuan.  
   
- ![Tombol Profil di app Mobile Project Finder](../psa/media/project-service-project-finder-profile.png "Tombol Profil di app Mobile Project Finder")  
+ ![Tombol Profil di aplikasi Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Tombol Profil di app Mobile Project Finder")  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Waktu, biaya dan kolaborasi](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

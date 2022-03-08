@@ -2,8 +2,6 @@
 title: Dasbor
 description: Topik ini menyediakan informasi tentang dasbor pelaporan yang disertakan di Dynamics 365 Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147792"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990545"
 ---
 # <a name="dashboards"></a>Dasbor
 
@@ -35,8 +33,11 @@ Dynamics 365 Project Service Automation mencakup dua dasbor sistem: **manajer pr
 
 ## <a name="practice-manager"></a>Manajer praktik 
 
-Dasbor **manajer praktik** memberikan pengalaman dasbor grafis untuk melacak biaya, penjualan, dan margin kotor dan pemanfaatan. Ini juga memungkinkan manajer praktik mengelompokkan informasi berdasarkan berbagai dimensi, seperti peran pelanggan, proyek, atau sumber daya. Untuk informasi lebih lanjut tentang cara membuat dan menyesuaikan dasbor, lihat [membuat atau mengedit dasbor](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Dasbor **manajer praktik** memberikan pengalaman dasbor grafis untuk melacak biaya, penjualan, dan margin kotor dan pemanfaatan. Ini juga memungkinkan manajer praktik mengelompokkan informasi berdasarkan berbagai dimensi, seperti peran pelanggan, proyek, atau sumber daya. Untuk informasi lebih lanjut tentang cara membuat dan menyesuaikan dasbor, lihat [membuat atau mengedit dasbor](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Manajer Sumber Daya 
 
 Dasbor **manajer sumber daya** memberikan manajer sumber daya pengalaman dasbor grafis untuk memantau permintaan sumber daya, dan kebutuhan dan pemanfaatan sumber daya. Hal ini juga memungkinkan manajer sumber daya memotong informasi yang dipantau dengan berbagai dimensi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

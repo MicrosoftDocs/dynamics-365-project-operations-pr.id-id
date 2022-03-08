@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008050"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433522"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Juli 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok
 
@@ -20,7 +20,7 @@ ms.locfileid: "7008050"
 
 Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
-   - Project Operations di lingkungan Microsoft Dataverse versi 4.12.0.148 or 4.12.0.152.
+   - Project Operations dalam lingkungan Microsoft Dataverse versi 4.12.0.148.
    - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi version 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
@@ -79,7 +79,7 @@ Jika Anda menemui masalah saat memulai peta, ikuti petunjuk dalam bagian [masala
 | Umum                       | 2296857              | Pelacakan progres untuk pekerjaan yang berjalan lama.                                                                                                                                                                        |
 | Umum                       | 2253682              | Solusi penulisan ganda Project Operations tidak harus diinstal bila inti penulisan ganda diinstal di lingkungan tanpa solusi orkestrasi penulisan ganda.                                                |
 | Umum                       | 2316420              | Penyediaan inti Project Service gagal jika unit bisnis pengguna aplikasi diubah.                                                                                                                     |
-| Umum                       | 2376405              | Memperbaiki masalah pembaruan yang didorong penerbit (Pembaruan kualitas tersedia dalam versi 4.12.0.152)                                                                                                                     |
+
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Manajemen proyek dan akuntansi di Dynamics 365 Finance
 
 | Area fitur                      | Nomor Referensi | Pembaruan kualitas                                                                                                                                                                                                                                                                                                                |

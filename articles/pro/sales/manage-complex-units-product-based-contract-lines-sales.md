@@ -2,18 +2,16 @@
 title: Mengelola unit yang kompleks untuk baris kontrak berbasis produk - lite
 description: Topik ini menyediakan informasi tentang cara mendukung penjualan produk berbasis langganan.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177380"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003370"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Mengelola unit yang kompleks untuk baris kontrak berbasis produk - lite
 
@@ -46,3 +44,6 @@ Untuk membuat faktor kuantitas dari properti produk, selesaikan langkah berikut.
 7. Ulangi langkah 2-6 untuk semua properti yang bersama-sama akan membuat kuantitas untuk baris kontrak berbasis produk.
 
 Dengan mengatur faktor kuantitas, saat pengguna membuat baris kontrak untuk produk ini, kuantitas baris kontrak terkunci. Kuantitas kemudian dihitung sebagai produk dari nilai properti untuk baris kontrak tersebut.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

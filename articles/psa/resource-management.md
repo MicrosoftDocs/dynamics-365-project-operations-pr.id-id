@@ -2,10 +2,9 @@
 title: Laman beranda proyek sumber daya
 description: Topik ini memberikan informasi tentang kemampuan manajemen sumber daya di Project Service Automation (PSA) untuk Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147431"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984785"
 ---
 # <a name="resourcing-projects-home-page"></a>Laman beranda proyek sumber daya
 
@@ -53,3 +52,6 @@ Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau berna
 - [Pesan sumber daya bernama dari persyaratan sumber daya.](book-named-resource.md)
 - [Ajukan permintaan sumber daya](submit-resource-request.md)
 - [Menerima atau menolak sumber daya proyek yang diusulkan dari permintaan sumber daya](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

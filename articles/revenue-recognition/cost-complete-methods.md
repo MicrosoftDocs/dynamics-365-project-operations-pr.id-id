@@ -2,18 +2,16 @@
 title: Metode biaya penyelesaian
 description: Topik ini berisi informasi tentang metode yang digunakan untuk menghitung biaya penyelesaian satu proyek.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531460"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997970"
 ---
 # <a name="cost-to-complete-methods"></a>Metode biaya penyelesaian
 
@@ -30,3 +28,6 @@ Saat Anda membuat perkiraan untuk proyek, di halaman **Buat perkiraan**, di bida
 | Seperti estimasi sebelumnya         | Metode estimasi yang sama yang digunakan pada periode sebelumnya digunakan di sini. Metode ini memerlukan model perkiraan jika periode sebelumnya memerlukan model perkiraan.                                                                                                                                                                                                                                                                                                                           |
 | Atur biaya penyelesaian ke nol | Biasanya digunakan sebelum proyek estimasi dihilangkan, metode ini sesuai dengan estimasi total dengan transaksi aktual yang diposting dan menghapus **Biaya penyelesaian**. Setelah selesai, hasilnya selalu bernilai 100 persen. Untuk setiap lini biaya yang Anda buat, kotak centang **Prakiraan** dikosongkan dan estimasi total disalin dari estimasi biaya sebelumnya. Konsumsi aktual untuk periode estimasi dikurangi dari biaya untuk menyelesaikan proyek.              |
 | Dari template biaya           | Metode biaya penyelesaian yang diatur dalam template biaya yang terkait dengan proyek estimasi yang dipilih.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

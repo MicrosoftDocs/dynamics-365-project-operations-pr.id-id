@@ -2,11 +2,9 @@
 title: Mengonfigurasi integrasi kartu kredit
 description: Laporan topik menjelaskan cara bekerja dengan transaksi kartu kredit yang terkait dengan pengeluaran.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
-ms.translationtype: HT
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866687"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826260"
 ---
 # <a name="set-up-credit-card-integration"></a>Mengonfigurasi integrasi kartu kredit
 
@@ -32,7 +30,7 @@ Transaksi kartu kredit terkait dengan pengeluaran dapat diatur sehingga mereka s
 
 Untuk mengimpor transaksi kartu kredit, ikuti langkah-langkah berikut:
 
-1. Pada halaman **transaksi kartu kredit**, pilih **impor transaksi**. Jika Anda membuka manajemen data untuk pertama kalinya, sistem harus memperbarui daftar entitas data agar dapat melanjutkan.
+1. Pada halaman **transaksi kartu kredit**, pilih **impor transaksi**. Jika Anda membuka manajemen data untuk pertama kalinya, sistem harus memperbarui daftar entitas data sebelum Anda dapat melanjutkan.
 2. Di bidang **Nama**, masukkan deskripsi unik untuk pekerjaan impor.
 3. Di bidang **format data sumber**, pilih format file yang berisi transaksi kartu kredit yang akan diimpor.
 4. Pilih **Unggah**, lalu Cari dan pilih file yang akan diimpor.
@@ -46,16 +44,24 @@ Untuk mengimpor transaksi kartu kredit, ikuti langkah-langkah berikut:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Tetapkan ulang transaksi kartu kredit untuk karyawan yang dihentikan
 
-Setelah rekaman karyawan dihentikan, akun Active Directory Domain Services (AD DS) karyawan dinonaktifkan. Namun, mungkin ada transaksi kartu kredit aktif yang harus tetap dikeluarkan dan diganti. Pada halaman **transaksi kartu kredit**, Anda dapat melakukan penetapan ulang karyawan untuk setiap transaksi kartu kredit jika karyawan telah diberhentikan.
+Setelah catatan karyawan dihentikan, akun Active Directory Domain Services (AD DS) karyawan dinonaktifkan. Namun, mungkin ada transaksi kartu kredit aktif yang harus tetap dikeluarkan dan diganti. Pada halaman **transaksi kartu kredit**, Anda dapat melakukan penetapan ulang karyawan untuk setiap transaksi kartu kredit jika karyawan telah diberhentikan.
 
 Pilih satu atau beberapa transaksi kartu kredit, lalu pilih **tetapkan ulang transaksi**. Selanjutnya Anda dapat memilih karyawan lain untuk ditetapkan transaksi kartu kredit. Setelah transaksi kartu kredit telah dipindahkan, mereka dapat dipilih untuk laporan pengeluaran dan dibayar melalui proses biasa untuk penggantian laporan pengeluaran.
 
 ## <a name="delete-credit-card-transactions"></a>Menghapus transaksi kartu kredit 
 
-Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin harus dihapus. Hal ini dapat dikarenakan transaksi merupakan duplikat atau karena data mungkin tidak akurat. Admin dapat menggunakan fitur **"Hapus transaksi kartu kredit"** untuk memilih dan menghapus transaksi kartu kredit yang **tidak dilampirkan** ke laporan pengeluaran. 
+Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin harus dihapus. Ini bisa jadi karena transaksi adalah duplikat atau karena data tidak akurat. Admin dapat menggunakan fitur **"Hapus transaksi kartu kredit"** untuk memilih dan menghapus transaksi kartu kredit yang **tidak dilampirkan** ke laporan pengeluaran. 
 
 1. Buka **tugas Periodik** > **hapus transaksi kartu kredit**.
 2. Pilih **Filter** dan berikan informasi untuk mengidentifikasi rekaman yang akan disertakan.
 3. Pilih **OK** untuk menghapus rekaman. 
+
+## <a name="storing-credit-card-numbers"></a>Menyimpan nomor kartu kredit
+
+Tiga opsi tersedia untuk menyimpan nomor kartu kredit. Nomor kartu kredit disimpan di **halaman parameter manajemen** pengeluaran.
+
+- **Hindari entri nomor kartu** – Nomor kartu kredit tidak disimpan.
+- **Nomor kartu hash (simpan empat digit terakhir)** – Empat digit terakhir nomor kartu kredit disimpan dalam format terenkripsi.
+- **Nomor kartu** toko – Nomor kartu kredit disimpan dalam format yang tidak terenkripsi. Opsi ini tidak sesuai dengan Standar Keamanan Data Industri Kartu Pembayaran (PCI) (DSS). Oleh karena itu, untuk menjaga organisasi mereka mematuhi peraturan PCI DSS, admin organisasi harus memilih untuk tidak menyimpan nomor kartu kredit atau menyimpan nomor kartu hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

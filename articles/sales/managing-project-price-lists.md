@@ -2,11 +2,9 @@
 title: Mengelola daftar harga proyek pada kuotasi
 description: Topik ini menyediakan informasi tentang entitas daftar harga proyek.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003910"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Mengelola daftar harga proyek pada kuotasi
 
@@ -120,3 +118,6 @@ Seperti tarif tagihan, tingkat biaya untuk sumber daya manusia juga diatur mengg
     1. Daftar harga biaya yang dilampirkan ke unit organisasi.
     2. Daftar harga biaya yang dilampirkan ke parameter Project Operations. Karena daftar harga biaya dalam banyak mata uang yang berbeda dapat dilampirkan ke parameter, pencocokan mata uang diselesaikan antara mata uang unit organisasi kontrak proyek, kontrak, atau kuotasi, dan mata uang dari daftar harga biaya.
     3. Untuk pengeluaran, metode harga pada biaya dan markup terhadap biaya tidak berlaku pada daftar harga biaya. Meskipun metode harga ini digunakan pada baris daftar harga biaya untuk menyiapkan biaya kategori transaksi, sistem akan mengabaikan, dan tidak ada harga default yang dimasukkan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

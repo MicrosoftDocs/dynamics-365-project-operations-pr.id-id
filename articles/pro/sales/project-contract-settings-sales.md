@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663913"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180917"
 ---
-# <a name="header-details-for-project-contracts"></a>Rincian header untuk kontrak proyek
+# <a name="project-contract-settings---lite"></a>Pengaturan kontrak proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Topik ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang mempengaruhi semua baris kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
 
-Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari perintah penjualan di Dynamics 365 Sales.
+Tabel berikut mencantumkan bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari pesanan penjualan di Dynamics 365 Sales.
 
 | Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
@@ -57,6 +57,3 @@ KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek.
 | Biaya Dikenakan | Baris berbasis produk | Jumlah semua aktual biaya yang dicatat untuk baris kontrak berbasis produk. |
 | Margin Kotor | Baris berbasis proyek | Jumlah ditagih-biaya yang timbul hingga tanggal/jumlah ditagih |
 | Margin yang Diharapkan | Baris berbasis produk | (Nilai baris kontrak - Estimasi biaya untuk baris kontrak)/nilai baris kontrak |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

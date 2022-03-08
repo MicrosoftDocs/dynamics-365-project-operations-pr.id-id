@@ -8,21 +8,21 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663643"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180241"
 ---
-# <a name="header-details-for-project-based-quotes"></a>Rincian header untuk kuotasi berbasis proyek
+# <a name="project-quote-settings"></a>Pengaturan kuotasi proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 
 Artikel ini menjelaskan informasi yang berlaku untuk kuotasi proyek. Ini mencakup pengaturan yang mempengaruhi semua kuotasi baris, dan informasi tentang kuotasi yang diringkas di seluruh item baris untuk mendorong KPI kuotasi proyek.
 
-Tabel berikut berisi daftar bidang informasi ringkasan pada kuotasi proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari kuotasi Dynamics 365 Sales.
+Tabel berikut mencantumkan bidang informasi ringkasan pada kuotasi proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari kuotasi Dynamics 365 Sales.
 
 | **Bidang** | **Lokasi** | **Keterangan** | **Dampak hilir** |
 | --- | --- | --- | --- |
@@ -43,6 +43,3 @@ Di bawah ini adalah tab dan KPI yang tersedia pada kuotasi proyek yang unik untu
 | Analisis Profitabilitas | Tab pada kuotasi | tab ini menunjukkan metrik berikut:</br>- Total Biaya yang dapat ditagih</br></br>- Total Biaya yang Tidak dapat ditagih</br>- Pendapatan Total</br>- Pendapatan Total (Dasar)</br>- margin kotor</br>- Penyesuaian Margin Kotor|
 | Perbandingan Dengan Harapan Pelanggan | Tab pada kuotasi | Tab ini menunjukkan metrik berikut:</br>- Perkiraan Penyelesaian</br>- Penyelesaian yang Diminta</br>- Anggaran Pelanggan</br>- Nilai Kuotasi |
 | Analisis Kuotasi | Tab pada kuotasi | Tab ini meringkas KPI teratas berikut untuk kuotasi proyek</br>- Perbandingan dengan ekspektasi pelanggan untuk anggaran dan jadwal</br>- margin kotor</br>- Penyesuaian Margin Kotor |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

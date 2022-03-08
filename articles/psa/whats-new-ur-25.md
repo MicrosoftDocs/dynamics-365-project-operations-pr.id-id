@@ -17,16 +17,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a5a81893c4a804deb09cf33e0ac3f1a25b8bca36
+ms.sourcegitcommit: a2b810219d381716d3eedb14c4eb6cdefb5b5845
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143757"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4183547"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Yang baru atau diubah di Project Service Automation Rilis Pembaruan 25, V3
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Project Service Automation untuk Dynamics 365. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 

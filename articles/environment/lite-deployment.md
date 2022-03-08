@@ -8,18 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642187"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175670"
 ---
 # <a name="deploy-project-operations---lite"></a>Menyebarkan Project Operations - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Operations mendukung beberapa model penyebaran. Untuk menentukan model penyebaran terbaik, lihat [jenis penyebaran](determine-deployment-type.md).
 

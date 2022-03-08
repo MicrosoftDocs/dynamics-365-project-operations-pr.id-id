@@ -2,19 +2,17 @@
 title: Konfigurasi Project Operations dan integrasi data konfigurasi
 description: Informasi topik tentang pengaturan dan konfigurasi peta penulisan ganda Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
-ms.translationtype: HT
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986540"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Konfigurasi Project Operations dan integrasi data konfigurasi
 
@@ -26,7 +24,7 @@ Informasi topik tentang integrasi penulisan ganda Project Operations untuk entit
 
 Kontrak proyek, baris kontrak, dan proyek dibuat di Dataverse dan disinkronisasikan ke aplikasi Finance and Operations untuk akuntansi tambahan. Rekaman di entitas ini dapat dibuat dan dihapus hanya dalam Dataverse. Namun, atribut akuntansi seperti default grup pajak penjualan dan dimensi keuangan dapat ditambahkan ke rekaman tersebut di aplikasi Finance and Operations.
 
-  ![Konsep integrasi kontrak proyek](./media/1ProjectContract.jpg)
+  ![Konsep integrasi kontrak proyek.](./media/1ProjectContract.jpg)
 
 Prospek, peluang, dan kuotasi aktivitas penjualan dilacak di Dataverse dan tidak disinkronisasi ke aplikasi Finance and Operations karena tidak ada akuntansi hilir yang terkait dengan aktivitas ini.
 
@@ -53,7 +51,7 @@ Baris kontrak proyek dapat ditinjau oleh akuntan proyek dalam aplikasi Finance a
 
 Baris kontrak proyek dengan menggunakan metode penagihan harga tetap ditagihkan melalui tahapan penagihan. Tahapan penagihan disinkronisasi ke transaksi cicilan proyek di aplikasi Finance and Operations menggunakan peta tabel **tahapan baris kontrak integrasi Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integrasi Tahap Penagihan](./media/2Milestones.jpg)
+  ![Integrasi Tahap Penagihan.](./media/2Milestones.jpg)
 
 Akuntan dapat memeriksa transaksi cicilan dan menyesuaikan atribut akuntansi untuk transaksi tersebut dengan masuk ke **manajemen proyek dan akuntansi** > **Kontrak proyek** > **Kelola** > **Transaksi cicilan** atau **Manajemen proyek dan akuntansi** > **Semua proyek** > **Kelola** > **transaksi cicilan**.
 
@@ -63,13 +61,13 @@ Saat pertama kali membuat tahap penagihan untuk baris kontrak proyek tertentu, s
 
 Tugas proyek disinkronisasi ke aplikasi Finance and Operations melalui peta tabel **Tugas proyek (msdyn\_projecttasks)** hanya untuk tujuan referensi. Operasi buat, perbarui, dan hapus tidak didukung melalui aplikasi Finance and Operations.
 
-  ![Integrasi tugas proyek](./media/3Tasks.jpg)
+  ![Integrasi tugas proyek.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Sumber daya proyek
 
 Entitas **peran sumber daya proyek** disinkronisasi ke aplikasi Finance and Operations menggunakan peta tabel **peran sumber daya Proyek untuk semua perusahaan (bookableresourcecategories)** hanya untuk tujuan referensi. Karena peran sumber daya di Dataverse tidak spesifik perusahaan, sistem secara otomatis membuat rekaman peran sumber daya khusus perusahaan masing-masing dalam aplikasi Finance and Operations secara otomatis untuk semua entitas hukum yang tercakup dalam cakupan integrasi penulisan ganda.
 
-![Integrasi peran sumber daya](./media/5Resources.jpg)
+![Integrasi peran sumber daya.](./media/5Resources.jpg)
 
 Sumber daya proyek dalam Project Operations dikelola dalam Dataverse dan tidak disinkronisasikan ke aplikasi Finance and Operations.
 
@@ -77,6 +75,6 @@ Sumber daya proyek dalam Project Operations dikelola dalam Dataverse dan tidak d
 
 Kategori transaksi dikelola di Dataverse dan disinkronisasi ke aplikasi Finance and Operations menggunakan peta tabel **Kategori transaksi Proyek (msdyn\_transactioncategories)**. Setelah rekaman kategori transaksi disinkronisasi, sistem secara otomatis membuat empat rekaman kategori bersama. Setiap rekaman terkait dengan jenis transaksi di aplikasi Finance and Operations dan menautkannya ke rekaman kategori transaksi.
 
-![Integrasi Kategori Transaksi](./media/4TransactionCategories.jpg)
+![Integrasi Kategori Transaksi.](./media/4TransactionCategories.jpg)
 
 Menggunakan kategori transaksi untuk estimasi dan aktual memerlukan akuntan proyek atau administrator sistem agar dapat membuat kategori proyek yang sesuai di setiap entitas hukum. Untuk informasi selengkapnya, lihat [Mengonfigurasi kategori proyek](../project-accounting/configure-project-categories.md).

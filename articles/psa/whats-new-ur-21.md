@@ -2,8 +2,6 @@
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 21, V3
 description: Topik ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 21, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e7bf9d5c85d2fab0d17c435bdd96057c0c80be8f41b16f94afe6b1f554e7a9fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147027"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984741"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation Pembaruan Rilis 21, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Project Service Automation untuk Dynamics 365. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Project Service Automation untuk Dynamics 365. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 21. Versi ini memiliki nomor pembuatan V 3.10.32.50 dan umumnya tersedia melalui pembaruan mandiri pada Juni 2020.
 
@@ -77,3 +75,6 @@ Masalah berikut telah diperbaiki:
 - Logika **resolusi daftar harga penjualan** menangani zona waktu dengan tidak baik, sehingga pilihan daftar harganya salah.
 - Biaya **total aktual proyek** dapat dinonaktifkan dengan jumlah pecahan setelah entri satu kali disetujui.
 - Logika **resolusi harga** tidak menyediakan pesan kesalahan yang mudah digunakan jika **Harga Peran yang Diperoleh** tidak memiliki nilai pada bidang **'unit utama'** dan **'harga di unit utama'**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

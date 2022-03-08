@@ -2,8 +2,6 @@
 title: Proses Penjualan
 description: Topik ini menyediakan informasi tentang proses penjualan dasar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145182"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000535"
 ---
 # <a name="sales-processes"></a>Proses Penjualan
 
@@ -41,7 +39,7 @@ Proses penjualan yang digunakan dalam organisasi berbasis proyek berbeda dari pr
 
 Ilustrasi berikut menunjukkan proses penjualan biasa dalam organisasi berbasis proyek.
 
-> ![Proses penjualan di organisasi berbasis proyek](media/basic-guide-1.png)
+> ![Proses penjualan di organisasi berbasis proyek.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Memperkirakan penjualan
 Nilai penjualan dapat diperkirakan berdasarkan proyek yang sebelumnya telah dikirim dan kompleksitas proyek. Untuk proyek yang melibatkan ekstensi ke proyek sebelumnya, atau proyek di mana keahlian Penjual tinggi dan template kerja yang telah dikenal digunakan, Anda dapat menggunakan proses estimasi yang lebih sederhana. Proyek yang lebih kompleks biasanya memiliki proses pembelian lebih lama. Oleh karena itu, ada lebih banyak tahapan dalam proses estimasi penjualan. Di awal proses, tim penjualan menggunakan input manajer akun dan ahli (UKM) untuk mulai membuat perkiraan tingkat tinggi untuk setiap komponen pekerjaan yang berbeda yang dibuat kuotasinya. Komponen pekerjaan ini diwakili oleh baris kuotasi. 
@@ -52,7 +50,7 @@ Anda dapat membuat beberapa kuotasi untuk proyek dan mengelompokkannya dalam sat
 
 Anda juga dapat membuat kuotasi alternatif dalam satu jenis entitas peluang atau mengkonfigurasi sistem sehingga kontrak proyek dibuat saat kuotasi dimenangkan. Dalam kasus ini, Anda dapat melampirkan dokumen Word yang mewakili SOW untuk rekaman kontrak proyek.
 
-![Menutup kuotasi untuk membuat kontrak proyek](media/basic-guide-2.png)
+![Menutup kuotasi untuk membuat kontrak proyek.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Mengkonfigurasi proses penjualan
 Anda dapat menggunakan alur proses bisnis (BPF) di Microsoft Dynamics 365 untuk mengkonfigurasi proses penjualan Anda. BPF memberikan antarmuka visual terpandu kepada staf penjualan yang dapat digunakan untuk meneruskan kesepakatan melalui tahapan tipikal perusahaan Anda.
@@ -68,7 +66,7 @@ Misalnya, perusahaan Anda mungkin memiliki enam tahapan berikut dalam proses pen
 
 Keenam tahapan ini diwakili oleh chevron (\>) yang Anda pilih untuk diperluas di setiap jenis entitas peluang yang Anda buat.
 
-![Konfigurasi proses bisnis di Dynamics 365](media/basic-guide-3.png)
+![Konfigurasi proses bisnis di Dynamics 365.](media/basic-guide-3.png)
  
 Organisasi Anda mungkin menggunakan entitas yang berbeda untuk menunjukkan kesepakatan yang sama seiring perkembangannya. Di awal proses penjualan, kesepakatan diwakili oleh entitas peluang. Seiring berjalannya waktu dan rincian lainnya muncul, Anda dapat menggunakan perkiraan tingkat tinggi untuk membuat satu atau beberapa kuotasi. Jika salah satu dari kuotasi ini ditinjau oleh pemangku kepentingan internal dan pelanggan, entitas kuotasi menunjukkan transaksi. Setelah pelanggan menerima kuotasi, kontrak proyek atau SOW menunjukkan kesepakatan. Untuk mendukung perilaku ini, BPF distrukturkan sehingga setiap tahapan dalam proses dihubungkan dengan tabel database yang berbeda.
 
@@ -79,7 +77,7 @@ Saat Anda meneruskan transaksi melalui tahapan, Anda akan diminta membuat rekama
 > [!NOTE]
 > PSA memiliki halaman tertentu untuk entitas peluang, kuotasi, pesanan, dan faktur. Anda harus membuat peluang, kuotasi, pesanan, dan faktur Project Service menggunakan halaman informasi proyek untuk entitas ini. Jika Anda menggunakan halaman lain untuk membuat rekaman, Anda tidak dapat membuka rekaman dari halaman **informasi proyek**. Jika Anda ingin membuka rekaman dari halaman **informasi proyek**, Anda harus menghapus rekaman, dan membuatnya kembali menggunakan halaman **informasi proyek**. Pada halaman **informasi proyek**, logika bisnis untuk masing-masing jenis entitas ini memastikan bahwa bidang **jenis** rekaman diatur dengan benar, dan semua konsep wajib diinisialisasi dengan benar.
 
-> ![Informasi proyek untuk pesanan baru](media/basic-guide-4.png)
+> ![Informasi proyek untuk pesanan baru.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Perbedaan antara Project Service Automation dan Sales
 Walaupun proses penjualan dalam PSA menggunakan kemampuan dasar dari proses penjualan di penjualan, namun memiliki beberapa perbedaan penting karena variasi praktik bisnis organisasi berbasis proyek. Berikut adalah beberapa contoh:
@@ -93,3 +91,6 @@ Dalam PSA, Anda tidak dapat melacak revisi yang dibuat ke kuotasi. Namun, Anda h
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Melacak komentar dan persetujuan kuotasi dan kontrak proyek
 Anda dapat mengelola peninjauan dan persetujuan kuotasi dan kontrak proyek menggunakan posting dan dinding rekaman. Organisasi Anda dapat membuat alur kerja dan plug-in kustom untuk menetapkan, mengalihkan, melaporkan, dan mengelola pemberitahuan tentang item kerja peninjauan dan persetujuan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

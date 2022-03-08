@@ -2,8 +2,6 @@
 title: Jenis Tahapan proyek
 description: Topik ini menyediakan informasi tentang tahapan proyek.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148107"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996890"
 ---
 # <a name="project-stage-types"></a>Jenis Tahapan proyek 
 
@@ -65,3 +63,6 @@ Saat pekerjaan untuk proyek selesai, manajer proyek dapat memperbarui tahapan ke
 ## <a name="close"></a>Tutup
 
 Bila semua transaksi direkam untuk proyek, manajer proyek dapat memperbarui tahapan ke **Tutup**. Pada titik tersebut, tidak ada transaksi yang dapat direkam, dan proyek diatur ke hanya baca.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

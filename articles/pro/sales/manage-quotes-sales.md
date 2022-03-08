@@ -2,18 +2,16 @@
 title: Mengelola kuotasi proyek
 description: Topik ini menyediakan informasi tentang kuotasi proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8e0b20d4780a14edc3c242e261e22d4905f783a4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177830"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994815"
 ---
 # <a name="manage-project-quotes"></a>Mengelola kuotasi proyek
 
@@ -33,3 +31,6 @@ Daftar semua kuotasi proyek dapat dilihat dari halaman daftar **Kuotasi**.
 2. Gunakan **Pengalih tampilan** untuk memilih tampilan terfilter lainnya dari kuotasi. Menggunakan kriteria filter kustom, Anda dapat mengkonfigurasi tampilan Anda sendiri dan pilihan navigasi.
 
 Kuotasi dapat dibuat atau dihapus dari halaman daftar ini atau halaman detail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

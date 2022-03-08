@@ -2,18 +2,16 @@
 title: Edit Persyaratan Sumber Daya
 description: Topik ini menyediakan informasi tentang memperbarui informasi persyaratan sumber daya.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128782"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999770"
 ---
 # <a name="edit-a-resource-requirement"></a>Edit Persyaratan Sumber Daya
 
@@ -37,3 +35,5 @@ Sebagai manajer proyek, selesaikan langkah berikut untuk mengedit persyaratan su
 ## <a name="edit-resource-assignment-contours"></a>Edit kontur penetapan sumber daya
 
 Selain mengedit rincian persyaratan sumber daya, manajer proyek dapat memperbarui kontur individu dari persyaratan sumber daya menggunakan fungsi **Tentukan pola**. Bila **Tentukan pola** dipilih, halaman akan terbuka dan Anda dapat melihat kontur pada skala waktu hari, pekan, atau bulan. Setiap kontur dapat disesuaikan untuk waktu mulai, waktu berakhir, dan Total usaha dalam periode tertentu.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

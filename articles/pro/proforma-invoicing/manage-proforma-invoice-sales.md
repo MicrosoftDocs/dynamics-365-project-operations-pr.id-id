@@ -1,21 +1,19 @@
 ---
-title: Mengelola faktur proforma - lite
-description: Topik ini menyediakan informasi tentang bekerja dengan faktur proforma.
+title: Mengelola faktur proyek proforma
+description: Laporan topik memberikan informasi tentang bagaimana bekerja dengan faktur proyek proforma.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997430"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Mengelola faktur proforma - lite
+# <a name="manage-a-proforma-project-invoice"></a>Mengelola faktur proyek proforma 
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -69,9 +67,9 @@ Dalam Project Operations, selalu ada satu baris faktur untuk setiap baris kontra
 
 Setiap baris faktur dalam faktur proyek mencakup rincian baris faktur. Rincian baris ini terkait dengan aktual penjualan belum ditagih dan tonggak pencapaian yang terkait dengan baris kontrak yang dirujuk oleh baris faktur. Semua transaksi ini ditandai **siap untuk faktur**.
 
-Untuk baris **Faktur waktu dan material**, rincian baris faktur dikelompokkan menjadi **Kena biaya**, **tidak dikenakan biaya**, dan **gratis** pada halaman **baris faktur**. Rincian **baris faktur kena biaya** menghasilkan jumlah total baris faktur. Aktual **gratis** dan **aktual tidak kena biaya** tidak menghasilkan total baris faktur.
+Untuk baris **Faktur Waktu dan Bahan**, rincian baris faktur dikelompokkan ke dalam **Dikenakan Biaya**, **Tidak Kena Biaya**, dan **Gratis** pada halaman **Baris Faktur**. Rincian **baris faktur kena biaya** menghasilkan jumlah total baris faktur. **Aktual Tidak Kena Biaya** dan **Gratis** tidak akan ditambahkan ke total baris faktur.
 
-Untuk baris **faktur harga tetap**, rincian baris faktur dibuat dari tonggak pencapaian yang ditandai sebagai **siap untuk faktur** pada baris kontrak terkait. Setelah detail baris faktur dibuat dari tonggak pencapaian, status penagihan pada tonggak pencapaian diperbarui ke **faktur pelanggan dibuat**.
+Untuk baris **Faktur Harga Tetap**, rincian baris faktur dibuat dari tahapan yang ditandai sebagai **Siap untuk faktur** pada baris kontrak terkait. Setelah detail baris faktur dibuat dari tonggak pencapaian, status penagihan pada tonggak pencapaian diperbarui ke **faktur pelanggan dibuat**.
 
 ### <a name="edit-invoice-line-details"></a>Edit Rincian Baris Faktur
 
@@ -98,8 +96,12 @@ Bidang berikut tersedia pada detail baris faktur yang didukung oleh aktual penju
 | **Pajak** | Ditetapkan secara default dari aktual sumber. Bidang ini dapat diedit oleh pengguna | Bidang dapat diedit oleh pengguna saat membuat detail baris faktur baru tanpa aktual pendukung. |
 | **Jumlah Kelipatan** | Bidang hitung dihitung sebagai **jumlah + pajak**. Bidang hanya baca yang terkunci dari pengeditan. | &nbsp; |
 | **Jenis Penagihan** | Ditetapkan secara default dari aktual sumber. Bidang ini dapat diedit oleh pengguna. | Memilih **Kena biaya** menambahkan baris ke total baris faktur. **Gratis** dan **tidak dikenakan biaya** akan mengecualikannya dari total baris faktur. |
+| **Pilih Produk** | Diatur secara default dari aktual sumber, bidang ini hanya bisa dibaca. | Bila Anda membuat detail baris faktur baru tanpa mendukung aktual, bidang ini dapat diedit. |
+| **Produk** | Diatur secara default dari aktual sumber, bidang ini hanya bisa dibaca. | Bila Anda membuat detail baris faktur baru tanpa mendukung aktual, bidang ini dapat diedit jika bidang **Pilih Produk** diatur ke **produk yang ada**. |
+| **Nama Produk** | Diatur secara default dari aktual sumber, bidang ini hanya bisa dibaca. | Pada detail baris faktur baru, dengan ID produk dipilih dari katalog, bidang ini diatur ke nama produk. Untuk produk pilihan, bidang diatur ke tulis nama. |
+| **Tulis Deskripsi** | Diatur secara default dari aktual sumber, bidang ini hanya bisa dibaca. | Bila Anda membuat detail baris faktur baru tanpa mendukung aktual, Anda dapat menambahkan penulisan dalam deskripsi untuk produk. |
 | **Jenis Transaksi** | Ditetapkan secara default dari aktual sumber. Bidang hanya baca yang terkunci dari pengeditan. | Diatur secara default ke **penjualan yang ditagih** dan dikunci saat membuat **detail baris faktur baru** tanpa aktual pendukung.  |
-| **Kelas Transaksi** | Ditetapkan secara default dari aktual sumber. Bidang hanya baca yang terkunci dari pengeditan. | Diatur secara default berdasarkan apakah pengguna memilih untuk membuat detail baris faktur **waktu**, **pengeluaran**, atau **Ongkos** sekaligus membuat **detail baris faktur** baru tanpa aktual pendukung. Dikunci dari pengeditan. |
+| **Kelas Transaksi** | Ditetapkan secara default dari aktual sumber. Bidang hanya baca yang terkunci dari pengeditan. | Diatur secara default berdasarkan apakah pengguna memilih untuk membuat detail baris faktur **Waktu**, **Pengeluaran**, **Bahan**, atau **Ongkos** sekaligus membuat **detail baris Faktur** baru tanpa bantuan aktual. Dikunci dari pengeditan. |
 
 Bidang berikut tersedia pada detail baris faktur yang didukung oleh tonggak pencapaian:
 
@@ -144,3 +146,6 @@ Jika Anda memiliki aktual yang masuk setelah faktur dibuat, Anda dapat menyertak
 Di Project Operations, Anda dapat membuat baris faktur untuk produk yang tidak berlaku untuk setiap proyek atau untuk semua proyek bersama-sama dengan baris faktur berbasis proyek. Baris faktur ini dibuat sebagai baris kontrak berbasis produk dan setelah ditandai sebagai siap faktur, mereka ditambahkan sebagai baris faktur berbasis produk.
 
 Setelah menambahkan baris faktur berbasis produk, mereka tidak dapat diubah. Namun, mereka dapat dihapus dari faktur proforma draf.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

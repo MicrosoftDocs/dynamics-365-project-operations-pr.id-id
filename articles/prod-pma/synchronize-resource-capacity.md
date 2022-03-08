@@ -2,9 +2,11 @@
 title: Mensinkronkan kapasitas sumber daya
 description: Topik ini menyediakan informasi tentang cara mensinkronisasi kapasitas sumber daya di seluruh kalender dan proyek.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e6b63ccb5b0f04dedb8a942e22d6e1993204dc20
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288564"
 ---
 # <a name="synchronize-resource-capacity"></a>Mensinkronkan kapasitas sumber daya
 
@@ -29,7 +31,7 @@ ms.locfileid: "7005620"
 
 Proses untuk sinkronisasi sumber daya membantu menjamin bahwa informasi untuk kalender dan kalender dasar menetes ke dalam penjadwalan sumber daya proyek. Jika kalender diubah, proses akan melakukan pembaruan yang diperlukan terhadap penjadwalan sumber daya proyek. Proses juga membantu meningkatkan kinerja, karena informasi sumber daya kalender disinkronisasikan terlebih dahulu. Oleh karena itu, pembaruan untuk informasi penjadwalan sumber daya terjadi lebih cepat. Sebaiknya jadwalkan proses sebagai kumpulan, bukan satu per satu. Jika tidak, ada risiko bahwa seseorang akan melupakan tanggal inklusif saat informasi terakhir disinkronisasi. Jika tanggal inklusif tidak digunakan, kesenjangan dapat terjadi selama sinkronisasi tanggal.
 
-![Sinkronisasi kalender.](./media/projectresourcing04-1024x471.jpg)
+![Sinkronisasi kalender](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinkronisasikan akumulasi kapasitas sumber daya
 
@@ -46,7 +48,7 @@ Sebaiknya Anda menggunakan kumpulan. Pilihan tersedia selama sinkronisasi Pemesa
     | Tanggal mulai  | Masukkan tanggal mulai untuk proses sinkronisasi untuk akumulasi kapasitas sumber daya. |
     | Tanggal berakhir    | Masukkan tanggal akhir untuk proses sinkronisasi untuk akumulasi kapasitas sumber daya. |
 
-[![Proses Sinkronisasi.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proses Sinkronisasi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

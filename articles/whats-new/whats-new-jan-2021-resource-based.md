@@ -2,19 +2,17 @@
 title: Yang baru di bulan Januari 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 description: Topik ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Januari 2021 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
-ms.translationtype: HT
+ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008095"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Januari 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
@@ -88,4 +86,7 @@ Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berik
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan wajib untuk aplikasi Finance and Operations, lihat [pembaruan wajib](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi Finance and Operations, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Pemulihan PPN
 description: Topik ini menjelaskan cara mendapatkan pengembalian dana pada transaksi pajak pertambahan nilai (ppn).
 author: saraschi2
+manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20e29a47d73d28c0bf8dbb3495ad301481c529cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 187532281f6aba3cc3fb03428d93c8ebc4cf4a3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993600"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271919"
 ---
 # <a name="vat-recovery"></a>Pemulihan PPN 
 
@@ -39,25 +41,25 @@ Setelah prasyarat selesai, karyawan mengikuti langkah-langkah berikut untuk memi
 4. Kirim data pemulihan PPN ke vendor pihak ketiga untuk mengajukan pengembalian pemulihan internasional.
 5. Proses pengeluaran untuk pemulihan PPN dalam negeri.
 
-Bagian berikut memberikan contoh yang menunjukkan cara karyawan Contoso menyelesaikan setiap langkah.
+Bagian berikut ini memberikan contoh yang menunjukkan cara Aswono menyelesaikan setiap langkah.
 
 ## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Pada laporan pengeluaran, masukkan informasi pajak tentang transaksi kartu kredit untuk mengidentifikasi pengembalian dana PPN yang memenuhi syarat
 
-Bunga, perwakilan penjualan Contoso yang berbasis di AS, baru-baru ini kembali dari perjalanan penjualan ke Inggris. Selama perjalanan, dia mengeluarkan biaya kartu kredit pribadi untuk makanan. Bunga sekarang harus membuat laporan pengeluaran untuk merekonsiliasi pengeluarannya.
+Bunga, perwakilan penjualan Aswono yang berbasis di Amerika Serikat, baru-baru ini kembali dari perjalanan penjualan ke Inggris. Selama perjalanan, dia mengeluarkan biaya kartu kredit pribadi untuk makanan. Bunga sekarang harus membuat laporan pengeluaran untuk merekonsiliasi pengeluarannya.
 
 Saat Bunga memasukkan informasi tentang laporan pengeluaran, ia memilih **Inggris Raya** di bidang **negara/kawasan** di halaman **edit laporan pengeluaran**. Daftar grup pajak penjualan kemudian difilter sehingga hanya menampilkan grup yang berlaku untuk Inggris. Bunga memilih grup pajak penjualan **Inggris 001** dan kemudian memilih grup pajak penjualan item **makan**. Selanjutnya dia menambahkan transaksi baru untuk penginapan. Karena hanya ada satu grup pajak penjualan dan grup pajak penjualan item untuk menginap di Inggris Raya, informasi ini akan secara otomatis diisi pada laporan biaya Bunga.
 
-Per kebijakan Contoso, semua pengeluaran harus memiliki tanda terima yang sesuai. Oleh karena itu, ketika Bunga menyimpan laporan pengeluaran, dia menerima pesan yang menyatakan bahwa dia harus melampirkan tanda terima untuk setiap transaksi yang dia Daftarkan pada laporan pengeluarannya. Bunga memverifikasi bahwa dia telah melampirkan gambar digital dari setiap penerimaan transaksi ke laporan pengeluarannya dan kemudian mengajukan laporannya untuk disetujui. Dia kemudian mengirimkan tanda terima kertas ke tim pemrosesan Back-Office. Tim ini akan mengirim data pemulihan PPN ke vendor pihak ketiga yang mengembalikan pemulihan PPN internasional untuk Contoso.
+Sesuai kebijakan Aswono, semua pengeluaran harus memiliki tanda terima yang sesuai. Oleh karena itu, ketika Bunga menyimpan laporan pengeluaran, dia menerima pesan yang menyatakan bahwa dia harus melampirkan tanda terima untuk setiap transaksi yang dia Daftarkan pada laporan pengeluarannya. Bunga memverifikasi bahwa dia telah melampirkan gambar digital dari setiap penerimaan transaksi ke laporan pengeluarannya dan kemudian mengajukan laporannya untuk disetujui. Dia kemudian mengirimkan tanda terima kertas ke tim pemrosesan Back-Office. Tim ini akan mengirimkan data pemulihan PPN ke vendor pihak ketiga yang mengembalikan file pemulihan PPN internasional untuk Aswono.
 
 ## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>Pastikan bahwa semua informasi pajak lengkap, dan kemudian posting laporan pengeluaran
 
-April, kordinator utang dagang untuk Contoso, harus memasukkan informasi pajak yang tidak ada dalam laporan pengeluaran sebelum laporan dapat diposting. Dia membuka halaman **rincian laporan pengeluaran** dan melihat laporan pengeluaran Bunga yang disetujui. April kemudian membuka laporan biaya untuk melihat rincian transaksi. Dia melihat bahwa Nancy tidak memasukkan grup pajak penjualan item untuk salah satu transaksi. Karena informasi ini tidak tersedia, April tidak dapat memposting laporan pengeluaran. Oleh karena itu, April melihat pada halaman **konfigurasi pajak** dalam manajemen pengeluaran, dan menemukan grup pajak penjualan item yang sesuai untuk negara/kawasan dan jenis transaksi. April sekarang dapat memposting laporan pengeluaran ke buku besar.
+April, Koordinator utang dagang untuk Aswono, harus memasukkan informasi pajak apa pun yang tidak ada dari laporan pengeluaran sebelum laporan bisa diposting. Dia membuka halaman **rincian laporan pengeluaran** dan melihat laporan pengeluaran Bunga yang disetujui. April kemudian membuka laporan biaya untuk melihat rincian transaksi. Dia melihat bahwa Nancy tidak memasukkan grup pajak penjualan item untuk salah satu transaksi. Karena informasi ini tidak tersedia, April tidak dapat memposting laporan pengeluaran. Oleh karena itu, April melihat pada halaman **konfigurasi pajak** dalam manajemen pengeluaran, dan menemukan grup pajak penjualan item yang sesuai untuk negara/kawasan dan jenis transaksi. April sekarang dapat memposting laporan pengeluaran ke buku besar.
 
 Ketika April memposting laporan pengeluaran, item kerja dipulihkan PPN dibuat. Item pekerjaan ini ditetapkan ke anggota tim pemrosesan Back-Office. April menerima pesan yang menegaskan bahwa posting berhasil. Pesan ini juga mencantumkan jumlah transaksi PPN yang diidentifikasi untuk pemulihan.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Biaya proses yang memenuhi syarat untuk pemulihan PPN internasional
 
-Arnie, anggota tim pemrosesan back-office Contoso, bertanggung jawab untuk mengkonfirmasikan bahwa semua informasi yang diperlukan untuk pemulihan PPN disertakan pada laporan pengeluaran. Dia membuka halaman **pemulihan pajak pengeluaran** dan memilih laporan pengeluaran yang disampaikan Bunga. Arnie memverifikasi bahwa semua tanda terima yang diperlukan dilampirkan, dan grup pajak penjualan benar dan kode pajak penjualan item dimasukkan.
+Arnie, anggota tim pemrosesan Back-Office Aswono, bertanggung jawab untuk mengonfirmasikan bahwa semua informasi yang diperlukan untuk pemulihan PPN tercakup dalam laporan pengeluaran. Dia membuka halaman **pemulihan pajak pengeluaran** dan memilih laporan pengeluaran yang disampaikan Bunga. Arnie memverifikasi bahwa semua tanda terima yang diperlukan dilampirkan, dan grup pajak penjualan benar dan kode pajak penjualan item dimasukkan.
 
 Ketika Arnie menerima tanda terima kertas dari Bunga, ia tanda terima kertas terhadap tanda terima digital dan kemudian mengubah status laporan pengeluaran ke **siap untuk pemulihan**.
 

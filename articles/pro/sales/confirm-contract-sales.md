@@ -2,24 +2,22 @@
 title: Konfirmasi Kontrak proyek
 description: Topik ini menyediakan informasi topik cara mengonfirmasikan kontrak dalam Project operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128287"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989825"
 ---
 # <a name="confirm-a-project-contract"></a>Konfirmasi Kontrak proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Kontrak proyek dalam Dynamics 365 Project Operations dapat aktif dengan alasan **dikonfirmasi**, atau ditutup dengan alasan **Kalah**. Ketika anda mengkonfirmasi kontrak proyek, status diperbarui dari **draf** ke **aktif** dan alasan status **dikonfirmasi**. Kontrak aktif atau tertutup tidak dapat diedit atau dibuka kembali. 
+Kontrak proyek di Dynamics 365 Project Operations dapat aktif dengan alasan **Terkonfirmasi**, atau ditutup dengan alasan **Kalah**. Ketika anda mengkonfirmasi kontrak proyek, status diperbarui dari **draf** ke **aktif** dan alasan status **dikonfirmasi**. Kontrak aktif atau tertutup tidak dapat diedit atau dibuka kembali. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Dampak keuangan mengkonfirmasikan kontrak proyek
 
@@ -34,4 +32,7 @@ Saat anda menutup kontrak proyek sebagai kalah, status kontrak diperbarui menjad
 Jika kontrak proyek yang ditutup sebagai kalah merujuk pada suatu proyek pada barisnya, proyek itu juga ditandai sebagai tertutup. Setiap Pemesanan sumber daya dari waktu itu ke depan dibatalkan. Setiap aktual penjualan yang belum ditagih pada kontrak proyek yang belum ada di faktur, akan dibalik.
 
 > [!NOTE]
-> Dalam Dynamics 365 Project Operations, penutupan kontrak proyek sebagai kalah tidak akan memengaruhi status peluang terkait. Peluang akan tetap terbuka dan harus ditutup secara manual.
+> Dalam Dynamics 365 Project Operations, menutup kontrak proyek sebagai kalah tidak akan mempengaruhi status peluang terkait. Peluang akan tetap terbuka dan harus ditutup secara manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

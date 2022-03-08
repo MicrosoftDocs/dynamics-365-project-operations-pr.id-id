@@ -2,8 +2,6 @@
 title: Mengapa harga diatur default ke nol pada waktu penjualan aktual?
 description: Pemecahan masalah mengapa harga diatur default ke nol pada penjualan waktu aktual.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146217"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992570"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Mengapa harga diatur default ke nol pada waktu penjualan aktual?
 
@@ -57,3 +55,6 @@ Jika tidak ada baris di kisi harga peran untuk dimensi harga pada penjualan wakt
 
 Jika Anda tetap tidak melihat harga yang valid pada penjualan waktu aktual setelah melakukan pemeriksaan tiga di atas, buat log tiket dukungan. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

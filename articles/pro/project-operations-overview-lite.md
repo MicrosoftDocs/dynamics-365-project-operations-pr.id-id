@@ -2,18 +2,17 @@
 title: Sekilas penyebaran Lite
 description: Topik ini memberikan informasi tentang penyebaran Lite dari Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997385"
 ---
 # <a name="lite-deployment-overview"></a>Sekilas penyebaran Lite
 
@@ -37,3 +36,6 @@ Gunakan jenis penyebaran ini jika ekspektasi Anda dari Project Operations adalah
 - Sistem terintegrasi yang mengelola proyek internal dan dapat ditagih untuk jadwal dan keuangan dari penjualan proyek hingga pemfakturan.
 - Sistem Perencanaan sumber daya perusahaan (ERP/akuntansi keuangan) pihak ketiga untuk diintegrasikan dengan Project Operations.
 - Sistem pihak ketiga untuk bekerja dengan pajak penjualan, nilai tukar, penggantian biaya pengeluaran, dan pengeluaran non-proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

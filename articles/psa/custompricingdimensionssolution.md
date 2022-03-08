@@ -2,12 +2,10 @@
 title: Membuat solusi kustom untuk dimensi harga
 description: Topik ini menjelaskan cara membuat solusi kustom saat membuat dimensi harga kustom.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144643"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995270"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Membuat solusi kustom untuk dimensi harga
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144643"
 1. Pilih **Pengaturan** > **Solusi**, lalu pilih **Baru**. 
 2. Namai solusi, **\<your organization name> dimensi harga**, masukkan informasi yang diperlukan lainnya, lalu pilih **Simpan**.
 
-> ![Membuat solusi kustom untuk dimensi harga](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Membuat solusi kustom untuk dimensi harga.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambahkan semua entitas yang diperlukan dan komponen terkait ke solusi dimensi harga
 Anda harus menambahkan entitas Project Service berikut ke solusi harga. Selesaikan langkah-langkah dalam prosedur ini untuk membuat beberapa perubahan skema penting dalam solusi harga sehingga entitas mengetahui dimensi harga baru.
@@ -56,15 +54,18 @@ Anda harus menambahkan entitas Project Service berikut ke solusi harga. Selesaik
 - Harga Peran 
 - Entri Waktu 
 
-> ![Menambahkan entitas yang ada ke solusi dimensi harga](media/Existing-entities-to-PD-solution.png)
+> ![Menambahkan entitas yang ada ke solusi dimensi harga.](media/Existing-entities-to-PD-solution.png)
 
-> ![Pilih komponen solusi](media/Dimension-Components.png)
+> ![Pilih komponen solusi.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Pastikan untuk menyertakan semua formulir dan tampilan untuk setiap entitas yang dipilih.
 
 4. Bila diminta untuk menyertakan entitas dependen untuk entitas yang dipilih, pilih **tidak**.
 
-> ![Jangan sertakan semua komponen terkait](media/Do-not-include-required.png)
+> ![Jangan sertakan semua komponen terkait.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

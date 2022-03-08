@@ -1,38 +1,258 @@
 ---
-title: Faktur yang dikoreksi
-description: Topik ini menyediakan informasi tentang faktur yang dikoreksi.
+title: Koreksi faktur berbasis proyek
+description: Laporan topik memberikan informasi tentang cara membuat dan mengkonfirmasikan faktur berbasis proyek perbaikan di Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
-ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122392"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997160"
 ---
-# <a name="corrected-invoices"></a>Faktur yang dikoreksi
+# <a name="corrective-project-based-invoices"></a>Koreksi faktur berbasis proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Faktur yang Dikonfirmasi dapat diedit. Setelah Anda mengedit faktur yang telah dikonfirmasi, draf faktur yang dikoreksi akan dibuat. Karena asumsi adalah bahwa Anda ingin membalikkan semua transaksi dan kuantitas dari faktur asli, faktur yang dikoreksi ini mencakup semua transaksi dari faktur asli, dan semua kuantitas di atasnya adalah 0 (nol).
+Faktur proyek yang dikonfirmasi dapat diperbaiki untuk memproses perubahan atau kredit seperti yang dinegosiasikan dengan pelanggan dan manajer proyek.
 
-Ketika transaksi tidak memerlukan koreksi, Anda dapat menghapusnya dari draf faktur perbaikan. Untuk membalikkan atau mengembalikan hanya kuantitas parsial, Anda dapat mengedit bidang kuantitas pada detail baris. Jika Anda membuka detail baris faktur, Anda dapat melihat jumlah faktur asli. Selanjutnya, Anda dapat mengedit kuantitas faktur saat ini sehingga lebih kecil atau lebih besar dari kuantitas faktur asli.
+Untuk melakukan pengeditan pada faktur yang dikonfirmasi, buka faktur yang dikonfirmasi dan pilih **Perbaiki Faktur ini**. 
 
-Setelah Anda mengonfirmasikan faktur koreksi, aktual penjualan yang belum ditagih asli dibalik, dan aktual penjualan baru yang ditagih dibuat. Jika kuantitas dikurangi, perbedaannya akan menyebabkan penjualan baru yang belum ditagih juga dibuat. Misalnya, jika penjualan tagihan asli selama delapan jam, dan detail baris faktur perbaikan memiliki kuantitas kurang dari enam jam, baris penjualan asli yang ditagih dibalikkan dan dua aktual baru dibuat:
+> [!NOTE]
+> Pilihan ini tidak tersedia, kecuali jika faktur proyek dikonfirmasi atau faktur berbasis proyek memiliki uang muka atau panjar atau rekonsiliasi uang muka atau panjar.
 
-- Penjualan yang ditagih untuk enam jam.
-- Tagihan penjualan yang belum ditagih untuk dua jam yang tersisa. Transaksi ini dapat ditagih nanti atau ditandai sebagai tidak dikenakan biaya, tergantung pada negosiasi dengan pelanggan.
+Faktur draf baru dibuat dari faktur yang dikonfirmasi. Semua detail baris faktur dari faktur yang dikonfirmasi sebelumnya disalin ke draf baru. Berikut ini adalah beberapa poin penting untuk dipahami tentang detail baris pada faktur baru yang dikoreksi:
+
+- Semua kuantitas diperbarui ke nol. Dynamics 365 Project Operations mengasumsikan bahwa semua item ditagih sepenuhnya dikreditkan. Jika diperlukan, Anda dapat memperbarui jumlah ini secara manual untuk mencerminkan kuantitas yang sedang ditagih, dan bukan kuantitas yang dikreditkan. Berdasarkan kuantitas yang Anda masukkan, aplikasi menghitung jumlah yang dikreditkan. Jumlah ini tercermin dalam aktual yang dibuat ketika faktur yang dikoreksi dikonfirmasi. Jika Anda membuat perubahan pada jumlah pajak, Anda harus memasukkan jumlah pajak yang benar dan bukan jumlah pajak yang dikreditkan.
+- Koreksi tonggak pencapaian selalu diproses sebagai kredit penuh.
+
+
+> [!IMPORTANT]
+> Untuk rincian baris faktur yang merupakan koreksi terhadap tagihan yang sudah ditagih, bidang **Koreksi** diatur ke **Ya**. Untuk faktur yang memiliki rincian baris faktur koreksi, bidang **Memiliki Koreksi** diatur ke **Ya**.
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Aktual yang dibuat ketika faktur korektif dikonfirmasi
+
+Tabel berikut berisi daftar aktual yang dibuat saat faktur perbaikan dikonfirmasi.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+                    <strong>Skenario</strong>
+                </p>
+            </td>
+            <td width="808" valign="top">
+                <p>
+                    <strong>Aktual dibuat saat konfirmasi</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih kredit penuh dari transaksi waktu yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk jam dan jumlah pada detail baris faktur asli untuk waktu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru yang belum ditagih untuk jam dan jumlah pada detail baris faktur asli untuk waktu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Memfaktur kredit parsial pada transaksi waktu.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk jam dan jumlah yang ditagih pada detail baris faktur asli untuk waktu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru belum ditagih yang dikenakan biaya untuk jam dan jumlah pada detail baris faktur yang diedit, pembalikan ini, dan aktual penjualan belum ditagih yang setara.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru yang belum ditagih yang kena biaya untuk jam dan jumlah yang tersisa setelah dikurangi angka yang dikoreksi pada detail baris faktur.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih kredit penuh dari transaksi pengeluaran yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk kuantitas dan jumlah pada detail baris faktur asli untuk pengeluaran.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru yang belum ditagih untuk kuantitas dan jumlah pada detail baris faktur asli untuk pengeluaran.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Menagih kredit parsial dari transaksi pengeluaran yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk kuantitas dan jumlah yang ditagih pada detail baris faktur asli untuk pengeluaran.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru belum ditagih yang dikenakan biaya untuk kuantitas dan jumlah pada detail baris faktur yang dikoreksi, pembalikan ini, dan aktual penjualan belum ditagih yang setara.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru yang belum ditagih yang kena biaya untuk kuantitas dan jumlah yang tersisa setelah dikurangi angka yang dikoreksi pada detail baris faktur.
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih kredit penuh dari transaksi bahan yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan tertagih untuk kuantitas dan jumlah pada detail baris faktur asli untuk bahan.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan tak tertagih baru untuk kuantitas dan jumlah pada detail baris faktur asli untuk bahan.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Menagih kredit parsial pada transaksi bahan.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan tertagih untuk kuantitas dan jumlah yang ditagih pada detail baris faktur asli untuk bahan.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan belum teragih baru yang dibebankan untuk kuantitas dan jumlah pada detail baris faktur yang diedit, pembalikannya, dan aktual penjualan tertagih setara.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru yang belum ditagih yang kena biaya untuk kuantitas dan jumlah yang tersisa setelah dikurangi angka yang dikoreksi pada detail baris faktur.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih kredit penuh dari transaksi ongkos yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk kuantitas dan jumlah pada detail baris faktur asli untuk ongkos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru yang belum ditagih untuk kuantitas dan jumlah pada detail baris faktur asli untuk ongkos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Menagih kredit parsial dari transaksi ongkos yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk kuantitas dan jumlah yang ditagih pada detail baris faktur asli untuk ongkos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual penjualan baru belum ditagih yang dikenakan biaya untuk kuantitas dan jumlah pada detail baris faktur koreksi yang diedit, pembalikan ini, dan aktual penjualan belum ditagih yang setara.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Menagih kredit penuh dari tonggak pencapaian yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan penjualan yang ditagih untuk jumlah pada detail baris faktur asli untuk tonggak pencapaian.
+                </p>
+                <p>
+Status faktur pada tonggak pencapaian diperbarui dari <b>faktur Pelanggan diposting</b> ke <b>Siap untuk Faktur</b>.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Menagih kredit parsial dari tonggak pencapaian yang ditagih sebelumnya.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Skenario ini tidak didukung.
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

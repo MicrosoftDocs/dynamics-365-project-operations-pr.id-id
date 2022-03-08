@@ -2,8 +2,6 @@
 title: Kuotasi dan Baris Kuotasi
 description: Topik ini menyediakan informasi tentang kuotasi dan baris kuotasi.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145131"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995450"
 ---
 # <a name="quotes-and-quote-lines"></a>Kuotasi dan Baris Kuotasi
 
@@ -86,7 +84,7 @@ Organisasi layanan profesional biasanya mengutip dan menagih pelanggan mereka be
 
 Satu atau lebih klasifikasi transaksi ini dapat diasosiasikan dengan masing-masing baris kuotasi. Setelah kuotasi dimenangkan, pemetaan antara klasifikasi transaksi dan baris kuotasi ditransfer ke baris kontrak.
  
-> ![Tangkapan layar pemetaan jenis transaksi ke kuotasi dan baris kontrak](media/basic-guide-5.png)
+> ![Tangkapan layar pemetaan jenis transaksi ke kuotasi dan baris kontrak.](media/basic-guide-5.png)
   
 Misalnya, kuotasi mungkin berisi dua baris kuotasi berikut: 
 - Di sini berlaku pekerjaan konsultasi yang menggunakan metode penagihan waktu dan bahan serta klasifikasi waktu dan transaksi biaya. Misalnya, Semua transaksi waktu dan biaya untuk proyek contoh **penerapan Dynamics AX** ditagih pada pelanggan berdasarkan waktu dan materi yang digunakan. 
@@ -131,3 +129,6 @@ Untuk baris kuotasi harga tetap, Anda dapat menggunakan kisi **jadwal faktur** u
 - Untuk membuat tonggak waktu penagihan yang terbagi rata, pilih frekuensi faktur, masukkan tanggal mulai penagihan pada baris kuotasi, dan pilih **tanggal selesai yang diminta** untuk kuotasi di bagian **ringkasan** header kuotasi. Kemudian pilih **Buat tonggak waktu periodik** untuk membuat tonggak waktu terpisah yang sama berdasarkan frekuensi faktur yang dipilih. 
 - Untuk membuat tonggak penagihan Total, buat tonggak waktu, lalu masukkan nilai baris kuotasi sebagai jumlah tonggak waktu.
 - Untuk membuat tonggak waktu penagihan yang didasarkan pada tugas tertentu dalam rencana proyek, buat tonggak waktu, dan Petakan ke elemen jadwal proyek dalam UI tonggak waktu penagihan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

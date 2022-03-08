@@ -2,18 +2,16 @@
 title: Mengelola beberapa pelanggan pada baris kontrak berbasis proyek
 description: Topik ini menyediakan informasi tentang bekerja dengan baris kontrak dan kontrak yang berisi beberapa pelanggan.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181906"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992120"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Mengelola beberapa pelanggan pada baris kontrak berbasis proyek
 
@@ -44,3 +42,6 @@ Di bawah ini adalah bidang pada rekaman pelanggan baris kontrak dari baris kontr
 Persentase pemecahan penagihan dapat diedit di kisi. Bila persentase pemecahan penagihan tidak berjumlah Total 100 persen, kesalahan akan terjadi. Setelah Anda mengedit persentase pemecahan penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
 Anda juga dapat mencoba memilih **distribusikan secara merata** pada subkisi pelanggan baris kontrak. Tindakan ini secara merata mengalokasikan pembagian tagihan ke semua pelanggan baris kontrak. Jika ada faktor pembulatan, maka akan ditambahkan ke pelanggan pembulatan. Pelanggan baris kontrak selalu ditandai sebagai pelanggan **pembulatan** dengan bendera **Pembulatan** diatur ke **ya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

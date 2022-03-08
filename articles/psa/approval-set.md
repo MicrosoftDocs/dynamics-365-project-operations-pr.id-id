@@ -1,5 +1,5 @@
 ---
-title: Rangkaian persetujuan di Project Service Automation
+title: Rangkaian persetujuan
 description: Pembaruan topik memberikan informasi tentang kumpulan persetujuan, permintaan, dan subset operasi tersebut.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ac73313420029ece740d0bdb9c21c7abaa9defc6
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323555"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116875"
 ---
-# <a name="approval-sets-in-project-service-automation"></a>Rangkaian persetujuan di Project Service Automation
+# <a name="approval-sets"></a>Rangkaian persetujuan
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

@@ -2,24 +2,22 @@
 title: Mengonfigurasikan daftar harga
 description: Topik ini menyediakan informasi tentang cara mengonfigurasikan biaya dan daftar harga penjualan.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180196"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009490"
 ---
 # <a name="set-up-price-lists"></a>Mengonfigurasikan daftar harga
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Daftar harga di Dynamics 365 Project Operations mewakili katalog tarif. Tarif menyatakan biaya, penjualan, dan tarif tagihan. Tergantung pada apakah daftar harga mengekspresikan tarif biaya atau penjualan dan tarif tagihan, konteks daftar harga adalah **Penjualan** atau **Biaya**.
+Daftar harga di Dynamics 365 Project Operations menunjukkan katalog tingkat. Tarif menyatakan biaya, penjualan, dan tarif tagihan. Tergantung pada apakah daftar harga mengekspresikan tarif biaya atau penjualan dan tarif tagihan, konteks daftar harga adalah **Penjualan** atau **Biaya**.
 
 Ekstensi berikut ini khusus untuk Project Operations dan diterapkan ke daftar harga dari Dynamics 365 Sales.
 
@@ -40,3 +38,6 @@ Tabel berikut ini menyertakan bidang pada tab **Umum** dari daftar harga yang un
 | Mata uang | Tab **Umum** dan formulir **Buat Cepat** | Bidang ini digunakan untuk default mata uang pada setiap peran, kategori, atau baris item daftar harga yang terkait dengan daftar harga ini. | Pada daftar harga **penjualan**, peran, kategori, atau baris item daftar harga tidak dapat dibuat dalam mata uang apa pun selain mata uang ini. Pada daftar harga **biaya**, Anda dapat membuat garis harga peran dalam mata uang apa pun. Mata uang yang didefinisikan di sini digunakan sebagai default. Pengaturan pengguna yang terkait dengan harga peran dapat menimpa nilai ini untuk memungkinkan pengaturan tarif biaya tenaga kerja dalam mata uang apa pun. Tarif biaya kategori dan biaya item daftar harga hanya dapat diatur dalam mata uang yang ditentukan di sini. |
 | Satuan Waktu | Tab **Umum** dan formulir **Buat Cepat** | Bidang ini digunakan untuk default unit waktu pada setiap baris peran yang terkait dengan daftar harga ini. | Nilai bidang ini hanya digunakan pada pengaturan harga peran terkait. Pada daftar harga **biaya** dan **Penjualan**, Anda dapat membuat garis harga peran dalam unit waktu apa pun. Unit waktu yang didefinisikan di sini digunakan sebagai default. Pengaturan pengguna yang terkait dengan harga peran dapat menimpa nilai ini untuk memungkinkan pengaturan tarif tagihan dan biaya tenaga kerja dalam unit waktu apa pun. |
 | KETERANGAN | Tab **Umum** dan formulir **Buat Cepat** | Bidang teks ini memungkinkan Anda memberikan deskripsi multi-baris dari daftar harga. | Bidang ini diperlihatkan dalam tampilan **Terkait** pada daftar harga di berbagai entitas yang memiliki daftar harga terkait. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

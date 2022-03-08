@@ -2,9 +2,11 @@
 title: Pesanan pembelian untuk proyek
 description: Artikel ini menjelaskan berbagai metode yang dapat Anda gunakan untuk membuat pesanan pembelian untuk proyek. Metode yang Anda gunakan bergantung pada tujuan pesanan pembelian, dan ketika item yang dibeli dikonsumsi dan ditagih pada proyek.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de28f3844b802a980c811411cae75549c697538f89e8c3d2495ea171a188524
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078472"
 ---
 # <a name="purchase-orders-for-a-project"></a>Pesanan pembelian untuk proyek
 
@@ -74,6 +76,3 @@ Anda dapat menggunakan salah satu dari metode berikut untuk membuat pesanan pemb
 
 Untuk informasi lebih lanjut, lihat [menerima item pesanan pembelian dari persyaratan item](tasks/receive-items-purchase-order-item-requirement.md).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

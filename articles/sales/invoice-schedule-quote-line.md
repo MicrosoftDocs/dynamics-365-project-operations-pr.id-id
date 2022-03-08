@@ -2,18 +2,16 @@
 title: Jadwal faktur pada baris kuotasi berbasis proyek
 description: Topik ini menyediakan informasi tentang pembuatan jadwal faktur dan tonggak untuk baris kuotasi.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180826"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988610"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Jadwal faktur pada baris kuotasi berbasis proyek
 
@@ -68,3 +66,6 @@ Buka baris kuotasi harga tetap yang Anda perlukan untuk membuat tonggaknya. Pada
 | Status faktur | Buat cepat | Bila tonggak dibuat, status ini selalu diatur ke **tidak siap untuk faktur**. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur. |
 | Jumlah Baris | Buat cepat | Jumlah atau nilai tonggak yang akan ditagih kepada pelanggan. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur. |
 | Pajak | Buat cepat | Jumlah pajak yang akan diterapkan ke tonggak. | Ini disebarkan ke tonggak baris kontrak proyek dan ke faktur. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

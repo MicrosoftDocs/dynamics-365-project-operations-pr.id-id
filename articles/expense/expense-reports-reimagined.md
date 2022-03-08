@@ -1,12 +1,10 @@
 ---
-title: Laporan pengeluaran model baru
+title: Laporan pengeluaran disusun ulang (berisi video)
 description: Laporan topik menjelaskan pengalaman yang didesain ulang dan ditata ulang untuk entri laporan pengeluaran.
 author: suvaidya
-manager: AnnBe
-ms.date: 03/26/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
-ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5717699"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941052"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan pengeluaran model baru
 
@@ -28,13 +26,13 @@ Entri laporan pengeluaran telah dirancang ulang untuk menyederhanakan proses dan
 
 - Ruang kerja manajemen pengeluaran baru yang memungkinkan Anda mengakses pengeluaran delegasi.
 - Pengalaman pencocokan tanda terima baru untuk lebih baik menampilkan tanda terima tingkat header dan menyederhanakan proses melampirkan tanda terima ke baris pengeluaran.
-- Kisi baru baca-saja yang memungkinkan Anda melihat lebih banyak baris pengeluaran dan kolom data tambahan. Anda sekarang dapat melihat semua baris yang terperinci dan terpisah, bersama dengan pengeluaran induknya.
+- Kisi hanya baca baru yang memungkinkan Anda melihat lebih banyak baris pengeluaran dan kolom data lainnya. Anda sekarang dapat melihat semua baris yang terperinci dan terpisah, bersama dengan pengeluaran induknya.
 - Panel yang disederhanakan untuk mengedit pengeluaran.
 - Pesan kesalahan, peringatan, dan kebijakan yang dirancang ulang untuk menyediakan konteks dan pemahaman yang benar mengenai masalah dan cara mengatasinya. Kami telah menghapus beberapa pesan yang muncul sebelum pengguna dapat menyelesaikan tugas mereka dan menangani masalah.
 - Halaman baru untuk menentukan bidang yang diperlukan, bidang opsional, dan bidang yang tidak boleh disertakan. Halaman ini membantu mengurangi jumlah bidang yang harus ditetapkan.
 - Tampilan dan nuansa baru untuk laporan pengeluaran, sehingga laporan tidak lagi tampak seakan-akan dirancang untuk persona akuntansi.
 
-Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untuk mengaktifkan fitur **penulisan ulang laporan pengeluaran**. Bila Anda mengaktifkan fitur ini, maka tindakan berikut terjadi:
+Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **manajemen Fitur** untuk mengaktifkan fitur **ruang kerja yang nuansa baru laporan Pengeluaran**. Bila Anda mengaktifkan fitur ini, maka tindakan berikut terjadi:
 
 - Ruang kerja pengeluaran yang ada digantikan dengan ruang kerja baru.
 - Item menu baru untuk visibilitas bidang pengeluaran ditambahkan.
@@ -47,7 +45,7 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untu
 
 | Fitur baru | KETERANGAN |
 |---|----|
-| Visibilitas bidang pengeluaran | Halaman penataan baru memungkinkan Anda menentukan bidang yang harus dinonaktifkan untuk organisasi, bidang yang harus diminta, dan bidang yang disarankan. |
+| Visibilitas bidang pengeluaran | Halaman konfigurasi baru memungkinkan Anda menentukan bidang yang harus dinonaktifkan untuk organisasi. Anda juga dapat menentukan bidang yang harus diisi dan bidang yang disarankan. |
 | Bidang yang diperlukan | Konfigurasi sederhana baru memungkinkan Anda membuat beberapa bidang yang diperlukan tanpa harus menggunakan kerangka kebijakan. |
 | Bidang Opsional | Halaman kedua untuk bidang opsional ditambahkan. Dengan cara ini, karyawan tidak akan merasa seolah-olah mereka harus mengatur bidang, namun bidang masih dapat diakses dengan mudah. |
 | Menambahkan tanda terima yang tidak terlampir | Kemampuan untuk menambahkan tanda terima tidak terlampir ke laporan pengeluaran lebih terlihat dari ruang kerja dan laporan pengeluaran. |
@@ -59,13 +57,16 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **fitur manajemen** untu
 | Kalkulator kurs | Kalkulator kurs ditambahkan yang memungkinkan Anda menghitung nilai tukar untuk transaksi multi mata uang mandiri. |
 | Simpan dan tambahkan baris pengeluaran baru | Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran. |
 | Visibilitas yang lebih baik ke baris terpisah dan terperinci | Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan. |
+| Melihat rincian subkategori di baris terperinci | Baris item dari pengeluaran induk memperlihatkan label subkategori pada laporan pengeluaran. Itemisasi memungkinkan Anda meninjau detail terperinci secara sekilas.|
+|Merinci biaya berulang dengan cepat | Ruang kerja biaya yang dirancang ulang memberikan kemampuan untuk merinci biaya berulang dengan cepat dengan menambahkan subkategori, tanggal mulai, dan kuantitas. Kuantitas mengacu pada berapa kali muatan diulang selama periode kontinu. |
 | Tampilkan tanda terima selama itemisasi | Tanda terima dapat ditampilkan selama itemisasi. |
 | Pilihan Uang muka | Pilih satu atau beberapa uang muka tunai untuk memenuhi satu transaksi pengeluaran. |
 | saldo Uang muka | Tinjau saldo uang muka secara real time bila Anda membuat entri pengeluaran dengan uang muka yang disetujui dan dibayar. |
 
 Rilis awal difokuskan pada skenario entri pengeluaran. Skenario pengeluaran laporan atau skenario persetujuan akan terus menggunakan halaman entri pengeluaran yang ada.
 
-Fitur berikut tidak didukung di Ruang Kerja Pengeluaran yang Ditata Ulang:
+
+Fitur berikut tidak didukung pada ruang kerja nuansa baru laporan Pengeluaran, namun direncanakan untuk rilis mendatang: 
 
 - Integrasi Permintaan perjalanan
 - Entri pengeluaran uang saku

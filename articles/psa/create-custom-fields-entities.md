@@ -2,12 +2,10 @@
 title: Membuat bidang dan entitas kustom
 description: Topik ini menjelaskan cara membuat rangkaian pilihan dan entitas dalam solusi anda sendiri di platform Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992435"
 ---
 # <a name="create-custom-fields-and-entities"></a>Membuat bidang dan entitas kustom 
 
@@ -45,7 +43,7 @@ Dimensi harga dapat berupa rangkaian pilihan atau entitas. Keduanya harus dibuat
 2. Di penelusur solusi, di panel navigasi kiri, pilih **Entitas**.
 3. Klik **baru** untuk membuat entitas baru yang disebut **judul standar**. Masukkan informasi tersisa yang diperlukan dan kemudian klik **Simpan**.
 
-> ![Definisi entitas judul standar](media/Standard-Title-entity-definition.png)
+> ![Definisi entitas judul standar.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensi berbasis rangkaian pilihan 
@@ -56,9 +54,9 @@ Anda dapat membuat dua dimensi berbasis rangkaian pilihan. Gunakan **lokasi kerj
 2. Di penelusur solusi, di panel navigasi kiri, pilih  **rangkaian pilihan**. 
 3. Klik **baru** untuk membuat rangkaian pilihan baru, masukkan informasi yang diperlukan lainnya, lalu klik **simpan**.
 
-> ![Dimensi harga berdasarkan rangkaian pilihan disebut lokasi kerja sumber daya ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensi harga berdasarkan rangkaian pilihan disebut lokasi kerja sumber daya.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensi harga berdasarkan rangkaian pilihan disebut jam kerja sumber daya ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensi harga berdasarkan rangkaian pilihan disebut jam kerja sumber daya.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Membuat data untuk dimensi berbasis entitas
@@ -70,6 +68,9 @@ Anda dapat membuat data untuk dimensi berbasis entitas secara manual atau dengan
 3. Tutup formulir. 
 4. Ulangi langkah 1-3 untuk membuat judul standar lain untuk "senior Systems Engineer".
 
-> ![Data sampel untuk entitas judul standar ](media/ST-data.png)
+> ![Data sampel untuk entitas Judul Standar.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

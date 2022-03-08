@@ -2,18 +2,16 @@
 title: Jurnal integrasi dalam Project Operations
 description: Topik ini memberikan informasi tentang bekerja dengan jurnal Integrasi dalam Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948334"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987935"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
@@ -21,14 +19,14 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Entri waktu dan pengeluaran membuat transaksi **Aktual** yang mewakili tampilan operasional pekerjaan yang diselesaikan terhadap proyek. Dynamics 365 Project Operations menyediakan alat kepada akuntan untuk meninjau transaksi dan menyesuaikan atribut akuntansi sesuai kebutuhan. Setelah peninjauan dan penyesuaian selesai, transaksi diposting ke buku besar pembantu proyek dan buku besar Umum. Akuntan dapat melakukan kegiatan ini menggunakan jurnal **Integrasi Project Operations** jurnal(**Dynamics 365 Finance** > **Manajemen proyek dan akuntansi** > **Jurnal** > **Integrasi Project Operations**.
 
-![Alur jurnal integrasi](./media/IntegrationJournal.png)
+![Alur jurnal integrasi.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Membuat rekaman dalam Jurnal integrasi Project Operations
 
 Rekaman dalam jurnal Integrasi Project Operations dibuat menggunakan proses berkala, **Impor dari tabel penahapan**. Anda dapat menjalankan proses ini dengan masuk ke **Dynamics 365 Finance** > **Manajemen proyek dan akuntansi** > **Berkala** > **Integrasi Project Operations** > **Impor dari tabel penahapan**. Anda dapat menjalankan proses secara interaktif atau mengonfigurasi proses untuk berjalan di latar belakang sesuai kebutuhan.
 
 Ketika proses berkala berjalan, setiap aktual yang belum ditambahkan ke jurnal Integrasi Project Operations ditemukan. Baris jurnal untuk setiap transaksi aktual dibuat.
-Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam bidang **Unit periode di jurnal Integrasi Project Operations Integration** tab (**Keuangan** > **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, **Project Operations di Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
+Sistem ini mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam bidang **Unit periode di jurnal Integrasi Project Operations Integration** tab (**Finance** > **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, **Project Operations di Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
 
   - **Hari**: Aktual dikelompokkan menurut tanggal transaksi. Jurnal terpisah dibuat untuk setiap hari.
   - **Bulan**: Aktual dikelompokkan menurut bulan kalender. Jurnal terpisah dibuat untuk setiap bulan.

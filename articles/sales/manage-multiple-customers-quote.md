@@ -2,18 +2,16 @@
 title: Mengelola beberapa pelanggan pada kuotasi proyek
 description: Topik ini menyediakan informasi tentang menangani kuotasi yang melibatkan beberapa pelanggan yang akan mendanai proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991985"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mengelola beberapa pelanggan pada kuotasi proyek
 
@@ -23,7 +21,7 @@ Kuotasi proyek mendukung skenario di mana proposal melibatkan beberapa pelanggan
 
 Semua pelanggan kuotasi pada tab **pelanggan** kuotasi proyek memiliki default sebagai pelanggan baris kuotasi pada baris kuotasi berbasis proyek **baru** yang dibuat untuk kuotasi. Setiap baris kuotasi berbasis proyek yang ada tidak akan mewarisi rekaman pelanggan kuotasi baru yang dibuat setelah mereka.
 
-Pelanggan kuotasi dan pelanggan baris kuotasi dapat ditambahkan, diperbarui, atau dihapus kapan pun sebelum kuotasi dimenangkan. Pelanggan yang valid dalam kuotasi harus diatur sebagai pelanggan di perusahaan pemilik atau entitas hukum pada halaman **pelanggan**. Entitas hukum dikonfigurasi di modul **manajemen proyek dan akuntansi** dari Dynamics 365 Project Operations dan dibuat tersedia sebagai perusahaan dalam modul **penjualan dan pengiriman proyek** dari Project Operations.
+Pelanggan kuotasi dan pelanggan baris kuotasi dapat ditambahkan, diperbarui, atau dihapus kapan pun sebelum kuotasi dimenangkan. Pelanggan yang valid dalam kuotasi harus diatur sebagai pelanggan di perusahaan pemilik atau entitas hukum pada halaman **pelanggan**. Entitas hukum diatur dalam modul **Manajemen dan akuntansi proyek** di Dynamics 365 Project Operations dan tersedia sebagai perusahaan pada modul **Penjualan dan pelaksanaan Proyek** di Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konsep pelanggan utama
 
@@ -51,3 +49,6 @@ Pelanggan kuotasi dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan ku
 Anda dapat mengedit persentase pembagian penagihan dengan menggunakan pengalaman Edit kisi sebaris. Bila persentase pembagian penagihan tidak Total 100%, kesalahan akan terjadi. Setelah memperbarui persentase pembagian penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
 Anda juga dapat mencoba memilih **distribusikan secara merata** pada subkisi pelanggan kuotasi. Tindakan ini mengalokasikan pembagian penagihan ke semua pelanggan kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan. Ini berarti bahwa rekaman pelanggan kuotasi memiliki bendara **pembulatan** diatur ke **ya**. Biasanya ini adalah pelanggan utama kuotasi, namun dapat diubah.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

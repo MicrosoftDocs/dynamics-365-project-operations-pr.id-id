@@ -1,6 +1,6 @@
 ---
-title: Mengelola akumulasi tagihan - lite
-description: Topik ini menyediakan informasi tentang berbagai tampilan yang tersedia untuk digunakan saat mengelola akumulasi penagihan.
+title: Mengelola akumulasi penagihan proyek
+description: Informasi topik ini berisi informasi tentang berbagai tampilan yang tersedia untuk digunakan saat mengelola akumulasi penagihan pada proyek.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176975"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867000"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Mengelola akumulasi tagihan - lite
+# <a name="manage-project-billing-backlog"></a>Mengelola akumulasi penagihan proyek 
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -60,3 +60,6 @@ Aktual penjualan yang tidak ditagih dengan status **tidak boleh melebihi** **Gag
 Jika baris kontrak multi-pelanggan memiliki metode tagihan waktu dan material, bila waktu dan pengeluaran disetujui, satu aktual penjualan tidak ditagih dibuat untuk setiap pelanggan pada baris kontrak berdasarkan persentase penagihan yang ditetapkan untuk setiap pelanggan. Pada tampilan **akumulasi penagihan waktu dan material**, Anda akan melihat aktual penjualan tidak ditagih khusus pelanggan individual ini. Masing-masing rekaman aktual penjualan belum ditagih ini dapat ditandai sebagai **Siap untuk Faktur** secara terpisah dari tampilan ini.
 
 Aktual penjualan tidak tertagih yang ada pada faktur draf ditampilkan dalam tampilan ini dengan status penagihan **faktur Pelanggan dibuat**. Ketika draf faktur dikonfirmasi, status penagihan pada rekaman ini diperbarui ke **Faktur Pelanggan Diposting**. Jangan Perbarui nilai status ini dengan menggunakan kode kustom. Project Operations tidak berfungsi dengan benar saat nilai status ini diperbarui dengan kode kustom.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

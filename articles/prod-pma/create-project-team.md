@@ -2,11 +2,9 @@
 title: Buat tim proyek
 description: Topik ini menyediakan informasi tentang cara membuat dan mengeluarkan tim proyek.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270862"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005800"
 ---
 # <a name="create-a-project-team"></a>Membuat tim proyek
 
@@ -35,7 +33,7 @@ Pengaturan tampilan juga dapat disesuaikan untuk memberikan tampilan yang lebih 
 
 Manajer proyek dapat memilih peran pada halaman dan kemudian, jika ada sumber daya yang tersedia yang sesuai dengan persyaratan, pilih untuk mencadangkan sumber daya untuk mengisi peran. Perhatikan bahwa sumber daya tidak harus dicadangkan pada saat ini dalam tahap perencanaan. Bila Anda membuat WBS, Anda dapat mengganti peran dengan sumber daya staf untuk proyek. Jika peran diganti dengan sumber daya staf di WBS, pengaturan sumber daya secara otomatis memperbarui daftar tim proyek dan penjadwalan.
 
-[![Daftar tim proyek yang mencakup peran dan sumber daya aktual](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Daftar tim proyek yang mencakup peran dan sumber daya aktual.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Manajer Proyek memiliki berbagai pilihan untuk memesan sumber daya untuk proyek, seperti **kapasitas yang tersisa**, **kapasitas penuh**, **persentase kapasitas**, dan **Tentukan jam**. Pilihan Pemesanan ini dapat dibatalkan sewaktu-waktu jika tugas sumber daya berubah. Dua jenis Pemesanan yang didukung:
 

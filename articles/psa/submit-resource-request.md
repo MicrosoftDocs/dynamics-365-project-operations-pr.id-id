@@ -1,8 +1,6 @@
 ---
 title: Mengajukan permintaan sumber daya
 description: Topik ini menyediakan informasi tentang pengajuan permintaan sumber daya proyek.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149727"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985010"
 ---
 # <a name="submitting-a-resource-request"></a>Mengajukan permintaan sumber daya
 
@@ -36,8 +34,11 @@ Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan
 1. Di Project Service Automation (PSA), pada halaman **proyek**, klik tab **tim** untuk melihat daftar sumber daya yang dapat dipesan. 
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu klik **Ajukan Permintaan**.
 
-![Mengajukan permintaan sumber daya](media/RM-how-to-18.png)
+![Mengajukan permintaan sumber daya.](media/RM-how-to-18.png)
 
 Status permintaan anggota tim umum akan berubah menjadi **Diajukan**.
 
 Setelah permintaan terpenuhi oleh Manajer sumber daya, sumber daya generik akan digantikan dengan sumber daya bernama jika Manajer sumber daya memenuhi permintaan dengan Pemesanan sumber daya bernama. Jika tidak, sumber daya generik akan tetap berada di tim dan status permintaan akan berubah menjadi **Perlu Ditinjau**, jika Manajer sumber daya telah mengusulkan sumber daya bernama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

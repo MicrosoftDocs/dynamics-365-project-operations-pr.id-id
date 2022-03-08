@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948198"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133237"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Membuat peluang proyek (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -39,7 +37,7 @@ Peluang adalah prospek yang hangat dari pelanggan yang tertarik pada kontrak lay
   
 3.  Dalam area **ringkasan**, masukkan perusahaan dari peluang Anda dan informasi lainnya.  
   
-4.  Tambahkan catatan dan kegiatan (misalnya, panggilan telepon atau email) yang berhubungan dengan prospek ini. Untuk mempelajari lebih lanjut tentang menambahkan catatan dan aktivitas, lihat [tetap melacak yang catatan, tugas, panggilan, atau email dengan aktivitas](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Tambahkan catatan dan kegiatan (misalnya, panggilan telepon atau email) yang berhubungan dengan prospek ini. Untuk mempelajari lebih lanjut tentang menambahkan catatan dan aktivitas, lihat [tetap melacak yang catatan, tugas, panggilan, atau email dengan aktivitas](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Untuk menambahkan pemangku kepentingan, di area **pemangku kepentingan**, klik **+**.  
   
@@ -55,6 +53,3 @@ Peluang adalah prospek yang hangat dari pelanggan yang tertarik pada kontrak lay
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,8 +3,7 @@ title: Mengaktifkan fitur Project Finder Mobile
 description: Bagaimana mengaktifkan fitur Project Finder Mobile untuk Project Service
 author: JohnPBurrows
 manager: kfend
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,24 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144552"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078491"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Mengaktifkan fitur Project Finder Mobile (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Sumber daya Anda dapat menggunakan app Project Finder Mobile di ponsel mereka dengan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] untuk menemukan proyek-proyek baru untuk bekerja dan memperbarui set keterampilan mereka.  
   
  Aplikasi ini tersedia untuk [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], telepon [!INCLUDE[tn_android](../includes/tn-android.md)], dan [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-    
- Anda perlu untuk memilih beberapa opsi dalam pengaturan parameter untuk unit organisasi Anda untuk memungkinkan pengguna untuk melihat kebutuhan sumber daya proyek dan memperbarui keterampilan mereka.
+  
+ Anda perlu untuk mengatur beberapa opsi dalam pengaturan parameter untuk unit organisasi Anda untuk memungkinkan pengguna untuk melihat kebutuhan sumber daya proyek dan memperbarui keterampilan mereka.  
   
 > [!NOTE]
 >  Aplikasi Project Finder Mobile hanya berfungsi pada [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], tidak dengan instalasi lokal.  
@@ -60,8 +57,8 @@ Sumber daya Anda dapat menggunakan app Project Finder Mobile di ponsel mereka de
   
 |Penerima|Aktivitas|  
 |---------------|-----------|  
-|Manajer Proyek|- Sumber daya mendaftarkan diri ke sebuah proyek dengan aplikasi Project Finder Mobile.|  
-|Sumber daya|- Pekerjaan proyek di mana sumber daya telah mendaftar sudah diisi oleh sumber daya lain.<br />- Permintaan persetujuan keterampilan mereka disetujui atau ditolak.<br />- Permintaan pendaftaran proyek disetujui atau ditolak.|  
+|Manajer Proyek|-   Ketika sumber daya mendaftarkan diri ke sebuah proyek dengan app Project Finder Mobile.|  
+|Sumber Daya|-   Ketika pekerjaan proyek di mana sumber daya telah mendaftar sudah diisi oleh sumber daya lain.<br />-   Ketika permintaan persetujuan keterampilan mereka disetujui atau ditolak.<br />-   Ketika permintaan pendaftaran proyek disetujui atau ditolak.|  
   
 ## <a name="privacy-notice"></a>Pemberitahuan privasi  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

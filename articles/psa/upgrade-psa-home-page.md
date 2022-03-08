@@ -2,7 +2,6 @@
 title: Laman beranda peningkatan
 description: Topik ini menunjukkan lokasi untuk menemukan informasi penting tentang fitur baru dan yang diubah di Dynamics 365 Project Service Automation, serta proses peningkatan ke versi terbaru.
 manager: kfend
-ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -19,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150087"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121762"
 ---
 # <a name="upgrade-home-page"></a>Laman beranda peningkatan
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -40,7 +37,7 @@ Per tanggal 17 Mei 2019, ketika Project Service Automation dipilih selama penyed
 
 ### <a name="existing-instances"></a>Instans yang Ada
 
-Sebelumnya, pelanggan yang memiliki instans PSA versi 2.x dan perlu meng-upgrade ke versi 3. x, yang merupakan versi berbasis antarmuka klien terpadu (UCI) PSA, harus menghubungi Dukungan Microsoft dan memberikan rincian instans mereka, sehingga dukungan dapat mengaktifkan instans untuk ditingkatkan ke versi 3. x. Pada tanggal 1 Maret 2020, pelanggan yang memiliki instans PSA versi 2.x dan perlu meningkatkan ke versi 3.x, akan dapat meningkatkan instans mereka langsung dari portal Admin tanpa harus menghubungi Dukungan Microsoft.  
+Sebelumnya, pelanggan yang memiliki instans PSA versi 2. x dan perlu meng-upgrade ke versi 3. x, yang merupakan versi berbasis antarmuka klien terpadu (UCI) PSA, harus menghubungi dukungan Microsoft, dan memberikan rincian instans mereka, sehingga dukungan dapat mengaktifkan instans untuk ditingkatkan ke versi 3.x. Per 1 Maret 2020, pelanggan yang memiliki contoh PSA versi 2. x dan perlu meng-upgrade ke versi 3. x, akan dapat meningkatkan instance mereka langsung dari portal admin tanpa harus menghubungi dukungan Microsoft.  
 
 > [!NOTE]
 > PSA versi 3. x mencakup perubahan signifikan. Telah dibangun di atas kerangka kerja Antarmuka Terpadu untuk membantu memberikan pengalaman pengguna yang lebih baik. Aplikasi yang didesain ulang memberikan antarmuka pengguna yang konsisten dan seragam (UI), dan mengikuti prinsip desain responsif untuk tampilan optimal pada ukuran layar atau perangkat apa pun. Ada perubahan lain di seluruh aplikasi. Beberapa area yang telah diubah mencakup harga, pemesanan, dan penetapan sumber daya, waktu, pengeluaran, dan persetujuan.
@@ -61,7 +58,7 @@ Setelah Anda meninjau topik yang telah disebutkan sebelumnya dan siap mengupgrad
 
 Pada tanggal 17 Mei 2019, Semua instance baru akan memiliki UCI sebagai klien default. Untuk penyelarasan dengan perubahan ini, versi PSA 3. x dan Field Service 8. x akan ditetapkan secara default, karena versi ini dirancang untuk bekerja dengan klien UCI.
 
-Mulai 1 Maret 2020, pelanggan Dynamics PSA tidak akan lagi dapat membuat lingkungan baru dengan PSA versi lama, misalnya PSA versi 2.x atau yang lebih rendah. Lingkungan baru hanya mendapatkan versi 3.x dari PSA.
+Mulai tanggal 1 Maret 2020, pelanggan Dynamics PSA tidak akan lagi dapat membuat lingkungan baru dengan versi PSA yang lebih lama, misalnya PSA versi 2.x atau lebih rendah. Lingkungan baru hanya mendapatkan versi 3.x dari PSA.
 
 > [!NOTE]
 > Untuk pengalaman terbaik saat Anda menggunakan versi lama dari aplikasi Field Service dan PSA, buka halaman **pengaturan sistem**, dan untuk bidang, bidang **gunakan Antarmuka Terpadu baru saja (disarankan)**, pilih **tidak** karena versi ini tidak dirancang untuk dimuat dengan benar di UCI. Setelah Anda telah menonaktifkan UCI, Anda dapat membuka dan menjalankan versi Field Service dan PSA menggunakan klien web lama. 

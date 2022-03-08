@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663697"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121312"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Konsep unik untuk kuotasi berbasis proyek
+# <a name="quotes---key-concepts"></a>Kuotasi - Konsep utama
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Di Dynamics 365 Project Operations, ada dua jenis kuotasi: proyek dan penjualan. Kedua jenis kuotasi ini berbeda dalam hal berikut:
+Dalam Dynamics 365 Project Operations, ada dua jenis kuotasi, proyek, dan penjualan. Kedua jenis kuotasi ini berbeda dalam hal berikut:
 
 - **Kisi untuk item baris**: Pada kuotasi penjualan, hanya ada satu kisi untuk item baris. Di kuotasi proyek, ada dua kisi untuk item baris. Satu kisi adalah untuk baris proyek dan lainnya adalah untuk baris produk.
 - **Aktivasi dan revisi**: kuotasi penjualan mendukung aktivasi dan revisi. Proses ini tidak didukung pada kuotasi proyek.
@@ -128,6 +128,3 @@ Untuk baris kuotasi harga tetap, Anda dapat menggunakan kisi **jadwal faktur** u
 - Untuk membuat tonggak waktu penagihan yang terbagi rata, pilih frekuensi faktur, masukkan tanggal mulai penagihan pada baris kuotasi, dan pilih **tanggal selesai yang diminta** untuk kuotasi di bagian **ringkasan** header kuotasi. Kemudian pilih **Buat tonggak waktu periodik** untuk membuat tonggak waktu terpisah yang sama berdasarkan frekuensi faktur yang dipilih. 
 - Untuk membuat tonggak penagihan Total, buat tonggak waktu, lalu masukkan nilai baris kuotasi sebagai jumlah tonggak waktu.
 - Untuk membuat tonggak waktu penagihan yang didasarkan pada tugas tertentu dalam rencana proyek, buat tonggak waktu, dan Petakan ke elemen jadwal proyek dalam UI tonggak waktu penagihan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

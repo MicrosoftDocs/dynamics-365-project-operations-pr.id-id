@@ -2,11 +2,9 @@
 title: Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android
 description: Topik ini menyediakan pola umum untuk menggunakan ekstensi untuk menerapkan bidang kustom.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005755"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android
 
@@ -155,13 +153,13 @@ Untuk bidang jenis **Tanggal**, properti ini meneruskan nilai tanggal bidang ant
 
 Di bawah ini adalah screenshot dari aplikasi seluler pembuatan entri lembar waktu. Menampilkan bidang siap pakai dan bidang kustom di bagian "entri waktu" yang disebut "uji string" dengan nilai enum "pilihan kedua" yang telah ditetapkan.
 
-![Uji bidang kustom string dalam aplikasi](media/timesheet-entry.jpg)
+![Uji bidang kustom string dalam aplikasi.](media/timesheet-entry.jpg)
 
 
 
 Di bawah ini adalah screenshot dari aplikasi perangkat bergerak pengguna yang memilih salah satu pilihan enum yang tersedia untuk bidang kustom "string uji".  Dua pilihan adalah "pilihan pertama" dan "pilihan kedua" ditampilkan sebagai tombol radio. Pilihan kedua saat ini dipilih.
 
-![Tombol pilihan (tombol radio) untuk bidang kustom uji string](media/enum-option.jpg)
+![Tombol pilihan (tombol radio) untuk bidang kustom uji string.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ Perhatikan bahwa bidang kustom tidak harus memiliki rekaman database dukungan. M
 
 Di bawah ini adalah screenshot dari Visual Studio pohon objek aplikasi. Ini menunjukkan perpanjangan dari tabel TSTimesheetLine dengan bidang TestLineString ditambahkan sebagai bidang kustom.
 
-![String baris](media/b6756b4a3fc5298093327a088a7710fd.png)
+![String baris.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Gunakan rantai perintah pada metode buildCustomFieldList kelas TSTimesheetSettings untuk menampilkan bidang di bagian entri lembar waktu
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Di bawah ini adalah screenshot dari aplikasi seluler pengguna yang melihat lembar waktu. Tombol "informasi selengkapnya" telah dipilih di sudut kanan atas untuk menampilkan pilihan "Lihat rincian lainnya".  
 
-![Perintah lihat rincian lainnya](media/show-more.png)
+![Perintah lihat rincian lainnya.](media/show-more.png)
 
 Di bawah ini adalah screenshot dari aplikasi seluler yang menampilkan bagian "Lainnya" dari lembar waktu. Bidang kustom yang disebut "tingkat pemanfaatan lembar waktu ini (bidang kustom dihitung)" telah ditambahkan ke bagian header lembar waktu. Nilai baca-saja "0,667" diatur pada bidang kustom.
 
-![Bagian lainnya](media/more-section.jpg)
+![Bagian lainnya.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Perluas tabel TSTimesheetTable sehingga memiliki bidang kustom
 
@@ -416,7 +414,7 @@ Logika yang ada untuk fungsi lembar waktu di tingkat database akan tetap berfung
 
 Dari parameter proyek, Anda dapat membuat bidang bawaan hanya baca, atau tersembunyi di aplikasi seluler. Atur pilihan di bagian **lembar waktu Mobile** pada tab **lembar waktu** halaman **parameter manajemen proyek dan akuntansi**.
 
-![Parameter Proyek](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parameter Proyek.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Mengubah aktivitas yang tersedia untuk dipilih melalui ekstensi
 

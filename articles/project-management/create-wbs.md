@@ -2,18 +2,16 @@
 title: Membuat struktur rincian kerja
 description: Artikel topik menjelaskan cara membuat WBS (struktur perincian kerja) yang mencakup kontrol dasar di antarmuka penjadwalan baru.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841355"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005705"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Membuat struktur rincian kerja (WBS)
 
@@ -93,6 +91,8 @@ Tabel berikut menampilkan atribut jadwal tambahan.
 | Nama | Nama tugas. |
 | ID | ID tugas dalam struktur rincian kerja. |
 
+Sebagai administrator, Anda dapat menentukan bidang kustom pada entitas tugas. Namun bidang tidak dapat ditampilkan pada kisi jadwal. Untuk melihat bidang kustom Anda, tambahkan ke halaman rincian **Tugas Proyek**.
+
 ## <a name="staffing-attributes"></a>Atribut staf
 
 Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.
@@ -116,3 +116,6 @@ Mode tugas tidak berpengaruh pada pembaruan yang dibuat pada tanggal mulai dan b
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Cara pintas keyboard dan aksesibilitas
 
 Kisi **jadwal** sepenuhnya dapat diakses dan dapat digunakan dengan pembaca layar seperti narrator, JAWS, atau NVDA. Anda dapat berpindah melalui area kisi dengan menggunakan tombol panah (sebagaimana di Microsoft Excel), Anda dapat menggunakan tombol tab untuk memajukan melalui elemen antarmuka pengguna interaktif, dan Anda dapat menggunakan tombol panah bawah, tombol Enter, atau spasi untuk memilih dan membuka menu drop-down.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

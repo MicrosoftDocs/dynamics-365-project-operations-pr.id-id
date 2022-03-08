@@ -2,18 +2,16 @@
 title: Menagih uang muka atau panjar
 description: Topik ini memberikan informasi tentang cara menagih panjar atau uang muka dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596196"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997475"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Menagih uang muka atau panjar
 
@@ -51,3 +49,6 @@ Hal ini dapat dilihat di kisi **panjar atau uang muka yang diterapkan** di halam
 | Jumlah Digunakan | Kisi **panjar atau uang muka yang diterapkan** di halaman **faktur proyek**  | Bidang hanya baca ini memberikan nilai yang dihitung yang merangkum berapa banyak panjar atau uang muka telah digunakan. | Bidang ini dapat ditampilkan kepada pelanggan pada faktur tercetak untuk menunjukkan jumlah dari panjar atau uang muka yang telah digunakan. |
 | Jumlah Kelipatan | Kisi **panjar atau uang muka yang diterapkan** di halaman **faktur proyek**  | Bidang yang bisa diedit ini memberikan jumlah panjar atau uang muka yang digunakan pada faktur proyek ini. Jumlah ini tidak dapat lebih dari yang tersedia di uang muka. Sistem secara otomatis mengkalkulasi ini sebagai perbedaan antara bidang **jumlah** dan **jumlah yang digunakan** pada kisi. Anda dapat mengurangi jumlah ini untuk menggunakan kurang dari yang tersedia, namun Anda tidak dapat meningkatkan jumlah untuk menggunakan lebih dari yang tersedia. | Bidang ini dapat ditampilkan kepada pelanggan pada faktur tercetak untuk menunjukkan jumlah dari panjar atau uang muka yang digunakan di faktur. |
 | Jumlah Panjar Saldo. | Kisi **panjar atau uang muka yang diterapkan** di halaman **faktur proyek**  | Bidang hanya baca ini memberikan nilai berapa banyak panjar atau uang muka akan tersisa setelah faktur dikonfirmasi. | Bidang ini dapat ditampilkan kepada pelanggan pada faktur tercetak untuk menunjukkan jumlah yang akan tersisa dari panjar atau uang muka setelah fakturdikonfirmasi dan dibayar. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

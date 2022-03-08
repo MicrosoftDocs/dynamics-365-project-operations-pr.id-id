@@ -2,18 +2,16 @@
 title: Menyalin daftar harga
 description: Topik ini menyediakan informasi tentang cara menyalin daftar harga produk dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003730"
 ---
 # <a name="copy-price-lists"></a>Menyalin daftar harga
 
@@ -43,3 +41,6 @@ Untuk membuat salinan daftar harga, selesaikan langkah berikut.
 1. Pada tab **peran**, **kategori**, dan **item Daftar Harga** dari daftar harga, Anda dapat memilih **Perbarui harga** untuk menerapkan markup untuk semua harga di subkisi. 
 2. Pada halaman dialog yang terbuka, masukkan mark-up. Anda juga dapat memasukkan persentase mark-up negatif untuk menurunkan harga dengan persentase tertentu. 
 3. Pilih **OK** pada halaman dialog, lalu Verifikasikan bahwa harga di subkisi mencerminkan perubahan yang Anda buat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

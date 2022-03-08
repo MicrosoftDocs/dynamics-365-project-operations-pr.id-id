@@ -2,18 +2,16 @@
 title: Mengelola beberapa pelanggan pada kontrak proyek - lite
 description: Topik ini menyediakan informasi tentang mengelola beberapa pelanggan pada kontrak proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001750"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Mengelola beberapa pelanggan pada kontrak proyek - lite
 
@@ -52,3 +50,6 @@ Pelanggan kontrak dapat dibuat, diperbarui, atau dihapus dari tab **pelanggan** 
 Persentase pemecahan penagihan dapat diedit dengan pengalaman pengeditan kisi inline. Bila persentase pemecahan penagihan tidak berjumlah Total 100 persen, kesalahan akan terjadi. Setelah Anda mengedit persentase pemecahan penagihan, segarkan halaman untuk menghilangkan kesalahan.
 
 Anda juga dapat memilih **mendistribusikan secara merata** pada subkisi **pelanggan kontrak** untuk mengalokasikan pemecahan tagihan secara merata ke semua pelanggan kontrak. Jika ada faktor pembulatan, maka akan ditambahkan ke pelanggan pembulatan. Salah satu dari pelanggan kontrak selalu ditandai sebagai pelanggan **pembulatan**, yang berarti bahwa rekaman pelanggan kontrak memiliki rangkaian bendera pembulatan yang diatur ke **ya**. Biasanya, ini adalah pelanggan utama kontrak, namun juga dapat diubah.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

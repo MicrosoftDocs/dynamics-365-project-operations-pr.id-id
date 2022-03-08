@@ -2,9 +2,11 @@
 title: Mentransfer anggaran proyek di akhir tahun fiskal
 description: Artikel ini menyediakan informasi tentang cara mentransfer sisa jumlah anggaran ke masa depan dan membuat rincian register anggaran.
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007375"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289733"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Mentransfer anggaran proyek di akhir tahun fiskal
 

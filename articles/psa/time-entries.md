@@ -2,8 +2,6 @@
 title: Buat Entri Waktu
 description: Topik ini menyediakan informasi tentang cara membuat entri waktu.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990410"
 ---
 # <a name="create-time-entries"></a>Buat Entri Waktu
 
@@ -70,3 +68,6 @@ Anda dapat mengimpor data dari Pemesanan dan tugas proyek. Saat mengimpor data, 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Kemampuan Kelompokkan berdasarkan, Urutkan, pencarian, dan filter
 
 Anda dapat mengelompokkan dan memfilter entri waktu berdasarkan dimensi yang ditentukan di kolom. Di bidang **Kelompokkan berdasarkan**, pilih dimensi yang akan digunakan untuk memfilter entri waktu. Anda juga dapat mengurutkan rekaman entri waktu dalam urutan naik atau turun menggunakan panah urut pada heading kolom. Selain itu, Anda dapat menampilkan atau menyembunyikan entri dengan memilih tombol **filter** pada heading kolom, lalu, di kotak **pencarian**, memasukkan teks yang akan digunakan untuk mencari entri waktu berdasarkan nama proyek, tugas proyek, waktu entri, atau sumber daya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

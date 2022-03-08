@@ -2,8 +2,6 @@
 title: Buat kontrak proyek
 description: Bagaimana membuat kontrak proyek di Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e26e5193353d7bbb594f9f31d95c18130d614517
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fb1cb4567caf212f8a05c47450ee1eb37e74ebb2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150852"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997380"
 ---
 # <a name="create-a-project-contract-project-service"></a>Membuat kontrak proyek (Project Service)
 
@@ -47,3 +45,6 @@ Sekarang karena Anda telah memenangkan penawaran untuk proyek Anda, saatnya untu
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

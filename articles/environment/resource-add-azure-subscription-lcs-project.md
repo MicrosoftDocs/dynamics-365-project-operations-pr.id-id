@@ -2,18 +2,16 @@
 title: Menambahkan langganan Azure ke proyek LCS
 description: Topik ini menyediakan informasi tentang cara menyambungkan langganan Azure ke proyek lcs.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880542"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986675"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
 
@@ -25,35 +23,35 @@ Lingkungan host Cloud harus disebarkan menggunakan langganan Azure yang ada. Top
 
 1. Di proyek LCS, di Bagian **lingkungan**, pilih **pengaturan Microsoft Azure**.
 
-![Pengaturan Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Pengaturan Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Pada halaman **pengaturan proyek**, pada tab **konektor Azure**, pilih **otorisasi**. Hal ini memungkinkan lingkungan akan disebarkan ke proyek ini.
 
-![Azure Connectors](./media/2AzureConnectors.png)
+![Konektor Azure.](./media/2AzureConnectors.png)
 
 3. Pilih **otorisasi** lagi untuk memberikan izin admin.
 
-![Memberikan izin admin](./media/3GrantAdminConsent.png)
+![Memberikan izin admin.](./media/3GrantAdminConsent.png)
 
 4. Terima permintaan izin.
 
-![Terima permintaan izin](./media/4AcceptPermissionRequest.png)
+![Terima permintaan izin.](./media/4AcceptPermissionRequest.png)
 
 Otorisasi sekarang selesai. 
 
-![Otorisasi berhasil](./media/5AuthorizationComplete.png)
+![Otorisasi berhasil.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Berikan akses layanan penyebaran Dynamics ke langganan Azure Anda
 
 1. Pergi ke [penagihan Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) dan pilih langganan Anda. Dynamics Deployment Services harus mengakses langganan ini agar dapat menerapkan lingkungan.
 
-![Rincian Langganan Azure](./media/6AzureSubscription.png)
+![Detail langganan Azure.](./media/6AzureSubscription.png)
 
 2. Pilih **kontrol akses (iam)** di panel navigasi, lalu pilih **Tambah penetapan peran**.
 3. Di penggeser di sisi kanan, pilih **kontributor peran**, dan di daftar yang tersedia, cari dan pilih **Dynamics Deployment Services**. 
 4. Pilih **Simpan**.
 
-![Akses Langganan](./media/7SubscriptionAccess.png)
+![Akses Langganan.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Menambahkan konektor langganan ke proyek LCS
 

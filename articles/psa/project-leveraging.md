@@ -2,8 +2,6 @@
 title: Perkiraan Penjualan dan Proyek
 description: Topik ini menyediakan informasi tentang cara memanfaatkan jadwal dan perkiraan dalam proses penjualan.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995180"
 ---
 # <a name="sales-estimates-and-projects"></a>Perkiraan Penjualan dan Proyek
 
@@ -37,11 +35,11 @@ Selama proses penjualan, Anda dapat membuat perkiraan penjualan dengan menautkan
 
 Saat membuat baris kuotasi berbasis proyek, Anda dapat membuat proyek baru atau mengaitkannya proyek yang ada di halaman **baris kuotasi**. 
 
-> ![Formulir Baris kuotasi](media/project-8.png)
+> ![Formulir Baris kuotasi.](media/project-8.png)
  
 Bila Anda membuat proyek baru dari rincian baris kuotasi, Anda dapat memanfaatkan template proyek. Template proyek adalah proyek model yang menunjukkan rencana proyek standar dan perkiraan keuangan yang tipikal dalam suatu organisasi. Mereka juga dapat menunjukkan salinan rencana proyek dan perkiraan dari proyek sebelumnya.
 
-> ![Rincian Baris Kuotasi](media/project-9.png)
+> ![Rincian Baris Kuotasi.](media/project-9.png)
   
 Ketika Anda membuat proyek Anda dari kuotasi, proyek ini otomatis dikaitkan dengan baris kuotasi.
 
@@ -54,3 +52,6 @@ Anda dapat menentukan perkiraan upaya kerja dan jadwal dengan menggunakan bidang
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Mengimpor perkiraan dari sebuah proyek ke kuotasi
 
 Setelah menentukan perkiraan proyek, Anda dapat mengimpornya ke baris kuotasi. Pada halaman **detail baris kuotasi**, pilih **impor dari perkiraan** pada pita untuk meringkas perkiraan proyek berdasarkan jenis transaksi, peran, atau tingkat tugas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
