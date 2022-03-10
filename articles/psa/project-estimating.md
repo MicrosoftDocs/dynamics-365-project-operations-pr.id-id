@@ -2,8 +2,6 @@
 title: Penerimaan dan biaya proyek
 description: Topik ini menyediakan informasi tentang memperkirakan biaya proyek dan pendapatan.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,20 +16,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127972"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002560"
 ---
 # <a name="project-costs-and-revenue"></a>Penerimaan dan biaya proyek
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Perkiraan proyek memberikan tampilan keuangan untuk pekerjaan yang diperkirakan dan dijadwalkan pada jadwal proyek. Tab **Estimasi** pada halaman **proyek** menunjukkan dampak biaya dan pendapatan dari pekerjaan yang Anda rencanakan. Ia juga menyediakan informasi tentang banyak dimensi yang telah ditentukan. 
 
-> ![tab Perkiraan](media/project-5.png)
+> ![tab Perkiraan.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Biaya dan nilai penjualan proyek
 
@@ -66,13 +66,13 @@ Jika sistem tidak menemukan harga untuk peran, maka harga penjualan pada baris p
 
 Tab **perkiraan** memiliki tampilan kisi yang menampilkan baris perkiraan. Kisi mencakup kolom untuk unit, harga biaya total, dan harga penjualan total, seperti ditunjukkan dalam ilustrasi berikut. 
 
-> ![Tampilan kisi pada tab perkiraan](media/project-6.png)
+> ![Tampilan kisi pada tab perkiraan.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Tampilan bertahap waktu dari estimasi proyek
 
 Tampilan bertahap waktu perkiraan proyek menunjukkan perkiraan data dari tampilan kisi di seluruh Timeline, dalam skala waktu yang Anda pilih. Secara default, data perkiraan berpusat pada dimensi **peran**.
 
-> ![Tampilan bertahap waktu untuk estimasi proyek](media/project-7.png)
+> ![Tampilan bertahap waktu untuk estimasi proyek.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Mengalokasikan estimasi upaya berdasarkan mode tugas
 
@@ -95,3 +95,6 @@ Di tampilan kisi dan tampilan berdasar waktu, Anda dapat memilih bidang yang aka
 ## <a name="expense-estimates"></a>Perkiraan pengeluaran
 
 Tombol **Tambah perkiraan biaya baru** di tampilan kisi memungkinkan Anda merekam setiap pengeluaran yang terjadi dalam proyek, namun yang tidak terkait langsung dengan tenaga kerja. Anda dapat merekam perkiraan pengeluaran untuk tugas tertentu atau untuk seluruh proyek. Pilih kategori pengeluaran dan tanggal tentatif bila Anda memperkirakan akan dikenakan biaya. Jika harga biaya yang terkait dan daftar harga penjualan memiliki harga default (atau persentase markup yang didefinisikan untuk kategori pengeluaran) mereka otomatis dimasukkan pada baris perkiraan saat asosiasi terjadi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

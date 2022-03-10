@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015065"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985505"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Pemfakturan di Project Service Automation
 
@@ -50,7 +50,7 @@ Ikuti langkah ini untuk membuat faktur untuk kontrak proyek tertentu.
 
 - Pada halaman daftar **kontrak proyek**, buka kontrak proyek, lalu pilih **buat faktur**.
 
-    ![Membuat faktur proyek untuk kontrak proyek tertentu](media/CreateProjectInvoicesOneByOne.png)
+    ![Membuat faktur proyek untuk kontrak proyek tertentu.](media/CreateProjectInvoicesOneByOne.png)
 
     Faktur dibuat untuk semua transaksi untuk kontrak proyek yang dipilih yang memiliki status **siap untuk faktur**. Transaksi ini mencakup waktu, pengeluaran, tonggak waktu, dan baris kontrak berbasis produk.
 
@@ -58,7 +58,7 @@ Ikuti langkah berikut untuk membuat faktur secara massal.
 
 1. Pada halaman daftar **kontrak proyek**, pilih satu atau beberapa kontrak proyek yang harus Anda buat faktur, lalu pilih **buat faktur proyek**.
 
-    ![Membuat Faktur Proyek secara massal](media/CreateProjectInvoicesBulk.png)
+    ![Membuat Faktur Proyek secara massal.](media/CreateProjectInvoicesBulk.png)
 
     Pesan peringatan akan menginformasikan bahwa mungkin ada penundaan sebelum faktur dibuat. Proses ini juga ditampilkan.
 

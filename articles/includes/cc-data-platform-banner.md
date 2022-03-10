@@ -1,15 +1,15 @@
 ---
-ms.openlocfilehash: 9490a2c1f0f2ecf47158df931c56b3d4b2ed779b
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 80c9682d54a0f7cf1345cd23a54ddfa74a501674
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643311"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951168"
 ---
 > [!NOTE]
 > Efektif November 2020:
 >
 > - Common Data Service telah diubah namanya menjadi Microsoft Dataverse. Untuk informasi lebih lanjut, lihat [Power Automate Blog](https://aka.ms/PAuAppBlog).
-> - Beberapa terminologi di Microsoft Dataverse telah diperbarui. Contohnya, *entitas* sekarang adalah *tabel* dan *bidang* sekarang adalah *kolom*. Untuk informasi lebih lanjut lihat [Pembaruan terminologi](https://go.microsoft.com/fwlink/?linkid=2147247).
+> - Beberapa terminologi di Microsoft Dataverse telah diperbarui. Contohnya, *entitas* sekarang adalah *tabel* dan *bidang* sekarang adalah *kolom*. Untuk informasi lebih lanjut lihat [Pembaruan terminologi](/powerapps/maker/data-platform/data-platform-intro).
 >
 > Topik ini akan segera diperbarui untuk mencerminkan terminologi terbaru.

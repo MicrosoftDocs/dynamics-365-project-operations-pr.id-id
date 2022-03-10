@@ -1,28 +1,19 @@
 ---
 title: Ikhtisar dimensi harga
-description: Topik ini menyediakan informasi tentang dimensi harga di Dynamics 365 Project operations.
+description: Topik ini memberikan informasi tentang dimensi harga di Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128467"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001975"
 ---
 # <a name="pricing-dimensions-overview"></a>Ikhtisar dimensi harga
 
@@ -40,9 +31,21 @@ Oleh karena itu, ada dua jenis nilai dimensi harga yang tersedia:
 
 ## <a name="pricing-dimensions"></a>Dimensi harga
 
-Dynamics 365 Project Operations dikirim dengan seperangkat default dimensi harga. Anda dapat melihat dimensi harga ini dengan membuka **Project Operations** > **Parameter**. Pada rekaman parameter, pada tab **Dimensi harga berbasis jumlah**, Verifikasikan bahwa peran , **msdyn_resourcecategory**, dan unit organisasi sumber daya, **msdyn_organizationalunit** memiliki bidang **Berlaku untuk penjualan** dan **berlaku untuk biaya** yang ditetapkan ke **ya**. Dengan mengaktifkan bidang ini, Anda dapat mengkonfigurasi harga dan biaya untuk setiap peran dan kombinasi unit organisasi.
+Dynamics 365 Project Operations dikirim dengan seperangkat dimensi harga default. Anda dapat melihat dimensi harga ini dengan membuka **Project Operations** > **Parameter**. Pada rekaman parameter, pada tab **Dimensi harga berbasis jumlah**, Verifikasikan bahwa peran , **msdyn_resourcecategory**, dan unit organisasi sumber daya, **msdyn_organizationalunit** memiliki bidang **Berlaku untuk penjualan** dan **berlaku untuk biaya** yang ditetapkan ke **ya**. Dengan mengaktifkan bidang ini, Anda dapat mengkonfigurasi harga dan biaya untuk setiap peran dan kombinasi unit organisasi.
 
-Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi.
+![Tangkapan layar dari parameter Project Service dengan "berlaku for penjualan" disorot.](media/PS-OOB-parameters.png)
+
+Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi lebih lanjut, lihat topik berikut. 
+  
+  > [!NOTE]
+  > Prosedur harus diselesaikan dalam urutan sebagaimana tercantum.
+
+1. [Membuat solusi untuk dimensi harga kustom](../sales/create-solution-custompd.md)
+2. [Membuat bidang dan entitas kustom](create-custom-fields-entities-pricing-dimensions.md)
+3. [Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Mengonfigurasikan bidang kustom sebagai dimensi harga ](set-up-custom-fields-pricing-dimensions.md)
+5. [Perbarui atribut plug-in untuk menyertakan dimensi harga baru](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Waktu sumber daya manusia
 Bagaimana organisasi menghargai waktu sumber daya manusia sering merupakan pertimbangan strategis penting yang secara langsung mempengaruhi profitabilitas organisasi. Bekerja dengan tim keuangan dan pimpinan praktik ketika organisasi Anda siap untuk mengidentifikasi bagaimana cara mengkonfigurasi tagihan dan tarif biaya untuk waktu sumber daya manusia.
@@ -55,15 +58,18 @@ Contoh berikut menunjukkan tarif tagihan yang diatur berdasarkan peran dan unit 
 
 **Tarif tagihan sampel**
 
-| Peran        | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
+| Peran        | Unit Organisasi    |Unit      |Harga      |Mata uang  |
 | ------------|-------------|----------|----------:|----------|
-| Pengembang   | Contoso AS  |Hour | 200|USD     |
-| Pengembang   | Aswono India |Hour|   112|USD     |
+| Pengembang   | Contoso AS  |Jam | 200|USD     |
+| Pengembang   | Contoso India |Jam|   112|USD     |
 
 
 **Sampel tarif biaya**
 
-| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
+| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata uang  |
 | ----------------|-------------|----------|----------:|----------|
-| Perusahaan saya_Band1 | Contoso AS  |Hour | 145|USD     |
-| Perusahaan saya_Band2 | Aswono India |Hour|   67|USD     |
+| Perusahaan saya_Band1 | Contoso AS  |Jam | 145|USD     |
+| Perusahaan saya_Band2 | Contoso India |Jam|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

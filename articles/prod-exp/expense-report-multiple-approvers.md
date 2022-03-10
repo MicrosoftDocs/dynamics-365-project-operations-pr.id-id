@@ -2,11 +2,9 @@
 title: Beberapa pemberi persetujuan pada laporan pengeluaran
 description: Topik ini menyediakan informasi tentang laporan pengeluaran yang memerlukan persetujuan dari beberapa orang.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078640"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995900"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Beberapa pemberi persetujuan pada laporan pengeluaran
-
-[!include [banner](../includes/banner.md)]
 
 Tergantung pada kebijakan persetujuan pengeluaran organisasi Anda, lebih dari satu orang mungkin harus menyetujui laporan pengeluaran yang diajukan oleh seorang karyawan. Bila Anda mengkonfigurasi proses alur kerja untuk persetujuan laporan pengeluaran, Anda dapat menambahkan elemen alur kerja yang mencakup tugas atau langkah-langkah untuk satu pemberi izin laporan pengeluaran. Misalnya, Anda mungkin mengharuskan semua laporan biaya disetujui pertama oleh manajer karyawan yang mengajukan laporan dan kemudian oleh koordinator utang dagang.
 
@@ -42,3 +38,6 @@ Jika Anda memutuskan untuk meminta beberapa penyetuju laporan pengeluaran, Anda 
 
     1. Manajer karyawan menyetujui laporan pengeluaran.
     2. Pemilik anggaran menyetujui laporan pengeluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

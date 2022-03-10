@@ -2,12 +2,11 @@
 title: Laman beranda harga dan dimensi biaya
 description: Topik ini memberikan ikhtisar tentang dimensi harga.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998465"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Laman beranda harga dan dimensi biaya
 
@@ -42,7 +41,7 @@ Mengingat sifat umum atribut ini dari pekerjaan dan orang-orang yang diperlukan 
 
 PSA dikirim dengan seperangkat dimensi harga default. Anda dapat melihat ini dengan membuka **Project Service** > **Parameter**. Pada rekaman parameter, pada tab **Dimensi harga berbasis jumlah**, Verifikasikan bahwa peran , **msdyn_resourcecategory**, dan unit organisasi sumber daya, **msdyn_organizationalunit** memiliki bidang **Berlaku untuk penjualan** dan **berlaku untuk biaya** yang ditetapkan ke **ya**. Ini akan memungkinkan Anda mengkonfigurasi harga dan biaya untuk setiap peran dan kombinasi unit organisasi.
 
-![Tangkapan layar dari parameter Project Service dengan "berlaku for penjualan" disorot](media/PS-OOB-parameters.png)
+![Tangkapan layar dari parameter Project Service dengan "berlaku for penjualan" disorot.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jika Anda telah menggunakan bidang bawaan peran dan unit organisasi sebagai dimensi harga sebelum versi 3 dari PSA, tidak akan ada perubahan yang dapat diamati. Anda dapat terus menggunakan project service seperti biasa. 
@@ -65,18 +64,18 @@ Contoh berikut menunjukkan tarif tagihan yang diatur berdasarkan peran dan unit 
 
 **Tarif tagihan sampel**
 
-| Peran        | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
+| Peran        | Unit Organisasi    |Unit      |Harga      |Mata uang  |
 | ------------|-------------|----------|----------:|----------|
-| Pengembang   | Contoso AS  |Hour | 200|USD     |
-| Pengembang   | Aswono India |Hour|   112|USD     |
+| Pengembang   | Contoso AS  |Jam | 200|USD     |
+| Pengembang   | Contoso India |Jam|   112|USD     |
 
 
 **Sampel tarif biaya**
 
-| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
+| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata uang  |
 | ----------------|-------------|----------|----------:|----------|
-| Perusahaan saya_Band1 | Contoso AS  |Hour | 145|USD     |
-| Perusahaan saya_Band2 | Aswono India |Hour|   67|USD     |
+| Perusahaan saya_Band1 | Contoso AS  |Jam | 145|USD     |
+| Perusahaan saya_Band2 | Contoso India |Jam|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

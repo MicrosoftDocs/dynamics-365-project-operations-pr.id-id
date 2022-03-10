@@ -2,8 +2,6 @@
 title: Buat peluang proyek
 description: Bagaimana membuat kontrak peluang di Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002695"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Membuat peluang proyek (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +37,7 @@ Peluang adalah prospek yang hangat dari pelanggan yang tertarik pada kontrak lay
   
 3.  Dalam area **ringkasan**, masukkan perusahaan dari peluang Anda dan informasi lainnya.  
   
-4.  Tambahkan catatan dan kegiatan (misalnya, panggilan telepon atau email) yang berhubungan dengan prospek ini. Untuk mempelajari lebih lanjut tentang menambahkan catatan dan aktivitas, lihat [tetap melacak yang catatan, tugas, panggilan, atau email dengan aktivitas](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Tambahkan catatan dan kegiatan (misalnya, panggilan telepon atau email) yang berhubungan dengan prospek ini. Untuk mempelajari lebih lanjut tentang menambahkan catatan dan aktivitas, lihat [tetap melacak yang catatan, tugas, panggilan, atau email dengan aktivitas](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Untuk menambahkan pemangku kepentingan, di area **pemangku kepentingan**, klik **+**.  
   
@@ -53,3 +53,6 @@ Peluang adalah prospek yang hangat dari pelanggan yang tertarik pada kontrak lay
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Manajer Akun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

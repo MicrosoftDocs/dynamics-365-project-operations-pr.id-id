@@ -2,8 +2,6 @@
 title: tambahkan Peran Sumber Daya
 description: Cara menetapkan peran ke sumber daya Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: caced5b5acc06d33d7345a73789cf8a768a1f89200eb1c8185909acece47b38f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145902"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005215"
 ---
 # <a name="add-resource-roles-project-service"></a>Tambahkan peran sumber daya (Project Service)
 
@@ -47,3 +45,6 @@ Mengatur tingkat pemanfaatan target untuk setiap peran. Pengaturan ini menentuka
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

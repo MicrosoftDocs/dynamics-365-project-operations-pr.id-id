@@ -2,8 +2,6 @@
 title: Mengatur mata uang dan nilai tukar
 description: Bagaimana mengatur mata uang dan nilai tukar di Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67ee0e0b1858f80cc605e305f725c817fec1617a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f7c5d2ba3ea33a99dcbec029deabcf932ef05f632938fb6d804e7f5405d3d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132256"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995000"
 ---
 # <a name="set-up-currencies-and-exchange-rates-project-service"></a>Mengatur mata uang dan nilai tukar (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -41,3 +41,6 @@ Untuk membuat kuotasi dan menagih pelanggan Anda di [!INCLUDE[pn_project_service
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

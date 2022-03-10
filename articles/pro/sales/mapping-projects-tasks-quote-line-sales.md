@@ -2,18 +2,16 @@
 title: Memetakan proyek dan tugas ke baris kuotasi berbasis proyek
 description: Topik ini menyediakan informasi tentang cara memetakan proyek dan tugas ke baris tugas berbasis proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d714304f408050babae1a6ba74268979e0b6ea4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6ad46f3636d749740115b11584eb81977c73cb30b63ef1092c0c2aac97cbc647
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272752"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988250"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Memetakan proyek dan tugas ke baris kuotasi berbasis proyek
 

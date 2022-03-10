@@ -2,8 +2,7 @@
 title: Mengaktifkan fitur Project Finder Mobile
 description: Bagaimana mengaktifkan fitur Project Finder Mobile untuk Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,22 +17,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078491"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004900"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Mengaktifkan fitur Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Sumber daya Anda dapat menggunakan app Project Finder Mobile di ponsel mereka dengan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] untuk menemukan proyek-proyek baru untuk bekerja dan memperbarui set keterampilan mereka.  
   
  Aplikasi ini tersedia untuk [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], telepon [!INCLUDE[tn_android](../includes/tn-android.md)], dan [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Anda perlu untuk mengatur beberapa opsi dalam pengaturan parameter untuk unit organisasi Anda untuk memungkinkan pengguna untuk melihat kebutuhan sumber daya proyek dan memperbarui keterampilan mereka.  
+    
+ Anda perlu untuk memilih beberapa opsi dalam pengaturan parameter untuk unit organisasi Anda untuk memungkinkan pengguna untuk melihat kebutuhan sumber daya proyek dan memperbarui keterampilan mereka.
   
 > [!NOTE]
 >  Aplikasi Project Finder Mobile hanya berfungsi pada [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], tidak dengan instalasi lokal.  
@@ -46,22 +47,25 @@ Sumber daya Anda dapat menggunakan app Project Finder Mobile di ponsel mereka de
   
 4. Atur **Izinkan pembaruan keahlian oleh sumber daya** ke **Ya**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Ini adalah pengaturan global. Manajer proyek dapat mengatur apakah proyek individu akan terlihat pada halaman **tim proyek** proyek itu.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Pemberitahuan email  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] mengirim email tentang permintaan sumber daya ke Penerima berikut pada waktu-waktu berikut:  
   
 |Penerima|Aktivitas|  
 |---------------|-----------|  
-|Manajer Proyek|-   Ketika sumber daya mendaftarkan diri ke sebuah proyek dengan app Project Finder Mobile.|  
-|Sumber Daya|-   Ketika pekerjaan proyek di mana sumber daya telah mendaftar sudah diisi oleh sumber daya lain.<br />-   Ketika permintaan persetujuan keterampilan mereka disetujui atau ditolak.<br />-   Ketika permintaan pendaftaran proyek disetujui atau ditolak.|  
+|Manajer Proyek|- Sumber daya mendaftarkan diri ke sebuah proyek dengan aplikasi Project Finder Mobile.|  
+|Sumber daya|- Pekerjaan proyek di mana sumber daya telah mendaftar sudah diisi oleh sumber daya lain.<br />- Permintaan persetujuan keterampilan mereka disetujui atau ditolak.<br />- Permintaan pendaftaran proyek disetujui atau ditolak.|  
   
 ## <a name="privacy-notice"></a>Pemberitahuan privasi  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasi Sumber Daya](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

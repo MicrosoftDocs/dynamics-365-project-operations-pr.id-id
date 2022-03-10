@@ -2,18 +2,16 @@
 title: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
 description: Topik ini menyediakan informasi tentang cara mengelola beberapa peal pada baris kuotasi berbasis proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992030"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
 
@@ -44,3 +42,6 @@ Tabel berikut menampilkan bidang pada pada rekaman pelanggan baris kuotasi dari 
 Anda dapat mengedit persentase pembagian penagihan secara in-line. Bila persentase pembagian penagihan tidak Total 100%, kesalahan akan terjadi. Setelah mengedit persentase pembagian penagihan, segarkan halaman baris kuotasi untuk menghilangkan kesalahan.
 
 Gunakan tindakan mendistribusikan merata pada subkisi pelanggan baris kuotasi untuk mengalokasikan pembagian penagihan ke semua pelanggan baris kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan, yang berarti rekaman pelanggan baris kuotasi memiliki peringatan tentang pembulatan yang diatur ke **ya**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Perbarui Project Operations di lingkungan Finance Anda
 description: Topik ini menyediakan informasi tentang cara memperbarui Project Operations di lingkungan Dynamics 365 Finance Anda.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d68296ec59f0bd58f848154c90e02c58f275ab12
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291983"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986765"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Perbarui Project Operations di lingkungan Finance Anda
 
@@ -35,7 +33,7 @@ Topik ini menyediakan informasi tentang cara memperbarui Dynamics 365 Project Op
 4. Pastikan lingkungan berjalan. Jika belum dimulai, mulai lingkungan.
 5. Di bagian **Rilis baru** dalam **Pembaruan yang tersedia**, pilih **Lihat pembaruan** untuk 10.0.15.
 
-![Lihat tombol Perbarui](media/view-update.png)
+![tombol Lihat pembaruan.](media/view-update.png)
 
 6. Pada halaman **pembaruan biner**, pilih **Simpan paket**.
 7. Pada halaman **Tinjau dan simpan pembaruan**, pilih **Simpan paket**.
@@ -49,11 +47,11 @@ Topik ini menyediakan informasi tentang cara memperbarui Dynamics 365 Project Op
 2. Dari daftar, pilih paket yang Anda simpan sebelumnya, lalu pilih **Terapkan**.
 3. Pilih **Ya** untuk mengkonfirmasikan bahwa Anda ingin menyebarkan paket.
 
-![Kotak dialog Konfirmasikan penyebaran paket](media/confirm-package-deployment.png)
+![Kotak dialog Konfirmasikan penyebaran paket.](media/confirm-package-deployment.png)
 
 4. Pilih **Ya** untuk mengkonfirmasikan bahwa Anda ingin memperbarui aplikasi.
 
-![Kotak dialog Konfirmasikan pembaruan aplikasi](media/confirm-application-update.png)
+![Kotak dialog Konfirmasikan pembaruan aplikasi.](media/confirm-application-update.png)
 
 Penyebaran dan pembaruan aplikasi akan dimulai. 
 
@@ -86,7 +84,7 @@ Pembaruan berikut pada hak istimewa keamanan entitas diperlukan sebagai bagian d
 
 1. Di lingkungan Dataverse Anda, buka **Pengaturan**, dan di grup **Sistem**, pilih **Keamanan**.
 
-![Pengaturan lingkungan Dataverse](media/Picture21.png)
+![Pengaturan Lingkungan Dataverse.](media/Picture21.png)
 
 2. Pilih **Peran Keamanan**.
 3. Dari daftar peran, pilih **pengguna aplikasi penulisan ganda** dan pilih tab **Entitas Kustom**. 
@@ -123,7 +121,7 @@ Pembaruan berikut pada hak istimewa keamanan entitas diperlukan sebagai bagian d
 6. Dari daftar peta, pilih peta **buku besar (msdyn_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. 
 7. Di bidang **Induk untuk sinkronisasi awal**, pilih **aplikasi Finance and Operations**, lalu pilih **Jalankan**.
  
- ![Sinkronisasi peta buku besar](media/DW6.png)
+ ![Sinkronisasi peta buku besar.](media/DW6.png)
  
 
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006295"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Estimasi proyek dan integrasi aktual
 
@@ -30,7 +30,7 @@ Membuat estimasi memerlukan konfigurasi akuntansi yang valid untuk proyek. Proye
 
 Estimasi tenaga kerja dibuat oleh Manajer Proyek atau Manajer Sumber Daya yang juga menetapkan sumber daya generik atau bernama ke tugas proyek. Rekaman penetapan sumber daya dapat ditinjau pada tab **Penugasan Sumber Daya** pada halaman **Rincian Proyek** di Dataverse. Rekaman penetapan sumber daya di Dataverse membuat rekaman perkiraan jam di aplikasi Finance and Operations menggunakan **entitas integrasi Project Operations untuk estimasi jam (msdyn\_resourceassignments)**.
 
-   ![Integrasi estimasi tenaga kerja](./Media/DW4LaborEstimates.png)
+   ![Integrasi estimasi tenaga kerja.](./Media/DW4LaborEstimates.png)
 
 Penulisan ganda mensinkronisasi rekaman penetapan sumber daya ke tabel penahapan (**ProjCDSEstimateHoursImport**), lalu menggunakan logika bisnis untuk membuat dan memperbarui rekaman perkiraan jam (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Akuntan proyek akan melihat rekaman jam perkiraan yang dibuat di aplikasi Financ
 
 Estimasi pengeluaran dibuat oleh manajer proyek pada tab **Estimasi Pengeluaran** pada halaman **Rincian Proyek** di Dataverse. Rekaman estimasi pengeluaran disimpan dalam entitas **Baris Perkiraan** di Dataverse. Rekaman perkiraan ini memiliki kelas transaksi, **Pengeluaran** dan disinkronisasikan ke rekaman perkiraan pengeluaran di aplikasi Finance and Operations menggunakan **entitas integrasi Project Operations untuk estimasi pengeluaran (msdyn\_estimatelines)**.
 
-   ![Integrasi estimasi pengeluaran](./Media/DW4ExpenseEstimates.png)
+   ![Integrasi estimasi pengeluaran.](./Media/DW4ExpenseEstimates.png)
 
 Penulisan ganda mensinkronisasi rekaman estimasi pengeluaran ke tabel penahapan, **ProjCDSEstimateExpenseImport**, lalu menggunakan logika bisnis untuk membuat dan memperbarui rekaman perkiraan pengeluaran (**ProjForecastCost**). Baris estimasi menyimpan rekaman estimasi penjualan dan estimasi biaya secara terpisah. Logika bisnis dalam aplikasi Finance and Operations mengisi satu rekaman perkiraan Pengeluaran menggunakan rincian ini dalam tabel penahapan.
 
@@ -50,7 +50,7 @@ Akuntan dapat meninjau rekaman jam perkiraan pengeluaran di aplikasi Finance and
 
 Estimasi bahan dibuat oleh manajer proyek pada tab **Estimasi bahan** pada halaman **Rincian Proyek** di Dataverse. Rekaman estimasi bahan disimpan dalam entitas **Baris Perkiraan** di Dataverse. Rekaman perkiraan ini memiliki kelas transaksi, **bahan** dan disinkronisasikan ke rekaman perkiraan item di aplikasi Finance and Operations menggunakan **tabel integrasi Project Operations untuk estimasi bahan (msdyn\_estimatelines)**.
 
-   ![Integrasi estimasi bahan](./Media/DW4MaterialEstimates.png)
+   ![Integrasi estimasi bahan.](./Media/DW4MaterialEstimates.png)
 
 Penulisan ganda mensinkronisasi rekaman estimasi bahan ke tabel penahapan, **ProjForecastSalesImpor**, lalu menggunakan logika bisnis untuk membuat dan memperbarui rekaman perkiraan item (**ForecastSales**). Baris estimasi menyimpan rekaman estimasi penjualan dan estimasi biaya secara terpisah. Logika bisnis dalam aplikasi Finance and Operations mengisi satu rekaman perkiraan item menggunakan rincian ini dalam tabel penahapan.
 
@@ -60,7 +60,7 @@ Akuntan dapat meninjau rekaman jam perkiraan item di aplikasi Finance and Operat
 
 Aktual proyek dibuat dalam Dataverse, berdasarkan waktu, pengeluaran, bahan, dan aktivitas penagihan. Semua atribut operasional dari transaksi ini termasuk kuantitas, harga biaya, harga penjualan, dan proyek diambil dalam entitas Dataverse ini. Untuk informasi lebih lanjut, lihat [Aktual](../actuals/actuals-overview.md). Rekaman aktual disinkronisasi ke aplikasi Finance and Operations menggunakan **aktual integrasi project Operations (msdyn\_actuals)** peta tabel penulisan ganda untuk akuntansi hilir.
 
-   ![Integrasi aktual](./Media/DW4Actuals.png)
+   ![Integrasi aktual.](./Media/DW4Actuals.png)
 
 Peta tabel **aktual integrasi Project Operations** mensinkronisasikan semua rekaman dari entitas **Aktual** di Dataverse, dengan atribut **Lewati Sinkronisasi (hanya penggunaan internal)** yang diatur ke **Salah**. Nilai atribut ini diatur di Dataverse secara otomatis saat rekaman dibuat. Contoh lokasi atribut ini diatur ke **Benar** adalah:
 

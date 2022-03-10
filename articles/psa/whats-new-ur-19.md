@@ -2,8 +2,6 @@
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 19, V3
 description: Topik ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 19, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993650"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation Pembaruan Rilis 19, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Project Service Automation untuk Dynamics 365. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Project Service Automation untuk Dynamics 365. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, pembaruan rilis 19. Versi ini memiliki nomor pembuatan V3.10.30.41 dan umumnya tersedia melalui pembaruan mandiri pada Mei 2020.
 
@@ -66,3 +64,6 @@ Masalah berikut telah diperbaiki:
 - Pelanggan mungkin mengalami kinerja yang rusak saat membuat proyek karena **GetBookableResourceIdFromUser** mengambil semua kolom sumber daya yang dapat dipesan dan bukan hanya id utama.
 - Entitas **TransactionType** kehilangan plug-in pembaruan pra-validasi untuk mencegah pengguna memasukkan **unit** dan **UnitGroups** yang tidak berlaku untuk jenis transaksi.
 - Langkah **Hapus** tidak berfungsi untuk impor entri waktu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

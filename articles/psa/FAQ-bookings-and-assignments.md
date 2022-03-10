@@ -2,8 +2,6 @@
 title: Bagaimana keterkaitan antara pemesanan sumber daya dan penugasan tugas
 description: Topik ini menyediakan informasi tentang cara mengelola sumber daya bernama, pemesanan sumber daya, serta penetapan tugas dan bagaimana keterkaitannya satu sama lain.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 94deab811a304026dd663a88e869013a3b88fb29674b35fa0b40fa68f8c5ea62
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003097"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Bagaimana keterkaitan antara pemesanan sumber daya dan penugasan tugas
 
@@ -68,3 +66,6 @@ Karena Pemesanan dan tugas tidak berhubungan erat, Anda akan dapat memesan kontu
 > [!NOTE]
 > Jika Anda memindahkan tugas yang telah Anda bentuk sendiri, kontur ini tidak dipertahankan. Kontur dibuat ulang sesuai kalender proyek ke akun untuk perubahan dalam jam pekerjaan dan hari libur. Ini sengaja karena sistem tidak tahu maksud kontur aslinya dan tidak dapat menentukan apakah sebaiknya mempertahankan kontur tersebut dalam jangka waktu yang baru. Karena Pemesanan dan tugas terhubung, Pemesanan mempertahankan kontur Pemesanan asli. Dalam kasus ini, Anda harus membatalkan dan memesan ulang untuk kontur tugas baru.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

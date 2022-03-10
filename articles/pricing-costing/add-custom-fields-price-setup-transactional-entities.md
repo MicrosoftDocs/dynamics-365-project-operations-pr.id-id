@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006161"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Menambahkan bidang kustom yang diperlukan ke pengaturan harga dan entitas transaksi
 
@@ -47,7 +47,7 @@ Bila dimensi harga kustom adalah rangkaian pilihan, tambahkan sebagai bidang ke 
 > [!IMPORTANT]
 > Bila Anda menambahkan bidang ke lebih dari satu entitas, gunakan nama bidang yang sama di semua entitas. 
 
-> ![Menambahkan lokasi kerja sumber daya ke harga peran](media/RWL-Field.png)
+> ![Menambahkan lokasi kerja sumber daya ke harga peran.](media/RWL-Field.png)
 
 Dalam fase penjualan dan estimasi untuk suatu proyek, perkiraan upaya kerja yang diperlukan untuk menyelesaikan pekerjaan **lokal** dan **onsite**, di **jam reguler** dan **jam lembur**  digunakan untuk perkirakan nilai kuotasi/proyek. Bidang **lokasi kerja sumber daya** dan **jam kerja sumber daya** akan ditambahkan ke entitas estimasi, **detail baris kuotasi**, **detail baris kontrak**, **anggota tim proyek** , dan **perkiraan baris**.
 
@@ -59,7 +59,7 @@ Dalam fase penjualan dan estimasi untuk suatu proyek, perkiraan upaya kerja yang
 6. Ulangi langkah 1-5 untuk menambahkan bidang ini ke **detail baris kontrak proyek**, **anggota tim proyek**, dan entitas **baris perkiraan**.
 7. Ulangi langkah 1-6 untuk rangkaian pilihan **jam kerja sumber daya**. 
 
-> ![Menambahkan lokasi kerja sumber daya ke baris perkiraan](media/RWL-Default-Value.png)
+> ![Menambahkan lokasi kerja sumber daya ke baris perkiraan.](media/RWL-Default-Value.png)
 
 Untuk pengiriman dan faktur, pekerjaan yang diselesaikan harus dengan harga akurat untuk memilih apakah dilakukan **lokal** atau **onsite**, dan apakah selesai selama **jam reguler** atau **lembur** pada aktual proyek. Bidang **lokasi kerja sumber daya** dan **jam kerja sumber daya** akan ditambahkan ke entitas **entri waktu**, **aktual**, **detail baris faktur**, dan **baris jurnal**.
 
@@ -71,7 +71,7 @@ Untuk pengiriman dan faktur, pekerjaan yang diselesaikan harus dengan harga akur
 6. Ulangi langkah 1-5 untuk menambahkan bidang ini ke entitas baris **aktual**, **detail baris faktur**, dan **baris jurnal**.
 7. Ulangi langkah 1-6 untuk rangkaian pilihan **jam kerja sumber daya**. 
 
-> ![Menambahkan lokasi kerja sumber daya ke Entri waktu](media/RWL-time-entry.png)
+> ![Menambahkan lokasi kerja sumber daya ke Entri waktu.](media/RWL-time-entry.png)
 
 Ini melengkapi perubahan skema yang diperlukan untuk dimensi kustom berbasis rangkaian pilihan.
 
@@ -84,7 +84,7 @@ Bila dimensi harga kustom adalah entitas, anda akan menambahkan Relasi 1:N antar
 3. Perluas entitas **jabatan standar** dan pilih **Relasi 1:N**.
 4. Pilih **baru** untuk membuat relasi 1: N baru yang disebut **jabatan standar ke sumber daya yang dapat dipesan**. Masukkan informasi yang diperlukan dan kemudian pilih **Simpan**.
 
-> ![Menambahkan jabatan standar sebagai bidang referensi untuk sumber daya yang dapat dipesan](media/ST-BR.png)
+> ![Menambahkan jabatan standar sebagai bidang referensi untuk sumber daya yang dapat dipesan.](media/ST-BR.png)
 
 Jabatan stAndar juga harus ditambahkan ke entitas harga, **harga peran**, dan **markup harga peran**. Ini juga diselesaikan menggunakan Relasi 1: N antara entitas **jabatan standar** dan entitas **harga peran** serta entitas **jabatan standar** dan **Markup harga peran**.
 
@@ -102,13 +102,13 @@ Dalam tahapan penjualan dan estimasi untuk proyek, untuk harga kuotasi/proyek, p
 
 5. Ulangi langkah 1-5 untuk membuat Relasi 1: N dari **jabatan standar** ke **detail baris kuotasi**, **detail baris kontrak proyek**, **anggota tim proyek**, dan **Baris perkiraan**.
 
-> ![Menambahkan jabatan standar sebagai bidang referensi untuk baris estimasi](media/ST-Estimate-Line.png)
+> ![Menambahkan jabatan standar sebagai bidang referensi untuk baris estimasi.](media/ST-Estimate-Line.png)
 
   Dalam fase pengiriman dan faktur, pekerjaan yang diselesaikan oleh setiap jabatan standar harus dengan harga yang akurat pada aktual proyek. Ini berarti bahwa harus ada Relasi 1: N dari **jabatan standar** ke **entri waktu**, **aktual**, **Rincian baris faktur**, dan **entitas baris jurnal**.
 
 6. Ulangi langkah 1-6 untuk membuat Relasi 1: N dari **jabatan standar** ke **entri waktu**, **aktual**, **Rincian baris faktur**, dan **entitas baris jurnal**.
 
-> ![Menambahkan jabatan standar sebagai bidang referensi untuk entri waktu](media/ST-Mapping.png)
+> ![Menambahkan jabatan standar sebagai bidang referensi untuk entri waktu.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Konfigurasikan nilai dimensi default dengan menggunakan fitur pemetaan platform
 Untuk entri waktu, akan sangat membantu untukmemiliki sistem default jabatan standar pada entri waktu dari sumber daya dapat dipesan yang merekam entri waktu. Gunakan langkah berikut untuk menambahkan pemetaan bidang pada relasi 1: N dari **sumber daya yang dapat dipesan** ke **entri waktu**.
@@ -118,7 +118,7 @@ Untuk entri waktu, akan sangat membantu untukmemiliki sistem default jabatan sta
 3. Klik dua kali **sumber daya yang dapat dipesan ke entri waktu**. Pada halaman **relasi**, pilih **gunakan pemetaan bidang**. 
 4. Pilih **baru** untuk membuat pemetaan bidang baru antara bidang **jabatan standar** pada entitas **sumber daya yang dapat dipesan** ke bidang referensi **jabatan standar** pada entitas **entri waktu**. 
 
-> ![Konfigurasi Pemetaan bidang untuk memungkinkan default jabatan standar dari sumber dapat dipesan ke entri waktu](media/ST-Mapping2.png)
+> ![Konfigurasi Pemetaan bidang untuk memungkinkan default jabatan standar dari sumber dapat dipesan ke entri waktu.](media/ST-Mapping2.png)
 
 Ini melengkapi perubahan skema yang diperlukan untuk dimensi kustom berbasis entitas.
 

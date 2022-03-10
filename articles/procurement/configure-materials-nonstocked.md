@@ -2,19 +2,17 @@
 title: Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
 description: Laporan topik menjelaskan cara mengaktifkan bahan non-stok dan faktur vendor tertunda.
 author: sigitac
-manager: tfehr
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880655"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003235"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
 
@@ -61,11 +59,11 @@ Jika menggunakan data demo standar, Anda juga mungkin harus berhenti dan memulai
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Mengaktifkan alur kerja untuk membuat akun berdasarkan entitas vendor
 
-Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi induk Vendor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Sebagai prasyarat untuk fitur ini, data vendor harus dibuat di entitas **Akun**. Aktifkan proses alur kerja template untuk membuat vendor dalam tabel **Akun** seperti dijelaskan dalam [Beralih di antara desain vendor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi induk Vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Sebagai prasyarat untuk fitur ini, data vendor harus dibuat di entitas **Akun**. Aktifkan proses alur kerja template untuk membuat vendor dalam tabel **Akun** seperti dijelaskan dalam [Beralih di antara desain vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Atur produk untuk dibuat sebagai aktif
 
-Materi yang tidak memiliki persediaan harus dikonfigurasi sebagai **produk yang dirilis** di Finance. Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi produk yang dirilis ke katalog produk Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) default. Secara default, produk dari Finance disinkronisasikan ke Dataverse dalam status draf. Untuk mensinkronisasi produk ke status aktif sehingga dapat langsung digunakan dalam dokumen penggunaan bahan atau faktur vendor tertunda, buka **Sistem** > **Administrasi** > **Administrasi Sistem** > **Pengaturan sistem**, dan pada tab **Penjualan**, atur **Buat produk dalam status aktif** ke **Ya**.
+Materi yang tidak memiliki persediaan harus dikonfigurasi sebagai **produk yang dirilis** di Finance. Solusi Orkestrasi Penulisan Ganda menyediakan [integrasi produk yang dirilis ke katalog produk Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) default. Secara default, produk dari Finance disinkronisasikan ke Dataverse dalam status draf. Untuk mensinkronisasi produk ke status aktif sehingga dapat langsung digunakan dalam dokumen penggunaan bahan atau faktur vendor tertunda, buka **Sistem** > **Administrasi** > **Administrasi Sistem** > **Pengaturan sistem**, dan pada tab **Penjualan**, atur **Buat produk dalam status aktif** ke **Ya**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Mengonfigurasikan prasyarat di Finance
 
@@ -90,7 +88,7 @@ Dalam Project Operations, Anda dapat merekam estimasi bahan dan penggunaan untuk
 2. Di bidang **Jenis produk**, pilih **Item** dan pada bidang **subtipe Produk**, pilih **Produk**.
 3. Masukkan nomor produk (WRITEIN) dan nama produk (Produk Pilihan).
 4. Pilih grup model item. Pastikan bahwa grup model item yang Anda pilih memiliki bidang **produk dalam persediaan kebijakan Inventaris** yang diatur ke **Salah**.
-5. Pilih nilai di **grup Item**, **grup dimensi penyimpanan**, dan Bidang **grup dimensi pelacakan**. Gunakan **dimensi Penyimpanan** hanya untuk **Situs** dan tidak mengatur dimensi pelacakan.
+5. Pilih nilai di **grup Item**, **grup dimensi penyimpanan**, dan Bidang **grup dimensi pelacakan**. Gunakan **dimensi Penyimpanan** hanya untuk **Situs**, dan di bidang **Dimensi pelacakan**, pilih **Tidak Ada**.
 6. Pilih nilai di bidang **unit Inventaris**, **Unit pembelian**, dan **unit Penjualan**, kemudian simpan perubahan Anda.
 7. Pada tab **Rencana**, atur pengaturan urutan default, dan pada tab **Inventaris**, atur situs default dan pergudangan.
 8. Buka **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter Manajemen Proyek dan akuntansi**, lalu buka **Project Operations di Dynamics 365 Dataverse**. 

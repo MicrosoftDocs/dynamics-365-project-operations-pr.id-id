@@ -2,25 +2,23 @@
 title: Menentukan jenis penyebaran Anda
 description: Topik ini memberikan informasi untuk membantu Anda menentukan jenis penyebaran Project operations yang benar untuk perusahaan Anda.
 author: stsporen
-manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
-ms.translationtype: HT
+ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401222"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994640"
 ---
 # <a name="determine-your-deployment-type"></a>Menentukan jenis penyebaran Anda
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 > [!IMPORTANT]
-> Setelah Anda membeli lisensi, mulai di sini untuk menentukan model penyebaran terbaik dari Dynamics 365 Project Operations menggunakan [alur penginstalan terpandu](https://aka.ms/provisionprojectoperations).
+> Setelah Anda membeli lisensi, mulai di sini untuk menentukan model penyebaran Dynamics 365 Project Operations terbaik menggunakan [alur penginstalan Terpandu](https://aka.ms/provisionprojectoperations).
 > Setelah Anda menyelesaikan alur penginstalan terpandu, Anda akan diarahkan ke Portal manajemen yang benar untuk menyelesaikan penginstalan. Lihat rincian penyebaran untuk menyelesaikan penginstalan.
 
 
@@ -32,6 +30,9 @@ Project Operations mencakup kemampuan yang disertakan dengan Project Service Aut
 Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakannya sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
 
 
+## <a name="deployment-regions"></a>Wilayah Penyebaran
+Untuk menentukan kawasan yang mendukung penyebaran Project Operations, lihat [ketersediaan geografis untuk Dynamics 365 dan laporan Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Pilih **Lihat Laporan**, lalu perluas **Dynamics 365 > Aplikasi Operasi > Dynamics 365 Project Operations** untuk melihat kawasan yang didukung.
+
 ## <a name="deployment-types"></a>Jenis Penyebaran
 Project Operations mendukung beberapa pilihan penyebaran agar sesuai dengan kebutuhan Anda. Apakah Anda adalah pelanggan Dynamics 365 baru atau lama, Project Operations dapat mendukung kebutuhan Anda.
 
@@ -41,7 +42,7 @@ Project Operations mendukung beberapa pilihan penyebaran agar sesuai dengan kebu
 - [Project Operations untuk skenario sumber daya/tanpa stok](#integrated)
 - [Project Operations untuk skenario pesanan dengan stok/produksi](#pma)
 
-Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario non-stok/berbasis sumber daya pada lingkungan yang sama melalui konfigurasi tingkat entitas hukum. Misalnya, Aswono dapat menggunakan kemampuan pesanan produksi/penuh di fasilitas produksi AS (entitas hukum = Aswono Manufacturing Indonesia). Aswono dapat menggunakan kemampuan berbasis sumber daya/non-stok di fasilitas layanan Aswono Lengan Robotika di Inggris (entitas hukum = Aswono Robotics United Kingdom).
+Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario non-stok/berbasis sumber daya pada lingkungan yang sama melalui konfigurasi tingkat entitas hukum. Misalnya, Contoso dapat menggunakan kemampuan pesanan persediaan/produksi di fasilitas produksi AS mereka (Entitas hukum = Contoso Produksi Amerika Serikat). Contoso dapat menggunakan kemampuan non-stok/berbasis sumber daya di fasilitas pelayanan Contoso Robotics Arms mereka di Inggris (Entitas hukum = Contoso Robotik Inggris).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Penyebaran sederhana - menangani faktur proforma
 
@@ -53,7 +54,7 @@ Penyebaran sederhana mencakup kemampuan berikut:
 - Manajemen sumber daya terpadu
 - Pelacakan Waktu
 - Pengeluaran dasar
-- faktur Proforma dan sisi pelanggan 
+- Faktur proforma untuk tinjauan dan edit manajer proyek 
 
 #### <a name="deployment-steps"></a>Langkah-langkah penyebaran
 Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner penyebaran](https://aka.ms/provisionprojectoperations).
@@ -86,15 +87,18 @@ Untuk penyebaran ini, lihat [pendaftaran untuk langganan pratinjau](resource-sig
 - Perencanaan proyek dengan WBS
 - Manajemen sumber daya
 - Pelacakan Waktu
-- Pengeluaran Penuh
+- Pengeluaran penuh
 - OCR Tanda Terima
 - Faktur Lengkap
 - Pengakuan pendapatan
 - Pesanan Produksi
-- Dukungan material
+- Dukungan bahan ber-stok dengan inventaris
 
 #### <a name="deployment-steps"></a>Langkah-langkah penyebaran
 Tentukan model penyebaran Project Operations terbaik menggunakan [kuesioner penyebaran](https://aka.ms/provisionprojectoperations).
 
-Untuk penyebaran ini, lihat [pendaftaran untuk langganan pratinjau](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) dan [penyediaan lingkungan baru](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Untuk penyebaran ini, lihat [pendaftaran untuk langganan pratinjau](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) dan [penyediaan lingkungan baru](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

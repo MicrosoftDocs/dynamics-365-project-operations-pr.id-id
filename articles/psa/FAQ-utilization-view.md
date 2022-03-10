@@ -2,8 +2,6 @@
 title: Lihat pemanfaatan sumber daya yang dikenakan biaya
 description: Topik ini menyediakan informasi tentang tampilan pemanfaatan sumber daya.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122167"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007150"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Lihat pemanfaatan sumber daya yang dikenakan biaya
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Tampilan pemanfaatan** pada halaman **pemanfaatan sumber daya Project Service** menampilkan pemanfaatan yang dikenai biaya untuk setiap sumber daya yang dapat dipesan. Karena tampilan didasarkan pada papan jadwal, Anda akan menemukan banyak fungsi yang sama.
 
-> ![Tangkapan layar tampilan pemanfaatan](media/FAQ-utilization-1.png)
+> ![Tangkapan layar tampilan pemanfaatan.](media/FAQ-utilization-1.png)
  
 
 Perhitungan pemanfaatan dikenakan biaya berfungsi sebagai berikut:
@@ -48,7 +48,7 @@ Pemanfaatan target dapat mengatur default peran sumber daya atau pada masing-mas
 2. Pilih sumber daya untuk membuka rekaman. 
 3. Di tab **Project Service**, Anda dapat mengatur pemanfaatan target sumber daya.
 
-> ![Tangkapan layar menggunakan tab Project Service untuk menetapkan target pemanfaatan](media/FAQ-utilization-2.png)
+> ![Tangkapan layar menggunakan tab Project Service untuk menetapkan target pemanfaatan.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Menetapkan target pemanfaatan peran
 
@@ -56,7 +56,7 @@ Pemanfaatan target dapat mengatur default peran sumber daya atau pada masing-mas
 2. Pilih peran dan buka rekaman. 
 3. Atur pemanfaatan target untuk peran.
 
-> ![Tangkapan layar menggunakan peran sumber daya untuk menetapkan target pemanfaatan](media/FAQ-utilization-3.png)
+> ![Tangkapan layar menggunakan peran sumber daya untuk menetapkan target pemanfaatan.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Hitung pemanfaatan yang dikenakan biaya untuk sumber daya
 
@@ -99,3 +99,6 @@ Jika Anda tidak melihat pemanfaatan dikenakan biaya, berikut adalah beberapa hal
   - Peran pada baris kontrak proyek yang mendukung proyek telah ditetapkan untuk tidak dikenakan biaya.
   - Proyek tidak memiliki baris kontrak terkait.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

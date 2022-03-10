@@ -2,11 +2,9 @@
 title: Lembar waktu proyek di perangkat bergerak
 description: Lembar waktu saya (dioptimalkan untuk perangkat seluler) memungkinkan karyawan membuat dan mengirimkan lembar waktu proyek untuk merekam jam kerja mereka untuk proyek tertentu pada perangkat bergerak.
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 6b602bf60a451bcb3c489e371f698611678477245581f58f76145a4b846c7b8a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078626"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989600"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Lembar waktu proyek di perangkat bergerak
 
@@ -62,3 +60,6 @@ Android akan kompatibel dengan pembaruan platform 16, bila tersedia.
 13. Opsional: masukkan baris lembar waktu tambahan.
 
 14. Setelah Anda selesai memasukkan baris lembar waktu, pilih tindakan **alur kerja** \> **kirim** untuk mengirimkan lembar waktu Anda ke proses persetujuan alur kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Analisis kuotasi proyek
 description: Topik ini menyediakan informasi tentang analisis kuotasi proyek.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d9cefafcce33297146cae81d9ba7e68ab79aeb6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002830"
 ---
 # <a name="analysis-of-project-quotes"></a>Analisis kuotasi proyek
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -58,3 +58,6 @@ Anda dapat menganalisis kuotasi dan membuat diagram untuk ekspektasi pelanggan t
 Analisis ekspektasi pelanggan tentang jadwal dilakukan dengan membandingkan tanggal akhir terbaru detail baris kuotasi dengan tanggal pengiriman yang diminta di semua baris kuotasi dalam kuotasi.
 
 Analisis ekspektasi pelanggan tentang anggaran dilakukan dengan membandingkan jumlah total anggaran pelanggan dengan jumlah yang dikutip di semua baris kuotasi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

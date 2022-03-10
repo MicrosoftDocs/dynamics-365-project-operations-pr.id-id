@@ -2,8 +2,6 @@
 title: Laporan resmi untuk Project Service Automation
 description: Koleksi laporan resmi untuk Project Service
 author: kfend
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c035b835ab4a29b2bf13365556d0b43b244b9936
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: b8940313d122ac8c47488b08a28b38b6744bf33cdfaf1b904ba184bd9956c369
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078427"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004180"
 ---
 # <a name="white-papers-for-project-service"></a>Laporan resmi untuk Project Service
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Laporan resmi ini dirancang untuk memberikan informasi mendalam untuk [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.
 
@@ -43,3 +43,6 @@ Laporan resmi ini dirancang untuk memberikan informasi mendalam untuk [!INCLUDE[
 
 ### <a name="see-also"></a>Lihat Juga
  [Ikhtisar Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

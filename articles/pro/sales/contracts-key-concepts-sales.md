@@ -1,25 +1,25 @@
 ---
-title: Konsep kunci kontrak proyek
+title: kontrak proyek - Konsep kunci - lite
 description: Topik ini menyediakan informasi tentang konsep kunci kontrak proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078390"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991445"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Konsep kunci kontrak proyek
+# <a name="concepts-unique-to-project-contracts"></a>Konsep unik untuk kontrak proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Topik ini memberikan konsep penting yang perlu diperhatikan sebelum Anda mulai menggunakan kontrak proyek di Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Topik ini memberikan konsep penting yang perlu diperhatikan sebelum Anda mulai menggunakan kontrak Proyek di Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unit Kontrak
 
@@ -91,3 +91,6 @@ Kontrak Project Operations dibuat berdasarkan kontrak di Dynamics 365 Sales. Nam
 - Kontrak Project Operations memiliki formulir dan elemen UI sendiri, aturan Bisnis, logika bisnis di plug-in, dan skrip sisi klien yang membuatnya unik dari Kontrak Sales.
 
 Untuk alasan ini, Anda tidak boleh menggunakan kontrak penjualan dan kontrak proyek secara bergantian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

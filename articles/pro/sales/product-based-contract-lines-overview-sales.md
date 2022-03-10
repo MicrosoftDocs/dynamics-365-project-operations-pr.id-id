@@ -1,21 +1,20 @@
 ---
-title: Ikhtisar baris kontrak berbasis produk
+title: Ikhtisar baris kontrak berbasis produk - lite
 description: Topik ini menyediakan informasi tentang baris kontrak berbasis produk.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007555"
 ---
-# <a name="product-based-contract-lines-overview"></a>Ikhtisar baris kontrak berbasis produk
+# <a name="product-based-contract-lines-overview---lite"></a>Ikhtisar baris kontrak berbasis produk - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -46,3 +45,6 @@ Jika baris kontrak didasarkan pada Katalog Produk, Anda dapat menimpa harga penj
 Jika Anda menetapkan bidang **Harga** ke **Timpa Harga**, harga default tidak ditetapkan. Masukkan harga untuk produk pada baris kontrak. Jika Anda mengatur bidang ke **Gunakan default**, harga penjualan default akan digunakan dan bidang tidak dapat diedit.
 
 Setelah Anda menginstal Project Operations, harga penjualan default dimasukkan pada baris berbasis produk pada kontrak. Bidang **harga** kemudian diatur ke **Timpa Harga** sehingga Anda dapat mengedit harga default pada baris kontrak. Ini adalah penimpaan spesifik Project Operations pada perilaku baris berbasis produk di Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

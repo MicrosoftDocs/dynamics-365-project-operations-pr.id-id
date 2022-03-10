@@ -2,12 +2,10 @@
 title: Mengonfigurasikan bidang kustom sebagai dimensi harga
 description: Topik ini menyediakan informasi tentang cara mengkonfigurasi dimensi harga kustom.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078699"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002335"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Mengonfigurasikan bidang kustom sebagai dimensi harga 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Sebelum memulai, topik mengasumsikan bahwa anda telah menyelesaikan prosedur dalam topik, [membuat bidang kustom dan entitas](create-custom-fields-entities.md), serta [menambahkan bidang kustom untuk penyiapan harga dan entitas transaksi](field-references.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke topik ini. 
 
@@ -41,11 +41,11 @@ Agar bidang menjadi dimensi harga, harus:
 - Dibuat sebagai bidang di entitas **harga peran** dan entitas **markup harga peran**. Untuk informasi lebih lanjut tentang cara melakukannya lihat [Tambahkan bidang kustom ke pengaturan harga dan entitas transaksi](field-references.md).
 - Dibuat sebagai baris di tabel **dimensi harga**. Misalnya, tambahkan baris dimensi harga seperti yang ditunjukkan dalam grafik berikut. 
 
-![Baris Dimensi Harga Berdasarkan Jumlah](media/Amt-based-PD.png)
+![Baris Dimensi Harga Berdasarkan Jumlah.](media/Amt-based-PD.png)
 
 Perhatikan bahwa jam kerja sumber daya (**msdyn_resourceworkhours**) telah ditambahkan sebagai dimensi berbasis markup dan telah ditambahkan ke kisi pada tab **Dimensi harga berdasarkan markup**.
 
-![Baris Dimensi Harga Berdasarkan Markup](media/Markup-based-PD.png)
+![Baris Dimensi Harga Berdasarkan Markup.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Setiap perubahan pada data dimensi harga dalam tabel ini, yang ada atau yang baru, disebarkan ke logika bisnis harga Project Service hanya setelah cache diperbarui. Waktu refresh cache dapat berlangsung hingga 10 menit. Berikan waktu tersebut untuk melihat perubahan harga logika default yang harus dihasilkan dari perubahan pada data dimensi harga.
@@ -71,12 +71,12 @@ Ada dua jenis dasbor di dimensi harga:
   
 | Peran        | Unit Organisasi    |Lokasi Kerja      |Jabatan standar      |Jam Kerja Sumber daya      |  Mark up|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Aswono India|Di Lokasi            |                    |Lembur                 |15     |
-|             | Aswono India|Lokal             |                    |Lembur                 |10     |
+|             | Contoso India|Di Lokasi            |                    |Lembur                 |15     |
+|             | Contoso India|Lokal             |                    |Lembur                 |10     |
 |             | Contoso AS   |Lokal             |                    |Lembur                 |20     |
 
 
-Jika sumber daya dari Aswono India yang tingkat dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga project service akan menggunakan tingkat dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
+Jika sumber daya dari Contoso India yang tarif dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga project service akan menggunakan tarif dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
 
 ### <a name="applicable-to-cost"></a>Berlaku untuk Biaya 
 Jika ini diatur ke **ya**, ini menunjukkan bahwa nilai dimensi dari konteks input harus digunakan untuk mencocokkan dengan **harga peran** dan **markup harga peran** saat mengambil biaya dan tingkat markup.
@@ -92,3 +92,6 @@ Pengaturan prioritas dimensi akan membantu harga project service menghasilkan ha
 
 - **Prioritas biaya**: nilai prioritas biaya dimensi akan menunjukkan bobot dimensi saat mencocokkan dengan penyiapan harga biaya. Nilai **prioritas biaya** harus unik di seluruh dimensi yang **berlaku untuk biaya**.
 - **Prioritas penjualan**: nilai prioritas biaya dimensi penjualan akan menunjukkan bobot dimensi saat mencocokkan dengan penyiapan harga penjualan atau tingkat tagihan. Nilai **prioritas penjualan** harus unik di seluruh dimensi yang **berlaku untuk penjualan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

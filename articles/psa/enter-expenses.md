@@ -2,8 +2,6 @@
 title: Masukkan biaya
 description: Bagaimana memasukkan pengeluaran di Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1114685a8299c0096d0c13830a9d39d187883534
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: b13aafffc2f418915ee7da7e3c9ec49230ec92d896cf8465557347c269df57f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988845"
 ---
 # <a name="enter-expenses-project-service"></a>Masukkan pengeluaran di Project Service
 

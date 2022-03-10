@@ -2,18 +2,16 @@
 title: Pemenuhan persyaratan sumber daya generik
 description: Topik ini menyediakan informasi tentang cara pemesanan sumber daya bernama untuk persyaratan sumber daya generik.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fef896ae12c196d5566ad54f3e15373020e4e28a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008275"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Pemenuhan persyaratan sumber daya generik
 

@@ -2,11 +2,9 @@
 title: Mengonfigurasi kebijakan pengeluaran
 description: Anda dapat membuat kebijakan pengeluaran yang harus diikuti pekerja Anda saat memasukkan dan mengirimkan laporan pengeluaran dan rekusisi perjalanan di Microsoft Dynamics 365 Finance.
 author: suvaidya
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab99c0ec769eb2e0914fc7d993f83d20e2c327f6
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960701"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005935"
 ---
 # <a name="set-up-expense-policies"></a>Mengonfigurasi kebijakan pengeluaran
 
@@ -51,3 +49,6 @@ Berikut adalah beberapa saran yang dapat membantu Anda ketika membuat kebijakan 
 ## <a name="when-to-evaluate-policies"></a>Kapan mengevaluasi kebijakan
 
 Dalam parameter manajemen pengeluaran, ada opsi untuk mengevaluasi kebijakan manajemen pengeluaran bila baris disimpan atau saat laporan pengeluaran diajukan. Jika Anda memilih untuk mengevaluasi bila baris disimpan, ini memastikan pengguna memiliki visibilitas sebelumnya ke apa yang perlu mereka lakukan untuk menyelesaikan laporan pengeluaran mereka sekaligus. Jika tidak, Anda dapat menunda evaluasi kebijakan dan menghemat waktu jika Anda memiliki validasi yang terjadi di akhir, selama pengajuan ke alur kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

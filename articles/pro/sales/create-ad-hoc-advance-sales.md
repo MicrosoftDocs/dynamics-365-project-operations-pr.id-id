@@ -1,25 +1,23 @@
 ---
-title: Membuat uang muka ad hoc pada kontrak -Lite
+title: Membuat uang muka ad hoc pada kontrak
 description: Topik ini menyediakan informasi tentang cara membuat uang muka pada kontrak sesuai kebutuhan.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181366"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999140"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Membuat uang muka ad hoc pada kontrak -Lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Membuat uang muka ad hoc pada kontrak
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Microsoft Dynamics 365 Project Operations mendukung skenario faktur yang melibatkan pra-pembayaran dan uang muka. Proses penggunaan **Uang muka** dalam **Project Operations** serupa dengan kontrak **Panjar**. 
+Microsoft Dynamics 365 Project Operations mendukung skenario faktur yang melibatkan prapembayaran dan uang muka. Proses penggunaan **Uang muka** dalam **Project Operations** serupa dengan kontrak **Panjar**. 
 
 Selesaikan langkah-langkah berikut untuk menagih pelanggan untuk uang muka.
 
@@ -39,3 +37,6 @@ Selesaikan langkah-langkah berikut untuk menagih pelanggan untuk uang muka.
     | **Status Faktur** | Ini adalah pengaturan pilihan yang menunjukkan apakah uang muka ini ditambahkan ke draf faktur untuk pelanggan ini. Nilai yang mungkin adalah:</br>- **Belum siap dibuatkan faktur**</br>- **Siap dibuatkan faktur** | Bila uang muka atau pra-pembayaran ditandai sebagai **siap faktur**, maka ditambahkan sebagai waktu baris pada faktur draft. Hanya uang muka yang sepenuhnya ditagih yang dapat digunakan untuk rekonsiliasi dengan biaya proyek untuk periode faktur berikutnya. |
 
 4. Pilih **Simpan dan tutup** di dialog buat cepat untuk merekam uang muka atau pembayaran di awal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,24 @@
 title: Pengaturan kontrak proyek - lite
 description: Topik ini memberikan informasi tentang bidang yang berdampak pada baris kontrak dan informasi tentang kontrak yang dirangkum di semua item baris.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995945"
 ---
-# <a name="project-contract-settings---lite"></a>Pengaturan kontrak proyek - lite
+# <a name="header-details-for-project-contracts"></a>Rincian header untuk kontrak proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Topik ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang mempengaruhi semua baris kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
 
-Tabel berikut mencantumkan bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari pesanan penjualan di Dynamics 365 Sales.
+Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari perintah penjualan di Dynamics 365 Sales.
 
 | Bidang | Lokasi | KETERANGAN | Dampak hilir |
 | --- | --- | --- | --- |
@@ -57,3 +55,6 @@ KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek.
 | Biaya Dikenakan | Baris berbasis produk | Jumlah semua aktual biaya yang dicatat untuk baris kontrak berbasis produk. |
 | Margin Kotor | Baris berbasis proyek | Jumlah ditagih-biaya yang timbul hingga tanggal/jumlah ditagih |
 | Margin yang Diharapkan | Baris berbasis produk | (Nilai baris kontrak - Estimasi biaya untuk baris kontrak)/nilai baris kontrak |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

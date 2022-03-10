@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009620"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005080"
 ---
 # <a name="organizational-units"></a>Unit Organisasi 
 
@@ -53,7 +53,7 @@ Unit organisasi memainkan dua peran dalam PSA:
 - **Unit kontrak** – unit organisasi yang mewakili grup perusahaan atau divisi yang terutama bertanggung jawab untuk memenangkan penjualan dan mengelola pengiriman pekerjaan dan layanan kepada pelanggan. Unit kontrak diidentifikasi oleh bidang **unit kontrak** di bagian header **peluang**, **kuotasi**, **kontrak proyek**, dan halaman **proyek**.
 - **Unit sumber daya** - unit organisasi yang memiliki atau ditetapkan sumber daya. Unit organisasi ini dapat menyediakan sumber daya untuk beberapa peran pada pernyataan kerja (SOW) dan proyek yang dimiliki oleh unit kontrak.
 
-> ![Unit kontrak dan unit sumber daya](media/advanced-1.png)
+> ![Unit kontrak dan unit sumber daya.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Tanya-Jawab Unit Organisasi
 

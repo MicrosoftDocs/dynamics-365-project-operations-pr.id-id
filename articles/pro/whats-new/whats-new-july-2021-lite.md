@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
-ms.translationtype: HT
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433657"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009220"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Terbaru Juli 2021 - Penyebaran Project Operations lite
 
@@ -20,7 +20,7 @@ _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
 Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
-  - Lingkungan Project Operations untuk Dataverse versi 4.12.0.148.
+  - Project Operations di lingkungan Dataverse versi 4.12.0.148 or 4.12.0.152.
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 | **Area fitur**              | **Nomor Referensi** | **Pembaruan kualitas**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berik
 | Umum                       | 2296857              | Pelacakan progres untuk pekerjaan yang berjalan lama.                                                                                                                                                                        |
 | Umum                       | 2253682              | Solusi penulisan ganda Project Operations tidak harus diinstal bila inti penulisan ganda diinstal di lingkungan tanpa solusi orkestrasi penulisan ganda.                                                |
 | Umum                       | 2316420              | Penyediaan inti Project Service gagal jika unit bisnis pengguna aplikasi diubah.                                                                                                                     |
+| Umum                       | 2376405              | Memperbaiki masalah pembaruan yang didorong penerbit (Pembaruan kualitas tersedia dalam versi 4.12.0.152)                                                                                                                     |

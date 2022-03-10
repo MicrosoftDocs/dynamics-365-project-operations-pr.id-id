@@ -1,27 +1,25 @@
 ---
-title: Mengelola daftar harga proyek pada kuotasi proyek - lite
-description: Topik ini menyediakan informasi tentang menangani daftar harga proyek di kuotasi. (Sales)
+title: Mengelola daftar harga proyek pada kuotasi proyek
+description: Topik ini menyediakan informasi tentang menangani daftar harga proyek di kuotasi.
 author: rumant
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7fcc7feaa9fc8d53046f54576e20989318dc3ec939569ea3844b18097512a24b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273022"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001615"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Mengelola daftar harga proyek pada kuotasi proyek - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Mengelola daftar harga proyek pada kuotasi proyek 
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Kuotasi proyek dirancang untuk mendukung beberapa daftar harga penjualan efektif tanggal. Dengan Dynamics 365 Project Operations, entitas terkait baru yang disebut **Daftar harga proyek** ditambahkan. Entitas ini memiliki relasi 1 ke banyak untuk kuotasi proyek.
 
-Daftar harga proyek digunakan untuk transaksi waktu harga dan pengeluaran pada suatu proyek. Bila kuotasi memiliki satu atau beberapa daftar harga proyek, daftar harga ini digunakan untuk estimasi waktu harga dan pengeluaran dan aktual pada proyek yang terkait dengan kuotasi melalui baris kuotasi.
+Daftar harga proyek digunakan untuk transaksi waktu harga, bahan, dan pengeluaran pada proyek. Bila kuotasi memiliki satu atau beberapa daftar harga proyek, daftar harga ini digunakan pada harga untuk waktu, materi, estimasi pengeluaran, dan aktual pada proyek yang terkait dengan kuotasi melalui baris kuotasi.
 
 Bila tidak ada daftar harga proyek pada kuotasi proyek, Anda akan menerima pesan peringatan. Pesan menyatakan bahwa karena tidak ada daftar harga proyek, perkiraan dan pekerjaan proyek dan pengeluaran Anda tidak akan dihargai. Namun, mereka akan memiliki harga nol (0) untuk nilai penjualan.
 

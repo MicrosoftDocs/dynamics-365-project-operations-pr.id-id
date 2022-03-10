@@ -2,18 +2,18 @@
 title: Sekilas pengeluaran
 description: Topik ini menyediakan informasi tentang fungsionalitas Pengeluaran dalam Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122841"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988475"
 ---
 # <a name="expense-home-page"></a>Laman beranda pengeluaran
 
@@ -28,7 +28,7 @@ Dalam Project Operations, ada dua model penyebaran yang didukung untuk pengeluar
 - **Dasar**: penyebaran dasar tersedia untuk **operasi proyek untuk skenario berbasis sumber daya/non-stok** dan **penyebaran sederhana– menangani faktur proforma**.
 
 ## <a name="full"></a>Penuh 
-Penyebaran pengeluaran penuh memberikan penegakan kebijakan lengkap yang mencakup kemampuan untuk membuat kebijakan, seperti:
+Penyebaran Pengeluaran Penuh menyediakan pemberlakuan kebijakan lengkap yang mencakup kemampuan untuk membuat kebijakan, seperti:
 
   - Batas kategori pengeluaran
   - Perjalanan
@@ -43,3 +43,6 @@ Untuk informasi lebih lanjut, lihat [entri pengeluaran (sederhana)](basic-expens
 
 ## <a name="determine-your-expense-deployment"></a>Menentukan penyebaran pengeluaran Anda
 Untuk menentukan apakah Anda menjalankan penyebaran manajemen pengeluaran dasar, Verifikasikan bahwa URL alamat diakhiri dengan **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

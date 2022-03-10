@@ -2,18 +2,17 @@
 title: Menimpa daftar harga penjualan proyek
 description: Topik ini menyediakan informasi tentang pembuatan daftar harga penjualan kustom.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130852"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009580"
 ---
 # <a name="override-project-sales-price-lists"></a>Menimpa daftar harga penjualan proyek
 
@@ -21,13 +20,13 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 ## <a name="customer-specific-project-price-lists"></a>Daftar harga proyek khusus pelanggan
 
-Perjanjian harga spesifik pelanggan dapat diatur sebagai daftar harga proyek pada rekaman akun di Dynamics 365 Project Operations.
+Perjanjian harga spesifik pelanggan dapat diatur sebagai daftar harga proyek pada record akun di Dynamics 365 Project Operations.
 
 Untuk membuat daftar harga proyek khusus pelanggan, di area **penjualan**, navigasi ke rekaman akun.
 
 1. Buka halaman daftar **akun**.
 2. Cari dan klik dua kali rekaman pelanggan untuk membuka halaman rincian **akun**.
-3. Pada tab **daftar harga proyek**, pilih **+ daftar harga proyek baru^^.
+3. Pada tab **Daftar Harga Proyek**, pilih **+ Daftar Harga Proyek Baru**.
 4. Pada halaman **daftar harga proyek baru**, pilih daftar harga dari drop-down. Hanya daftar harga yang konteksnya diatur ke **penjualan** dan yang mata uangnya sesuai dengan mata uang akun yang disertakan.
 5. Namai asosiasi tersebut, lalu pilih **Simpan**. Daftar harga proyek khusus pelanggan dibuat. Daftar harga ini akan digunakan untuk harga proyek default pada kuotasi proyek atau kontrak yang dibuat untuk pelanggan ini saat tanggal pembuatan kuotasi atau kontrak proyek jatuh dalam efektivitas tanggal dari daftar harga.
 
@@ -51,3 +50,6 @@ Anda dapat menggunakan masing-masing daftar harga dan melakukan pembaruan terhad
 Pada kontrak proyek, harga proyek selalu default sebagai daftar harga kustom dengan nama kontrak dan stempel waktu tanggal dibuat yang ditambahkan ke nama. Hal ini berlaku apakah kontrak dibuat saat kuotasi dimenangkan atau jika kontrak dibuat dari awal. Jika diperlukan, Anda dapat menghapus Asosiasi ini ke daftar harga kustom dan mengaitkan daftar harga standar ke kontrak proyek sebagai gantinya.
 
 Bila Anda mengaitkan daftar harga standar ke daftar harga proyek pada kuotasi atau kontrak, setiap perubahan yang dibuat pada harga dalam daftar harga akan mempengaruhi semua kuotasi dan kontrak yang menggunakan daftar harga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

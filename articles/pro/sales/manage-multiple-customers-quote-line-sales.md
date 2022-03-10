@@ -1,21 +1,19 @@
 ---
-title: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
+title: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek - lite
 description: Topik ini mendeskripsikan cara mengelola beberapa peal pada baris kuotasi berbasis proyek.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078385"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001705"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek - lite
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -43,3 +41,6 @@ Tabel berikut menampilkan bidang pada pada rekaman pelanggan baris kuotasi dari 
 Anda dapat mengedit persentase pembagian penagihan secara in-line. Bila persentase pembagian penagihan tidak Total 100%, kesalahan akan terjadi. Setelah mengedit persentase pembagian penagihan, segarkan halaman baris kuotasi untuk menghilangkan kesalahan.
 
 Gunakan tindakan mendistribusikan merata pada subkisi pelanggan baris kuotasi untuk mengalokasikan pembagian penagihan ke semua pelanggan baris kuotasi. Jika ada faktor pembulatan, itu akan ditambahkan ke pelanggan pembulatan. Salah satu pelanggan kuotasi selalu ditandai sebagai pelanggan pembulatan, yang berarti rekaman pelanggan baris kuotasi memiliki peringatan tentang pembulatan yang diatur ke **ya**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

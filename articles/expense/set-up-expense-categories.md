@@ -2,18 +2,16 @@
 title: Mengonfigurasi kategori pengeluaran
 description: Topik ini menyediakan informasi tentang cara mengkonfigurasi kategori pengeluaran dan kategori bersama untuk laporan pengeluaran.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: f051d70f3dfe3b241dc0a206c0cdfda000f87c76
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078374"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993110"
 ---
 # <a name="set-up-expense-categories"></a>Mengonfigurasi kategori pengeluaran
 
@@ -61,3 +59,6 @@ Sebelum Anda dapat memulai proses konfigurasi, keputusan berikut harus dibuat un
 
     - Apakah ada subkategori yang dikecualikan dari pemulihan pajak?
     - Apa yang dimaksud dengan grup pajak penjualan item dari subkategori?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

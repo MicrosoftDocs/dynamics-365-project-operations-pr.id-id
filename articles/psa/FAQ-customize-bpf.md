@@ -1,8 +1,6 @@
 ---
 title: Bagaimana cara menyesuaikan alur proses bisnis tahapan proyek?
 description: Ikhtisar cara menyesuaikan alur proses bisnis Tahapan Proyek.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f95677c56b745bf7900ad503596c93f1e722281
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286162"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002965"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Bagaimana cara menyesuaikan alur proses bisnis tahapan proyek?
 
@@ -62,11 +60,11 @@ Jika meningkatkan bukan pilihan, Anda dapat menyesuaikan alur proses bisnis taha
 1. Menambahkan tahapan tambahan untuk konfigurasi default, sementara tetap mempertahankan nama bahasa Inggris tahapan untuk **kuotasi**, **merencanakan**, dan **tutup**.
 
 
-![Tangkapan layar menambahkan tahapan ke konfigurasi default](media/FAQ-Customize-BPF-1.png)
+![Tangkapan layar menambahkan tahapan ke konfigurasi default.](media/FAQ-Customize-BPF-1.png)
  
 2. Buat alur proses bisnis Anda sendiri dan jadikan itu alur proses bisnis utama untuk entitas proyek, yang memungkinkan Anda memiliki nama tahapan apa pun yang Anda inginkan. Namun, jika Anda ingin menggunakan tahapan standar proyek yang sama **kuotasi**, **merencanakan**, dan **tutup**, Anda harus melakukan beberapa penyesuaian yang didorong oleh nama tahapan kustom Anda. Logika yang lebih kompleks adalah penutup proyek, yang mana Anda tetap dapat memicu dengan hanya menonaktifkan rekaman proyek.
 
-![Penyesuaian BPF](media/FAQ-Customize-BPF-2.png)
+![Penyesuaian BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Pertimbangan tambahan untuk Project Service aplikasi versi 2.4.4.30 atau sebelumnya di platform 9.0
 
@@ -82,11 +80,11 @@ Untuk membuat bisnis alur proses bisnis Anda sendiri untuk entitas proyek, lakuk
 
 1. Buka **Pengaturan** > **Pusat Proses**. Jangan menyalin alur proses bisnis tahapan proyek karena juga menyalin logika bisnis Project Service.
 
-  ![Buat Proses](media/FAQ-Customize-BPF-3.png)
+  ![Buat Proses.](media/FAQ-Customize-BPF-3.png)
 
 2. Gunakan desainer proses untuk membuat nama tahapan yang Anda inginkan. Jika Anda ingin fungsi yang sama seperti tahapan default untuk **kuotasi**, **merencanakan**, dan **tutup**, Anda harus membuatnya berdasarkan nama tahapan alur proses bisnis kustom Anda.
 
-   ![Gambar layar desainer proses yang digunakan untuk menyesuaikan BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Gambar layar desainer proses yang digunakan untuk menyesuaikan BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. Dalam desainer proses, klik **alur proses pesanan** untuk membuat proses bisnis kustom sebagai alur proses bisnis utama untuk entitas proyek dengan memindahkannya di alur proses bisnis tahapan proyek ke atas daftar.
 
@@ -97,15 +95,15 @@ Untuk membuat bisnis alur proses bisnis Anda sendiri untuk entitas proyek, lakuk
 
 4. Tambahkan bidang kustom baru untuk entitas proyek untuk mengambil tahapan kustom di alur proses bisnis kustom Anda. Anda harus menambahkan logika bisnis (plugin/alur kerja) untuk memperbarui bidang ini saat tahapan pada alur proses bisnis kustom diperbarui.
 
-   ![Tangkapan layar penyesuaian entitas proyek](media/FAQ-Customize-BPF-6-720.png)
+   ![Tangkapan layar penyesuaian entitas proyek.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modifikasikan **proyek menurut tahapan** diagram untuk menggunakan bidang kustom baru untuk tahapan.
 
-   ![Tangkapan layar menggunakan diagram proyek menurut tahapan](media/FAQ-Customize-BPF-7-720.png)
+   ![Tangkapan layar menggunakan diagram proyek menurut tahapan.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modifikasikan apa pun tampilan untuk entitas proyek untuk memasukkan bidang kustom baru untuk tahapan.
 
-   ![Tangkapan layar memodifikasi tampilan di entitas proyek](media/FAQ-Customize-BPF-8-720.png)
+   ![Tangkapan layar memodifikasi tampilan di entitas proyek.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

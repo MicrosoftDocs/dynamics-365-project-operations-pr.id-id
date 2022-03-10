@@ -2,18 +2,16 @@
 title: Mengelola status dan validasi yang tidak boleh dilewati
 description: Topik ini menyediakan informasi tentang pemeriksaan batas yang tidak boleh dilewati yang dilakukan dalam Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003505"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Mengelola status dan validasi yang tidak boleh dilewati 
 
@@ -21,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 ## <a name="not-to-exceed-on-approvals"></a>Tidak boleh dileawti dalam persetujuan
 
-Bila entri waktu atau pengeluaran diajukan, rekaman persetujuan akan dibuat. Jika persetujuan ini dikenakan biaya dan dipetakan ke baris kontrak waktu dan material, sistem akan menyelesaikan pemeriksaan validasi tidak boleh dilewati di tingkat berikut:
+Saat mengajukan entri penggunaan bahan, waktu, atau pengeluaran, rekaman persetujuan dibuat. Jika persetujuan ini dikenakan biaya dan dipetakan ke baris kontrak waktu dan material, sistem akan menyelesaikan pemeriksaan validasi tidak boleh dilewati di tingkat berikut:
 
   - Periksa terhadap batas yang diatur untuk pelanggan pada baris kontrak proyek
   - Periksa terhadap batas yang diatur pada baris kontrak
@@ -34,11 +32,11 @@ Jika pemeriksaan lulus, persetujuan diberikan status validasi **Berhasil**.
 
 Jika pemeriksaan gagal, persetujuan diberikan status validasi **Gagal**. Rincian validasi tidak boleh dilewati akan menginformasikan pada pengguna tentang tingkat validasi yang gagal.
 
-Bila entri waktu atau pengeluaran yang diajukan dianggap tidak dikenakan biaya, status validasi tidak boleh dilewati diatur **tidak berlaku** dengan detail validasi sama dengan **tidak berlaku**.
+Bila entri penggunaan waktu, pengeluaran, atau bahan yang diajukan dianggap tidak kena biaya, status validasi tidak akan melebihi diatur ke **Tidak Berlaku** dengan rincian validasi sama dengan **Tidak berlaku**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Tidak boleh dilewati pada aktual penjualan yang belum ditagih
 
-Bila entri waktu atau pengeluaran disetujui, rekaman aktual biaya dan penjualan yang belum ditagih akan dibuat. Jika aktual penjualan belum ditagih yang dibuat dikenakan biaya dan dipetakan ke baris kontrak waktu dan material, aplikasi akan melakukan pemeriksaan validasi tidak boleh dilewati di tingkat berikut:
+Bila entri penggunaan waktu, pengeluaran, atau bahan disetujui, rekaman aktual penjualan tak tertagih dan biaya akan dibuat. Jika aktual penjualan belum ditagih yang dibuat dikenakan biaya dan dipetakan ke baris kontrak waktu dan material, aplikasi akan melakukan pemeriksaan validasi tidak boleh dilewati di tingkat berikut:
 
   - Periksa terhadap batas yang diatur untuk pelanggan baris kontrak proyek
   - Periksa terhadap batas yang diatur pada baris kontrak
@@ -55,9 +53,9 @@ Bila aktual penjualan yang belum ditagih dianggap tidak dikenakan biaya atau gra
 
 ## <a name="reset-the-not-to-exceed-status"></a>Atur Ulang Status tidak boleh terlewati
 
-Anda dapat melakukan reset massal dari status tidak boleh terlewati. Hal ini memungkinkan manajer proyek menyesuaikan validasi batas yang tidak boleh terlewati untuk memprioritaskan faktur dari satu badan kerja, waktu, atau pengeluaran tertentu di atas lainnya yang telah ditindaklanjuti dari jumlah tidak boleh terlewati yang tersedia.
+Anda dapat melakukan reset massal dari status tidak boleh terlewati. Manajer proyek dapat menyesuaikan validasi tidak melebihi untuk memprioritaskan faktur satu badan kerja, waktu, pengeluaran, atau penggunaan bahan tertentu atas yang lain yang sudah dilakukan dari jumlah yang tidak boleh terlampaui.
 
-Setelah status tidak boleh terlewati diatur ulang pada aktual penjualan yang belum ditagih, jumlah komitmen akan dikurangi. Manajer proyek dapat memilih badan kerja, waktu, atau pengeluaran lain yang sebelumnya telah gagal dalam validasi tidak boleh terlewati dan mengevaluasi ulang. Dengan pengurangan jumlah komitmen, aktual ini sekarang akan lulus validasi. Ini membantu manajer proyek mengerahkan pengaruh yang lebih besar dan kontrol atas transaksi yang bisa ditagih untuk periode tersebut.
+Setelah status tidak boleh terlewati diatur ulang pada aktual penjualan yang belum ditagih, jumlah komitmen akan dikurangi. Manajer proyek dapat memilih entri badan kerja, waktu, pengeluaran, atau penggunaan bahan lain yang sebelumnya gagal validasi yang tidak melebihi dan mengevaluasi ulang. Dengan pengurangan jumlah yang dilaksanakan, aktual ini sekarang lulus validasi yang membantu Manajer proyek memberikan pengaruh dan kontrol yang lebih besar atas transaksi yang dapat ditagih selama periode tersebut.
 
 Untuk mengatur ulang status tidak boleh terlewati, pilih satu atau beberapa aktual dari tampilan **akumulasi tagihan waktu dan material** atau **aktual**, lalu pilih **Atur ulang status tidak boleh terlewati**.
 
@@ -73,3 +71,6 @@ Anda dapat melakukan re-evaluasi massal dari status tidak boleh terlewati. Evalu
 Untuk mengevaluasi ulang status tidak boleh terlewati, pilih satu atau beberapa aktual dari tampilan **akumulasi tagihan waktu dan material** atau **aktual**, dan pilih **Evaluasi ulang status tidak boleh terlewati**.
 
 Semua aktual tertentu yang relevan dengan batas yang tidak boleh terlewati akan dievaluasi terhadap konfigurasi yang tidak boleh terlewati. Aktual yang relevan untuk evaluasi ulang status tidak boleh terlewati adalah aktual penjualan belum ditagih yang tidak difaktur, bukan pada faktur draf, dan ditandai sebagai kena biaya. Setiap aktual terpilih lainnya dipilih.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

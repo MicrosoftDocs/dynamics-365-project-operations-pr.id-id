@@ -1,8 +1,6 @@
 ---
 title: Yang baru atau yang diubah di Project Service Automation versi 3
 description: Topik ini menyediakan informasi tentang apa yang baru dan diubah dalam Project Service Automation versi 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,14 +16,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987080"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Yang baru atau yang diubah di Project Service Automation versi 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
@@ -35,7 +36,7 @@ Topik ini menyediakan informasi tentang perubahan ke antarmuka pengguna (UI), fu
 ## <a name="project-scheduling"></a>Penjadwalan proyek
 Jadwal proyek, yang dikenal sebagai struktur rincian kerja (WBS) di versi sebelumnya, telah diubah namanya menjadi Jadwal dan diakses dengan mengklik tab **Jadwal**. 
 
-![Jadwal proyek](media/psa-schedule-01.png)
+![Jadwal proyek.](media/psa-schedule-01.png)
 
 Jadwal sekarang memiliki permukaan baru untuk interaksi yang modern dan dapat diakses. Namun, Mesin penjadwalan Project Service Automation yang mendasari tidak berubah. Tombol kontrol di pita jadwal kisi memungkinkan Anda berinteraksi dengan jadwal yang serupa dengan versi Project Service Automation sebelumnya. Perubahan tambahan terhadap jadwal mencakup:
 
@@ -94,22 +95,22 @@ Saat Anda memindahkan jadwal proyek yang ada ke depan, terjadi hal berikut:
 ## <a name="estimates"></a>Perkiraan
 Perkiraan telah dipecah menjadi dua tab, **penetapan sumber daya**, dan **perkiraan**. Tab **penetapan sumber daya** berisi perkiraan upaya dan menampilkan penetapan sumber daya untuk tugas dalam tampilan yang berfase waktu. Anda dapat mengedit perkiraan berdasarkan apa yang dihasilkan mesin penjadwalan.
 
-![Tugas sumber daya yang menunjukkan perkiraan upaya dan tugas sumber daya untuk tugas](media/resource-assignments-tab-02.png)
+![Tugas sumber daya yang menunjukkan perkiraan upaya dan tugas sumber daya untuk tugas.](media/resource-assignments-tab-02.png)
 
 Tab **perkiraan** menunjukkan biaya dan jumlah penjualan untuk tugas sumber daya. Jumlah bersifat hanya baca. Harga dan harga penjualan sekarang didorong dari tugas anggota tim pada jadwal. Ini berarti bahwa jika Anda memiliki tugas tanpa penetapan, tugas akan ditampilkan dalam keranjang belum ditetapkan. Ini juga berarti bahwa tanpa **peran**, yang merupakan dimensi harga default, tidak akan ada perkiraan biaya atau penjualan jika Anda memiliki pelanggan atau kontrak/kuotasi yang terkait dengan proyek. 
 
-![Tab perkiraan menunjukkan biaya dan jumlah penjualan](media/estimates-tab-03.png)
+![Tab perkiraan menunjukkan biaya dan jumlah penjualan.](media/estimates-tab-03.png)
   
 Kategori juga didukung pada tugas di tampilan jadwal. Pengelompokan berdasarkan Kategori pada tampilan berdasar waktu dari perkiraan akan memberikan pengalaman yang lebih baik, terutama bila Anda juga memiliki perkiraan pengeluaran dalam proyek Anda. Perkiraan pengeluaran dimasukkan menggunakan kisi pada tab terpisah. 
 
 Perkiraan biaya dapat dimasukkan di kisi pada tab **Perkiraan pengeluaran**. 
 
-![Tab perkiraan pengeluaran menampilkan kisi perkiraan pengeluaran](media/expense-estimates-tab-04.png)
+![Tab perkiraan pengeluaran menampilkan kisi perkiraan pengeluaran.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Manajemen sumber daya
 Dalam Project Service Automation versi 3, dengan UI klien terpadu baru dan perubahan pada hubungan antara Pemesanan dan tugas, staf proyek dengan sumber daya generik atau nyata telah berubah secara dramatis dari versi 2 dan versi 1. Namun, konsep sumber daya yang dapat dipesan, baik **Real** maupun **generik** tetap sama, seperti anggota tim, persyaratan, tugas, dan Pemesanan.   
 
-![Menggunakan Pengambil sumber daya](media/resource-management-05.png)
+![Menggunakan Pengambil sumber daya.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Menetapkan sumber daya nyata yang dapat dipesan 
 Di Project Service Automation versi 3, Pemesanan dan penetapan tugas tidak terkait erat seperti di versi sebelumnya dari Project Service Automation. Anda dapat menggunakan kisi tim untuk memesan anggota tim **sungguhan**, mirip dengan di dalam pasar.
@@ -150,21 +151,21 @@ Bagian ini menyediakan informasi tentang perubahan waktu, pengeluaran, dan perse
 ### <a name="landing-page"></a>Halaman arahan
 Pengalaman entri waktu kustom yang tidak dapat diperluas telah ditolak dalam versi 3. Namun, sekarang ada pengalaman kisi asli yang dapat diperluas dan dapat diakses. Anda dapat mengakses fungsi entri waktu menggunakan peta situs di sebelah kiri. Dengan perubahan ini, Anda tidak akan lagi dapat memasukkan waktu selama satu minggu pada satu waktu. Namun, Anda harus membuat entri waktu untuk setiap hari di kisi. Setelah beberapa entri waktu dibuat, pengguna dapat massal membuat entri waktu dengan fungsi **salin** yang dijelaskan nanti di topik ini. 
 
-![halaman arahan entri waktu](media/time-entry-landing-page-07.png)
+![halaman arahan entri waktu.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Buat entri waktu baru 
 Klik **baru** di pita untuk membuka halaman Buat cepat untuk entri waktu yang memungkinkan Anda memasukkan durasi dalam menit, jam, atau hari. Untuk melakukan ini, cukup mulai mengetik h, m, atau d bersama dengan kuantitas.  
 
-![Pembuatan Cepat Entri Waktu](media/quick-create-time-entry-08.png)
+![Pembuatan Cepat Entri Waktu.](media/quick-create-time-entry-08.png)
 
 Bidang pencarian didukung oleh tampilan sistem. Misalnya, setelah Anda memasukkan informasi proyek, bidang **tugas proyek** diatur secara default ke tampilan **tugas proyek yang terbuka**. Untuk membuat entri waktu untuk tugas yang tidak ditetapkan ke pengguna, klik **Ubah tampilan** di pencarian, lalu pilih **semua tugas proyek aktif**. Setelah entri waktu dibuat dan ditampilkan di kisi, Anda dapat mengedit nilai baris apa pun secara langsung di kisi.  
 
 ### <a name="bulk-createcopy"></a>Buat/Salin massal 
 Setelah beberapa entri waktu dibuat, Anda dapat menggunakan fungsi salin untuk membuat entri waktu tambahan secara massal. Klik **Salin** untuk membuka dialog **salin**. Di **dari periode: tanggal mulai**, atur rentang tanggal periode waktu yang harus disalin. Di **hingga periode: tanggal mulai**, tentukan tanggal saat entri waktu harus dibuat. Klik **Salin** untuk menyalin entri waktu ke hari yang sesuai dalam minggu yang ditunjukkan dalam **hingga periode**. Misalnya, entri waktu Senin dari pekan lalu akan disalin ke hari Senin dalam pekan yang ditentukan sebagai **hingga periode**. 
 
-![Salin entri Waktu secara massal](media/bulk-copy-time-entry-09.png)
+![Salin entri Waktu secara massal.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Mengimpor data 
+### <a name="import-data"></a>Impor data 
 Tugas dan pertukaran mengikuti pola UI yang sama, yang memungkinkan pengguna menentukan rentang tanggal dari waktu saat pemesanan harus diimpor. Kemudian Anda harus secara eksplisit memilih Pemesanan yang akan disalin ke dalam entri waktu **draf**. Di versi 3, Anda tidak dapat lagi melihat pola entri waktu yang **disarankan** di kisi dan kalender.  
 
 ### <a name="change-in-calendar-control"></a>Perubahan di kontrol kalender
@@ -178,7 +179,7 @@ Di versi 3, kami telah beralih dari kontrol kalender kustom dan sekarang menggun
 
 **Tangkap data di bidang kustom dalam entri waktu dan pengeluaran dan lakukan propagasi melalui entitas yang mendukung alur pengajuan dan persetujuan** -pemrosesan umum waktu entri ditunjukkan dalam diagram berikut.
 
-![Proses Alur entri waktu](media/process-time-entries-10.png)
+![Proses Alur entri waktu.](media/process-time-entries-10.png)
 
 Jika persyaratan bisnis menetapkan bahwa entitas waktu dan pengeluaran harus mengambil dimensi harga kustom dan menyebarkan nilai yang diatur berdasarkan sumber daya waktu dan memasukkan sumber daya dalam dimensi harga kustom melalui semua entitas di grafik sebelumnya, lihat [Konfigurasikan bidang kustom sebagai dimensi harga](set-up-pricing-dimensions.md)
 
@@ -235,7 +236,7 @@ Di versi 1 dan 2, konfigurasi penagihan untuk peran dan kategori untuk kuotasi d
 
 Setelah versi 3, konfigurasi pilihan ketertagihan berdasarkan peran dan kategori pengeluaran akan dilakukan pada tingkat baris kuotasi atau kontrak. Konfigurasi harga terpisah dari penyiapan kemampuan ketertagihan. Anda akan dapat menemukan **peran yang dibebankan biaya** dan **kategori berbayar** sebagai tab pada **baris kuotasi** dan halaman  **baris kontrak** tanpa harus menggunakan navigasi atas.
 
-![Peran yang dikenakan biaya](media/chargeable-12.png)
+![Peran yang dikenakan biaya.](media/chargeable-12.png)
  
 Konfigurasi peran yang dibebankan biaya dan kategori berbayar juga memanfaatkan kontrol kisi yang dapat diedit secara Bawaan. Untuk setiap peran dan kategori, pilihan yang didukung untuk jenis penagihan selama fase penentuan dan kontrak tetap tidak diubah dari versi sebelumnya sebagai **dibebankan biaya** dan **tidak dikenakan biaya**. **Gratis** ini bukan jenis yang didukung selama fase kuotasi atau kontrak. **Gratis** hanya didukung selama persetujuan waktu atau biaya.  
  
@@ -246,11 +247,14 @@ Pada versi 3, membuat, dan menggunakan daftar harga proyek kustom pada kuotasi P
   
 Grafik berikut adalah sebelum daftar harga kustom telah dibuat.
 
-![Sebelum daftar harga kustom](media/before-custom-price-lists-13.png)
+![Sebelum daftar harga kustom.](media/before-custom-price-lists-13.png)
 
 Grafik berikut ditampilkan setelah daftar harga kustom telah dibuat.
 
-![Setelah daftar harga kustom](media/after-custom-price-lists-14.png)
+![Setelah daftar harga kustom.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Keterlambatan singkat mungkin terjadi antara saat Anda mengeklik **buat harga kustom** hingga saat daftar harga kustom dibuat. Sebaiknya refresh kisi, bukan mengeklik beberapa kali. Daftar harga kustom telah dibuat jika nama daftar harga terkait telah ditambahi nama kuotasi atau nama kontrak proyek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,13 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002645"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005395"
 ---
 # <a name="intercompany-invoicing-overview"></a>Sekilas faktur antarperusahaan
 
@@ -21,7 +22,7 @@ Organisasi Anda mungkin memiliki beberapa divisi, anak perusahaan, dan entitas h
 
 Ilustrasi berikut menampilkan skenario umum, yakni dua entitas hukum, Contoso Robotics USA (entitas hukum peminjam) dan Robotics Contoso UK (entitas hukum pemberia pinjaman) berbagi sumber daya untuk melaksanakan proyek untuk pelanggan, Adventure Works. Untuk skenario ini, Contoso Robotics USA dikontrak untuk memberikan pekerjaan ke Adventure Works.
 
-![Faktur antarperusahaan](./media/IntercompanyScenario.png) 
+![Faktur antarperusahaan.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations menggunakan aliran berikut ini untuk memproses transaksi antarperusahaan:
 
@@ -34,7 +35,7 @@ Dynamics 365 Project Operations menggunakan aliran berikut ini untuk memproses t
 
 Diagram berikut menunjukkan faktur antarperusahaan yang terkait dengan aktivitas akuntansi dan posting yang diharapkan ke buku besar.
 
-![Alur antarperusahaan](./media/IntercompanyFlow.png)
+![Alur antarperusahaan.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Sumber daya tambahan
 
