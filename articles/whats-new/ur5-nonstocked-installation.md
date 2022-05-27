@@ -1,25 +1,25 @@
 ---
 title: Perbarui Project Operations di lingkungan Finance Anda
-description: Topik ini menyediakan informasi tentang cara memperbarui Project Operations di lingkungan Dynamics 365 Finance Anda.
+description: Ini topik memberikan informasi tentang cara memperbarui Operasi Proyek di lingkungan Dynamics 365 Finance Anda.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986765"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579938"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Perbarui Project Operations di lingkungan Finance Anda
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 
-Topik ini menyediakan informasi tentang cara memperbarui Dynamics 365 Project Operations di lingkungan Dynamics 365 Finance Anda. Ada tiga prosedur yang diperlukan untuk memperbarui Project Operations untuk Pembaruan 5 (UR5):
+Ini topik memberikan informasi tentang cara memperbarui Dynamics 365 Project Operations di lingkungan Dynamics 365 Finance Anda. Ada tiga prosedur yang diperlukan untuk memperbarui Project Operations untuk Pembaruan 5 (UR5):
 
 - [Impor paket ke proyek pratinjau](#import)
 - [Terapkan pembaruan](#apply)
@@ -119,7 +119,7 @@ Pembaruan berikut pada hak istimewa keamanan entitas diperlukan sebagai bagian d
 4. Pada halaman **versi peta tabel**, terapkan versi baru peta untuk masing-masing dari ketiga entitas.
 5. Pada halaman **Penulisan ganda**, pilih jalankan untuk memulai ulang peta.
 6. Dari daftar peta, pilih peta **buku besar (msdyn_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. 
-7. Di bidang **Induk untuk sinkronisasi awal**, pilih **aplikasi Finance and Operations**, lalu pilih **Jalankan**.
+7. **Di bidang Master untuk sinkronisasi** awal, pilih **aplikasi** Keuangan dan Operasi lalu pilih **Jalankan**.
  
  ![Sinkronisasi peta buku besar.](media/DW6.png)
  

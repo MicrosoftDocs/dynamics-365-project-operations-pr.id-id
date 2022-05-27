@@ -4,14 +4,14 @@ description: Topik ini memberikan informasi tentang pembaruan kualitas yang ters
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003190"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576596"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis stok/produksi
 
@@ -23,7 +23,7 @@ Untuk informasi tentang perbaikan yang tercakup dalam pembaruan ini, masuk ke Li
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan wajib untuk aplikasi Dynamics 365 Finance and Operations, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan peraturan untuk aplikasi Dynamics 365 Finance and Operations, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

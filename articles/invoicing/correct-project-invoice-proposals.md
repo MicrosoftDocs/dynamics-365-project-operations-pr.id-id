@@ -2,16 +2,16 @@
 title: Memperbaiki akuntansi pada draf proposal faktur proyek
 description: Topik ini menjelaskan cara menyesuaikan informasi yang terkait dengan akuntansi pada draf proposal faktur.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999320"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575078"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Memperbaiki akuntansi pada draf proposal faktur proyek
 
@@ -27,12 +27,21 @@ Grup pajak penjualan penagihan default dan grup pajak penjualan item dapat dises
 
 ## <a name="adjust-financial-dimensions"></a>Menyesuaikan dimensi keuangan
 
+### <a name="header-dimensions"></a>Dimensi header
+
+Secara default, dimensi keuangan faktur berasal dari catatan transaksi proyek yang tidak ditagih yang sedang ditagih. Namun, pengaturan sistem memungkinkan Anda menggunakan dimensi keuangan pada header proposal faktur proyek untuk memposting saldo pelanggan. Untuk mengaktifkan fungsi ini, pilih **Izinkan pembaruan ke dimensi proyek untuk piutang** akun pada tab Keuangan **pada** **halaman Parameter** manajemen dan akuntansi Proyek.
+
+Dimensi keuangan pada header faktur dapat diedit sebelum faktur diposting. **Pada halaman Proposal** faktur proyek, beralih ke **tampilan Header**, lalu edit nilai pada **tab Dimensi** keuangan.
+
+Tampilan **Header** hanya tersedia setelah administrator sistem mengaktifkan **proposal faktur Proyek Penggunaan dan formulir jurnal faktur dengan fitur Tampilan** Header dan Lines di **ruang kerja manajemen** fitur. Fitur ini memerlukan pembaruan Keuangan 10.0.25 atau yang lebih baru.
+
+### <a name="line-dimensions"></a>Dimensi garis
+
 Dimensi keuangan tidak dapat diedit secara langsung pada baris proposal faktur proyek. Melainkan, ikuti langkah-langkah ini untuk menyesuaikan dimensi keuangan pada proposal faktur proyek.
 
 1. Pada proposal faktur proyek, pilih **Hapus semua** untuk menghilangkan baris proposal faktur proyek.
 
-    > [!NOTE]
-    > Tombol **Hapus semua** tersedia hanya setelah administrator sistem mengaktifkan fitur **Hapus baris proposal faktur saat menggunakan Project Operations untuk skenario berbasis sumber daya/non-stok** di ruang kerja **manajemen Fitur**.
+    Tombol **Hapus semua** tersedia hanya setelah administrator sistem mengaktifkan fitur **Hapus baris proposal faktur saat menggunakan Project Operations untuk skenario berbasis sumber daya/non-stok** di ruang kerja **manajemen Fitur**.
 
 2. Menyesuaikan dimensi keuangan:
 

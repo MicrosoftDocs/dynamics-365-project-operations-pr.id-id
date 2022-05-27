@@ -2,16 +2,16 @@
 title: Menyalin proyek
 description: Topik ini menyediakan informasi tentang menyalin proyek di Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007195"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574434"
 ---
 # <a name="copy-a-project"></a>Menyalin proyek
 
@@ -25,39 +25,47 @@ Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek
 - Perkiraan proyek
 - Estimasi pengeluaran proyek
 - Estimasi bahan proyek
+- Daftar periksa proyek
+- Bucket proyek
 
 ## <a name="project-properties"></a>Properti proyek
 
-Saat proyek disalin, nilai pada bidang berikut akan disalin:
+Saat proyek disalin, nilai di bidang berikut disalin.
 
-- Nama
-- KETERANGAN
-- Pelanggan
-- Template kalender
-- Mata uang
-- Unit Kontrak
-- Manajer Proyek
-- Status
-- Keseluruhan Status Proyek
-- Komentar
-- Estimasi
-- Estimasi Tanggal Mulai: Tanggal proyek dibuat dari salinan.
-- Estimasi Tanggal Selesai: Tanggal ini disesuaikan berdasarkan tanggal mulai proyek baru yang dibuat dari salinan.
-- Upaya (Jam)
-- Perkiraan Biaya Tenaga Kerja
-- Perkiraan Biaya Pengeluaran
-- Perkiraan Biaya Materi
+| Bidang | Operasi Proyek Bahan Yang Tidak Terisi | Operasi Proyek Lite | Proyek untuk Web |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Nama | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Deskripsi | :heavy_check_mark: | :heavy_check_mark: | |
+| yang terhormat | :heavy_check_mark: | :heavy_check_mark: | |
+| Template kalender | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Mata uang | :heavy_check_mark: | :heavy_check_mark: | |
+| Unit Kontrak | :heavy_check_mark: | :heavy_check_mark: | |
+| Perusahaan Pemilik | :heavy_check_mark: | | |
+| Manajer Proyek | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Status | :heavy_check_mark: | :heavy_check_mark: | |
+| Keseluruhan Status Proyek | :heavy_check_mark: | :heavy_check_mark: | |
+| Komentar | :heavy_check_mark: | :heavy_check_mark: | |
+| Estimasi | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Perkiraan Tanggal Mulai</p><p><strong>Catatan:</strong> Bidang ini menentukan tanggal saat proyek dibuat dari salinan. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Perkiraan Tanggal Selesai</p><p><strong>Catatan:</strong> Tanggal di bidang ini disesuaikan berdasarkan tanggal mulai proyek baru yang dibuat dari salinan.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| Upaya (Jam) | :heavy_check_mark: | :heavy_check_mark: | |
+| Perkiraan Biaya Tenaga Kerja | :heavy_check_mark: | :heavy_check_mark: | |
+| Perkiraan Biaya Pengeluaran | :heavy_check_mark: | :heavy_check_mark: | |
+| Perkiraan Biaya Materi | | :heavy_check_mark: | |
 
 > [!NOTE]
 > Salin proyek adalah operasi yang berjalan lama. Rekaman proyek, atribut yang relevan, dan banyak entitas terkait juga disalin. Karena sifat operasi yang berjalan lama, setelah salinan dimulai, halaman proyek target dikunci untuk pengeditan hingga operasi penyalinan selesai.
 
 ## <a name="work-breakdown-structure"></a>Struktur rincian kerja
 
-Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. Sumber daya bernama digantikan dengan sumber daya generik. Jika sumber daya bernama tidak memiliki jam kerja yang sama seperti sumber daya generik, jadwal akan dihitung ulang dan durasi tugas dapat berubah.
+Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. Sumber daya bernama digantikan dengan sumber daya generik. Jika sumber daya bernama tidak memiliki jam kerja yang sama dengan sumber daya generik, jadwal akan dihitung ulang, dan durasi tugas mungkin berubah.
 
 ## <a name="project-team-members"></a>Anggota tim proyek
 
 Bila tim proyek disalin dari proyek sumber, sumber daya generik akan disalin. Tugas sumber generik juga dikelola seperti proyek sumber. Sumber daya bernama akan dikonversi ke anggota tim generik.
+
+> [!NOTE]
+> Anggota tim dan tugas tidak disalin di Project for the Web.
 
 ## <a name="estimates"></a>Estimasi
 
@@ -65,5 +73,8 @@ Bila proyek disalin, baris estimasi bahan, pengeluaran, dan sumber daya disalin 
 
 Untuk informasi tentang cara mengakses salinan proyek secara programatik, lihat [mengembangkan template proyek dengan salinan proyek](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>Kuotasi dan kontrak
+
+Kutipan dan kontrak tidak terkait dengan proyek tujuan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,17 +3,16 @@ title: Ikhtisar dimensi harga
 description: Topik ini memberikan informasi tentang dimensi harga di Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001975"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579264"
 ---
 # <a name="pricing-dimensions-overview"></a>Ikhtisar dimensi harga
 
@@ -58,18 +57,18 @@ Contoh berikut menunjukkan tarif tagihan yang diatur berdasarkan peran dan unit 
 
 **Tarif tagihan sampel**
 
-| Peran        | Unit Organisasi    |Unit      |Harga      |Mata uang  |
+| Peran        | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
 | ------------|-------------|----------|----------:|----------|
-| Pengembang   | Contoso AS  |Jam | 200|USD     |
-| Pengembang   | Contoso India |Jam|   112|USD     |
+| Pengembang   | Contoso AS  |Hour | 200|USD     |
+| Pengembang   | Aswono India |Hour|   112|USD     |
 
 
 **Sampel tarif biaya**
 
-| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata uang  |
+| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
 | ----------------|-------------|----------|----------:|----------|
-| Perusahaan saya_Band1 | Contoso AS  |Jam | 145|USD     |
-| Perusahaan saya_Band2 | Contoso India |Jam|   67|USD     |
+| Perusahaan saya_Band1 | Contoso AS  |Hour | 145|USD     |
+| Perusahaan saya_Band2 | Aswono India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

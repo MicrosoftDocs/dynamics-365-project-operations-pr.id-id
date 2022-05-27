@@ -4,14 +4,14 @@ description: Topik ini berisi informasi tentang pendapatan harga tetap dalam ber
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006430"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578712"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Proyek estimasi pendapatan harga tetap 
 
@@ -26,7 +26,7 @@ Saat Anda membuat baris kontrak proyek dengan atribut berikut pada Dynamics 365 
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Meninjau proyek estimasi pendapatan harga tetap
 Untuk meninjau proyek estimasi pendapatan harga tetap, lakukan langkah-langkah berikut:
 
-1. Di lingkungan Dynamics 365 Finance, buka **Manajemen dan akuntansi proyek** > **Proyek** > **Proyek estimasi pendapatan harga tetap**.
+1. Di lingkungan Dynamics 365 Finance, buka **Manajemen proyek dan Proyek Akuntansi** > **Proyek** > **perkiraan pendapatan harga tetap**.
 2. Pilih proyek yang ingin Anda lihat dan klik dua kali **ID proyek estimasi** untuk membuka record dan meninjau rincian proyek.
 3. Buka tab **Proyek**. Anda akan melihat satu proyek di kisi **Proyek yang dipilih**. Sistem menggunakan ini sebagai proyek default karena merupakan proyek yang terkait dengan baris kontrak proyek. 
 4. Untuk mengubah keterkaitan, pilih proyek tambahan dan tambahkan ke kisi **Proyek yang dipilih**. Jika beberapa proyek dipilih dalam kisi ini, persentase penyelesaian dan pendapatan proyek dihitung bersama untuk semua proyek yang dipilih.

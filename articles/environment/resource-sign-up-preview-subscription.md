@@ -4,20 +4,20 @@ description: Topik ini memberikan informasi tentang cara berlangganan dan menyeb
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323420"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575814"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Topik ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan lingkungan Project Operations untuk skenario berbasis sumber daya/non-persediaan.
 
@@ -49,7 +49,7 @@ Buka [Uji Coba Pratinjau Dynamics 365 untuk Finance](https://aka.ms/trypoche), l
 > [!IMPORTANT]
 > Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
-1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
+1. [Microsoft 365 Buka pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
 
 2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
 

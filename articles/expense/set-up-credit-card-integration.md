@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826260"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577057"
 ---
 # <a name="set-up-credit-card-integration"></a>Mengonfigurasi integrasi kartu kredit
 
@@ -50,7 +50,7 @@ Pilih satu atau beberapa transaksi kartu kredit, lalu pilih **tetapkan ulang tra
 
 ## <a name="delete-credit-card-transactions"></a>Menghapus transaksi kartu kredit 
 
-Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin harus dihapus. Ini bisa jadi karena transaksi adalah duplikat atau karena data tidak akurat. Admin dapat menggunakan fitur **"Hapus transaksi kartu kredit"** untuk memilih dan menghapus transaksi kartu kredit yang **tidak dilampirkan** ke laporan pengeluaran. 
+Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin harus dihapus. Ini bisa jadi karena transaksi adalah duplikat atau karena datanya tidak akurat. Admin dapat menggunakan fitur **"Hapus transaksi kartu kredit"** untuk memilih dan menghapus transaksi kartu kredit yang **tidak dilampirkan** ke laporan pengeluaran. 
 
 1. Buka **tugas Periodik** > **hapus transaksi kartu kredit**.
 2. Pilih **Filter** dan berikan informasi untuk mengidentifikasi rekaman yang akan disertakan.
@@ -58,10 +58,10 @@ Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin ha
 
 ## <a name="storing-credit-card-numbers"></a>Menyimpan nomor kartu kredit
 
-Tiga opsi tersedia untuk menyimpan nomor kartu kredit. Nomor kartu kredit disimpan di **halaman parameter manajemen** pengeluaran.
+Ada tiga opsi yang tersedia untuk menyimpan nomor kartu kredit. Nomor kartu kredit disimpan di **halaman Parameter** manajemen pengeluaran.
 
-- **Hindari entri nomor kartu** – Nomor kartu kredit tidak disimpan.
+- **Mencegah entri** nomor kartu – Nomor kartu kredit tidak disimpan.
 - **Nomor kartu hash (simpan empat digit terakhir)** – Empat digit terakhir nomor kartu kredit disimpan dalam format terenkripsi.
-- **Nomor kartu** toko – Nomor kartu kredit disimpan dalam format yang tidak terenkripsi. Opsi ini tidak sesuai dengan Standar Keamanan Data Industri Kartu Pembayaran (PCI) (DSS). Oleh karena itu, untuk menjaga organisasi mereka mematuhi peraturan PCI DSS, admin organisasi harus memilih untuk tidak menyimpan nomor kartu kredit atau menyimpan nomor kartu hash.
+- **Nomor kartu toko** – Nomor kartu kredit disimpan dalam format yang tidak terenkripsi. Opsi ini tidak sesuai dengan Standar Keamanan Data (DSS) Industri Kartu Pembayaran (PCI). Oleh karena itu, untuk menjaga organisasi mereka mematuhi peraturan PCI DSS, admin organisasi harus memilih untuk tidak menyimpan nomor kartu kredit atau menyimpan nomor kartu hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

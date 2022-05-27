@@ -2,16 +2,16 @@
 title: Mengonfigurasikan biaya dan tarif penjualan untuk bahan
 description: Informasi topik ini berisi informasi tentang cara mengkonfigurasi biaya dan tingkat penjualan untuk bahan yang digunakan pada proyek.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999185"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576872"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Mengonfigurasikan biaya dan tarif penjualan untuk bahan
 
@@ -25,6 +25,9 @@ Untuk mengkonfigurasi tingkat biaya dan penjualan produk, selesaikan langkah-lan
 2. Pada **item Daftar harga**, pada menu subkisi, pilih **Item daftar harga baru**. 
 3. Pada halaman **Buat Cepat**, masukkan produk dan unit yang anda buat harga barunya.
 
-Untuk informasi lebih lanjut tentang cara menentukan harga untuk item katalog, lihat [Mengonfigurasikan harga untuk produk](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) dan [presisi Desimal dalam mata uang dan harga](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Untuk informasi selengkapnya tentang cara menentukan harga untuk item katalog, lihat [Menentukan harga produk dengan daftar harga dan item](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) daftar harga dan [presisi desimal dalam mata uang dan harga](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations tidak mendukung semua metode penetapan harga untuk produk sebagai Dynamics 365 Sales. Satu-satunya metode penetapan harga yang didukung untuk produk yang akan digunakan pada proyek adalah *jumlah mata uang*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Rangkaian persetujuan
 description: Topik ini menjelaskan cara bekerja dengan rangkaian persetujuan, permintaan, dan subset operasi tersebut.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323240"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576228"
 ---
 # <a name="approval-sets"></a>Rangkaian persetujuan
 
@@ -27,6 +25,18 @@ Rangkaian persetujuan menunjukkan status pemrosesan keseluruhan rekaman terkait.
 Persetujuan yang diantrekan untuk pemrosesan dapat dilihat di tampilan **Pemrosesan Persetujuan**. Sistem memproses semua entri beberapa kali secara asinkron, termasuk mencoba ulang persetujuan jika upaya sebelumnya gagal.
 
 Bidang **Usia Rangkaian Persetujuan** mencatat jumlah upaya yang tersisa untuk memproses rangkaian sebelum ditandai sebagai gagal.
+
+Set persetujuan diproses melalui aktivasi berkala berdasarkan **Cloud Flow bernama** Project Service **- Recurrly Schedule Project Approval Sets**. Ini ditemukan dalam **Solusi** bernama **Operasi Proyek**. 
+
+Pastikan aliran diaktifkan dengan menyelesaikan langkah-langkah berikut.
+
+1. Sebagai administrator, masuk ke [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Di sudut kanan atas, beralih ke lingkungan yang Anda gunakan untuk Dynamics 365 Project Operations.
+3. Pilih **Solusi** untuk mencantumkan solusi yang diinstal di lingkungan.
+4. Dalam daftar solusi, pilih **Operasi** Proyek.
+5. Ubah filter dari **Semua** ke **Cloud Flows**.
+6. Verifikasi bahwa **aliran Project Service – Repetitively Schedule Project Approval Sets** diatur ke **Aktif**. Jika tidak, pilih alur, lalu pilih **Nyalakan**.
+7. Verifikasi bahwa pemrosesan terjadi setiap lima menit dengan **meninjau daftar Pekerjaan** Sistem di **area Pengaturan** dalam lingkungan Operasi Dataverse Proyek Anda.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Persetujuan dan rangkaian persetujuan yang gagal
 Tampilan **Persetujuan Gagal** mencantumkan semua persetujuan yang memerlukan intervensi pengguna. Buka log rangkaian persetujuan yang terkait untuk mengidentifikasi penyebab kegagalan.
