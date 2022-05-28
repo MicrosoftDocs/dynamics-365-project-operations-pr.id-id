@@ -4,14 +4,14 @@ description: Artikel topik menjelaskan cara membuat WBS (struktur perincian kerj
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928619"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597802"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Membuat struktur rincian kerja (WBS)
 
@@ -95,11 +95,11 @@ Sebagai administrator, Anda dapat menentukan bidang kustom pada entitas tugas. N
 
 ## <a name="staffing-attributes"></a>Atribut staf
 
-Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemetik sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian mengembalikan anggota tim proyek yang ada atau sumber daya aktif yang dapat dipesan.
+Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemilih sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian mengembalikan anggota tim proyek yang ada atau sumber daya aktif yang dapat dipesan.
 
 **Peran**, **unit sumber daya**, dan bidang **nama posisi** digunakan untuk menjelaskan persyaratan staf untuk tugas. Atribut staf ini bersama dengan jadwal tugas digunakan untuk menemukan sumber daya yang tersedia untuk melakukan tugas ini.
 
-   - **Peran:** Tentukan jenis sumber daya yang diperlukan untuk melakukan tugas.,
+   - **Peran**: Tentukan jenis sumber daya yang diperlukan untuk melakukan tugas.,
    - **Unit sumber daya**: Tentukan unit asal penetapan sumber daya untuk tugas. Atribut ini mempengaruhi perkiraan biaya dan penjualan untuk tugas jika tingkat biaya dan tagihan untuk sumber daya diatur berdasarkan unit sumber daya.
    - **Nama posisi**: masukkan nama untuk sumber daya generik yang berfungsi sebagai placeholder untuk sumber daya yang pada akhirnya akan melakukan pekerjaan.
 
@@ -124,7 +124,7 @@ Anda harus mengetahui batasan berikut jika Anda menggunakan struktur perincian k
 |----------------------------------------------------|----------------------|
 | Tugas total maksimum untuk proyek                  | 500                  |
 | durasi total maksimum untuk proyek               | 3650 hari (10 tahun) |
-| Sumber daya total maksimum untuk proyek              | 150                  |
+| Sumber daya total maksimum untuk proyek              | 300                  |
 | Tautan total maksimum (hanya penerus) untuk proyek | 600                  |
 | bidang kustom total maksimum untuk proyek          | 10                   |
 | Item daftar periksa maksimum per tugas                   | 20                   |

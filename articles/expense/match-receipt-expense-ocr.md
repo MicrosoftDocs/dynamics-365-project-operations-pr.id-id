@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798044"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596284"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Merekam tanda terima dengan OCR
 
@@ -52,7 +52,7 @@ Untuk membuat pengeluaran, atau mencocokkan pengeluaran dari tanda terima, seles
 
 ## <a name="installation"></a>Penginstalan
 
-Untuk menggunakan kemampuan biaya lanjutan ini, instal add-in Layanan Manajemen Pengeluaran untuk Microsoft Dynamics 365 Finance, dan aktifkan fitur dalam instans Anda. Anda dapat mengakses add-in dari proyek Anda di Microsoft Dynamics Lifecycle Services (LCS).
+Untuk menggunakan kemampuan biaya lanjutan ini, instal add-in Layanan Manajemen Pengeluaran untuk Microsoft Dynamics 365 Finance, dan aktifkan fitur dalam instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Masuk ke LCS, dan buka lingkungan yang diinginkan.
 2. Buka **rincian lengkap**.
@@ -73,7 +73,7 @@ Bila Anda mengaktifkan fitur ini, maka tindakan berikut terjadi:
 - Item menu baru untuk visibilitas bidang pengeluaran ditambahkan.
 - Anda tetap dapat membuka halaman **laporan pengeluaran** sebelumnya dengan membuka **manajemen pengeluaran > pengeluaran saya > laporan pengeluaran**.
 - Alur kerja dan persetujuan apa pun tetap akan membawa Anda ke halaman laporan pengeluaran yang ada.
-- Tanda terima akan diproses melalui Microsoft Azure Cognitive Services, dan metadata akan diekstraksi dan ditambahkan.
+- Kuitansi akan diproses melalui Microsoft Azure Cognitive Services, dan metadata akan diekstrak dan ditambahkan.
 - Pilihan ditambahkan yang memungkinkan Anda membuat laporan pengeluaran yang mencakup tanda terima tanpa lampiran yang dicocokkan.
 - Pilihan yang ditambahkan ke laporan pengeluaran memungkinkan Anda membuat baris pengeluaran dari tanda terima, atau mencoba mencocokkan tanda terima yang ada ke baris pengeluaran yang ada.
 
@@ -93,7 +93,7 @@ Ketersediaan fitur ini di berbagai wilayah tercantum dalam tabel berikut. Jika w
 | CAN    | Ya                               |
 | Inggris     | Ya                               |
 | AUS    | Ya                               |
-| UNI EROPA     | Sebagian. Tanda terima bahasa Inggris saja. |
+| UNI EROPA     | Sebagian. Hanya tanda terima bahasa Inggris. |
 | Asia   | No                                |
 | Jepang  | No                                |
 | Afrika | No                                |

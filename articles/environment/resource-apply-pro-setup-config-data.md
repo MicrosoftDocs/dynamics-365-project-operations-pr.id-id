@@ -4,27 +4,27 @@ description: Topik ini menyediakan informasi tentang mengonfigurasikan dan mener
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986630"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594720"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Pengaturan dan penerapan data konfigurasi di Common Data Service 
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Prasyarat
 
 Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyarat berikut harus dipenuhi:
 
-1.  Penyediaan lingkungan CDS dan lingkungan Dynamics 365 Finance untuk Project Operations.
-2.  Informasi entitas hukum dari Dynamics 365 Finance dibagi ke lingkungan CDS. Ini berarti bahwa entitas **perusahaan** dalam CDS memiliki rekaman perusahaan berikut:
+1.  Menyediakan lingkungan CDS dan lingkungan Dynamics 365 Finance untuk Operasi Proyek.
+2.  Informasi badan hukum dari Dynamics 365 Finance dibagikan ke lingkungan CDS. Ini berarti bahwa entitas **perusahaan** dalam CDS memiliki rekaman perusahaan berikut:
   - THPM
   - USPM
   - GBPM
@@ -132,7 +132,7 @@ Sebelum Anda mulai mengkonfigurasi data dalam Common Data Service (CDS), prasyar
 12. Perbarui bidang berikut:
 
  - **Perusahaan Default**: USPM
- - **Unit Organisasi Default**: Contoso Robotics Global
+ - **Unit organisasi default**:Aswono Robotics global
  - **Frekuensi faktur**: hari ketujuh dan terakhir
  - **Template jam kerja**: Ubah ke template yang Anda buat.
 

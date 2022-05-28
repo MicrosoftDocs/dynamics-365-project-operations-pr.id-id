@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753296"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598492"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Oktober 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753296"
 Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
    - Project Operations dalam lingkungan Microsoft Dataverse versi 4.25.0.91
-   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi version 10.0.21
+   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 

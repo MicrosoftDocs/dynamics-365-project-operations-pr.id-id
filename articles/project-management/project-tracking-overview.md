@@ -2,17 +2,16 @@
 title: Pelacakan upaya proyek
 description: Topik ini menyediakan informasi tentang cara melacak upaya proyek dan kemajuan pekerjaan.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993965"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593800"
 ---
 # <a name="project-effort-tracking"></a>Pelacakan upaya proyek
 
@@ -46,7 +45,8 @@ Upaya pada ringkasan tugas atau tugas kontainer dapat diproyeksikan ulang. Manaj
 - EAC baru pada setiap tugas individual hingga tugas node leaf dihitung. 
 - Tugas anak yang terpengaruh hingga node leaf memiliki persentase upaya tersisa mereka dan kemajuan yang akan dihitung ulang berdasarkan nilai EAC. Ini menghasilkan proyeksi baru untuk varians upaya dari tugas. 
 - EAC dari tugas ringkasan sepenuhnya hingga node root dihitung ulang.
-
+- Upaya yang disetujui pada tugas ringkasan adalah jumlah upaya yang disetujui pada semua tugas anak ditambah upaya yang disetujui pada tugas ringkasan.
+- Upaya yang tersisa pada tugas ringkasan adalah jumlah upaya yang tersisa pada semua tugas anak dikurangi upaya yang disetujui pada tugas ringkasan.
 
 ## <a name="project-status-summary"></a>Ringkasan Status Proyek
 

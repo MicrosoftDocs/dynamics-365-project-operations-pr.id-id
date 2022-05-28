@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e5175b12c9e06962888bf09c8e07119b9505dda
-ms.sourcegitcommit: 2aba2082d50b20b596ee86735045644cd647c2b0
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7901511"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598722"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Yang baru atau diubah di Project Service Automation Rilis Pembaruan 38, V3
 
@@ -38,21 +39,21 @@ Masalah berikut telah diperbaiki.
 
 **Waktu dan Pengeluaran**
 
-- Pengecualian terjadi ketika panjang persetujuan yang ditetapkan log melebihi 100.000 catatan.
-- Pengguna tidak dapat mengakses **kisi Entri Waktu dari halaman utama Entri** **Waktu**.
-- **Kotak dialog Impor Entri Waktu tidak menampilkan teks apa pun ketika tidak ada item yang memenuhi syarat untuk** diimpor.
-- Pengguna dapat membuat set persetujuan di mana **bidang Status Target diatur ke Tidak** **Diketahui**.
+- Pengecualian terjadi ketika panjang log set persetujuan melebihi 100.000 catatan.
+- Pengguna tidak dapat mengakses **kisi Entri** Waktu dari halaman utama Entri **Waktu**.
+- Kotak **dialog Impor** Entri Waktu tidak menampilkan teks apa pun saat tidak ada item yang memenuhi syarat untuk diimpor.
+- Pengguna dapat membuat set persetujuan di mana **bidang Status** Target diatur ke **Tidak Diketahui**.
 
 **Manajemen proyek**
 
-- Kontur tidak ditampilkan dengan benar dalam tugas sumber daya untuk UTC(+09:30) dan UTC(+10:00) saat daylight saving time dimulai.
-- Bidang **Kolom Tambahan untuk struktur rincian kerja tersembunyi di beberapa** lokasi.
-- Pemetik tanggal untuk kontrol kalender di **kisi Tugas Proyek tidak** dilokalisasi dengan benar untuk bahasa Mandarin.
+- Kontur tidak ditampilkan dengan benar dalam penetapan sumber daya untuk UTC(+09:30) dan UTC(+10:00) saat waktu musim panas dimulai.
+- Bidang **Kolom** Tambahan untuk struktur perincian kerja disembunyikan di beberapa lokasi.
+- Pemilih tanggal untuk kontrol kalender di kisi Tugas **Proyek tidak dilokalkan** dengan benar untuk bahasa Mandarin.
 
 **Penjualan**
 
-- **Kinerja Kontrak** dan Nilai Biaya Aktual Proyek tidak cocok ketika sumber daya yang dapat dipesan yang memiliki unit kontrak **dan mata uang yang berbeda mengirimkan entri** waktu.
-- Alur kerja kustom untuk mengonfirmasi faktur secara otomatis gagal saat faktur diimpor sebagai solusi terkelola. Pesan berikut ditampilkan: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Message: Status faktur tidak valid."
-- Ketika **Root dipilih sebagai opsi** ringkasan, dan proyek ini memiliki perkiraan dari campuran kelas transaksi (misalnya, kombinasi perkiraan waktu, biaya, dan material), sistem merangkum seluruh kelas transaksi sebagai satu garis biaya.
-- Dalam skenario di mana garis pengeluaran ditambahkan sebelum garis kontrak dikaitkan dengan proyek, harga yang benar tidak dimasukkan sebagai nilai default di **bidang Harga** Pembaruan.
-- Jumlah penjualan negatif tidak diizinkan pada **entitas Proyek** dan **Tugas**.
+- **Nilai Kinerja** Kontrak dan **Biaya** Aktual Proyek tidak cocok saat sumber daya yang dapat dipesan yang memiliki unit kontrak dan mata uang yang berbeda mengirimkan entri waktu.
+- Alur kerja kustom untuk mengonfirmasi faktur secara otomatis gagal saat faktur diimpor sebagai solusi terkelola. Pesan berikut ditampilkan: "Microsoft.Xrm.Sdk.InvalidPluginExecutionExceptionException Message: Status faktur tidak valid."
+- Ketika **Root** dipilih sebagai opsi ringkasan, dan proyek memiliki perkiraan dari campuran kelas transaksi (misalnya, kombinasi waktu, biaya, dan perkiraan material), sistem merangkum seluruh kelas transaksi sebagai satu jalur biaya.
+- Dalam skenario di mana garis pengeluaran ditambahkan sebelum garis kontrak dikaitkan dengan proyek, harga yang benar tidak dimasukkan sebagai nilai default di **bidang Perbarui Harga**.
+- Jumlah penjualan negatif tidak diperbolehkan pada **entitas Proyek** dan **Tugas**.

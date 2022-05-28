@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928665"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594858"
 ---
 # <a name="provision-a-new-environment"></a>Penyediaan lingkungan baru
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Topik ini menyediakan informasi tentang cara menyediakan lingkungan Dynamics 365 Project Operations untuk skenario berbasis sumber daya/non-stok.
 
@@ -34,7 +34,7 @@ Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Penyediaan lingkungan Project Operations
 
-1. Buka Dynamics 365 Finance [lingkungan demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau penyebaran [lingkungan produksi/Sandbox](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Buka lingkungan demo Dynamics 365 Finance [baru atau](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) penyebaran sandbox/ lingkungan [produksi](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Lalui Wizard **penyediaan lingkungan**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Anda mungkin perlu menerapkan pembaruan kualitas ke lingkungan Finance Anda untu
 
     ![Terapkan solusi.](./media/13ApplySolutions.png)
 
-5. Pilih kedua solusi, Peta Entitas Penulisan Ganda **Dynamics 365 Finance and Operations** dan Peta Entitas Penulisan Ganda **Dynamics 365 Project Operations**, lalu pilih **Terapkan**.
+5. Pilih kedua solusi, **Dynamics 365 Finance and Operations Peta** Entitas Tulis Ganda dan **Dynamics 365 Project Operations Peta** Entitas Tulis Ganda, lalu pilih **Terapkan**.
 
     ![Konfirmasi Solusi.](./media/14ConfirmSolutions.png)
 

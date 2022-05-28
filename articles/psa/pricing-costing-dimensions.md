@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998465"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593616"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Laman beranda harga dan dimensi biaya
 
@@ -64,18 +65,18 @@ Contoh berikut menunjukkan tarif tagihan yang diatur berdasarkan peran dan unit 
 
 **Tarif tagihan sampel**
 
-| Peran        | Unit Organisasi    |Unit      |Harga      |Mata uang  |
+| Peran        | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
 | ------------|-------------|----------|----------:|----------|
-| Pengembang   | Contoso AS  |Jam | 200|USD     |
-| Pengembang   | Contoso India |Jam|   112|USD     |
+| Pengembang   | Contoso AS  |Hour | 200|USD     |
+| Pengembang   | Aswono India |Hour|   112|USD     |
 
 
 **Sampel tarif biaya**
 
-| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata uang  |
+| Kisaran gaji     | Unit Organisasi    |Unit      |Harga      |Mata Uang  |
 | ----------------|-------------|----------|----------:|----------|
-| Perusahaan saya_Band1 | Contoso AS  |Jam | 145|USD     |
-| Perusahaan saya_Band2 | Contoso India |Jam|   67|USD     |
+| Perusahaan saya_Band1 | Contoso AS  |Hour | 145|USD     |
+| Perusahaan saya_Band2 | Aswono India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
