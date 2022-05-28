@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 37.5, V3
-description: Ini topik mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Perbarui Rilis 37.5, V3.
+description: Topik ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 37.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -15,18 +15,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4bb9a33f72cd98b74a4576bcc2a3760b42b3486
-ms.sourcegitcommit: 6a852ca1e3aacb55d7357cd474d2f07b39381f03
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f36d15bdce7b7b243cf26f6513665c6519bee8fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7816664"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601160"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-375-v3"></a>Yang baru atau diubah di Project Service Automation Rilis Pembaruan 37.5, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
+Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 37.5, V3. Versi ini memiliki nomor pembuatan V3.10.58.130 dan umumnya tersedia melalui pembaruan mandiri pada November 2021.
 
@@ -37,4 +38,4 @@ Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project 
 Masalah berikut telah diperbaiki.
 
 **Manajemen sumber daya**
-- Pemesanan duplikat dibuat saat Anda memperbarui pemesanan yang ada dan **Proporsional dipilih untuk metode Peningkatan jam kerja atau metode Kurangi jam** **·** **kerja**.
+- Pemesanan duplikat dibuat saat Anda memperbarui pemesanan yang ada dan **Proporsional dipilih untuk** metode Tambah jam atau **metode** Kurangi jam.**·**

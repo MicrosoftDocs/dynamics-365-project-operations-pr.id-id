@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323915"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723680"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Apa yang baru di akses awal 2021 gelombang 2 - penyebaran Project Operations lite
 
@@ -26,7 +26,7 @@ Rilis hanya diterapkan bila lingkungan [dipilih ke Akses Awal](/power-platform/a
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 
-[Manajemen subkontrak](../subcontracting/subcontracting_EA_scope.md) - Fitur ini memberikan visibilitas dan kontrol yang lebih baik atas semua aspek pekerjaan pada proyek. Pratinjau manajemen subkontrak mencakup kemampuan berikut:
+[Manajemen subkontrak](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Fitur ini memberikan visibilitas dan kontrol yang lebih baik atas semua aspek pekerjaan pada proyek. Pratinjau manajemen subkontrak mencakup kemampuan berikut:
 
   - Manajer proyek dapat membuat subkontrak dengan vendor. Secara default, daftar harga yang dilampirkan ke rekaman vendor digunakan untuk subkontrak. Akun vendor memiliki jenis relasi **Vendor** atau **Pemasok**.
   - Manajer proyek dapat memerinci semua pembelian sebagai item baris pada subkontrak. Baris subkontrak dapat untuk waktu, pengeluaran, atau produk. Kelas transaksi baris subkontrak menentukan tujuan baris tersebut.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008050"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600884"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Juli 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008050"
 Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
    - Project Operations di lingkungan Microsoft Dataverse versi 4.12.0.148 or 4.12.0.152.
-   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi version 10.0.20.
+   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 

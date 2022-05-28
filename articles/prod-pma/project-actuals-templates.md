@@ -1,32 +1,31 @@
 ---
-title: Mensinkronisasikan aktual proyek secara langsung dari Project Service Automation ke jurnal integrasi proyek untuk posting di Finance and Operations
-description: Topik ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan aktual proyek secara langsung dari Microsoft Dynamics 365 Project Service Automation ke Finance and Operations.
+title: Menyinkronkan aktual proyek langsung dari Otomatisasi Layanan Proyek ke jurnal integrasi proyek untuk diposting di Bidang Keuangan dan Operasi
+description: Ini topik menjelaskan template dan tugas mendasar yang digunakan untuk menyinkronkan aktual proyek langsung dari Microsoft Dynamics 365 Project Service Automation ke Keuangan dan Operasi.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988115"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683542"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Mensinkronisasikan aktual proyek secara langsung dari Project Service Automation ke jurnal integrasi proyek untuk posting di Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Menyinkronkan aktual proyek langsung dari Otomatisasi Layanan Proyek ke jurnal integrasi proyek untuk diposting di Bidang Keuangan dan Operasi
 
 [!include[banner](../includes/banner.md)]
 
-Topik ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan aktual proyek secara langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+Ini topik menjelaskan template dan tugas mendasar yang digunakan untuk menyinkronkan aktual proyek langsung dari Dynamics 365 Project Service Automation Dynamics 365 Finance.
 
 Template akan mensinkronisasi transaksi dari Project Service Automation ke dalam tabel penahapan di Finance. Setelah sinkronisasi selesai, Anda **harus** mengimpor data dari tabel penahapan ke jurnal integrasi.
 
@@ -42,7 +41,7 @@ Solusi integrasi Project Service Automation ke Finance menggunakan fitur integra
 
 Ilustrasi berikut menunjukkan bagaimana data disinkronisasikan antara Project Service Automation dan Finance.
 
-[Aliran data ![ untuk integrasi Project Service Automation dengan Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Aliran data untuk integrasi Otomatisasi Layanan Proyek dengan Keuangan dan Operasi.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Aktual proyek dari Project Service Automation
 
@@ -75,7 +74,7 @@ Sebelum sinkronisasi aktual dapat terjadi, Anda harus mengkonfigurasikan paramet
 
 ### <a name="power-query"></a>Power Query
 
-Di template proyek aktual, anda harus menggunakan Microsoft Power Query untuk Excel untuk menyelesaikan tugas ini:
+Dalam templat aktual proyek, Anda harus menggunakan Microsoft Power Query untuk Excel untuk menyelesaikan tugas-tugas ini:
 
 - Ubah jenis transaksi di Project Service Automation ke jenis transaksi yang benar di Finance. Transformasi ini sudah ditentukan dalam template proyek aktual (PSA ke Fin and Ops).
 - Ubah jenis penagihan di Project Service Automation ke jenis penagihan yang benar di Finance. Transformasi ini sudah ditentukan dalam template proyek aktual (PSA ke Fin and Ops). Jenis penagihan kemudian dipetakan ke properti baris, berdasarkan konfigurasi pada halaman **parameter integrasi Project Service Automation**.
@@ -84,9 +83,9 @@ Di template proyek aktual, anda harus menggunakan Microsoft Power Query untuk Ex
 - Jika aktual waktu antarperusahaan atau pengeluaran antar perusahaan tidak akan disinkronisasikan ke Finance, Anda harus menghapus kolom kondisional terakhir yang disisipkan dari template Anda. Jika tidak, kesalahan integrasi mungkin terjadi, atau transaksi aktual yang salah dapat diimpor ke Finance.
 
 #### <a name="contract-organizational-unit"></a>Unit organisasi kontrak
-Untuk memperbarui kolom kondisional yang disisipkan dalam template, klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter** untuk membuka Power query.
+Untuk memperbarui kolom kondisional yang disisipkan dalam template, klik panah **peta** untuk membuka pemetaan. **Pilih tautan Kueri dan Pemfilteran** Tingkat Lanjut untuk dibuka Power Query.
 
-- Jika anda menggunakan template default proyek aktual (PSA ke Fin and Ops), di Power Query, pilih **kondisi dimasukkan** terakhir dari bagian **langkah yang diterapkan**. Di entri **fungsi**, ganti **USSI** dengan nama entitas hukum yang harus digunakan dengan integrasi. Tambahkan kondisi tambahan ke entri **fungsi** sesuai kebutuhan Anda, dan perbarui kondisi **else** dari **usmf** ke entitas hukum yang benar.
+- Jika Anda menggunakan templat Project actuals (PSA to Fin and Ops) default, di Power Query, pilih Kondisi **Yang Disisipkan terakhir** dari **bagian Langkah** yang Diterapkan. Di entri **fungsi**, ganti **USSI** dengan nama entitas hukum yang harus digunakan dengan integrasi. Tambahkan kondisi tambahan ke entri **fungsi** sesuai kebutuhan Anda, dan perbarui kondisi **else** dari **usmf** ke entitas hukum yang benar.
 - Jika Anda membuat template baru, Anda harus menambahkan kolom untuk mendukung waktu dan pengeluaran antarperusahaan. Pilih **Tambah kolom kondisional**, dan masukkan nama untuk kolom, misalnya **LegalEntity**. Masukkan kondisi untuk kolom, di mana, jika **msdyn\_contractorganizationalunitid.msdyn\_name** adalah \<organizational unit\>, maka \<enter the legal entity\>; jika tidak maka null.
 
 ### <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
@@ -126,7 +125,7 @@ Aktual proyek dikelola dalam Project Service Automation, dan disinkronisasi ke j
 
 ### <a name="power-query"></a>Power Query
 
-Di template pembaruan aktual proyek, anda harus menggunakan Power Query untuk menyelesaikan tugas ini:
+Dalam template pembaruan aktual proyek, Anda harus menggunakan Power Query untuk menyelesaikan tugas-tugas ini:
 
 - Ubah jenis transaksi di Finance ke jenis transaksi yang benar di Project Service Automation. Transformasi ini sudah ditentukan dalam template pembaruan aktual proyek (Fin Ops ke PSA).
 - Ubah jenis penagihan di Finance ke jenis penagihan yang benar di Project Service Automation. Transformasi ini sudah ditentukan dalam template pembaruan aktual proyek (Fin Ops ke PSA).

@@ -5,28 +5,29 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563026"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612707"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Memesan bahan yang tidak memiliki persediaan untuk proyek menggunakan pesanan pembelian proyek
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Memesan kategori pengadaan atau bahan yang tidak ditebar untuk proyek menggunakan pesanan pembelian proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Departemen Pengadaan di organisasi Anda dapat menggunakan [pesanan pembelian](/dynamics365/supply-chain/procurement/purchase-order-overview) untuk melacak pesanan barang dan jasa. Pesanan pembelian untuk materi non-persediaan dapat dikaitkan ke proyek. Membuat faktur pesanan pembelian ini akan merekam biaya proyek.
+Departemen Pengadaan di organisasi Anda dapat menggunakan [pesanan pembelian](/dynamics365/supply-chain/procurement/purchase-order-overview) untuk melacak pesanan barang dan jasa. Pesanan pembelian untuk kategori pengadaan atau bahan non-stok dapat dikaitkan dengan proyek. Membuat faktur pesanan pembelian ini akan merekam biaya proyek.
 
 ## <a name="prerequisites"></a>Prasyarat
 Selesaikan langkah-langkah berikut untuk mengaktifkan fungsi pesanan pembelian proyek.
 
-1. Di Dynamics 365 Finance, buka ruang kerja **manajemen fitur**.
+1. Di Dynamics 365 Finance, buka **ruang kerja Manajemen** Fitur.
 2. Dalam daftar fitur, cari dan pilih fitur, **Aktifkan pesanan pembelian proyek pada Project Operations untuk skenario berbasis sumber daya/non-persediaan**.
 3. Klik **Aktifkan**.
 4. Konfigurasikan bahan yang tidak ada stok dan faktur vendor tertunda seperti dijelaskan dalam [Konfigurasikan bahan tanpa persediaan dan faktur vendor tertunda](configure-materials-nonstocked.md).
+5. Konfigurasikan kategori pengadaan seperti yang dijelaskan dalam [Gunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor yang tertunda](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Membuat pesanan pembelian proyek dari daftar pesanan pembelian proyek
 
@@ -34,12 +35,12 @@ Selesaikan langkah-langkah berikut untuk mengaktifkan fungsi pesanan pembelian p
 2. Pada Panel Tindakan, pada tab **Kelola**, di grup **Baru**, pilih **Tugas item** > **Pesanan pembelian**.
 3. Pada halaman **Buat pesanan pembelian**, pilih vendor yang akan melakukan pemesanan pembelian, masukkan informasi lain bila diperlukan, lalu pilih **OK**.
 4. Pada halaman **Pesanan pembelian**, di kisi **Baris pesanan Pembelian**, pilih **Tambah baris**.
-5. Masukkan nomor item, kuantitas, unit, harga unit, dan informasi lainnya jika diperlukan.
+5. Masukkan nomor item atau kategori pengadaan, kuantitas, unit, harga satuan, dan informasi lainnya yang sesuai.
 
     > [!NOTE]
-    > Hanya item dan layanan non-stok yang dapat digunakan dengan pesanan pembelian proyek. Item persediaan dan kategori pengadaan tidak didukung.
+    > Hanya kategori pengadaan, barang yang tidak terisi, dan layanan yang dapat digunakan dengan pesanan pembelian proyek. Item yang ditebar tidak didukung.
 
-6. Lanjutkan untuk menambahkan item sebagaimana diperlukan dan konfirmasikan pesanan pembelian.
+6. Lanjutkan untuk menambahkan item atau kategori pengadaan sesuai kebutuhan, dan konfirmasi pesanan pembelian.
 
     Penerimaan barang dan layanan dapat direkam dengan membuat dan memposting tanda terima produk.
 

@@ -3,25 +3,23 @@ title: Ikhtisar manajemen proyek dan akuntansi
 description: Fungsi manajemen proyek dan akuntansi dapat digunakan di beberapa industri untuk menyediakan layanan, menghasilkan produk, atau mencapai hasil.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007510"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683588"
 ---
 # <a name="project-management-and-accounting-overview"></a>Ikhtisar manajemen proyek dan akuntansi
 
@@ -248,7 +246,7 @@ Tabel berikut menjelaskan metode untuk menghitung biaya untuk menyelesaikan proy
 <tbody>
 <tr class="odd">
 <td>Biaya total – Aktual</td>
-<td>Perkiraan biaya harus dimasukkan secara manual. Setelah kolom <strong>total biaya</strong> atau <strong>jumlah Total</strong> pada halaman <strong>perkiraan biaya</strong> selesai, biaya sebenarnya dikurangi dari total yang dimasukkan pengguna. Hasilnya adalah biaya untuk menyelesaikan proyek. Biasanya, progres biaya tidak dilacak berdasarkan, misalnya, jumlah menginap di Hotel dan makanan yang dicatat di setiap periode. Sebaliknya. Pelacakan biasanya didasarkan pada perbandingan dengan jumlah total perkiraan jam. Pendekatan ini tidak memerlukan model ramalan, dan total biaya atau kuantitas Total dapat diubah secara manual. Bila nilai dimasukkan dalam kolom <strong>total biaya</strong> atau <strong>jumlah Total</strong>, Finance membandingkan nilai ini dengan transaksi aktual yang diposting dalam periode, lalu mengurangi nilai dalam kolom <strong>kuantitas untuk menyelesaikan</strong> atau <strong>biaya untuk menyelesaikan</strong>.</td>
+<td>Perkiraan biaya harus dimasukkan secara manual. Setelah kolom <strong>total biaya</strong> atau <strong>jumlah Total</strong> pada halaman <strong>perkiraan biaya</strong> selesai, biaya sebenarnya dikurangi dari total yang dimasukkan pengguna. Hasilnya adalah biaya untuk menyelesaikan proyek. Biasanya, kemajuan biaya tidak&#39; dilacak berdasarkan, misalnya, jumlah menginap di hotel dan makanan yang dicatat dalam setiap periode. Sebaliknya. Pelacakan biasanya didasarkan pada perbandingan dengan jumlah total perkiraan jam. Pendekatan ini tidak&#39; memerlukan model perkiraan, dan total biaya atau jumlah total dapat diubah secara manual. Bila nilai dimasukkan dalam kolom <strong>total biaya</strong> atau <strong>jumlah Total</strong>, Finance membandingkan nilai ini dengan transaksi aktual yang diposting dalam periode, lalu mengurangi nilai dalam kolom <strong>kuantitas untuk menyelesaikan</strong> atau <strong>biaya untuk menyelesaikan</strong>.</td>
 </tr>
 <tr class="even">
 <td>Total anggaran – aktual</td>

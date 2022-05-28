@@ -1,46 +1,42 @@
 ---
-title: Beli bahan non-stok dengan faktur vendor tertunda
+title: Membeli materi yang tidak ditebar atau kategori pengadaan menggunakan faktur vendor yang tertunda
 description: Laporan topik menjelaskan cara mencatat faktur vendor yang tertunda.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547293"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612661"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Beli bahan non-stok dengan faktur vendor tertunda
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Membeli materi yang tidak ditebar atau kategori pengadaan menggunakan faktur vendor yang tertunda
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Sebagai perusahaan yang mendapatkan bahan non-stok untuk proyek, biayanya dapat dengan segera dicatat terhadap proyek. 
+Sebagai perusahaan pengadaan bahan non-stocked atau kategori pengadaan untuk proyek, biaya dapat segera dicatat terhadap proyek. 
 
-Contohnya, Contoso Robotics US melakukan proyek pembaruan perlengkapan dan memerlukan lisensi perangkat lunak. Lisensi ini diperoleh dari vendor pihak ketiga.  Menggunakan Dynamics 365 Finance, petugas utang dagang mencatat dokumen faktur vendor yang tertunda dan mengaitkan biaya lisensi secara langsung terhadap proyek pembaruan perlengkapan. 
+Contohnya, Contoso Robotics US melakukan proyek pembaruan perlengkapan dan memerlukan lisensi perangkat lunak. Lisensi ini diperoleh dari vendor pihak ketiga.  Dengan menggunakan Dynamics 365 Finance, petugas hutang Akun mencatat dokumen faktur vendor yang tertunda dan mengaitkan biaya lisensi secara langsung terhadap proyek perpanjangan peralatan. 
 
 > [!IMPORTANT]
-> Sebelum Anda menggunakan fungsi yang dijelaskan di topik ini, lihat dan terapkan konfigurasi yang diperlukan. Untuk informasi lebih lanjut, lihat [Mengaktifkan materi non-stok dan faktur vendor yang tertunda](configure-materials-nonstocked.md). 
+> Sebelum Anda menggunakan fungsi yang dijelaskan di topik ini, lihat dan terapkan konfigurasi yang diperlukan. Untuk informasi selengkapnya, lihat [Mengaktifkan materi yang tidak ditebar dan faktur vendor](configure-materials-nonstocked.md) yang tertunda serta [Menggunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor yang tertunda](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Posting faktur vendor tertunda terkait proyek 
 
 Faktur vendor yang tertunda dapat direkam pada halaman **faktur vendor tertunda** (**utang dagang** > **Faktur** > **Faktur vendor tertunda**). Selesaikan langkah-langkah berikut untuk memposting faktur vendor tertunda terkait proyek:
 
-1. Buka **utang dagang** > **Faktur**, lalu pilih **Baru**. 
-2. Pada bidang **Akun faktur**, pilih vendor dan pada bidang **Nomor**, masukkan identifikasi faktur vendor.
-3. Tambahkan baris ke faktur vendor dan di bidang **Nomor Item**, pilih item non-stok yang dibeli dari vendor. 
-
-    > [!NOTE]
-    > Baris faktur vendor yang didasarkan pada kategori pengadaan tidak dapat dicatat terhadap proyek. 
-    
-5. Tambahkan kuantitas yang dibeli. Sistem akan mengisi harga per unit berdasarkan konfigurasi harga item yang tidak distok. 
-6. Verifikasikan jumlah total dan rincian lainnya yang diperlukan di baris.
-7. Pada detail baris, pada tab **Proyek**, pilih ID proyek untuk mencatat item ini.
-8. Atau pilih nomor aktivitas, lalu perbarui kategori proyek dan properti baris.
-9. Posting faktur vendor yang tertunda. Saat faktur diposting, sistem mencatat:
+1. **Buka Faktur** > **Hutang** Akun, dan pilih **Baru**. 
+1. **Di bidang Akun faktur**, pilih vendor, lalu, di **bidang Nomor**, masukkan identifikasi faktur vendor.
+1. Tambahkan baris ke faktur vendor, lalu, di **bidang Nomor** item, pilih item yang tidak ditebar yang dibeli dari vendor. Atau, di **bidang kategori** Pengadaan, pilih kategori pengadaan yang dibeli dari vendor.   
+1. Tambahkan jumlah yang dibeli. Sistem mengisi harga satuan, berdasarkan konfigurasi harga barang yang tidak terisi. 
+1. Verifikasikan jumlah total dan rincian lainnya yang diperlukan di baris.
+1. Di detail baris, pada **tab Proyek**, pilih ID proyek tempat item ini akan direkam.
+1. Opsional: Pilih nomor aktivitas, dan perbarui kategori proyek dan properti baris.
+1. Posting faktur vendor yang tertunda. Saat faktur diposting, sistem mencatat informasi berikut:
     
     - Jumlah saldo vendor.
     - Jumlah Pajak Penjualan.

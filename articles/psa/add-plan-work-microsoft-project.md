@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005305"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727962"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Menggunakan Add-in Project Service Automation untuk merencanakan pekerjaan Anda di Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005305"
 ## <a name="download-and-install-the-add-in"></a>Men-download dan menginstal pengaya  
  Siapkan informasi masuk [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] Anda. Anda akan memerlukan informasi ini untuk menghubungkan dari [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Dari pusat Unduhan, unduh add-in untuk versi project service yang didukung, baik [v2.X](https://go.microsoft.com/fwlink/?linkid=828268) atau [v3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Dari pusat Unduhan, unduh add-in untuk versi project service yang didukung, baik [v2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) atau [v3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Klik tautan download.  
 
@@ -87,9 +88,8 @@ Setelah perencanaan proyek Anda selesai, langkah berikutnya adalah untuk mengimp
 
 Proyek akan diimpor ke [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Harga dan proses pembuatan tim diterapkan. Buka proyek di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] untuk melihat bahwa tim, estimasi proyek, dan struktur rincian kerja telah dihasilkan. Tabel berikut menunjukkan lokasi untuk mencari hasil:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Detail |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagram Gantt**   | Impor ke layar **struktur rincian kerja** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | **Lembar sumber daya** [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] |   Impor ke layar **anggota tim proyek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].   |
 |   **Menggunakan penggunaan** [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Impor ke layar **Estimasi Proyek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |

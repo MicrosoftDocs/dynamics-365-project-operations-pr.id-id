@@ -1,24 +1,23 @@
 ---
 title: Pemrosesan tanda terima pengeluaran
-description: Topik ini menyediakan informasi tentang pemrosesan pengenalan karakter optik (OCR) untuk tanda terima. Fitur ini dirancang untuk meningkatkan pengalaman pengguna saat membuat laporan pengeluaran di Microsoft Dynamics 365 Finance.
+description: Topik ini menyediakan informasi tentang pemrosesan pengenalan karakter optik (OCR) untuk tanda terima. Fitur ini dirancang untuk meningkatkan pengalaman pengguna saat laporan pengeluaran dibuat di Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001390"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684324"
 ---
 # <a name="expense-receipt-processing"></a>Pemrosesan tanda terima pengeluaran
 
@@ -51,7 +50,7 @@ Untuk membuat pengeluaran, atau mencocokkan pengeluaran dari tanda terima, lakuk
 
 Fitur ini bekerja sama dengan fitur **Konsep baru laporan pengeluaran** untuk membantu menyederhanakan pengalaman pengeluaran. Fitur ini hanya tersedia untuk lingkungan tingkat 2 +, yakni Sandbox dan produksi.
 
-Untuk menggunakan kemampuan pengeluaran tingkat lanjut ini, instal Add-in Layanan Manajemen pengeluaran untuk Microsoft Dynamics 365 Finance, dan Aktifkan fitur tersebut dalam instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
+Untuk menggunakan kemampuan biaya lanjutan ini, instal add-in Layanan Manajemen Pengeluaran untuk Microsoft Dynamics 365 Finance, dan aktifkan fitur dalam instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Masuk ke LCS, dan buka lingkungan yang diinginkan.
 2. Buka **rincian lengkap**.

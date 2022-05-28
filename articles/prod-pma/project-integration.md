@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988025"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684968"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasi Microsoft Project client
 
 [!include [banner](../includes/banner.md)]
 
-Merencanakan dan memelihara jadwal proyek dapat menjadi rumit, sehingga manajer proyek harus menggunakan alat bantu yang membantu mereka mengelola tugas ini. Integrasi dengan Microsoft Project Client memberikan dukungan untuk membuka dan mengelola struktur rincian kerja proyek. Manajer proyek dapat mempublikasikan perubahan apa pun kembali ke struktur rincian kerja proyek Dynamics 365 Finance.
+Merencanakan dan memelihara jadwal proyek dapat menjadi rumit, sehingga manajer proyek harus menggunakan alat bantu yang membantu mereka mengelola tugas ini. Integrasi dengan Microsoft Project Client memberikan dukungan untuk membuka dan mengelola struktur rincian kerja proyek. Manajer proyek dapat mempublikasikan perubahan apa pun kembali ke struktur rincian pekerjaan proyek Dynamics 365 Finance.
 
 > [!NOTE]
 > Jika Anda menggunakan Pembaruan bulan Juli (versi 10.0.4), Anda harus menginstal KB 4054797 dan 4055884.
@@ -40,7 +39,7 @@ Untuk mengaktifkan integrasi dengan Microsoft Project Client, Add-in Microsoft D
 •   Klik **buka**, lalu klik **Jalankan** saat diminta.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Membuka dan mengedit struktur rincian kerja konsep yang ada di Microsoft Project Client
-Jika proyek di Dynamics 365 Finance sudah memiliki struktur rincian kerja yang dibuat, struktur rincian kerja dapat dibuka di aplikasi Microsoft Project Client jika struktur rincian kerja berada dalam status draf. Untuk membuka dari halaman **proyek**, klik tautan **buka di Microsoft Project** dari tab **Paket**. Halaman ini juga dapat dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik tab **buka** di **Microsoft Dynamics 365.** Pilih **entitas hukum** dan **proyek** dari daftar.
+Jika proyek di Dynamics 365 Finance sudah memiliki struktur perincian kerja yang dibuat, struktur perincian kerja dapat dibuka di aplikasi Microsoft Project Client jika struktur perincian kerja berada dalam status draf. Untuk membuka dari halaman **proyek**, klik tautan **buka di Microsoft Project** dari tab **Paket**. Halaman ini juga dapat dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik tab **buka** di **Microsoft Dynamics 365.** Pilih **entitas hukum** dan **proyek** dari daftar.
 
 > [!NOTE]
 > Jika Anda menggunakan Internet Explorer sebagai browser, Anda harus mengklik **Simpan** untuk membuka secara manual dari lokasi yang akan diunduh file-nya. Atau, klik **Simpan dan buka** untuk membuka file di Microsoft Project Client. Jangan Namai ulang file saat menyimpan.

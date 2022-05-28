@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007330"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684876"
 ---
 # <a name="project-resourcing-home-page"></a>Laman beranda sumber daya proyek
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007330"
 
 Topik ini menyediakan informasi tentang penentuan sumber daya proyek.
 
-Satu tantangan untuk manajer proyek dan manajer sumber daya selama tahap perencanaan proyek adalah alokasi sumber daya, di mana mereka harus menentukan dan mencadangkan sumber daya yang benar untuk mengerjakan proyek. Di Dynamics 365 Finance, kemampuan sumber daya untuk proyek memungkinkan Anda menentukan peran yang dianggap sebagai sumber daya sementara yang dapat dicadangkan untuk keterlibatan atau bagian keterlibatan tertentu. Jenis penentuan sumber daya ini memungkinkan manajer dan manajer proyek menyelesaikan tugas berikut:
+Satu tantangan untuk manajer proyek dan manajer sumber daya selama tahap perencanaan proyek adalah alokasi sumber daya, di mana mereka harus menentukan dan mencadangkan sumber daya yang benar untuk mengerjakan proyek. Dalam Dynamics 365 Finance, kemampuan sumber daya untuk proyek memungkinkan Anda menentukan peran yang diperlakukan sebagai sumber daya sementara yang dapat disediakan untuk keterlibatan tertentu atau bagian dari keterlibatan. Jenis penentuan sumber daya ini memungkinkan manajer dan manajer proyek menyelesaikan tugas berikut:
 
 - Menentukan peran yang memiliki kompetensi yang diperlukan, sehingga mudah untuk mencocokkan sumber daya.
 - menggunakan peran untuk menentukan jadwal keterlibatan awal yang didasarkan pada sumber daya cadangan.
