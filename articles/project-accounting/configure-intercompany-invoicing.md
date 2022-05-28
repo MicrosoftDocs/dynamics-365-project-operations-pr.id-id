@@ -4,14 +4,14 @@ description: Topik ini berisi informasi dan contoh tentang cara mengonfigurasi f
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994055"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591592"
 ---
 # <a name="configure-intercompany-invoicing"></a>Mengonfigurasikan faktur antarperusahaan
 
@@ -21,11 +21,11 @@ Lakukan langkah-langkah berikut untuk menyiapkan faktur antarperusahaan untuk pr
 
 ## <a name="example-configure-intercompany-invoicing"></a>Contoh: Mengonfigurasikan faktur antarperusahaan
 
-Pada contoh berikut, Contoso Robotics USA (USPM) adalah entitas hukum peminjam dan Contoso Robotics UK (GBPM) adalah entitas hukum pemberi kredit. 
+Pada contoh berikut, Contoso Robotics USA (USPM) adalah entitas hukum yang meminjam dan Contoso Robotics UK (GBPM) adalah entitas hukum pemberi pinjaman. 
 
 1. **Konfigurasikan akuntansi antarperusahaan di antara beberapa entitas hukum**. Setiap pasangan entitas hukum peminjam dan pemberi pinjaman harus dikonfigurasi pada halaman [Akuntansi antarperusahaan](/dynamics365/finance/general-ledger/intercompany-accounting-setup) buku besar.
     
-    1. Di Dynamics 365 Finance, buka **Buku Besar** > **Pengaturan posting** > **Akuntansi antarperusahaan**. Buat record dengan informasi berikut:
+    1. Di Dynamics 365 Finance, buka **Pengaturan** > **Posting Buku Besar** > **Umum Akuntansi antar perusahaan**. Buat record dengan informasi berikut:
 
         - **Perusahaan asal** = **GBPM**
         - **Perusahaan tujuan** = **USPM**
@@ -35,13 +35,13 @@ Pada contoh berikut, Contoso Robotics USA (USPM) adalah entitas hukum peminjam d
      1. Di Keuangan, pilih entitas hukum **GBPM**.
      2. Buka **Piutang dagang** > **Pelanggan** > **Semua pelanggan**. Buat catatan baru untuk entitas hukum, **USPM**.
      3. Perluas **Nama**, filter record berdasarkan **Jenis**, lalu pilih **Entitas hukum**. 
-     4. Cari dan pilih rekaman pelanggan untuk **Contoso Robotics USA (USPM)**.
+     4. Cari dan pilih record pelanggan untuk **Contoso Robotics USA (USPM)**.
      5. Pilih **Gunakan pencocokan**. 
      6. Pilih grup pelanggan **50 - Pelanggan antarperusahaan**, lalu simpan rekaman.
      7. Pilih entitas hukum **USPM**.
      8. Buka **Utang dagang** > **Vendor** > **Semua vendor**. Buat record baru untuk entitas hukum, **GBPM**.
      9. Perluas **Nama**, filter record berdasarkan **Jenis**, lalu pilih **Entitas hukum**. 
-     10. Cari dan pilih rekaman pelanggan untuk **Contoso Robotics UK (GBPM)**.
+     10. Cari dan pilih record pelanggan untuk **Contoso Robotics UK (GBPM)**.
      11. Pilih **Gunakan pencocokan**, pilih grup vendor, lalu simpan record.
      12. Di record vendor, pilih **Umum** > **Konfigurasi** > **Antarperusahaan**.
      13. Di tab **Hubungan dagang**, atur **Aktif** ke **Ya**.
@@ -80,19 +80,19 @@ Pada contoh berikut, Contoso Robotics USA (USPM) adalah entitas hukum peminjam d
 
 5. **Konfigurasikan harga transfer untuk tenaga kerja**. Harga transfer antarperusahaan dikonfigurasi di Project Operations pada Dataverse. Konfigurasikan [tingkat biaya tenaga kerja](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) dan [tingkat tagihan tenaga kerja](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) untuk faktur antarperusahaan. Harga transfer tidak didukung untuk transaksi pengeluaran antarperusahaan. Harga jual unit antarorganisasi akan selalu diatur ke nilai yang sama dengan harga biaya unit sumber daya.
 
-      Biaya sumber daya pengembang di Contoso Robotics UK adalah 88 GBP per jam. Contoso Robotics UK akan menagih Contoso Robotics USA 120 USD untuk setiap jam sumber dayanya yang mengerjakan proyek AS. Contoso Robotics USA akan menagih pelanggan Adventure Works 200 USD untuk pekerjaan yang dilakukan oleh sumber daya pengembang Contoso Robotics UK.
+      Biaya sumber daya pengembang di Contoso Robotics UK adalah 88 GBP per jam. Contoso Robotics UK akan menagih Contoso Robotics USA sebesar 120 USD untuk setiap jam bekerja sumber daya ini di proyek AS. Contoso Robotics USA akan menagih Adventure Works pelanggan sebesar 200 USD untuk pekerjaan yang dilakukan oleh sumber daya pengembang Contoso Robotics UK.
 
-      1. Di Project Operations pada Dataverse, buka **Penjualan** > **Daftar harga**. Buat daftar harga biaya baru yang disebut **Harga Biaya Contoso Robotics UK.** 
+      1. Di Project Operations pada Dataverse, buka **Penjualan** > **Daftar harga**. Buat daftar harga biaya baru yang disebut **Tarif biaya Contoso Robotics UK.** 
       2. Di daftar harga biaya, buat record dengan informasi berikut:
          - **Peran** = **Pengembang**
          - **Biaya** = **88 GBP**
-      3. Buka **Pengaturan** > **unit Organisasional** dan lampirkan daftar harga biaya ini ke unit organisasional **Contoso Robotics UK**.
-      4. Buka **Penjualan** > **Daftar harga**. Buat daftar harga biaya yang disebut **Harga Biaya Contoso Robotics USA**. 
+      3. Buka **Pengaturan** > **Unit organisasi** dan lampirkan daftar harga biaya ke unit organisasi **Contoso Robotics UK**.
+      4. Buka **Penjualan** > **Daftar harga**. Buat daftar harga biaya yang disebut **Tarif biaya Contoso Robotics USA**. 
       5. Di daftar harga biaya, buat record dengan informasi berikut:
           - **Peran** = **Pengembang**
           - **Perusahaan sumber daya** = **Contoso Robotics UK**
           - **Biaya** = **120 USD**
-      6. Buka **Pengaturan** > **unit Organisasional** dan lampirkan daftar harga biaya **tarif biaya Contoso Robotics USA** ke unit organisasi **Contoso Robotics USA**.
+      6. Buka **Pengaturan** > **Unit organisasi** dan lampirkan daftar harga biaya **tarif biaya Contoso Robotics UK** ke unit organisasi **Contoso Robotics USA**.
       7. Buka **Penjualan** > **Daftar harga**. Buat daftar harga penjualan yang disebut **Tarif tagihan Adventure Works**. 
       8. Di daftar harga penjualan, buat record dengan informasi berikut:
           - **Peran** = **Pengembang**

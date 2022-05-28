@@ -4,14 +4,14 @@ description: Topik ini menyediakan informasi tentang pengaturan kategori proyek.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997115"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591546"
 ---
 # <a name="configure-project-categories"></a>Mengonfigurasikan kategori proyek
 
@@ -27,7 +27,7 @@ Kategori transaksi adalah pengelompokan dasar untuk transaksi proyek. Dalam peng
 
 ## <a name="transaction-categories"></a>Kategori Transaksi
 
-Kategori transaksi mewakili pengelompokan dasar untuk transaksi proyek dan bukan spesifik perusahaan atau jenis transaksi. Misalnya, Contoso Robotics menggunakan kategori Desain, Perjalanan, Penginstalan, dan Transaksi Layanan untuk mengelompokkan transaksi Proyek.
+Kategori transaksi mewakili pengelompokan dasar untuk transaksi proyek dan bukan spesifik perusahaan atau jenis transaksi. Misalnya, Aswono Robotics menggunakan kategori Desain, perjalanan, penginstalan, dan transaksi layanan untuk mengelompokkan transaksi proyek.
 
 Kategori transaksi ditentukan dalam modul Project Operations. 
 1. Buka **pengaturan** \> **Kategori Transaksi** untuk membuka formulir. 

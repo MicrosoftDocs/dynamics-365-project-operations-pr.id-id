@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005125"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590166"
 ---
 # <a name="multiple-currency-scenarios"></a>Skenario beberapa mata uang
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 memiliki dua konsep mata uang:
 - **Mata uang transaksi** - mata uang terjadinya transaksi. 
 - **Mata uang dasar** - mata uang dari instans Dynamics 365. Mata uang ini diatur saat instans Dynamics 365 ditetapkan. Ini tidak dapat diubah.
 
-Misalnya, Contoso AS menjual 100 t-shirt kepada pelanggan di Inggris seharga 15 ponsterling (GBP) masing-masing. Tabel berikut ini menunjukkan cara transaksi ini dicatat dalam entitas produk pesanan.
+Misalnya, Aswono AS menjual 100 t-shirt kepada pelanggan di Inggris seharga 15 ponsterling (GBP) masing-masing. Tabel berikut ini menunjukkan cara transaksi ini dicatat dalam entitas produk pesanan.
 
 | Produk | Kuantitas | Harga per unit | Mata Uang | Jumlah | Kurs | Harga Per Unit (Dasar)| Jumlah (Dasar)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +67,14 @@ PSA memperluas konsep mata uang transaksi untuk biaya dan penjualan dengan cara 
 
 ## <a name="multiple-currency-scenario"></a>Skenario beberapa mata uang
 
-Bagian ini menjelaskan contoh proyek yang disediakan Contoso Inggris untuk pelanggan yang dinamai fabrikam, Jepang. Berikut adalah cara mengkonfigurasi skenario:
+Bagian ini menjelaskan contoh proyek yang disediakan Aswono UK untuk pelanggan yang dinamai fabrikam, Jepang. Berikut adalah cara mengkonfigurasi skenario:
 
 1. GBP dan Yen Jepang (JPY) diatur dalam **pengaturan** \> **manajemen bisnis** \> **mata uang**. 
 2. Akun pelanggan yang dinamai **fabrikam-Japan** diatur, dan JPY dipilih sebagai mata uang pada akun.
-3. Unit organisasi yang bernama **Contoso UK** diatur, dan GBP dipilih sebagai mata uang.
-4. Kontrak proyek dibuat, dengan **Contoso Inggris** ditetapkan sebagai unit kontrak dan **Fabrikam – Jepang** ditetapkan sebagai pelanggan.
+3. Unit organisasi yang bernama **Aswono UK** diatur, dan GBP dipilih sebagai mata uang.
+4. Kontrak proyek dibuat, dengan **Aswono UK** ditetapkan sebagai unit kontrak dan **fabrikam – Jepang** ditetapkan sebagai pelanggan.
 5. Baris kontrak proyek dibuat berdasarkan pengaturan penagihan untuk berbagai kelas transaksi pada proyek, seperti penagihan untuk waktu versus penagihan biaya.
-6. Proyek dibuat dengan **Contoso Inggris** ditetapkan sebagai unit kontrak. Proyek ini dibuat dan dipetakan ke baris kontrak proyek.
+6. Proyek dibuat dengan **Aswono UK** ditetapkan sebagai unit kontrak. Proyek ini dibuat dan dipetakan ke baris kontrak proyek.
 
 
 Selama estimasi yang menggunakan detail baris kuotasi, detail baris kontrak proyek, atau pada baris perkiraan jadwal, dua rekaman selalu dibuat di entitas. Satu rekaman adalah untuk biaya, dan rekaman lainnya adalah untuk penjualan.

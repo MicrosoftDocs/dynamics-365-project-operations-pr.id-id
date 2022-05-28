@@ -1,5 +1,5 @@
 ---
-title: Unit Organisasi
+title: Unit organisasi tingkat lanjut
 description: Topik ini menyediakan informasi tentang unit organisasi di Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005080"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589430"
 ---
-# <a name="organizational-units"></a>Unit Organisasi 
+# <a name="about-organizational-units"></a>Tentang unit organisasi 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -77,14 +78,14 @@ Bila Anda menerapkan Dynamics 365, Optimalkan otorisasi keamanan untuk hierarki 
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Contoh unit organisasi dan unit bisnis
 
-Contoso, Ltd. memiliki praktik Teknologi Microsoft yang berkembang. Panji dan Nirmala adalah pengembang C\#, namun Nirmala berada di Amerika Serikat, sedangkan Panji berada di India. Sebagian besar keterlibatan proyek memerlukan sumber daya dari Contoso India dan Contoso AS, dan Panji serta Nirmala memerlukan tingkat keamanan akses yang sama ke proyek di area praktik ini. Namun, biaya pengembang dari Contoso India berbeda secara signifikan dari biaya pengembang dari Contoso AS.
+Aswono, Ltd. memiliki praktik Teknologi Microsoft yang berkembang. Panji dan Nirmala adalah pengembang C\#, namun Nirmala berada di Amerika Serikat, sedangkan Panji berada di India. Sebagian besar keterlibatan proyek memerlukan sumber daya dari Aswono India dan Aswono US, dan Panji serta Nirmala memerlukan tingkat keamanan akses yang sama ke proyek di area praktik ini. Namun, biaya pengembang dari Aswono India berbeda secara signifikan dari biaya pengembang dari Aswono US.
 
 Berikut adalah cara optimal untuk merancang skenario ini menggunakan Dynamics 365 dan PSA.
 
 1. Buat praktik Teknologi Microsoft sebagai unit bisnis, dan kaitkan Panji dan Nirmala dengannya. Dengan cara ini, Anda membantu menjamin bahwa karyawan memiliki tingkat keamanan akses yang sama ke setiap proyek di area praktik tersebut. Mereka berdua akan dapat memeriksa kemajuan dan waktu laporan, pengeluaran, dan pembaruan tugas. 
 2. Buat dua unit organisasi untuk membantu menjamin bahwa biaya untuk proyek tercermin dengan benar. 
-3. Kaitkan Nirmala dengan Contoso AS dan kaitkan Panji dengan Contoso India.
-4. Tetapkan daftar harga biaya yang sesuai ke kedua unit organisasi. Dengan dengan cara ini, Anda membantu menjamin bahwa biaya yang tercatat pada proyek untuk Panji dan Nirmala secara akurat mencerminkan selisih biaya antara Contoso AS dan Contoso India.
+3. Kaitkan Nirmala dengan Aswono US dan kaitkan Panji dengan Aswono India.
+4. Tetapkan daftar harga biaya yang sesuai ke kedua unit organisasi. Dengan dengan cara ini, Anda membantu menjamin bahwa biaya yang tercatat pada proyek untuk Panji dan Nirmala secara akurat mencerminkan selisih biaya antara Aswono US dan Aswono India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Apakah unit organisasi terkait dengan wilayah penjualan di Dynamics 365?
 
@@ -94,11 +95,11 @@ Unit organisasi adalah grup internal atau divisi di perusahaan yang melacak biay
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Contoh unit organisasi dan unit bisnis dan wilayah penjualan
 
-Contoso, Ltd memiliki dua pusat pengembangan: Contoso AS dan Contoso India. Biaya sumber daya sangat berbeda antara dua pusat pengembangan ini.
+Aswono, Ltd memiliki dua pusat pengembangan: Aswono US dan Aswono India. Biaya sumber daya sangat berbeda antara dua pusat pengembangan ini.
 
-Contoso menjual layanan TI di banyak pasar internasional, seperti Amerika Latin, Amerika Utara, Asia-Pasifik, Eropa Barat, dan Timur Tengah. Tarif tagihan untuk peran proyek yang sama dapat berbeda secara luas di pasar ini.
+Aswono menjual layanan TI di banyak pasar internasional, seperti Amerika Latin, Amerika Utara, Asia-Pasifik, Eropa Barat, dan Timur Tengah. Tarif tagihan untuk peran proyek yang sama dapat berbeda secara luas di pasar ini.
 
-Contoso AS dan Contoso India harus diatur sebagai unit organisasi, dan setiap unit organisasi harus memiliki daftar harga biaya sendiri. Asia-Pasifik, Amerika Latin, Amerika Utara, Eropa Barat, dan Timur Tengah harus disiapkan sebagai wilayah penjualan, dan masing-masing wilayah penjualan harus memiliki daftar harga penjualan sendiri.
+Aswono AS dan Aswono India harus diatur sebagai unit organisasi, dan setiap unit organisasi harus memiliki daftar harga biaya sendiri. Asia-Pasifik, Amerika Latin, Amerika Utara, Eropa Barat, dan Timur Tengah harus disiapkan sebagai wilayah penjualan, dan masing-masing wilayah penjualan harus memiliki daftar harga penjualan sendiri.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Mengapa ada pembatasan pada Asosiasi daftar harga dengan unit organisasi? 
 
@@ -122,7 +123,7 @@ Tidak. Dalam rilis PSA saat ini, unit organisasi tidak hierarkis. Ini berarti ba
 Bila Anda memiliki hierarki kompleks Pusat biaya, divisi, kantor penagihan, dll., konfigurasikan node leaf hierarki tersebut sebagai unit organisasi yang berbeda.
 Contoh berikut menunjukkan hierarki pada umumnya:
 
-**ContosoIndia**
+**Aswono India**
 
   - Praktek SAP 
 
@@ -147,14 +148,14 @@ Contoh berikut menunjukkan hierarki pada umumnya:
     - Konsultan fungsional 
  
 Jika hierarki serupa, Anda harus mengaturnya sebagai daftar datar, seperti ditunjukkan di sini:
-- Contoso India-Praktik SAP-konsultan teknis 
-- Contoso India-Praktik SAP-konsultan Fungsional       
-- Contoso India-Praktik Teknologi Microsoft-konsultan Fungsional 
-- Contoso India-Praktik Teknologi Microsoft-konsultan Fungsional 
-- Contoso AS - Praktik SAP-konsultan teknis  
-- Contoso AS - Praktik SAP-konsultan Fungsional  
-- Contoso AS - Praktik Teknologi Microsoft-konsultan Teknis 
-- Contoso AS - Praktik Teknologi Microsoft-konsultan Fungsional
+- Aswono India-Praktik SAP-konsultan teknis 
+- Aswono India-Praktik SAP-konsultan Fungsional       
+- Aswono India-Praktik Teknologi Microsoft-konsultan Fungsional 
+- Aswono India-Praktik Teknologi Microsoft-konsultan Fungsional 
+- Aswono AS-Praktik SAP-konsultan teknis  
+- Aswono AS-Praktik SAP-konsultan Fungsional  
+- Aswono AS-Praktik Teknologi Microsoft-konsultan Teknis 
+- Aswono AS-Praktik Teknologi Microsoft-konsultan Fungsional
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Kami adalah perusahaan layanan profesional kecil yang beroperasi hanya sebagai satu divisi. Bagaimana cara terbaik menggunakan konsep unit organisasi dalam versi PSA saat ini?
 

@@ -4,14 +4,14 @@ description: Topik ini menjelaskan cara menyebarkan aplikasi Project Operations 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986450"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591224"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Terapkan aplikasi Project Operations Dataverse secara manual dengan dukungan penulisan ganda
 
@@ -37,7 +37,7 @@ Untuk menyelesaikan prosedur ini, Anda harus masuk sebagai administrator.
 3. Pilih jenis lingkungan. Jika Anda mendaftar penawaran uji coba, pilih **Uji Coba (berbasis langganan)**.
 4. Konfirmasikan kawasan penyebaran.
 5. Aktifkan pilihan **Buat database untuk lingkungan ini**. 
-6. Konfirmasikan bahasa, lalu konfirmasikan bahwa mata uang sesuai dengan mata uang untuk aplikasi Finance and Operations Anda.
+6. Konfirmasikan bahasa tersebut, lalu konfirmasikan bahwa mata uang tersebut cocok dengan mata uang untuk aplikasi Keuangan dan Operasi Anda.
 7. Aktifkan pilihan **aplikasi Dynamics 365**, dan konfirmasikan bahwa bidang **Terapkan aplikasi ini secara otomatis** diatur ke **Tidak Ada**.
 8. Tambahkan grup keamanan, jika grup keamanan diperlukan.
 9. Pilih **Simpan** untuk membuat lingkungan.
@@ -62,4 +62,4 @@ Anda dapat menyelesaikan prosedur ini hanya jika Anda telah menyelesaikan prosed
 
 ## <a name="link-your-environments"></a><a name="link"></a>Tautkan lingkungan Anda
 
-Setelah lingkungan Dataverse disebarkan, Anda dapat mengkonfigurasi tautan di aplikasi Finance and Operations Anda. Ikuti langkah-langkah dalam [Gunakan wizard penulisan ganda untuk menautkan lingkungan Anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dataverse Setelah lingkungan disebarkan, Anda dapat mengatur tautan di aplikasi Keuangan dan Operasi Anda. Ikuti langkah-langkah dalam [Gunakan wizard penulisan ganda untuk menautkan lingkungan Anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

@@ -3,15 +3,15 @@ title: Manajemen subkontrak dalam Project Operations
 description: Topik ini memberikan ikhtisar proses manajemen subkontrak komprehensif umumnya di organisasi berdasarkan proyek.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323600"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593018"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Manajemen subkontrak dalam Project Operations
 
@@ -46,7 +46,7 @@ Baris kontrak dapat berbasis kuantitas atau pekerjaan.
 
 Bila baris subkontrak **berbasis kuantitas**, kuantitas yang dibeli di baris subkontrak untuk waktu, pengeluaran, atau bahan dapat digunakan pada proyek apa pun.
 
-Bila baris subkontrak **berbasis kerja**, baris subkontrak dipetakan ke badan kerja yang ditunjukkan oleh node dalam rencana proyek. Nilai baris subkontrak adalah jumlah semua komponen yang diperlukan untuk menghasilkan badan kerja tersebut. Ini dimodelkan sebagai detail baris subkontrak dan dapat merupakan kumpulan waktu, pengeluaran, atau bahan. Untuk baris subkontrak berbasis kerja, baris subkontrak juga dikhususkan untuk satu proyek.
+Bila baris subkontrak **berbasis kerja**, baris subkontrak dipetakan ke badan kerja yang ditunjukkan oleh node dalam rencana proyek. Nilai baris subkontrak adalah jumlah semua komponen yang diperlukan untuk menghasilkan badan kerja tersebut. Ini dimodelkan sebagai detail baris subkontrak dan dapat merupakan kumpulan waktu, pengeluaran, atau bahan. Untuk baris subkontrak berbasis kerja, baris subkontrak juga dikhususkan untuk satu proyek. Jenis subkontrak ini bersifat currenlty yang tidak didukung oleh Operasi Proyek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

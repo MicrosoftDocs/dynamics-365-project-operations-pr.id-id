@@ -4,14 +4,14 @@ description: Topik ini menyediakan informasi tentang cara berlangganan dan menye
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991535"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588004"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Mendaftar untuk berlangganan pratinjau - lite 
 
@@ -43,7 +43,7 @@ Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di pe
 > Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
 
-1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
+1. [Microsoft 365 Buka pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
 2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
 3. Pastikan lisensi **Dynamics 365 Project Operations** dipilih. 
 4. Pilih **Simpan perubahan**.

@@ -1,24 +1,24 @@
 ---
 title: Menerapkan data demo ke lingkungan di-host Finance cloud
-description: Topik ini menjelaskan cara menerapkan data demo dari Project Operations ke lingkungan dihost Cloud Dynamics 365 Finance.
+description: Ini topik menjelaskan cara menerapkan data demo dari Operasi Proyek ke lingkungan yang Dynamics 365 Finance dihosting Cloud.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009670"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588970"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Menerapkan data demo ke lingkungan di-host Finance cloud
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 > [!IMPORTANT]
-> Topik ini hanya berlaku hanya Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya dapat dilakukan di lingkungan yang di-host dengan Cloud. Selesaikan langkah-langkah di topik ini **sebelum** anda menerapkan pembaruan kualitas ke lingkungan.
+> Topik ini hanya berlaku hanya Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya dapat dilakukan di lingkungan yang dihosting Cloud. Selesaikan langkah-langkah di topik ini **sebelum** anda menerapkan pembaruan kualitas ke lingkungan.
 
 1. Di proyek LCS, buka halaman **rincian lingkungan**. Perhatikan bahwa ini mencakup rincian yang diperlukan untuk menyambung ke lingkungan dengan menggunakan Remote Desktop Protocol (RDP).
 
@@ -76,7 +76,7 @@ Hal ini berlangsung selama beberapa menit. Anda akan menerima pesan konfirmasi b
 
 18. Tutup sesi desktop jarak jauh dan gunakan halaman **rincian lingkungan** LCS untuk masuk ke lingkungan untuk mengkonfirmasi sudah berfungsi seperti yang diharapkan.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Keuangan dan Operasi.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

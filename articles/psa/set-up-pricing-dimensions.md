@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002335"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591914"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Mengonfigurasikan bidang kustom sebagai dimensi harga 
 
@@ -71,12 +72,12 @@ Ada dua jenis dasbor di dimensi harga:
   
 | Peran        | Unit Organisasi    |Lokasi Kerja      |Jabatan standar      |Jam Kerja Sumber daya      |  Mark up|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso India|Di Lokasi            |                    |Lembur                 |15     |
-|             | Contoso India|Lokal             |                    |Lembur                 |10     |
+|             | Aswono India|Di Lokasi            |                    |Lembur                 |15     |
+|             | Aswono India|Lokal             |                    |Lembur                 |10     |
 |             | Contoso AS   |Lokal             |                    |Lembur                 |20     |
 
 
-Jika sumber daya dari Contoso India yang tarif dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga project service akan menggunakan tarif dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
+Jika sumber daya dari Aswono India yang tingkat dasarnya adalah 100 USD bekerja di lokasi, dan mereka mencatat 8 jam waktu reguler, dan 2 jam lembur pada saat entri waktu, Mesin harga project service akan menggunakan tingkat dasar 100 selama 8 jam untuk merekam 800 USD. Untuk lembur 2 jam, markup 15% akan diterapkan ke tingkat dasar 100 untuk mendapatkan harga unit 115 USD dan akan merekam total biaya 230 USD.
 
 ### <a name="applicable-to-cost"></a>Berlaku untuk Biaya 
 Jika ini diatur ke **ya**, ini menunjukkan bahwa nilai dimensi dari konteks input harus digunakan untuk mencocokkan dengan **harga peran** dan **markup harga peran** saat mengambil biaya dan tingkat markup.

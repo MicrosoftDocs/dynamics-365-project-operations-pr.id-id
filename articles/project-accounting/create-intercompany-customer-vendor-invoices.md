@@ -4,14 +4,14 @@ description: Topik ini memberikan informasi tentang cara membuat faktur pelangga
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989260"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591500"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Membuat faktur vendor dan pelanggan antarperusahaan
 
@@ -27,7 +27,7 @@ Gunakan prosedur ini untuk membuat faktur pelanggan antarperusahaan secara manua
 
 Langkah-langkah berikut harus dilakukan dalam entitas hukum pemberian kredit. 
 
-1. Di Dynamics 365 Finance, buka **Manajemen dan akuntansi proyek** > **Faktur proyek** > **Faktur pelanggan antarperusahaan**. Pada halaman daftar **Faktur pelanggan antarperusahaan**, di Panel Tindakan, pilih **Baru**.
+1. Di Dynamics 365 Finance, buka **Manajemen proyek dan akuntansi** > **Faktur** > **proyek Intercompany faktur pelanggan**. Pada halaman daftar **Faktur pelanggan antarperusahaan**, di Panel Tindakan, pilih **Baru**.
 2. Pada halaman **Buat faktur antarperusahaan**, di bidang **Entitas hukum**, pilih entitas hukum peminjam.
 3. Opsional: Masukkan kontrak proyek dan nomor proyek tertentu.
 4. Persempit pencarian dengan memilih rentang tanggal. Masukkan tanggal tertentu di bidang **Tanggal mulai** dan **Tanggal akhir**. Hanya transaksi antarperusahaan yang diposting dalam rentang tanggal ini yang akan ditampilkan di hasil pencarian.

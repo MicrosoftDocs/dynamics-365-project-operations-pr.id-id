@@ -1,59 +1,59 @@
 ---
-title: Anggota tim proyek subkontrak
+title: Mensubkontrakkan anggota tim proyek
 description: Ini topik menjelaskan cara mensubkontrakkan anggota tim proyek di Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903687"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587850"
 ---
-# <a name="subcontracting-project-team-members"></a>Anggota tim proyek subkontrak
+# <a name="subcontracting-project-team-members"></a>Mensubkontrakkan anggota tim proyek
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Di Dynamics 365 Project Operations Microsoft, Anda dapat memilih untuk mensubkontrakkan anggota tim proyek yang tidak tertekuk atau dikelola.
+Di Microsoft Dynamics 365 Project Operations, Anda dapat memilih untuk mensubkontrakkan anggota tim proyek yang tidak memiliki staf atau staf.
 
-- Anggota tim proyek yang tidak terganggu memiliki sumber daya generik yang ditugaskan.
-- Anggota tim yang dikelola memiliki sumber daya bernama yang ditugaskan.
+- Anggota tim proyek yang tidak memiliki staf memiliki sumber daya generik yang ditetapkan.
+- Anggota tim staf memiliki sumber daya bernama yang ditugaskan.
 
-Ketika Anda menghubungkan anggota tim proyek ke baris subkontrak, tugas apa pun ke tugas yang dimiliki anggota tim akan dikosongkan ulang berdasarkan daftar harga pembelian yang dilampirkan ke subkontrak.  Pada **tab Perkiraan** pada halaman Detail **Proyek**, pilih tombol **Perbarui harga untuk melihat harga yang** diperbarui dan/atau biaya yang dihasilkan dari keputusan untuk subkontrak. 
+Saat Anda menautkan anggota tim proyek ke saluran subkontrak, tugas apa pun untuk tugas yang dimiliki anggota tim akan direkosongkan berdasarkan daftar harga pembelian yang dilampirkan ke subkontrak.  **Pada tab Perkiraan** pada **halaman Detail** Proyek, pilih **tombol Perbarui harga untuk melihat harga dan/atau biaya yang diperbarui akibat keputusan untuk mensubkontrakkan**. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Mensubkontrakkan anggota tim proyek yang tidak terganggu
-**Halaman detail Anggota Tim memiliki bidang baris** subkontrak dan subkontrak yang memungkinkan manajer proyek untuk mengungkapkan bagaimana mereka ingin menarik kapasitas yang diperlukan dari subkontrak. Untuk mensubkontrakkan anggota tim proyek sebagai sumber daya generik, ikuti langkah-langkah berikut:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Mensubkontrakkan anggota tim proyek yang tidak terafiliasi
+Halaman **detail** Anggota Tim memiliki bidang subkontrak dan subkontrak yang memungkinkan manajer proyek untuk mengungkapkan bagaimana mereka ingin menarik kapasitas yang diperlukan dari subkontrak. Untuk mensubkontrakkan anggota tim proyek sebagai sumber daya generik, ikuti langkah-langkah berikut:
 
-1.  Pilih subkontrak pada **halaman detail anggota** Tim.
+1.  Pilih subkontrak di **halaman Detail** anggota tim.
 
-2.  Anda hanya dapat memilih subkontrak dengan **Status Draf** atau **Dikonfirmasi**. **Subkontrak** tertutup atau Dibatalkan tidak dapat **dipilih**. 
+2.  Anda hanya dapat memilih subkontrak dengan **status Draft** atau **Confirmed**. **Subkontrak tertutup** **atau** dibatalkan tidak dapat dipilih. 
 
-3.  Bidang **garis Subkontrak** menjadi terlihat setelah Anda memilih subkontrak.
+3.  Bidang **garis** Subkontrak menjadi terlihat setelah Anda memilih subkontrak.
 
-4.  Di **bidang baris Subkontrak,** Anda hanya dapat memilih baris subkontrak yang untuk waktu. Anda tidak dapat memilih baris subkontrak untuk biaya atau materi.
+4.  **Di bidang subkontrak**, Anda hanya dapat memilih jalur subkontrak yang sesuai waktu. Anda tidak dapat memilih jalur subkontrak untuk biaya atau material.
 
-5.  Peran untuk catatan anggota tim proyek perlu mencocokkan peran pada garis subkontrak. Ini memastikan bahwa waktu untuk peran yang sedang diperkirakan pada proyek adalah peran yang sama yang dibeli pada baris subkontrak. 
+5.  Peran untuk catatan anggota tim proyek harus sesuai dengan peran pada jalur subkontrak. Ini memastikan bahwa waktu untuk peran yang diperkirakan pada proyek adalah peran yang sama yang dibeli pada jalur subkontrak. 
 
-Ketika anggota tim generik dikaitkan dengan baris subkontrak dan subkontrak, **bidang tipe Pekerja pada baris anggota tim generik akan diperbarui ke Pekerja Kontrak dan Validitas** **·** **Subkontrak** akan diatur ke **Valid**.
+Ketika anggota tim generik dikaitkan dengan jalur subkontrak dan subkontrak, **bidang tipe** Pekerja pada baris anggota tim generik akan diperbarui ke **Pekerja** Kontrak dan **Validitas** Subkontrak akan diatur ke **Valid**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Mensubkontrakkan anggota tim proyek yang dikelola
-Seperti anggota tim generik atau tidak terganggu, kapasitas anggota tim staf yang diperlukan pada suatu proyek juga dapat dihubungkan ke subkontrak. Untuk mensubkontrakkan anggota tim proyek bernama, ikuti langkah-langkah berikut:
+## <a name="subcontracting-a-staffed-project-team-member"></a>Mensubkontrakkan anggota tim proyek staf
+Seperti anggota tim generik atau tanpa staf, kapasitas anggota tim staf yang diperlukan pada proyek juga dapat dikaitkan dengan subkontrak. Untuk mensubkontrakkan anggota tim proyek bernama, ikuti langkah-langkah berikut:
 
-1.  Pastikan bahwa sumber daya bernama diatur sebagai jenis pekerja kontrak sumber daya yang dapat dipesan. Juga, pastikan bahwa **bidang Vendor pada sumber daya yang dapat dipesan cocok dengan vendor pada** subkontrak yang Anda pilih. 
+1.  Pastikan bahwa sumber daya bernama disiapkan sebagai jenis sumber daya yang dapat dipesan oleh pekerja kontrak. Juga, pastikan bahwa **bidang Vendor** pada sumber daya yang dapat dipesan cocok dengan vendor pada subkontrak yang Anda pilih. 
 
-2.  Anda hanya dapat memilih subkontrak dalam **Status Draf** atau **Terkonfirmasi.** **Subkontrak** tertutup atau Dibatalkan tidak dapat **dipilih**. 
+2.  Anda hanya dapat memilih subkontrak dalam **status Draf** atau **Dikonfirmasi**. **Subkontrak tertutup** **atau** dibatalkan tidak dapat dipilih. 
 
-3.  Bidang **garis Subkontrak** menjadi terlihat setelah Anda memilih subkontrak.
+3.  Bidang **garis** Subkontrak menjadi terlihat setelah Anda memilih subkontrak.
 
-4.  Di **bidang baris Subkontrak,** Anda hanya dapat memilih baris subkontrak yang untuk waktu. Anda tidak dapat memilih baris subkontrak untuk biaya atau materi.
+4.  **Di bidang subkontrak**, Anda hanya dapat memilih jalur subkontrak yang sesuai waktu. Anda tidak dapat memilih jalur subkontrak untuk biaya atau material.
 
-5.  Peran untuk catatan anggota tim proyek perlu mencocokkan peran pada garis subkontrak. Ini memastikan bahwa waktu untuk peran yang sedang diperkirakan pada proyek adalah peran yang sama yang dibeli pada baris subkontrak. 
+5.  Peran untuk catatan anggota tim proyek harus sesuai dengan peran pada jalur subkontrak. Ini memastikan bahwa waktu untuk peran yang diperkirakan pada proyek adalah peran yang sama yang dibeli pada jalur subkontrak. 
 
-Anggota tim proyek bernama yang ditetapkan sebagai jenis pekerja kontrak **sumber daya yang dapat dipesan akan ditampilkan dengan status validitas** subkontrak **tidak valid jika mereka tidak terkait dengan** subkontrak. Ketika anggota tim proyek bernama dikaitkan dengan baris subkontrak dan subkontrak, **bidang tipe Pekerja di baris anggota tim akan memperbarui ke Pekerja Kontrak dan Validitas** **·** **Subkontrak** akan diatur ke **Valid**.
+Anggota tim proyek bernama yang ditetapkan sebagai jenis pekerja kontrak sumber **daya** yang dapat dipesan akan ditampilkan dengan status **validitas subkontrak tidak valid** jika mereka tidak terkait dengan subkontrak. Ketika anggota tim proyek bernama dikaitkan dengan jalur subkontrak dan subkontrak, **bidang tipe** Pekerja di baris anggota tim akan diperbarui menjadi **Pekerja** Kontrak dan **Validitas** Subkontrak akan diatur ke **Valid**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

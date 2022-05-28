@@ -4,25 +4,25 @@ description: Topik ini menyediakan informasi tentang cara mengakses Project Oper
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994595"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591868"
 ---
 # <a name="navigate-project-operations"></a>Menelusuri Project Operations
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Project Operations untuk skenario sumber daya/non-stok terdiri dari dua komponen: 
 
  - **Lingkungan Project Operations di Common Data Service (CDS)**: komponen ini mencakup kemampuan dan proses dari peluang ke faktur proforma. 
- - **Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance**: komponen ini mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. 
+ - **Manajemen proyek dan akuntansi pada lingkungan** Dynamics 365 Finance: Komponen ini mencakup kemampuan manajemen biaya, akuntansi proyek, dan pengakuan pendapatan. 
 
 Setelah Anda menyediakan Project Operations sebagaimana dijelaskan dalam topik, halaman **rincian lingkungan** Lifecycle Services (lcs) menyediakan akses mudah ke kedua komponen Project Operations.  
 
