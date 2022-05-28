@@ -4,20 +4,20 @@ description: Laporan topik memberikan informasi tentang mendefinisikan atau memp
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992615"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737306"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimasi keuangan untuk bahan pada proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations memungkinkan manajer proyek menentukan biaya bahan berbasis proyek untuk setiap proyek atau tugas. Setiap estimasi bahan dapat dikaitkan dengan tugas proyek tertentu. Pengeluaran dikategorikan ke dalam berbagai kategori pengeluaran, yang ditentukan pada tingkat organisasional. Harga dan biaya untuk setiap kategori pengeluaran ditentukan dalam daftar harga. 
+Dynamics 365 Project Operations memungkinkan manajer proyek menentukan biaya bahan berbasis proyek untuk setiap proyek atau tugas. Setiap estimasi bahan dapat dikaitkan dengan tugas proyek tertentu. Bahan yang digunakan pada proyek dapat berupa produk atau produk tertulis dari katalog produk. Untuk setiap kombinasi produk dan unit, harga dapat didefinisikan dalam daftar harga proyek untuk penjualan dan daftar harga proyek untuk biaya.  
 
 Lengkapi langkah-langkah berikut untuk melihat, menambah, atau menghapus estimasi bahan proyek.
 
