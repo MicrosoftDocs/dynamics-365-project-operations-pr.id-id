@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986720"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582807"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Membuat dan mengonfirmasi jurnal koreksi
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Terkadang entri waktu atau biaya dapat dimasukkan dengan benar. Contohnya, konsultan mungkin memilih tanggal yang salah saat membuat entri waktu atau mereka mungkin mentransposisi angka saat memasukkan pengeluaran. Jika konsultan tidak dapat melakukan pembaruan terhadap entri yang diajukan, administrator dapat secara langsung mengoreksi entri untuk proyek.
-
-Untuk menyelesaikan prosedur dalam topik ini, anda memerlukan izin Administrator.
+Terkadang, entri waktu atau biaya mungkin salah dimasukkan. Misalnya, konsultan mungkin memilih tanggal yang salah ketika mereka membuat entri waktu, atau mereka mungkin memilih proyek yang salah ketika mereka memasukkan biaya. Jika konsultan tidak dapat memperbarui entri yang dikirimkan, admin back-end dapat langsung memperbaiki aktual untuk proyek.
 
 ## <a name="correct-approved-time-entries"></a>Mengoreksi entri waktu yang disetujui     
 
@@ -46,8 +42,8 @@ Menyelesaikan langkah-langkah berikut untuk mengoreksi entri atau beberapa satu 
 
 6. pilih **Pratinjau**. Pilih **Oke** di kotak dialog. Pada tab **lini jurnal**, Anda dapat melihat daftar aktual asli yang terkait dengan entri waktu yang dipilih dan telah dibalik dan dikoreksi sesuai baris yang telah dibuat. Jika koreksi tambahan perlu dilakukan, ulangi langkah 5 dan 6. 
 
-> [!NOTE]
-> Semua aktual yang dikoreksi akan memiliki nilai yang sama dengan yang Anda pilih di bagian **nilai baru untuk entri waktu**.
+    > [!NOTE]
+    > Semua aktual yang dikoreksi akan memiliki nilai yang sama dengan yang Anda pilih di bagian **nilai baru untuk entri waktu**.
 
 7. Jika koreksi ditampilkan seperti yang diharapkan, pilih **konfirmasikan**. Pilih **Oke** di kotak dialog.
 
@@ -55,12 +51,10 @@ Menyelesaikan langkah-langkah berikut untuk mengoreksi entri atau beberapa satu 
 
 9. Pada halaman **proyek**, pada tab **aktual**, lihat perubahan yang Anda buat. 
 
-> [!NOTE]
-> Jika tab **aktual** tidak terlihat, pilih **terkait** > **aktual**.  
+    > [!NOTE]
+    > Jika tab **aktual** tidak terlihat, pilih **terkait** > **aktual**.  
 
 10. Di daftar **tampilan terkait aktual**, Anda dapat melihat bahwa entri waktu asli yang telah dibalik masih terdaftar, seperti entri waktu dikoreksi yang sesuai. 
-
-Misalnya, pada grafik berikut, ada dua item baris dengan kuantitas 8,00 yang memiliki debit yang tercantum di kolom jumlah. Selain itu, ada dua item baris dengan kuantitas-8,00 yang menunjukkan jumlah dikreditkan di kolom jumlah. Koreksi ini membawa kuantitas ke nol.
 
  
 ## <a name="correct-approved-expense-entries"></a>Mengoreksi entri pengeluaran yang disetujui
@@ -79,14 +73,30 @@ Selesaikan langkah-langkah berikut untuk mengoreksi satu atau beberapa entri pen
 
 6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Di kotak dialog, Pilih **Oke.** Jika nilai tidak ditampilkan sebagaimana mestinya, pilih **Batalkan** untuk kembali ke daftar **pengeluaran yang disetujui**. Ulangi langkah 2 hingga 5. 
 
-> [!NOTE]
-> Aktual yang dikoreksi akan memiliki nilai yang sama dengan yang Anda pilih di bagian **nilai baru untuk pengeluaran**.
+7. Setelah Mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Diperbarui untuk melihat perubahan.
 
-7. Setelah Anda mengkonfirmasi jurnal koreksi, navigasikan kembali ke proyek atau proyek yang Anda diperbarui, untuk melihat perubahan Anda.  
-
-8. Di halaman proyek, pada tab **aktual**, Tinjau **tampilan terkait aktual**. Entri asli dan entri yang dikoreksi didaftarkan. Grafik berikut menunjukkan jumlah entri pengeluaran asli dan jumlah entri pengeluaran yang sesuai yang dikoreksi. 
+8. Pada halaman proyek, pada **tab Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Memperbaiki log penggunaan material yang disetujui
+
+Selesaikan langkah-langkah berikut untuk memperbaiki satu atau beberapa entri log penggunaan material.
+
+1. **Di area Penjualan**, di panel navigasi kiri, di bawah **Transaksi**, pilih **Aktual**.
+
+2. **Dalam daftar Aktual**, gunakan filter kolom untuk memilih **kelas Transaksi material**, sehingga hanya aktual untuk materi yang ditampilkan. Gunakan filter kolom lain untuk lebih membatasi aktual yang ditampilkan. Setelah Anda dapat menemukan kumpulan aktual yang diinginkan, pilih aktual, lalu pilih **Entri yang benar**. Jurnal koreksi baru dibuat secara otomatis, dan **jenis koreksi** Material ditetapkan.
+
+3. **Pada halaman Jurnal** Baru, di **bidang Deskripsi**, masukkan deskripsi untuk koreksi. Kemudian, pada **tab Koreksi** Material, di **bagian Nilai Baru untuk Materi**, pilih bidang data untuk mengoreksi baris materi yang dipilih. Misalnya, Anda dapat menetapkan materi ke proyek lain, atau memperbaiki produk, tanggal material, atau subkontrak.
+
+4. pilih **Pratinjau**. Kemudian, dalam kotak dialog, pilih **OK**.
+
+5. **Pada tab Baris** jurnal, verifikasi koreksi. Anda dapat melihat daftar aktual asli yang terkait dengan entri materi yang dipilih yang telah dibalik dan baris yang sesuai yang telah dibuat.
+
+6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Kemudian, dalam kotak dialog, pilih **OK**. Jika nilai tidak seperti yang diharapkan, pilih **Batalkan** untuk kembali ke **daftar Aktual**. Kemudian ulangi langkah 2 sampai 5.
+
+7. Setelah Mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Diperbarui untuk melihat perubahan.
+
+8. Pada halaman proyek, pada **tab Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

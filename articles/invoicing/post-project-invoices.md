@@ -3,16 +3,15 @@ title: Ikhtisar proses pemfakturan
 description: Laporan topik ini memberikan ikhtisar proses pemfakturan di Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003775"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582714"
 ---
 # <a name="invoicing-process-overview"></a>Ikhtisar proses pemfakturan
 
@@ -22,7 +21,7 @@ Project Operations untuk skenario berbasis sumber daya/non-stok menawarkan kemam
 
 ![Diagram alur faktur.](./media/invoicing-flow.png)
 
-Baris kontrak proyek menentukan metode penagihan untuk transaksi proyek yang terkait. Ketika manajer proyek menyetujui waktu dan transaksi pengeluaran, sistem merekam transaksi di entitas **Aktual Proyek** dan mengirimkan informasi tersebut ke modul **manajemen Proyek dan akuntansi** di Dynamics 365 Finance. Akuntan proyek kemudian melihat dan memposting rekaman menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini mencakup rincian akuntansi penting untuk aktual proyek, seperti penagihan, grup pajak penjualan, grup pajak penjualan item penagihan, dan dimensi keuangan.
+Baris kontrak proyek menentukan metode penagihan untuk transaksi proyek yang terkait. Ketika manajer Proyek menyetujui transaksi waktu dan biaya, sistem mencatat transaksi dalam **entitas Project Actuals** dan mengirimkan informasi ke **modul manajemen dan akuntansi** Proyek dalam Dynamics 365 Finance. Akuntan proyek kemudian melihat dan memposting rekaman menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini mencakup rincian akuntansi penting untuk aktual proyek, seperti penagihan, grup pajak penjualan, grup pajak penjualan item penagihan, dan dimensi keuangan.
 
 Manajer proyek dapat memeriksa transaksi penjualan belum tertagih menggunakan metode penagihan waktu dan material pada [backlog penagihan Waktu dan material](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) serta penagihan harga tetap dalam [tahapan harga tetap](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Tampilan ini memungkinkan Anda memfilter dan memilih transaksi yang harus disertakan dalam siklus penagihan berikutnya, lalu menandainya sebagai **Siap Ditagih**.
 

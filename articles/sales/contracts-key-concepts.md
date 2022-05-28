@@ -4,26 +4,26 @@ description: Topik ini memberikan informasi tentang konsep kunci kontrak proyek 
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986945"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582944"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Konsep unik untuk kontrak berbasis proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Topik ini memberikan konsep penting yang perlu diperhatikan sebelum Anda mulai menggunakan kontrak Proyek di Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Perusahaan Pemilik
 
-Perusahaan pemilik merupakan entitas hukum dari modul **manajemen proyek dan akuntansi** untuk Project Operations dari Dynamics 365 Finance. Perusahaan pemilik mewakili entitas hukum yang akan memperhitungkan biaya dan pendapatan yang Diperoleh dari transaksi.
+Perusahaan pemilik adalah badan hukum dari **modul manajemen proyek dan akuntansi** untuk Operasi Proyek dari Dynamics 365 Finance. Perusahaan pemilik mewakili entitas hukum yang akan memperhitungkan biaya dan pendapatan yang Diperoleh dari transaksi.
 
 ## <a name="contracting-unit"></a>Unit Kontrak
 

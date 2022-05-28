@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991130"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586302"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Yang baru atau berubah di Project Operations, Mei 2021 untuk skenario berbasis stok/produksi
 
@@ -20,7 +20,7 @@ ms.locfileid: "6991130"
 
 Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
-- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi version 10.0.19
+- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.19
  
 ### <a name="quality-updates"></a>Pembaruan kualitas
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berik
 | Perjalanan dan Pengeluaran                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Ada masalah sinkronisasi di aplikasi seluler Pengeluaran. 
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan wajib untuk aplikasi Finance and Operations, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang telah direncanakan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan peraturan untuk aplikasi Keuangan dan Operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang telah direncanakan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

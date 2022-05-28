@@ -4,20 +4,20 @@ description: Topik ini memberikan informasi tentang model keamanan di Dynamics 3
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991490"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585750"
 ---
 # <a name="security-model"></a>Model keamanan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations berisi model keamanan unik yang memungkinkan model keamanan bisnis berbasis peran yang berkolaborasi dengan Grup Microsoft Office. 
 
@@ -70,7 +70,7 @@ Seiring model kolaborasi Office Group berkembang, fungsi akan ditambahkan untuk 
 
 Untuk informasi lebih lanjut, lihat [keamanan di Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Keamanan Microsoft Dynamics 365 Finance dan Project Operations
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operasi Proyek dan Microsoft Dynamics keamanan keuangan 365
 Operasi proyek mencakup peran berikut:
 
 - Manajer Proyek

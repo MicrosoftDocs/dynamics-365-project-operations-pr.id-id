@@ -4,14 +4,14 @@ description: Topik ini berisi informasi tentang cara mengonfigurasi jenis period
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998780"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580460"
 ---
 # <a name="period-types"></a>Jenis periode
 
@@ -22,7 +22,7 @@ Jenis periode menentukan seberapa sering pendapatan pada satu proyek diperkiraka
 ## <a name="create-and-work-with-period-types"></a>Membuat dan menggunakan jenis periode
 Untuk membuat dan menggunakan jenis periode, lakukan langkah-langkah berikut:
 
-1. Di lingkungan Dynamics 365 Finance Anda, buka **Manajemen dan akuntansi proyek** > **Pengaturan** > **Estimasi** > **Jenis periode**.
+1. Di lingkungan Dynamics 365 Finance Anda, buka **Manajemen proyek dan** > **akuntansi Jenis Periode Estimasi** > **Penyiapan** > **·**.
 2. Pilih **Baru** untuk membuat jenis perioden baru. Masukkan nama dan deskripsi.
 3. Di bidang **Frekuensi**, pilih nilai:
 

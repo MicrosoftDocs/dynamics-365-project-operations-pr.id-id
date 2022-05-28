@@ -2,16 +2,16 @@
 title: Pengaturan kontrak proyek - lite
 description: Topik ini memberikan informasi tentang bidang yang berdampak pada baris kontrak dan informasi tentang kontrak yang dirangkum di semua item baris.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995945"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586394"
 ---
 # <a name="header-details-for-project-contracts"></a>Rincian header untuk kontrak proyek
 
@@ -32,12 +32,15 @@ Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 
 | Batas Jangan terlampaui | tab **Ringkasan** | Bidang ini menunjukkan batas negosiasi tentang nilai akhir yang disepakati pelanggan untuk penawaran ini. | Batas ini dievaluasi selama eksekusi dan berlaku di semua item baris dan proyek yang terkait dengan transaksi ini. |
 | Tanggal Pengiriman yang Diminta | tab **Ringkasan** | Ketika kontrak dibuat dari kuotasi proyek, bidang ini disalin dari bidang yang sesuai pada rekaman kuotasi proyek. | Tanggal ini digunakan sebagai tanggal akhir untuk membuat jadwal faktur. |
 
-KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek.
+KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek. 
 
-| Bidang | Lokasi | KETERANGAN |
+>[!NOTE]
+>Semua jumlah pada **tab Kinerja** Kontrak dinyatakan dalam mata uang default lingkungan.
+
+| Bidang | Lokasi | Deskripsi |
 | --- | --- | --- |
-| Nilai Kontrak | Kontrak keseluruhan | Nilai total kontrak proyek. |
-| Jumlah yang Ditagih | Kontrak keseluruhan | Jumlah dari nilai pada semua faktur terhadap kontrak ini. |
+| Nilai Kontrak | Kontrak keseluruhan | Nilai total kontrak proyek.|
+| Jumlah yang Ditagih | Kontrak keseluruhan | Jumlah dari nilai pada semua faktur terhadap kontrak ini.|
 | Biaya Dikenakan | Kontrak keseluruhan | Jumlah semua aktual biaya yang dicatat pada semua proyek yang dipetakan ke kontrak. |
 | Margin Kotor | Kontrak keseluruhan | Jumlah ditagih-biaya yang timbul hingga tanggal/jumlah ditagih |
 | Margin yang Diharapkan | Kontrak keseluruhan | (Nilai kontrak - Estimasi biaya)/Estimasi biaya nilai kontrak = jumlah semua estimasi biaya pada semua proyek yang dipetakan ke kontrak.|

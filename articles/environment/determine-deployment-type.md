@@ -4,14 +4,14 @@ description: Topik ini memberikan informasi untuk membantu Anda menentukan jenis
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994640"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584140"
 ---
 # <a name="determine-your-deployment-type"></a>Menentukan jenis penyebaran Anda
 
@@ -25,7 +25,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan Dynamics yang lama menggunakan Dynamics 365 Project Service Automation
 Project Operations mencakup kemampuan yang disertakan dengan Project Service Automation. Jalur peningkatan akan dirilis untuk pelanggan ini di rilis 2021 gelombang 1.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan lama Dynamics 365 Finance menggunakan manajemen proyek dan akuntansi 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan Dynamics 365 Finance yang sudah ada menggunakan manajemen proyek dan akuntansi 
 
 Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakannya sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
 
@@ -42,7 +42,7 @@ Project Operations mendukung beberapa pilihan penyebaran agar sesuai dengan kebu
 - [Project Operations untuk skenario sumber daya/tanpa stok](#integrated)
 - [Project Operations untuk skenario pesanan dengan stok/produksi](#pma)
 
-Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario non-stok/berbasis sumber daya pada lingkungan yang sama melalui konfigurasi tingkat entitas hukum. Misalnya, Contoso dapat menggunakan kemampuan pesanan persediaan/produksi di fasilitas produksi AS mereka (Entitas hukum = Contoso Produksi Amerika Serikat). Contoso dapat menggunakan kemampuan non-stok/berbasis sumber daya di fasilitas pelayanan Contoso Robotics Arms mereka di Inggris (Entitas hukum = Contoso Robotik Inggris).
+Project Operations mendukung skenario pesanan dengan stok/produksi dan skenario non-stok/berbasis sumber daya pada lingkungan yang sama melalui konfigurasi tingkat entitas hukum. Misalnya, Aswono dapat menggunakan kemampuan pesanan produksi/penuh di fasilitas produksi AS (entitas hukum = Aswono Manufacturing Indonesia). Aswono dapat menggunakan kemampuan berbasis sumber daya/non-stok di fasilitas layanan Aswono Lengan Robotika di Inggris (entitas hukum = Aswono Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Penyebaran sederhana - menangani faktur proforma
 
