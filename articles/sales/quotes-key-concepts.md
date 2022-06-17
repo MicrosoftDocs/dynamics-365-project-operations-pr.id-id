@@ -1,6 +1,6 @@
 ---
 title: Kuotasi - Konsep utama
-description: Topik ini memberikan informasi tentang kuotasi proyek dan kuotasi penjualan yang tersedia dalam Project Operations.
+description: Artikel ini menyediakan informasi tentang kutipan proyek dan kutipan penjualan yang tersedia di Operasi Proyek.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912520"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Konsep unik untuk kuotasi berbasis proyek
 
@@ -35,7 +35,7 @@ Di Dynamics 365 Project Operations, ada dua jenis kuotasi: proyek dan penjualan.
 - **Bidang dan konsep**: Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek. Bidang mencakup **unit kontrak**, **manajer akun**, dan **nama tagihan ke kontak**.  
 - **Jenis**: Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan, **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
 
-Topik ini berfokus pada rincian kuotasi proyek.
+Artikel ini berfokus pada detail kutipan proyek.
 
 Kuotasi proyek dalam Project Operations dapat memiliki beberapa item baris atau baris kuotasi. Bahkan, kuotasi proyek memiliki dua kisi untuk item baris. Satu kisi adalah untuk baris berbasis proyek yang memungkinkan perkiraan rinci. Kisi lainnya adalah untuk lini berbasis produk menggunakan harga satuan sederhana dan pendekatan berbasis kuantitas.
 

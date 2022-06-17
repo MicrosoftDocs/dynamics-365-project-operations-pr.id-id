@@ -1,17 +1,17 @@
 ---
 title: Jurnal integrasi dalam Project Operations
-description: Topik ini memberikan informasi tentang bekerja dengan jurnal Integrasi dalam Project Operations.
+description: Artikel ini menyediakan informasi tentang bekerja dengan jurnal Integrasi dalam Operasi Proyek.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923882"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
@@ -23,10 +23,10 @@ Entri waktu dan pengeluaran membuat transaksi **Aktual** yang mewakili tampilan 
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Membuat rekaman dalam Jurnal integrasi Project Operations
 
-Rekaman dalam jurnal Integrasi Project Operations dibuat menggunakan proses berkala, **Impor dari tabel penahapan**. Anda dapat menjalankan proses ini dengan membuka **Dynamics 365 Finance** > **Project management and accounting** > **Periodic** > **Project Operations Integration** > **Import dari staging table**. Anda dapat menjalankan proses secara interaktif atau mengonfigurasi proses untuk berjalan di latar belakang sesuai kebutuhan.
+Rekaman dalam jurnal Integrasi Project Operations dibuat menggunakan proses berkala, **Impor dari tabel penahapan**. Anda dapat menjalankan proses ini dengan masuk ke **Dynamics 365 Finance** > **Project manajemen dan akuntansi** > **Impor Integrasi** > **Operasi Proyek Berkala** > **dari tabel** pementasan. Anda dapat menjalankan proses secara interaktif atau mengonfigurasi proses untuk berjalan di latar belakang sesuai kebutuhan.
 
 Ketika proses berkala berjalan, setiap aktual yang belum ditambahkan ke jurnal Integrasi Project Operations ditemukan. Baris jurnal untuk setiap transaksi aktual dibuat.
-Sistem mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih di **unit Periode pada bidang jurnal** Integrasi Operasi Proyek (**manajemen Proyek Keuangan** > **dan pengaturan** > **akuntansi** > **Manajemen proyek dan parameter** akuntansi, **Operasi Proyek pada tab Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
+Sistem mengelompokkan baris jurnal ke dalam jurnal terpisah berdasarkan nilai yang dipilih dalam **unit Periode pada bidang jurnal** Integrasi Operasi Proyek (**Manajemen Proyek Keuangan** > **dan akuntansi** > **Pengaturan** > **Manajemen proyek dan parameter** akuntansi, **Operasi Proyek pada tab Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk bidang ini meliputi:
 
   - **Hari**: Aktual dikelompokkan menurut tanggal transaksi. Jurnal terpisah dibuat untuk setiap hari.
   - **Bulan**: Aktual dikelompokkan menurut bulan kalender. Jurnal terpisah dibuat untuk setiap bulan.
@@ -40,10 +40,10 @@ Baris jurnal dibuat berdasarkan aktual proyek. Daftar berikut ini mencakup beber
   - Kolom **Voucher** menunjukkan nomor voucher untuk setiap transaksi aktual. Urutan nomor voucher didefinisikan pada tab **Urutan angka**, pada halaman parameter **manajemen Proyek dan akuntansi**. Setiap baris diberi nomor baru. Setelah voucher diposting, Anda dapat melihat bagaimana biaya dan transaksi penjualan yang belum ditagih terkait dengan memilih **voucher terkait** pada halaman **transaksi voucher**.
   - Bidang **kategori** mewakili transaksi proyek dan di-default berdasarkan Kategori transaksi untuk aktual proyek terkait.
     - Jika **kategori transaksi** diatur dalam aktual proyek dan **kategori proyek** ada di entitas hukum tertentu, kategori di-default ke kategori proyek ini.
-    - Jika **kategori** Transaksi tidak diatur dalam Aktual proyek, sistem menggunakan nilai dalam **bidang default** kategori Proyek pada **operasi proyek pada** Dynamics 365 Customer Engagement tab pada **halaman Parameter** manajemen proyek dan akuntansi.
+    - Jika **kategori** Transaksi tidak diatur dalam Project actual, sistem menggunakan nilai di **bidang default** kategori Project pada **tab Project Operations on Dynamics 365 Customer Engagement** pada **halaman Project management and accounting parameters**.
   - Bidang **sumber daya** mewakili sumber daya proyek yang terkait dengan transaksi ini. Sumber daya digunakan sebagai referensi dalam proposal faktur proyek untuk pelanggan.
-  - Bidang **Nilai tukar** default dari **nilai tukar Mata Uang yang** ditetapkan dalam Dynamics 365 Finance. Jika konfigurasi nilai tukar tidak ada, proses periodik **impor dari penahapan** tidak akan menambahkan rekaman ke jurnal dan pesan kesalahan akan ditambahkan ke log eksekusi pekerjaan.
-  - Bidang **properti baris** mewakili jenis penagihan dalam aktual proyek. Properti baris dan pemetaan tipe penagihan didefinisikan pada **operasi proyek pada tab Dynamics 365 Customer Engagement** pada **halaman Parameter** manajemen dan akuntansi proyek.
+  - Bidang **Nilai tukar** default dari **nilai tukar** Mata Uang yang ditetapkan dalam Dynamics 365 Finance. Jika konfigurasi nilai tukar tidak ada, proses periodik **impor dari penahapan** tidak akan menambahkan rekaman ke jurnal dan pesan kesalahan akan ditambahkan ke log eksekusi pekerjaan.
+  - Bidang **properti baris** mewakili jenis penagihan dalam aktual proyek. Properti baris dan pemetaan jenis penagihan ditentukan pada **tab Operasi Proyek pada Dynamics 365 Customer Engagement** pada **halaman Manajemen proyek dan parameter** akuntansi.
 
 Hanya atribut akuntansi berikut dapat diperbarui di baris jurnal integrasi Project Operations:
 

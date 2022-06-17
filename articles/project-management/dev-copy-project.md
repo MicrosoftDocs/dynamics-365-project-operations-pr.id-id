@@ -1,17 +1,17 @@
 ---
 title: Mengembangkan template proyek dengan Salinan Proyek
-description: Topik ini menyediakan informasi tentang cara membuat template proyek menggunakan tindakan kustom menyalin proyek.
+description: Artikel ini menyediakan informasi tentang cara membuat templat proyek menggunakan tindakan kustom Salin Proyek.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923836"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Mengembangkan template proyek dengan Salinan Proyek
 
@@ -25,21 +25,21 @@ Bila Anda memilih **Salin proyek**, status proyek target diperbarui. Gunakan **a
 
 ### <a name="name"></a>Nama 
 
-msdyn\_ CopyProjectV3
+msdyn\_ SalinProjectV3
 
 ### <a name="input-parameters"></a>Parameter input
 
 Terdapat tiga parameter input:
 
-- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** – Atur hanya satu opsi. Jangan mengatur keduanya.
+- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** – Atur hanya salah satu opsi. Jangan mengatur keduanya.
 
     - **\{"ReplaceNamedResources":true\}** – Perilaku default untuk Operasi Proyek. Setiap sumber daya bernama diganti dengan sumber daya generik.
-    - **\{"ClearTeamsAndAssignments":true\}** – Perilaku default untuk Project for the Web. Semua tugas dan anggota tim akan dihapus.
+    - **\{"ClearTeamsAndAssignments":true\}** – Perilaku default untuk Project for the Web. Semua tugas dan anggota tim dihapus.
 
-- **SourceProject** – Referensi entitas dari proyek sumber untuk disalin. Parameter ini tidak bisa nol.
-- **Target** – Referensi entitas dari proyek target untuk disalin. Parameter ini tidak bisa nol.
+- **SourceProject** – Referensi entitas dari proyek sumber untuk disalin. Parameter ini tidak boleh nol.
+- **Target** – Referensi entitas dari proyek target untuk disalin. Parameter ini tidak boleh nol.
 
-Tabel berikut memberikan ringkasan dari tiga parameter.
+Tabel berikut ini menyediakan ringkasan dari tiga parameter.
 
 | Parameter                | Tipe             | Nilai                 |
 |--------------------------|------------------|-----------------------|
@@ -48,7 +48,7 @@ Tabel berikut memberikan ringkasan dari tiga parameter.
 | SourceProject            | Referensi Entitas | Proyek sumber    |
 | Target                   | Referensi Entitas | Proyek target    |
 
-Untuk default tindakan lainnya, lihat [Menggunakan tindakan](/powerapps/developer/common-data-service/webapi/use-web-api-actions) Api Web.
+Untuk default lainnya tentang tindakan, lihat [Menggunakan tindakan](/powerapps/developer/common-data-service/webapi/use-web-api-actions) API Web.
 
 ### <a name="validations"></a>Validasi
 
@@ -57,7 +57,7 @@ Validasi berikut dilakukan.
 1. Null memeriksa dan mengambil proyek sumber dan target untuk mengkonfirmasi keberadaan kedua proyek dalam organisasi.
 2. Sistem memvalidasi bahwa proyek target valid untuk disalin dengan memverifikasi kondisi berikut:
 
-    - Tidak ada aktivitas sebelumnya pada proyek (termasuk pemilihan **tab Tugas**), dan proyek baru dibuat.
+    - Tidak ada aktivitas sebelumnya pada proyek (termasuk pemilihan tab **Tugas**), dan proyek baru dibuat.
     - Tidak ada salinan sebelumnya, tidak ada impor yang diminta pada proyek ini, dan proyek tidak memiliki **status Gagal**.
 
 3. Operasi tidak dipanggil dengan menggunakan HTTP.

@@ -1,28 +1,28 @@
 ---
 title: Performa API Jadwal proyek
-description: Topik ini memberikan informasi tentang tolok ukur performa API jadwal Proyek dan mengidentifikasi praktik terbaik untuk penggunaan optimal.
+description: Artikel ini memberikan informasi tentang tolok ukur performa API jadwal Proyek dan mengidentifikasi praktik terbaik untuk penggunaan optimal.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911186"
 ---
 # <a name="project-schedule-api-performance"></a>Performa API Jadwal proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-persediaan, penyebaran Lite - faktur penawaran hingga proforma, Project for the Web_
 
-Topik ini memberikan informasi tentang tolok ukur performa API (antarmuka pemrograman aplikasi) jadwal Proyek dan mengidentifikasi praktik terbaik untuk penggunaan optimal.
+Artikel ini memberikan informasi tentang tolok ukur performa antarmuka pemrograman aplikasi (API) jadwal Proyek dan mengidentifikasi praktik terbaik untuk mengoptimalkan penggunaan.
 
 ## <a name="project-scheduling-service"></a>Layanan Penjadwalan proyek
 Layanan Penjadwalan Proyek adalah layanan multi-penyewa yang berjalan di Microsoft Azure. ini didesain untuk meningkatkan interaksi dengan memberikan pengalaman cepat dan lancar saat pengguna mengerjakan proyek. Peningkatan ini dicapai dengan menerima permintaan perubahan, memprosesnya, dan kemudian dengan segera memberikan hasilnya. Layanan secara asinkron bertahan pada Dataverse dan tidak memblokir pengguna melakukan operasi lain.
 
-API jadwal proyek mengandalkan Layanan Penjadwalan Proyek untuk menjalankan permintaan yang dijelaskan secara lebih rinci di bagian berikutnya dari topik ini.
+API jadwal Proyek bergantung pada Layanan Penjadwalan Proyek untuk menjalankan permintaan yang dijelaskan secara lebih rinci di bagian selanjutnya dari artikel ini.
 
 API jadwal proyek dirancang untuk berfungsi dengan entitas WBS (struktur rincian kerja) berikut:
 

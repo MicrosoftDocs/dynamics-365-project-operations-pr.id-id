@@ -1,6 +1,6 @@
 ---
 title: Perbarui atribut plug-in untuk menyertakan dimensi harga baru
-description: Topik ini menyediakan informasi tentang memperbarui atribut plug-in untuk dimensi harga.
+description: Artikel ini menyediakan informasi tentang memperbarui atribut plug-in untuk dimensi harga.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913210"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Perbarui atribut plug-in untuk menyertakan dimensi harga baru
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jika Anda tidak menggunakan fitur kuotasi dan kontrak Project Service Automation (PSA), Anda dapat melewati topik ini.
+> Jika Anda tidak menggunakan fitur Project Service Automation (PSA) Quoting and Contracting, Anda dapat melewati artikel ini.
 
-Topik ini mengasumsikan bahwa anda telah menyelesaikan prosedur dalam topik, [membuat bidang kustom dan entitas](create-custom-fields-entities.md), [menambahkan bidang kustom untuk penyiapan harga dan entitas transaksi](field-references.md) serta [Mengonfigurasikan bidang kustom sebagai dimensi harga](set-up-pricing-dimensions.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke topik ini.
+Artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang dan entitas](create-custom-fields-entities.md) kustom, [Menambahkan bidang kustom ke pengaturan harga dan entitas](field-references.md) transaksional, dan [Menyiapkan bidang kustom sebagai dimensi harga](set-up-pricing-dimensions.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini.
 
 Bila detail baris kuotasi dibuat pada halaman **baris kuotasi** untuk baris kuotasi proyek, sistem membuat dua baris perkiraan di background--satu baris untuk sisi biaya perkiraan dan satu untuk sisi penjualan. Ini sama untuk baris kontrak proyek.
 

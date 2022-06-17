@@ -1,25 +1,25 @@
 ---
 title: Memecahkan masalah penanganan kisi Tugas
-description: Pembaruan topik memberikan informasi pemecahan masalah yang diperlukan saat menangani kisi Tugas.
+description: Artikel ini menyediakan informasi pemecahan masalah yang diperlukan saat bekerja di kisi Tugas.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911048"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Memecahkan masalah penanganan kisi Tugas 
 
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-persediaan, penyebaran Lite - faktur penawaran hingga proforma, Project for the Web_
 
-Kisi tugas yang dimanfaatkan adalah Dynamics 365 Project Operations adalah iframe yang di-host dalam Microsoft Dataverse. Oleh karena itu, persyaratan khusus harus dipenuhi untuk memastikan otentikasi dan otorisasi berfungsi dengan benar. Topik ini menjelaskan masalah umum yang dapat mempengaruhi kemampuan untuk menampilkan kisi atau mengelola tugas dalam struktur rincian kerja (WBS).
+Kisi tugas yang dimanfaatkan adalah Dynamics 365 Project Operations adalah iframe yang di-host dalam Microsoft Dataverse. Oleh karena itu, persyaratan khusus harus dipenuhi untuk memastikan otentikasi dan otorisasi berfungsi dengan benar. Artikel ini menguraikan masalah umum yang dapat memengaruhi kemampuan untuk merender grid atau mengelola tugas dalam struktur rincian kerja (WBS).
 
 Masalah umum mencakup:
 

@@ -1,18 +1,18 @@
 ---
 title: Ikhtisar dimensi harga
-description: Topik ini memberikan informasi tentang dimensi harga di Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang dimensi harga di Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918040"
 ---
 # <a name="pricing-dimensions-overview"></a>Ikhtisar dimensi harga
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations dikirim dengan seperangkat dimensi harga default
 
 ![Tangkapan layar dari parameter Project Service dengan "berlaku for penjualan" disorot.](media/PS-OOB-parameters.png)
 
-Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi lebih lanjut, lihat topik berikut. 
+Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi selengkapnya, lihat artikel berikut ini. 
   
   > [!NOTE]
   > Prosedur harus diselesaikan dalam urutan sebagaimana tercantum.

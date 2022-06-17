@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920662"
 ---
 # <a name="work-breakdown-structures-overview"></a>Gambaran umum struktur rincian kerja
 
@@ -35,7 +35,7 @@ Tingkat detail di WBS tergantung pada tingkat akurasi yang diperlukan dalam perk
 
 Sebaliknya, proyek di industri seperti media dan periklanan, perangkat lunak, dan infrastruktur TI cenderung menjadi jenis tersendiri, dan produktivitasnya relatif terhadap pengalaman dan kompetensi individu yang melakukan tugas. Oleh karena itu, industri ini menggunakan WBS untuk mendapatkan perkiraan ukuran proyek, bukan untuk melacak kemajuan proyek secara rinci. 
 
-Membangun WBS adalah proses intensif yang biasanya dilakukan selama periode yang panjang, dan yang memerlukan kolaborasi dan informasi dari berbagai orang. Topik ini menjelaskan bagaimana anda dapat menggunakan peningkatan wbs untuk memenuhi kebutuhan anda akan estimasi dan pelacakan.
+Membangun WBS adalah proses intensif yang biasanya dilakukan selama periode yang panjang, dan yang memerlukan kolaborasi dan informasi dari berbagai orang. Artikel ini menjelaskan bagaimana Anda dapat menggunakan peningkatan WBS untuk memenuhi persyaratan Anda untuk perkiraan dan pelacakan.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prasyarat untuk membuat WBS
 Untuk membuat WBS, Anda harus dapat membuat jadwal kerja dan memperkirakan biaya kerja.
@@ -166,7 +166,7 @@ Finance memiliki tiga tampilan untuk WBS suatu proyek: tampilan perencanaan, tam
 
 ### <a name="planning-view"></a>Tampilan perencanaan
 
-Tampilan perencanaan menampilkan perkiraan terencana atau garis dasar dari informasi jadwal dan biaya. Meskipun tidak ada fitur untuk melacak versi dan garis dasar untuk WBS proyek, nilai dalam tampilan ini ditujukan untuk menunjukkan versi garis dasar. Bagian estimasi jadwal dan estimasi biaya topik ini menjelaskan tampilan ini dan cara menggunakannya untuk membuat wbs.
+Tampilan perencanaan menampilkan perkiraan terencana atau garis dasar dari informasi jadwal dan biaya. Meskipun tidak ada fitur untuk melacak versi dan garis dasar untuk WBS proyek, nilai dalam tampilan ini ditujukan untuk menunjukkan versi garis dasar. Bagian Estimasi jadwal dan Estimasi biaya dari artikel ini menjelaskan tampilan ini dan bagaimana tampilan tersebut digunakan untuk membuat WBS.
 
 ### <a name="effort-tracking-view"></a>Tampilan Pelacakan Upaya
 

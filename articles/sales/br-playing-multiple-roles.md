@@ -1,17 +1,17 @@
 ---
 title: Buat estimasi penjualan dan biaya proyek apabila sumber daya yang dapat dipesan mengisi beberapa peran pada suatu proyek
-description: Topik ini menjelaskan cara menggunakan dimensi harga untuk mendukung estimasi harga dan biaya untuk sumber daya yang mengisi beberapa peran pada satu proyek.
+description: Artikel ini menjelaskan cara menggunakan dimensi harga untuk mendukung perkiraan harga dan penetapan biaya untuk sumber daya yang mengisi beberapa peran pada proyek.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923468"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Buat estimasi penjualan dan biaya proyek apabila sumber daya yang dapat dipesan mengisi beberapa peran pada suatu proyek 
 

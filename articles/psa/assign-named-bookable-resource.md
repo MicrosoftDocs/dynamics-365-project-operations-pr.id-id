@@ -1,6 +1,6 @@
 ---
 title: Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan tetapkan tugas
-description: Topik ini menyediakan informasi tentang cara pemesanan sumber daya bernama untuk tim proyek dan menetapkan tugas.
+description: Artikel ini menyediakan informasi tentang cara memesan sumber daya bernama ke tim proyek dan menugaskannya ke tugas.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919328"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan tetapkan tugas 
 

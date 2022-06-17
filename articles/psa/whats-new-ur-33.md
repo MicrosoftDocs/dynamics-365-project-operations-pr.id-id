@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 33, V3
-description: Topik ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 33, V3.
+description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Project Service Automation Update Release 33, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 063290526c25e7073137fc88408be6a61d2d20ac
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d9c282e8b95b111ce71fb441e4dbb2d04f904e0f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601482"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915420"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-33-v3"></a>Yang baru atau diubah di Project Service Automation Rilis Pembaruan 33, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8601482"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 33. Versi ini memiliki nomor build V3.10.54.98 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juli 2021.
+Artikel ini mencantumkan fitur dan perbaikan yang baru atau berubah untuk Project Service Automation V3, Update Release 33. Versi ini memiliki nomor build V3.10.54.98 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juli 2021.
 
 ## <a name="update-release-33"></a>Pembaruan rilis 33
 

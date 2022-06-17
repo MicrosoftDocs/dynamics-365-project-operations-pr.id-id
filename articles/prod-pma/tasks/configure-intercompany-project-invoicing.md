@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi proyek faktur antarperusahaan
-description: Topik ini menunjukkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi anda.
+description: Artikel ini memperlihatkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi Anda.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916614"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konfigurasi proyek faktur antarperusahaan
 
 [!include [banner](../../includes/banner.md)]
 
-Topik ini menunjukkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi anda. Tugas ini menggunakan himpunan data USSI.
+Artikel ini memperlihatkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi Anda. Tugas ini menggunakan himpunan data USSI.
 
 1. Di panel navigasi, buka **modul > piutang > vendor > semua vendor**.
 2. Di Daftar **semua vendor**, Cari dan pilih rekaman yang diinginkan.

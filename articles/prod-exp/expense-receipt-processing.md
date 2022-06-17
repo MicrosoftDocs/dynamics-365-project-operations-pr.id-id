@@ -1,6 +1,6 @@
 ---
 title: Pemrosesan tanda terima pengeluaran
-description: Topik ini menyediakan informasi tentang pemrosesan pengenalan karakter optik (OCR) untuk tanda terima. Fitur ini dirancang untuk meningkatkan pengalaman pengguna saat laporan pengeluaran dibuat di Microsoft Dynamics 365 Finance.
+description: Artikel ini menyediakan informasi tentang pemrosesan pengenalan karakter optik (OCR) untuk tanda terima. Fitur ini dirancang untuk meningkatkan pengalaman pengguna ketika laporan pengeluaran dibuat di Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 5a72802e3c52b6a9e55ac779aa36c32072dc8b8b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911416"
 ---
 # <a name="expense-receipt-processing"></a>Pemrosesan tanda terima pengeluaran
 
@@ -50,7 +50,7 @@ Untuk membuat pengeluaran, atau mencocokkan pengeluaran dari tanda terima, lakuk
 
 Fitur ini bekerja sama dengan fitur **Konsep baru laporan pengeluaran** untuk membantu menyederhanakan pengalaman pengeluaran. Fitur ini hanya tersedia untuk lingkungan tingkat 2 +, yakni Sandbox dan produksi.
 
-Untuk menggunakan kemampuan biaya lanjutan ini, instal add-in Layanan Manajemen Pengeluaran untuk Microsoft Dynamics 365 Finance, dan aktifkan fitur dalam instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
+Untuk menggunakan kemampuan biaya lanjutan ini, instal add-in Layanan Manajemen Biaya untuk Microsoft Dynamics 365 Finance, dan aktifkan fitur di instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Masuk ke LCS, dan buka lingkungan yang diinginkan.
 2. Buka **rincian lengkap**.

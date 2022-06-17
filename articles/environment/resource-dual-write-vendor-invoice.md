@@ -1,18 +1,18 @@
 ---
 title: Integrasi faktur vendor
-description: Laporan topik memberikan informasi tentang integrasi faktur vendor di Project Operations.
+description: Artikel ini menyediakan informasi tentang integrasi faktur vendor dalam Operasi Proyek.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912060"
 ---
 # <a name="vendor-invoice-integration"></a>Integrasi faktur vendor
 
@@ -21,7 +21,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 Pengadaan terkait proyek di Dynamics 365 Project Operations dapat direkam dengan masuk ke **utang dagang** > **Faktur** > **Faktur vendor Tertunda** dan menggunakan dokumen faktur vendor yang tertunda. Untuk informasi lebih lanjut, lihat [Beli bahan non-stok dengan faktur vendor tertunda](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Sebelum Anda menggunakan fungsi yang dijelaskan di topik ini, lihat dan terapkan konfigurasi yang diperlukan. Untuk informasi lebih lanjut, lihat [Mengaktifkan materi non-stok dan faktur vendor yang tertunda](../procurement/configure-materials-nonstocked.md).
+> Sebelum Anda menggunakan fungsionalitas yang dijelaskan dalam artikel ini, tinjau dan terapkan konfigurasi yang diperlukan. Untuk informasi lebih lanjut, lihat [Mengaktifkan materi non-stok dan faktur vendor yang tertunda](../procurement/configure-materials-nonstocked.md).
 
 Di Project Operations, faktur vendor terkait proyek diposting menggunakan aturan posting khusus:
 
@@ -34,7 +34,7 @@ Di Project Operations, faktur vendor terkait proyek diposting menggunakan aturan
      > [!NOTE]
      > Rincian faktur vendor di Dataverse tidak dapat diedit.
 
-Subledger pajak, subledger vendor, dan posting keuangan lainnya dicatat sebagai berlaku di Dynamics 365 Finance ketika faktur vendor diposting.
+Subledger pajak, subledger vendor, dan posting keuangan lainnya dicatat sebagaimana berlaku di Dynamics 365 Finance saat faktur vendor diposting.
 
 ![Integrasi faktur vendor.](media/DW7VendorInvoice.png)
 

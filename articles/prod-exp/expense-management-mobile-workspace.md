@@ -1,6 +1,6 @@
 ---
 title: Ruang kerja seluler manajemen pengeluaran
-description: Topik ini menyediakan informasi tentang ruang kerja seluler manajemen pengeluaran. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran.
+description: Artikel ini menyediakan informasi tentang ruang kerja seluler Manajemen pengeluaran. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920892"
 ---
 # <a name="expense-management-mobile-workspace"></a>Ruang kerja seluler manajemen pengeluaran
 
-Topik ini menyediakan informasi tentang ruang kerja seluler **manajemen pengeluaran**. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran. Selain itu, pemberi izin dapat menggunakan ruang kerja seluler **manajemen pengeluaran** untuk melihat laporan pengeluaran yang ditetapkan kepadanya, dan menyetujui atau menolak laporan pengeluaran tersebut.
+Artikel ini menyediakan informasi tentang ruang **kerja seluler Manajemen** pengeluaran. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran. Selain itu, pemberi izin dapat menggunakan ruang kerja seluler **manajemen pengeluaran** untuk melihat laporan pengeluaran yang ditetapkan kepadanya, dan menyetujui atau menolak laporan pengeluaran tersebut.
 
 
 Ruang kerja Mobile ini ditujukan untuk digunakan dengan aplikasi mobile Dynamics 365 Unified Ops.

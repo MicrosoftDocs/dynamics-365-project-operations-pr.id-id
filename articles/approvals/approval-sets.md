@@ -1,17 +1,17 @@
 ---
 title: Rangkaian persetujuan
-description: Topik ini menjelaskan cara bekerja dengan rangkaian persetujuan, permintaan, dan subset operasi tersebut.
+description: Artikel ini menjelaskan cara bekerja dengan set persetujuan, permintaan, dan subset dari operasi tersebut.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918086"
 ---
 # <a name="approval-sets"></a>Rangkaian persetujuan
 
@@ -26,16 +26,16 @@ Persetujuan yang diantrekan untuk pemrosesan dapat dilihat di tampilan **Pemrose
 
 Bidang **Usia Rangkaian Persetujuan** mencatat jumlah upaya yang tersisa untuk memproses rangkaian sebelum ditandai sebagai gagal.
 
-Set persetujuan diproses melalui aktivasi berkala berdasarkan **Cloud Flow bernama** Project Service **- Recurrly Schedule Project Approval Sets**. Ini ditemukan dalam **Solusi** bernama **Operasi Proyek**. 
+Set persetujuan diproses melalui aktivasi berkala berdasarkan **Cloud Flow** bernama **Project Service - Recurrently Schedule Project Approval Sets**. Ini ditemukan dalam **Solusi** bernama **Operasi Proyek**. 
 
-Pastikan aliran diaktifkan dengan menyelesaikan langkah-langkah berikut.
+Pastikan alur diaktifkan dengan menyelesaikan langkah-langkah berikut.
 
 1. Sebagai administrator, masuk ke [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. Di sudut kanan atas, beralih ke lingkungan yang Anda gunakan untuk Dynamics 365 Project Operations.
-3. Pilih **Solusi** untuk mencantumkan solusi yang diinstal di lingkungan.
+2. Di sudut kanan atas, beralihlah ke lingkungan yang Anda gunakan untuk Dynamics 365 Project Operations.
+3. Pilih **Solusi** untuk membuat daftar solusi yang diinstal di lingkungan.
 4. Dalam daftar solusi, pilih **Operasi** Proyek.
 5. Ubah filter dari **Semua** ke **Cloud Flows**.
-6. Verifikasi bahwa **aliran Project Service – Repetitively Schedule Project Approval Sets** diatur ke **Aktif**. Jika tidak, pilih alur, lalu pilih **Nyalakan**.
+6. Verifikasi bahwa **alur Project Service – Recurrently Schedule Project Approval Sets** diatur ke **Aktif**. Jika tidak, pilih alur, lalu pilih **Aktifkan**.
 7. Verifikasi bahwa pemrosesan terjadi setiap lima menit dengan **meninjau daftar Pekerjaan** Sistem di **area Pengaturan** dalam lingkungan Operasi Dataverse Proyek Anda.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Persetujuan dan rangkaian persetujuan yang gagal

@@ -1,6 +1,6 @@
 ---
-title: Menyinkronkan perkiraan proyek langsung dari Otomatisasi Layanan Proyek ke Keuangan dan Operasi
-description: Ini topik menjelaskan template dan tugas-tugas mendasar yang digunakan untuk menyinkronkan perkiraan jam proyek dan perkiraan biaya proyek langsung dari Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinkronkan perkiraan proyek langsung dari Project Service Automation ke Finance and Operations
+description: Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan perkiraan jam proyek dan perkiraan biaya proyek langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920846"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Menyinkronkan perkiraan proyek langsung dari Otomatisasi Layanan Proyek ke Keuangan dan Operasi
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinkronkan perkiraan proyek langsung dari Project Service Automation ke Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Ini topik menjelaskan template dan tugas-tugas mendasar yang digunakan untuk menyinkronkan perkiraan jam proyek dan perkiraan biaya proyek langsung dari Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan perkiraan jam proyek dan perkiraan biaya proyek langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas proyek, kategori transaksi pengeluaran, estimasi jam, estimasi pengeluaran, dan penguncian fungsi tersedia dalam versi 8.0.
@@ -69,7 +69,7 @@ Sebelum sinkronisasi perkiraan jam proyek dapat terjadi, Anda harus mensinkronis
 
 ### <a name="power-query"></a>Power Query
 
-Di templat perkiraan jam proyek, Anda harus menggunakan Microsoft Power Query untuk Excel untuk menyelesaikan tugas-tugas ini:
+Dalam templat perkiraan jam proyek, Anda harus menggunakan Microsoft Power Query untuk Excel untuk menyelesaikan tugas-tugas ini:
 
 - Atur ID model perkiraan default yang akan digunakan saat integrasi membuat perkiraan jam baru.
 - Filter rekaman khusus sumber daya dalam tugas yang akan gagal dalam integrasi ke perkiraan jam.
@@ -125,7 +125,7 @@ Sebelum sinkronisasi perkiraan pengeluaran proyek dapat terjadi, Anda harus mens
 
 ### <a name="power-query"></a>Power Query
 
-Dalam templat perkiraan biaya proyek, Anda harus menggunakan Power Query untuk menyelesaikan tugas-tugas berikut:
+Dalam templat perkiraan biaya proyek, Anda harus menggunakannya Power Query untuk menyelesaikan tugas-tugas berikut:
 
 - Filter untuk menyertakan hanya rekaman baris estimasi pengeluaran.
 - Atur ID model perkiraan default yang akan digunakan saat integrasi membuat perkiraan jam baru.
@@ -140,7 +140,7 @@ Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) memiliki filter defau
 
 Untuk memperbarui ID model perkiraan default dalam template, pilih tugas **Estimasi pengeluaran**, lalu klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter**.
 
-- Jika Anda menggunakan templat estimasi biaya Proyek default (PSA ke Fin and Ops), di Power Query, pilih Kondisi **Yang Disisipkan pertama** dari **bagian Langkah** yang Diterapkan. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
+- Jika Anda menggunakan templat Perkiraan biaya proyek (PSA ke Fin dan Ops) default, di Power Query, pilih Kondisi **yang Disisipkan pertama** dari **bagian Langkah-langkah** yang Diterapkan. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
 - Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambahkan Kolom** Bersyarat, dan masukkan nama untuk kolom baru, seperti **ModelID**. Masukkan kondisi untuk kolom, di mana, jika ID baris estimasi tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
 
 #### <a name="transform-the-billing-types"></a>Ubah jenis penagihan

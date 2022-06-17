@@ -1,24 +1,24 @@
 ---
 title: Yang baru di bulan Desember 2020 - Project Operations untuk skenario berbasis stok/produksi
-description: Topik ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Desember 2020 penyebaran Project Operations Lite untuk skenario berbasis produksi/stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Desember 2020 Operasi Proyek untuk skenario berbasis stok/produksi.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911370"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Yang baru atau diubah di Project Operations, Desember 2020 untuk skenario berbasis stok/produksi
 
 _Berlaku untuk: Project Operations untuk skenario berbasis stok/produksi_
 
-Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
+Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
 
   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.15
 

@@ -1,6 +1,6 @@
 ---
 title: Menyesuaikan entri waktu mingguan
-description: Topik ini menyediakan informasi tentang cara menerapkan aturan bisnis kustom yang mendukung praktik organisasi.
+description: Artikel ini memberikan informasi tentang cara menerapkan aturan bisnis kustom yang mendukung praktik organisasi.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918960"
 ---
 # <a name="customize-weekly-time-entry"></a>Menyesuaikan entri waktu mingguan 
 
@@ -46,7 +46,7 @@ Bagian **dimensi** menunjukkan, sebagai heading kolom, Semua dimensi yang dapat 
 - Jenis
 - Status Entri
 
-Bagian **dimensi** tidak memungkinkan pengeditan sebaris. Bagian ini didukung oleh tampilan yang memungkinkan bidang kustom ditambahkan ke kisi entri waktu mingguan. Untuk informasi tentang cara menambahkan bidang kustom, lihat bagian "ekstensibilitas" nanti di topik ini.
+Bagian **dimensi** tidak memungkinkan pengeditan sebaris. Bagian ini didukung oleh tampilan yang memungkinkan bidang kustom ditambahkan ke kisi entri waktu mingguan. Untuk informasi tentang cara menambahkan bidang kustom, lihat bagian "Ekstensibilitas" nanti di artikel ini.
 
 ### <a name="duration"></a>Durasi
 Bagian durasi menampilkan hari dalam seminggu sebagai header kolom. Bagian ini memungkinkan pengeditan sebaris. Setelah baris entri waktu dibuat yang memiliki dimensi yang sesuai, pengguna dapat dengan cepat memasukkan, secara sebaris, jumlah waktu yang dihabiskan pada dimensi tersebut.

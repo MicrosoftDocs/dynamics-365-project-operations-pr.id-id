@@ -1,17 +1,17 @@
 ---
 title: Memperbaiki akuntansi pada draf proposal faktur proyek
-description: Topik ini menjelaskan cara menyesuaikan informasi yang terkait dengan akuntansi pada draf proposal faktur.
+description: Artikel ini menjelaskan cara menyesuaikan informasi terkait akuntansi pada draf proposal faktur.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921214"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Memperbaiki akuntansi pada draf proposal faktur proyek
 
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 *Rincian operasional* untuk faktur proyek dikelola oleh manajer proyek pada faktur pro forma. Rincian ini mencakup keputusan tentang jam, pengeluaran, bahan, atau tahapan yang harus ditagihkan, tarif, serta penerapan jumlah uang muka dan panjar. Setelah mengkonfirmasikan faktur pro forma asli, Anda dapat menyesuaikan rincian operasional dengan membuat dan mengkonfirmasikan [faktur pro forma perbaikan](../proforma-invoicing/corrective-invoices.md).
 
-*Rincian akuntansi* untuk faktur proyek dikelola di dokumen faktur untuk pelanggan. Rincian ini mencakup perhitungan pajak penjualan dan dimensi keuangan yang diterapkan ke faktur. Laporan topik ini memberikan rincian tentang penyesuaian rincian akuntansi ini pada draf proposal faktur proyek.
+*Rincian akuntansi* untuk faktur proyek dikelola di dokumen faktur untuk pelanggan. Rincian ini mencakup perhitungan pajak penjualan dan dimensi keuangan yang diterapkan ke faktur. Artikel ini memberikan detail tentang bagaimana detail akuntansi ini dapat disesuaikan pada draf proposal faktur proyek.
 
 ## <a name="adjust-sales-tax"></a>Menyesuaikan Pajak Penjualan
 
@@ -29,11 +29,11 @@ Grup pajak penjualan penagihan default dan grup pajak penjualan item dapat dises
 
 ### <a name="header-dimensions"></a>Dimensi header
 
-Secara default, dimensi keuangan faktur berasal dari catatan transaksi proyek yang tidak ditagih yang sedang ditagih. Namun, pengaturan sistem memungkinkan Anda menggunakan dimensi keuangan pada header proposal faktur proyek untuk memposting saldo pelanggan. Untuk mengaktifkan fungsi ini, pilih **Izinkan pembaruan ke dimensi proyek untuk piutang** akun pada tab Keuangan **pada** **halaman Parameter** manajemen dan akuntansi Proyek.
+Secara default, dimensi keuangan faktur berasal dari catatan transaksi proyek yang tidak ditagih yang sedang ditagih. Namun, pengaturan sistem memungkinkan Anda menggunakan dimensi keuangan pada header proposal faktur proyek untuk memposting saldo pelanggan. Untuk mengaktifkan fungsi ini, pilih **Izinkan pembaruan ke dimensi proyek untuk piutang** pada tab **Keuangan** di **halaman Manajemen proyek dan parameter** akuntansi.
 
-Dimensi keuangan pada header faktur dapat diedit sebelum faktur diposting. **Pada halaman Proposal** faktur proyek, beralih ke **tampilan Header**, lalu edit nilai pada **tab Dimensi** keuangan.
+Dimensi keuangan pada header faktur dapat diedit sebelum faktur diposting. Pada halaman **Proposal** faktur proyek, beralihlah **ke tampilan Header**, lalu edit nilai pada tab **Dimensi** keuangan.
 
-Tampilan **Header** hanya tersedia setelah administrator sistem mengaktifkan **proposal faktur Proyek Penggunaan dan formulir jurnal faktur dengan fitur Tampilan** Header dan Lines di **ruang kerja manajemen** fitur. Fitur ini memerlukan pembaruan Keuangan 10.0.25 atau yang lebih baru.
+Tampilan **Header** hanya tersedia setelah administrator sistem mengaktifkan **proposal faktur Gunakan Proyek dan formulir jurnal faktur dengan fitur tampilan** Header dan Baris di **ruang kerja Manajemen** fitur. Fitur ini memerlukan pembaruan Keuangan 10.0.25 atau yang lebih baru.
 
 ### <a name="line-dimensions"></a>Dimensi garis
 

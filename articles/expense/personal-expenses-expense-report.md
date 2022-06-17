@@ -1,18 +1,18 @@
 ---
 title: Menangani Pengeluaran pribadi pada laporan pengeluaran
-description: Informasi topik ini berisi informasi tentang cara menangani pengeluaran pribadi yang ditanggung oleh karyawan saat bepergian untuk keperluan bisnis.
+description: Artikel ini memberikan informasi tentang cara bekerja dengan pengeluaran pribadi yang dikeluarkan oleh karyawan saat bepergian untuk tujuan bisnis.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: d35bf6960bb60e2ad4184e1b5f188695a3525be0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1cda5151a32482f92c69402bcc0056d7b6572db8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922272"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Menangani Pengeluaran pribadi pada laporan pengeluaran
 

@@ -1,6 +1,6 @@
 ---
 title: Metode alokasi pemesanan
-description: Topik ini memberikan informasi tentang cara kerja metode alokasi pemesanan dalam Project Operations.
+description: Artikel ini memberikan informasi tentang cara kerja metode alokasi pemesanan dalam Operasi Proyek.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912750"
 ---
 # <a name="booking-allocation-methods"></a>Metode alokasi pemesanan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. topik ini menjelaskan cara masing-masing metode bekerja, dan metode yang dapat menyebabkan pemesanan berlebih sumber daya.
+Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. Artikel ini menjelaskan cara kerja setiap metode, dan metode mana yang dapat menyebabkan sumber daya pemesanan yang berlebihan.
 
 ## <a name="booking-allocation-methods"></a>Metode alokasi pemesanan
 

@@ -1,35 +1,35 @@
 ---
 title: Asal transaksi - Tautkan aktual ke sumbernya
-description: Ini topik menjelaskan bagaimana konsep asal transaksi digunakan untuk menghubungkan aktual ke catatan sumber asli, seperti entri waktu, entri biaya, atau log penggunaan material.
+description: Artikel ini menjelaskan bagaimana konsep asal transaksi digunakan untuk menautkan aktual ke catatan sumber asli, seperti entri waktu, entri pengeluaran, atau log penggunaan material.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f1beff392ddd449a930d38016ca6083fea97953b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921306"
 ---
 # <a name="transaction-origins---link-actuals-to-their-source"></a>Asal transaksi - Tautkan aktual ke sumbernya
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Catatan asal transaksi dibuat untuk menautkan aktual ke sumbernya, seperti entri waktu, entri biaya, log penggunaan material, dan faktur proyek.
+Catatan asal transaksi dibuat untuk menautkan aktual ke sumbernya, seperti entri waktu, entri pengeluaran, log penggunaan material, dan faktur proyek.
 
 Contoh berikut menunjukkan pemrosesan tipikal waktu entri dalam siklus hidup proyek Project Operations.
 
-> ![Memproses keseluruhan waktu dalam Operasi Proyek.](media/basic-guide-17.png)
+> ![Memproses seluruh waktu dalam Operasi Proyek.](media/basic-guide-17.png)
  
 1. Pengajuan entri waktu menyebabkan dua baris jurnal dibuat: satu untuk biaya dan satu untuk penjualan yang tidak ditagih.
 2. Persetujuan akhirnya dari entri waktu menyebabkan dua aktual dibuat: satu untuk biaya dan satu untuk penjualan yang tidak ditagih.
 3. Saat pengguna membuat faktur proyek, transaksi baris faktur dibuat menggunakan data dari nilai aktual penjualan yang belum ditagih.
 4. Setelah faktur dikonfirmasi, dua aktual baru dibuat: pembalikan aktual penjualan yang belum ditagih dan penjualan tertagih.
 
-Setiap peristiwa dalam alur kerja pemrosesan ini memicu pembuatan catatan di entitas asal Transaksi untuk membantu membangun jejak Relasi antara catatan ini yang dibuat di seluruh entri waktu, baris jurnal, aktual, dan detail baris faktur.
+Setiap peristiwa dalam alur kerja pemrosesan ini memicu pembuatan rekaman di entitas asal Transaksi untuk membantu membangun jejak Relasi antara catatan ini yang dibuat di seluruh entri waktu, baris jurnal, aktual, dan detail baris faktur.
 
 Tabel berikut Menampilkan rekaman di entitas asal transaksi untuk alur kerja sebelumnya.
 
@@ -70,7 +70,7 @@ Tabel berikut Menampilkan rekaman di entitas asal transaksi untuk alur kerja seb
 | GUID faktur Koreksi      | Faktur                  | GUID Aktual penjualan Belum Tertagih Baru    | Aktual                            |                          |
 
 
-Ilustrasi berikut menunjukkan tautan yang dibuat antara aktual dan sumbernya di berbagai acara menggunakan contoh entri waktu dalam Operasi Proyek.
+Ilustrasi berikut menunjukkan link yang dibuat antara aktual dan sumbernya di berbagai peristiwa menggunakan contoh entri waktu dalam Operasi Proyek.
 
 > ![Bagaimana aktual ditautkan ke catatan sumber dalam Operasi Proyek.](media/TransactionOrigins.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Pertimbangan peningkatan - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x ke versi 3
-description: Topik ini menyediakan informasi tentang pertimbangan yang harus anda buat saat melakukan upgrade dari versi Project Service Automation 2. x atau 1. x ke versi 3.
+description: Artikel ini menyediakan informasi tentang pertimbangan yang harus Anda buat ketika Anda meng-upgrade dari Project Service Automation versi 2.x atau 1.x ke versi 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918914"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan peningkatan – PSA versi 2.x atau 1.x ke versi 3
 
@@ -40,7 +40,7 @@ Di Project Service Automation versi 2 dan versi 1, penetapan tugas disimpan seba
 
 Dalam versi 3 dari Project Service Automation, skema yang mendasari penetapan sumber daya yang dapat dipesan untuk tugas telah diubah. Tugas baris telah ditolak dan ada relasi 1:1 langsung antara tugas di **entitas tugas** dan anggota tim di entitas **penetapan sumber daya**. Tugas yang ditetapkan ke anggota tim proyek sekarang disimpan langsung dalam entitas tugas sumber daya.  
 
-Perubahan ini mempengaruhi peningkatan proyek yang ada yang memiliki tugas sumber daya untuk nama sumber daya dapat dipesan bernama dan sumber daya generik pada tim proyek. Topik ini memberikan pertimbangan bahwa anda akan perlu memperhitungkan proyek anda saat anda mengupgrade ke versi 3. 
+Perubahan ini mempengaruhi peningkatan proyek yang ada yang memiliki tugas sumber daya untuk nama sumber daya dapat dipesan bernama dan sumber daya generik pada tim proyek. Artikel ini memberikan pertimbangan yang perlu Anda perhitungkan untuk proyek Anda saat Anda meningkatkan ke versi 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tugas ditetapkan ke sumber daya bernama
 Menggunakan entitas tugas yang mendasari, tugas di versi 2 dan versi 1 memungkinkan anggota tim untuk menggambarkan peran selain dari peran yang ditentukan default. Misalnya, Pramudita Cahyadewi, yang secara default menetapkan peran manajer program, dapat ditetapkan ke tugas dengan peran pengembang. Di versi 3, peran anggota tim yang disebutkan selalu default, sehingga tugas yang diberikan pada Pramudita Cahyadewi menggunakan peran default Pramudita sebagai manajer program.

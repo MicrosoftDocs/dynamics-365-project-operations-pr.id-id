@@ -1,17 +1,17 @@
 ---
 title: Menentukan jenis penyebaran Anda
-description: Topik ini memberikan informasi untuk membantu Anda menentukan jenis penyebaran Project operations yang benar untuk perusahaan Anda.
+description: Artikel ini menyediakan informasi untuk membantu Anda menentukan jenis penyebaran operasi Proyek yang benar untuk perusahaan Anda.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 592c1bfdaf5ea6bdbf6c67bc5b82dd5cf979b367
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912198"
 ---
 # <a name="determine-your-deployment-type"></a>Menentukan jenis penyebaran Anda
 
@@ -25,7 +25,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan Dynamics yang lama menggunakan Dynamics 365 Project Service Automation
 Project Operations mencakup kemampuan yang disertakan dengan Project Service Automation. Jalur peningkatan akan dirilis untuk pelanggan ini di rilis 2021 gelombang 1.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan Dynamics 365 Finance yang sudah ada menggunakan manajemen proyek dan akuntansi 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan Dynamics 365 Finance yang ada menggunakan manajemen dan akuntansi Proyek 
 
 Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakannya sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
 

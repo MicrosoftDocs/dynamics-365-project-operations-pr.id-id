@@ -1,6 +1,6 @@
 ---
 title: Unit organisasi
-description: Ini topik menjelaskan konsep unit organisasi, dan menjelaskan cara membuat dan memelihara unit organisasi di Microsoft Dynamics 365 Project Operations.
+description: Artikel ini menjelaskan konsep unit organisasi, dan menjelaskan cara membuat dan memelihara unit organisasi di Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921628"
 ---
 # <a name="organizational-units-overview"></a>Gambaran umum unit organisasi
 
-Di Microsoft Dynamics 365 Project Operations, *unit* organisasi adalah kelompok atau divisi yang berbeda dalam perusahaan jasa profesional yang menggunakan sumber daya yang dapat ditagih yang memiliki tarif biaya.
+Di Microsoft Dynamics 365 Project Operations, *unit* organisasi adalah grup atau divisi yang berbeda di perusahaan layanan profesional yang menggunakan sumber daya yang dapat ditagih yang memiliki tarif biaya.
 
-Untuk perusahaan jasa profesional yang menggunakan sumber daya teknis di berbagai bidang praktik atau lini bisnis, biaya untuk mengisi peran dapat bervariasi, tergantung pada area praktik atau lini bisnis tempat peran tersebut diisi. Dalam skenario ini, konsep unit organisasi membantu dengan menyediakan cara untuk mengelompokkan satu set peran yang dapat ditagih dalam divisi perusahaan yang memiliki struktur biaya yang berbeda untuk peran tersebut.
+Untuk perusahaan jasa profesional yang menggunakan sumber daya teknis di berbagai area praktik atau lini bisnis, biaya untuk mengisi peran dapat bervariasi, tergantung pada area praktik atau lini bisnis tempat peran diisi. Dalam skenario ini, konsep unit organisasi membantu dengan menyediakan cara untuk mengelompokkan serangkaian peran yang dapat ditagih dalam divisi perusahaan yang memiliki struktur biaya yang berbeda untuk peran tersebut.
 
 ## <a name="the-concept-of-organizational-units-in-project-operations"></a>Konsep unit organisasi dalam Operasi Proyek
 
@@ -39,7 +39,7 @@ Satu atau beberapa daftar harga biaya dapat dilampirkan ke setiap unit organisas
 - Daftar harga harus dalam mata uang unit organisasi.
 - Daftar harga harus berupa daftar harga biaya.
 
-Selain itu, entitas Sumber Daya menyertakan atribut untuk unit organisasi. Setiap sumber daya dapat ditetapkan ke satu unit organisasi.
+Selain itu, entitas Resource menyertakan atribut untuk unit organisasi. Setiap sumber daya dapat ditetapkan ke satu unit organisasi.
 
 ### <a name="roles-of-organizational-units"></a>Peran Unit Organisasi
 
@@ -60,9 +60,9 @@ Entitas Organisasi di Dynamics 365 mewakili nama instans Dynamics 365 global. Na
 
 Entitas unit organisasi mewakili grup atau divisi di perusahaan global. Grup atau divisi ini memiliki seperangkat peran dan daftar harga biaya untuk peran tersebut, dan peran serta daftar harga berbeda dari peran dan daftar harga grup atau divisi lain di perusahaan.
 
-Saat Operasi Proyek diinstal, unit organisasi default dibuat berdasarkan organisasi. Semua sumber daya yang ada ditetapkan ke unit organisasi default. Jika ada pengguna atau sumber daya Active Directory baru yang diimpor ke Dynamics 365, proses impor pengguna menetapkannya ke unit organisasi default dalam Operasi Proyek.
+Ketika Operasi Proyek diinstal, unit organisasi default dibuat berdasarkan organisasi. Semua sumber daya yang ada ditetapkan ke unit organisasi default. Jika ada pengguna atau sumber daya Direktori Aktif baru yang diimpor ke Dynamics 365, proses impor pengguna menetapkan mereka ke unit organisasi default dalam Operasi Proyek.
 
-#### <a name="how-does-the-organizational-unit-entity-differ-from-the-business-unit-entity"></a>Bagaimana entitas Unit Organisasi berbeda dari entitas Unit Bisnis?
+#### <a name="how-does-the-organizational-unit-entity-differ-from-the-business-unit-entity"></a>Apa perbedaan entitas Unit Organisasi dengan entitas Unit Bisnis?
 
 Di Dynamics 365, entitas unit bisnis adalah konstruk keamanan. Asosiasi pengguna dengan unit bisnis menentukan entitas dan rekaman entitas yang dapat diakses pengguna. Ia juga menentukan izin (buat, baca, tulis, Hapus, lampirkan, Lampirkan ke, tetapkan, atau bagikan) yang dimiliki pengguna untuk rekaman entitas tersebut.
 
@@ -72,11 +72,11 @@ Bila Anda menerapkan Dynamics 365, Optimalkan otorisasi keamanan untuk hierarki 
 
 **Contoh yang menunjukkan satu potensi perbedaan dalam pemodelan unit organisasi dan unit bisnis**
 
-Aswono, Ltd. memiliki praktik Teknologi Microsoft yang berkembang. Panji dan Nirmala adalah pengembang C\#, namun Nirmala berada di Amerika Serikat, sedangkan Panji berada di India. Sebagian besar keterlibatan proyek membutuhkan sumber daya dari Contoso India dan Contoso AS, dan Prakash dan Tricia memerlukan tingkat akses keamanan yang sama ke proyek-proyek di area praktik ini. Namun, biaya pengembang dari Aswono India berbeda secara signifikan dari biaya pengembang dari Aswono US.
+Aswono, Ltd. memiliki praktik Teknologi Microsoft yang berkembang. Panji dan Nirmala adalah pengembang C\#, namun Nirmala berada di Amerika Serikat, sedangkan Panji berada di India. Sebagian besar keterlibatan proyek memerlukan sumber daya dari Contoso India dan Contoso AS, dan Prakash dan Tricia memerlukan tingkat akses keamanan yang sama ke proyek-proyek di area praktik ini. Namun, biaya pengembang dari Aswono India berbeda secara signifikan dari biaya pengembang dari Aswono US.
 
 Berikut adalah cara optimal untuk merancang skenario ini dengan menggunakan Dynamics 365 dan Project Operations.
 
-1. Buat praktik Teknologi Microsoft sebagai unit bisnis, dan kaitkan Panji dan Nirmala dengannya. Dengan cara ini, Anda membantu memastikan bahwa kedua karyawan memiliki tingkat akses keamanan yang sama ke proyek apa pun di area praktik tersebut. Keduanya akan dapat memeriksa kemajuan dan melaporkan waktu, biaya, penggunaan material, dan pembaruan tugas.
+1. Buat praktik Teknologi Microsoft sebagai unit bisnis, dan kaitkan Panji dan Nirmala dengannya. Dengan cara ini, Anda membantu memastikan bahwa kedua karyawan memiliki tingkat akses keamanan yang sama ke proyek apa pun di area praktik tersebut. Mereka berdua akan dapat memeriksa kemajuan dan melaporkan waktu, pengeluaran, penggunaan materi, dan pembaruan tugas.
 2. Buat dua unit organisasi untuk membantu memastikan bahwa biaya untuk proyek tercermin dengan benar.
 3. Kaitkan Tricia dengan Contoso AS dan Prakash dengan Contoso India.
 4. Tetapkan daftar harga biaya yang sesuai ke kedua unit organisasi. Dengan cara ini, Anda membantu memastikan bahwa biaya yang dicatat pada proyek untuk Prakash dan Tricia secara akurat mencerminkan perbedaan biaya antara Contoso AS dan Contoso India.
@@ -99,20 +99,20 @@ Harga penjualan biasanya unik untuk area geografis atau pasar di mana Layanan di
 
 Dalam Operasi Proyek, daftar harga penjualan dapat dikaitkan dengan pelanggan dan wilayah penjualan. Entitas transaksional seperti Peluang, Penawaran, Kontrak Proyek, dan Proyek menggunakan daftar harga penjualan yang dilampirkan ke akun pelanggan atau wilayah penjualan untuk menentukan tarif tagihan dan potensi pendapatan untuk keterlibatan proyek.
 
-Daftar harga biaya dikaitkan dengan unit organisasi. Entitas transaksional seperti Peluang, Penawaran, Kontrak Proyek, dan Proyek menggunakan daftar harga biaya yang dilampirkan ke unit kontraktor untuk menentukan biaya untuk keterlibatan proyek.
+Daftar harga biaya dikaitkan dengan unit organisasi. Entitas transaksional seperti Peluang, Penawaran, Kontrak Proyek, dan Proyek menggunakan daftar harga biaya yang dilampirkan pada unit kontrak untuk menentukan biaya untuk keterlibatan proyek.
 
 #### <a name="are-organizational-units-hierarchical-in-project-operations"></a>Apakah unit organisasi hierarki dalam Operasi Proyek?
 
-Tidak. Dalam rilis Operasi Proyek saat ini, unit organisasi tidak hierarki. Oleh karena itu, Anda tidak dapat melakukan tugas-tugas berikut:
+Tidak. Dalam rilis Operasi Proyek saat ini, unit organisasi tidak hierarki. Oleh karena itu, Anda tidak dapat melakukan tugas berikut:
 
 - Konfigurasikan pola untuk memasukkan harga biaya default yang melintasi hierarki.
-- Melaporkan pendapatan atau biaya yang digulung pada tingkat hierarki unit organisasi yang berbeda.
+- Melaporkan pendapatan atau biaya yang digulung di berbagai tingkat hierarki unit organisasi.
 
 #### <a name="were-a-big-multinational-firm-that-has-a-complex-multilevel-hierarchy-of-cost-centers-divisions-and-billing-offices-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Kami adalah perusahaan multinasional besar yang memiliki hierarki pusat biaya, divisi, dan kantor penagihan yang kompleks dan bertingkat. Bagaimana kita bisa menggunakan konsep unit organisasi dengan sebaik-baiknya dalam versi Operasi Proyek saat ini?
 
-Ketika Anda memiliki hierarki kompleks pusat biaya, divisi, kantor penagihan, dan sebagainya, siapkan simpul daun hierarki itu sebagai unit organisasi yang berbeda.
+Ketika Anda memiliki hierarki kompleks pusat biaya, divisi, kantor penagihan, dan sebagainya, siapkan simpul daun hierarki tersebut sebagai unit organisasi yang berbeda.
 
-Contoh berikut menunjukkan hierarki tipikal.
+Contoh berikut menunjukkan hierarki umum.
 
 **Aswono India**
 
@@ -151,24 +151,24 @@ Jika hierarki Anda menyerupai contoh ini, Anda harus mengaturnya sebagai daftar 
 
 #### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-concept-of-organizational-units-in-the-current-version-of-project-operations"></a>Kami adalah perusahaan layanan profesional kecil yang beroperasi hanya sebagai satu divisi. Bagaimana kita bisa menggunakan konsep unit organisasi dengan sebaik-baiknya dalam versi Operasi Proyek saat ini?
 
-Jika perusahaan Anda beroperasi sebagai satu unit yang memiliki satu daftar harga biaya, Anda tidak perlu mengkonfigurasi unit organisasi apa pun. Instalasi Operasi Proyek membuat satu unit organisasi default yang memiliki nama yang sama dengan organisasi. Secara default, semua sumber daya ditetapkan ke unit organisasi ini. Bila sistem memerlukan unit organisasi untuk dipilih, unit organisasi ini dipilih secara default.
+Jika perusahaan Anda beroperasi sebagai satu unit yang memiliki satu daftar harga biaya, Anda tidak perlu mengkonfigurasi unit organisasi apa pun. Penginstalan Operasi Proyek membuat satu unit organisasi default yang memiliki nama yang sama dengan organisasi. Secara default, semua sumber daya ditetapkan ke unit organisasi ini. Bila sistem memerlukan unit organisasi untuk dipilih, unit organisasi ini dipilih secara default.
 
-#### <a name="when-a-project-is-created-from-a-quote-or-project-contract-line-the-default-contracting-unit-comes-from-the-quote-or-project-contract-what-is-the-default-contracting-unit-if-a-project-is-created-before-sales-entities-such-as-quote-or-project-contract"></a>Saat proyek dibuat dari baris kuotasi atau kontrak proyek, unit kontrak default berasal dari kuotasi atau kontrak proyek. Apa itu unit kontrak default jika proyek dibuat sebelum entitas penjualan seperti Penawaran atau Kontrak Proyek?
+#### <a name="when-a-project-is-created-from-a-quote-or-project-contract-line-the-default-contracting-unit-comes-from-the-quote-or-project-contract-what-is-the-default-contracting-unit-if-a-project-is-created-before-sales-entities-such-as-quote-or-project-contract"></a>Saat proyek dibuat dari baris kuotasi atau kontrak proyek, unit kontrak default berasal dari kuotasi atau kontrak proyek. Apa itu unit kontrak default jika proyek dibuat sebelum entitas penjualan seperti Quote atau Project Contract?
 
-Saat proyek dibuat sendiri, unit kontrak default dari proyek didasarkan pada pengguna yang membuatnya. Pengguna tersebut juga merupakan manajer proyek default. Jika proyek dipetakan ke entitas penjualan seperti penawaran atau kontrak proyek, unit kontraktor proyek didasarkan pada entitas penjualan sebagai gantinya. Dalam kasus ini, perkiraan proyek dapat dihitung ulang, karena daftar harga biaya digunakan untuk menghitung perubahan perkiraan biaya jika unit kontrak diubah. Daftar harga jual digunakan untuk menghitung estimasi penjualan yang akan diubah sehingga sinkron dengan daftar harga proyek penawaran.
+Saat proyek dibuat sendiri, unit kontrak default dari proyek didasarkan pada pengguna yang membuatnya. Pengguna tersebut juga merupakan manajer proyek default. Jika proyek dipetakan ke entitas penjualan seperti kutipan atau kontrak proyek, unit kontrak proyek didasarkan pada entitas penjualan sebagai gantinya. Dalam kasus ini, perkiraan proyek dapat dihitung ulang, karena daftar harga biaya digunakan untuk menghitung perubahan perkiraan biaya jika unit kontrak diubah. Daftar harga penjualan digunakan untuk menghitung perkiraan penjualan yang akan diubah sehingga sinkron dengan daftar harga proyek dari kutipan tersebut.
 
 Bidang **Unit** Kontrak dan **Mata Uang** proyek dikunci untuk diedit, karena harus sinkron dengan nilai entitas penjualan (kutipan atau kontrak proyek) tempat proyek dipetakan.
 
 ## <a name="create-and-maintain-organizational-units-in-project-operations"></a>Membuat dan memelihara unit organisasi dalam Operasi Proyek
 
-Untuk membuat unit organisasi dalam Operasi Proyek, ikuti langkah-langkah berikut.
+Untuk membuat unit organisasi di Operasi Proyek, ikuti langkah-langkah berikut.
 
-1. **Buka Pengaturan \> Unit** Organisasi.
+1. Buka **Pengaturan \> Unit** Organisasi.
 2. Pilih **baru**.
-3. Di **area Umum**, di **bidang Nama**, masukkan nama untuk unit organisasi. Kemudian atur bidang lainnya sesuai kebutuhan.
-4. Pilih **Simpan** untuk membuat rekaman sehingga Anda dapat terus mengeditnya.
-5. Di bawah **Daftar** Harga Biaya, pilih tanda plus (**+**) untuk menambahkan daftar harga. Anda hanya dapat menambahkan daftar harga yang memiliki konteks Biaya **di** sini.
-6. **Di bidang Nama**, pilih tombol **Pencarian**, dan pilih daftar harga yang ingin Anda sediakan untuk unit organisasi. Terus tambahkan daftar harga sesuai kebutuhan.
+3. Di **area Umum**, di **bidang Nama**, masukkan nama untuk unit organisasi. Kemudian atur bidang lain sesuai kebutuhan.
+4. Pilih **Simpan** untuk membuat catatan sehingga Anda bisa terus mengeditnya.
+5. Di bawah **Daftar** Harga Biaya, pilih tanda plus (**+**) untuk menambahkan daftar harga. Anda hanya dapat menambahkan daftar harga yang memiliki **konteks Biaya** di sini.
+6. **Di bidang Nama**, pilih tombol **Cari**, dan pilih daftar harga yang ingin Anda sediakan untuk unit organisasi. Terus tambahkan daftar harga sesuai kebutuhan.
 7. Setelah selesai menambahkan daftar harga, pilih **Simpan** di sudut kanan bawah halaman.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

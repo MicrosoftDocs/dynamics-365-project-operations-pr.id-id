@@ -1,23 +1,23 @@
 ---
 title: Menambahkan langganan Azure ke proyek LCS
-description: Topik ini menyediakan informasi tentang cara menyambungkan langganan Azure ke proyek lcs.
+description: Artikel ini menyediakan informasi tentang cara menyambungkan langganan Azure Anda ke proyek LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912152"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Lingkungan host Cloud harus disebarkan menggunakan langganan Azure yang ada. Topik ini menjelaskan cara menyambungkan langganan Azure yang ada ke proyek lcs. 
+Lingkungan host Cloud harus disebarkan menggunakan langganan Azure yang ada. Artikel ini menjelaskan cara menyambungkan langganan Azure anda yang sudah ada ke proyek LCS. 
 
 ## <a name="grant-admin-consent"></a>Memberikan izin admin
 
@@ -59,7 +59,7 @@ Otorisasi sekarang selesai.
 2. Masukkan ID langganan Azure Anda. Anda dapat menemukan ID langganan Azure di [portal Azure](https://ms.portal.azure.com/), dalam  **pengaturan**  di kiri bawah layar.
 3. Di bidang **Konfigurasikan untuk menggunakan Azure Resource Manager**, pilih **ya**.
 4. Pastikan domain penyewa AAD langganan Azure cocok dengan langganan Azure pemilik domain yang Anda gunakan, lalu pilih **berikutnya**.
-5. Di layar **konfigurasi Microsoft Azure**, pilih **berikutnya** untuk mengonfirmasi. Jika Anda menerima kesalahan pada layar ini, kembali ke bagian [menyediakan akses Dynamics Deployment Services ke langganan Azure](#provide) di topik ini, dan pastikan Anda telah menyelesaikan semua langkah.
+5. Di layar **konfigurasi Microsoft Azure**, pilih **berikutnya** untuk mengonfirmasi. Jika Anda menerima kesalahan di layar ini, kembali ke bagian [Menyediakan akses Dynamics Deployment Services ke langganan](#provide) Azure dalam artikel ini dan pastikan Anda telah menyelesaikan semua langkah.
 6. Unduh Sertifikat Manajemen Azure ke folder lokal di komputer Anda. Minta administrator langganan Azure untuk mengunggah sertifikat ke Portal Manajemen Azure dengan memilih langganan dan masuk ke **Pengaturan** > **Manajemen Sertifikat**. Sertifikat ini memungkinkan LCS berkomunikasi dengan Azure atas nama Anda. Anda dapat melewatkan langkah ini jika pengguna Anda memiliki akses ke langganan.
 7. Pilih  **Selanjutnya**.
 8. Pilih kawasan Azure untuk disebarkan, lalu pilih pusat data yang dekat dengan lokasi Anda berencana menggunakan sistem ini.

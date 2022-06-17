@@ -1,6 +1,6 @@
 ---
 title: Unit dan grup unit
-description: Topik ini memberikan informasi tentang cara membuat unit dan grup unit di Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang cara membuat unit dan grup unit di Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921444"
 ---
 # <a name="units-and-unit-groups"></a>Unit dan grup unit
 
@@ -28,7 +28,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Unit adalah kuantitas atau pengukuran tempat Anda menjual produk atau layanan. Misalnya, jika Anda menjual perlengkapan berkebun, Anda mungkin menjual benih dalam satuan paket, kotak, dan palet. Grup unit adalah kumpulan unit berbeda ini.
 
-Untuk menyelesaikan langkah-langkah dalam topik ini, pastikan Anda telah ditetapkan ke peran Administrator sistem, atau manajer Sales Professional, atau memiliki izin yang setara.
+Untuk menyelesaikan langkah-langkah dalam artikel ini, pastikan Anda telah ditetapkan ke peran Administrator Sistem atau Manajer Profesional Penjualan atau memiliki izin yang setara.
 
 ## <a name="create-a-unit-group"></a>Membuat grup unit
 

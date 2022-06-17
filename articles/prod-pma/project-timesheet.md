@@ -1,6 +1,6 @@
 ---
 title: Aplikasi seluler Project Timesheet
-description: Topik ini menyediakan informasi tentang aplikasi mobile Microsoft Dynamics 365 Project Timesheet. Aplikasi seluler Project Timesheet memungkinkan pengguna memasukkan dan menyetujui lembar waktu untuk proyek di perangkat selularnya.
+description: Artikel ini menyediakan informasi tentang Microsoft Dynamics 365 Project Timesheet aplikasi seluler. Aplikasi seluler Project Timesheet memungkinkan pengguna memasukkan dan menyetujui lembar waktu untuk proyek di perangkat selularnya.
 author: abruer
 ms.date: 04/08/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923974"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikasi seluler Project Timesheet
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683132"
 
 ## <a name="overview"></a>Gambaran Umum
 
-Aplikasi seluler Microsoft Dynamics 365 Project Timesheet memungkinkan pengguna memasukkan dan menyetujui lembar waktu untuk proyek di perangkat selularnya (iPhone or Android). Aplikasi seluler ini menampilkan fungsionalitas lembar waktu yang berada di area manajemen Proyek dan akuntansi Dynamics 365 Finance, meningkatkan produktivitas dan efisiensi pengguna, serta memungkinkan entri dan persetujuan timesheet proyek yang tepat waktu.
+Aplikasi seluler Microsoft Dynamics 365 Project Timesheet memungkinkan pengguna memasukkan dan menyetujui lembar waktu untuk proyek di perangkat selularnya (iPhone or Android). Aplikasi seluler ini menampilkan fungsionalitas lembar waktu yang berada di area manajemen proyek dan akuntansi Dynamics 365 Finance, meningkatkan produktivitas dan efisiensi pengguna, serta memungkinkan entri dan persetujuan lembar waktu proyek yang tepat waktu.
 
 ## <a name="download-and-install-the-mobile-app"></a>Men-download dan menginstal aplikasi seluler
 

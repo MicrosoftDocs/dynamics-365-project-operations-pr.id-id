@@ -1,17 +1,17 @@
 ---
 title: Membuat transaksi antarperusahaan
-description: Topik ini memberikan informasi tentang cara membuat transaksi antarperusahaan.
+description: Artikel ini menyediakan informasi tentang cara membuat transaksi antar perusahaan.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: da6fd8e0e6bfe2e2543f5c4a453ed769e412f1e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919374"
 ---
 # <a name="create-intercompany-transactions"></a>Membuat transaksi antarperusahaan
 
@@ -30,7 +30,7 @@ Apabila transaksi antarperusahaan disetujui, transaksi aktual berikut ini akan d
 
 Biaya, biaya unit sumber daya, dan harga transaksi penjualan unit antarorganisasi, serta mata uang didorong oleh **unit organisasi**. Hal ini penting untuk diingat ketika memutuskan bagaimana membuat struktur perusahaan dan unit organisasi dalam penerapan Anda.
 
-Saat Anda membuat peluang, kuotasi, kontrak proyek, dan record proyek, sistem akan memverifikasi bahwa mata uang unit kontrak sesuai dengan mata uang akuntansi perusahaan kontrak. Bila tidak sama, record ini tidak dapat dibuat. Mata uang unit organisasi ditentukan di Dynamics 365 Project Operations dengan membuka **Dataverse** > **Pengaturan** > **Unit Organisasi**. Mata uang akuntansi perusahaan didefinisikan dalam Dynamics 365 Finance dengan pergi ke **General Ledger** > **Ledger setup** > **Ledger**. Mata uang disinkronisasikan dengan lingkungan Dataverse Anda menggunakan peta Penulisan Ganda Buku Besar.
+Saat Anda membuat peluang, kuotasi, kontrak proyek, dan record proyek, sistem akan memverifikasi bahwa mata uang unit kontrak sesuai dengan mata uang akuntansi perusahaan kontrak. Bila tidak sama, record ini tidak dapat dibuat. Mata uang unit organisasi ditentukan di Dynamics 365 Project Operations dengan membuka **Dataverse** > **Pengaturan** > **Unit Organisasi**. Mata uang akuntansi perusahaan didefinisikan dalam Dynamics 365 Finance dengan pergi ke **Buku Besar Buku Besar ledger** > **setup** > **Ledger**. Mata uang disinkronisasikan dengan lingkungan Dataverse Anda menggunakan peta Penulisan Ganda Buku Besar.
 
 Sistem akan membuat biaya unit sumber daya dan nilai aktual penjualan unit antarorganisasi dalam situasi berikut:
 

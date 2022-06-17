@@ -1,6 +1,6 @@
 ---
 title: Gunakan sumber daya yang dapat dipesan sebagai dimensi harga
-description: Topik ini menyediakan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga.
+description: Artikel ini memberikan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916108"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Gunakan sumber daya yang dapat dipesan sebagai dimensi harga
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Topik ini menyediakan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika anda belum membuat solusi dimensi harga baru untuk organisasi anda, selesaikan prosedur di topik [buat bidang dan entitas kustom](create-custom-fields-entities.md).
+Artikel ini memberikan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika Anda belum membuat solusi dimensi harga baru untuk organisasi Anda, selesaikan prosedur di [artikel Buat bidang dan entitas](create-custom-fields-entities.md) kustom.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Tambah sumber daya yang dapat dipesan untuk formulir dan tampilan
 Untuk membuat bidang terlihat di UI dalam solusi dimensi harga, Anda harus meninjau semua formulir, dan tampilan entitas Project Service utama, dan menambahkan bidang ini ke formulir, dan tampilan entitas tersebut.

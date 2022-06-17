@@ -1,6 +1,6 @@
 ---
 title: Home Page Perencanaan proyek
-description: Topik ini menyediakan informasi tentang perencanaan proyek.
+description: Artikel ini menyediakan informasi tentang perencanaan proyek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919098"
 ---
 # <a name="project-planning-home-page"></a>Home Page Perencanaan proyek
 
@@ -43,7 +43,7 @@ Alat manajemen proyek dalam PSA akan membantu Anda menjalankan proyek dengan mud
 - Meramalkan kebutuhan sumber daya untuk proyek-proyek yang ada di alur.
 - Berhasil melaksanakan proyek dengan melacak perkembangan dan konsumsi biaya.
 
-Topik berikut menyediakan informasi yang akan membantu manajer proyek memperkirakan kerja, memperkirakan biaya proyek, dan memperkirakan persyaratan sumber daya dengan menggunakan alat yang didukung dalam PSA:
+Artikel berikut memberikan informasi yang akan membantu manajer proyek memperkirakan pekerjaan, memperkirakan biaya proyek, dan memperkirakan persyaratan sumber daya dengan menggunakan alat yang didukung di PSA:
 
 - [Membuat jadwal](project-creating.md)
 - [Mengestimasi biaya dan pendapatan proyek](project-estimating.md)

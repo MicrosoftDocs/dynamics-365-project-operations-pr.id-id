@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan biaya standar untuk tenaga kerja dan pengeluaran
-description: Topik ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan pengeluaran untuk proyek.
+description: Artikel ini menjelaskan cara mengatur biaya standar untuk tenaga kerja dan pengeluaran untuk suatu proyek.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919514"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigurasikan biaya standar untuk tenaga kerja dan pengeluaran
 
 [!include [banner](../../includes/banner.md)]
 
-Topik ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan pengeluaran untuk proyek. Tugas ini menggunakan himpunan data USSI.
+Artikel ini menjelaskan cara mengatur biaya standar untuk tenaga kerja dan pengeluaran untuk suatu proyek. Tugas ini menggunakan himpunan data USSI.
 
 1. Di panel navigasi, buka **modul > manajemen proyek dan akuntansi > konfigurasi > Harga > Harga biaya (jam)**.
 2. Pilih **baru**.

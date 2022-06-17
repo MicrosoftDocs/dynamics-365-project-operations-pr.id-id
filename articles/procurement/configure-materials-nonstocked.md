@@ -1,18 +1,18 @@
 ---
 title: Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
-description: Laporan topik menjelaskan cara mengaktifkan bahan non-stok dan faktur vendor tertunda.
+description: Artikel ini menjelaskan cara mengaktifkan materi yang tidak ditebar dan faktur vendor yang tertunda.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913762"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Jalankan peta penulisan ganda untuk materi non-stok dan integrasi faktur vendor
 
-Bagian ini memberikan informasi tentang peta tertentu yang diperlukan untuk bahan non-stok dan faktur vendor. Pastikan peta prasyarat yang terdaftar di topik [Penyediaan lingkungan baru](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) berjalan pada lingkungan Anda.
+Bagian ini memberikan informasi tentang peta tertentu yang diperlukan untuk bahan non-stok dan faktur vendor. Verifikasi bahwa peta prasyarat yang tercantum dalam [artikel Provisi lingkungan](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) baru berjalan di lingkungan Anda.
 
 1. Buka Lifecycle Services (LCS), navigasi ke proyek LCS, dan buka halaman **rincian Lingkungan**.
 2. Di bagian **Informasi Lingkungan Common Data Service**, pilih **Tautkan ke CDS for Apps**. Setelah memilih tautan, Anda akan diarahkan ke daftar entitas di pemetaan.

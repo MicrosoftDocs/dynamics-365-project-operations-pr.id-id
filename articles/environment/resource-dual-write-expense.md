@@ -1,36 +1,36 @@
 ---
 title: Integrasi manajemen pengeluaran
-description: Pembaruan topik menyediakan informasi tentang integrasi laporan pengeluaran di Project Operations menggunakan penulisan ganda.
+description: Artikel ini menyediakan informasi tentang integrasi laporan pengeluaran dalam Operasi Proyek menggunakan penulisan ganda.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924618"
 ---
 # <a name="expense-management-integration"></a>Integrasi manajemen pengeluaran
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Laporan topik ini menyediakan informasi tentang integrasi laporan pengeluaran dalam [penyebaran pengeluaran penuh](../expense/expense-overview.md) Project Operations menggunakan penulisan ganda.
+Artikel ini menyediakan informasi tentang integrasi laporan pengeluaran dalam penyebaran [biaya penuh Operasi](../expense/expense-overview.md) Proyek menggunakan penulisan ganda.
 
 ## <a name="expense-categories"></a>Kategori Pengeluaran
 
-Dalam penerapan biaya penuh, kategori pengeluaran dibuat dan dikelola di aplikasi Keuangan dan Operasi. Untuk membuat kategori pengeluaran baru, selesaikan langkah-langkah berikut:
+Dalam penyebaran pengeluaran penuh, kategori pengeluaran dibuat dan dikelola di aplikasi Keuangan dan Operasi. Untuk membuat kategori pengeluaran baru, selesaikan langkah-langkah berikut:
 
-1. Di Microsoft Dataverse, buat **Kategori Transaksi**. Integrasi dual-write akan menyinkronkan kategori transaksi ini ke aplikasi Keuangan dan Operasi. Untuk informasi lebih lanjut, lihat [Mengkonfigurasi kategori proyek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [integrasi data konfigurasi serta pengaturan Project Operations](resource-dual-write-setup-integration.md). Sebagai hasil dari integrasi ini, sistem membuat empat catatan kategori bersama di aplikasi Keuangan dan Operasi.
+1. Di Microsoft Dataverse, buat **Kategori Transaksi**. Integrasi tulis ganda akan menyinkronkan kategori transaksi ini ke aplikasi Keuangan dan Operasi. Untuk informasi lebih lanjut, lihat [Mengkonfigurasi kategori proyek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [integrasi data konfigurasi serta pengaturan Project Operations](resource-dual-write-setup-integration.md). Sebagai hasil dari integrasi ini, sistem membuat empat catatan kategori bersama di aplikasi Keuangan dan Operasi.
 2. Di Finance, buka **manajemen pengeluaran** > **Pengaturan** > **kategori bersama** dan pilih kategori bersama dengan dengan kelas transaksi **Pengeluaran**. Atur parameter **Dapat digunakan dalam Pengeluaran** ke **Benar** dan tentukan jenis pengeluaran yang akan digunakan.
 3. Menggunakan rekaman kategori bersama ini, buat kategori pengeluaran baru dengan masuk ke **manajemen pengeluaran** > **Konfigurasi** > **Kategori baru** dan memilih **Baru**. Ketika rekaman disimpan, penulisan ganda menggunakan peta tabel, **entitas ekspor kategori pengeluaran proyek integrasi Project Operations (msdyn\_expensecategories)** untuk mensinkronisasi rekaman ini ke Dataverse.
 
   ![Integrasi kategori pengeluaran.](./media/DW6ExpenseCategories.png)
 
-Kategori pengeluaran dalam aplikasi Keuangan dan Operasi adalah khusus perusahaan atau badan hukum. Ada rekaman khusus entitas hukum yang terpisah dan terkait di Dataverse. Bila manajer proyek mengestimasi pengeluaran, mereka tidak dapat memilih kategori pengeluaran yang dibuat untuk proyek yang dimiliki oleh perusahaan lain daripada perusahaan yang memiliki proyek yang sedang mereka kerjakan. 
+Kategori pengeluaran dalam aplikasi Keuangan dan Operasi adalah khusus untuk perusahaan atau badan hukum. Ada rekaman khusus entitas hukum yang terpisah dan terkait di Dataverse. Bila manajer proyek mengestimasi pengeluaran, mereka tidak dapat memilih kategori pengeluaran yang dibuat untuk proyek yang dimiliki oleh perusahaan lain daripada perusahaan yang memiliki proyek yang sedang mereka kerjakan. 
 
 ## <a name="expense-reports"></a>Laporan pengeluaran
 

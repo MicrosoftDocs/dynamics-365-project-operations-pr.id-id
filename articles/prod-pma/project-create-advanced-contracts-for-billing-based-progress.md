@@ -1,6 +1,6 @@
 ---
 title: Membuat kontrak lanjutan untuk penagihan berdasarkan progres
-description: Topik ini menjelaskan cara membuat kontrak proyek sehingga anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan.
+description: Artikel ini menjelaskan cara membuat kontrak proyek sehingga Anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913670"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Membuat kontrak lanjutan untuk penagihan berdasarkan progres
 [!include [banner](../includes/banner.md)]
 
-Topik ini menjelaskan cara membuat kontrak proyek sehingga anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan. Jumlah faktur akan secara otomatis dihitung untuk kategori anggaran pekerjaan yang Anda atur untuk proyek. Waktu faktur diatur saat Anda menegosiasikan kontrak proyek dengan pelanggan.
+Artikel ini menjelaskan cara membuat kontrak proyek sehingga Anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan. Jumlah faktur akan secara otomatis dihitung untuk kategori anggaran pekerjaan yang Anda atur untuk proyek. Waktu faktur diatur saat Anda menegosiasikan kontrak proyek dengan pelanggan.
 
-Gunakan prosedur dalam topik ini untuk mengkonfigurasi kontrak, proyek terkait, dan aturan penagihan yang menghitung jumlah faktur untuk kategori anggaran pekerjaan yang anda atur untuk proyek.
+Gunakan prosedur dalam artikel ini untuk menyiapkan kontrak, proyek terkait, dan aturan penagihan yang menghitung jumlah faktur untuk kategori anggaran pekerjaan yang Anda siapkan untuk proyek tersebut.
 
 Setelah membuat kontrak dan proyek, Anda dapat mengkonfigurasi rincian proyek. Misalnya, Anda dapat menentukan aktivitas dan menetapkan pekerja ke proyek.
 

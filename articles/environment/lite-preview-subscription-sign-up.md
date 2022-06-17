@@ -1,21 +1,21 @@
 ---
 title: Mendaftar untuk berlangganan pratinjau - lite
-description: Topik ini menyediakan informasi tentang cara berlangganan dan menyebarkan penawaran penyebaran Project operation lite ke faktur proforma.
+description: Artikel ini menyediakan informasi tentang cara berlangganan dan menyebarkan penyebaran Project Operations lite - berurusan dengan faktur proforma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921260"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Mendaftar untuk berlangganan pratinjau - lite 
 
-Topik ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan penyebaran Dynamics 365 Project Operations lite - kesepakatan hingga faktur proforma.
+Artikel ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan Dynamics 365 Project Operations penyebaran lite - berurusan dengan faktur proforma.
 
 > [!NOTE]
 > Proses ini akan berubah di rilis mendatang Project Operations.
@@ -43,14 +43,14 @@ Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di pe
 > Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
 
-1. [Microsoft 365 Buka pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
+1. Buka [Microsoft 365 pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
 2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
 3. Pastikan lisensi **Dynamics 365 Project Operations** dipilih. 
 4. Pilih **Simpan perubahan**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Buat lingkungan Dataverse baru
 
-1. Lakukan penyediaan lingkungan penyebaran Project Operations Dataverse baru dengan mengikuti petunjuk dalam topik, [model penyebaran Dataverse](lite-deployment.md). Saat Anda memilih tipe lingkungan, pastikan untuk menggunakan **Uji coba (Berbasis langganan)**.
+1. Sediakan lingkungan penyebaran Operasi Dataverse Proyek baru dengan mengikuti instruksi dalam artikel, [Dataverse model penyebaran](lite-deployment.md). Saat Anda memilih tipe lingkungan, pastikan untuk menggunakan **Uji coba (Berbasis langganan)**.
 
   ![Lingkungan baru.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di pe
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instal konfigurasi CDS dan data demo konfigurasi
 
-Instal konfigurasi CDS dan konfigurasikan data demo dengan mengikuti petunjuk dalam topik, [terapkan konfigurasi demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
+Instal konfigurasi CDS dan atur data demo dengan mengikuti instruksi dalam artikel, [Terapkan pengaturan demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

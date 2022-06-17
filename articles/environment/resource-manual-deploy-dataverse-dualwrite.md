@@ -1,25 +1,25 @@
 ---
 title: Terapkan aplikasi Project Operations Dataverse secara manual dengan dukungan penulisan ganda
-description: Topik ini menjelaskan cara menyebarkan aplikasi Project Operations Dataverse secara manual sehingga mendukung penulisan ganda.
+description: Artikel ini menjelaskan cara menyebarkan aplikasi Project Operations Dataverse secara manual sehingga mendukung penulisan ganda.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912014"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Terapkan aplikasi Project Operations Dataverse secara manual dengan dukungan penulisan ganda
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Topik ini menjelaskan cara menyebarkan Microsoft Dynamics 365 Project Operations di Microsoft Dataverse secara manual sehingga mendukung penulisan ganda. Project Operations mendeteksi konfigurasi lingkungan dan menambahkan dukungan tambahan untuk penulisan ganda jika prasyarat terpenuhi.
+Artikel ini menjelaskan cara menyebarkan Microsoft Dynamics 365 Project Operations Microsoft Dataverse secara manual sehingga mendukung penulisan ganda. Project Operations mendeteksi konfigurasi lingkungan dan menambahkan dukungan tambahan untuk penulisan ganda jika prasyarat terpenuhi.
 
-Selama penyebaran Microsoft Dynamics melalui Lifecycle Services (LCS), jika Anda telah mengikuti petunjuk di topik ini, Anda dapat melewatkan penyebaran integrasi Microsoft Power Platform (sebelumnya dikenal sebagai lingkungan Common Data Service).
+Selama penyebaran melalui Microsoft Dynamics Lifecycle Services (LCS), jika Anda telah mengikuti instruksi dalam artikel ini, Anda dapat melewati penyebaran Microsoft Power Platform integrasi (sebelumnya dikenal sebagai Common Data Service lingkungan).
 
 Proses penyebaran Project Operations di Dataverse sehingga mendukung penulisan ganda memiliki empat langkah utama:
 
@@ -37,7 +37,7 @@ Untuk menyelesaikan prosedur ini, Anda harus masuk sebagai administrator.
 3. Pilih jenis lingkungan. Jika Anda mendaftar penawaran uji coba, pilih **Uji Coba (berbasis langganan)**.
 4. Konfirmasikan kawasan penyebaran.
 5. Aktifkan pilihan **Buat database untuk lingkungan ini**. 
-6. Konfirmasikan bahasa tersebut, lalu konfirmasikan bahwa mata uang tersebut cocok dengan mata uang untuk aplikasi Keuangan dan Operasi Anda.
+6. Konfirmasikan bahasa, lalu konfirmasikan bahwa mata uang tersebut cocok dengan mata uang untuk aplikasi Keuangan dan Operasi Anda.
 7. Aktifkan pilihan **aplikasi Dynamics 365**, dan konfirmasikan bahwa bidang **Terapkan aplikasi ini secara otomatis** diatur ke **Tidak Ada**.
 8. Tambahkan grup keamanan, jika grup keamanan diperlukan.
 9. Pilih **Simpan** untuk membuat lingkungan.
@@ -62,4 +62,4 @@ Anda dapat menyelesaikan prosedur ini hanya jika Anda telah menyelesaikan prosed
 
 ## <a name="link-your-environments"></a><a name="link"></a>Tautkan lingkungan Anda
 
-Dataverse Setelah lingkungan disebarkan, Anda dapat mengatur tautan di aplikasi Keuangan dan Operasi Anda. Ikuti langkah-langkah dalam [Gunakan wizard penulisan ganda untuk menautkan lingkungan Anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dataverse Setelah lingkungan disebarkan, Anda dapat menyiapkan tautan di aplikasi Keuangan dan Operasi Anda. Ikuti langkah-langkah dalam [Gunakan wizard penulisan ganda untuk menautkan lingkungan Anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

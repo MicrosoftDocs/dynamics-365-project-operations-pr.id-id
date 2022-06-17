@@ -1,6 +1,6 @@
 ---
 title: Gunakan kategori transaksi sebagai dimensi harga
-description: Topik ini menyediakan informasi tentang penggunaan kategori transaksi sebagai dimensi harga.
+description: Artikel ini menyediakan informasi tentang penggunaan kategori transaksi sebagai dimensi harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915740"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Gunakan kategori transaksi sebagai dimensi harga
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Topik ini menampilkan cara menggunakan kategori transaksi sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika anda belum membuat solusi dimensi harga baru untuk organisasi anda, selesaikan prosedur di topik [buat bidang dan entitas kustom](create-custom-fields-entities.md).
+Artikel ini memperlihatkan cara menggunakan kategori transaksi sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika Anda belum membuat solusi dimensi harga baru untuk organisasi Anda, selesaikan prosedur di [artikel Buat bidang dan entitas](create-custom-fields-entities.md) kustom.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Tambah kategori transaksi ke formulir dan tampilan
 Untuk membuat kategori transaksi terlihat di UI dalam solusi dimensi harga, Anda harus meninjau semua formulir, dan tampilan entitas utama, dan menambahkan bidang ini ke formulir, dan tampilan entitas tersebut.

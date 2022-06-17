@@ -1,17 +1,17 @@
 ---
 title: Manajemen subkontrak dalam Project Operations
-description: Topik ini memberikan ikhtisar proses manajemen subkontrak komprehensif umumnya di organisasi berdasarkan proyek.
+description: Artikel ini memberikan gambaran umum tentang proses manajemen subkontrak end-to-end biasanya di organisasi berbasis proyek.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911509"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Manajemen subkontrak dalam Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593018"
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Topik ini memberikan ikhtisar proses manajemen subkontrak komprehensif di organisasi berdasarkan proyek. Subkontrak untuk layanan biasanya menggunakan alur proses bisnis yang ditampilkan pada diagram berikut.
+Artikel ini memberikan gambaran umum tentang proses manajemen subkontrak end-to-end dalam organisasi berbasis proyek. Subkontrak untuk layanan biasanya menggunakan alur proses bisnis yang ditampilkan pada diagram berikut.
 
 ![Mensubkontrak alur proses](../media/SubcontractingProcessFlow.png)
 

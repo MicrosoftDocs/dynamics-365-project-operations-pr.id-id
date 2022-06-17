@@ -1,24 +1,24 @@
 ---
 title: Mengatur template biaya
-description: Topik ini berisi informasi tentang cara membuat dan menggunakan template biaya di Project Operations.
+description: Artikel ini menyediakan informasi tentang cara membuat dan menggunakan templat biaya dalam Operasi Proyek.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918408"
 ---
 # <a name="set-up-cost-templates"></a>Mengatur template biaya
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 
-Topik ini berisi informasi tentang cara membuat dan menggunakan template biaya di Project Operations. Template biaya menentukan:
+Artikel ini menyediakan informasi tentang cara membuat dan menggunakan templat biaya dalam Operasi Proyek. Template biaya menentukan:
 
 - Kategori proyek untuk transaksi prakiraan dan aktual untuk disertakan dalam persentase perhitungan penyelesaian proyek. Nilai persen-selesai kemudian digunakan untuk menghitung jumlah pendapatan yang diakui.
 - Apakah persentase penyelesaian dapat dimodifikasi jika dihitung secara otomatis.
@@ -56,7 +56,7 @@ Memutuskan pendekatan yang akan dilakukan untuk membuat template biaya dapat ber
 ## <a name="create-cost-templates"></a>Membuat template biaya
 Untuk membuat template biaya, ikuti langkah-langkah berikut:
 
-1. Untuk mengakses templat biaya, di lingkungan Dynamics 365 Finance, buka **Templat Biaya Perkiraan** > **Penyiapan** > **manajemen proyek dan akuntansi** > **·**.
+1. Untuk mengakses templat biaya, di lingkungan Dynamics 365 Finance, buka **templat Biaya Estimasi** > **Penyiapan** > **manajemen proyek dan akuntansi** > **·**.
 2. Pilih **Baru** untuk membuat template biaya baru. Masukkan nama dan deskripsi.
 3. Cantumkan ID baris biaya untuk setiap jenis transaksi.
 4. Pilih metode penyelesaian default:

@@ -1,6 +1,6 @@
 ---
 title: Panduan manajemen Sumber Daya
-description: Topik ini memberikan tautan informasi tentang manajemen sumber daya dalam Project Service Automation.
+description: Artikel ini menyediakan link ke informasi tentang manajemen sumber daya di Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910778"
 ---
 # <a name="resource-management-guide"></a>Panduan manajemen Sumber Daya
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595456"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipindahkan ke topik berikut:
+Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Laman beranda Manajemen Sumber Daya](../resource-management-home-page.md)
 - [Konsep kunci](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipind
 - [Tanya-Jawab Manajemen sumber daya](../resource-management-faq.md)
 
 > [!NOTE]
-> Topik ini akan dihapus di pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

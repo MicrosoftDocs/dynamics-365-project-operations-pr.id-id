@@ -1,17 +1,17 @@
 ---
 title: Memperpanjang entri waktu
-description: Topik ini menyediakan informasi tentang cara pengembang mampu memperpanjang kontrol entri waktu.
+description: Artikel ini menyediakan informasi tentang bagaimana pengembang dapat memperpanjang kontrol entri waktu.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914774"
 ---
 # <a name="extending-time-entries"></a>Memperpanjang entri waktu
 
@@ -55,7 +55,7 @@ Logika akan secara otomatis memperbarui rekaman entri waktu dalam situasi beriku
     - **msdyn_end**
     - **msdyn_duration**
 
-- Bidang **msdyn_start** dan **msdyn_end** adalah zona waktu yang sadar.
+- Bidang **msdyn_start** dan **msdyn_end** sadar zona waktu.
 - Entri waktu yang dibuat hanya dengan **msdyn_date** dan **msdyn_duration** yang ditentukan akan dimulai pada tengah malam. Bidang **msdyn_start** dan **msdyn_end** akan diperbarui sesuai dengan ini.
 
 #### <a name="time-entry-types"></a>Jenis Entri Waktu
@@ -78,45 +78,45 @@ Pengembang dapat menambahkan bidang tambahan dan pencarian ke entitas lain, dan 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Tambahkan bidang kustom dengan pencarian ke entitas lain
 Ada tiga langkah utama untuk menambahkan bidang kustom ke kisi entri mingguan waktu.
 
-1. Tambahkan bidang kustom ke **kotak dialog Buat** cepat.
+1. Tambahkan bidang kustom ke kotak **dialog Buat** cepat.
 2. Konfigurasikan kisi untuk menampilkan bidang kustom.
-3. Tambahkan bidang kustom ke **halaman Edit baris** atau **Edit** entri waktu, sebagaimana mestinya.
+3. Tambahkan bidang kustom ke **halaman Edit** baris atau **Edit** entri waktu, sebagaimana mestinya.
 
-Pastikan bidang baru memiliki validasi yang diperlukan pada **halaman Edit** baris atau **Edit** entri waktu. Sebagai bagian dari tugas ini, kunci bidang, berdasarkan status entri waktu.
+Pastikan bahwa bidang baru memiliki validasi yang diperlukan pada **halaman Edit** baris atau **Edit** entri waktu. Sebagai bagian dari tugas ini, kunci bidang, berdasarkan status entri waktu.
 
-Saat Anda menambahkan bidang kustom ke **kisi entri** Waktu lalu membuat entri waktu langsung di kisi, bidang kustom untuk entri tersebut diatur secara otomatis sehingga cocok dengan baris. 
+Saat Anda menambahkan bidang kustom ke **kisi entri** Waktu lalu membuat entri waktu langsung dalam kisi, bidang kustom untuk entri tersebut secara otomatis diatur sehingga cocok dengan baris tersebut. 
 
 ### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Menambahkan bidang kustom ke kotak dialog Buat cepat
-Menambahkan bidang kustom ke **kotak dialog Buat cepat: Buat Entri** Waktu. Pengguna kemudian dapat memasukkan nilai saat mereka menambahkan entri waktu dengan memilih **baru**.
+Tambahkan bidang kustom ke **kotak dialog Buat cepat: Buat Entri** Waktu. Pengguna kemudian dapat memasukkan nilai saat mereka menambahkan entri waktu dengan memilih **baru**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurasikan kisi untuk menampilkan bidang kustom
 Ada dua cara menambahkan bidang kustom ke **kisi entri** waktu Mingguan.
 
-- **Sesuaikan tampilan Entri** Waktu Mingguan Saya, dan tambahkan bidang kustom ke dalamnya. Anda dapat menentukan posisi dan ukuran bidang kustom di kisi dengan mengedit properti dalam tampilan.
-- Buat tampilan entri waktu kustom baru, dan atur sebagai tampilan default. Tampilan ini harus berisi **bidang Deskripsi** dan **Komentar** eksternal selain kolom yang Ingin Anda sertakan dalam kisi. Anda dapat menentukan posisi, ukuran, dan urutan pengurutan default kisi dengan mengedit properti dalam tampilan. Selanjutnya, konfigurasikan kontrol kustom untuk tampilan ini sehingga merupakan kontrol **kisi entri waktu**. Tambahkan kontrol ke tampilan, dan pilih untuk **Web**, **Ponsel**, dan **Tablet**. Selanjutnya, konfigurasikan parameter untuk **kisi entri** waktu Mingguan. **Atur bidang Tanggal** mulai ke **tanggal\_ msdyn**, atur **bidang Durasi** ke **durasi\_ msdyn**, dan atur **bidang Status** ke **msdyn\_ entrystatus**. Bidang **Daftar** Status Baca-saja diatur ke **192350002 (Disetujui)**, **192350003 (Dikirim)**, atau **192350004 (Ingat Diminta)**.
+- **Kustomisasi tampilan Entri** Waktu Mingguan Saya, dan tambahkan bidang kustom ke dalamnya. Anda dapat menentukan posisi dan ukuran bidang kustom dalam kisi dengan mengedit properti dalam tampilan.
+- Buat tampilan entri waktu kustom baru, dan atur sebagai tampilan default. Tampilan ini harus berisi **bidang Deskripsi** dan **Komentar** eksternal selain kolom yang Anda inginkan untuk disertakan dalam kisi. Anda dapat menentukan posisi, ukuran, dan urutan urutan default kisi dengan mengedit properti dalam tampilan. Selanjutnya, konfigurasikan kontrol kustom untuk tampilan ini sehingga merupakan kontrol **kisi entri waktu**. Tambahkan kontrol ke tampilan, dan pilih untuk **Web**, **Telepon**, dan **Tablet**. Selanjutnya, konfigurasikan parameter untuk **kisi entri** waktu mingguan. **Atur bidang Tanggal** mulai ke **tanggal\_ msdyn**, atur **bidang Durasi** ke **durasi\_ msdyn**, dan atur **bidang Status** ke **msdyn\_ entrystatus**. Bidang **Daftar** Status Baca-saja diatur ke **192350002 (Disetujui)**, **192350003 (Dikirim)**, atau **192350004 (Ingat Diminta)**.
 
 ### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Menambahkan bidang kustom ke halaman edit yang sesuai
-Halaman yang digunakan untuk mengedit entri waktu atau deretan entri waktu dapat ditemukan di bawah **Formulir**. Tombol **Edit entri** di kisi membuka **halaman Edit entri**, dan **tombol Edit baris** membuka **halaman Edit** baris. Anda dapat mengedit halaman ini sehingga menyertakan bidang kustom.
+Halaman yang digunakan untuk mengedit entri waktu atau deretan entri waktu dapat ditemukan di bawah **Formulir**. Tombol **Edit entri** dalam kisi membuka **halaman entri** Edit, dan tombol **Edit baris** membuka **halaman Edit** baris. Anda dapat mengedit halaman ini sehingga menyertakan bidang kustom.
 
-Kedua opsi menghapus beberapa pemfilteran di luar kotak pada **entitas Project** dan **Project Task**, sehingga semua tampilan pencarian untuk entitas terlihat. Per default, hanya tampilan pencarian yang relevan yang dapat dilihat.
+Kedua opsi menghapus beberapa pemfilteran out-of-box pada **entitas Project** dan **Project Task**, sehingga semua tampilan pencarian untuk entitas terlihat. Per default, hanya tampilan pencarian yang relevan yang dapat dilihat.
 
-Anda harus menentukan halaman yang sesuai untuk bidang kustom. Kemungkinan besar, jika Anda menambahkan bidang ke kisi, itu harus masuk **ke halaman Edit** baris yang digunakan untuk bidang yang berlaku untuk seluruh baris entri waktu. Jika bidang kustom memiliki nilai unik di baris setiap hari (misalnya, jika itu adalah bidang kustom untuk waktu akhir), itu harus masuk ke **halaman Edit** entri waktu.
+Anda harus menentukan halaman yang sesuai untuk bidang kustom. Kemungkinan besar, jika Anda menambahkan bidang ke kisi, itu harus masuk ke **halaman Edit** baris yang digunakan untuk bidang yang berlaku untuk seluruh baris entri waktu. Jika bidang kustom memiliki nilai unik dalam baris setiap hari (misalnya, jika itu adalah bidang kustom untuk akhir zaman), bidang tersebut harus masuk ke **halaman Edit** entri waktu.
 
 Untuk menambahkan bidang kustom ke halaman, seret elemen Bidang **ke posisi yang** sesuai pada halaman, lalu atur propertinya.
 
 ### <a name="add-new-option-set-values"></a>Tambahkan Nilai Rangkaian Pilihan baru
 Untuk menambahkan nilai rangkaian pilihan ke bidang di luar kotak, ikuti langkah-langkah berikut.
 
-1. Buka halaman pengeditan untuk bidang, lalu, di bawah **Ketik**, pilih **Edit** di samping rangkaian pilihan.
-2. Tambahkan pilihan baru yang memiliki label dan warna kustom. Jika Anda ingin menambahkan status entri waktu baru, bidang di luar kotak diberi nama **Status** Entri.
+1. Buka halaman pengeditan untuk bidang tersebut, lalu, di bawah **Tipe**, pilih **Edit** di samping rangkaian pilihan.
+2. Tambahkan pilihan baru yang memiliki label dan warna kustom. Jika Anda ingin menambahkan status entri waktu baru, bidang di luar kotak bernama **Status** Entri.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Menentukan status entri waktu baru sebagai hanya baca
-Untuk menetapkan status entri waktu baru sebagai hanya baca, tambahkan nilai entri waktu baru ke properti **daftar status hanya baca**. Pastikan untuk menambahkan nomor, bukan label. Bagian yang dapat diedit dari kisi entri waktu sekarang akan dikunci untuk baris yang memiliki status baru. Untuk mengatur **properti Daftar** Status Baca-saja secara berbeda untuk tampilan Entri **Waktu yang berbeda**, tambahkan **kisi entri** Waktu di bagian Kontrol **kustom tampilan**, dan konfigurasikan parameter yang sesuai.
+Untuk menetapkan status entri waktu baru sebagai hanya baca, tambahkan nilai entri waktu baru ke properti **daftar status hanya baca**. Pastikan untuk menambahkan nomor, bukan label. Bagian yang dapat diedit dari kisi entri waktu sekarang akan dikunci untuk baris yang memiliki status baru. Untuk mengatur **properti Daftar** Status Baca-Saja secara berbeda untuk tampilan Entri **Waktu yang berbeda**, tambahkan **kisi entri** Waktu di bagian Kontrol **kustom tampilan**, dan konfigurasikan parameter yang sesuai.
 
-Selanjutnya, tambahkan aturan bisnis untuk mengunci semua bidang di **halaman Edit baris** dan **Edit** entri waktu. Untuk mengakses aturan bisnis untuk halaman ini, buka editor formulir untuk setiap halaman, lalu pilih **Aturan bisnis**. Anda dapat menambahkan status baru ke kondisi di aturan bisnis yang ada, atau Anda dapat menambahkan aturan bisnis baru untuk status baru.
+Selanjutnya, tambahkan aturan bisnis untuk mengunci semua bidang pada **halaman Edit** baris dan **Edit** entri waktu. Untuk mengakses aturan bisnis untuk halaman ini, buka editor formulir untuk setiap halaman, lalu pilih **Aturan bisnis**. Anda dapat menambahkan status baru ke kondisi di aturan bisnis yang ada, atau Anda dapat menambahkan aturan bisnis baru untuk status baru.
 
 ### <a name="add-custom-validation-rules"></a>Tambahkan aturan validasi kustom
-Anda dapat menambahkan dua jenis aturan validasi untuk **pengalaman kisi entri** waktu mingguan:
+Anda dapat menambahkan dua tipe aturan validasi untuk **pengalaman kisi entri** waktu mingguan:
 
 - Aturan bisnis sisi klien yang berfungsi di halaman
 - Validasi plug-in sisi server yang berlaku untuk pembaruan entri sepanjang masa
@@ -125,10 +125,10 @@ Anda dapat menambahkan dua jenis aturan validasi untuk **pengalaman kisi entri**
 Gunakan aturan bisnis untuk mengunci dan membuka kunci bidang, masukkan nilai default di bidang, dan tentukan validasi yang memerlukan informasi hanya dari rekaman entri waktu saat ini. Untuk mengakses aturan bisnis untuk halaman, buka editor formulir, lalu pilih **Aturan bisnis**. Selanjutnya, Anda dapat mengedit aturan bisnis yang ada atau menambahkan aturan bisnis baru.
 
 #### <a name="server-side-plug-in-validations"></a>Validasi plug-in sisi server
-Anda harus menggunakan validasi plug-in untuk validasi apa pun yang memerlukan lebih banyak konteks daripada yang tersedia dalam satu catatan entri waktu. Anda juga harus menggunakannya untuk validasi apa pun yang ingin Anda jalankan pada pembaruan sebaris di kisi.com. Untuk menyelesaikan validasi, buat plug-in kustom pada **entitas Time Entry**.
+Anda harus menggunakan validasi plug-in untuk validasi apa pun yang memerlukan lebih banyak konteks daripada yang tersedia dalam satu catatan entri waktu. Anda juga harus menggunakannya untuk validasi apa pun yang ingin Anda jalankan pada pembaruan sebaris di grid. Untuk menyelesaikan validasi, buat plug-in kustom pada **entitas Entri** Waktu.
 
 ### <a name="limits"></a>Batas
-Saat ini, **kisi entri** Waktu memiliki batas ukuran 500 baris. Jika ada lebih dari 500 baris, kelebihan baris tidak akan ditampilkan. Tidak ada cara untuk meningkatkan batas ukuran ini.
+Saat ini, **kisi entri** Waktu memiliki batas ukuran 500 baris. Jika ada lebih dari 500 baris, baris berlebih tidak akan ditampilkan. Tidak ada cara untuk meningkatkan batas ukuran ini.
 
 ### <a name="copying-time-entries"></a>Menyalin entri waktu
 Gunakan tampilan **Salin Kolom Entri Waktu** untuk menentukan daftar bidang yang akan disalin selama entri waktu. **Tanggal** dan **Durasi** adalah bidang yang diperlukan dan tidak boleh dihapus dari tampilan.

@@ -1,6 +1,6 @@
 ---
 title: Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android
-description: Topik ini menyediakan pola umum untuk menggunakan ekstensi untuk menerapkan bidang kustom.
+description: Artikel ini menyediakan pola umum untuk menggunakan ekstensi guna menerapkan bidang kustom.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913716"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android
 
 [!include [banner](../includes/banner.md)]
 
-Topik ini menyediakan pola umum untuk menggunakan ekstensi untuk menerapkan bidang kustom. Topik berikut ini tercakup:
+Artikel ini menyediakan pola umum untuk menggunakan ekstensi guna menerapkan bidang kustom. Artikel-artikel berikut dibahas:
 
 - Berbagai jenis data yang didukung kerangka kerja bidang kustom
 - Cara menampilkan bidang yang dapat diedit atau hanya baca di entri lembar waktu, dan menyimpan nilai yang disediakan pengguna kembali ke database
@@ -35,7 +35,7 @@ Topik ini menyediakan pola umum untuk menggunakan ekstensi untuk menerapkan bida
 
 ## <a name="audience"></a>Audiens
 
-Topik ini ditujukan untuk pengembang yang mengintegrasikan bidang kustom mereka ke aplikasi seluler Microsoft Dynamics 365 Project Timesheet yang tersedia untuk Apple iOS dan Google Android. Asumsinya adalah bahwa pembaca terbiasa dengan pengembangan X++ dan fungsi lembar waktu proyek.
+Artikel ini ditujukan untuk pengembang yang mengintegrasikan bidang kustom mereka ke dalam Microsoft Dynamics 365 Project Timesheet aplikasi seluler yang tersedia untuk Apple iOS dan Google Android. Asumsinya adalah bahwa pembaca terbiasa dengan pengembangan X++ dan fungsi lembar waktu proyek.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Kontrak data – TSTimesheetCustomField kelas X++
 
@@ -64,7 +64,7 @@ Properti **fieldbasetype** pada objek **tstimesheetcustom** menentukan jenis bid
 
 - Jika properti **stringoptions** diberikan pada objek **tstimesheetcustomfield**, elemen daftar tersebut adalah satu-satunya nilai yang dapat dipilih pengguna dengan menggunakan tombol pilihan (tombol radio).
 
-    Dalam kasus ini, bidang string dapat bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke database sebagai enum, secara manual petakan nilai string kembali ke nilai enum sebelum anda menyimpan database dengan menggunakan rantai perintah (lihat bagian "gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" kemudian di topik ini misalnya).
+    Dalam kasus ini, bidang string dapat bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke database sebagai enum, petakan nilai string secara manual kembali ke nilai enum sebelum Anda menyimpan ke database dengan menggunakan rantai perintah (lihat bagian "Gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" nanti di artikel ini untuk contoh).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Properti ini menentukan label yang ditampilkan di bidang berikutnya dalam aplika
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (daftar String)
 
-Properti ini hanya berlaku bila **fieldbasetype** diatur ke **string**. Jika **stringoptions** diatur, nilai string yang tersedia untuk pilihan melalui tombol pilihan (tombol radio) ditentukan oleh string dalam daftar. Jika tidak ada string yang disediakan, entri teks bebas di bidang string diizinkan (lihat bagian "gunakan rantai perintah pada kelas tstimesheetentryservice untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" nanti di topik ini sebagai contoh).
+Properti ini hanya berlaku bila **fieldbasetype** diatur ke **string**. Jika **stringoptions** diatur, nilai string yang tersedia untuk pilihan melalui tombol pilihan (tombol radio) ditentukan oleh string dalam daftar. Jika tidak ada string yang disediakan, entri teks bebas di bidang string diperbolehkan (lihat bagian "Gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" nanti di artikel ini untuk contoh).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

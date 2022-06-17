@@ -1,23 +1,23 @@
 ---
 title: Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Topik ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis November 2020 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Operasi Proyek November 2020 untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923422"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
+Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Lingkungan Project Operations di CDS versi 4.4.0.70
 - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.14

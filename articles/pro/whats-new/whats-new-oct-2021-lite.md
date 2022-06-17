@@ -1,24 +1,24 @@
 ---
 title: Yang baru di bulan Oktober 2021 - Penyebaran Project Operations lite
-description: Topik ini menyediakan informasi tentang pembaruan kualitas yang tersedia di penyebaran Project Operations lite oktober 2021.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Oktober 2021 penyebaran Project Operations lite.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921950"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Yang baru di bulan Oktober 2021 - Penyebaran Project Operations lite
 
 _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
-Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
+Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
 
   - Lingkungan Project Operations untuk Microsoft Dataverse versi 4.25.0.91
 

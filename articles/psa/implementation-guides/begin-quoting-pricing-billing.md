@@ -1,6 +1,6 @@
 ---
 title: Panduan Dasar kuotasi, harga, dan penagihan
-description: Topik ini menyediakan tautan informasi tentang kuotasi, penagihan, dan harga dasar dalam Project Service Automation.
+description: Artikel ini menyediakan link ke informasi tentang kutipan dasar, harga, dan penagihan di Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910802"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Panduan Dasar kuotasi, harga, dan penagihan
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592236"
 
 Kemampuan untuk menemukan sumber daya yang tepat pada waktu yang tepat, memesan sumber daya pada proyek, dan menjaga sumber daya terus dimanfaatkan membantu organisasi mencapai target pendapatan dan tujuan kepuasan pelanggan. 
 
-Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipindahkan ke topik berikut:
+Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Kuotasi, harga, dan penagihan](../quote-bill-price.md)
 - [Proses Penjualan](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipind
 - [Mencatat nilai aktual](../advanced-actuals.md)
 
 > [!NOTE]
-> Topik ini akan dihapus di pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

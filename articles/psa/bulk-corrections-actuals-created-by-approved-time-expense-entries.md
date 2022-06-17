@@ -1,6 +1,6 @@
 ---
 title: Koreksi massal aktual yang dibuat berdasarkan entri waktu dan pengeluaran yang disetujui
-description: Topik ini menjelaskan cara administrator melakukan koreksi tunggal atau massal terhadap entri waktu atau pengeluaran yang disetujui sebelumnya jika penagihan tidak selesai.
+description: Artikel ini menjelaskan bagaimana administrator dapat melakukan koreksi tunggal atau massal terhadap entri waktu atau pengeluaran yang disetujui sebelumnya jika penagihan tidak selesai.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683366"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916293"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Koreksi massal aktual yang dibuat berdasarkan entri waktu dan pengeluaran yang disetujui
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683366"
 
 Terkadang entri waktu atau biaya dapat dimasukkan dengan benar. Contohnya, konsultan mungkin memilih tanggal yang salah saat membuat entri waktu atau mereka mungkin mentransposisi angka saat memasukkan pengeluaran. Jika konsultan tidak dapat melakukan pembaruan terhadap entri yang diajukan, administrator dapat secara langsung mengoreksi entri untuk proyek.
 
-Untuk menyelesaikan prosedur dalam topik ini, anda memerlukan izin Administrator.
+Untuk menyelesaikan prosedur dalam artikel ini, Anda memerlukan izin Administrator.
 
 ## <a name="correct-approved-time-entries"></a>Mengoreksi entri waktu yang disetujui     
 
