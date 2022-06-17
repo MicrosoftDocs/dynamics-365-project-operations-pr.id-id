@@ -1,24 +1,24 @@
 ---
 title: Yang baru di bulan Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Topik ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Maret 2021 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Maret 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932944"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
+Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Lingkungan Project Operations untuk Dataverse versi 4.8.0.91 
 - Manajemen proyek dan akuntansi pada lingkungan Dynamics 365 Finance versi 10.0.16 

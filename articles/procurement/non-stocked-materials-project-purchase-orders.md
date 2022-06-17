@@ -1,18 +1,18 @@
 ---
 title: Memesan bahan yang tidak memiliki persediaan untuk proyek menggunakan pesanan pembelian proyek
-description: Topik ini menjelaskan cara memesan bahan yang tidak memiliki persediaan untuk proyek menggunakan pesanan pembelian proyek.
+description: Artikel ini menjelaskan bagaimana Anda dapat memesan bahan yang tidak ditebar untuk proyek menggunakan pesanan pembelian proyek.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: fe24faa143869af2396f3b0f28aae31417cadda7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929816"
 ---
 # <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Memesan kategori pengadaan atau bahan yang tidak ditebar untuk proyek menggunakan pesanan pembelian proyek
 
@@ -23,7 +23,7 @@ Departemen Pengadaan di organisasi Anda dapat menggunakan [pesanan pembelian](/d
 ## <a name="prerequisites"></a>Prasyarat
 Selesaikan langkah-langkah berikut untuk mengaktifkan fungsi pesanan pembelian proyek.
 
-1. Di Dynamics 365 Finance, buka **ruang kerja Manajemen** Fitur.
+1. Di Dynamics 365 Finance, buka ruang **kerja Manajemen** Fitur.
 2. Dalam daftar fitur, cari dan pilih fitur, **Aktifkan pesanan pembelian proyek pada Project Operations untuk skenario berbasis sumber daya/non-persediaan**.
 3. Klik **Aktifkan**.
 4. Konfigurasikan bahan yang tidak ada stok dan faktur vendor tertunda seperti dijelaskan dalam [Konfigurasikan bahan tanpa persediaan dan faktur vendor tertunda](configure-materials-nonstocked.md).
@@ -35,12 +35,12 @@ Selesaikan langkah-langkah berikut untuk mengaktifkan fungsi pesanan pembelian p
 2. Pada Panel Tindakan, pada tab **Kelola**, di grup **Baru**, pilih **Tugas item** > **Pesanan pembelian**.
 3. Pada halaman **Buat pesanan pembelian**, pilih vendor yang akan melakukan pemesanan pembelian, masukkan informasi lain bila diperlukan, lalu pilih **OK**.
 4. Pada halaman **Pesanan pembelian**, di kisi **Baris pesanan Pembelian**, pilih **Tambah baris**.
-5. Masukkan nomor item atau kategori pengadaan, kuantitas, unit, harga satuan, dan informasi lainnya yang sesuai.
+5. Masukkan nomor barang atau kategori pengadaan, kuantitas, satuan, harga satuan, dan informasi lainnya yang sesuai.
 
     > [!NOTE]
-    > Hanya kategori pengadaan, barang yang tidak terisi, dan layanan yang dapat digunakan dengan pesanan pembelian proyek. Item yang ditebar tidak didukung.
+    > Hanya kategori pengadaan, barang yang tidak ditebar, dan layanan yang dapat digunakan dengan pesanan pembelian proyek. Item yang ditebar tidak didukung.
 
-6. Lanjutkan untuk menambahkan item atau kategori pengadaan sesuai kebutuhan, dan konfirmasi pesanan pembelian.
+6. Terus tambahkan item atau kategori pengadaan sesuai kebutuhan, dan konfirmasikan pesanan pembelian.
 
     Penerimaan barang dan layanan dapat direkam dengan membuat dan memposting tanda terima produk.
 

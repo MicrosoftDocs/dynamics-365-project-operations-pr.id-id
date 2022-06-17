@@ -1,6 +1,6 @@
 ---
 title: Halaman utama pengembangan (Project Service Automation 3. x)
-description: Topik ini menyediakan tautan ke topik yang menyediakan informasi pengembangan untuk Dynamics 365 Project Service Automation (PSA) versi 3. x.
+description: Artikel ini menyediakan tautan ke artikel yang menyediakan informasi pengembangan untuk Dynamics 365 Project Service Automation (PSA) versi 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928988"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Halaman utama pengembangan (Project Service Automation 3. x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x menawarkan fitur baru, penerapan kemampuan platform baru, dan peningkatan fitur yang ada di berbagai area. Topik berikut menyediakan informasi lebih lanjut tentang perubahan yang dibuat dalam versi terbaru PSA:
+Dynamics 365 Project Service Automation 3.x menawarkan fitur baru, penerapan kemampuan platform baru, dan peningkatan fitur yang ada di berbagai area. Artikel berikut memberikan informasi lebih lanjut tentang perubahan yang dibuat di psa versi terbaru:
 
 - [Perubahan entitas, kontrol, dan antarmuka pengguna (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Perubahan waktu dan biaya (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

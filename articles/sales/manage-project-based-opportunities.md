@@ -1,17 +1,17 @@
 ---
 title: Mengelola peluang berbasis proyek
-description: Topik ini memberikan informasi tentang cara bekerja dengan peluang yang terkait dengan proyek.
+description: Artikel ini memberikan informasi tentang cara bekerja dengan peluang yang terkait dengan proyek.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933220"
 ---
 # <a name="manage-project-based-opportunities"></a>Mengelola peluang berbasis proyek
 
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Perusahaan berbasis proyek biasanya memiliki operasi untuk penyebaran penyebaran di beberapa negara dan geografi. Biaya eksekusi dan pelaksanaan proyek dapat bervariasi berdasarkan geografi atau divisi yang mengelola pelaksanaan. Pada gilirannya, hal ini dapat berdampak pada margin transaksi. Pelaksanaan layanan berbasis proyek biasanya melibatkan sejumlah besar waktu sumber daya manusia, pengeluaran besar untuk perjalanan, biaya material, dan biaya lainnya.
 
-Peluang berbasis proyek Dynamics 365 Project Operations didesain dengan ekstensi untuk Dynamics 365 Sales. Topik ini memberikan rincian tentang bidang yang berbeda dan logika bisnis yang tercakup dalam fungsi tambahan yang diperlukan oleh perusahaan berbasis proyek untuk mengelola peluang berbasis proyek.
+Peluang berbasis proyek Dynamics 365 Project Operations didesain dengan ekstensi untuk Dynamics 365 Sales. Artikel ini memberikan detail tentang berbagai bidang dan logika bisnis yang termasuk dalam fungsionalitas tambahan yang diperlukan oleh perusahaan berbasis proyek untuk mengelola peluang berbasis proyek.
 
 ## <a name="view-all-project-based-opportunities"></a>Lihat semua peluang berbasis proyek
 

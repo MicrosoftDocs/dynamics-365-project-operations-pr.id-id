@@ -1,17 +1,17 @@
 ---
 title: Memetakan proyek dan tugas ke baris kontrak berbasis proyek - lite
-description: Topik ini menyediakan informasi tentang menambahkan dan menghapus proyek dan tugas ke baris kontrak.
+description: Artikel ini menyediakan informasi tentang menambahkan dan menghapus proyek dan tugas ke jalur kontrak.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: da6017a6bbf138a4d30f1cd29b5b00a520e6990f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932530"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Memetakan proyek dan tugas ke baris kontrak berbasis proyek 
 

@@ -1,17 +1,17 @@
 ---
 title: Menyalin proyek
-description: Topik ini menyediakan informasi tentang menyalin proyek di Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang menyalin proyek di Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b358f9e45278d886f3e6e8e8cd747fc0ea30212b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925768"
 ---
 # <a name="copy-a-project"></a>Menyalin proyek
 
@@ -30,9 +30,9 @@ Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek
 
 ## <a name="project-properties"></a>Properti proyek
 
-Saat proyek disalin, nilai di bidang berikut disalin.
+Ketika proyek disalin, nilai-nilai di bidang berikut disalin.
 
-| Bidang | Operasi Proyek Bahan Yang Tidak Terisi | Operasi Proyek Lite | Proyek untuk Web |
+| Bidang | Operasi Proyek Bahan Non-Stocked | Operasi Proyek Lite | Proyek untuk Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Nama | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Deskripsi | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,7 +58,7 @@ Saat proyek disalin, nilai di bidang berikut disalin.
 
 ## <a name="work-breakdown-structure"></a>Struktur rincian kerja
 
-Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. Sumber daya bernama digantikan dengan sumber daya generik. Jika sumber daya bernama tidak memiliki jam kerja yang sama dengan sumber daya generik, jadwal akan dihitung ulang, dan durasi tugas mungkin berubah.
+Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. Sumber daya bernama digantikan dengan sumber daya generik. Jika sumber daya yang disebutkan tidak memiliki jam kerja yang sama dengan sumber daya generik, jadwal akan dihitung ulang, dan durasi tugas mungkin berubah.
 
 ## <a name="project-team-members"></a>Anggota tim proyek
 

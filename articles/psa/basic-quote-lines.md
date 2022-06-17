@@ -1,6 +1,6 @@
 ---
 title: Kuotasi dan Baris Kuotasi
-description: Topik ini menyediakan informasi tentang kuotasi dan baris kuotasi.
+description: Artikel ini menyediakan informasi tentang kutipan dan baris kutipan.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933358"
 ---
 # <a name="quotes-and-quote-lines"></a>Kuotasi dan Baris Kuotasi
 
@@ -39,7 +39,7 @@ Di Dynamics 365 Project Service Automation, ada dua jenis kuotasi: kuotasi proye
 - Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek memiliki bidang. Bidang mencakup **unit kontrak**, **manajer akun**, dan **nama tagihan ke kontak**.  
 - Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan yang disebut **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
 
-Topik ini akan fokus pada rincian kuotasi proyek.
+Artikel ini akan fokus pada detail kutipan proyek.
 
 Kuotasi proyek dalam PSA dapat memiliki beberapa item baris atau baris kuotasi. Bahkan, kuotasi proyek memiliki dua kisi untuk item baris. Satu kisi adalah untuk baris berbasis proyek yang memungkinkan perkiraan rinci. Kisi lainnya adalah untuk lini berbasis produk menggunakan harga satuan sederhana dan pendekatan berbasis kuantitas.
 

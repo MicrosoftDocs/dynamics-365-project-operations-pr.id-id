@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 36, V3
-description: Topik ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 36, V3.
+description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Pembaruan Rilis 36, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924986"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Yang baru atau diubah di Project Service Automation Rilis Pembaruan 36, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586670"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 36, V3. Versi ini memiliki nomor pembuatan V3.10.57.152 dan umumnya tersedia melalui pembaruan mandiri pada Oktober 2021.
+Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation Update Release 36, V3. Versi ini memiliki nomor pembuatan V3.10.57.152 dan umumnya tersedia melalui pembaruan mandiri pada Oktober 2021.
 
 ## <a name="update-release-36"></a>Pembaruan rilis 36
 

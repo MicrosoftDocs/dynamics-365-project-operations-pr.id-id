@@ -1,6 +1,6 @@
 ---
 title: Laman beranda peningkatan
-description: Topik ini menunjukkan lokasi untuk menemukan informasi penting tentang fitur baru dan yang diubah di Dynamics 365 Project Service Automation, serta proses peningkatan ke versi terbaru.
+description: Artikel ini menunjukkan di mana menemukan informasi penting tentang fitur baru dan yang diubah di Dynamics 365 Project Service Automation, dan proses untuk meningkatkan ke versi terbaru.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926642"
 ---
 # <a name="upgrade-home-page"></a>Laman beranda peningkatan
 
@@ -48,14 +48,14 @@ Sebelumnya, pelanggan yang memiliki instans PSA versi 2.x dan perlu meng-upgrade
 Sebelum memulai proses peningkatan, sebaiknya selesaikan tugas berikut:
 
 - Verifikasikan Apakah baik Dynamics 365 Field Service maupun Project Service Automation diinstal pada instans yang teridentifikasi. Jika solusi kedua terinstal, Anda harus merencanakan untuk meng-upgrade keduanya sebelum Anda melanjutkan penggunaan instans secara teratur.
-- Tinjau topik berikut dengan cermat. Kesadaran dan pemahaman tentang perubahan antara versi akan membantu Anda dengan proses peningkatan. Topik ini memberikan informasi tentang perubahan besar dalam PSA, bersama dengan pertimbangan dan rekomendasi untuk merencanakan peningkatan Anda ke versi 3. x.
+- Tinjau dengan cermat artikel-artikel berikut. Kesadaran dan pemahaman tentang perubahan antara versi akan membantu Anda dengan proses peningkatan. Artikel ini memberikan informasi tentang perubahan besar dalam PSA, bersama dengan pertimbangan dan rekomendasi untuk merencanakan peningkatan Anda ke versi 3.x.
 
     - [Yang baru atau yang diubah di Project Service Automation versi 3](whats-new-changed-v3.md)
     - [Pertimbangan peningkatan – Project Service Automation versi 2.x atau 1.x ke versi 3.x](upgrade-v3.md)
 
 - Tingkatkan instans sandbox anda untuk mengevaluasi perubahan dalam penerapan sebelum meningkatkan instans produksi.
 
-Setelah Anda meninjau topik yang telah disebutkan sebelumnya dan siap mengupgrade ke versi PSA 3. x atau versi berbasis UCI, Kirim permintaan ke dukungan Microsoft untuk membuat peningkatan tersedia dari Pusat admin. Dalam permintaan Anda, berikan rincian instans Anda.
+Setelah Anda meninjau artikel yang disebutkan sebelumnya dan siap untuk memutakhirkan ke PSA versi 3.x atau versi berbasis UCI, kirimkan permintaan ke dukungan Microsoft untuk membuat pemutakhiran tersedia dari pusat Admin. Dalam permintaan Anda, berikan rincian instans Anda.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versi lama PSA (PSA versi 2. x) di instans yang baru dibuat
 

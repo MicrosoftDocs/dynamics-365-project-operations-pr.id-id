@@ -1,17 +1,17 @@
 ---
 title: Default dimensi keuangan
-description: Topik ini memberikan informasi tentang cara mengatur default dimensi keuangan.
+description: Artikel ini menyediakan informasi tentang cara menyiapkan default dimensi keuangan.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 10d9e0d739ac1b7681e2e77ec651daf3da8316ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931058"
 ---
 # <a name="financial-dimension-defaults"></a>Default dimensi keuangan
 
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 
 
-Dynamics 365 Project Operations menggunakan kerangka dimensi Keuangan [dalam Dynamics 365 Finance untuk memberikan wawasan tambahan tentang](/dynamics365/finance/general-ledger/financial-dimensions) subledger proyek dan transaksi buku besar umum.
+Dynamics 365 Project Operations [menggunakan kerangka kerja dimensi](/dynamics365/finance/general-ledger/financial-dimensions) Keuangan dalam Dynamics 365 Finance untuk memberikan wawasan tambahan tentang subledger proyek dan transaksi buku besar.
 
 Dimensi keuangan default dapat ditetapkan pada pelanggan, sumber pendanaan proyek, tonggak pencapaian, lini kontrak proyek, atau proyek.
 

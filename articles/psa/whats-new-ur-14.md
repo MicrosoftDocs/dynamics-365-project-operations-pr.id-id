@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 14, V3
-description: Topik ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Rilis Pembaruan 14 V3.
+description: Artikel ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Update Release 14 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926550"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation Pembaruan Rilis 14, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594307"
 
 Kami dengan gembira mengumumkan pembaruan terbaru untuk aplikasi Dynamics 365 Project Service Automation (PSA). Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, dan buka halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, pembaruan rilis 14. Versi ini memiliki nomor pembuatan V3.10.4.21 dan tersedia pada jadwal berikut ini:
+Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk PSA V3, Rilis Pembaruan 14. Versi ini memiliki nomor pembuatan V3.10.4.21 dan tersedia pada jadwal berikut ini:
 
 - **Ketersediaan umum (pembaruan mandiri):** Januari 2020
 - **Pembaruan otomatis:** Februari 2020

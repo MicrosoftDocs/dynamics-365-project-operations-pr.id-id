@@ -1,6 +1,6 @@
 ---
 title: Perubahan entitas, kontrol, dan antarmuka pengguna (Project Service Automation 3.x)
-description: Topik ini menjelaskan perubahan solusi untuk Microsoft Dynamics Project Service Automation 3.x.
+description: Artikel ini menjelaskan perubahan solusi untuk Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926872"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Perubahan entitas, kontrol, dan antarmuka pengguna (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Dengan dirilisnya Microsoft Dynamics Project Service Automation (PSA) 3. x, banyak perubahan yang telah dilakukan pada entitas, kontrol, tampilan, dan antarmuka pengguna. topik berikut berisi informasi penting tentang perubahan penting.
+Dengan dirilisnya Microsoft Dynamics Project Service Automation (PSA) 3. x, banyak perubahan yang telah dilakukan pada entitas, kontrol, tampilan, dan antarmuka pengguna. Artikel ini menyediakan informasi tentang perubahan penting ini.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relasi induk-anak untuk dokumen penjualan, baris dokumen penjualan, entitas detail baris dokumen penjualan
 Dalam versi Dynamics 365 Project Service Automation (PSA) yang dirilis sebelum versi 3,0, beberapa Relasi antara dokumen penjualan, baris dokumen penjualan, dan entitas rincian baris dokumen penjualan diterapkan melalui bidang string yang akan memiliki representasi string GUID entitas terkait. Hal ini dikarenakan keterbatasan platform yang memerlukan kode kustom yang signifikan pada server dan sisi klien solusi untuk membuat Relasi tersebut bekerja seperti Relasi entitas Dynamics CRM tipikal dan untuk membuat bidang string bertindak seperti bidang pencarian.

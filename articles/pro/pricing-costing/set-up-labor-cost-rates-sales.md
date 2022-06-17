@@ -1,17 +1,17 @@
 ---
 title: Mengonfigurasikan tarif biaya tenaga kerja - lite
-description: Topik ini memberikan informasi tentang cara mengatur tarif untuk biaya tenaga kerja di Project Operations.
+description: Artikel ini menyediakan informasi tentang cara menyiapkan tarif biaya untuk tenaga kerja di Operasi Proyek.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 01e3b41ca5c8fcc9146186873e0f44daad020c6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 77e47fb1e76229bb7f52deb9b5472d04bb180623
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925998"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Mengonfigurasikan tarif biaya tenaga kerja - lite
 

@@ -1,17 +1,17 @@
 ---
 title: Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
-description: Topik ini memberikan informasi dan sampel untuk menggunakan API jadwal proyek.
+description: Artikel ini menyediakan informasi dan sampel untuk menggunakan API jadwal Proyek.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929218"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
 
@@ -42,7 +42,7 @@ OperationSet adalah pola unit kerja yang dapat digunakan ketika beberapa jadwal 
 
 Berikut adalah daftar API jadwal Proyek saat ini.
 
-- **msdyn_CreateProjectV1**: API ini dapat digunakan untuk membuat proyek. Proyek dan bucket proyek default segera dibuat.
+- **msdyn_CreateProjectV1**: API ini dapat digunakan untuk membuat proyek. Bucket proyek dan proyek default segera dibuat.
 - **msdyn_CreateTeamMemberV1**: API ini dapat digunakan untuk membuat anggota tim proyek. Rekaman anggota tim akan segera dibuat.
 - **msdyn_CreateOperationSetV1**: API ini dapat digunakan untuk menjadwalkan beberapa permintaan yang harus dilakukan dalam transaksi.
 - **msdyn_PSSCreateV1**: API ini dapat digunakan untuk membuat entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembuatan.
@@ -58,10 +58,10 @@ Karena rekaman dengan **CreateProjectV1** dan **CreateTeamMemberV1** dibuat deng
 
 | Entitas Penjadwalan | Buat | Update | Delete | Pertimbangan penting |
 | --- | --- | --- | --- | --- |
-Tugas proyek | Ya | Ya | Ya | Bidang **Progress**, **EffortCompleted**, dan **EffortRemaining** dapat diedit di Project for the Web, tetapi tidak dapat diedit dalam Operasi Proyek.  |
-| Dependensi Tugas Proyek | Ya |  | Ya | Rekaman dependensi tugas proyek tidak diperbarui. Sebagai gantinya, rekaman lama dapat dihapus, dan rekaman baru dapat dibuat. |
-| Penetapan Sumber Daya | Ya | Ya | | Operasi dengan bidang berikut tidak didukung: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, dan **PlannedWork**. Rekaman penetapan sumber daya tidak diperbarui. Sebagai gantinya, catatan lama dapat dihapus, dan rekaman baru dapat dibuat. |
-| Wadah Proyek | Ya | Ya | Ya | Bucket default dibuat dengan **menggunakan API CreateProjectV1**. Dukungan untuk membuat dan menghapus bucket proyek ditambahkan di Pembaruan Rilis 16. |
+Tugas proyek | Ya | Ya | Ya | Bidang **Progress**, **EffortCompleted**, dan **EffortRemaining** dapat diedit di Project for the Web, tetapi tidak dapat diedit di Project Operations.  |
+| Dependensi Tugas Proyek | Ya |  | Ya | Rekaman dependensi tugas proyek tidak diperbarui. Sebagai gantinya, catatan lama dapat dihapus, dan catatan baru dapat dibuat. |
+| Penetapan Sumber Daya | Ya | Ya | | Operasi dengan bidang berikut tidak didukung: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, dan **PlannedWork**. Rekaman penetapan sumber daya tidak diperbarui. Sebagai gantinya, catatan lama dapat dihapus, dan catatan baru dapat dibuat. |
+| Wadah Proyek | Ya | Ya | Ya | Bucket default dibuat dengan **menggunakan API CreateProjectV1**. Dukungan untuk membuat dan menghapus bucket proyek ditambahkan di Rilis Pembaruan 16. |
 | Anggota Tim Proyek | Ya | Ya | Ya | Untuk operasi pembuatan, gunakan API **CreateTeamMemberV1**. |
 | Project | Ya | Ya |  | Operasi dengan bidang berikut tidak didukung: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, dan **Duration**. |
 
@@ -71,7 +71,7 @@ Properti ID bersifat opsional. Jika diberikan, sistem mencoba menggunakannya dan
 
 ## <a name="restricted-fields"></a>Bidang dibatasi
 
-Tabel berikut menentukan bidang yang dibatasi dari **Buat** dan **Edit**.
+Tabel berikut ini menentukan bidang yang dibatasi dari **Buat** dan **Edit**.
 
 ### <a name="project-task"></a>Tugas proyek
 
@@ -86,8 +86,8 @@ Tabel berikut menentukan bidang yang dibatasi dari **Buat** dan **Edit**.
 | msdyn_costatcompleteestimate           | No             | No               |
 | msdyn_costatcompleteestimate_base      | No             | No               |
 | msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Tidak (ya untuk proyek)             | Tidak (ya untuk proyek)               |
-| msdyn_effortremaining                  | Tidak (ya untuk proyek)              | Tidak (ya untuk proyek)                |
+| msdyn_effortcompleted                  | Tidak (ya untuk Proyek)             | Tidak (ya untuk Proyek)               |
+| msdyn_effortremaining                  | Tidak (ya untuk Proyek)              | Tidak (ya untuk Proyek)                |
 | msdyn_effortestimateatcomplete         | No             | No               |
 | msdyn_iscritical                       | No             | No               |
 | msdyn_iscriticalname                   | No             | No               |
@@ -103,7 +103,7 @@ Tabel berikut menentukan bidang yang dibatasi dari **Buat** dan **Edit**.
 | msdyn_plannedsales                     | No             | No               |
 | msdyn_plannedsales_base                | No             | No               |
 | msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Tidak (ya untuk proyek)             | Tidak (ya untuk proyek) |
+| msdyn_progress                         | Tidak (ya untuk Proyek)             | Tidak (ya untuk Proyek) |
 | msdyn_remainingcost                    | No             | No               |
 | msdyn_remainingcost_base               | No             | No               |
 | msdyn_remainingsales                   | No             | No               |
@@ -265,7 +265,7 @@ Tabel berikut menentukan bidang yang dibatasi dari **Buat** dan **Edit**.
 ## <a name="limitations-and-known-issues"></a>Masalah dan batasan yang diketahui
 Berikut adalah daftar batasan dan masalah umum:
 
-- API Jadwal Proyek hanya dapat digunakan oleh **Pengguna dengan Lisensi** Proyek Microsoft. Tidak dapat digunakan oleh:
+- API Jadwal Proyek hanya dapat digunakan oleh **Pengguna dengan Lisensi** Microsoft Project. Tidak dapat digunakan oleh:
 
     - Pengguna Aplikasi
     - Pengguna Sistem

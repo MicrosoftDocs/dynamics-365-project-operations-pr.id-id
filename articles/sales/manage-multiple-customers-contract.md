@@ -1,21 +1,21 @@
 ---
 title: Mengelola beberapa pelanggan pada kontrak proyek
-description: Topik ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek.
+description: Artikel ini menyediakan informasi tentang cara mengelola beberapa pelanggan pada kontrak proyek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928344"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mengelola beberapa pelanggan pada kontrak proyek
 
-Topik ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek. Anda dapat menggunakan kontrak proyek saat perjanjian kontrak untuk beberapa pelanggan diperlukan untuk mendanai transaksi. Pada halaman **Kontrak Proyek**, tab **Rangkuman** berisi informasi tentang pelanggan utama untuk transaksi. Pelanggan lain yang berpartisipasi dalam transaksi dapat ditambahkan ke tab **Pelanggan**.
+Artikel ini menyediakan informasi tentang cara mengelola beberapa pelanggan pada kontrak proyek. Anda dapat menggunakan kontrak proyek saat perjanjian kontrak untuk beberapa pelanggan diperlukan untuk mendanai transaksi. Pada halaman **Kontrak Proyek**, tab **Rangkuman** berisi informasi tentang pelanggan utama untuk transaksi. Pelanggan lain yang berpartisipasi dalam transaksi dapat ditambahkan ke tab **Pelanggan**.
 
 Semua pelanggan kontrak pada tab **Pelanggan** kontrak proyek merupakan default pelanggan baris kontrak pada setiap baris kontrak berbasis proyek baru yang dibuat untuk kontrak proyek. Setiap baris kontrak berbasis proyek yang ada tidak mewarisi record pelanggan kontrak baru yang dibuat kemudian.
 

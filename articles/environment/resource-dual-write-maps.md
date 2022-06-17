@@ -1,17 +1,17 @@
 ---
 title: Versi peta penulisan ganda Project Operations
-description: Daftar topik ini menyediakan daftar peta penulisan ganda yang diperlukan untuk Dynamics 365 Project Operations.
+description: Artikel ini menyediakan daftar peta tulis ganda yang diperlukan untuk Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612754"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959666"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versi peta penulisan ganda Project Operations
 
@@ -54,7 +54,7 @@ Peta berikut adalah diperlukan untuk solusi Project Operations. Versi peta penul
 | Entitas integrasi Project Operations untuk estimasi jam (msdyn_resourceassignments) | 1.0.0.5 | Tidak diperlukan untuk provisi. ||
 | Entitas ekspor kategori pengeluaran proyek integrasi Project Operations (msdyn_expensecategories) | 1.0.0.1 | Tidak diperlukan untuk provisi. ||
 | Entitas ekspor pengeluaran proyek integrasi Project Operations (msdyn_expenses) | 1.0.0.3 | Tidak diperlukan untuk provisi. ||
-| Entitas ekspor faktur vendor proyek integrasi Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
+| Entitas ekspor faktur vendor proyek integrasi Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Tidak diperlukan untuk provisi. |10.0.26 atau yang lebih baru|
 | Entitas ekspor baris faktur vendor proyek integrasi Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Tidak diperlukan untuk provisi. | 10.0.26 atau yang lebih baru |
 | Peran sumber daya proyek untuk semua perusahaan (bookableresourcecategories) | 1.0.0.1 | Memerlukan sinkronisasi awal untuk peta tabel agar dapat mensinkronisasi peran sumber daya Manajer Proyek dan anggota Tim yang diisi di lingkungan Dynamics 365 Dataverse selama provisi. Dataverse adalah sumber utama untuk sinkronisasi awal. ||
 | Tugas proyek (msdyn_projecttasks) | 1.0.0.4 | Tidak diperlukan untuk provisi. ||

@@ -1,6 +1,6 @@
 ---
-title: Menyinkronkan tugas proyek langsung dari Otomatisasi Layanan Proyek ke Keuangan dan Operasi
-description: Ini topik menjelaskan template dan tugas mendasar yang digunakan untuk menyinkronkan tugas proyek langsung dari Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Menyinkronkan tugas proyek langsung dari Project Service Automation ke Finance and Operations
+description: Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan tugas proyek langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931150"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Menyinkronkan tugas proyek langsung dari Otomatisasi Layanan Proyek ke Keuangan dan Operasi
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Menyinkronkan tugas proyek langsung dari Project Service Automation ke Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Ini topik menjelaskan template dan tugas mendasar yang digunakan untuk menyinkronkan tugas proyek langsung dari Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan tugas proyek langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas proyek, kategori transaksi pengeluaran, estimasi jam, estimasi pengeluaran, dan penguncian fungsi tersedia dalam versi 8.0.
@@ -71,7 +71,7 @@ Anda harus menggunakan Microsoft Power Query untuk Excel untuk memfilter data ji
 
 - Anda memiliki rekaman khusus sumber daya dalam tugas proyek.
 
-Jika Anda harus menggunakan Power Query, ikuti panduan ini:
+Jika Anda harus menggunakan Power Query, ikuti pedoman ini:
 
 - Template tugas proyek (PSA untuk Fin dan Ops) memiliki filter default yang mengecualikan rekaman khusus sumber daya dari tugas proyek dengan mengatur filter pada **islinetask** ke **false**. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini.
 

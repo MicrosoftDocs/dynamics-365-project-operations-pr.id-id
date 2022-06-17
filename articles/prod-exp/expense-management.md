@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar manajemen pengeluaran
-description: Topik ini menyediakan informasi umum tentang manajemen pengeluaran dan tautan ke sumber daya tambahan. Anda dapat menggunakan manajemen pengeluaran untuk membuat alur kerja terpadu yang memungkinkan Anda menyimpan informasi metode pembayaran, mengimpor transaksi kartu kredit, dan melacak uang yang dibelanjakan karyawan saat mereka menimbulkan pengeluaran untuk bisnis Anda.
+description: Artikel ini memberikan informasi umum tentang Manajemen biaya dan tautan ke sumber daya tambahan. Anda dapat menggunakan manajemen pengeluaran untuk membuat alur kerja terpadu yang memungkinkan Anda menyimpan informasi metode pembayaran, mengimpor transaksi kartu kredit, dan melacak uang yang dibelanjakan karyawan saat mereka menimbulkan pengeluaran untuk bisnis Anda.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934048"
 ---
 # <a name="expense-management-overview"></a>Ikhtisar manajemen pengeluaran
 
@@ -43,7 +43,7 @@ Untuk informasi lebih lanjut, lihat [Konsep baru laporan pengeluaran](ExpenseWor
 
 ### <a name="blogs"></a>Blog
 
-Anda dapat menemukan pendapat, berita, dan informasi lainnya di [Microsoft Dynamics blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 365 dan [Microsoft Dynamics blog Keuangan dan Operasi 365](https://community.dynamics.com/365/financeandoperations/b/financials).
+Anda dapat menemukan opini, berita, dan informasi lainnya di [Microsoft Dynamics blog 365 dan](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Blog [komunitas mitra Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) memberikan mitra Microsoft Dynamics sumber daya tunggal di mana mereka dapat mempelajari apa yang baru dan tren dalam operasi MBS.
 

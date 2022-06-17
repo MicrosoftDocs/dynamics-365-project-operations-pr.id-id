@@ -1,17 +1,17 @@
 ---
 title: Mendaftar ke uji coba Project Operations
-description: Topik ini menyediakan informasi tentang cara menyebarkan uji coba Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang cara menyebarkan versi percobaan Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584278"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959702"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Mendaftar ke uji coba Project Operations 
 
@@ -19,9 +19,9 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-s
 
 
 
-Topik ini menjelaskan cara berlangganan penawaran mitra pratinjau dan menyebarkan lingkungan Dynamics 365 Project Operations.
+Artikel ini menjelaskan cara berlangganan penawaran mitra pratinjau dan menyebarkan Dynamics 365 Project Operations lingkungan.
 
-Dengan uji coba Project Operations baru, Anda dapat secara otomatis menyebarkan salah satu dari tiga skenario penyebaran yang didukung dengan menyelesaikan daftar pertanyaan yang merekomendasikan pendekatan penyebaran terbaik. Topik ini menyediakan informasi tentang bagaimana:
+Dengan uji coba Project Operations baru, Anda dapat secara otomatis menyebarkan salah satu dari tiga skenario penyebaran yang didukung dengan menyelesaikan daftar pertanyaan yang merekomendasikan pendekatan penyebaran terbaik. Artikel ini menyediakan informasi tentang cara:
 
 - Menukarkan penawaran uji coba Anda.
 - Memulai provisi.
@@ -89,14 +89,15 @@ Sebelum Anda memulai, masuk ke browser dengan akun kerja pengguna di penyewa tem
 4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi Keuangan dan Operasi untuk memvalidasi penyebaran.
 
 ## <a name="configuring-dual-write"></a>Mengonfigurasikan tulis ganda
-- Untuk mengonfigurasi peran keamanan untuk penulisan ganda, lihat [Memperbarui pengaturan keamanan pada Operasi Proyek di Dataverse](resource-provision-new-environment.md).
-- Untuk mengonfigurasi peta penulisan ganda, lihat [Menjalankan peta penulisan ganda Operasi Proyek](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Untuk mengonfigurasi peran keamanan untuk penulisan ganda, lihat [Memperbarui pengaturan keamanan pada Operasi Proyek di Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Untuk mengakses konfigurasi tulis ganda, Navigasikan ke instans Keuangan dan Operasi, lalu navigasikan ke **Tulis Ganda Manajemen** > **Data**.
+- Untuk mengonfigurasi peta tulis ganda, lihat [Menjalankan peta](resource-provision-new-environment.md#run-project-operations-dual-write-maps) tulis ganda Operasi Proyek.
 
 ## <a name="assign-licenses"></a>Menetapkan lisensi
 
 Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
-1. [Microsoft 365 Buka pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
+1. Buka [Microsoft 365 pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
 
    ![Halaman Beranda pusat Admin](./media/14AdminPortal.png)
 
@@ -124,7 +125,7 @@ Sumber daya berikut memberikan panduan bermanfaat saat Anda memulai perjalanan d
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Dapatkah saya memperpanjang masa uji coba setelah 30 hari?
 Untuk memperpanjang uji coba, selesaikan langkah-langkah berikut.
 
-1. Di **Microsoft 365 Pusat** Admin, buka **Menagih** > **produk** Anda.
+1. Di **Microsoft 365 Pusat** Admin, buka **Penagihan** > **produk** Anda.
 2. Pilih **Dynamics 365 Project Operations (CE) - Uji Coba Pratinjau**.
 3. Dalam **Tanggal Kedaluwarsa**, pilih **Perpanjang Tanggal**.
 

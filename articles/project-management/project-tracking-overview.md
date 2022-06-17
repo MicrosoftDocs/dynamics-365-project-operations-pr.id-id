@@ -1,23 +1,23 @@
 ---
 title: Pelacakan upaya proyek
-description: Topik ini menyediakan informasi tentang cara melacak upaya proyek dan kemajuan pekerjaan.
+description: Artikel ini memberikan informasi tentang cara melacak upaya proyek dan kemajuan pekerjaan.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929264"
 ---
 # <a name="project-effort-tracking"></a>Pelacakan upaya proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Beberapa industri melacak pada tingkat rinci, sedangkan industri lainnya melacak pada tingkat yang lebih tinggi. Topik ini menunjukkan cara menjadwalkan untuk memenuhi kebutuhan organisasi anda.
+Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Beberapa industri melacak pada tingkat rinci, sedangkan industri lainnya melacak pada tingkat yang lebih tinggi. Artikel ini memperlihatkan cara menjadwalkan untuk memenuhi persyaratan organisasi Anda.
 
 ## <a name="effort-tracking-view"></a>Tampilan Pelacakan Upaya
 
@@ -45,8 +45,8 @@ Upaya pada ringkasan tugas atau tugas kontainer dapat diproyeksikan ulang. Manaj
 - EAC baru pada setiap tugas individual hingga tugas node leaf dihitung. 
 - Tugas anak yang terpengaruh hingga node leaf memiliki persentase upaya tersisa mereka dan kemajuan yang akan dihitung ulang berdasarkan nilai EAC. Ini menghasilkan proyeksi baru untuk varians upaya dari tugas. 
 - EAC dari tugas ringkasan sepenuhnya hingga node root dihitung ulang.
-- Upaya yang disetujui pada tugas ringkasan adalah jumlah upaya yang disetujui pada semua tugas anak ditambah upaya yang disetujui pada tugas ringkasan.
-- Upaya yang tersisa pada tugas ringkasan adalah jumlah upaya yang tersisa pada semua tugas anak dikurangi upaya yang disetujui pada tugas ringkasan.
+- Upaya yang disetujui pada tugas ringkasan adalah jumlah dari upaya yang disetujui pada semua tugas anak ditambah upaya yang disetujui pada tugas ringkasan.
+- Upaya yang tersisa pada tugas ringkasan adalah jumlah dari upaya yang tersisa pada semua tugas anak dikurangi upaya yang disetujui pada tugas ringkasan.
 
 ## <a name="project-status-summary"></a>Ringkasan Status Proyek
 

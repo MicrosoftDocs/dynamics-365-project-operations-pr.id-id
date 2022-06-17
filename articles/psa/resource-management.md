@@ -1,6 +1,6 @@
 ---
 title: Laman beranda proyek sumber daya
-description: Topik ini memberikan informasi tentang kemampuan manajemen sumber daya di Project Service Automation (PSA) untuk Dynamics 365.
+description: Artikel ini menyediakan informasi tentang kemampuan manajemen sumber daya di Project Service Automation (PSA) untuk Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925262"
 ---
 # <a name="resourcing-projects-home-page"></a>Laman beranda proyek sumber daya
 
@@ -46,7 +46,7 @@ Sumber daya adalah aset terpenting dari organisasi berbasis layanan. Kemampuan u
 - Mempertahankan keterampilan dan repositori kemahiran.
 
 
-Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau bernama di PSA. Anda dapat menggunakan berbagai metode untuk menambah dan menetapkan anggota tim serta mengelola Pemesanan dan tugas. Untuk informasi tambahan, lihat topik berikut:
+Anda dapat menetapkan staf proyek Anda dengan tim sumber daya generik atau bernama di PSA. Anda dapat menggunakan berbagai metode untuk menambah dan menetapkan anggota tim serta mengelola Pemesanan dan tugas. Untuk informasi tambahan, lihat artikel berikut ini:
 
 - [Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan menetapkan tugas pada mereka](assign-named-bookable-resource.md)
 - [Tetapkan sumber daya yang dapat dipesan generik ke tugas dan buat persyaratan sumber daya](assign-generic-bookable-resource.md)

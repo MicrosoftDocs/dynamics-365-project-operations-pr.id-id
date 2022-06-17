@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 13, V3
-description: Topik ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Rilis Pembaruan 13, V3.
+description: Artikel ini menyediakan informasi tentang apa yang baru dalam Project Service Automation Update Release 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930690"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation Pembaruan Rilis 13, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596160"
 
 Kami dengan gembira mengumumkan pembaruan terbaru untuk aplikasi Dynamics 365 Project Service Automation (PSA). Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, dan buka halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Topik ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 13. Versi ini memiliki nomor pembuatan V3.10.3.18 Versi ini memiliki nomor pembuatan V 4 dan tersedia pada jadwal berikut ini:
+Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, Update Release 13. Versi ini memiliki nomor pembuatan V3.10.3.18 Versi ini memiliki nomor pembuatan V 4 dan tersedia pada jadwal berikut ini:
 
 - **Ketersediaan umum (pembaruan mandiri):** November 2019
 - **Pembaruan otomatis:** Desember 2019

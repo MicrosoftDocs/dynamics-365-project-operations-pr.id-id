@@ -1,6 +1,6 @@
 ---
 title: Laman beranda harga dan dimensi biaya
-description: Topik ini memberikan ikhtisar tentang dimensi harga.
+description: Artikel ini memberikan gambaran umum tentang dimensi harga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925446"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Laman beranda harga dan dimensi biaya
 
@@ -47,7 +47,7 @@ PSA dikirim dengan seperangkat dimensi harga default. Anda dapat melihat ini den
 > [!IMPORTANT]
 > Jika Anda telah menggunakan bidang bawaan peran dan unit organisasi sebagai dimensi harga sebelum versi 3 dari PSA, tidak akan ada perubahan yang dapat diamati. Anda dapat terus menggunakan project service seperti biasa. 
 
-Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi lebih lanjut, lihat topik berikut, Namun perhatikan bahwa Anda harus menyelesaikan prosedur dalam urutan yang tercantum di bawah ini:
+Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi selengkapnya, lihat artikel berikut ini, namun perhatikan bahwa Anda harus menyelesaikan prosedur dalam urutan yang tercantum di bawah ini:
 
 - [Membuat bidang dan entitas kustom](create-custom-fields-entities.md)
 - [Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi](field-references.md)

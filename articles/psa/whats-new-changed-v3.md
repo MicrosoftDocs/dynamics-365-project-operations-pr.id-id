@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau yang diubah di Project Service Automation versi 3
-description: Topik ini menyediakan informasi tentang apa yang baru dan diubah dalam Project Service Automation versi 3.
+description: Artikel ini menyediakan informasi tentang apa yang baru dan berubah dalam Project Service Automation versi 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926596"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Yang baru atau yang diubah di Project Service Automation versi 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581656"
 
 
 
-Topik ini menyediakan informasi tentang perubahan ke antarmuka pengguna (UI), fungsi, dan terminologi di Project Service Automation antara versi 2 atau versi 1 dan versi 3.
+Artikel ini menyediakan informasi tentang perubahan pada antarmuka pengguna (UI), fungsionalitas, dan terminologi dalam Project Service Automation antara versi 2 atau versi 1 dan versi 3.
 
 ## <a name="project-scheduling"></a>Penjadwalan proyek
 Jadwal proyek, yang dikenal sebagai struktur rincian kerja (WBS) di versi sebelumnya, telah diubah namanya menjadi Jadwal dan diakses dengan mengklik tab **Jadwal**. 
@@ -150,7 +150,7 @@ Ketika Anda memiliki penetapan tugas untuk sumber daya, namun tidak ada pemesana
 Bagian ini menyediakan informasi tentang perubahan waktu, pengeluaran, dan persetujuan dalam versi 3 dari Project Service Automation. Sebagai bagian dari solusi Dynamics 365 Project Service Automation, fitur **entri waktu** telah diperbarui untuk meningkatkan kerangka Antarmuka Terpadu. Ini memungkinkan hadirnya antarmuka pengguna yang konsisten dan seragam yang mengikuti desain responsif untuk tampilan optimal pada ukuran layar atau perangkat apa pun. 
 
 ### <a name="landing-page"></a>Halaman arahan
-Pengalaman entri waktu kustom yang tidak dapat diperluas telah ditolak dalam versi 3. Namun, sekarang ada pengalaman kisi asli yang dapat diperluas dan dapat diakses. Anda dapat mengakses fungsi entri waktu menggunakan peta situs di sebelah kiri. Dengan perubahan ini, Anda tidak akan lagi dapat memasukkan waktu selama satu minggu pada satu waktu. Namun, Anda harus membuat entri waktu untuk setiap hari di kisi. Setelah beberapa entri waktu dibuat, pengguna dapat massal membuat entri waktu dengan fungsi **salin** yang dijelaskan nanti di topik ini. 
+Pengalaman entri waktu kustom yang tidak dapat diperluas telah ditolak dalam versi 3. Namun, sekarang ada pengalaman kisi asli yang dapat diperluas dan dapat diakses. Anda dapat mengakses fungsi entri waktu menggunakan peta situs di sebelah kiri. Dengan perubahan ini, Anda tidak akan lagi dapat memasukkan waktu selama satu minggu pada satu waktu. Namun, Anda harus membuat entri waktu untuk setiap hari di kisi. Setelah beberapa entri waktu dibuat, pengguna dapat membuat entri waktu secara massal dengan **fungsi Salin** yang dijelaskan nanti dalam artikel ini. 
 
 ![halaman arahan entri waktu.](media/time-entry-landing-page-07.png)
  

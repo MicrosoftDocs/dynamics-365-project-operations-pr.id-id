@@ -1,17 +1,17 @@
 ---
 title: Membuat struktur rincian kerja
-description: Artikel topik menjelaskan cara membuat WBS (struktur perincian kerja) yang mencakup kontrol dasar di antarmuka penjadwalan baru.
+description: Artikel ini menjelaskan cara membuat struktur rincian kerja (WBS) yang mencakup kontrol dasar di antarmuka penjadwalan baru.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932070"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Membuat struktur rincian kerja (WBS)
 
@@ -95,7 +95,7 @@ Sebagai administrator, Anda dapat menentukan bidang kustom pada entitas tugas. N
 
 ## <a name="staffing-attributes"></a>Atribut staf
 
-Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemilih sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian mengembalikan anggota tim proyek yang ada atau sumber daya aktif yang dapat dipesan.
+Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemilih sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian akan mengembalikan anggota tim proyek yang ada atau sumber daya aktif yang dapat dipesan.
 
 **Peran**, **unit sumber daya**, dan bidang **nama posisi** digunakan untuk menjelaskan persyaratan staf untuk tugas. Atribut staf ini bersama dengan jadwal tugas digunakan untuk menemukan sumber daya yang tersedia untuk melakukan tugas ini.
 

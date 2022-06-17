@@ -1,6 +1,6 @@
 ---
 title: Aplikasi pengeluaran mobile
-description: Topik ini menyediakan informasi tentang ruang kerja seluler manajemen pengeluaran.
+description: Artikel ini menyediakan informasi tentang ruang kerja seluler Manajemen pengeluaran.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930230"
 ---
 # <a name="mobile-expense-app"></a>Aplikasi pengeluaran mobile
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Topik ini menyediakan informasi tentang ruang kerja seluler **manajemen pengeluaran**. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran. Selain itu, pemberi izin dapat menggunakan ruang kerja seluler **manajemen pengeluaran** untuk melihat laporan pengeluaran yang ditetapkan kepadanya, dan menyetujui atau menolak laporan pengeluaran tersebut.
+Artikel ini menyediakan informasi tentang ruang **kerja seluler Manajemen** pengeluaran. Ruang kerja ini memungkinkan pengguna mengambil dan mengunggah tanda terima, sehingga dapat dilampirkan ke laporan pengeluaran nanti. Pengguna juga dapat dengan cepat membuat baris pengeluaran menggunakan tanda terima terlampir, dan membuat serta mengelola laporan pengeluaran. Selain itu, pemberi izin dapat menggunakan ruang kerja seluler **manajemen pengeluaran** untuk melihat laporan pengeluaran yang ditetapkan kepadanya, dan menyetujui atau menolak laporan pengeluaran tersebut.
 
 Ruang kerja Mobile ini ditujukan untuk digunakan dengan aplikasi mobile Dynamics 365 Unified Ops.
 
@@ -204,28 +204,28 @@ Unduh dan instal aplikasi seluler Dynamics 365 Unified Ops:
 
 ## <a name="frequently-asked-questions"></a>Tanya jawab
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Mengapa aplikasi seluler Pengeluaran tidak memasukkan metode pembayaran secara default?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Mengapa aplikasi seluler Expense tidak memasukkan metode pembayaran secara default?
 
-Organisasi dapat menyesuaikan **pengaturan metode** pembayaran Default untuk setiap kategori pengeluaran saat dibuat. Selain itu, saat menyiapkan metode pembayaran, Anda dapat mengatur **bidang Metode** pembayaran default menjadi **Impor saja**.
+Organisasi dapat menyesuaikan **setelan Metode** pembayaran default untuk setiap kategori pengeluaran saat dibuat. Selain itu, saat menyiapkan metode pembayaran, Anda dapat mengatur **bidang Metode** pembayaran default hanya ke **Impor**.
 
-Saat **Impor hanya** diaktifkan untuk metode pembayaran, metode pembayaran tidak dimasukkan secara default. Ini akan kosong dalam kategori pengeluaran di mana metode pembayaran ini disiapkan. Perilaku ini konsisten dalam pengalaman web dan pengalaman seluler.
+Saat **Impor hanya** diaktifkan untuk metode pembayaran, metode pembayaran tidak dimasukkan secara default. Ini akan kosong dalam kategori pengeluaran di mana metode pembayaran ini diatur. Perilaku ini konsisten dalam pengalaman web dan pengalaman seluler.
     
-Jika **Impor saja** tidak diaktifkan untuk metode pembayaran, nilai yang ditetapkan dimasukkan secara default untuk kategori pengeluaran tempat metode pembayaran ini disiapkan. Namun, ada masalah yang diketahui di mana nilai default tidak dimasukkan di aplikasi seluler Expense. Untuk mengatasi masalah ini, pilih metode pembayaran secara manual sebelum Anda menyimpan laporan pengeluaran. 
+Jika **Impor saja** tidak diaktifkan untuk metode pembayaran, nilai yang ditetapkan dimasukkan secara default untuk kategori pengeluaran tempat metode pembayaran ini disiapkan. Namun, ada masalah umum di mana nilai default tidak dimasukkan di aplikasi seluler Biaya. Untuk mengatasi masalah ini, pilih metode pembayaran secara manual sebelum Anda menyimpan laporan pengeluaran. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Mengapa saya tidak dapat menambahkan atau mengedit dimensi keuangan di aplikasi seluler Expense?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Mengapa saya tidak dapat menambahkan atau mengedit dimensi keuangan di aplikasi seluler Pengeluaran?
 
 Entri dimensi dan distribusi tidak didukung. Untuk mengatasi batasan ini, Anda dapat mengatur bidang ini secara default di aplikasi seluler dengan menyiapkan dimensi keuangan default per proyek atau karyawan.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Mengapa terkadang saya melihat kesalahan sinkronisasi di aplikasi seluler Expense?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Mengapa terkadang saya melihat kesalahan sinkronisasi di aplikasi seluler Biaya?
 
-Jika garis pengeluaran tidak memenuhi persyaratan kebijakan, dan pengguna mengirimkan laporan pengeluaran tanpa menangani peringatan kebijakan, data seluler tidak disinkronkan ke server, dan terjadi kegagalan sinkronisasi. Semua laporan pengeluaran yang dikirimkan setelah kegagalan sinkronisasi terjadi akan tetap dalam keadaan gagal dan menyebabkan lebih banyak kegagalan sinkronisasi. Satu-satunya cara untuk memperbaiki situasi ini adalah dengan menghapus pemberitahuan sinkronisasi secara manual. Masalah ini telah diatasi dengan menghentikan penyampaian laporan pengeluaran ketika peringatan kebijakan belum ditangani, sehingga kesalahan sinkronisasi dihindari.
+Jika baris pengeluaran tidak memenuhi persyaratan kebijakan, dan pengguna mengirimkan laporan pengeluaran tanpa menangani peringatan kebijakan, data seluler tidak disinkronkan ke server, dan terjadi kegagalan sinkronisasi. Semua laporan pengeluaran yang dikirimkan setelah kegagalan sinkronisasi terjadi akan tetap dalam keadaan gagal dan menyebabkan lebih banyak kegagalan sinkronisasi. Satu-satunya cara untuk memperbaiki situasi ini adalah dengan menghapus pemberitahuan sinkronisasi secara manual. Masalah ini telah diatasi dengan menghentikan pengiriman laporan pengeluaran ketika peringatan kebijakan belum ditangani, sehingga kesalahan sinkronisasi dihindari.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Mengapa validasi proyek dan kategori tidak tercermin dengan benar di aplikasi seluler Expense?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Mengapa validasi project dan kategori tidak tercermin dengan benar di aplikasi seluler Expense?
 
-Validasi ini saat ini tidak didukung. Namun, dukungan dapat ditambahkan di masa depan. 
+Validasi ini saat ini tidak didukung. Namun, dukungan dapat ditambahkan di masa mendatang. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Jenis dokumen apa yang didukung di aplikasi seluler Expense?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Tipe dokumen apa yang didukung di aplikasi seluler Pengeluaran?
 
-Aplikasi seluler Expense hanya mendukung gambar. Saat ini tidak mendukung PDF atau dokumen lainnya.
+Aplikasi seluler Expense hanya mendukung gambar. Saat ini tidak mendukung PDF atau dokumen lain.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

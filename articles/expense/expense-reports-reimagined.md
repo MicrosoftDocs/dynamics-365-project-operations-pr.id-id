@@ -1,6 +1,6 @@
 ---
-title: Laporan pengeluaran yang ditata ulang (berisi video)
-description: Laporan topik menjelaskan pengalaman yang didesain ulang dan ditata ulang untuk entri laporan pengeluaran.
+title: Laporan pengeluaran yang dirancang ulang (berisi video)
+description: Artikel ini menjelaskan pengalaman yang didesain ulang dan dirancang ulang untuk entri laporan pengeluaran.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930276"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan pengeluaran model baru
 
@@ -58,7 +58,7 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **manajemen Fitur** untu
 | Simpan dan tambahkan baris pengeluaran baru | Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran. |
 | Visibilitas yang lebih baik ke baris terpisah dan terperinci | Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan. |
 | Melihat rincian subkategori di baris terperinci | Baris item dari pengeluaran induk memperlihatkan label subkategori pada laporan pengeluaran. Itemisasi memungkinkan Anda meninjau detail terperinci secara sekilas.|
-|Merinci pengeluaran berulang dengan cepat | Ruang kerja pengeluaran yang ditata ulang menyediakan kemampuan untuk merinci pengeluaran berulang dengan cepat dengan menambahkan subkategori, tanggal mulai, dan kuantitas. Kuantitas mengacu pada berapa kali muatan diulang selama periode kontinu. |
+|Perinci pengeluaran berulang dengan cepat | Ruang kerja pengeluaran yang dirancang ulang memberikan kemampuan untuk merinci pengeluaran berulang dengan cepat dengan menambahkan subkategori, tanggal mulai, dan kuantitas. Kuantitas mengacu pada berapa kali muatan diulangi selama periode kontinu. |
 | Tampilkan tanda terima selama itemisasi | Tanda terima dapat ditampilkan selama itemisasi. |
 | Pilihan Uang muka | Pilih satu atau beberapa uang muka tunai untuk memenuhi satu transaksi pengeluaran. |
 | saldo Uang muka | Tinjau saldo uang muka secara real time bila Anda membuat entri pengeluaran dengan uang muka yang disetujui dan dibayar. |

@@ -1,6 +1,6 @@
 ---
 title: Perencanaan dan pelacakan proyek
-description: Topik ini menyediakan tautan ke informasi tentang perencanaan dan pelacakan dalam Project Service Automation.
+description: Artikel ini menyediakan link ke informasi tentang perencanaan dan pelacakan di Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933266"
 ---
 # <a name="project-planning-and-tracking"></a>Perencanaan dan pelacakan proyek
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589890"
 
 Aplikasi Project Service mbn organisasi layanan mengidentifikasi peluang, mengajukan penawaran, mencapai perjanjian kontraktual, mengelola sumber daya, melacak waktu dan biaya, menagih pelanggan, dan melaksanakan proyek tepat waktu, dan sesuai anggaran. 
 
-Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipindahkan ke topik berikut:
+Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Jadwal proyek](../project-creating.md)
 - [Penerimaan dan biaya proyek](../project-estimating.md)
@@ -43,7 +43,7 @@ Tautan PDF yang sebelumnya di topik ini telah dihapus dan kontennya telah dipind
 - [pengaturan proyek](../project-settings.md)
 
 > [!NOTE]
-> Topik ini akan dihapus di pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

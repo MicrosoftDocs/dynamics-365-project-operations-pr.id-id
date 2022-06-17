@@ -1,6 +1,6 @@
 ---
 title: Menyinkronkan kategori biaya proyek antara Keuangan dan Operasi dan Otomatisasi Layanan Proyek
-description: Ini topik menjelaskan template dan tugas-tugas mendasar yang digunakan untuk menyinkronkan kategori biaya proyek antara Microsoft Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
+description: Artikel ini menjelaskan templat dan tugas yang mendasarinya yang digunakan untuk menyinkronkan kategori biaya proyek antara Microsoft Dynamics 365 Keuangan dan Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927240"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Menyinkronkan kategori biaya proyek antara Keuangan dan Operasi dan Otomatisasi Layanan Proyek
 
 [!include[banner](../includes/banner.md)]
 
-Ini topik menjelaskan template dan tugas-tugas mendasar yang digunakan untuk menyinkronkan kategori biaya proyek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
+Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan kategori biaya proyek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrasi tugas proyek, kategori transaksi pengeluaran, estimasi jam, estimasi pengeluaran, dan penguncian fungsi tersedia dalam versi 8.0.
@@ -80,10 +80,10 @@ Kategori pengeluaran proyek dikelola dalam Finance, dan disinkronisasi ke Projec
 
 ### <a name="power-query"></a>Power Query
 
-Saat Anda menyinkronkan ke Project Service Automation, Anda harus menggunakan Microsoft Power Query untuk Excel untuk mengatur jenis penagihan pada kategori transaksi. Template kategori transaksi pengeluaran proyek (Fin and Ops ke PSA) menyediakan kolom dan pemetaan default. Jika Anda membuat template Anda sendiri, Anda harus menambahkan kolom bersyarat di Power Query. ikuti langkah berikut.
+Saat Anda menyinkronkan ke Project Service Automation, Anda harus menggunakan Microsoft Power Query untuk Excel untuk mengatur jenis tagihan pada kategori transaksi. Template kategori transaksi pengeluaran proyek (Fin and Ops ke PSA) menyediakan kolom dan pemetaan default. Jika Anda membuat templat Anda sendiri, Anda harus menambahkan kolom bersyarat di Power Query. ikuti langkah berikut.
 
 1. Klik tanda panah untuk membuka pemetaan tugas kategori pengeluaran proyek dalam template kategori pengeluaran transaksi (Fin and Ops ke PSA).
-2. **Klik tautan Kueri dan Pemfilteran** Lanjutan untuk membuka Power Query.
+2. Klik link **Kueri dan Pemfilteran** Lanjutan untuk membuka Power Query.
 2. Pilih **Tambah kolom kondisional**.
 3. Masukkan nama untuk kolom baru, seperti **billingtype**.
 4. Masukkan kondisi berikut: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

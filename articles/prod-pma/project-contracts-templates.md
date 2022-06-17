@@ -1,6 +1,6 @@
 ---
 title: Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance
-description: Ini topik menjelaskan template dan tugas-tugas mendasar yang digunakan untuk menyinkronkan kontrak proyek dan proyek langsung dari Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+description: Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan kontrak dan proyek proyek langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933864"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Mensinkronisasi kontrak proyek dan proyek secara langsung dari Project Service Automation ke Finance 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684646"
 
 
 
-Ini topik menjelaskan template dan tugas-tugas mendasar yang digunakan untuk menyinkronkan kontrak proyek dan proyek langsung dari Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan kontrak dan proyek proyek langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 > [!NOTE] 
 > Jika Anda menggunakan Enterprise Edition 7.3.0, Anda harus menginstal KB 4074835.
@@ -128,7 +128,7 @@ Gunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi beri
 Jika Anda harus menggunakan Power Query, ikuti panduan ini:
 
 - Template proyek dan kontrak (PSA untuk Fin dan Ops) memiliki filter default yang mencakup hanya pesanan penjualan jenis **item kerja (msdyn\_ordertype = 192350001)**. Filter ini membantu menjamin bahwa kontrak proyek tidak dibuat untuk pesanan penjualan di Finance. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini.
-- Buat filter yang Power Query hanya mencakup organisasi kontrak yang harus disinkronkan dengan badan hukum kumpulan koneksi integrasi. Misalnya, kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono AS harus disinkronisasikan dengan entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
+- Buat filter yang Power Query hanya mencakup organisasi kontrak yang harus disinkronkan ke badan hukum set koneksi integrasi. Misalnya, kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono AS harus disinkronisasikan dengan entitas hukum USSI, namun kontrak proyek yang Anda miliki dengan unit organisasi kontrak Aswono global harus disinkronisasikan ke entitas hukum USMF. Jika Anda tidak menambahkan filter ini ke pemetaan tugas, Semua kontrak proyek akan disinkronisasikan ke entitas hukum yang ditentukan untuk rangkaian sambungan, terlepas dari unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan template di integrasi data
 

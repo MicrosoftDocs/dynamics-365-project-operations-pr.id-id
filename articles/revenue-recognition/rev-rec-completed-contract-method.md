@@ -1,23 +1,23 @@
 ---
 title: Mengelola estimasi pendapatan
-description: Topik ini berisi informasi tentang cara menggunakan estimasi pendapatan untuk berbagai proyek.
+description: Artikel ini memberikan informasi tentang cara bekerja dengan perkiraan pendapatan untuk proyek.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928482"
 ---
 # <a name="manage-revenue-estimates"></a>Mengelola estimasi pendapatan
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Anda dapat membuat, menghitung, memposting, membalik, atau menghilangkan estimasi pendapatan. Anda dapat melakukannya, baik secara manual maupun menggunakan proses berkala. Topik ini berisi informasi tentang cara menggunakan estimasi pendapatan untuk berbagai proyek.
+Anda dapat membuat, menghitung, memposting, membalik, atau menghilangkan estimasi pendapatan. Anda dapat melakukannya, baik secara manual maupun menggunakan proses berkala. Artikel ini memberikan informasi tentang cara bekerja dengan perkiraan pendapatan untuk proyek.
 
 ### <a name="manage-revenue-estimates-manually"></a>Mengelola estimasi pendapatan secara manual
 

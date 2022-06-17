@@ -1,6 +1,6 @@
 ---
 title: Membuat dan mengonfirmasi jurnal koreksi
-description: Topik ini menyediakan informasi tentang cara membuat dan mengonfirmasikan jurnal koreksi.
+description: Artikel ini menyediakan informasi tentang cara membuat dan mengonfirmasi jurnal koreksi.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928068"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Membuat dan mengonfirmasi jurnal koreksi
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Terkadang, entri waktu atau biaya mungkin salah dimasukkan. Misalnya, konsultan mungkin memilih tanggal yang salah ketika mereka membuat entri waktu, atau mereka mungkin memilih proyek yang salah ketika mereka memasukkan biaya. Jika konsultan tidak dapat memperbarui entri yang dikirimkan, admin back-end dapat langsung memperbaiki aktual untuk proyek.
+Terkadang, entri waktu atau pengeluaran mungkin salah dimasukkan. Misalnya, konsultan mungkin memilih tanggal yang salah saat mereka membuat entri waktu, atau mereka mungkin memilih proyek yang salah saat memasukkan biaya. Jika konsultan tidak dapat memperbarui entri yang dikirimkan, admin back-end dapat langsung memperbaiki aktual untuk suatu proyek.
 
 ## <a name="correct-approved-time-entries"></a>Mengoreksi entri waktu yang disetujui     
 
@@ -73,9 +73,9 @@ Selesaikan langkah-langkah berikut untuk mengoreksi satu atau beberapa entri pen
 
 6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Di kotak dialog, Pilih **Oke.** Jika nilai tidak ditampilkan sebagaimana mestinya, pilih **Batalkan** untuk kembali ke daftar **pengeluaran yang disetujui**. Ulangi langkah 2 hingga 5. 
 
-7. Setelah Mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Diperbarui untuk melihat perubahan.
+7. Setelah Anda mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Anda perbarui untuk melihat perubahan Anda.
 
-8. Pada halaman proyek, pada **tab Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
+8. Pada halaman proyek, pada tab **Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
 
 
 ## <a name="correct-approved-material-usage-logs"></a>Memperbaiki log penggunaan material yang disetujui
@@ -84,19 +84,19 @@ Selesaikan langkah-langkah berikut untuk memperbaiki satu atau beberapa entri lo
 
 1. **Di area Penjualan**, di panel navigasi kiri, di bawah **Transaksi**, pilih **Aktual**.
 
-2. **Dalam daftar Aktual**, gunakan filter kolom untuk memilih **kelas Transaksi material**, sehingga hanya aktual untuk materi yang ditampilkan. Gunakan filter kolom lain untuk lebih membatasi aktual yang ditampilkan. Setelah Anda dapat menemukan kumpulan aktual yang diinginkan, pilih aktual, lalu pilih **Entri yang benar**. Jurnal koreksi baru dibuat secara otomatis, dan **jenis koreksi** Material ditetapkan.
+2. **Dalam daftar Aktual**, gunakan filter kolom untuk memilih **kelas transaksi Material**, sehingga hanya aktual untuk materi yang ditampilkan. Gunakan filter kolom lain untuk lebih membatasi aktual yang diperlihatkan. Setelah Anda dapat menemukan kumpulan aktual yang diinginkan, pilih aktual, lalu pilih **Entri yang** benar. Jurnal koreksi baru dibuat secara otomatis, dan **jenis koreksi** Material ditetapkan.
 
-3. **Pada halaman Jurnal** Baru, di **bidang Deskripsi**, masukkan deskripsi untuk koreksi. Kemudian, pada **tab Koreksi** Material, di **bagian Nilai Baru untuk Materi**, pilih bidang data untuk mengoreksi baris materi yang dipilih. Misalnya, Anda dapat menetapkan materi ke proyek lain, atau memperbaiki produk, tanggal material, atau subkontrak.
+3. Pada halaman **Jurnal** Baru, di **bidang Deskripsi**, masukkan deskripsi untuk koreksi. Kemudian, pada tab **Koreksi** Material, di **bagian Nilai Baru untuk Materi**, pilih bidang data yang akan diperbaiki untuk baris material yang dipilih. Misalnya, Anda dapat menetapkan materi ke proyek lain, atau memperbaiki produk, tanggal material, atau subkontrak.
 
-4. pilih **Pratinjau**. Kemudian, dalam kotak dialog, pilih **OK**.
+4. pilih **Pratinjau**. Kemudian, di kotak dialog, pilih **OK**.
 
-5. **Pada tab Baris** jurnal, verifikasi koreksi. Anda dapat melihat daftar aktual asli yang terkait dengan entri materi yang dipilih yang telah dibalik dan baris yang sesuai yang telah dibuat.
+5. Pada tab **Baris** jurnal, verifikasi koreksi. Anda dapat melihat daftar aktual asli yang terkait dengan entri materi yang dipilih yang telah dibalik dan baris terkait yang telah dibuat.
 
-6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Kemudian, dalam kotak dialog, pilih **OK**. Jika nilai tidak seperti yang diharapkan, pilih **Batalkan** untuk kembali ke **daftar Aktual**. Kemudian ulangi langkah 2 sampai 5.
+6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Kemudian, di kotak dialog, pilih **OK**. Jika nilai tidak seperti yang diharapkan, pilih **Batal** untuk kembali ke **daftar Aktual**. Kemudian ulangi langkah 2 sampai 5.
 
-7. Setelah Mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Diperbarui untuk melihat perubahan.
+7. Setelah Anda mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Anda perbarui untuk melihat perubahan Anda.
 
-8. Pada halaman proyek, pada **tab Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
+8. Pada halaman proyek, pada tab **Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

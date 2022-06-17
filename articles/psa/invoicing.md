@@ -1,6 +1,6 @@
 ---
 title: Pemfakturan di Project Service Automation
-description: Topik ini menyediakan informasi tentang pemfakturan.
+description: Artikel ini menyediakan informasi tentang faktur.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926826"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Pemfakturan di Project Service Automation
 
@@ -94,7 +94,7 @@ Setelah **ProcessRunner** selesai berjalan, maka ia memanggil **ProcessRunCaller
 Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika proses batch ini dijalankan berkali-kali, beberapa instans pekerjaan dibuat dan menyebabkan kesalahan. Oleh karena itu, Anda harus memulai proses batch hanya satu kali, dan Anda harus me-restart hanya jika berhenti berjalan.
 
 > [!NOTE]
-> Faktur batch dalam Project Service Automation hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Informasi tentang cara mengkonfigurasi frekuensi faktur dalam konteks proyek yang didasarkan pada baris kuotasi, disediakan dalam baris topik, [kuotasi dan baris kuotasi](basic-quote-lines.md#invoice-schedule). Hal yang sama berlaku untuk baris kontrak berbasis proyek.      
+> Faktur batch dalam Project Service Automation hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Informasi tentang pengaturan frekuensi faktur dalam konteks proyek yang didasarkan pada garis kutipan, disediakan dalam artikel, Kutipan, [dan baris kutipan](basic-quote-lines.md#invoice-schedule). Hal yang sama berlaku untuk baris kontrak berbasis proyek.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Mengedit faktur draft PSA
 

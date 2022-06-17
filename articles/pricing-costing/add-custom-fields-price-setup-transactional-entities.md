@@ -1,6 +1,6 @@
 ---
 title: Menambahkan bidang kustom yang diperlukan ke pengaturan harga dan entitas transaksi
-description: Topik ini menyediakan informasi tentang cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan ke formulir dan tampilan.
+description: Artikel ini menyediakan informasi tentang cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan ke formulir dan tampilan.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926044"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Menambahkan bidang kustom yang diperlukan ke pengaturan harga dan entitas transaksi
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Topik ini mengasumsikan bahwa anda telah menyelesaikan prosedur di topik, [membuat entitas dan bidang kustom untuk digunakan sebagai dimensi harga](create-custom-fields-entities-pricing-dimensions.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke topik ini. 
+Artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang kustom dan entitas untuk digunakan sebagai dimensi harga](create-custom-fields-entities-pricing-dimensions.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
 
-Dalam topik ini, prosedur akan menunjukkan cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan elemen antarmuka pengguna (UI) seperti formulir dan tampilan.
+Pada artikel ini, prosedur akan menunjukkan kepada Anda cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan ke elemen antarmuka pengguna (UI) seperti formulir dan tampilan.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Menambahkan bidang dimensi harga kustom 
 Setelah bidang kustom dan entitas telah dibuat, langkah selanjutnya adalah membuat pengaturan harga dan entitas transaksi yang mengetahui entitas kustom atau rangkaian pilihan dengan membuat bidang referensi. Tergantung pada apakah daftar dimensi harga mencakup dimensi rangkaian pilihan atau dimensi entitas atau keduanya, ikuti hanya langkah di **dimensi harga kustom berbasis rangkaian pilihan** atau **Dimensi harga kustom berbasis entitas**, atau keduanya.

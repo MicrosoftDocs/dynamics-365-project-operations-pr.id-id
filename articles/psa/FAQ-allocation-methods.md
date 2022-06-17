@@ -1,6 +1,6 @@
 ---
 title: Metode alokasi Pemesanan di Project Service Automation
-description: Topik ini menyediakan informasi tentang berbagai cara untuk memesan alokasi.
+description: Artikel ini memberikan informasi tentang berbagai cara Anda dapat memesan alokasi.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929172"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metode alokasi Pemesanan di Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. topik ini menjelaskan cara masing-masing metode bekerja, dan metode yang dapat menyebabkan pemesanan berlebih sumber daya.
+Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. Artikel ini menjelaskan cara kerja setiap metode, dan metode mana yang dapat menyebabkan sumber daya pemesanan yang berlebihan.
 
 ## <a name="full-capacity"></a>Kapasitas Penuh 
 Metode Kapasitas Penuh memesan kapasitas penuh sumber daya untuk tanggal dari dan hingga yang ditentukan. Misalnya, jika sumber daya memiliki kalender yang diatur ke 8 jam setiap hari kerja, 5 hari dalam seminggu, pengaturan tanggal mulai dan berakhir yang mencakup 5 hari kerja akan memesan sumber daya untuk 40 jam. Pemesanan dilakukan tanpa memperhatikan kapasitas tersisa sumber daya. Jika sumber daya sudah tercatat selama periode tersebut pada proyek lain, 40 jam dipesan sebagai tambahan jam, berpotensi menyebabkan kelebihan pemesanan.

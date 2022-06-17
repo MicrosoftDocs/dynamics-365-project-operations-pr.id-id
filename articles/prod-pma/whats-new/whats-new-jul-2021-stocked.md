@@ -1,24 +1,24 @@
 ---
 title: Yang baru atau berubah di Project Operations, Juli 2021 untuk skenario berbasis stok/produksi
-description: Topik ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam skenario Project Operations yang dirilis Pada Bulan Juli 2021 untuk skenario berbasis produksi/stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Juli 2021 Operasi Proyek untuk skenario berbasis stok/produksi.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933634"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Yang baru atau berubah di Project Operations, Juli 2021 untuk skenario berbasis stok/produksi
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis stok/produksi_
 
-Topik ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
+Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.20
  

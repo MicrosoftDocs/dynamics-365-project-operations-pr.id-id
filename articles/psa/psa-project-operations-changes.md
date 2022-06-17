@@ -1,6 +1,6 @@
 ---
-title: Perubahan fitur dari Otomatisasi Layanan Proyek ke Operasi Proyek
-description: Ini topik memberikan gambaran umum tentang perubahan fitur dari Project Service Automation ke Dynamics 365 Project Operations.
+title: Perubahan fitur dari Project Service Automation ke Project Operations
+description: Artikel ini memberikan gambaran umum tentang perubahan fitur dari Project Service Automation ke Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925354"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Perubahan fitur dari Otomatisasi Layanan Proyek ke Operasi Proyek
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Perubahan fitur dari Project Service Automation ke Project Operations
 
-Upgrade dari Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations Lite akan dikirimkan dalam tiga fase. Ini topik memberikan informasi tentang perubahan besar yang dapat Anda harapkan untuk melihat ketika upgrade selesai.
+Upgrade dari Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations Lite akan dikirimkan dalam tiga fase. Artikel ini memberikan informasi tentang perubahan besar yang dapat Anda harapkan untuk dilihat saat pemutakhiran selesai.
 
-| Meningkatkan pengiriman | Tahap 1 <br>(Januari 2022) | Tahap 2 <br>(Gelombang April 2022) | Tahap 3  |
+| Tingkatkan pengiriman | Tahap 1 <br>(Januari 2022) | Tahap 2 <br>(Gelombang April 2022) | Tahap 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Tidak ada ketergantungan pada struktur rincian kerja (WBS) untuk proyek. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS termasuk dalam batas Operasi Proyek yang saat ini didukung. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -35,69 +35,69 @@ Upgrade dari Dynamics 365 Project Service Automation ke Dynamics 365 Project Ope
 
 ## <a name="project-management"></a>Manajemen proyek
 
-Perubahan paling signifikan dalam pengalaman pengguna akan berada di bidang perencanaan proyek. Operasi Proyek mengadopsi pengalaman modern baru untuk mengelola struktur rincian kerja (WBS) dengan memanfaatkan kemampuan penjadwalan yang disediakan oleh [Project for the Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Perubahan paling signifikan dalam pengalaman pengguna adalah di bidang perencanaan proyek. Project Operations mengadopsi pengalaman modern baru untuk mengelola struktur rincian kerja (WBS) dengan memanfaatkan kemampuan penjadwalan yang disediakan oleh [Project for the Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
 ## <a name="differences-in-the-scheduling-experience"></a>Perbedaan dalam pengalaman penjadwalan
 
-Tabel berikut merangkum perbedaan penjadwalan antara Otomatisasi Layanan Proyek dan Operasi Proyek.
+Tabel berikut ini meringkas perbedaan penjadwalan antara Otomatisasi Layanan Proyek dan Operasi Proyek.
 
 |  Penjadwalan     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Template proyek - Kemampuan untuk menentukan dan menerapkan template proyek saat proyek dibuat  |  &nbsp;    | :heavy_check_mark: |
-| Integrasi struktur perincian kerja proyek (WBS) dengan klien desktop   |    &nbsp;  | :heavy_check_mark: |
+| Templat proyek - Kemampuan untuk menentukan dan menerapkan templat proyek saat proyek dibuat  |  &nbsp;    | :heavy_check_mark: |
+| Integrasi struktur rincian kerja proyek (WBS) dengan klien desktop   |    &nbsp;  | :heavy_check_mark: |
 | Kendala - Mulai tidak lebih awal dari, selesaikan selambat-lambatnya  | :heavy_check_mark: |   &nbsp;  |
 | Milestones - Tugas dengan durasi nol   | :heavy_check_mark:  |  &nbsp;  |
-| Tugas yang digerakkan oleh sumber daya akan menghormati ketersediaan sumber daya yang ditetapkan   | :heavy_check_mark: |  &nbsp;    |
-| Pengeditan bertahap waktu - Edit rencana dan kerjakan setiap hari   |   &nbsp;  | :heavy_check_mark: |
-| Penjadwalan otomatis /manual - Gunakan mesin penjadwalan Proyek untuk menjadwalkan tugas secara otomatis atau manual |  &nbsp; | :heavy_check_mark:  |
-| Mengedit proyek besar secara langsung di antarmuka pengguna: Tidak ada batasan ukuran paket yang dapat diedit  | 500 batas tugas  | :heavy_check_mark:       |
+| Tugas yang didorong oleh sumber daya akan menghormati ketersediaan sumber daya yang ditetapkan   | :heavy_check_mark: |  &nbsp;    |
+| Pengeditan bertahap waktu - Edit paket dan bekerja setiap hari   |   &nbsp;  | :heavy_check_mark: |
+| Penjadwalan otomatis/manual - Gunakan mesin penjadwalan Proyek untuk menjadwalkan tugas secara otomatis atau manual |  &nbsp; | :heavy_check_mark:  |
+| Edit proyek besar langsung di antarmuka pengguna: Tidak ada batasan ukuran paket yang dapat diedit  | Batas tugas 500  | :heavy_check_mark:       |
 | Persen selesai - Tandai kemajuan tugas   | :heavy_check_mark:  |  &nbsp;  |
 | [Mode](../project-management/scheduling-modes.md) Jadwal Proyek - Tentukan proyek sebagai unit tetap, upaya tetap, atau durasi tetap | :heavy_check_mark: | &nbsp; |
-| Timeline - Bangun dan sesuaikan tampilan timeline untuk memvisualisasikan detail jadwal dan berkomunikasi dengan pemangku kepentingan. | :heavy_check_mark:  | &nbsp; |
-| Tugas yang digerakkan oleh upaya - Penjadwalan dukungan mesin untuk menjadwalkan tugas sebagai upaya yang didorong  | :heavy_check_mark:  | &nbsp; |
-| **Kotak dialog informasi** tugas - Simpan detail tugas menggunakan kotak dialog | :heavy_check_mark:  |  &nbsp;  |
+| Linimasa - Membangun dan menyesuaikan tampilan garis waktu untuk memvisualisasikan detail jadwal dan berkomunikasi dengan pemangku kepentingan. | :heavy_check_mark:  | &nbsp; |
+| Tugas yang didorong oleh upaya - Menjadwalkan dukungan mesin untuk menjadwalkan tugas sebagai upaya yang didorong oleh upaya  | :heavy_check_mark:  | &nbsp; |
+| **Kotak dialog Informasi** tugas - Simpan detail tugas menggunakan kotak dialog | :heavy_check_mark:  |  &nbsp;  |
 | Seret dan lepas - Multi-pilih tugas dan ubah posisinya di WBS | :heavy_check_mark: | &nbsp;  |
-| Tampilan persisten yang fleksibel - Tentukan tampilan atribut tugas yang lebih terperinci   | :heavy_check_mark:  | &nbsp; |
+| Tampilan persisten yang fleksibel - Menentukan tampilan atribut tugas yang lebih terperinci   | :heavy_check_mark:  | &nbsp; |
 | Mengurutkan dan memfilter WBS  | :heavy_check_mark:  | &nbsp; |
 | Tampilan papan untuk pengiriman proyek non-air terjun  | :heavy_check_mark:   | &nbsp; |
-| Tampilan garis waktu - Bagan Gantt Interaktif yang digunakan untuk memvisualisasikan dan mengedit WBS   | :heavy_check_mark:  | &nbsp; |
-| Pintasan Keyboard - Gunakan pintasan keyboard untuk operasi umum, seperti inden atau sisipkan  | :heavy_check_mark:  |  &nbsp; |
-| Multi-level undo - Lakukan analisis bagaimana-jika untuk sepenuhnya memahami dampak perubahan dengan membalikkan dan menerapkan kembali seluruh rangkaian operasi | :heavy_check_mark: | &nbsp; |
-| Cut/Copy/Paste - Berkolaborasi dalam pengembangan jadwal dengan menyalin dan menempelkan detail jadwal antar aplikasi  | :heavy_check_mark: | &nbsp; |
+| Tampilan garis waktu - Bagan Gantt interaktif yang digunakan untuk memvisualisasikan dan mengedit WBS   | :heavy_check_mark:  | &nbsp; |
+| Pintasan Keyboard - Menggunakan pintasan keyboard untuk operasi umum, seperti indentasi atau sisipan  | :heavy_check_mark:  |  &nbsp; |
+| Pembatalan multi-level - Lakukan analisis bagaimana-jika untuk sepenuhnya memahami dampak perubahan dengan membalikkan dan menerapkan kembali seluruh rangkaian operasi | :heavy_check_mark: | &nbsp; |
+| Potong/Salin/Tempel - Berkolaborasi pada pengembangan jadwal dengan menyalin dan menempelkan detail jadwal antar aplikasi  | :heavy_check_mark: | &nbsp; |
 | Daftar periksa tugas - Menambahkan hingga 20 item daftar periksa ke tugas   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Perencanaan proyek
 
-Halaman **Proyek** dalam Operasi Proyek memiliki sejumlah besar perbedaan dibandingkan **dengan halaman Proyek** di Otomatisasi Layanan Proyek.
+Halaman **Proyek** dalam Operasi Proyek memiliki sejumlah besar perbedaan dibandingkan **dengan halaman Proyek** di Project Service Automation.
 
-Tindakan berikut telah dihapus dari **halaman Proyek** sebagai bagian dari peningkatan Fase 1:
+Tindakan berikut telah dihapus dari **halaman Proyek** sebagai bagian dari pemutakhiran Fase 1:
 
   - **Buka di MS Project**
   - **Buat Template**
   - **Batalkan tautan dari MS Project**
 
-Halaman **Proyek** dalam Operasi Proyek menyertakan tab baru berikut.
+Halaman **Proyek** di Operasi Proyek mencakup tab baru berikut.
 
 - **Perkiraan Materi**
 - **Konfigurasi Penagihan Tugas**
 
-Tab **Status** telah dihapus dan **bidang Status** sekarang ada di **tab Ringkasan** dengan mode penjadwalan proyek.
+Tab **Status** telah dihapus dan **bidang Status** sekarang berada di tab **Ringkasan** dengan mode penjadwalan proyek.
 
-   ![Pembaruan ke halaman Proyek.](media/projectform.png)
+   ![Pembaruan pada halaman Proyek.](media/projectform.png)
 
-Tab **Jadwal** telah diganti namanya menjadi **tab Tugas** dan menampilkan pengalaman perencanaan proyek baru dengan Project for the Web.
+Tab **Jadwal** telah diganti namanya menjadi tab **Tugas** dan menampilkan pengalaman perencanaan proyek baru dengan Project for the Web.
 
    ![Tab Tugas proyek baru.](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Mode penjadwalan
 
-Operasi Proyek telah memperkenalkan fitur baru, [Mode](../project-management/scheduling-modes.md) penjadwalan. Semua proyek Otomatisasi Layanan Proyek yang ada akan default ke **Durasi** Tetap dalam Operasi Proyek. Namun, default untuk proyek baru dapat dikelola dengan membuka **Settings** > **Parameter Parameters** > **Parameter** > **Schedule Mode**.
+Operasi Proyek telah memperkenalkan fitur baru, [mode](../project-management/scheduling-modes.md) Penjadwalan. Semua proyek Project Service Automation yang ada akan default ke **Fixed Duration** di Project Operations. Namun, default untuk proyek baru dapat dikelola dengan masuk ke **Pengaturan Parameter Parameter Parameter** > **·** > **Schedule Mode** > **·**.
 
    ![Pengaturan parameter proyek untuk mode Jadwal.](media/projectparameter.png)
 
 ## <a name="project-planning-limits"></a>Batas perencanaan proyek
 
-Operasi Proyek bergantung pada Proyek untuk Web untuk semua operasi penjadwalan proyek. Project for the Web mengelola struktur perincian kerja menggunakan batas dalam tabel berikut.
+Operasi Proyek bergantung pada Project for the Web untuk semua operasi penjadwalan proyek. Project for the Web mengelola struktur rincian kerja menggunakan batas dalam tabel berikut.
 
 | **Bidang**                                          | **Batas**             |
 |----------------------------------------------------|-----------------------|
@@ -114,9 +114,9 @@ Operasi Proyek bergantung pada Proyek untuk Web untuk semua operasi penjadwalan 
 | Rentang tanggal yang didukung untuk tugas                    | 1/1/2000 - 31/12/2149 |
 | Item daftar periksa                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Ekstensifikasi dan pengembangan perencanaan proyek
+## <a name="project-planning-extensibility-and-development"></a>Ekstensibilitas dan pengembangan perencanaan proyek
 
-Setelah anda memutakhirkan ke Operasi Proyek, anda harus menggunakan API Penjadwalan Proyek untuk menjalankan operasi buat, perbarui, dan hapus pada entitas berikut:
+Setelah Anda meng-upgrade ke Project Operations, Anda harus menggunakan PROJECT Scheduling API untuk menjalankan operasi buat, perbarui, dan hapus pada entitas berikut:
 
 |   Nama entitas           |   Nama logika entitas       |
 |-------------------------|-----------------------------|
@@ -127,11 +127,11 @@ Setelah anda memutakhirkan ke Operasi Proyek, anda harus menggunakan API Penjadw
 | Wadah Proyek          | msdyn_projectbucket         |
 | Anggota Tim Proyek     | msdyn_projectteam           |
 
-Jika saat ini Anda memiliki penyesuaian yang melibatkan entitas ini, lihat [Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas](../project-management/schedule-api-preview.md) Penjadwalan untuk panduan implementasi.
+Jika saat ini Anda memiliki penyesuaian yang melibatkan entitas ini, lihat [Menggunakan API jadwal Proyek untuk melakukan operasi dengan entitas](../project-management/schedule-api-preview.md) Penjadwalan untuk panduan implementasi.
 
 ## <a name="data-model-changes"></a>Perubahan model data
 
-Sebagai bagian dari Upgrade Fase 1, ada perubahan pada model data. Perubahan ini terutama perubahan lapangan untuk entitas yang ada. Pada Fase 1, entitas, **msydn_project** dan **msdyn_projectteam** adalah refactoring penyesuaian. 
+Sebagai bagian dari Peningkatan Fase 1, ada perubahan pada model data. Perubahan ini terutama merupakan perubahan bidang pada entitas yang ada. Pada Fase 1, entitas, **msydn_project**, dan **msdyn_projectteam** adalah pemfaktoran ulang penyesuaian. 
 
 > [!IMPORTANT]
 > Bagian ini akan diperbarui dengan entitas tambahan saat fase peningkatan di masa mendatang selesai.
@@ -153,57 +153,57 @@ Bidang berikut telah ditambahkan.
 
 |   Entitas          |   Nama logika                               |   Deskripsi |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Menunjukkan agregat penjualan biaya aktual pada proyek. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Menunjukkan agregat biaya material aktual pada proyek. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Menunjukkan agregat penjualan material aktual pada proyek. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
+| msdyn_project     | msdyn_actualfeesales                         | Menunjukkan agregat penjualan biaya aktual pada proyek. Hanya untuk digunakan dalam Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialcost                     | Menunjukkan agregat biaya material aktual pada proyek. Hanya untuk digunakan dalam Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialsales                    | Menunjukkan agregat penjualan material aktual pada proyek. Hanya untuk digunakan dalam Project Service Automation. |
 | msdyn_project     | msdyn_businesscase                           |                |
 | msdyn_project     | msdyn_contractlineproject                    | Garis kontrak yang terkait dengan proyek ini. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Ini adalah bidang sistem internal yang digunakan untuk **Copy Project** yang terkait dengan Correlation Identifier. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Ini adalah bidang sistem internal, yang digunakan untuk **Copy Project** yang terkait dengan Session Identifier. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Sinkronisasi terakhir xRM Global Revision Token dari layanan penjadwalan Proyek. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Ini adalah bidang sistem internal yang digunakan untuk **Copy Project** yang terkait dengan Identifier Korelasi. Hanya untuk digunakan dalam Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Ini adalah bidang sistem internal, yang digunakan untuk **Copy Project** yang terkait dengan Session Identifier. Hanya untuk digunakan dalam Project Service Automation. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Sinkronisasi terakhir xRM Global Revision Token dari layanan penjadwalan Project. |
 | msdyn_project     | msdyn_msprojectdocument                      | Dokumen Microsoft Project milik proyek. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Agregat biaya material yang direncanakan pada proyek. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Agregat penjualan material yang direncanakan pada proyek tersebut. Hanya untuk digunakan dalam Otomatisasi Layanan Proyek. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Agregat biaya material yang direncanakan pada proyek. Hanya untuk digunakan dalam Project Service Automation. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Agregat penjualan material yang direncanakan pada proyek. Hanya untuk digunakan dalam Project Service Automation. |
 | msdyn_project     | msdyn_program                                | Program terkait proyek ini. |
-| msdyn_project     | msdyn_quotelineproject                       | Garis kutipan yang terkait dengan proyek ini. |
+| msdyn_project     | msdyn_quotelineproject                       | Baris Kutipan yang terkait dengan proyek ini. |
 | msdyn_project     | msdyn_replaylogheader                        | Header untuk log replay. |
 | msdyn_project     | msdyn_schedulemode                           | Mode penjadwalan default yang digunakan untuk semua tugas pada proyek.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Tanggal mulai paling awal untuk tugas apa pun dalam proyek.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Anggota tim proyek tempat anggota tim proyek ini disalin. |
 | msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Menunjukkan apakah akan membuat persyaratan sumber daya untuk anggota tim generik yang baru dibuat.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Status hapus anggota tim untuk melacak apakah ada permintaan hapus yang dikirim ke layanan penjadwalan Proyek dan apakah berhasil mengirimkan respons kembali dalam jendela waktu yang diharapkan. |
+| msdyn_projectteam | msdyn_deletestatus                           | Status hapus anggota tim untuk melacak apakah ada permintaan penghapusan yang dikirim ke layanan penjadwalan Proyek dan apakah berhasil mengirimkan respons kembali dalam jangka waktu yang diharapkan. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Melacak upaya yang dilakukan oleh anggota tim pada tugas mereka. |
 | msdyn_projectteam | msdyn_effortremaining                        | Melacak upaya yang belum diselesaikan oleh anggota tim pada tugas mereka. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Masa tunggu dari saat anggota tim mengirimkan permintaan hapus ke layanan penjadwalan Proyek hingga anggota tim benar-benar dihapus pada Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Stempel waktu untuk merekam saat anggota tim menghapus permintaan dikirim ke layanan penjadwalan Proyek. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Masa tunggu dari saat anggota tim mengirimkan permintaan penghapusan ke layanan penjadwalan Proyek hingga anggota tim benar-benar dihapus pada Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Stempel waktu untuk merekam saat permintaan penghapusan anggota tim dikirim ke layanan penjadwalan Proyek. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Menampilkan anggota tim proyek yang disalin anggota tim proyek ini.  |
 
 ## <a name="project-templates"></a>Template Proyek
 
-Operasi Proyek tidak memberikan dukungan untuk templat proyek. Namun, Anda dapat mereplikasi sebagian besar fungsi inti dengan menggunakan [Project Copy API](../project-management/dev-copy-project.md).
+Operasi Proyek tidak menyediakan dukungan untuk templat proyek. Namun, Anda dapat mereplikasi sebagian besar fungsionalitas inti dengan menggunakan [Project Copy API](../project-management/dev-copy-project.md).
 
 ## <a name="desktop-add-in-support"></a>Dukungan add-in desktop
 
-Dukungan untuk add-in Microsoft Project Desktop tidak akan tersedia dalam 2 fase pertama peningkatan. Pada Fase 3, pelanggan yang memiliki proyek yang lebih besar dari batas Project for the Web yang didukung saat ini akan dapat menggunakan add-in desktop.
+Dukungan untuk add-in Microsoft Project Desktop tidak akan tersedia dalam 2 fase pertama pemutakhiran. Di Fase 3, pelanggan yang memiliki proyek yang lebih besar dari batas Project for the Web yang saat ini didukung akan dapat menggunakan add-in desktop.
 
-## <a name="editing-resource-assignment-contours"></a>Mengedit kontur penetapan sumber daya
+## <a name="editing-resource-assignment-contours"></a>Mengedit kontur penugasan sumber daya
 
-Kemampuan untuk mengedit kontur penetapan sumber daya akan tersedia saat Tahap 2 peningkatan tersedia.
+Kemampuan untuk mengedit kontur penetapan sumber daya akan tersedia saat Fase 2 peningkatan tersedia.
 
 ## <a name="billing-and-pricing"></a>Penagihan dan harga
 
-Fitur baru berikut telah ditambahkan dalam Operasi Proyek. Fitur-fitur ini bersifat aditif dan tidak memengaruhi model data Project Service Automation.
+Fitur baru berikut telah ditambahkan di Operasi Proyek. Fitur-fitur ini bersifat aditif dan tidak memengaruhi model data Project Service Automation.
 
 - [Merekam penggunaan materi pada proyek dan tugas proyek](../material/material-usage-log.md)
 - [Manajemen subkontrak](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Kontrak berbasis uang muka dan panjar](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Status dan validasi kontrak tidak boleh dilampaui](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Status dan validasi kontrak tidak melebihi](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - [Penagihan berbasis tugas](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
-## <a name="deprecated-components"></a>Komponen usang
+## <a name="deprecated-components"></a>Komponen yang tidak digunakan lagi
 
-Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi komponen yang tidak digunakan lagi pasca peningkatan. Untuk informasi selengkapnya dan tautan ke solusi, lihat [Dynamics 365 Project Service Automation 3x ke Operasi Proyek 4x komponen](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution) yang tidak digunakan lagi.
+Tabel berikut mendokumentasikan semua bidang yang tidak digunakan lagi yang dipindahkan ke solusi komponen yang tidak digunakan lagi setelah pemutakhiran. Untuk informasi selengkapnya dan tautan ke solusi, lihat [Dynamics 365 Project Service Automation 3x ke Operasi Proyek 4x komponen yang tidak digunakan lagi](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
 ### <a name="invoicedetail"></a>invoicedetail
 
@@ -221,7 +221,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 
 | Kolom                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_characteristicreqforteammember.msdyn_karakteristik                                     |
+| msdyn_characteristicreqforteammember.msdyn_characteristic                                     |
 | msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
 | msdyn_characteristicreqforteammember.msdyn_characteristictype                                 |
 | msdyn_characteristicreqforteammember.msdyn_name                                               |
@@ -315,7 +315,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 | msdyn_opportunitylinetransaction.msdyn_exchangeratedate                                       |
 | msdyn_opportunitylinetransaction.msdyn_opportunityline                                        |
 | msdyn_opportunitylinetransaction.msdyn_opportunitylinetransactionid                           |
-| msdyn_opportunitylinetransaction.msdyn_percent                                                |
+| msdyn_opportunitylinetransaction.msdyn_persen                                                |
 | msdyn_opportunitylinetransaction.msdyn_price                                                  |
 | msdyn_opportunitylinetransaction.msdyn_price_base                                             |
 | msdyn_opportunitylinetransaction.msdyn_pricelist                                              |
@@ -382,7 +382,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 | msdyn_project.msdyn_istemplate                                                                |
 | msdyn_project.msdyn_plannedhours                                                              |
 | msdyn_project.msdyn_projecttemplate                                                           |
-| msdyn_project.msdyn_remaininghours                                                            |
+| msdyn_project.msdyn_sisa jam                                                            |
 | msdyn_project.msdyn_scheduleddurationminutes                                                  |
 | msdyn_project.msdyn_scheduledend                                                              |
 | msdyn_project.msdyn_stagename                                                                 |
@@ -403,7 +403,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 | msdyn_projecttask.msdyn_effortcontour                                                         |
 | msdyn_projecttask.msdyn_islinetask                                                            |
 | msdyn_projecttask.msdyn_numberofresources                                                     |
-| msdyn_projecttask.msdyn_remaininghours                                                        |
+| msdyn_projecttask.msdyn_sisa jam                                                        |
 | msdyn_projecttask.msdyn_resourceutilization                                                   |
 | msdyn_projecttask.msdyn_salesestimatecontour                                                  |
 | msdyn_projecttask.msdyn_scheduledhours                                                        |
@@ -422,7 +422,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 | msdyn_projecttaskstatususer.msdyn_percentcomplete                                             |
 | msdyn_projecttaskstatususer.msdyn_projecttaskid                                               |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatusindicator                                  |
-| msdyn_projecttaskstatususer.msdyn_projecttaskstatusususerid                                     |
+| msdyn_projecttaskstatususer.msdyn_projecttaskstatususerid                                     |
 
 ### <a name="msdyn_projectteam"></a>msdyn_projectteam
 
@@ -432,7 +432,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 | msdyn_projectteam.msdyn_applicantsavailable                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
 | msdyn_projectteam.msdyn_description                                                           |
-| msdyn_projectteam.msdyn_dari                                                                  |
+| msdyn_projectteam.msdyn_from                                                                  |
 | msdyn_projectteam.msdyn_hoursrequested                                                        |
 | msdyn_projectteam.msdyn_membershipstatus                                                      |
 | msdyn_projectteam.msdyn_number                                                                |
@@ -478,7 +478,7 @@ Tabel berikut mendokumentasikan semua bidang usang yang dipindahkan ke solusi ko
 | msdyn_resourceassignment.msdyn_msprojectclientid                                              |
 | msdyn_resourceassignment.msdyn_todate                                                         |
 | msdyn_resourceassignmentdetail.msdyn_duration                                                 |
-| msdyn_resourceassignmentdetail.msdyn_dari                                                     |
+| msdyn_resourceassignmentdetail.msdyn_from                                                     |
 | msdyn_resourceassignmentdetail.msdyn_name                                                     |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentdetailid                               |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentid                                     |
