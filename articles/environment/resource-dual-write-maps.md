@@ -2,16 +2,16 @@
 title: Versi peta penulisan ganda Project Operations
 description: Artikel ini menyediakan daftar peta tulis ganda yang diperlukan untuk Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959666"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112433"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versi peta penulisan ganda Project Operations
 
@@ -25,12 +25,12 @@ Peta berikut adalah prasyarat yang diperlukan untuk solusi Project Operations. P
 
 | Peta tabel | Sinkronisasi awal |
 | --- | --- |
-| Buku Besar (msdyn_ledgers) | Memerlukan sinkronisasi awal untuk peta tabel dan semua prasyarat. Master untuk sinkronisasi awal adalah aplikasi Keuangan dan Operasi. |
+| Buku Besar (msdyn_ledgers) | Memerlukan sinkronisasi awal untuk peta tabel dan semua prasyarat. Master untuk sinkronisasi awal adalah aplikasi keuangan dan operasi. |
 | Entitas hukum (cdm_companies) | Tidak wajib. Sistem akan mengisi entitas ini secara otomatis bila lingkungan ditautkan menggunakan penulisan ganda. |
 | Pelanggan V3 (akun) | Tidak diperlukan untuk provisi. |
 | Vendor V2 (msdyn_vendors) | Tidak diperlukan untuk provisi. |
 
-1. Dari daftar peta, pilih peta buku besar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. **Di bidang Master untuk sinkronisasi** awal, pilih **aplikasi** Keuangan dan Operasi untuk peta buku besar dan semua peta prasyarat. Pilih **Jalankan**.
+1. Dari daftar peta, pilih peta buku besar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. **Di bidang Master untuk sinkronisasi** awal, pilih **Aplikasi** keuangan dan operasi untuk peta buku besar dan semua peta prasyarat. Pilih **Jalankan**.
 
 ![Sinkronisasi peta buku besar.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Peta berikut adalah diperlukan untuk solusi Project Operations. Versi peta penul
 | Header kontrak proyek (pesanan penjualan) | 1.0.0.1 | Tidak diperlukan untuk provisi. ||
 | Baris kontrak proyek (salesorderdetails) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
 | Sumber dana proyek (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Tidak diperlukan untuk provisi. ||
-| Tabel integrasi Project Operations untuk estimasi bahan (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
+| Tabel integrasi proyek untuk perkiraan material (perkiraan msdyn\_) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
 | Proposal faktur proyek V2 (faktur) | 1.0.0.3 | Tidak diperlukan untuk provisi. ||
 | Aktual Integrasi Project Operations (msdyn_actuals) | 1.0.0.14 | Tidak diperlukan untuk provisi. ||
 | Tahapan baris kontak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk provisi. ||

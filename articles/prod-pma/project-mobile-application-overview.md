@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922870"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028890"
 ---
 # <a name="project-mobile-applications-overview"></a>Ikhtisar aplikasi Project mobile
 
@@ -33,11 +33,11 @@ Aplikasi seluler Dynamics 365 Project Timesheet memungkinkan pengguna memasukkan
 
 ## <a name="project-time-entry-workspace"></a>Ruang kerja entri waktu proyek
 
-Ruang kerja entri waktu proyek memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek. Namun, ini tidak memungkinkan pengguna mengirimkan atau menyetujui lembar waktu proyek. Ini hanya dapat digunakan untuk entri waktu. Ruang kerja seluler ini dimaksudkan untuk digunakan bersama dengan aplikasi seluler Keuangan dan Operasi.
+Ruang kerja entri waktu proyek memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek. Namun, ini tidak memungkinkan pengguna mengirimkan atau menyetujui lembar waktu proyek. Ini hanya dapat digunakan untuk entri waktu. Ruang kerja seluler ini dimaksudkan untuk digunakan bersama dengan aplikasi seluler keuangan dan operasi.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Lembar waktu saya/lembar waktu untuk ulasan saya
 
-Lembar waktu saya (dioptimalkan untuk perangkat seluler) dan lembar waktu untuk ulasan saya (dioptimalkan untuk perangkat seluler) merupakan solusi yang memungkinkan karyawan membuat, mengirimkan, dan menyetujui lembar waktu proyek di perangkat bergerak. Pekerja dapat mengakses fungsi Finance melalui URL untuk aplikasi. Solusi ini tidak memerlukan aplikasi seluler Keuangan dan Operasi.
+Lembar waktu saya (dioptimalkan untuk perangkat seluler) dan lembar waktu untuk ulasan saya (dioptimalkan untuk perangkat seluler) merupakan solusi yang memungkinkan karyawan membuat, mengirimkan, dan menyetujui lembar waktu proyek di perangkat bergerak. Pekerja dapat mengakses fungsi Finance melalui URL untuk aplikasi. Solusi ini tidak memerlukan aplikasi seluler keuangan dan operasi.
 
 ## <a name="for-more-information"></a>Untuk informasi lebih lanjut
 

@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912244"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028706"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Memigrasikan tonggak penagihan yang ditagih sepenuhnya di cutover
 
@@ -46,7 +46,7 @@ Contoso akan ditayangkan dengan Microsoft Dynamics 365 Project Operations untuk 
 3. Tambahkan pemetaan untuk status transaksi.
 
     1. Pilih **Tambahkan pemetaan**.
-    2. Di baris baru, di kolom aplikasi Keuangan dan Operasi, pilih **bidang TRANSSTATUS TRANSSTATUS** **.\[\]**
+    2. Di baris baru, di kolom Aplikasi keuangan dan operasi, pilih **bidang TRANSSTATUS TRANSSTATUS** **.\[\]**
     3. **Microsoft Dataverse** Di kolom, pilih **status\_ Faktur invoicestatus \[msdyn\]**.
     4. Di **kolom Tipe peta**, pilih panah kanan (**\>**).
     5. Dalam kotak dialog yang muncul, di **bidang Arah** sinkronisasi, pilih **Dataverse ke aplikasi** Keuangan dan Operasi.

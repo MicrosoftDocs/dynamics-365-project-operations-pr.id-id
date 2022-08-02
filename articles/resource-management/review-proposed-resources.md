@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924848"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183978"
 ---
 # <a name="review-proposed-resources"></a>Tinjau sumber daya yang diusulkan
 
@@ -40,8 +40,8 @@ Untuk memeriksa sumber daya yang diajukan, ikuti langkah-langkah berikut:
     Terjadi pembaruan status berikut:
 
     - Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
-    - Pada permintaan sumber daya, status berubah menjadi **perlu ditinjau**.
-    - Pada tab **tim** proyek , nilai **status permintaan** anggota tim generik diubah ke **perlu ditinjau**.
+    - Pada permintaan sumber daya, peninjau permintaan harus mengubah status menjadi **Perlu Ditinjau**.
+    - Pada tab **Tim** proyek, nilai Status **Permintaan anggota** tim generik secara otomatis diubah menjadi **Perlu Ditinjau**.
 
 Manajer proyek dapat menerima atau menolak usulan tersebut.
 

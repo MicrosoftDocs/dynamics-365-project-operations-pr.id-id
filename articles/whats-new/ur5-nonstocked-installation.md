@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912474"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030039"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Perbarui Project Operations di lingkungan Finance Anda
 
@@ -119,7 +119,7 @@ Pembaruan berikut pada hak istimewa keamanan entitas diperlukan sebagai bagian d
 4. Pada halaman **versi peta tabel**, terapkan versi baru peta untuk masing-masing dari ketiga entitas.
 5. Pada halaman **Penulisan ganda**, pilih jalankan untuk memulai ulang peta.
 6. Dari daftar peta, pilih peta **buku besar (msdyn_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. 
-7. **Di bidang Master untuk sinkronisasi** awal, pilih **Aplikasi** Keuangan dan Operasi lalu pilih **Jalankan**.
+7. **Di bidang Master untuk sinkronisasi** awal, pilih **Aplikasi** keuangan dan operasi lalu pilih **Jalankan**.
  
  ![Sinkronisasi peta buku besar.](media/DW6.png)
  

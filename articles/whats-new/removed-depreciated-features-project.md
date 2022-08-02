@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921490"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028333"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Fitur yang dihapus atau tidak digunakan lagi di Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Artikel ini menjelaskan fitur yang telah dihapus, atau yang direncanakan untuk d
 Daftar ini ditujukan untuk membantu Anda mempertimbangkan penghapusan dan penghentian ini untuk perencanaan Anda.
 
 > [!NOTE]
-> Informasi terperinci tentang objek di aplikasi Keuangan dan Operasi dapat ditemukan di [**laporan Referensi teknis**](/dynamics/s-e/global/axtechrefrep_61). Anda dapat membandingkan berbagai versi laporan ini untuk mempelajari tentang objek yang telah berubah atau telah dihapus di setiap versi aplikasi Keuangan dan Operasi.
+> Informasi terperinci tentang objek dalam aplikasi keuangan dan operasi dapat ditemukan di [**laporan Referensi teknis**](/dynamics/s-e/global/axtechrefrep_61). Anda dapat membandingkan berbagai versi laporan ini untuk mempelajari tentang objek yang telah berubah atau telah dihapus di setiap versi aplikasi keuangan dan operasi.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Fitur yang dihapus atau tidak digunakan lagi dalam rilis Operasi Proyek Maret 2022
 

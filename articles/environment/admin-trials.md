@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959702"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029304"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Mendaftar ke uji coba Project Operations 
 
@@ -86,11 +86,11 @@ Sebelum Anda memulai, masuk ke browser dengan akun kerja pengguna di penyewa tem
  
   Setelah provisi selesai, status lingkungan Anda **Siap**. Penyediaan lingkungan mencakup penerapan data demo.
  
-4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi Keuangan dan Operasi untuk memvalidasi penyebaran.
+4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi keuangan dan operasi untuk memvalidasi penyebaran.
 
 ## <a name="configuring-dual-write"></a>Mengonfigurasikan tulis ganda
 - Untuk mengonfigurasi peran keamanan untuk penulisan ganda, lihat [Memperbarui pengaturan keamanan pada Operasi Proyek di Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Untuk mengakses konfigurasi tulis ganda, Navigasikan ke instans Keuangan dan Operasi, lalu navigasikan ke **Tulis Ganda Manajemen** > **Data**.
+- Untuk mengakses konfigurasi tulis ganda, Navigasikan ke instans keuangan dan operasi, lalu navigasikan ke **Tulis Ganda Manajemen** > **Data**.
 - Untuk mengonfigurasi peta tulis ganda, lihat [Menjalankan peta](resource-provision-new-environment.md#run-project-operations-dual-write-maps) tulis ganda Operasi Proyek.
 
 ## <a name="assign-licenses"></a>Menetapkan lisensi
@@ -117,7 +117,7 @@ Sumber daya berikut memberikan panduan bermanfaat saat Anda memulai perjalanan d
 
 ## <a name="frequently-asked-questions"></a>Tanya jawab
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk lingkungan aplikasi Keuangan dan Operasi saya?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk lingkungan aplikasi keuangan dan operasi saya?
 
 - Untuk mitra yang memerlukan kemampuan manajemen siklus hidup lingkungan lengkap, lihat [Permintaan Lisensi Sandbox Mitra](https://experience.dynamics.com/requestlicense) untuk meninjau penawaran mitra baru. 
 - Untuk mitra yang mencari informasi lebih lanjut tentang Hak Penggunaan [Internal, lihat manfaat cloud dan perangkat lunak Hak Penggunaan Internal (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

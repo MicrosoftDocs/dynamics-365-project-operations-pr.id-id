@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934048"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029350"
 ---
 # <a name="expense-management-overview"></a>Ikhtisar manajemen pengeluaran
 
@@ -43,7 +43,7 @@ Untuk informasi lebih lanjut, lihat [Konsep baru laporan pengeluaran](ExpenseWor
 
 ### <a name="blogs"></a>Blog
 
-Anda dapat menemukan opini, berita, dan informasi lainnya di [Microsoft Dynamics blog 365 dan](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Anda dapat menemukan opini, berita, dan informasi lainnya di [Microsoft Dynamics blog 365 dan](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) blog [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Blog [komunitas mitra Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) memberikan mitra Microsoft Dynamics sumber daya tunggal di mana mereka dapat mempelajari apa yang baru dan tren dalam operasi MBS.
 

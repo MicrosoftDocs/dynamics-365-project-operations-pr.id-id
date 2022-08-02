@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924664"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029901"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Menerapkan data demo ke lingkungan di-host Finance cloud
 
@@ -76,7 +76,7 @@ Hal ini berlangsung selama beberapa menit. Anda akan menerima pesan konfirmasi b
 
 18. Tutup sesi desktop jarak jauh dan gunakan halaman **rincian lingkungan** LCS untuk masuk ke lingkungan untuk mengkonfirmasi sudah berfungsi seperti yang diharapkan.
 
-![Keuangan dan Operasi.](./media/10FinanceAndOperations.png)
+![Keuangan dan operasi.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

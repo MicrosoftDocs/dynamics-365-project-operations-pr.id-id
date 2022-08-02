@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931196"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028477"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Persyaratan item untuk kontrak proyek dengan beberapa sumber dana
 
@@ -33,7 +33,7 @@ Contoso telah memenangkan kontrak pembaruan peralatan dengan dua pelanggannya: A
 
 ### <a name="prerequisites"></a>Prasyarat
 
-- Microsoft Dynamics 365 Keuangan dan Operasi **versi 10.0.27 atau yang lebih baru** diperlukan untuk menggunakan persyaratan item yang memiliki beberapa akun faktur.
+- Microsoft Dynamics 365 Keuangan **versi 10.0.27 atau yang lebih baru** diperlukan untuk menggunakan persyaratan item yang memiliki beberapa akun faktur.
 - Administrator sistem Anda harus mengaktifkan **fitur Izinkan Persyaratan item dengan beberapa sumber pendanaan untuk skenario** berbasis stok/produksi Operasi Proyek di **ruang kerja Manajemen** fitur.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Menyiapkan aturan default akun faktur

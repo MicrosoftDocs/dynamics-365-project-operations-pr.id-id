@@ -2,22 +2,22 @@
 title: Jurnal integrasi dalam Project Operations
 description: Artikel ini menyediakan informasi tentang bekerja dengan jurnal Integrasi dalam Operasi Proyek.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923882"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106279"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Entri waktu dan pengeluaran membuat transaksi **Aktual** yang mewakili tampilan operasional pekerjaan yang diselesaikan terhadap proyek. Dynamics 365 Project Operations menyediakan alat kepada akuntan untuk meninjau transaksi dan menyesuaikan atribut akuntansi sesuai kebutuhan. Setelah peninjauan dan penyesuaian selesai, transaksi diposting ke buku besar pembantu proyek dan buku besar Umum. Seorang akuntan dapat melakukan kegiatan ini menggunakan **jurnal Project Operations Integration** (**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
+Waktu, pengeluaran, biaya, dan entri material membuat **Transaksi aktual** yang mewakili pandangan operasional pekerjaan yang diselesaikan terhadap suatu proyek. Dynamics 365 Project Operations menyediakan alat kepada akuntan untuk meninjau transaksi dan menyesuaikan atribut akuntansi sesuai kebutuhan. Setelah peninjauan dan penyesuaian selesai, transaksi diposting ke buku besar pembantu proyek dan buku besar Umum. Seorang akuntan dapat melakukan kegiatan ini menggunakan **jurnal Project Operations Integration** (**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
 
 ![Alur jurnal integrasi.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Hanya atribut akuntansi berikut dapat diperbarui di baris jurnal integrasi Proje
 - **Grup pajak penjualan penagihan** dan **grup pajak penjualan item tagihan**
 - **Dimensi keuangan** (menggunakan tindakan **mendistribusikan jumlah**)
 
-Integrasi baris jurnal dapat dihapus, namun setiap baris yang belum diposting akan dimasukkan ke dalam jurnal lagi setelah Anda jalankan kembali proses periodik **impor dari penahapan**.
+Baris jurnal integrasi dapat dihapus. Namun, setiap baris yang tidak diposting akan dimasukkan ke dalam jurnal lagi setelah Anda menjalankan **kembali Proses periodik Impor dari pementasan**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Posting jurnal integrasi Operasi Proyek
 
 Ketika Anda memposting jurnal integrasi, transaksi buku besar pembantu proyek dan buku besar umum dibuat. Ini digunakan di faktur pelanggan hilir, pengakuan pendapatan dan pelaporan keuangan.
 
+Jurnal integrasi Operasi Proyek yang dipilih dapat diposting dengan menggunakan **Post** di halaman jurnal integrasi Operasi Proyek. Semua jurnal dapat diposting secara otomatis dengan menjalankan proses di **jurnal integrasi Integrasi** > **Operasi Proyek Berkala** > **Pasca** Operasi Proyek.
+
+Posting dapat dilakukan secara interaktif atau dalam batch. Perhatikan bahwa semua jurnal yang memiliki lebih dari 100 baris akan secara otomatis diposting dalam satu batch. Untuk kinerja yang lebih baik ketika jurnal yang memiliki banyak baris diposting dalam satu batch, aktifkan **jurnal integrasi Pasca Operasi Proyek menggunakan fitur beberapa tugas** batch di **ruang kerja Manajemen** fitur. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Mentransfer semua baris yang memiliki kesalahan posting ke jurnal baru
+
+> [!NOTE]
+> Untuk menggunakan kemampuan ini, aktifkan **Fitur Transfer semua baris dengan kesalahan posting ke jurnal integrasi** Operasi Proyek baru di **ruang kerja Manajemen** fitur.
+
+Selama posting ke jurnal integrasi Operasi Proyek, sistem memvalidasi setiap baris dalam jurnal. Sistem memposting semua baris yang tidak memiliki kesalahan dan membuat jurnal baru untuk semua baris yang memiliki kesalahan posting. Untuk meninjau jurnal yang memiliki baris kesalahan posting, buka **Jurnal** > **integrasi Manajemen proyek dan akuntansi** > **Jurnal** Integrasi Operasi Proyek, dan filter jurnal dengan **menggunakan bidang Jurnal** asli.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

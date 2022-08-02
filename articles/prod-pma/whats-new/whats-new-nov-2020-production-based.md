@@ -6,12 +6,12 @@ ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911233"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028231"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis stok/produksi
 
@@ -23,7 +23,7 @@ Untuk informasi tentang perbaikan yang tercakup dalam pembaruan ini, masuk ke Li
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang update peraturan untuk aplikasi Dynamics 365 Finance and Operations, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi Dynamics 365, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

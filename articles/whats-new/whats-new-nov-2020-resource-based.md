@@ -6,12 +6,12 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923422"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029534"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
@@ -65,7 +65,7 @@ Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operat
 | Akuntansi proyek  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Mengaktifkan fitur, beberapa baris kontrak tidak dimungkinkan tanpa integrasi CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan peraturan untuk aplikasi Keuangan dan Operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

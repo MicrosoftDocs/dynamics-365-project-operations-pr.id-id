@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927148"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029396"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Yang baru atau berubah di Project Operations, Mei 2021 untuk skenario berbasis stok/produksi
 
@@ -93,7 +93,7 @@ Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operat
 | Perjalanan dan Pengeluaran                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Ada masalah sinkronisasi di aplikasi seluler Pengeluaran. 
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan peraturan untuk aplikasi Keuangan dan Operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang telah direncanakan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang telah direncanakan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

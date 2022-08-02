@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912382"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110888"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di April 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
@@ -25,7 +25,7 @@ Artikel ini berlaku untuk komponen dan versi Microsoft Dynamics 365 Project Oper
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 
-Kategori pengadaan dapat digunakan dalam pesanan pembelian proyek dan faktur vendor yang tertunda. Untuk informasi selengkapnya, lihat [Menggunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor yang tertunda](configure-procurement-categories.md).
+Kategori pengadaan dapat digunakan dalam pesanan pembelian proyek dan faktur vendor yang tertunda. Untuk informasi selengkapnya, lihat [Menggunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor yang tertunda](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Pembaruan peta Penulisan Ganda Project Operations
 
@@ -47,7 +47,7 @@ Jika Anda mengalami masalah saat memulai peta, ikuti instruksi di [bagian Kolom 
 | ------------ | ---------------- | -------------- |
 | Waktu dan pengeluaran | 2573900 | Fitur **Persetujuan** Modern harus diaktifkan secara default. |
 | Penagihan dan harga | 2603313 | Memperbaiki kesalahan catatan duplikat yang mencegah kutipan dan baris kontrak yang memiliki produk ditambahkan. |
-| Penyebaran dan konfigurasi | 2611368 | Pelanggan harus dapat menambahkan hingga lima entitas kustom ke solusi dengan menggunakan perancang aplikasi modern. |
+| Penyebaran dan Konfigurasi | 2611368 | Pelanggan harus dapat menambahkan hingga lima entitas kustom ke solusi dengan menggunakan perancang aplikasi modern. |
 | Waktu dan pengeluaran | 2628285 | Memperbaiki masalah yang memengaruhi kemampuan untuk mengatur kategori sumber daya yang benar selama impor entri waktu. |
 |   Manajemen peluang| 2628815 | Perbarui batas karakter deskripsi detail baris kutipan agar sesuai dengan batas karakter subjek tugas, sehingga impor berhasil untuk tugas di mana subjek lebih panjang dari 100 karakter. |
 | Waktu dan pengeluaran| 2629547 | Bidang **persetujuan proyek yang Dikirim Oleh** harus mengarah ke pengguna yang mengirimkan rekaman. |
@@ -58,4 +58,4 @@ Jika Anda mengalami masalah saat memulai peta, ikuti instruksi di [bagian Kolom 
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Manajemen proyek dan akuntansi di Dynamics 365 Finance
 
-Untuk informasi tentang perbaikan bug yang disertakan dalam pembaruan ini, masuk ke Microsoft Dynamics Lifecycle Services (LCS), dan lihat [artikel KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Untuk informasi tentang perbaikan bug yang disertakan dalam pembaruan ini, masuk ke Microsoft Dynamics Lifecycle Services (LCS), dan lihat [artikel](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864) KB.

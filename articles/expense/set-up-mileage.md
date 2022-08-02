@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930138"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064282"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Mengonfigurasi jarak tempuh dengan menggunakan tingkat tarif jarak tempuh
 
@@ -50,5 +50,15 @@ Fitur **Perhitungan jumlah jarak tempuh untuk beberapa tingkat jarak tempuh deng
 
 Setelah Anda mengaktifkan fitur, atur ulang tingkat jarak tempuh untuk dengan benar mencerminkan nilai bidang **Kuantitas**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktifkan perhitungan total Mileage dengan fitur tahun fiskal
+
+Fitur **Perhitungan total Mileage berdasarkan tahun fiskal** memungkinkan pengaturan baru dalam parameter manajemen Pengeluaran yang melakukan perhitungan total jarak tempuh dengan tahun fiskal, bukan tahun kalender. Selesaikan langkah-langkah berikut untuk mengaktifkan fitur ini.
+
+1. Buka **Ruang kerja** > **Manajemen Fitur**.
+1. Dalam daftar, temukan dan pilih **Perhitungan total mileage menurut tahun fiskal**, lalu pilih **Aktifkan sekarang**.
+1. Buka **Pengaturan** > **Manajemen** > **Pengeluaran Parameter** > **manajemen pengeluaran umum**.
+1. **Pada halaman Parameter** manajemen biaya, temukan dan aktifkan **Gunakan tahun fiskal untuk total jarak tempuh**.
+
+Setelah Anda mengaktifkan **Gunakan tahun fiskal untuk total** jarak tempuh, total jarak tempuh dihitung berdasarkan tahun fiskal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

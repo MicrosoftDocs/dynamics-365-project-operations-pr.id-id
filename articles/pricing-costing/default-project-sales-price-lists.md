@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917718"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036415"
 ---
 # <a name="default-price-lists"></a>Daftar harga default
 
@@ -25,7 +25,7 @@ Setiap kuotasi dan kontrak proyek di Dynamics 365 Project Operations berisi daft
 Sistem menyelesaikan proses berikut untuk menentukan daftar harga mana yang default pada kuotasi proyek:
 
 1. Sistem melihat daftar harga yang dilampirkan ke daftar harga proyek akun. 
-2. Jika ada daftar harga proyek yang melekat pada rekaman akun, sistem melihat daftar harga penjualan yang melekat pada parameter proyek yang sesuai dengan mata uang kuotasi proyek.
+2. Jika tidak ada daftar harga proyek yang dilampirkan ke catatan akun, sistem akan melihat daftar harga penjualan yang dilampirkan ke parameter proyek yang cocok dengan mata uang kutipan proyek.
 3. Selanjutnya, sistem memeriksa efektivitas tanggal daftar harga yang cocok dengan rentang tanggal kuotasi proyek. Khususnya, tanggal kuotasi dibuat.
 4. Jika ada beberapa daftar harga yang efektif untuk tanggal kuotasi proyek, semua daftar harga default pada kuotasi proyek.
 5. Jika tidak ada daftar harga yang berlaku untuk tanggal kuotasi proyek, tidak ada daftar harga proyek default pada kuotasi proyek. Pesan peringatan akan terjadi pada kuotasi proyek. Pesan menyatakan bahwa aktual dan estimasi pada proyek tidak akan diberi harga karena tidak ada daftar harga proyek terlampir.

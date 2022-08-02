@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933036"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029718"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Desember 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
@@ -61,7 +61,7 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
 | Perencanaan dan Pelacakan Proyek | 2057197          | Penyalinan baris estimasi dengan referensi tugas tidak didukung                                                                                                     |
 | Perencanaan dan Pelacakan Proyek | 2060687          | Peringatan zona waktu kini akan menghilang setelah durasi tertentu                                                                                                      |
 | Manajemen sumber daya           | 1832887          | ID kategori Sumber Daya default harus statis untuk memastikan pemuatan data untuk Dataverse dan lingkungan Keuangan yang dapat diulang                                                 |
-| Waktu dan pengeluaran              | 2081793          | **Nama** kategori pengeluaran harus dipetakan ke **bidang deskripsi** kategori Pengeluaran di aplikasi Keuangan dan Operasi                                                  |
+| Waktu dan pengeluaran              | 2081793          | **Nama** kategori pengeluaran harus dipetakan ke **bidang Deskripsi** kategori pengeluaran di aplikasi keuangan dan operasi                                                  |
 | Waktu dan pengeluaran              | 2034882          | Tombol **Baru** ditampilkan dua kali pada bilah perintah untuk entri waktu apabila Dynamics 365 Field Service diinstal                                          |
 | Waktu dan pengeluaran              | 2056028          | Perbarui halaman **Edit Time** untuk menyertakan baris waktu                                                                                                              |
 | Waktu dan pengeluaran              | 1983747          | Diagram entri waktu menampilkan data tambahan                                                                                                                   |
@@ -106,7 +106,7 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
 | Perjalanan dan Pengeluaran                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Alur kerja posting otomatis laporan pengeluaran selesai tetapi faktur tidak diposting                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan peraturan untuk aplikasi Keuangan dan Operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

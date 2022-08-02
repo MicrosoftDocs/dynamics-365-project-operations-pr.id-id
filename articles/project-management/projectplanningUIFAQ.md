@@ -2,24 +2,24 @@
 title: Memecahkan masalah penanganan kisi Tugas
 description: Artikel ini menyediakan informasi pemecahan masalah yang diperlukan saat bekerja di kisi Tugas.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911048"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188235"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Memecahkan masalah penanganan kisi Tugas 
 
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-persediaan, penyebaran Lite - faktur penawaran hingga proforma, Project for the Web_
 
-Kisi tugas yang dimanfaatkan adalah Dynamics 365 Project Operations adalah iframe yang di-host dalam Microsoft Dataverse. Oleh karena itu, persyaratan khusus harus dipenuhi untuk memastikan otentikasi dan otorisasi berfungsi dengan benar. Artikel ini menguraikan masalah umum yang dapat memengaruhi kemampuan untuk merender grid atau mengelola tugas dalam struktur rincian kerja (WBS).
+Kisi tugas yang digunakan oleh Dynamics 365 Project Operations adalah iframe yang dihosting dalam file Microsoft Dataverse. Sebagai hasil dari penggunaan ini, persyaratan khusus harus dipenuhi untuk memastikan otentikasi, dan otorisasi berfungsi dengan benar. Artikel ini menguraikan masalah umum yang dapat memengaruhi kemampuan untuk merender grid atau mengelola tugas dalam struktur rincian kerja (WBS).
 
 Masalah umum mencakup:
 
@@ -32,7 +32,7 @@ Masalah umum mencakup:
 
 ### <a name="mitigation-1-enable-cookies"></a>Mitigasi 1: Aktifkan cookie
 
-Project Operations mengharuskan cookie pihak ketiga diaktifkan untuk membuat struktur rincian kerja. Bila cookie pihak ketiga tidak diaktifkan, bukan melihat tugas, Anda akan melihat halaman kosong saat memilih tab **Tugas** di halaman **Proyek**.
+Project Operations mengharuskan cookie pihak ketiga diaktifkan untuk membuat struktur rincian kerja. Saat cookie pihak ketiga tidak diaktifkan, alih-alih melihat tugas, Anda akan melihat halaman kosong saat memilih **tab Tugas** di **halaman Proyek**.
 
 Untuk Microsoft Edge atau browser Google Chrome, prosedur berikut menjelaskan cara memperbarui pengaturan browser Anda untuk mengaktifkan cookie pihak ketiga.
 
@@ -60,7 +60,7 @@ Untuk Microsoft Edge atau browser Google Chrome, prosedur berikut menjelaskan ca
 Project Operations mengharuskan parameter proyek mereferensi titik akhir PEX. Titik akhir diperlukan untuk berkomunikasi dengan layanan yang digunakan untuk membuat struktur rincian kerja. Jika parameter tidak diaktifkan, Anda akan menerima kesalahan, "Parameter proyek tidak valid". Untuk memperbarui titik akhir PEX, selesaikan langkah-langkah berikut.
 
 1. Tambahkan bidang **titik akhir** PEX ke halaman **Parameter Proyek**.
-2. Identifikasikan jenis produk yang Anda gunakan. Nilai ini digunakan saat titik akhir PEX diatur. Setelah pengambilan, jenis produk sudah ditentukan di titik akhir PEX. Pertahankan nilai tersebut.
+2. Identifikasi jenis produk yang Anda gunakan. Nilai ini digunakan saat titik akhir PEX diatur. Setelah pengambilan, jenis produk sudah ditentukan di titik akhir PEX. Pertahankan nilai tersebut.
 3. Perbarui bidang dengan nilai berikut ini: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Tabel berikut menyediakan parameter jenis yang harus digunakan berdasarkan jenis produk.
 
       | **Jenis Produk**                     | **Jenis Parameter** |
@@ -72,11 +72,14 @@ Project Operations mengharuskan parameter proyek mereferensi titik akhir PEX. Ti
 4. Hilangkan bidang dari halaman **Parameter Proyek**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigasi 3: masuk ke project.microsoft.com
-Di browser Anda Microsoft Edge, buka tab baru, buka project.microsoft.com, dan masuk dengan menggunakan peran pengguna yang Anda gunakan untuk mengakses Operasi Proyek.
+
+Di browser Anda, buka tab baru, buka project.microsoft.com, dan masuk dengan peran pengguna yang Anda gunakan untuk mengakses Operasi Proyek. Penting bahwa hanya satu pengguna yang masuk ke produk Microsoft di browser. Pesan galat "login.microsoftonline.com menolak untuk terhubung" paling sering terjadi ketika lebih dari satu pengguna masuk, seperti yang ditunjukkan dalam ilustrasi berikut.
+
+![Pilih halaman masuk akun yang memperlihatkan bahwa dua pengguna telah masuk.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Masalah: Proyek tidak dimuat dan UI terjebak pada spinner
 
-Untuk tujuan otentikasi, pop-up harus diaktifkan agar kisi Tugas dapat dimuat. Jika pop-up tidak diaktifkan, layar akan terjebak pada spinner pemuatan. Grafis berikut menunjukkan URL dengan label pop-up diblokir di bilah alamat yang mengakibatkan spinner terjebak mencoba memuat halaman. 
+Untuk tujuan otentikasi, pop-up harus diaktifkan agar kisi Tugas dapat dimuat. Jika pop-up tidak diaktifkan, layar akan terjebak pada spinner pemuatan. Grafik berikut menunjukkan URL dengan label pop-up yang diblokir di bilah alamat, yang mengakibatkan pemintal terjebak saat mencoba memuat halaman. 
 
    ![Spinner terjebak dan blokir pop-up.](media/popupsblocked.png)
 
@@ -112,7 +115,7 @@ Selain itu, Anda dapat menyelesaikan langkah-langkah berikut.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Masalah 3: Administrasi hak istimewa untuk Project for the Web
 
-Project Operations mengandalkan layanan penjadwalan eksternal. Layanan mengharuskan pengguna memiliki beberapa peran yang ditetapkan yang memungkinkan mereka membaca dan menulis ke entitas yang terkait dengan WBS. Entitas ini mencakup tugas proyek, penugasan sumber daya, dan dependensi tugas. Jika pengguna tidak dapat menampilkan WBS saat mereka menelusuri ke tab **Tugas**, kemungkinan karena **Proyek** for **Project Operations** belum diaktifkan. Pengguna mungkin menerima pesan kesalahan peran keamanan, atau kesalahan yang terkait dengan ditolaknya akses.
+Project Operations mengandalkan layanan penjadwalan eksternal. Layanan ini mengharuskan pengguna memiliki beberapa peran yang ditetapkan yang memungkinkan mereka untuk membaca dan menulis ke entitas yang terkait dengan WBS. Entitas ini mencakup tugas proyek, penugasan sumber daya, dan dependensi tugas. Jika pengguna tidak dapat merender WBS saat mereka menavigasi ke **tab Tugas**, itu mungkin karena **Project** for **Project Operations** belum diaktifkan. Pengguna mungkin menerima pesan kesalahan peran keamanan, atau kesalahan yang terkait dengan ditolaknya akses.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Mitigasi 1: Memvalidasi peran keamanan pengguna dan pengguna akhir aplikasi
 

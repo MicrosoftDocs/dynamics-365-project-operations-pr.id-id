@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927424"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028614"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Menggunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor yang tertunda
 
@@ -25,7 +25,7 @@ Profesional pembelian dapat membuat dan memelihara katalog barang dan layanan ya
 Versi berikut ini diperlukan untuk menggunakan kategori pengadaan dengan pesanan pembelian proyek untuk skenario Microsoft Dynamics 365 Project Operations yang tidak tersedia/berbasis sumber daya:
 
 - Solusi Operasi Dataverse Proyek versi 4.41.0.45 atau yang lebih baru
-- Lingkungan Keuangan dan Operasi versi 10.0.26 atau yang lebih baru
+- Lingkungan keuangan dan operasi versi 10.0.26 atau yang lebih baru
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Jalankan peta tulis ganda untuk dukungan kategori pengadaan
 
