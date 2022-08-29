@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929218"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230319"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
 
@@ -45,9 +45,9 @@ Berikut adalah daftar API jadwal Proyek saat ini.
 - **msdyn_CreateProjectV1**: API ini dapat digunakan untuk membuat proyek. Bucket proyek dan proyek default segera dibuat.
 - **msdyn_CreateTeamMemberV1**: API ini dapat digunakan untuk membuat anggota tim proyek. Rekaman anggota tim akan segera dibuat.
 - **msdyn_CreateOperationSetV1**: API ini dapat digunakan untuk menjadwalkan beberapa permintaan yang harus dilakukan dalam transaksi.
-- **msdyn_PSSCreateV1**: API ini dapat digunakan untuk membuat entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembuatan.
-- **msdyn_PSSUpdateV1**: API ini dapat digunakan untuk memperbarui entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembaruan.
-- **msdyn_PSSDeleteV1**: API ini dapat digunakan untuk menghapus entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi penghapusan.
+- **msdyn_PssCreateV1**: API ini dapat digunakan untuk membuat entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembuatan.
+- **msdyn_PssUpdateV1**: API ini dapat digunakan untuk memperbarui entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembaruan.
+- **msdyn_PssDeleteV1**: API ini dapat digunakan untuk menghapus entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi penghapusan.
 - **msdyn_ExecuteOperationSetV1**: API ini digunakan untuk mengeksekusi semua operasi dalam rangkaian operasi yang ditentukan.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Menggunakan API jadwal proyek dengan OperationSet

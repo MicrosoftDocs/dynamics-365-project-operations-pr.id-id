@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
-ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
-ms.translationtype: HT
+ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9188282"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295882"
 ---
 # <a name="project-operations-updates"></a>Pembaruan Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations terdiri dari dua komponen:
 
 | Project Operations di Lingkungan Dataverse | Manajemen proyek dan akuntansi di lingkungan aplikasi keuangan dan operasi | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 Untuk sumber daya operasi proyek/skenario non-stok, kami sarankan Anda menggunakan versi Orkestrasi tulis ganda 2.3.1.15 atau lebih tinggi.
 
@@ -47,24 +47,24 @@ Pembaruan untuk Project Operations pada lingkungan Dataverse tersedia setiap bul
 | Stasiun | Kawasan | Nomor versi saat ini | Pembaruan otomatis untuk penyebaran Lite | Pembaruan otomatis untuk penyebaran Sumber Daya/non-persediaan | Nomor Versi berikutnya | Versi berikutnya yang tersedia secara umum |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stasiun 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Rilis pertama         |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 05 Agustus 2022       |
+|   &nbsp;  | Rilis pertama         |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 26 Agustus 2022       |
 | Stasiun 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 06 Agustus 2022       |
-|   &nbsp;  | Kanada                |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 06 Agustus 2022       |
-|   &nbsp;  | India                 |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 06 Agustus 2022       |
-|   &nbsp;  | Prancis                |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 06 Agustus 2022       |
-|   &nbsp;  | Afrika Selatan          |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 06 Agustus 2022       |
-|   &nbsp;  | Swiss           |  4.44.0.22      | Selesaikan           | Selesaikan            | TBD                 | 06 Agustus 2022       |
+|   &nbsp;  | Amerika Selatan         |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 02 September 2022       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 02 September 2022       |
+|   &nbsp;  | India                 |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 02 September 2022       |
+|   &nbsp;  | Prancis                |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 02 September 2022       |
+|   &nbsp;  | Afrika Selatan          |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 02 September 2022       |
+|   &nbsp;  | Swiss           |  4.45.0.53      | Selesaikan           | Selesaikan            | TBD                 | 02 September 2022       |
 | Stasiun 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepang                 |  4.44.0.22      | Selesaikan      | Selesaikan       | TBD                 | 12 Agustus 2022       |
-|   &nbsp;  | Asia Pasifik          |  4.44.0.22      | Selesaikan      | Selesaikan       | TBD                 | 12 Agustus 2022       |
-|   &nbsp;  | Britania Raya         |  4.44.0.22      | Selesaikan      | Selesaikan       | TBD                 | 12 Agustus 2022       |
-|   &nbsp;  | Oseania               |  4.44.0.22      | Selesaikan      | Selesaikan       | TBD                 | 12 Agustus 2022       |
-|   &nbsp;  | Uni Emirat Arab  |  4.44.0.22      | Selesaikan      | Selesaikan       | TBD                 | 12 Agustus 2022       |
+|   &nbsp;  | Jepang                 |  4.44.0.22      | Selesaikan      | Selesaikan       | 4.45.0.53                 | 19 Agustus 2022       |
+|   &nbsp;  | Asia Pasifik          |  4.44.0.22      | Selesaikan      | Selesaikan       | 4.45.0.53                 | 19 Agustus 2022       |
+|   &nbsp;  | Britania Raya         |  4.44.0.22      | Selesaikan      | Selesaikan       | 4.45.0.53                 | 19 Agustus 2022       |
+|   &nbsp;  | Oseania               |  4.44.0.22      | Selesaikan      | Selesaikan       | 4.45.0.53                 | 19 Agustus 2022       |
+|   &nbsp;  | Uni Emirat Arab  |  4.44.0.22      | Selesaikan      | Selesaikan       | 4.45.0.53                 | 19 Agustus 2022       |
 | Stasiun 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropa                |  4.43.0.119      | Selesaikan           | Selesaikan            | 4.44.0.22           | 29 Juli 2022       |
+|   &nbsp;  | Eropa                |  4.44.0.22      | Selesaikan           | Selesaikan            | 4.45.0.53           | 26 Agustus 2022       |
 | Stasiun 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.43.0.119      | Selesaikan           | Selesaikan            | 4.44.0.22           | 05 Agustus 2022       |
+|   &nbsp;  | Amerika Utara         |  4.44.0.22      | Selesaikan           | Selesaikan            | 4.45.0.53           | 02 September 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk Manajemen proyek dan akuntansi di lingkungan aplikasi keuangan dan operasi
 

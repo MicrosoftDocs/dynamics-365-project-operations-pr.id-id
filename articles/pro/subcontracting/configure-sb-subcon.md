@@ -6,16 +6,14 @@ ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 355691b63f437de789afab499369afcdf87e6d3d
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919834"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262220"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Konfigurasikan Papan Jadwal untuk menampilkan pekerja kontrak dan kapasitas subkontrak 
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 

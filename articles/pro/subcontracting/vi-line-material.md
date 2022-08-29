@@ -6,16 +6,14 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d38a447c576c095a7bbe2f5ed84342a88bf69a9b
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931380"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261562"
 ---
 # <a name="vendor-invoice-lines-for-products"></a>Baris faktur vendor untuk produk
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -35,7 +33,7 @@ Tabel berikut ini menyediakan informasi tentang bidang pada baris faktur vendor 
 | Kelas Transaksi | Ketika produk ditagih, bidang ini harus diatur ke **Materi**. | Materi nilai **menunjukkan** bahwa baris faktur vendor digunakan untuk mencatat jumlah faktur untuk materi yang dibeli. |
 | Project | Nama proyek tempat produk yang sedang ditagih digunakan. | Bidang ini diperlukan dan tidak dapat dibiarkan kosong. |
 | Tugas | Nama tugas proyek tempat produk yang sedang ditagih digunakan. Bidang ini hanya tersedia jika proyek dipilih. Pemilihan tugas proyek bersifat opsional. | Jika bidang ini dibiarkan kosong, manajer proyek dapat mencocokkan baris faktur vendor dengan produk yang dibeli yang digunakan pada tugas proyek apa pun. Jika baris faktur vendor tidak mereferensikan baris subkontrak, dan bidang ini dibiarkan kosong, aktual biaya yang dibuat oleh baris faktur vendor tidak akan ditautkan ke aktual penjualan yang tidak ditagih. Dalam hal ini, jika penagihan berbasis tugas disiapkan, biaya tidak akan dapat ditagih ke pelanggan akhir. |
-| Pilih produk | Pilih apakah produk yang sedang ditagih adalah produk yang sudah ada dari katalog atau produk tulis-masuk. | Nilai default dimasukkan dari baris subkontrak saat baris subkontrak dipilih. |
+| Pilih Produk | Pilih apakah produk yang sedang ditagih adalah produk yang sudah ada dari katalog atau produk tulis-masuk. | Nilai default dimasukkan dari baris subkontrak saat baris subkontrak dipilih. |
 | Produk | Pilih produk dari katalog. Jika produk tersebut adalah produk yang masuk, masukkan nama produk. | Bidang ini digunakan untuk memasukkan harga pembelian default untuk produk yang ada. |
 | Jumlah | Masukkan jumlah materi yang sedang ditagih oleh vendor pada baris faktur ini. | Tidak ada |
 | Grup Unit | Pilih grup unit unit tempat jumlah yang sedang ditagih dinyatakan. | Tidak ada |
