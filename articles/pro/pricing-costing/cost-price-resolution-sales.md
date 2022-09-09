@@ -1,45 +1,85 @@
 ---
-title: Menangani harga biaya pada aktual dan estimasi proyek
-description: Artikel ini memberikan informasi tentang bagaimana harga biaya pada perkiraan dan aktual proyek diselesaikan.
+title: Menentukan tarif biaya untuk perkiraan dan aktual proyek
+description: Artikel ini memberikan informasi tentang bagaimana tarif biaya untuk perkiraan dan aktual proyek ditentukan.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917534"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410153"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Menangani harga biaya pada aktual dan estimasi proyek 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Menentukan tarif biaya untuk perkiraan dan aktual proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Untuk menangani harga biaya dan daftar harga biaya untuk perkiraan dan aktual, sistem menggunakan informasi di bidang **Tanggal**, **Mata Uang**, dan **Unit Kontrak** dari proyek terkait. Setelah daftar harga biaya diselesaikan, aplikasi menyelesaikan tarif biaya.
+Untuk menentukan daftar harga biaya dan tarif biaya dalam perkiraan dan konteks aktual, sistem menggunakan informasi di **bidang Tanggal**, **Mata Uang**, dan **Unit** Kontrak dari proyek terkait.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Menangani tarif biaya pada baris aktual dan estimasi untuk Waktu
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Menentukan tarif biaya dalam perkiraan dan konteks aktual untuk Waktu
 
-Baris estimasi untuk Waktu adalah detail baris kontrak dan kuotasi untuk penetapan waktu dan sumber daya pada proyek.
+Konteks perkiraan untuk **Waktu** mengacu pada:
 
-Setelah daftar harga biaya teratasi, bidang **Peran** dan **Unit sumber daya** pada baris perkiraan untuk Waktu dicocokkan dengan garis harga peran dalam daftar harga. Kecocokan ini mengasumsikan bahwa Anda menggunakan dimensi harga standar untuk biaya tenaga kerja. Jika sebaliknya Anda mengonfigurasi sistem untuk mencocokkan bidang, bukan, atau selain **Peran** dan **Unit sumber daya**, maka kombinasi yang berbeda akan digunakan untuk mengambil garis harga peran yang cocok. Jika aplikasi menemukan baris harga peran yang memiliki tarif biaya untuk kombinasi **Peran** dan **Unit Sumber daya**, yaitu tarif biaya default. Jika aplikasi tidak dapat mencocokkan nilai **Peran** dan **Unit Sumber daya** maka aplikasi mengambil baris harga peran dengan peran yang cocok, tetapi nilai null **Unit Sumber Daya**. Setelah memiliki rekaman harga peran yang cocok, tarif biaya mengambil default dari rekaman itu. 
+- Kutip detail baris untuk **Waktu**.
+- Detail garis kontrak untuk **Waktu**.
+- Tugas sumber daya pada proyek.
+
+Konteks aktual untuk **Waktu** mengacu pada:
+
+- Baris jurnal Entri dan Koreksi untuk **Waktu**.
+- Baris jurnal yang dibuat saat entri waktu dikirimkan.
+
+Setelah daftar harga biaya ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
+
+1. Sistem ini mencocokkan kombinasi **bidang Role** dan **Resourcing Unit** dalam perkiraan atau konteks aktual untuk **Time** dengan garis harga peran pada daftar harga. Pencocokan ini mengasumsikan bahwa Anda menggunakan dimensi harga standar untuk biaya tenaga kerja. Jika Anda telah mengonfigurasi sistem agar cocok dengan bidang selain atau selain **Unit** Peran **dan** Sumber Daya, kombinasi yang berbeda digunakan untuk mengambil garis harga peran yang cocok.
+1. Jika sistem menemukan garis harga peran yang memiliki tarif biaya untuk kombinasi Unit **Peran** dan **Sumber Daya, tarif biaya tersebut** digunakan sebagai tarif biaya default.
+1. Jika sistem tidak dapat mencocokkan **nilai Unit** Peran **dan** Sumber Daya, sistem akan mengambil garis harga peran yang memiliki nilai yang cocok untuk **bidang Peran** tetapi nilai nol untuk **bidang Unit** Sumber Daya. Setelah sistem memiliki catatan harga peran yang cocok, tarif biaya dari catatan tersebut akan digunakan sebagai tarif biaya default.
 
 > [!NOTE]
-> Jika Anda mengonfigurasi prioritas **Peran** dan **Unit Sumber Daya** yang berbeda, atau jika Anda memiliki dimensi lain yang memiliki prioritas lebih tinggi, perilaku ini akan berubah sesuai dengan itu. Sistem mengambil rekaman harga peran dengan nilai yang cocok dengan setiap nilai dimensi harga dalam urutan prioritas dengan baris yang memiliki nilai kosong untuk dimensi tersebut diletakkan di akhir.
+> Jika Anda mengonfigurasi prioritas yang berbeda dari **bidang Unit** Peran **dan** Sumber Daya, atau jika Anda memiliki dimensi lain yang memiliki prioritas lebih tinggi, perilaku sebelumnya akan berubah sesuai dengan itu. Sistem mengambil catatan harga peran yang memiliki nilai yang cocok dengan setiap nilai dimensi harga dalam urutan prioritas. Baris yang memiliki nilai nol untuk dimensi tersebut adalah yang terakhir.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menangani tarif biaya pada baris aktual dan estimasi untuk pengeluaran
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menentukan tarif biaya pada garis aktual dan perkiraan untuk Biaya
 
-Baris estimasi untuk pengeluaran adalah detail baris kontrak dan kuotasi untuk pengeluaran dan baris estimasi pengeluaran pada proyek.
+Konteks estimasi untuk **Pengeluaran** mengacu pada:
 
-Setelah daftar harga biaya ditangani, sistem menggunakan kombinasi bidang **Kategori** dan **Unit** pada baris perkiraan pengeluaran yang cocok dengan baris **Harga Kategori** pada daftar harga yang diselesaikan. Jika sistem menemukan garis harga kategori yang memiliki tarif biaya untuk kombinasi bidang **Kategori** dan **Unit**, tarif biaya adalah default. Jika sistem tidak dapat sesuai dengan nilai **Kategori** dan **Unit**, atau jika sistem dapat menemukan baris harga kategori yang cocok, namun metode harga bukan **Harga Per Unit**, tingkat biaya akan berubah menjadi nol (0).
+- Kutip detail baris untuk **Biaya**.
+- Detail garis kontrak untuk **Biaya**.
+- Perkiraan biaya pada suatu proyek.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menangani tingkat biaya pada baris aktual dan estimasi untuk bahan
+Konteks aktual untuk **Pengeluaran** mengacu pada:
 
-Baris estimasi untuk bahan adalah detail baris kuotasi dan kontrak untuk bahan dan baris estimasi bahan pada proyek.
+- Baris jurnal Entri dan Koreksi untuk **Biaya**.
+- Baris jurnal yang dibuat saat entri pengeluaran dikirimkan.
 
-Setelah daftar harga biaya ditangani, sistem menggunakan kombinasi bidang **Produk** dan **Unit** pada baris estimasi untuk agar estimasi bahan sesuai dengan baris **Item Daftar Harga** pada daftar harga yang ditangani. Jika sistem menemukan baris harga produk yang memiliki tingkat biaya untuk kombinasi bidang **Produk** dan **Unit**, maka tingkat biaya akan di-default. Jika sistem tidak dapat sesuai dengan nilai **Produk** dan **Unit**, atau jika sistem dapat menemukan baris item daftar harga yang cocok, namun metode harga didasarkan pada biaya Standar atau Biaya saat ini dan tidak ditentukan pada produk, biaya unit diatur default ke nol.
+Setelah daftar harga biaya ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
 
+1. Sistem ini mencocokkan kombinasi **bidang Kategori** dan **Unit** dalam perkiraan atau konteks aktual untuk **Pengeluaran** terhadap garis harga kategori pada daftar harga.
+1. Jika sistem menemukan garis harga kategori yang memiliki tarif biaya untuk kombinasi Kategori **dan** Unit **, tarif biaya tersebut** digunakan sebagai tarif biaya default.
+1. Jika sistem tidak dapat mencocokkan **nilai Kategori** dan **Unit**, harga diatur ke **0** (nol) secara default.
+1. Dalam konteks estimasi, jika sistem dapat menemukan garis harga kategori yang cocok, tetapi metode penetapan harga adalah sesuatu selain **Harga Per Unit**, tarif biaya diatur ke **0** (nol) secara default.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menentukan tarif biaya pada garis aktual dan perkiraan untuk Material
+
+Perkiraan konteks untuk **Materi** mengacu pada:
+
+- Kutip detail baris untuk **Materi**.
+- Detail garis kontrak untuk **Material**.
+- Perkiraan material pada suatu proyek.
+
+Konteks aktual untuk **Materi** mengacu pada:
+
+- Baris jurnal Entri dan Koreksi untuk **Materi**.
+- Baris jurnal yang dibuat saat log penggunaan Material dikirimkan.
+
+Setelah daftar harga biaya ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
+
+1. Sistem ini menggunakan kombinasi **bidang Produk** dan **Unit** dalam perkiraan atau konteks aktual untuk **Material** terhadap baris item daftar harga pada daftar harga.
+1. Jika sistem menemukan baris item daftar harga yang memiliki tarif biaya untuk kombinasi Produk **dan** Unit **, tarif biaya tersebut** digunakan sebagai tarif biaya default.
+1. Jika sistem tidak dapat mencocokkan **nilai Produk** dan **Unit**, biaya unit diatur ke **0** (nol) secara default.
+1. Dalam perkiraan atau konteks aktual, jika sistem dapat menemukan baris item daftar harga yang cocok, tetapi metode penetapan harga adalah sesuatu selain **jumlah** Mata Uang, biaya unit diatur ke **0** secara default. Perilaku ini terjadi karena Operasi Proyek hanya **mendukung metode penetapan harga jumlah** mata uang untuk materi yang digunakan pada proyek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

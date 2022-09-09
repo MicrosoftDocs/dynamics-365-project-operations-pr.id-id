@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183906"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403955"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Juli 2022 - Project Operations untuk skenario berbasis sumber daya/non-stok
 
@@ -45,6 +45,12 @@ Jika Anda mengalami masalah saat memulai peta, ikuti instruksi di [bagian Kolom 
 | Penagihan dan Harga | 2675880 | Mencegah proyek ditautkan ke jalur kontrak yang tidak berbasis kerja. |
 | Penagihan dan Harga | 2664396 | Jika daftar harga kutipan disimpan tanpa kutipan, pasti ada kesalahan yang menyatakan bahwa kutipan tidak boleh kosong. |
 | Penagihan dan Harga | 2184019 | Tab **Penagihan** Berbasis Tugas tidak boleh ditampilkan untuk proyek yang tidak memiliki kontrak atau penawaran dukungan. |
+| Waktu dan Pengeluaran | 2754459 | Saat alur cloud penjadwalan berulang tidak aktif, tampilkan banner dan lewati pemrosesan asinkron. |
+| Penagihan dan Harga | 2724391 | Pengecualian yang salah dilemparkan ketika aturan penagihan pembagian kontrak proyek kehilangan nilai pelanggan. |
+| Penagihan dan Harga | 2708638 | Catatan tidak ditemukan saat mencari menggunakan pencarian grid dalam Penggunaan Material dan Persetujuan untuk Penggunaan Material.|
+| Penagihan dan Harga | 2686977 | Cegah validasi untuk baris faktur selama pembuatan faktur. |
+| Penagihan dan Harga | 2683032 | Penyalinan peran dan kategori yang dikenakan biaya tidak menskalakan melebihi 5000 rekaman.|
+| Penagihan dan Harga | 2673363 | Konsumsi Biaya % pada Proyek rusak ketika perkiraan dan aktual Upaya dan Pengeluaran ada untuk suatu proyek. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Manajemen proyek dan akuntansi di bidang Keuangan
 

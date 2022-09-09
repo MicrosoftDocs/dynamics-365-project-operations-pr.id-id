@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348103"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403860"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Yang baru di bulan Agustus 2022 - Project Operations untuk skenario berbasis sumber daya/non-stok
 
@@ -38,6 +38,11 @@ Jika Anda mengalami masalah saat memulai peta, ikuti instruksi di [bagian Kolom 
 | Area fitur | Nomor Referensi | Pembaruan kualitas |
 | --- | --- | --- |
 |   Manajemen peluang | 2762089 | Penanganan kesalahan saat menutup kontrak sebagai hilang jika penyimpanan otomatis dinonaktifkan di organisasi.|
+|Perencanaan dan Pelacakan Proyek | 2767841 | Telemetri memperbarui entitas Proyek Membuat atau Memperbarui skenario.|
+|Penagihan dan Harga | 2771072 | Penanganan pengecualian referensi nol saat memenangkan penawaran.|
+|Penagihan dan Harga | 2844181 |Kegagalan dalam mendapatkan id korelasi dan memblokir pembuatan faktur.|
+|Penagihan dan Harga | 2852836 | Intercompany sebenarnya hilang untuk Intercompany Expense yang dibuat dan disetujui di CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Manajemen proyek dan akuntansi di bidang Keuangan
 
