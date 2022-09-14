@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Menyalin kuotasi proyek
               href: sales/lose-quote.md
+            - name: Mengaktifkan dan merevisi kuotasi proyek
+              href: sales/activation-and-revision.md
             - name: Menutup kuotasi proyek
               href: sales/win-quote.md
         - name: Mengelola kontrak proyek
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Membuat jadwal faktur di baris kontrak berbasis proyek
                   href: sales/invoice-schedules-contract-line.md
+            - name: Menyalin kontrak berbasis proyek
+              href: sales/copy-project-based-contracts-sales.md
             - name: Mengonfirmasikan kontrak proyek
               href: pro/sales/confirm-contract-sales.md
             - name: Panjar dan uang muka
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Menimpa daftar harga penjualan proyek
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Menyelesaikan harga biaya untuk estimasi dan aktual
+            - name: Menentukan harga biaya untuk estimasi dan aktual
               href: pricing-costing/cost-price-resolution.md
-            - name: Menangani harga penjualan untuk estimasi dan aktual
+            - name: Menentukan harga penjualan untuk estimasi dan aktual
               href: pricing-costing/sales-price-resolution.md
             - name: Menyalin daftar harga
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Menyalin kuotasi berbasis proyek
               href: sales/lose-quote.md
+            - name: Mengaktifkan dan merevisi kuotasi proyek
+              href: sales/activation-and-revision.md
             - name: Menutup kuotasi berbasis proyek
               href: pro/sales/win-quote-sales.md
         - name: Mengelola kontrak berbasis proyek
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Menimpa daftar harga penjualan proyek
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Menangani harga biaya pada aktual dan estimasi proyek
+            - name: Menentukan harga biaya pada aktual dan estimasi proyek
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Menangani harga penjualan untuk aktual dan estimasi proyek
+            - name: Menentukan harga penjualan untuk aktual dan estimasi proyek
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Menyalin daftar harga
               href: pricing-costing/copy-price-lists.md
