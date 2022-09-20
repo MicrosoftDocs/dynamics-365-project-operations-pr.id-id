@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Menimpa daftar harga penjualan proyek
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Mengonfigurasikan penimpaan Tanggal efektif untuk harga tertentu dalam daftar harga
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Menentukan harga biaya untuk estimasi dan aktual
               href: pricing-costing/cost-price-resolution.md
             - name: Menentukan harga penjualan untuk estimasi dan aktual
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Memesan barang dan jasa untuk proyek dengan menggunakan pesanan pembelian proyek
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Faktur vendor untuk subkontrak di Dataverse
+          items:
+            - name: Buat faktur vendor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verifikasi faktur vendor dengan aktual yang disetujui
+              href: pro/subcontracting/VI-Verification.md
+            - name: Mengonfirmasi faktur vendor proyek
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Retensi vendor
           items:
             - name: Ikhtisar retensi vendor
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Menimpa daftar harga penjualan proyek
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Mengonfigurasikan penimpaan Tanggal efektif untuk harga tertentu dalam daftar harga
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Menentukan harga biaya pada aktual dan estimasi proyek
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Menentukan harga penjualan untuk aktual dan estimasi proyek

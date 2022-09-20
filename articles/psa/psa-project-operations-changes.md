@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925354"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459930"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Perubahan fitur dari Project Service Automation ke Project Operations
 
 Upgrade dari Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations Lite akan dikirimkan dalam tiga fase. Artikel ini memberikan informasi tentang perubahan besar yang dapat Anda harapkan untuk dilihat saat pemutakhiran selesai.
 
-| Tingkatkan pengiriman | Tahap 1 <br>(Januari 2022) | Tahap 2 <br>(Gelombang April 2022) | Tahap 3  |
+| Tingkatkan pengiriman | Tahap 1 <br>(Januari 2022) | Tahap 2 <br>(Bulan November 2022) | Tahap 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Tidak ada ketergantungan pada struktur rincian kerja (WBS) untuk proyek. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS termasuk dalam batas Operasi Proyek yang saat ini didukung. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -41,7 +41,7 @@ Perubahan paling signifikan dalam pengalaman pengguna adalah di bidang perencana
 
 Tabel berikut ini meringkas perbedaan penjadwalan antara Otomatisasi Layanan Proyek dan Operasi Proyek.
 
-|  Penjadwalan     |   Project Operations   |   PSA   |
+|  Penjadwalan     |   Project Operations   |   Psa   |
 |-----------------|------------------------|---------|
 | Templat proyek - Kemampuan untuk menentukan dan menerapkan templat proyek saat proyek dibuat  |  &nbsp;    | :heavy_check_mark: |
 | Integrasi struktur rincian kerja proyek (WBS) dengan klien desktop   |    &nbsp;  | :heavy_check_mark: |

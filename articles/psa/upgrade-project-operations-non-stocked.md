@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230255"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446039"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Tingkatkan dari Otomatisasi Layanan Proyek ke Operasi Proyek
 
@@ -29,7 +29,7 @@ Kami sangat senang mengumumkan yang pertama dari tiga fase untuk upgrade dari Mi
 
 Program pengiriman peningkatan akan dibagi menjadi tiga fase.
 
-| Tingkatkan pengiriman | Tahap 1 (Januari 2022) | Tahap 2 (Gelombang April 2022) | Tahap 3  |
+| Tingkatkan pengiriman | Tahap 1 (Januari 2022) | Tahap 2 (November 2022) | Tahap 3 (Gelombang April 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Tidak ada ketergantungan pada struktur rincian kerja (WBS) untuk proyek | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS dalam batas Operasi Proyek yang saat ini didukung | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Program pengiriman peningkatan akan dibagi menjadi tiga fase.
 
 Sebagai bagian dari proses peningkatan, kami telah menambahkan log peningkatan ke peta situs, sehingga administrator dapat lebih mudah mendiagnosis kegagalan. Selain antarmuka baru, aturan validasi baru akan ditambahkan untuk memastikan integritas data setelah peningkatan. Validasi berikut akan ditambahkan ke proses peningkatan.
 
-| Validasi | Tahap 1 (Januari 2022) | Tahap 2 (Gelombang April 2022) | Tahap 3  |
+| Validasi | Tahap 1 (Januari 2022) | Tahap 2 (November 2022) | Tahap 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS akan divalidasi terhadap pelanggaran integritas data umum (misalnya, penugasan sumber daya yang terkait dengan tugas induk yang sama tetapi memiliki proyek induk yang berbeda). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS akan divalidasi [terhadap batas proyek yang diketahui untuk Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

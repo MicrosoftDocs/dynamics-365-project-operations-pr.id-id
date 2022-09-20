@@ -1,23 +1,23 @@
 ---
-title: Menentukan harga penjualan untuk perkiraan dan aktual proyek
+title: Menentukan harga penjualan untuk aktual dan estimasi proyek
 description: Artikel ini memberikan informasi tentang bagaimana harga jual untuk perkiraan dan aktual proyek ditentukan.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410122"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475188"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Menentukan harga penjualan untuk perkiraan dan aktual proyek
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Menentukan harga penjualan untuk aktual dan estimasi proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Untuk menentukan harga penjualan pada perkiraan dan aktual di Microsoft Dynamics 365 Project Operations, sistem pertama-tama menggunakan tanggal dan mata uang dalam perkiraan masuk atau konteks aktual untuk menentukan daftar harga penjualan. Dalam konteks aktual secara khusus, sistem menggunakan **bidang Tanggal** transaksi untuk menentukan daftar harga mana yang berlaku. Setelah daftar harga penjualan ditentukan, sistem menentukan tingkat penjualan atau tagihan.
+Untuk menentukan harga penjualan pada perkiraan dan aktual di Microsoft Dynamics 365 Project Operations, sistem pertama-tama menggunakan tanggal dan mata uang dalam perkiraan masuk atau konteks aktual untuk menentukan daftar harga penjualan. Dalam konteks aktual secara khusus, sistem menggunakan **bidang Tanggal** transaksi untuk menentukan daftar harga mana yang berlaku. Nilai **tanggal** Transaksi dari perkiraan masuk atau aktual dibandingkan dengan **nilai Efektif Mulai (Timezone independen)** dan **Akhir Efektif (Timezone independent)** pada daftar harga. Setelah daftar harga penjualan ditentukan, sistem menentukan tingkat penjualan atau tagihan.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Menentukan tingkat penjualan pada garis aktual dan perkiraan untuk Waktu
 
