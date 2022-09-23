@@ -506,8 +506,10 @@
           href: approvals/approval-sets.md
         - name: Membatalkan persetujuan entri yang disetujui sebelumnya
           href: approvals/cancelapproval.md
-        - name: Penarikan kembali entri yang disetujui sebelumnya
+        - name: Menarik kembali entri yang disetujui sebelumnya
           href: approvals/recall-cancel.md
+        - name: Keamanan dan persetujuan
+          href: approvals/approvals-security.md
         - name: Catatan pengembang
           items:
             - name: Catatan pengembang untuk Persetujuan
@@ -560,9 +562,11 @@
               href: procurement/vendor-retention-overview.md
             - name: Mengatur retensi vendor
               href: procurement/set-up-vendor-retention.md
+            - name: Bayar jika dibayar
+              href: procurement/Pay-when-paid.md
     - name: Faktur
       items:
-        - name: Ikhtisar proses pemfakturan
+        - name: Ikhtisar pemrosesan faktur
           href: invoicing/post-project-invoices.md
         - name: Faktur proforma
           items:
@@ -1100,8 +1104,10 @@
           href: approvals/approval-sets.md
         - name: Membatalkan persetujuan entri yang disetujui sebelumnya
           href: approvals/cancelapproval.md
-        - name: Penarikan kembali entri yang disetujui sebelumnya
+        - name: Menarik kembali entri yang disetujui sebelumnya
           href: approvals/recall-cancel.md
+        - name: Keamanan dan persetujuan
+          href: approvals/approvals-security.md
         - name: Catatan pengembang
           items:
             - name: Catatan pengembang untuk Persetujuan
