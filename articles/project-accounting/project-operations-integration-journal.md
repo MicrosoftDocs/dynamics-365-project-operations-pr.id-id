@@ -2,16 +2,16 @@
 title: Jurnal integrasi dalam Project Operations
 description: Artikel ini menyediakan informasi tentang bekerja dengan jurnal Integrasi dalam Operasi Proyek.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106279"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541081"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
@@ -65,6 +65,12 @@ Posting dapat dilakukan secara interaktif atau dalam batch. Perhatikan bahwa sem
 > [!NOTE]
 > Untuk menggunakan kemampuan ini, aktifkan **Fitur Transfer semua baris dengan kesalahan posting ke jurnal integrasi** Operasi Proyek baru di **ruang kerja Manajemen** fitur.
 
-Selama posting ke jurnal integrasi Operasi Proyek, sistem memvalidasi setiap baris dalam jurnal. Sistem memposting semua baris yang tidak memiliki kesalahan dan membuat jurnal baru untuk semua baris yang memiliki kesalahan posting. Untuk meninjau jurnal yang memiliki baris kesalahan posting, buka **Jurnal** > **integrasi Manajemen proyek dan akuntansi** > **Jurnal** Integrasi Operasi Proyek, dan filter jurnal dengan **menggunakan bidang Jurnal** asli.
+Fitur ini membantu meningkatkan pengalaman dengan jurnal integrasi Operasi Proyek. Saat diaktifkan, masalah waktu tulis ganda dan masalah penyiapan tidak lagi mencegah jurnal yang valid diposting. Selama posting ke jurnal integrasi Operasi Proyek, sistem memvalidasi setiap baris dalam jurnal. Ini memposting semua baris yang tidak memiliki kesalahan dan membuat jurnal baru untuk semua baris yang memiliki kesalahan posting.
+
+Untuk meninjau jurnal yang memiliki baris kesalahan posting, buka **Jurnal** integrasi Operasi Proyek manajemen dan akuntansi \>**Jurnal** \>**·**, dan filter daftar jurnal dengan **menggunakan bidang Jurnal** asli. Ilustrasi berikut menunjukkan contoh di mana jurnal di **halaman jurnal** integrasi Operasi Proyek telah difilter dengan cara ini.
+
+![Jurnal asli ditampilkan di halaman jurnal integrasi Project Operations.](./media/transferLines-originalJournal.png)
+
+Jika pekerjaan batch berkala dikonfigurasi untuk memposting jurnal integrasi, posting akan di-reattempted, dan jurnal akan diposting jika masalah waktu telah diperbaiki. Setiap jurnal yang tersisa harus diselidiki secara manual dengan meninjau log dan mengambil tindakan yang diperlukan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

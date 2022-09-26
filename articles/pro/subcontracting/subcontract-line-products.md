@@ -2,20 +2,20 @@
 title: Baris Subkontrak untuk produk
 description: Artikel ini menjelaskan cara merekam baris subkontrak untuk produk dan menggunakan berbagai bidang untuk mencatat pembelian produk dari vendor.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262120"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522846"
 ---
 # <a name="subcontract-lines-for-products"></a>Baris Subkontrak untuk produk
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 Subkontrak dalam Dynamics 365 Project Operations dapat memiliki baris subkontrak untuk produk. Baris ini memungkinkan Manajer Proyek membeli produk dari vendor yang kemudian dapat mereka gunakan pada tugas proyek.
 

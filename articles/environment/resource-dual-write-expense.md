@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029213"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527993"
 ---
 # <a name="expense-management-integration"></a>Integrasi manajemen pengeluaran
 
@@ -34,7 +34,7 @@ Kategori pengeluaran dalam aplikasi keuangan dan operasi adalah khusus untuk per
 
 ## <a name="expense-reports"></a>Laporan pengeluaran
 
-Laporan pengeluaran dibuat dan disetujui di aplikasi keuangan dan operasi. Untuk informasi lebih lanjut, lihat [Membuat dan memproses laporan pengeluaran di Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Setelah laporan pengeluaran disetujui oleh manajer Proyek, laporan tersebut diposting ke buku besar umum. Di Project Operations, baris laporan pengeluaran terkait proyek diposting menggunakan aturan posting khusus:
+Laporan pengeluaran dibuat dan disetujui di aplikasi keuangan dan operasi. Untuk informasi lebih lanjut, lihat [Membuat dan memproses laporan pengeluaran di Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Setelah laporan pengeluaran disetujui oleh manajer Proyek, laporan tersebut diposting ke buku besar umum. Di Project Operations, baris laporan pengeluaran terkait proyek diposting menggunakan aturan posting khusus:
 
   - Biaya terkait proyek (termasuk pajak yang tidak dapat dipulihkan) tidak dengan segera diposting ke akun biaya proyek pada buku besar umum, namun diposting ke akun integrasi pengeluaran. Akun ini dikonfigurasi dalam **Manajemen proyek dan akuntansi** > **Konfigurasi** > **Parameter manajemen proyek dan akuntansi**, tab **Project Operations di Dynamics 365 Customer Engagement**.
   - Sinkronisasi penulisan ganda ke Dataverse menggunakan peta tabel **entitas ekspor pengeluaran proyek integrasi Project Operations (msdyn\_expenses)**.

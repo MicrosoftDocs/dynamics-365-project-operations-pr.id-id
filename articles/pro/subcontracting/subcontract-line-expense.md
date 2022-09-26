@@ -2,20 +2,20 @@
 title: Baris subkontrak untuk kategori pengeluaran
 description: Artikel ini menjelaskan cara merekam baris subkontrak untuk pengeluaran dan menggunakan bidang untuk mencatat pembelian waktu dari vendor.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261844"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522611"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Baris subkontrak untuk kategori pengeluaran
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 Subkontrak dalam Dynamics 365 Project Operations dapat memiliki baris untuk kategori pengeluaran. Baris subkontrak untuk kategori pengeluaran memungkinkan Manajer Proyek membeli kategori layanan atau produk dari vendor yang dapat mereka tagih pada proyek.
 

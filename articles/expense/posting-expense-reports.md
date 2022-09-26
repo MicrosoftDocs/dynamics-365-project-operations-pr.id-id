@@ -1,8 +1,8 @@
 ---
 title: Memposting laporan pengeluaran
 description: Artikel ini menjelaskan cara memposting laporan pengeluaran.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934508"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524873"
 ---
 # <a name="post-expense-reports"></a>Memposting laporan pengeluaran
 
@@ -30,5 +30,15 @@ Untuk memposting laporan pengeluaran, pada halaman **laporan pengeluaran yang di
 
 Anda juga dapat memposting semua laporan pengeluaran dalam daftar secara bersamaan. Pilih Semua laporan pengeluaran, lalu pilih **posting**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Memungkinkan kemampuan untuk memposting kewajiban biaya dalam mata uang vendor untuk fitur metode pembayaran tunai
+
+Fitur **Kemampuan untuk memposting kewajiban biaya dalam mata uang vendor untuk metode** pembayaran tunai memungkinkan laporan pengeluaran untuk diposting dalam mata uang vendor untuk metode pembayaran tunai.
+
+Saat ini, ketika Anda mengirimkan pengeluaran tunai, laporan pengeluaran diposting dalam mata uang akuntansi. Karena jumlah konversi antara mata uang transaksi, mata uang akuntansi, dan mata uang vendor, jumlah yang salah dibayarkan kepada vendor jika tanggal transaksi pengeluaran dan tanggal pembayaran aktual memiliki nilai tukar yang berbeda.
+
+Fitur ini akan memastikan bahwa saldo vendor dicatat dalam mata uang vendor saat laporan pengeluaran diposting.
+
+1. Buka **Ruang kerja** \> **Manajemen Fitur**.
+2. Dalam daftar, temukan dan pilih **Kemampuan untuk memposting kewajiban pengeluaran dalam mata uang vendor untuk metode** pembayaran tunai, lalu pilih **Aktifkan sekarang**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

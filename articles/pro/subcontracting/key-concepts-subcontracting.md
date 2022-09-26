@@ -2,21 +2,21 @@
 title: Konsep penting dalam subkontrak
 description: Artikel ini menjelaskan beberapa konsep kunci yang berlaku untuk subkontrak di Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262173"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522752"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Konsep penting dalam subkontrak
 
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 Artikel ini menjelaskan beberapa konsep kunci yang harus Anda ketahui sebelum Anda mulai menggunakan fungsionalitas subkontrak di Microsoft Dynamics 365 Project Operations.
 
