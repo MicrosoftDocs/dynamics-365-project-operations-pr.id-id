@@ -60,12 +60,14 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Menghapus instalan Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: Apa yang baru
+    - name: Yang baru
       items:
-        - name: Agustus 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-aug-2022-resource-based.md
-        - name: Arsipkan
+        - name: September 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Arsip
           items:
+            - name: Agustus 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -666,15 +668,17 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model keamanan
           href: environment/security-model.md
-    - name: Apa yang baru
+    - name: Yang baru
       items:
-        - name: Apa yang baru di bulan Agustus 2022 - penyebaran lite
-          href: pro/whats-new/whats-new-aug-2022-lite.md
-        - name: Arsipkan
+        - name: Yang baru di bulan September 2022 - penyebaran lite
+          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Arsip
           items:
-            - name: Apa yang baru di bulan Juli 2022 - penyebaran lite
+            - name: Yang baru di bulan Agustus 2022 - penyebaran lite
+              href: pro/whats-new/whats-new-aug-2022-lite.md
+            - name: Yang baru di bulan Juli 2022 - penyebaran lite
               href: pro/whats-new/whats-new-july-2022-lite.md
-            - name: Apa yang baru di bulan Juni 2022 - penyebaran lite
+            - name: Yang baru di bulan Juni 2022 - penyebaran lite
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Apa yang baru di akses awal 2021 gelombang 2 - penyebaran lite
               href: pro/whats-new/whats-new-2021-early-access-lite.md
@@ -1176,14 +1180,16 @@
               href: prod-pma/project-tasks-template.md
         - name: Menyebarkan lingkungan
           items:
-            - name: Perbarui Project Operations di lingkungan Finance Anda
+            - name: Memperbarui Project Operations di lingkungan Finance Anda
               href: whats-new/ur5-nonstocked-installation.md
-    - name: Apa yang baru
+    - name: Yang baru
       items:
-        - name: Yang baru di bulan Juli 2022 - Project Operations untuk skenario berbasis stok/produksi
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-        - name: Arsipkan
+        - name: Yang baru di bulan September 2022 - Project Operations untuk skenario berbasis stok/produksi
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Arsip
           items:
+            - name: Yang baru di bulan Juli 2022 - Project Operations untuk skenario berbasis stok/produksi
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Yang baru di bulan Juni 2022 - Project Operations untuk skenario berbasis stok/produksi
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Yang baru di bulan Oktober 2021 - Project Operations untuk skenario berbasis stok/produksi
@@ -1432,10 +1438,14 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Apa yang baru
+    - name: Yang baru
       items:
         - name: Jadwal Rilis Pembaruan untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Yang baru atau berubah dalam rilis Pembaruan 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Yang baru atau berubah dalam rilis Pembaruan 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Yang baru atau berubah dalam rilis Pembaruan 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Yang baru atau berubah dalam rilis Pembaruan 43, V3'
