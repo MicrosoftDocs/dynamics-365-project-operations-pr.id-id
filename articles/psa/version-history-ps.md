@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295835"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621945"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Jadwal rilis pembaruan untuk Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295835"
 
 | Solusi  | Versi terbaru |
 |-------|----|
-| Automasi Layanan Proyek    | 3.10.76.168 |
+| Automasi Layanan Proyek    | 3.10.78.8 |
 | Add-in desktop Project Service Automation                | 3.60          |
 
 Untuk informasi tentang pembaruan Project Service, lihat [rencana rilis Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Untuk informasi tentang pembaruan Project Service, lihat [rencana rilis Dynamics
 | Stasiun  | Wilayah | Versi saat ini | Versi berikutnya |  Tanggal terjadwal
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stasiun 1</strong> | |  |  | |
-| | <i>Rilis pertama</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26 Agustus 2022
+| | <i>Rilis pertama</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07 Oktober 2022
 |<strong>Stasiun 2</strong> | |  |  | |
-| | <i>Amerika Selatan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>India</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Prancis</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Afrika Selatan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Jerman</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Swiss</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Korea Selatan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
-| | <i>Norwegia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Amerika Selatan</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>India</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Prancis</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Afrika Selatan</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Jerman</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Swiss</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Korea Selatan</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
+| | <i>Norwegia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 Oktober 2022
 |<strong>Stasiun 3</strong> | |  |  | |
-| | <i>Jepang</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
-| | <i>Asia Pasifik</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
-| | <i>Britania Raya</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
-| | <i>Oseania</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
-| | <i>Uni Emirat Arab</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
+| | <i>Jepang</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
+| | <i>Asia Pasifik</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
+| | <i>Britania Raya</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
+| | <i>Oseania</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
+| | <i>Uni Emirat Arab</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
 |<strong>Stasiun 4</strong> | |  |  | |
-| | <i>Eropa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16 September 2022
+| | <i>Eropa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
 |<strong>Stasiun 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23 September 2022
+| | <i>Amerika Utara</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 Nopember 2022
 |<strong>Stasiun 6</strong> | |  |  | |
-| | <i>Awan Komunitas Pemerintah</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21 September 2022
-| | <i>Grup skala khusus</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30 September 2022
+| | <i>Awan Komunitas Pemerintah</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02 November 2022
+| | <i>Grup skala khusus</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 November 2022
 
 
 
