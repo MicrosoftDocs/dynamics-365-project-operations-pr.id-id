@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Yang baru atau yang diubah di Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Peningkatan Project Service Automation (Project Operations Sederhana 4.x versi aplikasi)
+      items:
+        - name: Tingkatkan dari Project Service Automation ke Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Perubahan fitur dari Project Service Automation ke Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Proses konversi penjadwalan proyek Project Service Automation ke Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Rencanakan penerapan Anda (versi aplikasi 3.x)
       items:
         - name: Penginstalan data sampel
