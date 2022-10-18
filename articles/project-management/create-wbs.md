@@ -1,17 +1,17 @@
 ---
 title: Membuat struktur rincian kerja
-description: Artikel ini menjelaskan cara membuat struktur rincian kerja (WBS) yang mencakup kontrol dasar di antarmuka penjadwalan baru.
+description: Artikel ini menjelaskan cara membuat struktur rincian kerja (WBS) termasuk kontrol dasar di antarmuka penjadwalan baru.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932070"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655192"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Membuat struktur rincian kerja (WBS)
 
@@ -63,7 +63,7 @@ Lakukan langkah-langkah berikut untuk mengidentasi atau mempromosikan tugas.
 
 ### <a name="move-tasks-up-and-down"></a>Naik dan turunkan tugas
 
-Tugas dapat saya pindahkan ke tingkat apa pun dalam struktur rincian kerja dengan salah satu dari dua cara:
+Tugas dapat dipindahkan ke tingkat mana pun dalam struktur perincian kerja dengan salah satu dari dua cara:
 
 - Pilih satu tugas lagi, lalu tarik ke lokasi yang diinginkan.
 - Pilih satu atau beberapa tugas, klik kanan dan pilih **Potong**, pilih sel tujuan dalam jadwal, lalu klik kanan dan pilih **Rekat**.
@@ -95,7 +95,7 @@ Sebagai administrator, Anda dapat menentukan bidang kustom pada entitas tugas. N
 
 ## <a name="staffing-attributes"></a>Atribut staf
 
-Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemilih sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian akan mengembalikan anggota tim proyek yang ada atau sumber daya aktif yang dapat dipesan.
+Atribut staf diakses melalui bidang **sumber daya** dalam jadwal. Anda dapat mencari sumber daya yang ada, atau memilih **buat**, dan di panel **buat cepat**, tambahkan anggota tim proyek sebagai sumber daya baru.  Saat Anda mencari sumber daya menggunakan pemilih sumber daya di kisi tugas, tampilan papan, atau gantt, pencarian mengembalikan anggota tim proyek yang ada atau sumber daya yang dapat dipesan aktif.
 
 **Peran**, **unit sumber daya**, dan bidang **nama posisi** digunakan untuk menjelaskan persyaratan staf untuk tugas. Atribut staf ini bersama dengan jadwal tugas digunakan untuk menemukan sumber daya yang tersedia untuk melakukan tugas ini.
 
@@ -112,6 +112,18 @@ Bidang **kategori** memiliki nilai yang menunjukkan jenis pekerjaan yang lebih l
 Anda dapat menggunakan jadwal dalam Project Operations untuk membuat Relasi pendahulu antara tugas. Bidang **sebelumnya** menggunakan satu atau beberapa nilai untuk menunjukkan tugas yang tergantung pada tugas. Bila Anda menetapkan nilai pendahulu tugas, tugas hanya dapat mulai ketika menyelesaikan semua tugas-tugas pendahulunya. Karena dependensi, tanggal mulai yang direncanakan untuk tugas diatur ulang ke tanggal saat tugas pendahulunya selesai.
 
 Mode tugas tidak berpengaruh pada pembaruan yang dibuat pada tanggal mulai dan berakhir dari tugas pendahulu/tergantung.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Memahami dampak durasi, kalender sumber daya, dan kalender proyek pada tugas
+Durasi tugas didefinisikan sebagai jumlah jam kerja antara waktu mulai tanggal mulai dan waktu akhir tanggal penyelesaian tugas.   Project for the web mendefinisikan satuan durasi pengukuran sebagai berikut:
+
+| **Ukuran Durasi** | **Quantity**|
+|----------------------------------------------------|----------------------|
+| Jam per hari | 8 |
+| Jam per minggu |  40 |
+| Hari per bulan |  20 |
+
+Tugas yang tidak ditetapkan dijadwalkan dengan menggunakan kalender proyek. Namun, setelah penetapan sumber daya awal, penjadwalan tugas diperbarui sehingga menghormati kalender sumber daya. Perubahan selanjutnya pada tugas yang memiliki tugas akan diatur oleh [mode](scheduling-modes.md) penjadwalan proyek. Untuk mempelajari selengkapnya tentang pengaruh kalender pada tugas, lihat [Kalender Sumber Daya di Project untuk web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) dan [Waktu Mulai Tugas & Proyek Anda!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Cara pintas keyboard dan aksesibilitas
 
