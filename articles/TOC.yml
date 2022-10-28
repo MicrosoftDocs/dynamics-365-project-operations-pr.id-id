@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Bagaimana cara menyesuaikan alur proses bisnis Tahapan Proyek?
               href: psa/FAQ-customize-bpf.md
-            - name: Pertimbangan peningkatan untuk struktur rincian kerja
-              href: psa/upgrade-considerations-tasks.md
         - name: Laporan resmi
           href: psa/white-papers.md
         - name: Panduan administrator
