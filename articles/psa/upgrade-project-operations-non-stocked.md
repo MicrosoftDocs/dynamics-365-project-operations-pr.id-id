@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686979"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709448"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Tingkatkan dari Project Service Automation ke Project Operations
 
@@ -70,7 +70,7 @@ Prasyarat untuk Fase 3 akan diperbarui saat tanggal ketersediaan umum mendekat.
 
 ## <a name="licensing"></a>Lisensi
 
-Jika Anda memiliki lisensi aktif untuk Project Service Automation, Anda dapat menginstal dan menggunakan Operasi Proyek, yang mencakup semua kemampuan Project Service Automation dan banyak lagi. Anda kemudian dapat menguji kemampuan Operasi Proyek di lingkungan terpisah saat Anda terus menggunakan Project Service Automation dalam produksi. Setelah lisensi Project Service Automation Anda kedaluwarsa, Anda harus beralih ke Operasi Proyek. Saat merencanakan transisi ini, Anda harus memperhitungkan fakta bahwa lisensi Project Operations tidak menyertakan lisensi Project Service Automation.
+Jika Anda memiliki lisensi aktif untuk Project Service Automation, Anda dapat menginstal dan menggunakan Operasi Proyek, yang mencakup semua kemampuan Project Service Automation dan banyak lagi. Dengan cara ini, Anda dapat menguji kemampuan Operasi Proyek saat Anda terus menggunakan Project Service Automation dalam produksi. Setelah lisensi Project Service Automation Anda kedaluwarsa, Anda harus beralih ke Operasi Proyek. Saat merencanakan transisi ini, Anda harus memperhitungkan fakta bahwa lisensi Project Operations tidak menyertakan lisensi Project Service Automation. Pelanggan yang memiliki skenario di mana mereka telah menyebarkan Project Service Automation dan perlu terus menggunakan atau meningkatkan lisensi mereka untuk PSA saat mereka berencana untuk pindah ke Operasi Proyek, dapat meminta lisensi PSA sementara berdasarkan lisensi yang dibeli Operasi Proyek. Satu lisensi Project Service Automation akan dikeluarkan untuk satu lisensi Project Operations. Lisensi PSA sementara dapat diminta dengan menggunakan tautan ini: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Menguji dan memfaktor ulang kustomisasi
 
