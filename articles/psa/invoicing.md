@@ -1,6 +1,6 @@
 ---
 title: Pemfakturan di Project Service Automation
-description: Artikel ini menyediakan informasi tentang faktur.
+description: Artikel ini menyediakan informasi tentang pemfakturan.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Setelah **ProcessRunner** selesai berjalan, maka ia memanggil **ProcessRunCaller
 Pekerjaan proses batch untuk membuat faktur adalah pekerjaan berulang. Jika proses batch ini dijalankan berkali-kali, beberapa instans pekerjaan dibuat dan menyebabkan kesalahan. Oleh karena itu, Anda harus memulai proses batch hanya satu kali, dan Anda harus me-restart hanya jika berhenti berjalan.
 
 > [!NOTE]
-> Faktur batch dalam Project Service Automation hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Informasi tentang pengaturan frekuensi faktur dalam konteks proyek yang didasarkan pada garis kutipan, disediakan dalam artikel, Kutipan, [dan baris kutipan](basic-quote-lines.md#invoice-schedule). Hal yang sama berlaku untuk baris kontrak berbasis proyek.      
+> Faktur batch dalam Project Service Automation hanya berjalan untuk baris kontrak proyek yang dikonfigurasi dengan jadwal faktur. Baris kontrak dengan metode penagihan harga tetap harus mengonfigurasikan tonggak waktu. Baris kontrak proyek dengan metode waktu dan materi penagihan akan memerlukan pengaturan jadwal faktur berdasarkan tanggal. Informasi tentang cara mengkonfigurasi frekuensi faktur dalam konteks proyek yang didasarkan pada baris kuotasi, disediakan dalam artikel [kuotasi dan baris kuotasi](basic-quote-lines.md#invoice-schedule). Hal yang sama berlaku untuk baris kontrak berbasis proyek.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Mengedit faktur draft PSA
 

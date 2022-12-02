@@ -1,6 +1,6 @@
 ---
 title: Mengelola anggota tim
-description: Artikel ini memberikan informasi tentang pemesanan sumber daya bernama ke tim proyek dan menugaskan mereka ke tugas.
+description: Artikel ini menyediakan informasi tentang pemesanan sumber daya bernama untuk tim proyek dan tetapkan tugas.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

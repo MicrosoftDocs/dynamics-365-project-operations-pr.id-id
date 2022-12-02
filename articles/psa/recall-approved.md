@@ -1,6 +1,6 @@
 ---
 title: Tarik entri waktu atau pengeluaran yang telah disetujui sebelumnya
-description: Artikel ini memberikan informasi tentang cara mengingat transaksi waktu atau pengeluaran yang telah disetujui sebelumnya.
+description: Artikel ini menyediakan informasi tentang cara menarik transaksi waktu atau pengeluaran yang telah disetujui sebelumnya.
 author: rumant
 ms.custom: ''
 ms.author: rumant

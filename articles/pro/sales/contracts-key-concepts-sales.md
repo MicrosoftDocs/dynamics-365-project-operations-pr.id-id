@@ -1,6 +1,6 @@
 ---
 title: kontrak proyek - Konsep kunci - lite
-description: Artikel ini memberikan informasi tentang konsep utama kontrak proyek.
+description: artikel ini menyediakan informasi tentang konsep kunci kontrak proyek.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 
 
-Artikel ini menyediakan konsep-konsep kunci yang harus diperhatikan sebelum Anda mulai menggunakan kontrak Proyek di Dynamics 365 Project Operations:
+artikel ini memberikan konsep penting yang perlu diperhatikan sebelum Anda mulai menggunakan kontrak Proyek di Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unit Kontrak
 

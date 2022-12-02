@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan komponen kena biaya pada baris kuotasi berbasis proyek
-description: Artikel ini memberikan informasi tentang komponen yang disertakan, dikenakan biaya, dan tidak dikenakan biaya pada baris kutipan berbasis proyek.
+description: artikel ini berisi informasi tentang komponen yang disertakan, dikenakan biaya, dan tidak dikenakan biaya pada baris kuotasi berbasis proyek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

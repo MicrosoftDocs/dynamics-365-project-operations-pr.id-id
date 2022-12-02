@@ -1,6 +1,6 @@
 ---
 title: Pemenuhan sumber daya untuk sumber daya terencana
-description: Artikel ini menyediakan informasi tentang sumber daya yang direncanakan untuk sebuah proyek.
+description: Artikel ini menyediakan informasi tentang sumber daya yang direncanakan untuk proyek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Mengkonfigurasi bahan non-stok dan faktur vendor tertunda
-description: Artikel ini menjelaskan cara mengaktifkan materi yang tidak ditebar dan faktur vendor yang tertunda.
+description: Artikel ini menjelaskan cara mengaktifkan bahan non-stok dan faktur vendor tertunda.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Jalankan peta penulisan ganda untuk materi non-stok dan integrasi faktur vendor
 
-Bagian ini memberikan informasi tentang peta tertentu yang diperlukan untuk bahan non-stok dan faktur vendor. Verifikasi bahwa peta prasyarat yang tercantum dalam [artikel Provisi lingkungan](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) baru berjalan di lingkungan Anda.
+Bagian ini memberikan informasi tentang peta tertentu yang diperlukan untuk bahan non-stok dan faktur vendor. Pastikan peta prasyarat yang terdaftar di artikel [Penyediaan lingkungan baru](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) berjalan pada lingkungan Anda.
 
 1. Buka Lifecycle Services (LCS), navigasi ke proyek LCS, dan buka halaman **rincian Lingkungan**.
 2. Di bagian **Informasi Lingkungan Common Data Service**, pilih **Tautkan ke CDS for Apps**. Setelah memilih tautan, Anda akan diarahkan ke daftar entitas di pemetaan.

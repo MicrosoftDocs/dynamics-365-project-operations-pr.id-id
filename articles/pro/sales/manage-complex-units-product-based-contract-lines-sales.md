@@ -1,6 +1,6 @@
 ---
 title: Mengelola unit yang kompleks untuk baris kontrak berbasis produk - lite
-description: Artikel ini memberikan informasi tentang mendukung penjualan produk berbasis langganan.
+description: Artikel ini menyediakan informasi tentang cara mendukung penjualan produk berbasis langganan.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

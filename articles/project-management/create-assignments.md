@@ -1,6 +1,6 @@
 ---
 title: Buat Penetapan Sumber Daya
-description: Artikel ini menyediakan informasi tentang membuat penetapan sumber daya generik dan bernama.
+description: artikel ini menyediakan informasi tentang pembuatan penetapan sumber daya generik dan bernama.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: id-ID
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933496"
@@ -18,7 +18,7 @@ ms.locfileid: "8933496"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 
-Penetapan sumber daya adalah asosiasi langsung anggota tim proyek ke tugas node leaf. Artikel ini menyediakan informasi tentang berbagai cara untuk menetapkan sumber daya.
+Penetapan sumber daya adalah asosiasi langsung anggota tim proyek ke tugas node leaf. artikel ini menyediakan informasi tentang berbagai cara menetapkan sumber daya.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Membuat anggota tim generik melalui penetapan tugas
 

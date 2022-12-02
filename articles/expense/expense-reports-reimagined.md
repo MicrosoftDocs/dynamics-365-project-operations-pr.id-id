@@ -1,6 +1,6 @@
 ---
-title: Laporan pengeluaran yang dirancang ulang (berisi video)
-description: Artikel ini menjelaskan pengalaman yang didesain ulang dan dirancang ulang untuk entri laporan pengeluaran.
+title: Laporan pengeluaran model baru (berisi video)
+description: Artikel ini menjelaskan pengalaman yang didesain ulang dan ditata ulang untuk entri laporan pengeluaran.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Untuk mengaktifkan pengalaman baru, gunakan ruang kerja **manajemen Fitur** untu
 | Simpan dan tambahkan baris pengeluaran baru | Tombol **Simpan** dan **baru** tersedia bila pengeluaran baru dimasukkan, untuk membantu Anda dengan cepat memasukkan baris pengeluaran. |
 | Visibilitas yang lebih baik ke baris terpisah dan terperinci | Baris terperinci dan terpisah ditambahkan langsung ke daftar pengeluaran untuk meningkatkan visibilitas dan membantu Anda dengan mudah menentukan apakah ada kesalahan. |
 | Melihat rincian subkategori di baris terperinci | Baris item dari pengeluaran induk memperlihatkan label subkategori pada laporan pengeluaran. Itemisasi memungkinkan Anda meninjau detail terperinci secara sekilas.|
-|Perinci pengeluaran berulang dengan cepat | Ruang kerja pengeluaran yang dirancang ulang memberikan kemampuan untuk merinci pengeluaran berulang dengan cepat dengan menambahkan subkategori, tanggal mulai, dan kuantitas. Kuantitas mengacu pada berapa kali muatan diulangi selama periode kontinu. |
+|Memerinci pengeluaran berulang dengan cepat | Ruang kerja pengeluaran yang dibuat ulang memberikan kemampuan untuk mengkategorikan pengeluaran berulang dengan cepat dengan menambahkan subkategori, tanggal mulai, dan kuantitas. Kuantitas adalah jumlah kali tagihan berulang selama periode kontinu. |
 | Tampilkan tanda terima selama itemisasi | Tanda terima dapat ditampilkan selama itemisasi. |
 | Pilihan Uang muka | Pilih satu atau beberapa uang muka tunai untuk memenuhi satu transaksi pengeluaran. |
 | saldo Uang muka | Tinjau saldo uang muka secara real time bila Anda membuat entri pengeluaran dengan uang muka yang disetujui dan dibayar. |

@@ -1,6 +1,6 @@
 ---
 title: Baris Subkontrak untuk produk
-description: Artikel ini menjelaskan cara merekam baris subkontrak untuk produk dan menggunakan berbagai bidang untuk mencatat pembelian produk dari vendor.
+description: Artikel ini menjelaskan cara merekam baris subkontrak untuk produk dan menggunakan berbagai bidang untuk merekam pembelian produk vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -24,20 +24,20 @@ ms.locfileid: "8924802"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-stok, penyebaran Lite -menangani faktur proforma_
 
-Aktual menunjukkan progres keuangan dan jadwal yang ditinjau dan disetujui pada proyek. Mereka dibuat ketika waktu, pengeluaran, dan entri penggunaan materi, entri jurnal, dan faktur disetujui.
+Aktual menunjukkan progres keuangan dan jadwal yang ditinjau dan disetujui pada proyek. Entri dibuat ketika waktu, pengeluaran, entri penggunaan bahan, serta entri jurnal dan faktur disetujui.
 
 > [!IMPORTANT]
-> Aktual tidak boleh diedit atau dihapus dari sistem. Jika tidak, integritas keuangan dan integrasi apa pun dengan sistem keuangan dan akuntansi lainnya mungkin akan terpengaruh secara negatif. Microsoft Dynamics 365 Project Operations memungkinkan Anda menggunakan pembalikan dan penggantian aktual untuk mengedit aktual di berbagai titik dalam siklus hidup proses bisnis proyek Anda.
+> Aktual tidak boleh diedit atau dihapus dari sistem. Jika tidak, integritas keuangan dan integrasi dengan sistem keuangan dan akuntansi lain mungkin akan terpengaruh. Microsoft Dynamics 365 Project Operations memungkinkan Anda menggunakan membalikkan dan mengganti aktual untuk mengedit aktual pada berbagai titik dalam siklus hidup proses bisnis proyek Anda.
 
 ## <a name="recording-actuals-based-on-project-events"></a>Aktual rekaman berdasarkan aktivitas proyek
 
-Operasi Proyek mencatat transaksi keuangan yang terjadi selama siklus hidup keterlibatan proyek sebagai aktual. Pembuatan aktual di berbagai peristiwa dalam siklus hidup bervariasi, tergantung pada apakah keterlibatan proyek menggunakan model penagihan waktu dan materi atau model penagihan harga tetap, dan apakah itu dalam tahap pra-penjualan atau proyek internal.
+Project Operations mencatat transaksi keuangan yang terjadi selama siklus hidup keterlibatan proyek sebagai aktual. Pembuatan aktual pada berbagai aktivitas dalam siklus hidup bervariasi, tergantung pada apakah keterlibatan proyek menggunakan model penagihan waktu dan bahan atau model penagihan harga tetap, dan baik dalam tahapan pra penjualan maupun proyek internal.
 
-Artikel berikut menjelaskan dampak pada tabel Aktual di berbagai acara untuk variasi yang berbeda:
+Artikel berikut menjelaskan dampak pada tabel Aktual di berbagai aktivitas untuk variasi yang berbeda:
 
-- [Dampak aktual dalam keterlibatan waktu dan materi](ActualsonTM.md)
+- [Dampak aktual dalam waktu dan keterlibatan bahan](ActualsonTM.md)
 - [Dampak aktual dalam keterlibatan harga tetap](ActualonFP.md)
-- [Dampak aktual selama tahap pra-penjualan keterlibatan](ActualonPreSales.md)
+- [Dampak aktual selama tahapan pra-penjualan suatu keterlibatan](ActualonPreSales.md)
 - [Dampak aktual untuk proyek internal](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

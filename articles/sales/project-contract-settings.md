@@ -1,6 +1,6 @@
 ---
 title: Pengaturan kontrak proyek
-description: Artikel ini menyediakan informasi tentang bidang yang memengaruhi garis kontrak dan informasi tentang kontrak yang diringkas di semua item baris.
+description: Artikel ini memberikan informasi tentang bidang yang berdampak pada baris kontrak dan informasi tentang kontrak yang dirangkum di semua item baris.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921582"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang memengaruhi semua jalur kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
+Artikel ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang mempengaruhi semua baris kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
 
 Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari perintah penjualan di Dynamics 365 Sales.
 

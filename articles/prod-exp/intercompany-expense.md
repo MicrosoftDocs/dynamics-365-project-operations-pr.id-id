@@ -1,6 +1,6 @@
 ---
 title: Pengeluaran antarperusahaan
-description: Artikel ini memberikan informasi tentang cara menggunakan biaya antar perusahaan untuk menetapkan pengeluaran pekerja ke badan hukum tempat pekerjaan itu dilakukan.
+description: Artikel ini memberikan informasi tentang cara menggunakan pengeluaran antarperusahaan untuk menetapkan pengeluaran pekerja ke entitas hukum tempat pekerjaan dilakukan.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

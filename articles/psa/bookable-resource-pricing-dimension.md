@@ -1,6 +1,6 @@
 ---
 title: Gunakan sumber daya yang dapat dipesan sebagai dimensi harga
-description: Artikel ini memberikan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga.
+description: artikel ini menyediakan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916108"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini memberikan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika Anda belum membuat solusi dimensi harga baru untuk organisasi Anda, selesaikan prosedur di [artikel Buat bidang dan entitas](create-custom-fields-entities.md) kustom.
+artikel ini menyediakan informasi tentang penggunaan sumber daya yang dapat dipesan sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika anda belum membuat solusi dimensi harga baru untuk organisasi anda, selesaikan prosedur di artikel [buat bidang dan entitas kustom](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Tambah sumber daya yang dapat dipesan untuk formulir dan tampilan
 Untuk membuat bidang terlihat di UI dalam solusi dimensi harga, Anda harus meninjau semua formulir, dan tampilan entitas Project Service utama, dan menambahkan bidang ini ke formulir, dan tampilan entitas tersebut.

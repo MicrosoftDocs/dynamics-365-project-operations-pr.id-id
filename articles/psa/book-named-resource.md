@@ -1,6 +1,6 @@
 ---
 title: Pesan sumber daya bernama dari persyaratan sumber daya.
-description: Artikel ini memberikan informasi tentang pemesanan sumber daya bernama untuk persyaratan sumber daya umum.
+description: artikel ini menyediakan informasi tentang pemesanan sumber daya bernama untuk persyaratan sumber daya generik.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

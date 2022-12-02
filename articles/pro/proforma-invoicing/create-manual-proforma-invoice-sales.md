@@ -1,6 +1,6 @@
 ---
 title: Faktur proyek proforma
-description: Artikel ini menyediakan informasi tentang faktur proyek proforma di Operasi Proyek.
+description: Artikel ini memberikan informasi tentang faktur proyek di Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

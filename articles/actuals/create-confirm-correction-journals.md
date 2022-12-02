@@ -1,6 +1,6 @@
 ---
 title: Membuat dan mengonfirmasi jurnal koreksi
-description: Artikel ini menyediakan informasi tentang cara membuat dan mengonfirmasi jurnal koreksi.
+description: artikel ini menyediakan informasi tentang cara membuat dan mengonfirmasikan jurnal koreksi.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928068"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Terkadang, entri waktu atau pengeluaran mungkin salah dimasukkan. Misalnya, konsultan mungkin memilih tanggal yang salah saat mereka membuat entri waktu, atau mereka mungkin memilih proyek yang salah saat memasukkan biaya. Jika konsultan tidak dapat memperbarui entri yang dikirimkan, admin back-end dapat langsung memperbaiki aktual untuk suatu proyek.
+Terkadang entri waktu atau biaya dapat dimasukkan dengan benar. Contohnya, konsultan mungkin memilih tanggal yang salah saat mereka membuat entri waktu atau mereka mungkin memilih proyek yang salah saat memasukkan pengeluaran. Jika konsultan tidak memperbarui entri yang diajukan, admin backend dapat secara langsung mengoreksi aktual untuk proyek.
 
 ## <a name="correct-approved-time-entries"></a>Mengoreksi entri waktu yang disetujui     
 
@@ -73,30 +73,30 @@ Selesaikan langkah-langkah berikut untuk mengoreksi satu atau beberapa entri pen
 
 6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Di kotak dialog, Pilih **Oke.** Jika nilai tidak ditampilkan sebagaimana mestinya, pilih **Batalkan** untuk kembali ke daftar **pengeluaran yang disetujui**. Ulangi langkah 2 hingga 5. 
 
-7. Setelah Anda mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Anda perbarui untuk melihat perubahan Anda.
+7. Setelah Anda mengkonfirmasi jurnal koreksi, kembalilah ke proyek atau proyek yang Anda diperbarui, untuk melihat perubahan Anda.
 
-8. Pada halaman proyek, pada tab **Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
+8. Di halaman proyek, pada tab **aktual**, Tinjau daftar **tampilan terkait aktual**. Entri asli dan entri yang dikoreksi didaftarkan.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Memperbaiki log penggunaan material yang disetujui
+## <a name="correct-approved-material-usage-logs"></a>Memperbaiki log penggunaan bahan yang disetujui
 
-Selesaikan langkah-langkah berikut untuk memperbaiki satu atau beberapa entri log penggunaan material.
+Selesaikan langkah-langkah berikut untuk mengoreksi satu atau beberapa entri log pengg bahan.
 
-1. **Di area Penjualan**, di panel navigasi kiri, di bawah **Transaksi**, pilih **Aktual**.
+1. Di area **penjualan**, di panel navigasi kiri, dalam **transaksi**, pilih **Aktual**.
 
-2. **Dalam daftar Aktual**, gunakan filter kolom untuk memilih **kelas transaksi Material**, sehingga hanya aktual untuk materi yang ditampilkan. Gunakan filter kolom lain untuk lebih membatasi aktual yang diperlihatkan. Setelah Anda dapat menemukan kumpulan aktual yang diinginkan, pilih aktual, lalu pilih **Entri yang** benar. Jurnal koreksi baru dibuat secara otomatis, dan **jenis koreksi** Material ditetapkan.
+2. Dalam daftar **Aktual**, gunakan filter kolom untuk memilih kelas transaksi **Bahan**, sehingga hanya aktual untuk bahan yang ditampilkan. Gunakan filter kolom lain untuk membatasi lebih lanjut aktual yang ditampilkan. Setelah Anda dapat menemukan rangkaian aktual yang diinginkan, pilih aktual, lalu pilih **Koreksi entri**. Jurnal koreksi baru dibuat secara otomatis dan jenis **koreksi bahan** yang ditetapkan.
 
-3. Pada halaman **Jurnal** Baru, di **bidang Deskripsi**, masukkan deskripsi untuk koreksi. Kemudian, pada tab **Koreksi** Material, di **bagian Nilai Baru untuk Materi**, pilih bidang data yang akan diperbaiki untuk baris material yang dipilih. Misalnya, Anda dapat menetapkan materi ke proyek lain, atau memperbaiki produk, tanggal material, atau subkontrak.
+3. Pada halaman **Jurnal baru** pada bidang **Deskripsi**, masukkan deskripsi untuk koreksi. Selanjutnya, pada tab **Koreksi Bahan**, di bagian **Nilai Baru untuk bahan**, pilih bidang data untuk mengoreksi untuk baris bahan yang dipilih. Contohnya, Anda dapat menetapkan bahan ke proyek lain, atau mengoreksi produk, tanggal bahan, atau subkontrak.
 
-4. pilih **Pratinjau**. Kemudian, di kotak dialog, pilih **OK**.
+4. pilih **Pratinjau**. Kemudian, Pilih **OK** di kotak dialog.
 
-5. Pada tab **Baris** jurnal, verifikasi koreksi. Anda dapat melihat daftar aktual asli yang terkait dengan entri materi yang dipilih yang telah dibalik dan baris terkait yang telah dibuat.
+5. Pada tab **Baris Jurnal**, verifikasikan koreksi. Anda dapat melihat daftar aktual asli yang terkait dengan entri bahan yang dipilih dan telah dibalik dan dikoreksi sesuai baris yang telah dibuat.
 
-6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Kemudian, di kotak dialog, pilih **OK**. Jika nilai tidak seperti yang diharapkan, pilih **Batal** untuk kembali ke **daftar Aktual**. Kemudian ulangi langkah 2 sampai 5.
+6. Jika nilai yang dikoreksi adalah seperti yang diharapkan, pilih **konfirmasikan**. Kemudian, Pilih **OK** di kotak dialog. Jika nilai tidak ditampilkan sebagaimana mestinya, pilih **Batalkan** untuk kembali ke daftar **Aktual**. kemudian ulangi langkah 2 hingga 5.
 
-7. Setelah Anda mengonfirmasi jurnal koreksi, kembali ke proyek atau proyek yang Anda perbarui untuk melihat perubahan Anda.
+7. Setelah Anda mengkonfirmasi jurnal koreksi, kembalilah ke proyek atau proyek yang Anda diperbarui, untuk melihat perubahan Anda.
 
-8. Pada halaman proyek, pada tab **Aktual**, tinjau **daftar Tampilan** Terkait Aktual. Entri asli dan entri yang dikoreksi didaftarkan.
+8. Di halaman proyek, pada tab **aktual**, Tinjau daftar **tampilan terkait aktual**. Entri asli dan entri yang dikoreksi didaftarkan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

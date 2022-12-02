@@ -26,7 +26,7 @@ ms.locfileid: "8684968"
 
 [!include [banner](../includes/banner.md)]
 
-Merencanakan dan memelihara jadwal proyek dapat menjadi rumit, sehingga manajer proyek harus menggunakan alat bantu yang membantu mereka mengelola tugas ini. Integrasi dengan Microsoft Project Client memberikan dukungan untuk membuka dan mengelola struktur rincian kerja proyek. Manajer proyek dapat mempublikasikan perubahan apa pun kembali ke struktur rincian pekerjaan proyek Dynamics 365 Finance.
+Merencanakan dan memelihara jadwal proyek dapat menjadi rumit, sehingga manajer proyek harus menggunakan alat bantu yang membantu mereka mengelola tugas ini. Integrasi dengan Microsoft Project Client memberikan dukungan untuk membuka dan mengelola struktur rincian kerja proyek. Manajer proyek dapat mempublikasikan perubahan apa pun kembali ke struktur rincian kerja proyek Dynamics 365 Finance.
 
 > [!NOTE]
 > Jika Anda menggunakan Pembaruan bulan Juli (versi 10.0.4), Anda harus menginstal KB 4054797 dan 4055884.
@@ -39,7 +39,7 @@ Untuk mengaktifkan integrasi dengan Microsoft Project Client, Add-in Microsoft D
 •   Klik **buka**, lalu klik **Jalankan** saat diminta.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Membuka dan mengedit struktur rincian kerja konsep yang ada di Microsoft Project Client
-Jika proyek di Dynamics 365 Finance sudah memiliki struktur perincian kerja yang dibuat, struktur perincian kerja dapat dibuka di aplikasi Microsoft Project Client jika struktur perincian kerja berada dalam status draf. Untuk membuka dari halaman **proyek**, klik tautan **buka di Microsoft Project** dari tab **Paket**. Halaman ini juga dapat dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik tab **buka** di **Microsoft Dynamics 365.** Pilih **entitas hukum** dan **proyek** dari daftar.
+Jika proyek di Dynamics 365 Finance sudah memiliki struktur rincian kerja yang dibuat, struktur rincian kerja dapat dibuka di aplikasi Microsoft Project Client jika struktur rincian kerja berada dalam status draf. Untuk membuka dari halaman **proyek**, klik tautan **buka di Microsoft Project** dari tab **Paket**. Halaman ini juga dapat dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik tab **buka** di **Microsoft Dynamics 365.** Pilih **entitas hukum** dan **proyek** dari daftar.
 
 > [!NOTE]
 > Jika Anda menggunakan Internet Explorer sebagai browser, Anda harus mengklik **Simpan** untuk membuka secara manual dari lokasi yang akan diunduh file-nya. Atau, klik **Simpan dan buka** untuk membuka file di Microsoft Project Client. Jangan Namai ulang file saat menyimpan.

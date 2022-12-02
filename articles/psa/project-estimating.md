@@ -1,6 +1,6 @@
 ---
 title: Penerimaan dan biaya proyek
-description: Artikel ini memberikan informasi tentang memperkirakan biaya dan pendapatan proyek.
+description: Artikel ini menyediakan informasi tentang memperkirakan biaya proyek dan pendapatan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar aplikasi Project mobile
-description: Artikel ini menyediakan informasi umum tentang aplikasi terkait waktu proyek untuk Microsoft Dynamics 365 Project Timesheet, Entri Waktu Proyek, dan Lembar waktu / Lembar Waktu saya yang tersedia di perangkat seluler.
+description: Artikel ini menyediakan informasi umum tentang aplikasi yang berhubungan dengan waktu proyek untuk Microsoft Dynamics 365 Project Timesheet, entri waktu proyek, dan lembar waktu saya/lembar waktu yang tersedia di perangkat bergerak.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,11 +29,11 @@ Tiga aplikasi mobile yang terkait dengan waktu proyek tersedia untuk Microsoft D
 
 ## <a name="project-timesheet-mobile-app"></a>Aplikasi seluler Project Timesheet
 
-Aplikasi seluler Dynamics 365 Project Timesheet memungkinkan pengguna memasukkan dan menyetujui lembar waktu untuk proyek di perangkat selularnya. Aplikasi seluler ini menampilkan fungsionalitas lembar waktu di area manajemen proyek dan akuntansi Dynamics 365 Finance. Ini membantu meningkatkan produktivitas dan efisiensi pengguna, dan juga membantu dengan entri dan persetujuan lembar waktu proyek secara tepat waktu.
+Aplikasi seluler Dynamics 365 Project Timesheet memungkinkan pengguna memasukkan dan menyetujui lembar waktu untuk proyek di perangkat selularnya. Aplikasi seluler ini akan memunculkan fungsi lembar waktu di area manajemen proyek dan akuntansi Dynamics 365 Finance. Ini membantu meningkatkan produktivitas dan efisiensi pengguna, dan juga membantu dengan entri dan persetujuan lembar waktu proyek secara tepat waktu.
 
 ## <a name="project-time-entry-workspace"></a>Ruang kerja entri waktu proyek
 
-Ruang kerja entri waktu proyek memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek. Namun, ini tidak memungkinkan pengguna mengirimkan atau menyetujui lembar waktu proyek. Ini hanya dapat digunakan untuk entri waktu. Ruang kerja seluler ini dimaksudkan untuk digunakan bersama dengan aplikasi seluler keuangan dan operasi.
+Ruang kerja entri waktu proyek memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek. Namun, ini tidak memungkinkan pengguna mengirimkan atau menyetujui lembar waktu proyek. Ini hanya dapat digunakan untuk entri waktu. Ruang kerja Mobile ini ditujukan untuk digunakan bersama dengan aplikasi mobile keuangan dan operasi.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Lembar waktu saya/lembar waktu untuk ulasan saya
 

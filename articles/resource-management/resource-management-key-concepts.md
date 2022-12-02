@@ -1,6 +1,6 @@
 ---
 title: Konsep kunci manajemen sumber daya
-description: Artikel ini menyediakan informasi tentang kemampuan manajemen sumber daya dalam Microsoft Dynamics Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang kemampuan manajemen sumber daya di Microsoft Dynamics Project operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

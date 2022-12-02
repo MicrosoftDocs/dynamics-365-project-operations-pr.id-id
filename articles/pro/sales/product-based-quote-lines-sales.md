@@ -1,6 +1,6 @@
 ---
 title: Sekilas baris kuotasi berbasis produk - lite
-description: Artikel ini memberikan informasi tentang bekerja dengan garis kutipan berbasis produk.
+description: Artikel ini menyediakan informasi tentang bekerja dengan baris kuotasi berbasis produk.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

@@ -43,7 +43,7 @@ Alat manajemen proyek dalam PSA akan membantu Anda menjalankan proyek dengan mud
 - Meramalkan kebutuhan sumber daya untuk proyek-proyek yang ada di alur.
 - Berhasil melaksanakan proyek dengan melacak perkembangan dan konsumsi biaya.
 
-Artikel berikut memberikan informasi yang akan membantu manajer proyek memperkirakan pekerjaan, memperkirakan biaya proyek, dan memperkirakan persyaratan sumber daya dengan menggunakan alat yang didukung di PSA:
+Artikel berikut menyediakan informasi yang akan membantu manajer proyek memperkirakan kerja, memperkirakan biaya proyek, dan memperkirakan persyaratan sumber daya dengan menggunakan alat yang didukung dalam PSA:
 
 - [Membuat jadwal](project-creating.md)
 - [Mengestimasi biaya dan pendapatan proyek](project-estimating.md)

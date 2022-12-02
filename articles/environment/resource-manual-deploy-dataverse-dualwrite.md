@@ -17,9 +17,9 @@ ms.locfileid: "9028568"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini menjelaskan cara menyebarkan Microsoft Dynamics 365 Project Operations Microsoft Dataverse secara manual sehingga mendukung penulisan ganda. Project Operations mendeteksi konfigurasi lingkungan dan menambahkan dukungan tambahan untuk penulisan ganda jika prasyarat terpenuhi.
+Artikel ini menjelaskan cara menyebarkan Microsoft Dynamics 365 Project Operations di Microsoft Dataverse secara manual sehingga mendukung penulisan ganda. Project Operations mendeteksi konfigurasi lingkungan dan menambahkan dukungan tambahan untuk penulisan ganda jika prasyarat terpenuhi.
 
-Selama penyebaran melalui Microsoft Dynamics Lifecycle Services (LCS), jika Anda telah mengikuti instruksi dalam artikel ini, Anda dapat melewati penyebaran Microsoft Power Platform integrasi (sebelumnya dikenal sebagai Common Data Service lingkungan).
+Selama penyebaran Microsoft Dynamics melalui Lifecycle Services (LCS), jika Anda telah mengikuti petunjuk di artikel ini, Anda dapat melewatkan penyebaran integrasi Microsoft Power Platform (sebelumnya dikenal sebagai lingkungan Common Data Service).
 
 Proses penyebaran Project Operations di Dataverse sehingga mendukung penulisan ganda memiliki empat langkah utama:
 
@@ -37,7 +37,7 @@ Untuk menyelesaikan prosedur ini, Anda harus masuk sebagai administrator.
 3. Pilih jenis lingkungan. Jika Anda mendaftar penawaran uji coba, pilih **Uji Coba (berbasis langganan)**.
 4. Konfirmasikan kawasan penyebaran.
 5. Aktifkan pilihan **Buat database untuk lingkungan ini**. 
-6. Konfirmasikan bahasa, lalu konfirmasikan bahwa mata uang tersebut cocok dengan mata uang untuk aplikasi keuangan dan operasi Anda.
+6. Konfirmasikan bahasa, lalu konfirmasikan bahwa mata uang sesuai dengan mata uang untuk aplikasi keuangan dan operasi Anda.
 7. Aktifkan pilihan **aplikasi Dynamics 365**, dan konfirmasikan bahwa bidang **Terapkan aplikasi ini secara otomatis** diatur ke **Tidak Ada**.
 8. Tambahkan grup keamanan, jika grup keamanan diperlukan.
 9. Pilih **Simpan** untuk membuat lingkungan.
@@ -62,4 +62,4 @@ Anda dapat menyelesaikan prosedur ini hanya jika Anda telah menyelesaikan prosed
 
 ## <a name="link-your-environments"></a><a name="link"></a>Tautkan lingkungan Anda
 
-Dataverse Setelah lingkungan disebarkan, Anda dapat menyiapkan tautan di aplikasi keuangan dan operasi Anda. Ikuti langkah-langkah dalam [Gunakan wizard penulisan ganda untuk menautkan lingkungan Anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Setelah lingkungan Dataverse disebarkan, Anda dapat mengkonfigurasi tautan di aplikasi keuangan dan operasi Anda. Ikuti langkah-langkah dalam [Gunakan wizard penulisan ganda untuk menautkan lingkungan Anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

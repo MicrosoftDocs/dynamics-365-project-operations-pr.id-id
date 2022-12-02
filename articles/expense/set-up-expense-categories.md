@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi kategori pengeluaran
-description: Artikel ini menyediakan informasi tentang cara menyiapkan kategori pengeluaran dan kategori bersama untuk laporan pengeluaran.
+description: Artikel ini menyediakan informasi tentang cara mengkonfigurasi kategori pengeluaran dan kategori bersama untuk laporan pengeluaran.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

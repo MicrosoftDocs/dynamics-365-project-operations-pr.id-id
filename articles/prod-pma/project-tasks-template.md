@@ -1,6 +1,6 @@
 ---
-title: Menyinkronkan tugas proyek langsung dari Project Service Automation ke keuangan dan operasi
-description: Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan tugas proyek langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+title: Mensinkronisasi tugas proyek secara langsung dari Project Service Automation ke keuangan dan operasi
+description: Artikel ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan tugas proyek secara langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028365"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Menyinkronkan tugas proyek langsung dari Project Service Automation ke keuangan dan operasi
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Mensinkronisasi tugas proyek secara langsung dari Project Service Automation ke keuangan dan operasi
 
 [!include[banner](../includes/banner.md)]
 
-Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan tugas proyek langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+Artikel ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan tugas proyek secara langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas proyek, kategori transaksi pengeluaran, estimasi jam, estimasi pengeluaran, dan penguncian fungsi tersedia dalam versi 8.0.
@@ -67,11 +67,11 @@ Sebelum sinkronisasi tugas proyek dapat terjadi, Anda harus mensinkronisasikan k
 
 ## <a name="power-query"></a>Power Query
 
-Anda harus menggunakan Microsoft Power Query untuk Excel untuk memfilter data jika kondisi ini terpenuhi:
+Anda harus menggunakan Microsoft Power Query untuk Excel untuk memfilter data jika ini terpenuhi:
 
 - Anda memiliki rekaman khusus sumber daya dalam tugas proyek.
 
-Jika Anda harus menggunakan Power Query, ikuti pedoman ini:
+Jika anda harus menggunakan Power Query, ikuti panduan ini:
 
 - Template tugas proyek (PSA untuk Fin dan Ops) memiliki filter default yang mengecualikan rekaman khusus sumber daya dari tugas proyek dengan mengatur filter pada **islinetask** ke **false**. Jika Anda membuat template sendiri, Anda harus menambahkan filter ini.
 

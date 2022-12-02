@@ -1,6 +1,6 @@
 ---
 title: Menyalin peluang-peluang berbasis proyek
-description: Artikel ini memberikan informasi tentang menyalin peluang berbasis proyek dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara menyalin peluang berbasis proyek di Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

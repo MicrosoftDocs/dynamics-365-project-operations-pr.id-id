@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan tarif tagihan tenaga kerja - lite
-description: Artikel ini menyediakan informasi tentang menyiapkan tarif penagihan tenaga kerja di Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara mengatur tarif tagihan tenaga kerja di Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

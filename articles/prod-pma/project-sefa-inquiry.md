@@ -1,6 +1,6 @@
 ---
 title: Jadwal pengeluaran dari penyelidikan dana pemberian Federal
-description: Artikel ini memberikan informasi tentang jadwal pengeluaran pertanyaan Penghargaan Federal.
+description: Artikel ini menyediakan informasi tentang jadwal pengeluaran dari penyelidikan dana pemberian Federal.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

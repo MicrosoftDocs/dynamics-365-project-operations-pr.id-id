@@ -1,6 +1,6 @@
 ---
 title: Integrasi manajemen pengeluaran
-description: Artikel ini menyediakan informasi tentang integrasi laporan pengeluaran dalam Operasi Proyek menggunakan penulisan ganda.
+description: Artikel menyediakan informasi tentang integrasi laporan pengeluaran di Project Operations menggunakan penulisan dua kali.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,19 +18,19 @@ ms.locfileid: "9527993"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini menyediakan informasi tentang integrasi laporan pengeluaran dalam penyebaran [biaya penuh Operasi](../expense/expense-overview.md) Proyek menggunakan penulisan ganda.
+Artikel ini menyediakan informasi tentang integrasi laporan pengeluaran dalam [penyebaran pengeluaran penuh](../expense/expense-overview.md) Project Operations menggunakan penulisan dua kali.
 
 ## <a name="expense-categories"></a>Kategori Pengeluaran
 
 Dalam penyebaran pengeluaran penuh, kategori pengeluaran dibuat dan dikelola di aplikasi keuangan dan operasi. Untuk membuat kategori pengeluaran baru, selesaikan langkah-langkah berikut:
 
-1. Di Microsoft Dataverse, buat **Kategori Transaksi**. Integrasi tulis ganda akan menyinkronkan kategori transaksi ini ke aplikasi keuangan dan operasi. Untuk informasi lebih lanjut, lihat [Mengkonfigurasi kategori proyek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [integrasi data konfigurasi serta pengaturan Project Operations](resource-dual-write-setup-integration.md). Sebagai hasil dari integrasi ini, sistem membuat empat catatan kategori bersama dalam aplikasi keuangan dan operasi.
+1. Di Microsoft Dataverse, buat **Kategori Transaksi**. Integrasi penulisan dua kali akan menyinkronkan kategori transaksi ini ke aplikasi keuangan dan operasi. Untuk informasi lebih lanjut, lihat [Mengkonfigurasi kategori proyek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [integrasi data konfigurasi serta pengaturan Project Operations](resource-dual-write-setup-integration.md). Hasil dari integrasi ini, sistem membuat empat rekaman kategori bersama dalam aplikasi keuangan dan operasi.
 2. Di Finance, buka **manajemen pengeluaran** > **Pengaturan** > **kategori bersama** dan pilih kategori bersama dengan dengan kelas transaksi **Pengeluaran**. Atur parameter **Dapat digunakan dalam Pengeluaran** ke **Benar** dan tentukan jenis pengeluaran yang akan digunakan.
 3. Menggunakan rekaman kategori bersama ini, buat kategori pengeluaran baru dengan masuk ke **manajemen pengeluaran** > **Konfigurasi** > **Kategori baru** dan memilih **Baru**. Ketika rekaman disimpan, penulisan ganda menggunakan peta tabel, **entitas ekspor kategori pengeluaran proyek integrasi Project Operations (msdyn\_expensecategories)** untuk mensinkronisasi rekaman ini ke Dataverse.
 
   ![Integrasi kategori pengeluaran.](./media/DW6ExpenseCategories.png)
 
-Kategori pengeluaran dalam aplikasi keuangan dan operasi adalah khusus untuk perusahaan atau badan hukum. Ada rekaman khusus entitas hukum yang terpisah dan terkait di Dataverse. Bila manajer proyek mengestimasi pengeluaran, mereka tidak dapat memilih kategori pengeluaran yang dibuat untuk proyek yang dimiliki oleh perusahaan lain daripada perusahaan yang memiliki proyek yang sedang mereka kerjakan. 
+Kategori pengeluaran dalam aplikasi keuangan dan operasi khusus perusahaan atau entitas hukum. Ada rekaman khusus entitas hukum yang terpisah dan terkait di Dataverse. Bila manajer proyek mengestimasi pengeluaran, mereka tidak dapat memilih kategori pengeluaran yang dibuat untuk proyek yang dimiliki oleh perusahaan lain daripada perusahaan yang memiliki proyek yang sedang mereka kerjakan. 
 
 ## <a name="expense-reports"></a>Laporan pengeluaran
 

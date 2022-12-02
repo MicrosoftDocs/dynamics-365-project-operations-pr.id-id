@@ -1,6 +1,6 @@
 ---
 title: Membatalkan entri waktu dan biaya yang disetujui sebelumnya
-description: Artikel ini memberikan informasi tentang cara membatalkan waktu dan transaksi pengeluaran proyek yang disetujui.
+description: artikel ini menyediakan informasi tentang cara membatalkan transaksi waktu dan biaya proyek yang disetujui.
 author: rumant
 ms.custom:
 - dyn365-projectservice

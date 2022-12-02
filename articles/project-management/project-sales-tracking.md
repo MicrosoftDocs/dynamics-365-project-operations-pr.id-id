@@ -1,6 +1,6 @@
 ---
 title: Pelacakan penjualan proyek
-description: Artikel ini memberikan informasi tentang bagaimana Operasi Proyek melacak kemajuan terhadap pendapatan tenaga kerja pada suatu proyek.
+description: Artikel ini ini berisi informasi tentang cara Project Operations melacak kemajuan terhadap pendapatan tenaga kerja pada proyek.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

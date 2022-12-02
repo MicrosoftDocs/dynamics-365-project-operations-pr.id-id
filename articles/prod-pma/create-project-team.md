@@ -1,6 +1,6 @@
 ---
 title: Buat tim proyek
-description: Artikel ini menyediakan informasi tentang cara membuat dan mengelola tim proyek.
+description: Artikel ini menyediakan informasi tentang cara membuat dan mengeluarkan tim proyek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

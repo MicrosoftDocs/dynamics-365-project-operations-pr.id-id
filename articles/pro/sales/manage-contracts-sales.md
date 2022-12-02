@@ -33,7 +33,7 @@ Daftar semua kontrak proyek dapat dilihat pada halaman daftar **kontrak**.
 Kontrak dapat dibuat atau dihapus dari halaman daftar ini atau halaman detail.
 
 > [!NOTE]
-> Kontrak yang memiliki proyek, tugas, perkiraan, jurnal, dan/atau aktual yang terkait dengannya tidak dapat dihapus. 
+> Kontrak yang memiliki proyek, tugas, estimasi, harian, dan/atau aktual yang terkait dengannya tidak dapat dihapus. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

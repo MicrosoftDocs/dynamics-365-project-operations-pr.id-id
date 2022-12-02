@@ -64,7 +64,7 @@ Jadwal proyek mengomunikasikan apa pekerjaan yang perlu dilakukan, sumber daya y
 ## <a name="task-types"></a>Jenis Tugas  
 Anda akan menggunakan jenis tugas berikut saat membuat struktur rincian kerja Anda:  
 
-| Tugas | Deskripsi | 
+| Tugas | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Node akar proyek**. | Ringkasan tugas tingkat atas untuk proyek. Semua tugas-tugas proyek lain yang dibuat di bawahnya. Nama tugas akar adalah nama proyek. Usaha, tanggal, dan durasi dari node akar didasarkan pada nilai-nilai pada hirarki di bawahnya. Anda tidak dapat mengedit properti node akar atau menghapus node akar. | 
 | **Ringkasan atau tugas wadah** | Ringkasan tugas adalah tugas yang memiliki sub-tugas di bawahnya. Ringkasan tugas tidak memiliki usaha kerja atau biaya sendiri. Usaha kerja dan biayanya adalah rollup sub tugas. Anda dapat mengubah nama tugas ringkasan, tetapi Anda tidak dapat mengubah usaha, tanggal, atau durasi, karena mereka secara otomatis dihitung. Menghapus tugas ringkasan menghapus tugas dan semua sub-tugas.|  

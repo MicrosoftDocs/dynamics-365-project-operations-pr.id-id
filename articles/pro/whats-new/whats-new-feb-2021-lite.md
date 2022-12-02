@@ -1,6 +1,6 @@
 ---
 title: Apa yang baru Februari 2021 - penyebaperan Project Operations lite
-description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia dalam rilis Februari 2021 penyebaran Project Operations lite.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Februari 2021 penyebaran Project Operations Lite.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914038"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Apa yang baru Februari 2021 - penyebaperan Project Operations lite
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
   - Lingkungan Project Operations untuk Dataverse versi 4.7.0.95
 

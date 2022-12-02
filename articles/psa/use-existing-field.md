@@ -1,6 +1,6 @@
 ---
 title: Gunakan bidang yang ada dalam Project Service sebagai dimensi harga
-description: Artikel ini menyediakan informasi tentang penggunaan bidang Project Service yang sudah ada sebagai dimensi harga.
+description: Artikel ini menyediakan informasi tentang penggunaan Project Service proyek yang ada sebagai dimensi harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

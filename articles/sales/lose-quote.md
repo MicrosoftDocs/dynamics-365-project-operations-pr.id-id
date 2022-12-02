@@ -1,6 +1,6 @@
 ---
 title: Menyalin kuotasi berbasis proyek
-description: Artikel ini menyediakan informasi tentang cara menyalin kutipan berbasis proyek dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara menyalin kuotasi berbasis proyek di Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

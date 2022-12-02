@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi pembuatan faktur otomatis
-description: Artikel ini menyediakan informasi tentang cara mengonfigurasi sistem untuk menghasilkan faktur secara otomatis.
+description: artikel ini menyediakan informasi tentang cara mengkonfigurasi sistem untuk menghasilkan faktur secara otomatis.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

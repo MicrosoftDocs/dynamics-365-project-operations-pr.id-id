@@ -1,6 +1,6 @@
 ---
 title: Mengelola daftar harga proyek pada kontrak proyek
-description: Artikel ini menyediakan informasi tentang mengelola daftar harga proyek pada kontrak proyek.
+description: artikel ini menyediakan informasi tentang mengelola daftar harga proyek pada kontrak proyek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

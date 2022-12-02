@@ -1,6 +1,6 @@
 ---
 title: Buat pemesanan proyek dari papan jadwal
-description: Artikel ini memberikan informasi tentang cara membuat pemesanan proyek dari papan jadwal.
+description: Artikel ini menyediakan informasi tentang cara membuat pemesanan proyek dari papan jadwal.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

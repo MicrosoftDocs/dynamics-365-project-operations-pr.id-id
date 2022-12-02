@@ -1,6 +1,6 @@
 ---
 title: Mengimpor dan mengelola transaksi kartu kredit
-description: Artikel ini menjelaskan cara mengimpor dan memelihara transaksi kartu kredit terkait pengeluaran. Transaksi ini dapat diatur sehingga mereka secara otomatis diimpor pada jadwal berulang, atau mereka dapat secara manual diimpor sebagaimana diperlukan.
+description: Artikel ini menjelaskan cara mengimpor dan mengelola transaksi kartu kredit terkait pengeluaran. Transaksi ini dapat diatur sehingga mereka secara otomatis diimpor pada jadwal berulang, atau mereka dapat secara manual diimpor sebagaimana diperlukan.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Memperbarui atribut plug-in dengan menyertakan dimensi harga baru
-description: Artikel ini menyediakan informasi tentang cara memperbarui atribut plug-in untuk dimensi harga.
+description: Artikel ini berisi informasi tentang cara memperbarui atribut plug-in untuk dimensi harga.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,13 +15,13 @@ ms.locfileid: "8920018"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Memperbarui atribut plug-in dengan menyertakan dimensi harga baru
 
-Artikel ini menyediakan informasi tentang cara memperbarui atribut plug-in untuk dimensi harga.
+Artikel ini berisi informasi tentang cara memperbarui atribut plug-in untuk dimensi harga.
 
 > [!NOTE]
-> Artikel ini hanya berlaku untuk fitur penawaran dan kontrak di Dynamics 365 Project Operations.
+> Artikel ini hanya berlaku untuk fitur kuotasi dan kontrak di Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum Anda menyelesaikan langkah-langkah dalam artikel ini, Anda harus telah menyelesaikan prosedur dalam artikel berikut:
+Sebelum Anda menyelesaikan langkah-langkah dalam artikel ini, Anda harus menyelesaikan prosedur dalam artikel berikut:
 
   - [Membuat bidang dan entitas kustom](create-custom-fields-entities-pricing-dimensions.md) 
   - [Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi ](add-custom-fields-price-setup-transactional-entities.md)

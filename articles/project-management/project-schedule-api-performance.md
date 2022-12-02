@@ -17,12 +17,12 @@ ms.locfileid: "8911186"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-persediaan, penyebaran Lite - faktur penawaran hingga proforma, Project for the Web_
 
-Artikel ini memberikan informasi tentang tolok ukur performa antarmuka pemrograman aplikasi (API) jadwal Proyek dan mengidentifikasi praktik terbaik untuk mengoptimalkan penggunaan.
+Artikel ini memberikan informasi tentang tolok ukur performa API (antarmuka pemrograman aplikasi) jadwal Proyek dan mengidentifikasi praktik terbaik untuk penggunaan optimal.
 
 ## <a name="project-scheduling-service"></a>Layanan Penjadwalan proyek
 Layanan Penjadwalan Proyek adalah layanan multi-penyewa yang berjalan di Microsoft Azure. ini didesain untuk meningkatkan interaksi dengan memberikan pengalaman cepat dan lancar saat pengguna mengerjakan proyek. Peningkatan ini dicapai dengan menerima permintaan perubahan, memprosesnya, dan kemudian dengan segera memberikan hasilnya. Layanan secara asinkron bertahan pada Dataverse dan tidak memblokir pengguna melakukan operasi lain.
 
-API jadwal Proyek bergantung pada Layanan Penjadwalan Proyek untuk menjalankan permintaan yang dijelaskan secara lebih rinci di bagian selanjutnya dari artikel ini.
+API jadwal proyek mengandalkan Layanan Penjadwalan Proyek untuk menjalankan permintaan yang dijelaskan secara lebih rinci di bagian berikutnya dari artikel ini.
 
 API jadwal proyek dirancang untuk berfungsi dengan entitas WBS (struktur rincian kerja) berikut:
 

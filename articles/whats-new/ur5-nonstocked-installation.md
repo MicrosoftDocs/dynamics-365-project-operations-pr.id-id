@@ -1,6 +1,6 @@
 ---
 title: Perbarui Project Operations di lingkungan Finance Anda
-description: Artikel ini menyediakan informasi tentang cara memperbarui Operasi Proyek di lingkungan Dynamics 365 Finance Anda.
+description: Artikel ini memberikan informasi tentang cara memperbarui Project Operations di lingkungan Dynamics 365 Finance Anda.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030039"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 
-Artikel ini menyediakan informasi tentang cara memperbarui Dynamics 365 Project Operations di lingkungan Dynamics 365 Finance Anda. Ada tiga prosedur yang diperlukan untuk memperbarui Project Operations untuk Pembaruan 5 (UR5):
+Artikel ini memberikan informasi tentang cara memperbarui Dynamics 365 Project Operations di lingkungan Dynamics 365 Finance Anda. Ada tiga prosedur yang diperlukan untuk memperbarui Project Operations untuk Pembaruan 5 (UR5):
 
 - [Impor paket ke proyek pratinjau](#import)
 - [Terapkan pembaruan](#apply)
@@ -119,7 +119,7 @@ Pembaruan berikut pada hak istimewa keamanan entitas diperlukan sebagai bagian d
 4. Pada halaman **versi peta tabel**, terapkan versi baru peta untuk masing-masing dari ketiga entitas.
 5. Pada halaman **Penulisan ganda**, pilih jalankan untuk memulai ulang peta.
 6. Dari daftar peta, pilih peta **buku besar (msdyn_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. 
-7. **Di bidang Master untuk sinkronisasi** awal, pilih **Aplikasi** keuangan dan operasi lalu pilih **Jalankan**.
+7. Di bidang **Induk untuk sinkronisasi awal**, pilih **aplikasi keuangan dan operasi**, lalu pilih **Jalankan**.
  
  ![Sinkronisasi peta buku besar.](media/DW6.png)
  

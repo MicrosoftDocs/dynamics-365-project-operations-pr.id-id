@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi dan menggunakan pembayaran vendor "bayar jika dibayar"
-description: Artikel ini menjelaskan cara membuat persyaratan bayar saat dibayar (PWP) sehingga Anda dapat melepaskan sebagian pembayaran vendor, berdasarkan pembayaran pelanggan.
+description: Artikel ini menjelaskan cara membuat persyaratan bayar-saat berbayar (PWP) sehingga anda dapat merilis sebagian pembayaran vendor, berdasarkan pembayaran pelanggan.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

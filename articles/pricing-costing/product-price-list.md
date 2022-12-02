@@ -1,6 +1,6 @@
 ---
 title: Daftar harga produk
-description: Artikel ini menyediakan informasi tentang daftar harga dalam harga katalog yang digunakan untuk kutipan dan kontrak proyek.
+description: Artikel ini menyediakan informasi tentang daftar harga dalam harga katalog yang digunakan untuk kuotasi dan kontrak proyek.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

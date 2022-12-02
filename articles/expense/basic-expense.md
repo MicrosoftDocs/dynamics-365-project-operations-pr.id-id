@@ -1,6 +1,6 @@
 ---
 title: Entri pengeluaran (sederhana)
-description: Artikel ini menyediakan informasi tentang cara bekerja dengan entri biaya dalam penyebaran lite.
+description: artikel ini menyediakan informasi tentang cara menangani entri pengeluaran di penyebaran sederhana.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

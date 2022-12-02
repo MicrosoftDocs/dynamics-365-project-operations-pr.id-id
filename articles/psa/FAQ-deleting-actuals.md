@@ -1,6 +1,6 @@
 ---
 title: Mengapa saya tidak dapat menghapus rekaman dari entitas Aktual?
-description: Artikel ini menyediakan informasi tentang mengapa Anda tidak dapat menghapus rekaman dari entitas aktual.
+description: artikel ini menyediakan informasi tentang alasan anda tidak dapat menghapus rekaman dari entitas aktual.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

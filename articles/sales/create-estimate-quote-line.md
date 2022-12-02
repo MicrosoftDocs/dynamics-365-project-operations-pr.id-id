@@ -1,6 +1,6 @@
 ---
 title: Membuat estimasi pada baris kuotasi
-description: Artikel ini menyediakan informasi tentang cara membuat perkiraan pada baris kutipan untuk proyek.
+description: Artikel ini menyediakan informasi tentang cara membuat perkiraan pada baris kuotasi untuk proyek.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

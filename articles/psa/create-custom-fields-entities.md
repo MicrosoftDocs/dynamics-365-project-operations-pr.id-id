@@ -1,6 +1,6 @@
 ---
 title: Membuat bidang dan entitas kustom
-description: Artikel ini menjelaskan cara membuat set opsi dan entitas dalam solusi Anda sendiri di Power Apps platform.
+description: Artikel ini menjelaskan cara membuat rangkaian pilihan dan entitas dalam solusi anda sendiri di platform Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926918"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Selesaikan langkah-langkah berikut saat anda ingin membuat rangkaian pilihan kustom atau entitas pada platform Power Apps.  
-Prosedur dalam artikel ini harus diselesaikan menggunakan antarmuka web Project Service Automation (PSA).
+Prosedur dalam artikel ini harus diselesaikan menggunakan antarmuka web dari Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Sebaiknya buat semua perubahan dimensi harga kustom dalam solusi terpisah. Praktik terbaik yang penting ini memberikan fleksibilitas di masa mendatang untuk memperbarui atau menghapus perubahan yang diperlukan, akan membantu penggunaan ulang pekerjaan Anda, dan membuatnya lebih mudah untuk memindahkan perubahan ini ke instans lainnya. Setelah anda membuat semua perubahan yang diperlukan, ekspor solusi ini sebagai **solusi terkelola** dan impor ke instans lain untuk menggunakan kembali konfigurasi harga anda.

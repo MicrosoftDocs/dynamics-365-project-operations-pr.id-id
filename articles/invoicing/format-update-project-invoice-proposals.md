@@ -1,6 +1,6 @@
 ---
 title: Mengelola proposal faktur proyek
-description: Artikel ini memberikan detail tentang pemrosesan faktur yang menghadap pelanggan dengan Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini memberikan rincian tentang memproses faktur yang dihadapi pelanggan dengan Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Proposal faktur proyek dapat diproses oleh departemen penagihan Anda bila dua ko
   - Manajer proyek mengkonfirmasikan faktur proforma dalam Microsoft Dataverse.
   - Semua transaksi penjualan belum tertagih waktu dan material yang tercakup dalam faktur proforma diposting menggunakan jurnal Integrasi Dynamics 365 **Project Operations**.
 
-Gunakan langkah-langkah berikut untuk menyelesaikan proposal faktur proyek dalam Dynamics 365 Finance.
+Gunakan langkah-langkah berikut untuk menyelesaikan proposal faktur proyek di Dynamics 365 Finance.
 
 1. Periksa informasi penagihan untuk transaksi waktu dan material, lalu posting jurnal **Integrasi Project Operations**.
 2. Periksa informasi penagihan untuk tahapan penagihan harga tetap.

@@ -1,6 +1,6 @@
 ---
 title: Metode biaya penyelesaian
-description: Artikel ini memberikan informasi tentang metode yang digunakan untuk menghitung biaya untuk menyelesaikan proyek.
+description: artikel ini berisi informasi tentang metode yang digunakan untuk menghitung biaya penyelesaian satu proyek.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920294"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini memberikan informasi tentang metode yang digunakan untuk menghitung biaya untuk menyelesaikan proyek. Ada beberapa metode yang dapat Anda gunakan untuk menghitung biaya penyelesaian satu proyek. 
+artikel ini berisi informasi tentang metode yang digunakan untuk menghitung biaya penyelesaian satu proyek. Ada beberapa metode yang dapat Anda gunakan untuk menghitung biaya penyelesaian satu proyek. 
 
 Saat Anda membuat perkiraan untuk proyek, di halaman **Buat perkiraan**, di bidang **Metode biaya penyelesaian**, Anda dapat memilih salah satu biaya berikut untuk menyelesaikan metode.
 

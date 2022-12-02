@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 32.5, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Project Service Automation Update Release 32.5, V3.
+description: Artikel ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 32.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/21/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8918776"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau berubah untuk Project Service Automation V3, Update Release 32.5. Versi ini memiliki nomor build V3.10.53.231 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juni 2021.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 32.5. Versi ini memiliki nomor build V3.10.53.231 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juni 2021.
 
 ## <a name="update-release-325"></a>Pembaruan rilis 32.5
 

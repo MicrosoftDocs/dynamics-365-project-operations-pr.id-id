@@ -1,6 +1,6 @@
 ---
 title: Mengonfirmasi faktur vendor proyek
-description: Artikel ini menjelaskan cara mengonfirmasi faktur vendor proyek di Microsoft Dynamics 365 Project Operations dan menjelaskan dampak keuangan dari konfirmasi faktur vendor proyek.
+description: Artikel ini menjelaskan cara mengonfirmasikan faktur vendor proyek di Microsoft Dynamics 365 Project Operations dan mend dampak keuangan dari mengonfirmasikan faktur vendor proyek.
 author: suvaidya
 ms.date: 8/25/2022
 ms.topic: article
@@ -17,20 +17,20 @@ ms.locfileid: "9475479"
 
 **Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
-**Ketika parameter Manual confirmation by PM is required** diaktifkan, faktur vendor yang dibuat memiliki Microsoft Dataverse **status Draf**. Faktur vendor yang dibuat dengan cara ini harus ditinjau dan dikonfirmasi secara manual. **Ketika parameter Manual confirmation by PM is required** dinonaktifkan, faktur vendor yang dibuat di Dataverse akan dikonfirmasi secara otomatis. Tidak diperlukan tindakan lebih lanjut. 
+Bila **diperlukan konfirmasi Manual oleh PM parameter** diaktifkan, faktur vendor yang dibuat di Microsoft Dataverse memiliki status **Draf**. Faktur vendor yang dibuat dengan cara ini harus ditinjau dan dikonfirmasi secara manual. Bila parameter **diperlukan konfirmasi Manual oleh PM** dinonaktifkan, faktur vendor yang dibuat di Dataverse otomatis dikonfirmasi. Tidak diperlukan tindakan lebih lanjut. 
 
-Setelah Anda memverifikasi semua baris pada faktur vendor, Dynamics 365 Project Operations pilih **Konfirmasi** untuk mengonfirmasi faktur vendor.
+Setelah Anda memverifikasi semua baris pada faktur vendor di Dynamics 365 Project Operations, pilih **Konfirmasikan** untuk mengkonfirmasikan faktur vendor.
 
 Ketika Anda memilih **Konfirmasi** pada faktur vendor, perilaku berikut terjadi:
 
-1. Status faktur vendor diperbarui menjadi **Dikonfirmasi**.
-1. Faktur vendor yang dikonfirmasi dan catatan terkaitnya menjadi baca-saja, dan tidak dapat diedit atau dihapus.
-1. Jika ada aktual biaya yang mereferensikan baris faktur vendor sebagai bagian dari proses pencocokan, semua aktual biaya yang terkait dengan baris faktur vendor yang dirujuk akan dibatalkan.
-1. Aktual biaya baru dibuat dengan menggunakan informasi pada baris faktur vendor.
-1. Anda tidak dapat lagi membuat jurnal koreksi, memproses penarikan kembali entri waktu, atau membatalkan persetujuan waktu, pengeluaran, atau aktual material asli yang dibalik.
-1. Dalam Dynamics 365 Finance, **nilai biaya** Proyek diperbarui dengan menggunakan jurnal integrasi Proyek, dan akun *integrasi Pengadaan dibalik* setelah jurnal integrasi Proyek diposting.
+1. Status faktur vendor diperbarui ke **Dikonfirmasi**.
+1. Faktur vendor yang dikonfirmasi dan rekaman terkaitnya menjadi hanya baca dan tidak dapat diedit atau dihapus.
+1. Jika aktual biaya apa pun mereferensikan baris faktur vendor sebagai bagian dari proses pencocokan, semua aktual biaya yang terkait dengan baris faktur vendor referensi akan dibalik.
+1. Aktual biaya baru dibuat menggunakan informasi pada baris faktur vendor.
+1. Anda tidak dapat lagi membuat jurnal koreksi, memproses penarikan entri waktu, dan membatalkan persetujuan waktu, pengeluaran, atau aktual bahan asli yang telah dibalik.
+1. Di Dynamics 365 Finance, nilai **biaya proyek** diperbarui menggunakan jurnal integrasi Proyek, dan akun integrasi Pengadaan akan *dibalik* setelah jurnal integrasi Proyek diposting.
 
 > [!NOTE]
-> Jika ada baris pada faktur vendor yang memiliki status verifikasi selain **Selesai**, faktur vendor tidak dapat dikonfirmasi.
+> Jika baris di faktur vendor memiliki status verifikasi selain **Selesai**, faktur vendor tidak dapat dikonfirmasi.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

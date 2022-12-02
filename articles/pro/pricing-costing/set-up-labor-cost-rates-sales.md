@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan tarif biaya tenaga kerja - lite
-description: Artikel ini menyediakan informasi tentang cara menyiapkan tarif biaya untuk tenaga kerja di Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara mengatur tarif untuk biaya tenaga kerja di Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

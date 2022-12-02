@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan November 2020 - penyebaran Project Operations Lite - menangani faktur proforma
-description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia dalam rilis november 2020 penyebaran Project Operations Lite - kesepakatan untuk faktur proforma.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis November 2020 penyebaran Project Operations Lite -menangani faktur proforma.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

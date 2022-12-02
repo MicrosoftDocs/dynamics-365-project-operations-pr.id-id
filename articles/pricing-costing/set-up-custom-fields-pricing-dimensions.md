@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan bidang kustom sebagai dimensi harga
-description: Artikel ini menyediakan informasi tentang cara menyiapkan dimensi harga menggunakan bidang kustom.
+description: Artikel ini menyediakan informasi tentang bagaimana mengkonfigurasi dimensi harga menggunakan bidang kustom .
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917580"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Sebelum Anda mulai, artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang dan entitas](create-custom-fields-entities-pricing-dimensions.md) kustom dan [Menambahkan bidang kustom yang diperlukan ke pengaturan harga dan entitas transaksional](add-custom-fields-price-setup-transactional-entities.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
+Sebelum memulai, artikel mengasumsikan bahwa anda telah menyelesaikan prosedur dalam artikel, [membuat bidang kustom dan entitas](create-custom-fields-entities-pricing-dimensions.md), serta [menambahkan bidang kustom yang diperlukan untuk penyiapan harga dan entitas transaksi](add-custom-fields-price-setup-transactional-entities.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
 
-Artikel ini menyediakan informasi tentang menyiapkan dimensi harga kustom. Pada halaman **parameter**, tab **Dimensi harga berbasis jumlah** menampilkan entitas dimensi harga. Secara default, ada dua baris di kisi pada tab ini:
+Artikel ini menyediakan informasi tentang cara mengkonfigurasi dimensi harga kustom. Pada halaman **parameter**, tab **Dimensi harga berbasis jumlah** menampilkan entitas dimensi harga. Secara default, ada dua baris di kisi pada tab ini:
 
 - **msdyn_resourcecategory** (Peran)
 - **msdyn_OrganizationalUnit** (unit organisasi)

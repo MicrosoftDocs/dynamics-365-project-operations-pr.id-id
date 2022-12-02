@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Desember 2020 - Project Operations untuk skenario berbasis stok/produksi
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Desember 2020 Operasi Proyek untuk skenario berbasis stok/produksi.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Desember 2020 penyebaran Project Operations Lite untuk skenario berbasis produksi/stok.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911370"
 
 _Berlaku untuk: Project Operations untuk skenario berbasis stok/produksi_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
-  - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.15
+  - Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.15
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
@@ -139,7 +139,7 @@ Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operat
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan peraturan untuk Dynamics 365 Finance, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk Dynamics 365 Finance, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

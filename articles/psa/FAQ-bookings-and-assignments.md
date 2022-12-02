@@ -1,6 +1,6 @@
 ---
 title: Bagaimana keterkaitan antara pemesanan sumber daya dan penugasan tugas
-description: Artikel ini memberikan informasi tentang cara mengelola sumber daya bernama, pemesanan sumber daya, dan penetapan tugas serta bagaimana sumber daya tersebut berhubungan satu sama lain.
+description: Artikel ini menyediakan informasi tentang cara mengelola sumber daya bernama, pemesanan sumber daya, serta penetapan tugas dan bagaimana keterkaitannya satu sama lain.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

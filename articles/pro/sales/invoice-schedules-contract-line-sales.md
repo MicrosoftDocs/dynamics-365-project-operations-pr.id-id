@@ -1,6 +1,6 @@
 ---
 title: Buat jadwal faktur di baris kontrak berbasis proyek - lite
-description: Artikel ini menyediakan informasi tentang membuat jadwal dan pencapaian faktur.
+description: Artikel ini menyediakan informasi tentang pembuatan jadwal dan tonggak pencapaian faktur.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

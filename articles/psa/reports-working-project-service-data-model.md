@@ -31,7 +31,7 @@ ms.locfileid: "8926688"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation memperluas entitas aplikasi lain dan memperkenalkan entitas sendiri di model data Common Data Service. Artikel ini menjelaskan beberapa entitas yang akan Anda temui dalam skenario pelaporan PSA yang khas.
+Dynamics 365 Project Service Automation memperluas entitas aplikasi lain dan memperkenalkan entitas sendiri di model data Common Data Service. Artikel ini menjelaskan beberapa entitas yang akan anda temui dalam skenario pelaporan PSA biasa.
 
 ## <a name="reporting-on-opportunities"></a>Melaporkan peluang
 

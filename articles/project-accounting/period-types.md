@@ -1,6 +1,6 @@
 ---
 title: Jenis periode
-description: Artikel ini menyediakan informasi tentang cara menyiapkan jenis periode untuk estimasi pendapatan.
+description: Artikel ini berisi informasi tentang cara mengonfigurasi jenis periode untuk estimasi pendapatan.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930966"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Jenis periode menentukan seberapa sering pendapatan pada satu proyek diperkirakan. Artikel ini menyediakan informasi tentang cara menyiapkan jenis periode untuk estimasi pendapatan. 
+Jenis periode menentukan seberapa sering pendapatan pada satu proyek diperkirakan. Artikel ini berisi informasi tentang cara mengonfigurasi jenis periode untuk estimasi pendapatan. 
 
 ## <a name="create-and-work-with-period-types"></a>Membuat dan menggunakan jenis periode
 Untuk membuat dan menggunakan jenis periode, lakukan langkah-langkah berikut:
 
-1. Di lingkungan Dynamics 365 Finance Anda, buka **Jenis Periode Perkiraan** > **Penyiapan** > **manajemen proyek dan akuntansi** > **·**.
+1. Di lingkungan Dynamics 365 Finance Anda, buka **Manajemen dan akuntansi proyek** > **Pengaturan** > **Estimasi** > **Jenis periode**.
 2. Pilih **Baru** untuk membuat jenis perioden baru. Masukkan nama dan deskripsi.
 3. Di bidang **Frekuensi**, pilih nilai:
 

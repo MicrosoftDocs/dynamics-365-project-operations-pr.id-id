@@ -1,6 +1,6 @@
 ---
 title: Mengelola faktur proyek proforma
-description: Artikel ini menyediakan informasi tentang cara bekerja dengan faktur proyek proforma.
+description: Artikel ini memberikan informasi tentang bagaimana bekerja dengan faktur proyek proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Estimasi keuangan untuk bahan pada proyek
-description: Artikel ini memberikan informasi tentang mendefinisikan atau memperkirakan materi berbasis proyek.
+description: Artikel ini memberikan informasi tentang mendefinisikan atau memperkirakan bahan berbasis proyek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925702"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Dynamics 365 Project Operations memungkinkan manajer proyek menentukan biaya bahan berbasis proyek untuk setiap proyek atau tugas. Setiap estimasi bahan dapat dikaitkan dengan tugas proyek tertentu. Bahan yang digunakan pada proyek dapat berupa produk atau produk tertulis dari katalog produk. Untuk setiap kombinasi produk dan unit, harga dapat ditentukan dalam daftar harga proyek untuk penjualan dan daftar harga proyek untuk biaya.  
+Dynamics 365 Project Operations memungkinkan manajer proyek menentukan biaya bahan berbasis proyek untuk setiap proyek atau tugas. Setiap estimasi bahan dapat dikaitkan dengan tugas proyek tertentu. Bahan yang digunakan pada proyek dapat ditulis pada produk atau produk dari katalog produk. Untuk setiap kombinasi produk dan unit, harga dapat ditentukan dalam daftar harga proyek untuk penjualan dan daftar harga proyek untuk biaya.  
 
 Lengkapi langkah-langkah berikut untuk melihat, menambah, atau menghapus estimasi bahan proyek.
 

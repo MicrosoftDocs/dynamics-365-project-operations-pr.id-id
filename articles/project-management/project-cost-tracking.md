@@ -1,6 +1,6 @@
 ---
 title: Pelacakan biaya proyek
-description: Artikel ini memberikan informasi tentang bagaimana Operasi Proyek melacak kemajuan terhadap biaya tenaga kerja dan pengeluaran untuk sebuah proyek.
+description: Artikel ini berisi informasi tentang cara Project Operations melacak kemajuan terhadap biaya tenaga kerja dan pengeluaran untuk proyek.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

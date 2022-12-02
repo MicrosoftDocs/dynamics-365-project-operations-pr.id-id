@@ -1,6 +1,6 @@
 ---
 title: Panduan manajemen Sumber Daya
-description: Artikel ini menyediakan link ke informasi tentang manajemen sumber daya di Project Service Automation
+description: Artikel ini memberikan tautan informasi tentang manajemen sumber daya dalam Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910778"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
+Tautan PDF yang sebelumnya di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Laman beranda Manajemen Sumber Daya](../resource-management-home-page.md)
 - [Konsep kunci](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah 
 - [Tanya-Jawab Manajemen sumber daya](../resource-management-faq.md)
 
 > [!NOTE]
-> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus di pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

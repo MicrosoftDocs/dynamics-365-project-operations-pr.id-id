@@ -1,6 +1,6 @@
 ---
 title: Transaksi bisnis di Project Operations
-description: Artikel ini memberikan gambaran umum tentang konsep transaksi bisnis di Microsoft Dynamics 365 Project Operations.
+description: Artikel ini memberikan ikhtisar konsep transaksi bisnis di Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -24,7 +24,7 @@ ms.locfileid: "8923284"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-stok, penyebaran Lite -menangani faktur proforma_
 
-Di Microsoft Dynamics 365 Project Operations, *transaksi* bisnis adalah konsep abstrak yang tidak diwakili oleh entitas mana pun. Namun, beberapa bidang dan proses umum pada entitas dirancang untuk menggunakan konsep transaksi bisnis. Entitas berikut ini menggunakan abstraksi ini:
+Di Microsoft Dynamics 365 Project Operations, *transaksi bisnis* adalah konsep abstrak yang tidak diwakili oleh entitas. Namun, beberapa bidang dan proses umum pada entitas dirancang untuk menggunakan konsep transaksi bisnis. Entitas berikut ini menggunakan abstraksi ini:
 
 - Rincian Baris Kuotasi
 - Rincian Baris Kontrak
@@ -32,9 +32,9 @@ Di Microsoft Dynamics 365 Project Operations, *transaksi* bisnis adalah konsep a
 - Lini Jurnal
 - Aktual
 
-Dari entitas ini, detail garis Kutipan, detail baris Kontrak, dan garis Perkiraan dipetakan *ke fase* estimasi dalam siklus hidup proyek. Baris Jurnal dan entitas Aktual dipetakan *ke fase* eksekusi dalam siklus hidup proyek.
+Dari entitas ini, rincian baris kuotasi, rincian baris kontrak, dan baris estimasi, dipetakan ke *fase estimasi* dalam siklus hidup proyek. Baris jurnal dan entitas aktual dipetakan ke *fase eksekusi* dalam siklus hidup proyek.
 
-Operasi Proyek memperlakukan catatan di kelima entitas ini sebagai transaksi bisnis. Satu-satunya perbedaan adalah bahwa catatan dalam entitas yang dipetakan ke fase estimasi (Detail garis kutipan, Detail garis kontrak, dan garis Perkiraan) dianggap sebagai *perkiraan* keuangan, sedangkan catatan dalam entitas yang dipetakan ke fase eksekusi (Garis jurnal dan Aktual) dianggap sebagai *fakta* keuangan yang telah terjadi.
+Project Operations memperlakukan rekaman dalam kelima entitas ini sebagai transaksi bisnis. Satu-satunya perbedaan adalah bahwa rekaman dalam entitas yang dipetakan ke fase estimasi (Detail Baris kuotasi, Detail baris kontrak, Dan Baris Estimasi) dianggap sebagai *perkiraan keuangan*, sedangkan rekaman dalam entitas yang dipetakan ke fase eksekusi (lini jurnal dan Aktual) dianggap sebagai *fakta keuangan* yang telah terjadi.
 
 Untuk informasi lebih lanjut, Lihat [taksiran](../project-management/estimating-projects-overview.md) dan [aktual](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Konsep berikut ini unik untuk konsep transaksi bisnis:
 
 ### <a name="transaction-type"></a>Jenis Transaksi
 
-Jenis transaksi menunjukkan waktu dan konteks dampak keuangan pada suatu proyek. Ini didefinisikan oleh rangkaian pilihan yang memiliki nilai yang didukung berikut dalam Operasi Proyek:
+Jenis transaksi menunjukkan waktu dan konteks dampak keuangan pada suatu proyek. Ini didefinisikan oleh rangkaian pilihan yang memiliki nilai yang didukung berikut di Project Operations:
 
 - Biaya
 - Kontrak proyek
@@ -60,7 +60,7 @@ Jenis transaksi menunjukkan waktu dan konteks dampak keuangan pada suatu proyek.
 
 ### <a name="transaction-class"></a>Kelas Transaksi
 
-Kelas transaksi mewakili jenis biaya yang berbeda yang dikeluarkan pada proyek. Ini didefinisikan oleh rangkaian pilihan yang memiliki nilai yang didukung berikut dalam Operasi Proyek:
+Kelas transaksi mewakili jenis biaya yang berbeda yang dikeluarkan pada proyek. Ini didefinisikan oleh rangkaian pilihan yang memiliki nilai yang didukung berikut di Project Operations:
 
 - Waktu
 - Pengeluaran
@@ -70,16 +70,16 @@ Kelas transaksi mewakili jenis biaya yang berbeda yang dikeluarkan pada proyek. 
 - Pajak
 
 > [!NOTE]
-> Nilai **Milestone** biasanya digunakan oleh logika bisnis untuk penagihan harga tetap di Project Operations.
+> Nilai **Tonggak waktu** biasanya digunakan oleh logika bisnis untuk penagihan harga tetap di Project Operations.
 
 ### <a name="transaction-origin"></a>Asal transaksi
 
-Asal transaksi adalah entitas yang menyimpan asal setiap transaksi bisnis untuk membantu pelaporan dan keterlacakan. Saat pelaksanaan proyek dimulai, setiap transaksi bisnis menciptakan transaksi bisnis lain yang pada gilirannya akan membuat transaksi bisnis lain, dan seterusnya.
+Asal transaksi adalah entitas yang menyimpan asal setiap transaksi bisnis untuk membantu pelaporan dan keterlacakan. Saat eksekusi proyek dimulai, setiap transaksi bisnis membuat transaksi bisnis lain yang pada gilirannya akan membuat transaksi bisnis lainnya, dan seterusnya.
 
 ### <a name="transaction-connection"></a>Koneksi Transaksi
 
-Koneksi transaksi adalah entitas yang menyimpan hubungan antara dua transaksi bisnis serupa, seperti biaya dan aktual penjualan terkait atau pembalikan transaksi yang dipicu oleh aktivitas penagihan seperti konfirmasi faktur atau koreksi faktur.
+Koneksi transaksi adalah entitas yang menyimpan relasi antara dua transaksi bisnis serupa, seperti aktual biaya dan penjualan yang terkait, atau pembalikan transaksi yang dipicu oleh aktivitas penagihan seperti konfirmasi faktur atau koreksi faktur.
 
-Bersama-sama, entitas asal Transaksi dan koneksi Transaksi membantu Anda melacak Relasi antara transaksi bisnis dan tindakan yang menyebabkan transaksi bisnis tertentu dibuat.
+bersama-sama, asal transaksi dan entitas koneksi transaksi membantu anda melacak Relasi antara transaksi bisnis dan tindakan yang menyebabkan transaksi bisnis tertentu dibuat.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,7 +44,7 @@ Beberapa kontrak proyek menentukan bahwa beberapa pihak berbagi tanggung jawab u
 -   Sebuah proyek jalan didanai oleh dua pemerintah kota.
 -   Sebuah proyek jembatan didanai oleh hibah pemerintah dan perusahaan swasta.
 
-Dalam Dynamics 365 Finance, Anda dapat membagi penagihan untuk satu transaksi atau seluruh proyek di antara beberapa pelanggan, hibah, atau organisasi. 
+Di Dynamics 365 Finance, Anda dapat membagi penagihan untuk satu transaksi atau seluruh proyek di antara beberapa pelanggan, hibah, atau organisasi. 
 
 Dalam proyek yang memiliki beberapa penyandang dana, semua pihak yang berkontribusi pada pendanaan proyek pendanaan tingkat lanjut disebut sumber pendanaan. Setelah pelanggan, organisasi, atau hibah didefinisikan sebagai sumber pendanaan, ia dapat ditetapkan ke satu atau beberapa aturan pendanaan. Aturan pendanaan berisi kriteria yang menentukan cara biaya dialokasikan ke berbagai sumber pendanaan untuk proyek. 
 

@@ -1,6 +1,6 @@
 ---
 title: Apa yang baru di bulan Mei 2022 - penyebaran Project Operations lite
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Mei 2022 penyebaran Microsoft Dynamics 365 Project Operations lite.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam penyebaran Microsoft Dynamics 365 Project Operations lite yang rilis pada Mei 2022.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
@@ -20,14 +20,14 @@ _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Artikel ini berlaku untuk komponen dan versi Microsoft Dynamics 365 Project Operations berikut ini:
 
-- Operasi Proyek dalam Dataverse versi lingkungan 4.42.0.70
+- Project Operations dalam lingkungan Dataverse versi 4.42.0.70
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
 | Area fitur | Nomor Referensi | Pembaruan kualitas |
 | --- | --- | --- |
-| Manajemen sumber daya | 2634019 | Pesan kesalahan yang ditingkatkan untuk validasi bisnis saat menambahkan anggota tim generik sebagai sumber daya. |
-| Perencanaan dan pelacakan proyek | 2648515 | Pembaruan terbatas dari **pemilik**, **status**, dan **status** dalam menjadwalkan entitas. |
-| Penagihan dan harga | 2653167 | Pemisah **desimal kisi Perkiraan** harus mengikuti pengaturan format di **Opsi** Pribadi. |
-| Penagihan dan harga| 2662251 | Nilai di **bidang Unit** yang dikoreksi dan **grup** Unit default saat membuat rekaman dalam perkiraan material. |
-| Penagihan dan harga| 2571408 | Aktual penjualan yang belum ditagih dicap dengan ID faktur proforma saat membuat faktur draf. |
+| Manajemen sumber daya | 2634019 | Pesan kesalahan yang disempurnakan untuk validasi bisnis saat menambahkan anggota tim generik sebagai sumber daya. |
+| Perencanaan dan pelacakan proyek | 2648515 | Membatasi Pembaruan **ownerid**, **status**, dan **status** dalam penjadwalan entitas. |
+| Penagihan dan harga | 2653167 | Pemisah desimal kisi **estimasi** harus mengikuti pengaturan format di **Opsi Pribadi**. |
+| Penagihan dan harga| 2662251 | Nilai dalam bidang **Unit koreksi** dan **grup Unit** di-default ketika membuat rekaman dalam estimasi bahan. |
+| Penagihan dan harga| 2571408 | Aktual penjualan belum tertagih dicap dengan ID faktur proforma saat membuat draf faktur. |

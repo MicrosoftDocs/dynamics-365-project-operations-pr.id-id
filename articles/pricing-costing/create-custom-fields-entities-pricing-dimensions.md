@@ -1,6 +1,6 @@
 ---
 title: Membuat entitas dan bidang kustom sebagai dimensi harga
-description: Artikel ini menyediakan informasi tentang cara membuat kumpulan atau entitas opsi kustom.
+description: Artikel ini menyediakan informasi tentang cara membuat rangkaian pilihan kustom atau entitas.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Membuat dan menerapkan persyaratan retensi pembayaran vendor
-description: Artikel ini memberikan informasi tentang cara menyiapkan dan mempertahankan persyaratan retensi untuk pembayaran vendor.
+description: artikel ini menyediakan informasi tentang cara mengkonfigurasi dan memelihara persyaratan retensi untuk pembayaran vendor.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

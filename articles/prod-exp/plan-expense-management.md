@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi Manajemen Pengeluaran
-description: Artikel ini menjelaskan pertimbangan dan keputusan yang harus Anda buat selama proses perencanaan sebelum Anda mengonfigurasi manajemen Pengeluaran di Microsoft Dynamics 365 Keuangan.
+description: Artikel ini menjelaskan pertimbangan dan keputusan yang harus Anda buat selama proses perencanaan sebelum mengkonfigurasi manajemen pengeluaran di Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934002"
 ---
 # <a name="configure-expense-management"></a>Konfigurasi Manajemen Pengeluaran
 
-Artikel ini menjelaskan pertimbangan dan keputusan yang harus Anda buat selama proses perencanaan sebelum Anda mengonfigurasi Manajemen biaya. Di manajemen pengeluaran, Anda dapat menyimpan informasi tentang metode pembayaran, permintaan perjalanan, laporan pengeluaran, kebijakan, dan sebagainya.
+Artikel ini menjelaskan pertimbangan dan keputusan yang harus Anda buat selama proses perencanaan sebelum mengkonfigurasi manajemen pengeluaran. Di manajemen pengeluaran, Anda dapat menyimpan informasi tentang metode pembayaran, permintaan perjalanan, laporan pengeluaran, kebijakan, dan sebagainya.
 
 Karena banyak keputusan yang Anda buat saat merencanakan konfigurasi untuk manajemen pengeluaran berdasarkan hierarki dan struktur keuangan organisasi Anda, Anda harus merujuk ke dokumen perencanaan untuk area tersebut.
 

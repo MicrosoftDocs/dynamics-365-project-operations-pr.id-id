@@ -1,6 +1,6 @@
 ---
 title: Edit pemesanan
-description: Artikel ini memberikan informasi tentang cara memperbarui dan membuat perubahan pada pemesanan.
+description: artikel ini memberikan informasi tentang cara memperbarui dan membuat perubahan pada pemesanan.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8915234"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 
-Bila perubahan terjadi pada proyek yang mengharuskan Anda memperbarui pemesanan yang ada, ada beberapa cara untuk membuat perubahan. Artikel ini menguraikan cara memperbarui dan membuat perubahan pada pemesanan.
+Bila perubahan terjadi pada proyek yang mengharuskan Anda memperbarui pemesanan yang ada, ada beberapa cara untuk membuat perubahan. artikel ini menguraikan tentang cara memperbarui dan membuat perubahan pada pemesanan.
 
 ## <a name="resource-reconciliation"></a>Rekonsiliasi sumber daya
 

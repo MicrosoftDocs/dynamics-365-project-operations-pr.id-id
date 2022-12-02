@@ -1,6 +1,6 @@
 ---
 title: Metode alokasi Pemesanan di Project Service Automation
-description: Artikel ini memberikan informasi tentang berbagai cara Anda dapat memesan alokasi.
+description: Artikel ini menyediakan informasi tentang berbagai cara untuk memesan alokasi.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929172"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. Artikel ini menjelaskan cara kerja setiap metode, dan metode mana yang dapat menyebabkan sumber daya pemesanan yang berlebihan.
+Apakah Anda menambahkan anggota tim secara langsung ke proyek pada tab **tim**, atau memesan sumber daya proyek atau persyaratan dari papan jadwal, ada beberapa metode alokasi Pemesanan yang berbeda yang dapat Anda gunakan. artikel ini menjelaskan cara masing-masing metode bekerja, dan metode yang dapat menyebabkan pemesanan berlebih sumber daya.
 
 ## <a name="full-capacity"></a>Kapasitas Penuh 
 Metode Kapasitas Penuh memesan kapasitas penuh sumber daya untuk tanggal dari dan hingga yang ditentukan. Misalnya, jika sumber daya memiliki kalender yang diatur ke 8 jam setiap hari kerja, 5 hari dalam seminggu, pengaturan tanggal mulai dan berakhir yang mencakup 5 hari kerja akan memesan sumber daya untuk 40 jam. Pemesanan dilakukan tanpa memperhatikan kapasitas tersisa sumber daya. Jika sumber daya sudah tercatat selama periode tersebut pada proyek lain, 40 jam dipesan sebagai tambahan jam, berpotensi menyebabkan kelebihan pemesanan.

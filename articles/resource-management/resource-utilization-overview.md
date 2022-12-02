@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar pemanfaatan sumber daya
-description: Artikel ini menyediakan informasi tentang pemanfaatan sumber daya dalam Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang tampilan pemanfaatan sumber daya di Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

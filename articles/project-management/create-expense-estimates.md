@@ -1,6 +1,6 @@
 ---
 title: Estimasi keuangan untuk pengeluaran pada proyek
-description: Artikel ini memberikan informasi tentang mendefinisikan atau memperkirakan pengeluaran berbasis proyek.
+description: Artikel ini memberikan informasi tentang mendefinisikan atau memperkirakan biaya berdasarkan proyek.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

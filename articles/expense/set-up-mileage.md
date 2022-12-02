@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi jarak tempuh dengan menggunakan tingkat tarif jarak tempuh
-description: Artikel ini menyediakan informasi tentang tarif jarak tempuh dan tingkatan tarif jarak tempuh.
+description: Artikel ini memberikan informasi tentang tarif jarak tempuh dan tingkat tarif jarak tempuh.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Fitur **Perhitungan jumlah jarak tempuh untuk beberapa tingkat jarak tempuh deng
 
 Setelah Anda mengaktifkan fitur, atur ulang tingkat jarak tempuh untuk dengan benar mencerminkan nilai bidang **Kuantitas**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktifkan perhitungan total Mileage dengan fitur tahun fiskal
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktifkan fitur Penghitungan total jarak tempuh berdasarkan tahun fiskal
 
-Fitur **Perhitungan total Mileage berdasarkan tahun fiskal** memungkinkan pengaturan baru dalam parameter manajemen Pengeluaran yang melakukan perhitungan total jarak tempuh dengan tahun fiskal, bukan tahun kalender. Selesaikan langkah-langkah berikut untuk mengaktifkan fitur ini.
+fitur **Penghitungan total jarak tempuh berdasarkan tahun fiskal** ini mengaktifkan pengaturan baru dalam parameter manajemen Pengeluaran yang melakukan perhitungan total jarak tempuh tahun fiskal dan bukan tahun kalender. Selesaikan langkah-langkah berikut untuk mengaktifkan fitur ini.
 
 1. Buka **Ruang kerja** > **Manajemen Fitur**.
-1. Dalam daftar, temukan dan pilih **Perhitungan total mileage menurut tahun fiskal**, lalu pilih **Aktifkan sekarang**.
-1. Buka **Pengaturan** > **Manajemen** > **Pengeluaran Parameter** > **manajemen pengeluaran umum**.
-1. **Pada halaman Parameter** manajemen biaya, temukan dan aktifkan **Gunakan tahun fiskal untuk total jarak tempuh**.
+1. Dalam daftar, cari dan pilih **perhitungan total jarak tempuh menurut tahun fiskal**, lalu pilih **Aktifkan sekarang**.
+1. Buka **manajemen Pengeluaran** > **Konfigurasi** > **Umum** > **parameter Management Pengeluaran**.
+1. Pada halaman **Parameter manajemen pengeluaran**, cari dan aktifkan **Gunakan tahun fiskal untuk total jarak tempuh**.
 
-Setelah Anda mengaktifkan **Gunakan tahun fiskal untuk total** jarak tempuh, total jarak tempuh dihitung berdasarkan tahun fiskal.
+Setelah Anda mengaktifkan **Penggunaan tahun fiskal untuk total jarak tempuh**, total jarak tempuh dihitung dengan tahun fiskal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

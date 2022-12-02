@@ -1,6 +1,6 @@
 ---
 title: Menyalin kontrak proyek
-description: Artikel ini menyediakan informasi tentang menyalin kontrak proyek di Operasi Proyek.
+description: artikel ini menyediakan informasi tentang menyalin kontrak proyek di Project operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

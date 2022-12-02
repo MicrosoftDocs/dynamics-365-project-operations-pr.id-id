@@ -1,6 +1,6 @@
 ---
 title: Pengaturan kontrak proyek - lite
-description: Artikel ini menyediakan informasi tentang bidang yang memengaruhi garis kontrak dan informasi tentang kontrak yang diringkas di semua item baris.
+description: Artikel ini memberikan informasi tentang bidang yang berdampak pada baris kontrak dan informasi tentang kontrak yang dirangkum di semua item baris.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917074"
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang memengaruhi semua jalur kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
+Artikel ini menyediakan informasi tentang bidang yang berlaku untuk seluruh kontrak proyek termasuk pengaturan yang mempengaruhi semua baris kontrak. Informasi tentang kontrak yang diringkas di seluruh item baris untuk mendorong KPI dari kontrak proyek juga disertakan.
 
 Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 365 Project Operations atau memiliki beberapa perubahan penting dalam perilaku dari perintah penjualan di Dynamics 365 Sales.
 
@@ -35,9 +35,9 @@ Tabel berikut berisi daftar bidang pada kontrak proyek yang unik untuk Dynamics 
 KPI berikut tersedia di tab **kinerja kontrak** pada kontrak proyek. 
 
 >[!NOTE]
->Semua jumlah pada tab **Kinerja** Kontrak dinyatakan dalam mata uang default lingkungan.
+>Semua jumlah pada tab **Performa Kontrak** dinyatakan dalam mata uang default lingkungan.
 
-| Bidang | Lokasi | Deskripsi |
+| Bidang | Lokasi | Description |
 | --- | --- | --- |
 | Nilai Kontrak | Kontrak keseluruhan | Nilai total kontrak proyek.|
 | Jumlah yang Ditagih | Kontrak keseluruhan | Jumlah dari nilai pada semua faktur terhadap kontrak ini.|

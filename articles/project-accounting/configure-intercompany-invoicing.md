@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan faktur antarperusahaan
-description: Artikel ini menyediakan informasi dan contoh tentang mengonfigurasi faktur antar perusahaan untuk proyek.
+description: artikel ini berisi informasi dan contoh tentang cara mengonfigurasi faktur antarperusahaan untuk berbagai proyek.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Pada contoh berikut, Contoso Robotics USA (USPM) adalah entitas hukum yang memin
 
 1. **Konfigurasikan akuntansi antarperusahaan di antara beberapa entitas hukum**. Setiap pasangan entitas hukum peminjam dan pemberi pinjaman harus dikonfigurasi pada halaman [Akuntansi antarperusahaan](/dynamics365/finance/general-ledger/intercompany-accounting-setup) buku besar.
     
-    1. Dalam Dynamics 365 Finance, buka **General Ledger** > **Posting setup** > **Intercompany accounting**. Buat record dengan informasi berikut:
+    1. Di Dynamics 365 Finance, buka **Buku Besar** > **Pengaturan posting** > **Akuntansi antarperusahaan**. Buat record dengan informasi berikut:
 
         - **Perusahaan asal** = **GBPM**
         - **Perusahaan tujuan** = **USPM**

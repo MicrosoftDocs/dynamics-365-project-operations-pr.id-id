@@ -1,6 +1,6 @@
 ---
 title: Mengestimasi baris kontrak proyek
-description: Artikel ini memberikan informasi tentang perkiraan pada jalur kontrak proyek.
+description: Artikel ini menyediakan informasi tentang estimasi pada baris kontrak proyek.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

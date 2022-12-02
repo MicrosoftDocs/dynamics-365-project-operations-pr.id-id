@@ -1,6 +1,6 @@
 ---
 title: Apa yang baru di bulan April 2022 - penyebaran Project Operations lite
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis April 2022 penyebaran Microsoft Dynamics 365 Project Operations lite.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam penyebaran Microsoft Dynamics 365 Project Operations lite yang rilis pada April 2022.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -20,19 +20,19 @@ _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Artikel ini berlaku untuk komponen dan versi Microsoft Dynamics 365 Project Operations berikut ini:
 
-- Operasi Proyek dalam Dataverse versi lingkungan 4.41.0.45
+- Project Operations dalam lingkungan Dataverse versi 4.41.0.45
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
 | Area fitur | Nomor Referensi | Pembaruan kualitas |
 | --- | --- | --- |
-| Waktu dan pengeluaran | 2573900 | Fitur **Persetujuan** Modern harus diaktifkan secara default. |
-| Penagihan dan harga | 2603313 | Memperbaiki kesalahan catatan duplikat yang mencegah kutipan dan baris kontrak yang memiliki produk ditambahkan. |
-| Penyebaran dan konfigurasi | 2611368 | Pelanggan harus dapat menambahkan hingga lima entitas kustom ke solusi dengan menggunakan perancang aplikasi modern. |
+| Waktu dan pengeluaran | 2573900 | Fitur **Persetujuan Modern** harus diaktifkan secara default. |
+| Penagihan dan harga | 2603313 | Memperbaiki kesalahan rekaman duplikat yang mencegah ditambahkannya baris kuotasi dan kontrak yang memiliki produk. |
+| Penyebaran dan Konfigurasi | 2611368 | Pelanggan harus dapat menambahkan hingga lima entitas kustom ke solusi dengan menggunakan desainer aplikasi modern. |
 | Waktu dan pengeluaran | 2628285 | Memperbaiki masalah yang memengaruhi kemampuan untuk mengatur kategori sumber daya yang benar selama impor entri waktu. |
-|   Manajemen peluang| 2628815 | Perbarui batas karakter deskripsi detail baris kutipan agar sesuai dengan batas karakter subjek tugas, sehingga impor berhasil untuk tugas di mana subjek lebih panjang dari 100 karakter. |
-| Waktu dan pengeluaran| 2629547 | Bidang **persetujuan proyek yang Dikirim Oleh** harus mengarah ke pengguna yang mengirimkan rekaman. |
+|   Manajemen peluang| 2628815 | Perbarui batas karakter deskripsi detail baris kuotasi agar sesuai dengan batas karakter subjek tugas, sehingga impor berhasil untuk tugas yang subjeknya lebih dari 100 karakter. |
+| Waktu dan pengeluaran| 2629547 | Bidang **diajukan Oleh** dari persetujuan proyek harus mengarahkan ke pengguna yang mengajukan rekaman. |
 | Waktu dan pengeluaran| 2629865 | Bidang **Salin kategori** pada tugas saat proyek disalin. |
-| Waktu dan pengeluaran| 2636463 | Memperbaiki filter pada persetujuan dalam formulir persetujuan modern. |
+| Waktu dan pengeluaran| 2636463 | Memperbaiki filter saat persetujuan dalam formulir persetujuan modern. |
 | Perencanaan dan pelacakan proyek | 2648300 | Memperbaiki masalah yang mencegah pemilik proyek diubah. |
-| Penagihan dan harga | 2563000 | Baris jurnal untuk penjualan yang tidak ditagih di mana mata uang berbeda dari mata uang kontrak tidak boleh diizinkan. |
+| Penagihan dan harga | 2563000 | Baris jurnal untuk penjualan belum tertagih dengan mata uang yang berbeda dari mata uang kontrak tidak boleh dibolehkan. |

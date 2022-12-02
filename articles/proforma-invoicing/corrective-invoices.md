@@ -1,6 +1,6 @@
 ---
 title: Koreksi faktur berbasis proyek
-description: Artikel ini menyediakan informasi tentang cara membuat dan mengonfirmasi faktur berbasis proyek korektif dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara membuat dan mengkonfirmasikan faktur berbasis proyek perbaikan di Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

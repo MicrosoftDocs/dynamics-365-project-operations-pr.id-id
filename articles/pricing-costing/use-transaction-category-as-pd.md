@@ -1,6 +1,6 @@
 ---
 title: Menggunakan Kategori Transaksi sebagai dimensi harga
-description: Artikel ini menyediakan informasi tentang cara menggunakan bidang Kategori Transaksi sebagai dimensi harga.
+description: Artikel ini berisi informasi tentang cara menggunakan bidang Kategori Transaksi sebagai dimensi harga.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,10 +19,10 @@ ms.locfileid: "8911698"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
 
-Artikel ini menjelaskan cara menggunakan **bidang Kategori** Transaksi sebagai dimensi harga. 
+Artikel ini menjelaskan cara menggunakan bidang **Kategori Transaksi** sebagai dimensi harga. 
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum Anda menyelesaikan prosedur dalam artikel ini, Anda harus memiliki solusi dimensi harga baru untuk organisasi Anda. Jika Anda belum membuatnya, lihat [Membuat bidang dan entitas kustom sebagai dimensi harga](create-custom-fields-entities-pricing-dimensions.md).
+Sebelum menyelesaikan prosedur di artikel ini, Anda harus memiliki solusi dimensi harga baru untuk organisasi Anda. Jika Anda belum membuatnya, lihat [Membuat bidang dan entitas kustom sebagai dimensi harga](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Menambahkan bidang Kategori Transaksi ke formulir dan tampilan
 Agar bidang **Kategori Transaksi** terlihat di solusi dimensi harga, Anda harus menambahkan bidang ke semua formulir dan tampilan sebagai entitas.

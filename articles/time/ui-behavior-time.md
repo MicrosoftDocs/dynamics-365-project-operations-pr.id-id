@@ -1,6 +1,6 @@
 ---
 title: Perilaku UI entri waktu
-description: Artikel ini menyediakan informasi tentang perilaku UI untuk Entri Waktu.
+description: Artikel ini menyediakan informasi tentang perilaku UI untuk entri waktu.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

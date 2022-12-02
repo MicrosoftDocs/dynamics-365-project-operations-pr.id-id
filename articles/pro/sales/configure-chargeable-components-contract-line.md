@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak berbasis proyek
-description: Artikel ini menyediakan informasi tentang cara menambahkan komponen yang dikenakan biaya ke jalur kontrak di Operasi Proyek.
+description: artikel ini memberikan informasi tentang cara menambahkan komponen yang dikenakan biaya ke lini kontrak dalam Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

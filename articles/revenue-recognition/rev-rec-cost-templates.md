@@ -1,6 +1,6 @@
 ---
 title: Mengatur template biaya
-description: Artikel ini menyediakan informasi tentang cara membuat dan menggunakan templat biaya dalam Operasi Proyek.
+description: Artikel ini berisi informasi tentang cara membuat dan menggunakan template biaya di Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918408"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 
-Artikel ini menyediakan informasi tentang cara membuat dan menggunakan templat biaya dalam Operasi Proyek. Template biaya menentukan:
+Artikel ini berisi informasi tentang cara membuat dan menggunakan template biaya di Project Operations. Template biaya menentukan:
 
 - Kategori proyek untuk transaksi prakiraan dan aktual untuk disertakan dalam persentase perhitungan penyelesaian proyek. Nilai persen-selesai kemudian digunakan untuk menghitung jumlah pendapatan yang diakui.
 - Apakah persentase penyelesaian dapat dimodifikasi jika dihitung secara otomatis.
@@ -56,7 +56,7 @@ Memutuskan pendekatan yang akan dilakukan untuk membuat template biaya dapat ber
 ## <a name="create-cost-templates"></a>Membuat template biaya
 Untuk membuat template biaya, ikuti langkah-langkah berikut:
 
-1. Untuk mengakses templat biaya, di lingkungan Dynamics 365 Finance, buka **templat Biaya Estimasi** > **Penyiapan** > **manajemen proyek dan akuntansi** > **·**.
+1. Untuk mengakses template biaya, di lingkungan Dynamics 365 Finance, buka **Manajemen dan akuntansi proyek** > **Pengaturan** > **Estimasi** > **Template biaya**.
 2. Pilih **Baru** untuk membuat template biaya baru. Masukkan nama dan deskripsi.
 3. Cantumkan ID baris biaya untuk setiap jenis transaksi.
 4. Pilih metode penyelesaian default:

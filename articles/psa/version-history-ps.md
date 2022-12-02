@@ -1,6 +1,6 @@
 ---
 title: Jadwal rilis pembaruan untuk Project Service 3.x
-description: Artikel ini menyediakan informasi tentang rilis Dynamics 365 Project Service Automation.
+description: Artikel ini menyediakan informasi tentang rilis yang tersedia dan yang akan datang dari Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Untuk informasi tentang pembaruan Project Service, lihat [rencana rilis Dynamics
 |<strong>Stasiun 4</strong> | |  |  | |
 | | <i>Eropa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
 |<strong>Stasiun 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 Nopember 2022
+| | <i>Amerika Utara</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 November 2022
 |<strong>Stasiun 6</strong> | |  |  | |
 | | <i>Awan Komunitas Pemerintah</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02 November 2022
 | | <i>Grup skala khusus</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 November 2022

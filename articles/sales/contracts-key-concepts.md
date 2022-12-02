@@ -1,6 +1,6 @@
 ---
 title: Kontrak proyek - Konsep kunci
-description: Artikel ini menyediakan informasi tentang konsep utama kontrak proyek dalam Operasi Proyek.
+description: artikel ini memberikan informasi tentang konsep kunci kontrak proyek di Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 
 
-Artikel ini menyediakan konsep-konsep kunci yang harus diperhatikan sebelum Anda mulai menggunakan kontrak Proyek di Dynamics 365 Project Operations:
+artikel ini memberikan konsep penting yang perlu diperhatikan sebelum Anda mulai menggunakan kontrak Proyek di Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Perusahaan Pemilik
 
-Perusahaan pemilik adalah badan hukum dari **modul manajemen dan akuntansi** Proyek untuk Operasi Proyek dari Dynamics 365 Finance. Perusahaan pemilik mewakili entitas hukum yang akan memperhitungkan biaya dan pendapatan yang Diperoleh dari transaksi.
+Perusahaan pemilik merupakan entitas hukum dari modul **manajemen proyek dan akuntansi** untuk Project Operations dari Dynamics 365 Finance. Perusahaan pemilik mewakili entitas hukum yang akan memperhitungkan biaya dan pendapatan yang Diperoleh dari transaksi.
 
 ## <a name="contracting-unit"></a>Unit Kontrak
 

@@ -1,6 +1,6 @@
 ---
 title: Menonaktifkan dimensi harga
-description: Artikel ini memperlihatkan cara menyiapkan dimensi harga dalam solusi Project Service.
+description: Artikel ini menunjukkan cara mengkonfigurasi dimensi harga dalam solusi Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

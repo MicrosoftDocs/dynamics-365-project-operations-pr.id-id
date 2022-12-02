@@ -1,6 +1,6 @@
 ---
 title: Sekilas penyebaran Lite
-description: Artikel ini menyediakan informasi tentang penyebaran Lite dari Dynamics 365 Project Operations.
+description: Artikel ini memberikan informasi tentang penyebaran Lite dari Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

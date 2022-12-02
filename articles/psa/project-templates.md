@@ -1,6 +1,6 @@
 ---
 title: Template Proyek
-description: Artikel ini menyediakan informasi tentang cara menggunakan templat proyek untuk penyiapan proyek cepat.
+description: Artikel ini menyediakan informasi tentang cara menggunakan template proyek untuk konfigurasi proyek cepat.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

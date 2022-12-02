@@ -1,6 +1,6 @@
 ---
 title: Persyaratan pesanan tentatif
-description: Artikel ini memberikan informasi tentang cara soft-book persyaratan.
+description: Artikel ini menyediakan informasi tentang cara memenuhi persyaratan pesanan tentatif.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

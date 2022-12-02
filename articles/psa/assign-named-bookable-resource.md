@@ -1,6 +1,6 @@
 ---
 title: Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan tetapkan tugas
-description: Artikel ini menyediakan informasi tentang cara memesan sumber daya bernama ke tim proyek dan menugaskannya ke tugas.
+description: Artikel ini menyediakan informasi tentang cara pemesanan sumber daya bernama untuk tim proyek dan menetapkan tugas.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

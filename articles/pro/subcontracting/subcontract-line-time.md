@@ -1,6 +1,6 @@
 ---
 title: Baris Subkontrak untuk waktu
-description: Artikel ini menjelaskan cara merekam baris subkontrak untuk waktu dan mencatat pembelian waktu dari vendor.
+description: Artikel ini menjelaskan cara merekam baris subkontrak untuk waktu dan merekam pembelian waktu dari vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

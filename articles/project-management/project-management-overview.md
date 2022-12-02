@@ -1,6 +1,6 @@
 ---
 title: Sekilas manajemen proyek
-description: Artikel ini menyediakan informasi tentang manajemen Proyek di Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang manajemen proyek di Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

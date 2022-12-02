@@ -1,6 +1,6 @@
 ---
 title: Sekilas persetujuan
-description: Artikel ini memberikan informasi tentang bekerja dengan persetujuan dalam Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang bekerja dengan nilai persetujuan dalam Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Rangkaian persetujuan
-description: Artikel ini menjelaskan cara bekerja dengan set persetujuan, permintaan, dan subset dari operasi tersebut.
+description: Artikel ini menjelaskan cara bekerja dengan rangkaian persetujuan, permintaan, dan subset operasi tersebut.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Persetujuan yang diantrekan untuk pemrosesan dapat dilihat di tampilan **Pemrose
 
 Bidang **Usia Rangkaian Persetujuan** mencatat jumlah upaya yang tersisa untuk memproses rangkaian sebelum ditandai sebagai gagal.
 
-Set persetujuan diproses melalui aktivasi berkala berdasarkan **Cloud Flow** bernama **Project Service - Recurrently Schedule Project Approval Sets**. Ini ditemukan dalam **Solusi** bernama **Operasi Proyek**. 
+Rangkaian persetujuan diproses melalui aktivasi periodik berdasarkan **alur cloud** bernama **Project Service - Jadwalkan Kembali Rangkaian Persetujuan Proyek**. Hal ini ditemukan dalam **Solusi** bernama **Project Operations**. 
 
 Pastikan alur diaktifkan dengan menyelesaikan langkah-langkah berikut.
 
 1. Sebagai administrator, masuk ke [flow.microsoft.com](https://powerautomate.microsoft.com).
 2. Di sudut kanan atas, beralihlah ke lingkungan yang Anda gunakan untuk Dynamics 365 Project Operations.
-3. Pilih **Solusi** untuk membuat daftar solusi yang diinstal di lingkungan.
-4. Dalam daftar solusi, pilih **Operasi** Proyek.
-5. Ubah filter dari **Semua** ke **Cloud Flows**.
-6. Verifikasi bahwa **alur Project Service – Recurrently Schedule Project Approval Sets** diatur ke **Aktif**. Jika tidak, pilih alur, lalu pilih **Aktifkan**.
-7. Verifikasi bahwa pemrosesan terjadi setiap lima menit dengan **meninjau daftar Pekerjaan** Sistem di **area Pengaturan** dalam lingkungan Operasi Dataverse Proyek Anda.
+3. Pilih **Solusi** untuk mencantumkan solusi yang diinstal di lingkungan.
+4. Dalam daftar solusi, pilih **Project Operations**.
+5. Ubah filter dari **Semua** ke **alur cloud**.
+6. Verifikasikan bahwa alur **Project Service - Jadwalkan Kembali Rangkaian Persetujuan Proyek** diatur ke **On**. Jika tidak, pilih alur, lalu pilih **Aktifkan**.
+7. Verifikasikan bahwa pemrosesan terjadi setiap lima menit dengan meninjau daftar **Pekerjaan Sistem** di area **Pengaturan** dalam lingkungan Project Operations Dataverse Anda.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Persetujuan dan rangkaian persetujuan yang gagal
 Tampilan **Persetujuan Gagal** mencantumkan semua persetujuan yang memerlukan intervensi pengguna. Buka log rangkaian persetujuan yang terkait untuk mengidentifikasi penyebab kegagalan.
@@ -45,7 +45,7 @@ Memilih **Coba lagi** menambahkan ke jumlah usia rangkaian persetujuan, memindah
 ## <a name="configure-approval-sets"></a>Konfigurasikan Rangkaian Persetujuan
 
 ### <a name="enable-the-approval-sets-feature"></a>Aktifkan fitur Rangkaian Persetujuan
-Sebelum Anda mengaktifkan fitur rangkaian Persetujuan, pastikan tidak ada persetujuan yang saat ini diproses. Setelah fitur ini diaktifkan, fitur ini tidak dapat dinonaktifkan.
+Sebelum Anda mengaktifkan fitur rangkaian Persetujuan, pastikan tidak ada persetujuan yang saat ini diproses. Setelah fitur ini diaktifkan, fitur tidak dapat dinonaktifkan.
 
 - Buka halaman **parameter Proyek**, lalu pilih **Kontrol Fitur** > **Aktifkan Persetujuan Modern**.
 

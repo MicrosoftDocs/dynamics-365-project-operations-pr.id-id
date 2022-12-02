@@ -1,6 +1,6 @@
 ---
 title: Mengkonfigurasi akuntansi untuk proyek internal
-description: Artikel ini menyediakan informasi tentang cara menyiapkan praktik akuntansi untuk proyek internal di Operasi Proyek.
+description: artikel ini menyediakan informasi tentang cara mengkonfigurasi praktik akuntansi untuk proyek internal dalam Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

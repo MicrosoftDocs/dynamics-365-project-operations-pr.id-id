@@ -1,6 +1,6 @@
 ---
 title: Pemesanan vs Penugasan
-description: Artikel ini memberikan informasi tentang perbedaan antara pemesanan sumber daya dan penetapan sumber daya.
+description: artikel ini memberikan informasi perbedaan antara pemesanan sumber daya dan penugasan sumber daya.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

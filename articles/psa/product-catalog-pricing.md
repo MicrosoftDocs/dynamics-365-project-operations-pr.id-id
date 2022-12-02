@@ -1,6 +1,6 @@
 ---
 title: Pengaturan harga Katalog Produk
-description: Artikel ini menyediakan informasi tentang cara kerja penetapan harga katalog produk di Dynamics 365 Project Service Automation (PSA).
+description: Artikel ini menyediakan informasi tentang cara kerja harga katalog produk di Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Menggunakan sumber daya yang dapat dipesan sebagai dimensi harga
-description: Artikel ini memberikan informasi tentang cara menggunakan sumber daya yang dapat dipesan sebagai dimensi harga.
+description: Artikel ini menyediakan informasi tentang cara menggunakan sumber daya yang dapat dipesan sebagai dimensi harga.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914820"
 
  _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_ 
 
-Artikel ini memberikan informasi tentang cara menggunakan sumber daya yang dapat dipesan sebagai dimensi harga. Jika strategi penetapan harga diatur sedemikian rupa sehingga setiap sumber daya yang dapat dipesan harus memiliki harga atau tarif biaya tertentu, gunakan sumber daya yang dapat dipesan sebagai dimensi harga.
+Artikel ini menyediakan informasi tentang cara menggunakan sumber daya yang dapat dipesan sebagai dimensi harga. Jika strategi penetapan harga diatur sedemikian rupa sehingga setiap sumber daya yang dapat dipesan harus memiliki harga atau tarif biaya tertentu, gunakan sumber daya yang dapat dipesan sebagai dimensi harga.
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum Anda menyelesaikan prosedur dalam artikel ini, Anda harus memiliki solusi dimensi harga baru untuk organisasi Anda. Jika Anda belum membuatnya, lihat [Membuat bidang dan entitas kustom](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Sebelum menyelesaikan prosedur di artikel ini, Anda harus memiliki solusi dimensi harga baru untuk organisasi Anda. Jika Anda belum membuatnya, lihat [Membuat bidang dan entitas kustom](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Menambahkan bidang Sumber Daya yang Dapat Dipesan untuk formulir dan tampilan
 Agar bidang **Sumber Daya yang Dapat Dipesan** terlihat di solusi dimensi harga, Anda harus menambahkan bidang ke semua formulir dan tampilan sebagai entitas.

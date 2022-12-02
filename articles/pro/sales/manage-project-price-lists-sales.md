@@ -1,6 +1,6 @@
 ---
 title: Mengelola daftar harga proyek pada kuotasi proyek
-description: Artikel ini menyediakan informasi tentang bekerja dengan daftar harga proyek pada kutipan.
+description: Artikel ini menyediakan informasi tentang menangani daftar harga proyek di kuotasi.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

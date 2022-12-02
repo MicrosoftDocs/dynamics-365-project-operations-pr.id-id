@@ -1,6 +1,6 @@
 ---
 title: Mentransfer anggaran proyek di akhir tahun fiskal
-description: Artikel ini memberikan informasi tentang cara mentransfer jumlah anggaran yang tersisa ke tahun-tahun mendatang dan membuat detail daftar anggaran.
+description: Artikel ini menyediakan informasi tentang cara mentransfer sisa jumlah anggaran ke masa depan dan membuat rincian register anggaran.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

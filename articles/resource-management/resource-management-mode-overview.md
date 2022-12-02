@@ -1,6 +1,6 @@
 ---
 title: Sekilas mode manajemen sumber daya
-description: Artikel ini menyediakan informasi tentang fungsionalitas manajemen Sumber Daya di Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang fungsi manajemen sumber daya di Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Untuk organisasi yang memerlukan fleksibilitas dalam alokasi sumber daya, mode h
 
 ![Mode hibrida.](./media/resource-management-hybrid.png)
 
-Selain proses mode Pusat yang didukung, lihat artikel berikut untuk mengelola semua alur pemesanan lain yang didukung dalam mode Hibrid:
+Selain proses mode pusat yang didukung, lihat artikel berikut untuk mengelola semua alur Pemesanan yang didukung lainnya dalam mode hibrida:
 
 Pesan sumber daya langsung untuk proyek:
 - [Pesan sumber daya yang dapat dipesan bernama ke tim proyek dan tetapkan tugas](/dynamics365/project-service/assign-named-bookable-resource)

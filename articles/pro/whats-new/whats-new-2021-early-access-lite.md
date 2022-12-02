@@ -1,6 +1,6 @@
 ---
 title: Apa yang baru di akses awal 2021 gelombang 2 - penyebaran Project Operations lite
-description: Artikel ini menyediakan informasi tentang fitur yang tersedia dalam rilis akses awal 2 gelombang 2 2021 dari penyebaran Project Operations lite.
+description: Artikel ini menyediakan informasi tentang fitur yang tersedia dalam rilis akses Awal gelombang 2 2021 penyebaran Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924112"
 
 _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
   - Lingkungan Project Operations untuk Dataverse versi 4.23.0.4
 

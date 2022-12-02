@@ -27,7 +27,7 @@ ms.locfileid: "8926872"
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Dengan dirilisnya Microsoft Dynamics Project Service Automation (PSA) 3. x, banyak perubahan yang telah dilakukan pada entitas, kontrol, tampilan, dan antarmuka pengguna. Artikel ini menyediakan informasi tentang perubahan penting ini.
+Dengan dirilisnya Microsoft Dynamics Project Service Automation (PSA) 3. x, banyak perubahan yang telah dilakukan pada entitas, kontrol, tampilan, dan antarmuka pengguna. artikel ini berisi informasi penting tentang perubahan penting.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relasi induk-anak untuk dokumen penjualan, baris dokumen penjualan, entitas detail baris dokumen penjualan
 Dalam versi Dynamics 365 Project Service Automation (PSA) yang dirilis sebelum versi 3,0, beberapa Relasi antara dokumen penjualan, baris dokumen penjualan, dan entitas rincian baris dokumen penjualan diterapkan melalui bidang string yang akan memiliki representasi string GUID entitas terkait. Hal ini dikarenakan keterbatasan platform yang memerlukan kode kustom yang signifikan pada server dan sisi klien solusi untuk membuat Relasi tersebut bekerja seperti Relasi entitas Dynamics CRM tipikal dan untuk membuat bidang string bertindak seperti bidang pencarian.

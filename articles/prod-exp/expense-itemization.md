@@ -1,6 +1,6 @@
 ---
 title: Itemisasi pengeluaran
-description: Artikel ini menjelaskan cara merinci pengeluaran menggunakan ruang kerja Biaya yang dirancang ulang.
+description: Artikel ini menjelaskan cara memerinci pengeluaran menggunakan ruang kerja Pengeluaran yang dikaji ulang.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920938"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Organisasi sering mengharuskan karyawan untuk memberikan rincian rinci tentang biaya yang dikeluarkan selama perjalanan. Misalnya, folio hotel dapat berisi beberapa baris terperinci untuk tarif kamar, pajak, parkir, dan biaya lain-lain yang dikeluarkan setiap hari selama durasi menginap. Atau biaya makan mungkin mengharuskan Anda memberikan perincian yang lebih terperinci untuk sarapan, makan siang, atau makan malam. Apa pun kebutuhan organisasi, setiap kategori pengeluaran dapat diatur untuk mencerminkan subkategori atau item baris yang membentuk pengeluaran. Meskipun itemisasi selalu didukung dalam **manajemen Pengeluaran,** ruang kerja biaya **yang dirancang ulang memungkinkan itemisasi yang lebih efisien ketika fitur,** Kemampuan untuk merinci pengeluaran berulang dengan cepat **diaktifkan**.  
+Organisasi sering mengharuskan karyawan memberikan perincian pengeluaran terperinci yang dikeluarkan selama perjalanan. Misalnya, tagihan hotel dapat berisi beberapa baris terperinci untuk tarif kamar, pajak, tempat parkir, dan biaya lain yang dikeluarkan setiap hari selama masa tinggal. Atau pengeluaran makan mungkin mengharuskan Anda menyediakan perincian lebih rinci untuk makan pagi, makan siang, atau makan malam. Apa pun kebutuhan organisasi, setiap kategori pengeluaran dapat diatur untuk mencerminkan subkategori atau item baris yang merupakan pengeluaran. Meskipun itemisasi selalu didukung dalam **manajemen Pengeluaran**, ruang kerja **pengeluaran yang dikaji ulang** memungkinkan itemisasi yang lebih efisien saat fitur ini, **Kemampuan untuk memerinci pengeluaran berulang dengan cepat** diaktifkan.  
 
 ## <a name="enable-quick-itemization"></a>Aktifkan itemisasi cepat 
 
-Anda dapat menggunakan **fitur Kemampuan untuk merinci pengeluaran berulang dengan cepat** untuk merinci pengeluaran berulang dengan cepat sambil menghindari kebutuhan untuk memasukkan pengeluaran harian setiap kali selama masa tinggal. Selesaikan langkah-langkah berikut untuk mengaktifkan itemisasi cepat.
+Anda dapat menggunakan fitur **Kemampuan untuk memerinci item pengeluaran berulang dengan cepat** untuk memerinci pengeluaran berulang secara cepat, sekaligus menghindari kebutuhan untuk memasukkan pengeluaran harian setiap kali selama durasi tinggal. Selesaikan langkah-langkah berikut untuk mengaktifkan itemisasi cepat.
 
-1. Buka ruang **kerja Manajemen** Fitur dan dalam daftar fitur, temukan dan pilih, **Laporan Pengeluaran Dirancang Ulang**. 
+1. Buka ruang kerja **manajemen fitur** dan di daftar fitur, cari dan pilih **laporan pengeluaran yang dikaji ulang**. 
 2. Klik **Aktifkan sekarang**. 
-3. Dalam daftar fitur, temukan dan pilih, **Kemampuan untuk merinci pengeluaran berulang dengan cepat**.
+3. Dalam daftar fitur, cari dan pilih, **Kemampuan untuk memerinci pengeluaran berulang dengan cepat**.
 4. Klik **Aktifkan sekarang**. 
 
 ## <a name="itemization-grid"></a>Kisi itemisasi 
 
-Jika kategori pengeluaran memiliki subkategori atau komponen berbeda yang membentuk pengeluaran itu, maka itu dapat dirinci. Untuk merinci pengeluaran, pilih baris pengeluaran dalam laporan pengeluaran, dan di **panel Detail** pengeluaran, pilih **Itemisasi** > **Tindakan**. Penggeser **Itemisasi** mengungkapkan kisi dengan bidang. Tabel berikut ini menyediakan contoh setiap bidang dalam kisi dan bagaimana bidang tersebut dirender dalam laporan pengeluaran. 
+Jika kategori pengeluaran memiliki subkategori atau komponen lain yang membuat pengeluaran tersebut, maka ia dapat diperinci. Untuk memerinci pengeluaran, pilih baris pengeluaran dalam laporan pengeluaran, dan di panel **Rincian pengeluaran**, pilih Tindakan **Itemize** > **Perinci**. Panel geser **Itemisasi** akan membuka kisi dengan bidang. Tabel berikut memberikan contoh tentang setiap bidang pada kisi dan tampilan bidang dalam laporan pengeluaran. 
 
-|     Bidang          |     Deskripsi                                                                                  |     Contoh              |
+|     Bidang          |     Description                                                                                  |     Contoh              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Subkategori    |     Daftar subkategori yang dikonfigurasi di bawah jenis kategori pengeluaran, **Hotel**.             |     Tarif kamar harian      |
-|     Tanggal mulai     |     Tanggal ketika item biaya pertama kali dikeluarkan.                                           |     09/13/2021           |
-|     Tarif Harian     |     Jumlah yang dikeluarkan untuk item biaya.                                                    |     200                  |
-|     Jumlah       |     Berapa kali muatan diulangi dalam periode berkelanjutan.                       |     3                    |
+|     Subkategori    |     Daftar subkategori yang dikonfigurasi dalam jenis kategori pengeluaran, **Hotel**.             |     Harga kamar harian      |
+|     Tanggal mulai     |     Tanggal saat item pengeluaran dibebankan pertama kali.                                           |     13/09/2021           |
+|     Tarif Harian     |     Jumlah yang dibebankan untuk item pengeluaran.                                                    |     200                  |
+|     Jumlah       |     Jumlah kali tagihan berulang selama periode kontinu.                       |     3                    |
 
 ![Perinci pengeluaran.](media/Itemization%20screen%201.png)
 
-Saat Anda menyimpan itemisasi, Anda akan melihat baris individual yang diperinci untuk kuantitas yang ditentukan dalam kisi Itemisasi. Setiap baris dimulai pada tanggal yang ditentukan dalam kisi.
+Saat menyimpan itemisasi, Anda akan melihat baris terperinci individual untuk kuantitas yang ditentukan di kisi Itemisasi. Setiap baris dimulai pada tanggal yang ditentukan di kisi.
 
 ![Laporan terperinci.](media/Itemization%20screen%202.png)
 

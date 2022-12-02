@@ -1,6 +1,6 @@
 ---
 title: Pemenuhan persyaratan sumber daya generik
-description: Artikel ini menyediakan informasi tentang cara memesan sumber daya bernama untuk persyaratan sumber daya generik.
+description: Artikel ini menyediakan informasi tentang cara pemesanan sumber daya bernama untuk persyaratan sumber daya generik.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

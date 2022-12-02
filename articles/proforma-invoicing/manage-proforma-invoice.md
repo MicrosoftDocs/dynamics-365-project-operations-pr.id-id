@@ -1,6 +1,6 @@
 ---
 title: Mengelola faktur berbasis proyek proforma
-description: Artikel ini memberikan informasi tentang cara mengelola dan bekerja dengan faktur berbasis proyek proforma.
+description: Artikel memberikan informasi tentang bagaimana mengelola dan bekerja dengan faktur berbasis proyek proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

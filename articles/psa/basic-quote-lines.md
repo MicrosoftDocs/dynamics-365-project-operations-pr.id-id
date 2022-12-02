@@ -1,6 +1,6 @@
 ---
 title: Kuotasi dan Baris Kuotasi
-description: Artikel ini menyediakan informasi tentang kutipan dan baris kutipan.
+description: artikel ini menyediakan informasi tentang kuotasi dan baris kuotasi.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ Di Dynamics 365 Project Service Automation, ada dua jenis kuotasi: kuotasi proye
 - Kuotasi penjualan tidak mencakup beberapa bidang dan konsep yang disertakan dalam kuotasi proyek memiliki bidang. Bidang mencakup **unit kontrak**, **manajer akun**, dan **nama tagihan ke kontak**.  
 - Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan yang disebut **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
 
-Artikel ini akan fokus pada detail kutipan proyek.
+artikel ini akan fokus pada rincian kuotasi proyek.
 
 Kuotasi proyek dalam PSA dapat memiliki beberapa item baris atau baris kuotasi. Bahkan, kuotasi proyek memiliki dua kisi untuk item baris. Satu kisi adalah untuk baris berbasis proyek yang memungkinkan perkiraan rinci. Kisi lainnya adalah untuk lini berbasis produk menggunakan harga satuan sederhana dan pendekatan berbasis kuantitas.
 

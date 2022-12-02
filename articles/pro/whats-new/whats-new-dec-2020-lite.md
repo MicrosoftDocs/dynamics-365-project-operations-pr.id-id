@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Desember 2020 - penyebaran Project Operations Lite - menangani faktur proforma
-description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia dalam rilis Desember 2020 penyebaran Project Operations Lite - deal to proforma invoicing.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Desember 2020 penyebaran Project Operations Lite -menangani faktur proforma.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924066"
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
   - Lingkungan Project Operations untuk Dataverse versi 4.5.0.134 
 

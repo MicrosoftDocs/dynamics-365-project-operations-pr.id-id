@@ -1,6 +1,6 @@
 ---
 title: Rangkaian persetujuan di Project Service Automation
-description: Artikel ini menyediakan informasi tentang kumpulan persetujuan, permintaan, dan subset dari operasi tersebut.
+description: Artikel ini memberikan informasi tentang kumpulan persetujuan, permintaan, dan subset operasi tersebut.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

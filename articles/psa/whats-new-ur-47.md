@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 47, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Pembaruan Rilis 47, V3.
+description: Artikel ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 47, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9477282"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation Update Release 45, V3. Versi ini memiliki nomor build V3.10.78.8 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juli 2022.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 45, V3. Versi ini memiliki nomor build V3.10.78.8 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juli 2022.
 
 ## <a name="update-release-47"></a>Pembaruan rilis 47
 
@@ -38,4 +38,4 @@ Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project
 Masalah berikut telah diperbaiki.
 
 **Manajemen sumber daya**
-- Validasi diperbarui untuk memastikan pengguna tidak dapat memicu pengecualian referensi nol saat mencoba membuat Anggota Tim Proyek tanpa Sumber Daya yang **Dapat Dipesan**.
+- Validasi diperbarui untuk memastikan pengguna tidak dapat memicu pengecualian referensi nihil saat mencoba membuat Anggota Tim Proyek tanpa **Sumber Daya yang Dapat Dipesan**.

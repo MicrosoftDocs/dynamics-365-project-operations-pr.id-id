@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan bidang kustom sebagai dimensi harga
-description: Artikel ini menyediakan informasi tentang menyiapkan dimensi harga kustom.
+description: Artikel ini menyediakan informasi tentang cara mengkonfigurasi dimensi harga kustom.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922601"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Sebelum Anda mulai, artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang dan entitas](create-custom-fields-entities.md) kustom dan [Menambahkan bidang kustom ke pengaturan harga dan entitas transaksional](field-references.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
+Sebelum memulai, artikel ini mengasumsikan bahwa anda telah menyelesaikan prosedur dalam artikel, [membuat bidang kustom dan entitas](create-custom-fields-entities.md), serta [menambahkan bidang kustom untuk penyiapan harga dan entitas transaksi](field-references.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
 
-Artikel ini menyediakan informasi tentang menyiapkan dimensi harga kustom. Di antarmuka web Project Service, pada halaman **parameter**, tab **Dimensi harga berbasis jumlah**, menampilkan rekaman di entitas dimensi harga. Secara default, penginstalan Project Service membuat 2 baris di kisi pada tab ini:
+Artikel ini menyediakan informasi tentang cara mengkonfigurasi dimensi harga kustom. Di antarmuka web Project Service, pada halaman **parameter**, tab **Dimensi harga berbasis jumlah**, menampilkan rekaman di entitas dimensi harga. Secara default, penginstalan Project Service membuat 2 baris di kisi pada tab ini:
 
 - **msdyn_resourcecategory** (Peran)
 - **msdyn_OrganizationalUnit** (unit organisasi)

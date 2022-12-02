@@ -1,6 +1,6 @@
 ---
 title: Model keamanan
-description: Artikel ini menyediakan informasi tentang model keamanan di Dynamics 365 Project Operations.
+description: Artikel ini memberikan informasi tentang model keamanan di Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Seiring model kolaborasi Office Group berkembang, fungsi akan ditambahkan untuk 
 
 Untuk informasi lebih lanjut, lihat [keamanan di Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operasi Proyek dan Microsoft Dynamics keamanan 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Keamanan Project Operations dan Microsoft Dynamics 365 Finance
 Operasi proyek mencakup peran berikut:
 
 - Manajer Proyek

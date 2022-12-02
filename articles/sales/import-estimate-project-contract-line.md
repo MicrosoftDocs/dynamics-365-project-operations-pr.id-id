@@ -1,6 +1,6 @@
 ---
 title: Mengimpor estimasi ke baris kontrak berbasis proyek
-description: Artikel ini memberikan informasi tentang cara mengimpor perkiraan dari proyek ke jalur kontrak.
+description: Artikel ini menyediakan informasi tentang cara mengimpor estimasi dari proyek ke baris kontrak.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

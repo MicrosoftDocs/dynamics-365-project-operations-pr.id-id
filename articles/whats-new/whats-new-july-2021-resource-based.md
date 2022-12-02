@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Juli 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Juli 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam skenario Project Operations yang dirilis Pada Bulan Juli 2021 untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8931702"
 
 *Berlaku untuk: Project Operations untuk skenario berbasis sumber daya/tanpa stok*
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
    - Project Operations di lingkungan Microsoft Dataverse versi 4.12.0.148 or 4.12.0.152.
-   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.20.
+   - Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 

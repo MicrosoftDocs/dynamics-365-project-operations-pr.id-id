@@ -1,6 +1,6 @@
 ---
 title: Mendaftar untuk berlangganan pratinjau - lite
-description: Artikel ini menyediakan informasi tentang cara berlangganan dan menyebarkan penyebaran Project Operations lite - berurusan dengan faktur proforma.
+description: Artikel ini menyediakan informasi tentang cara berlangganan dan menyebarkan penawaran penyebaran Project Operations lite ke faktur proforma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410037"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Mendaftar untuk berlangganan pratinjau - lite 
 
-Artikel ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan Dynamics 365 Project Operations penyebaran lite - berurusan dengan faktur proforma.
+Artikel ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan penyebaran Dynamics 365 Project Operations lite - kesepakatan hingga faktur proforma.
 
 > [!NOTE]
 > Proses ini akan berubah di rilis mendatang Project Operations.
@@ -43,14 +43,14 @@ Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di pe
 > Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
 
-1. Buka [Microsoft 365 pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
+1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
 2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
 3. Pastikan lisensi **Dynamics 365 Project Operations** dipilih. 
 4. Pilih **Simpan perubahan**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Buat lingkungan Dataverse baru
 
-1. Sediakan lingkungan penyebaran Operasi Dataverse Proyek baru dengan mengikuti instruksi dalam artikel, [Dataverse model penyebaran](lite-deployment.md). Saat Anda memilih tipe lingkungan, pastikan untuk menggunakan **Uji coba (Berbasis langganan)**.
+1. Lakukan penyediaan lingkungan penyebaran Project Operations Dataverse baru dengan mengikuti petunjuk dalam artikel, [model penyebaran Dataverse](lite-deployment.md). Saat Anda memilih tipe lingkungan, pastikan untuk menggunakan **Uji coba (Berbasis langganan)**.
 
   ![Lingkungan baru.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Sebelum memulai, pastikan Anda masuk ke browser dengan akun kerja pengguna di pe
 
 ![Instal Solusi.](./media/21InstallSolution.png)
 
-## <a name="set-up-demo-data"></a>Menyiapkan data demo
+## <a name="set-up-demo-data"></a>Konfigurasikan data demo
 
-Siapkan data demo dengan mengikuti instruksi dalam artikel, [Terapkan pengaturan demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
+Konfigurasikan data demo dengan mengikuti petunjuk dalam artikel, [terapkan konfigurasi demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

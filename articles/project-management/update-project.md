@@ -1,6 +1,6 @@
 ---
 title: Membuat dan memperbarui proyek
-description: Artikel ini menyediakan informasi tentang memperbarui proyek Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang memperbarui proyek di Project operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

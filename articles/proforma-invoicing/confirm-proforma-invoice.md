@@ -1,6 +1,6 @@
 ---
 title: Mengonfirmasikan faktur berbasis proyek proforma
-description: Artikel ini menyediakan informasi tentang mengonfirmasi faktur berbasis proyek proforma.
+description: artikel ini memberikan informasi tentang mengkonfirmasikan faktur berbasis proyek proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

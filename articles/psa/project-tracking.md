@@ -30,7 +30,7 @@ ms.locfileid: "8921766"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Beberapa industri melacak pada tingkat rinci, sedangkan industri lainnya melacak pada tingkat yang lebih tinggi. Artikel ini memperlihatkan cara menjadwalkan untuk memenuhi persyaratan organisasi Anda.
+Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Beberapa industri melacak pada tingkat rinci, sedangkan industri lainnya melacak pada tingkat yang lebih tinggi. Artikel ini menunjukkan cara menjadwalkan untuk memenuhi kebutuhan organisasi anda.
 
 ## <a name="effort-tracking-view"></a>Tampilan Pelacakan Upaya
 

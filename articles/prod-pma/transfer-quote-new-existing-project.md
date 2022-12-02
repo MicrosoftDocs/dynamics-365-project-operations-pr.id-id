@@ -1,6 +1,6 @@
 ---
 title: Mentransfer kuotasi ke proyek
-description: Artikel ini menyediakan informasi tentang cara mentransfer kutipan ke proyek baru atau yang sudah ada.
+description: Artikel ini menyediakan informasi tentang cara mentransfer kuotasi ke proyek baru atau lama.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

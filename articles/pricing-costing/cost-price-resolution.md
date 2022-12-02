@@ -1,6 +1,6 @@
 ---
-title: Menentukan tarif biaya untuk perkiraan dan aktual berbasis proyek
-description: Artikel ini memberikan informasi tentang bagaimana tarif biaya untuk perkiraan dan aktual berbasis proyek ditentukan.
+title: Menentukan harga penjualan untuk estimasi proyek dan aktual
+description: Artikel ini memberikan informasi tentang bagaimana tarif biaya untuk estimasi berbasis proyek dan aktual ditentukan.
 author: rumant
 ms.date: 9/12/2022
 ms.topic: article
@@ -13,72 +13,72 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475277"
 ---
-# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Menentukan tarif biaya untuk perkiraan dan aktual berbasis proyek
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Menentukan harga penjualan untuk estimasi proyek dan aktual
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Untuk menentukan harga biaya pada perkiraan dan aktual di Microsoft Dynamics 365 Project Operations, sistem pertama-tama menggunakan tanggal dan mata uang dalam perkiraan masuk atau konteks aktual untuk menentukan daftar harga penjualan. Dalam konteks aktual secara khusus, sistem menggunakan **bidang Tanggal** transaksi untuk menentukan daftar harga mana yang berlaku. Nilai **tanggal** Transaksi dari perkiraan masuk atau aktual dibandingkan dengan **nilai Efektif Mulai (Timezone independen)** dan **Akhir Efektif (Timezone independent)** pada daftar harga. Setelah daftar harga biaya ditentukan, sistem menentukan tingkat biaya.
+Untuk menentukan harga biaya pada perkiraan dan aktual di Microsoft Dynamics 365 Project Operations, sistem terlebih dahulu menggunakan tanggal dan mata uang dalam perkiraan masuk atau konteks aktual untuk menentukan daftar harga penjualan. Dalam konteks aktual secara khusus, sistem menggunakan bidang **tanggal Transaksi** untuk menentukan daftar harga yang berlaku. Nilai **tanggal transaksi** dari perkiraan masuk atau aktual dibandingkan dengan **nilai Mulai Efektif (independen zona waktu)** dan **Berakhir Efektif (independen zona waktu)** pada daftar harga. Setelah daftar harga biaya ditentukan, aplikasi menyelesaikan tarif biaya.
 
-## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Menentukan tarif biaya dalam perkiraan dan konteks aktual untuk Waktu
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Menentukan tarif biaya dalam konteks estimasi dan konteks aktual untuk Waktu
 
 Konteks perkiraan untuk **Waktu** mengacu pada:
 
-- Kutip detail baris untuk **Waktu**.
-- Detail garis kontrak untuk **Waktu**.
-- Tugas sumber daya pada proyek.
+- Detail baris kuotasi untuk **waktu**.
+- Detail baris kontrak untuk **waktu**.
+- penugasan sumber daya pada proyek.
 
 Konteks aktual untuk **Waktu** mengacu pada:
 
 - Baris jurnal Entri dan Koreksi untuk **Waktu**.
-- Baris jurnal yang dibuat saat entri waktu dikirimkan.
+- Baris jurnal yang dibuat saat entri waktu diajukan.
 
-Setelah daftar harga biaya ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
+Setelah daftar harga biaya untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
 
-1. Sistem ini cocok dengan kombinasi **bidang Peran**, **Perusahaan** Sumber Daya, dan **Unit** Sumber Daya dalam perkiraan atau konteks aktual untuk **Waktu** terhadap garis harga peran pada daftar harga. Pencocokan ini mengasumsikan bahwa Anda menggunakan dimensi harga standar untuk biaya tenaga kerja. Jika Anda telah mengonfigurasi sistem agar sesuai dengan bidang selain atau selain **Peran, Perusahaan** Sumber Daya, **dan** Unit **Sumber Daya, kombinasi yang berbeda digunakan untuk mengambil garis harga** peran yang cocok.
-1. Jika sistem menemukan garis harga peran yang memiliki tingkat biaya untuk **kombinasi Peran**, **Perusahaan** Sumber Daya, dan **Unit** Sumber Daya, tarif biaya tersebut digunakan sebagai tarif biaya default.
-1. Jika sistem tidak dapat menandingi **nilai Peran**, **Perusahaan** Sumber Daya, dan **Unit** Sumber Daya, sistem akan menjatuhkan dimensi yang memiliki prioritas terendah, mencari garis harga peran yang memiliki kecocokan dengan dua nilai dimensi lainnya, dan terus secara progresif menurunkan dimensi hingga baris harga peran yang cocok ditemukan. Tarif biaya dari catatan tersebut akan digunakan sebagai tarif biaya default. Jika sistem tidak menemukan baris harga peran yang cocok, harga akan ditetapkan ke **0** (nol) secara default.
+1. Sistem mencocokkan kombinasi bidang **Peran**, **Perusahaan Sumber Daya**, dan **Unit Sumber Daya** dalam konteks estimasi atau aktual untuk **Waktu** terhadap baris harga peran pada daftar harga. Kecocokan ini mengasumsikan bahwa Anda menggunakan dimensi harga standar untuk biaya tenaga kerja. Jika Anda telah mengonfigurasi sistem untuk mencocokkan bidang selain atau sebagai tambahan untuk **Peran**, **Perusahaan Sumber Daya** dan **Unit Sumber Daya**, kombinasi berbeda akan digunakan untuk mengambil baris harga peran yang cocok garis.
+1. Jika sistem menemukan baris harga peran yang memiliki tarif biaya untuk kombinasi **Peran**, **Perusahaan Sumber daya**, dan **Unit Sumber daya**, tarif biaya tersebut digunakan sebagai tarif biaya default.
+1. Jika sistem tidak dapat mencocokkan nilai **Peran**, **Perusahaan Sumber Daya**, dan **Unit Sumber Daya**, sistem akan menghilangkan dimensi yang memiliki prioritas terendah, mencari baris harga peran yang memiliki kecocokan dengan nilai dua dimensi lainnya, dan terus menghilangkan dimensi secara progresif hingga baris harga peran yang cocok ditemukan. Tarif biaya dari rekaman tersebut akan digunakan sebagai tarif biaya default. Jika sistem tidak menemukan baris harga peran yang sesuai, harga akan diatur ke **0** (nol) secara default.
 
 > [!NOTE]
-> Jika Anda mengonfigurasi prioritas yang berbeda dari **bidang Unit** Peran **dan** Sumber Daya, atau jika Anda memiliki dimensi lain yang memiliki prioritas lebih tinggi, perilaku sebelumnya akan berubah sesuai dengan itu. Sistem mengambil catatan harga peran yang memiliki nilai yang cocok dengan setiap nilai dimensi harga dalam urutan prioritas. Baris yang memiliki nilai nol untuk dimensi tersebut adalah yang terakhir.
+> Jika Anda mengonfigurasi prioritas bidang **Peran** dan **Unit Sumber Daya** yang berbeda, atau jika Anda memiliki dimensi lain yang memiliki prioritas lebih tinggi, perilaku sebelumnya ini akan berubah sesuai dengan itu. Sistem mengambil rekaman harga peran yang memiliki nilai yang sesuai dengan setiap nilai dimensi harga dalam urutan prioritas. Baris yang memiliki nilai null untuk dimensi tersebut akan terlihat terakhir.
 
-## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menentukan tarif biaya pada garis aktual dan perkiraan untuk Biaya
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menentukan tarif biaya pada baris estimasi dan aktual untuk Pengeluaran
 
-Konteks estimasi untuk **Pengeluaran** mengacu pada:
+Konteks perkiraan untuk **pengeluaran** mengacu pada:
 
-- Kutip detail baris untuk **Biaya**.
-- Detail garis kontrak untuk **Biaya**.
-- Perkiraan biaya pada suatu proyek.
+- Detail baris kuotasi untuk **pengeluaran**.
+- Detail baris kontrak untuk **pengeluaran**.
+- Estimasi pengeluaran pada proyek
 
-Konteks aktual untuk **Pengeluaran** mengacu pada:
+Konteks aktual untuk **pengeluaran** mengacu pada:
 
-- Baris jurnal Entri dan Koreksi untuk **Biaya**.
-- Baris jurnal yang dibuat saat entri pengeluaran dikirimkan.
+- Baris jurnal Entri dan Koreksi untuk **pengeluaran**.
+- Baris jurnal yang dibuat saat entri pengeluaran diajukan.
 
-Setelah daftar harga biaya ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
+Setelah daftar harga biaya untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
 
-1. Sistem ini mencocokkan kombinasi **bidang Kategori** dan **Unit** dalam perkiraan atau konteks aktual untuk **Pengeluaran** terhadap garis harga kategori pada daftar harga.
-1. Jika sistem menemukan garis harga kategori yang memiliki tarif biaya untuk kombinasi Kategori **dan** Unit **, tarif biaya tersebut** digunakan sebagai tarif biaya default.
-1. Jika sistem tidak dapat mencocokkan **nilai Kategori** dan **Unit**, harga diatur ke **0** (nol) secara default.
-1. Dalam konteks estimasi, jika sistem dapat menemukan garis harga kategori yang cocok, tetapi metode penetapan harga adalah sesuatu selain **Harga Per Unit**, tarif biaya diatur ke **0** (nol) secara default.
+1. Sistem mencocokkan kombinasi bidang **Kategori** dan **Unit** dalam konteks estimasi atau konteks aktual untuk **Pengeluaran** tehadap baris harga kategori pada daftar harga.
+1. Jika sistem menemukan garis harga kategori yang memiliki tarif biaya untuk kombinasi bidang **Kategori** dan **Unit**, tarif biaya tersebut digunakan sebagai tarif biaya default.
+1. Jika sistem tidak dapat mencocokkan nilai **Kategori** lan **Unit**, harga ditetapkan ke **0** (nol) secara default.
+1. Dalan konteks estimasi, jika sistem bisa menemukan kategori yang sesuai dengan baris harga, tetapi metode penentuan harga bukan **Harga per Unit**, tarif biaya diatur k **0** (nol) secara default.
 
-## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menentukan tarif biaya pada garis aktual dan perkiraan untuk Material
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menentukan tingkat biaya pada baris aktual dan estimasi untuk Bahan
 
-Perkiraan konteks untuk **Materi** mengacu pada:
+Konteks perkiraan untuk **Bahan** mengacu pada:
 
-- Kutip detail baris untuk **Materi**.
-- Detail garis kontrak untuk **Material**.
-- Perkiraan material pada suatu proyek.
+- Detail baris kuotasi untuk **Bahan**.
+- Detail baris kontrak untuk **Bahan**.
+- Estimasi bahan proyek.
 
-Konteks aktual untuk **Materi** mengacu pada:
+Konteks aktual untuk **Bahan** mengacu pada:
 
-- Baris jurnal Entri dan Koreksi untuk **Materi**.
-- Baris jurnal yang dibuat saat log penggunaan Material dikirimkan.
+- Baris jurnal Entri dan Koreksi untuk **Bahan**.
+- Baris jurnal yang dibuat saat log penggunaan bahan diajukan.
 
-Setelah daftar harga biaya ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
+Setelah daftar harga biaya untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif biaya default.
 
-1. Sistem ini menggunakan kombinasi **bidang Produk** dan **Unit** dalam perkiraan atau konteks aktual untuk **Material** terhadap baris item daftar harga pada daftar harga.
-1. Jika sistem menemukan baris item daftar harga yang memiliki tarif biaya untuk kombinasi Produk **dan** Unit **, tarif biaya tersebut** digunakan sebagai tarif biaya default.
-1. Jika sistem tidak dapat mencocokkan **nilai Produk** dan **Unit**, biaya unit diatur ke **0** (nol) secara default.
-1. Dalam perkiraan atau konteks aktual, jika sistem dapat menemukan baris item daftar harga yang cocok, tetapi metode penetapan harga adalah sesuatu selain **jumlah** Mata Uang, biaya unit diatur ke **0** secara default. Perilaku ini terjadi karena Operasi Proyek hanya **mendukung metode penetapan harga jumlah** mata uang untuk materi yang digunakan pada proyek.
+1. Sistem menggunakan kombinasi bidang **Produk** dan **Unit** dalam konteks estimasi atau aktual untuk **Bahan** terhadap baris item daftar harga pada daftar harga.
+1. Jika sistem menemukan baris item daftar harga yang memiliki tarif biaya untuk kombinasi **Produk** dan **Unit**, tarif biaya digunakan sebagai tarif biaya default.
+1. Jika sistem tidak bisa mencocokan nilai **Produk** dan **Unit**, biaya unit diatur ke **0** (nol) sebagai default.
+1. Dalan konteks estimasi, jika sistem bisa menemukan baris item daftar harga yang cocok, tetapi metode penentuan harga bukan **Jumlah mata uang**, biaya unit diatur ke **0** secara default. Perilaku ini terjadi karena Project Operations hanya mendukung metode harga **jumlah mata uang** untuk bahan yang digunakan pada proyek.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

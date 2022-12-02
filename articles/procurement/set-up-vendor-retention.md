@@ -1,6 +1,6 @@
 ---
 title: Mengkonfigurasi retensi vendor
-description: Artikel ini menjelaskan cara menyiapkan retensi vendor.
+description: Artikel ini menjelaskan cara mengkonfigurasi retensi vendor.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -18,11 +18,11 @@ ms.locfileid: "8929770"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini menyediakan informasi tentang cara menyiapkan retensi vendor.
+Artikel ini memberikan informasi tentang cara mengkonfigurasi retensi vendor.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Mengkonfigurasikan akun retensi vendor dalam buku besar umum
 
-1. Di Dynamics 365 Finance, buka **Akun pengaturan** > **Posting buku** > **besar untuk transaksi otomatis**.
+1. Dalam Dynamics 365 Finance, buka **Buku besar** > **konfigurasi Posting** > **Akun untuk transaksi otomatis**.
 2. Tambah baris baru.
 3. Pada bidang **Jenis posting**, pilih **Retensi Vendor**.
 4. Pilih akun utama untuk posting retensi vendor.

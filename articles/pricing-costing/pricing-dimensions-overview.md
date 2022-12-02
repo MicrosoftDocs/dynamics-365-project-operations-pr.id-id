@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar dimensi harga
-description: Artikel ini menyediakan informasi tentang dimensi harga di Dynamics 365 Project Operations.
+description: Artikel ini memberikan informasi tentang dimensi harga di Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations dikirim dengan seperangkat dimensi harga default
 
 ![Tangkapan layar dari parameter Project Service dengan "berlaku for penjualan" disorot.](media/PS-OOB-parameters.png)
 
-Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi selengkapnya, lihat artikel berikut ini. 
+Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi lebih lanjut, lihat artikel berikut. 
   
   > [!NOTE]
   > Prosedur harus diselesaikan dalam urutan sebagaimana tercantum.

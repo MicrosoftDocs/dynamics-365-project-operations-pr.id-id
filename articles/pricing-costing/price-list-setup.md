@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan daftar harga
-description: Artikel ini menyediakan informasi tentang cara menyiapkan daftar harga biaya dan penjualan.
+description: Artikel ini menyediakan informasi tentang cara mengonfigurasikan biaya dan daftar harga penjualan.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

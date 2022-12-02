@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi peran pada template struktur rincian kerja
-description: Artikel ini menyediakan informasi tentang menyiapkan informasi peran pada templat Struktur perincian kerja.
+description: Artikel ini menyediakan informasi tentang cara mengkonfigurasi informasi peran pada template struktur rincian kerja.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

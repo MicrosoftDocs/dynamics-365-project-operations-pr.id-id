@@ -1,6 +1,6 @@
 ---
 title: Menentukan kalender sumber daya
-description: Artikel ini menyediakan informasi tentang cara menentukan kalender jam kerja untuk sumber daya di Operasi Proyek.
+description: artikel ini menyediakan informasi tentang cara menentukan kalender jam kerja untuk sumber daya dalam Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

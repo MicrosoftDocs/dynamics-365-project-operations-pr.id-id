@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Februari 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Februari 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Februari 2021 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029619"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
 - Project Operations di Lingkungan Dataverse 4.7.0.95
-- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.16 
+- Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.16 
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
@@ -46,12 +46,12 @@ Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operat
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Manajemen proyek dan akuntansi di Dynamics 365 Finance 
 
-Untuk informasi selengkapnya tentang Manajemen proyek dan akuntansi di Dynamics 365 Finance, lihat [Apa yang baru Januari 2021 - Operasi Proyek untuk skenario berbasis sumber daya/non-stok](whats-new-jan-2021-resource-based.md).
+Untuk informasi selengkapnya tentang manajemen Proyek dan akuntansi di Dynamics 365 Finance, lihat [Apa yang baru Januari 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi keuangan dan operasi, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke Lifecycle Services (LCS) dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Penyediaan lingkungan baru
-description: Artikel ini menyediakan informasi tentang cara menyediakan lingkungan Operasi Proyek baru.
+description: Artikel ini menyediakan informasi tentang bagaimana menyediakan lingkungan Project Operations baru.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 
 
-Artikel ini menyediakan informasi tentang cara menyediakan lingkungan baru Dynamics 365 Project Operations untuk skenario berbasis sumber daya/non-stok.
+Artikel ini menyediakan informasi tentang cara menyediakan lingkungan Dynamics 365 Project Operations untuk skenario berbasis sumber daya/non-stok.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Aktifkan penetapan otomatis Project Operations dalam proyek LCS
 
@@ -34,7 +34,7 @@ Gunakan langkah-langkah berikut untuk mengaktifkan alur penyediaan otomatis Proj
 
 ## <a name="provision-a-project-operations-environment"></a>Penyediaan lingkungan Project Operations
 
-1. Buka lingkungan [demo Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau [penyebaran lingkungan](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) sandbox/produksi. 
+1. Buka [lingkungan demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance baru atau penyebaran [lingkungan produksi/Sandbox](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Lalui Wizard **penyediaan lingkungan**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Anda mungkin perlu menerapkan pembaruan kualitas ke lingkungan Finance Anda untu
 
     ![Terapkan solusi.](./media/13ApplySolutions.png)
 
-5. Pilih kedua solusi, **Dynamics 365 Finance Peta Entitas Tulis Ganda dan** Peta **Dynamics 365 Project Operations** Entitas Tulis Ganda, lalu pilih **Terapkan**.
+5. Pilih kedua solusi, **peta entitas tulis ganda Dynamics 365 Finance** dan **peta entitas tulis ganda Dynamics 365 Project Operations**, lalu pilih **Terapkan**.
 
     ![Konfirmasi Solusi.](./media/14ConfirmSolutions.png)
 

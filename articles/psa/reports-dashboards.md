@@ -1,6 +1,6 @@
 ---
 title: Dasbor
-description: Artikel ini menyediakan informasi tentang dasbor pelaporan yang disertakan dalam Dynamics 365 Project Service Automation.
+description: Artikel ini menyediakan informasi tentang dasbor pelaporan yang disertakan di Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

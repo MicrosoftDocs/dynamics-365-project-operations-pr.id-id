@@ -1,6 +1,6 @@
 ---
 title: Membuat template jam kerja
-description: Artikel ini menjelaskan cara membuat templat jam kerja di Project Service.
+description: Artikel ini mendeskripsikan bagaimana membuat template jam kerja di Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Konsep estimasi keuangan
-description: Artikel ini memberikan informasi tentang perkiraan keuangan proyek dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang estimasi keuangan proyek di Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

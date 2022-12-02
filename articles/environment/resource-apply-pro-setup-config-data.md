@@ -1,6 +1,6 @@
 ---
 title: Pengaturan dan penerapan data konfigurasi di Microsoft Dataverse
-description: Artikel ini menyediakan informasi tentang menyiapkan dan menerapkan data konfigurasi dalam Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang mengonfigurasikan dan menerapkan data konfigurasi di Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
@@ -21,10 +21,10 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 ## <a name="prerequisites"></a>Prasyarat
 
-Sebelum Anda mulai mengonfigurasi data di Microsoft Dataverse, prasyarat berikut harus dipenuhi:
+Sebelum Anda mulai mengkonfigurasi data dalam Microsoft Dataverse, prasyarat berikut harus dipenuhi:
 
-1.  Dataverse Menyediakan lingkungan dan lingkungan yang Dynamics 365 Finance untuk Operasi Proyek.
-2.  Informasi badan hukum dari Dynamics 365 Finance dibagikan kepada Dataverse lingkungan. Ini berarti bahwa **entitas Perusahaan** di Dataverse memiliki catatan perusahaan berikut:
+1.  Penyediaan lingkungan Dataverse dan lingkungan Dynamics 365 Finance untuk Project Operations.
+2.  Informasi entitas hukum dari Dynamics 365 Finance dibagi ke lingkungan Dataverse. Ini berarti bahwa entitas **perusahaan** dalam Dataverse memiliki rekaman perusahaan berikut:
   - THPM
   - USPM
   - GBPM

@@ -1,6 +1,6 @@
 ---
 title: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek - lite
-description: Artikel ini menjelaskan cara mengelola beberapa pelanggan pada baris kutipan berbasis proyek.
+description: Artikel ini mendeskripsikan cara mengelola beberapa peal pada baris kuotasi berbasis proyek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

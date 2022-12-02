@@ -1,6 +1,6 @@
 ---
 title: Mengelola kompetensi sumber daya
-description: Artikel ini menyediakan informasi tentang menyiapkan kompetensi untuk sumber daya proyek.
+description: Artikel ini menyediakan informasi tentang konfigurasi kompetensi untuk sumber daya proyek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

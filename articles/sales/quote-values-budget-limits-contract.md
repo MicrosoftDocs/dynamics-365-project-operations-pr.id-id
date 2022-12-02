@@ -1,6 +1,6 @@
 ---
 title: Pengaturan kuotasi proyek
-description: Artikel ini menyediakan informasi tentang informasi dan pengaturan yang berlaku untuk dan memengaruhi kutipan proyek.
+description: Artikel ini menyediakan informasi tentang informasi dan pengaturan yang berlaku untuk dan berdampak pada kuotasi proyek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

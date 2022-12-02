@@ -35,21 +35,21 @@ Template proyek menghemat waktu Anda jika perusahaan Anda secara teratur mengaju
 ## <a name="components-of-project-template"></a>Komponen template proyek
  Template proyek terdiri dari tiga komponen:  
   
-- **Struktur rincian kerja**: struktur rincian kerja dalam sebuah template proyek memiliki serangkaian elemen yang sama seperti dalam proyek. Anda dapat membuat hierarki tugas, mengaitkan peran ke tugas, menentukan atribut jadwal, mengatur dependensi, dan melihat semua data di Gantt. Struktur rincian kerja dalam templat proyek juga mendukung mode tugas untuk setiap tugas. Tidak ada perbedaan antara template proyek dan proyek saat membuat jadwal kerja.  
+- **Struktur rincian kerja**: struktur rincian kerja dalam sebuah template proyek memiliki serangkaian elemen yang sama seperti dalam proyek. Anda dapat membuat hierarki tugas, mengaitkan peran untuk tugas, menetapkan atribut jadwal, mengatur dependensi dan melihat semua data di Gantt. Struktur rincian kerja dalam template proyek juga mendukung mode tugas untuk setiap tugas. Tidak ada perbedaan antara template proyek dan sebuah proyek ketika membuat jadwal kerja.  
   
 - **Perkiraan proyek**: Perkiraan proyek dalam template berfungsi dengan cara yang sama seperti yang mereka lakukan dalam proyek-proyek, kecuali daftar harga untuk default biaya dan harga penjualan selalu merupakan default biaya dan daftar harga penjualan yang didefinisikan dalam parameter [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Fungsi lainnya adalah sama seperti dalam sebuah proyek.  
   
 - **Pembentukan tim proyek**: ketika membentuk sebuah tim proyek untuk template proyek, Anda tidak dapat memesan sumber daya bernama dalam sebuah template. Anda dapat menggunakan **Buat tim proyek** dalam struktur rincian kerja untuk menghasilkan set sumber daya generik. Anda juga dapat menentukan keterampilan dan penguasaan yang diperlukan untuk sumber daya generik. Anda tidak dapat menggantikan sumber daya generik dengan sumber daya yang dapat dipesan dalam template proyek.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Membuat templat proyek dari proyek yang sudah ada
-Anda dapat membuat templat proyek dari proyek dengan cara berikut:
+## <a name="create-a-project-template-from-an-existing-project"></a>Membuat template proyek dari proyek yang ada
+Anda dapat membuat sebuah template proyek dari proyek dengan cara berikut ini:
 
-- **Struktur** rincian kerja: Struktur rincian kerja dalam templat yang berasal dari proyek akan menyalin semua tugas dan dependensi. Tugas yang dibuat akan didasarkan pada anggota tim generik yang ditambahkan ke tim proyek saat templat proyek dibuat.
-- **Perkiraan proyek**: Ketika templat proyek dibuat dari proyek yang sudah ada, perkiraan dari proyek sumber disalin ke templat proyek.
-- **Anggota tim proyek**: Saat templat dibuat dari proyek yang sudah ada, semua anggota tim bernama akan diganti dengan sumber daya generik organisasi. Semua nama posisi dan peran dipertahankan.
+- **Struktur perincian kerja**: Struktur perincian pekerjaan dalam template yang diambil dari proyek akan menyalin semua tugas dan dependensi. Penugasan yang dibuat akan didasarkan pada anggota tim generik yang ditambahkan ke tim proyek saat template proyek dibuat.
+- **Estimasi proyek**: Bila template proyek dibuat dari proyek yang ada, maka estimasi dari proyek sumber disalin ke template proyek.
+- **Anggota tim proyek**: Bila template dibuat dari proyek yang ada, semua anggota tim yang dinamai akan tergantikan dengan sumber daya generik organisasi. Semua nama posisi dan peran akan dipertahankan.
 
 ## <a name="create-a-project-from-a-template"></a>Buat Proyek dari Template  
- Anda dapat membuat proyek dari templat dengan cara berikut:  
+ Anda dapat membuat sebuah proyek dari template dengan cara berikut ini:  
   
 -   Ketika membuat sebuah proyek dari kuotasi, Anda dapat memilih template proyek dalam formulir membuat cepat proyek.  
   

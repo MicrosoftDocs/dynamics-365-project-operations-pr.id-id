@@ -1,6 +1,6 @@
 ---
 title: Laman beranda sumber daya proyek
-description: Artikel ini menyediakan informasi tentang sumber daya proyek.
+description: Artikel ini menyediakan informasi tentang penentuan sumber daya proyek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924020"
 
 [!include [banner](../includes/banner.md)]
 
-Artikel ini menyediakan informasi tentang sumber daya proyek.
+Artikel ini menyediakan informasi tentang penentuan sumber daya proyek.
 
-Satu tantangan untuk manajer proyek dan manajer sumber daya selama tahap perencanaan proyek adalah alokasi sumber daya, di mana mereka harus menentukan dan mencadangkan sumber daya yang benar untuk mengerjakan proyek. Dalam Dynamics 365 Finance, kemampuan sumber daya untuk proyek memungkinkan Anda menentukan peran yang diperlakukan sebagai sumber daya sementara yang dapat dicadangkan untuk keterlibatan tertentu atau bagian dari keterlibatan. Jenis penentuan sumber daya ini memungkinkan manajer dan manajer proyek menyelesaikan tugas berikut:
+Satu tantangan untuk manajer proyek dan manajer sumber daya selama tahap perencanaan proyek adalah alokasi sumber daya, di mana mereka harus menentukan dan mencadangkan sumber daya yang benar untuk mengerjakan proyek. Di Dynamics 365 Finance, kemampuan sumber daya untuk proyek memungkinkan Anda menentukan peran yang dianggap sebagai sumber daya sementara yang dapat dicadangkan untuk keterlibatan atau bagian keterlibatan tertentu. Jenis penentuan sumber daya ini memungkinkan manajer dan manajer proyek menyelesaikan tugas berikut:
 
 - Menentukan peran yang memiliki kompetensi yang diperlukan, sehingga mudah untuk mencocokkan sumber daya.
 - menggunakan peran untuk menentukan jadwal keterlibatan awal yang didasarkan pada sumber daya cadangan.
@@ -41,7 +41,7 @@ Satu tantangan untuk manajer proyek dan manajer sumber daya selama tahap perenca
 
 Seiring berjalannya Perencanaan proyek, sumber daya yang direncanakan dapat digantikan dengan sumber daya staf. Manajer Proyek juga dapat kembali dan memperbarui reservasi sumber daya selama setiap tahapan proyek.
 
-Artikel berikut memberikan informasi tentang tugas-tugas yang perlu diselesaikan ketika Anda sedang mengerjakan proyek sumber daya.
+Artikel berikut menyediakan informasi tentang tugas yang harus diselesaikan saat Anda mengerjakan proyek sumber daya.
 
 - [Konfigurasi sumber daya proyek](set-up-project-resources.md)
 - [Mengelola kompetensi sumber daya](manage-resource-competencies.md)

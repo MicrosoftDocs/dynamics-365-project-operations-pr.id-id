@@ -1,6 +1,6 @@
 ---
 title: Mengelola akumulasi penagihan proyek
-description: Artikel ini menyediakan informasi tentang berbagai tampilan yang tersedia untuk digunakan saat mengelola backlog penagihan pada proyek.
+description: Artikel ini berisi informasi tentang berbagai tampilan yang tersedia untuk digunakan saat mengelola akumulasi penagihan pada proyek.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

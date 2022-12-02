@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 42, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Rilis Pembaruan 42, V3.
+description: Artikel ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 42, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8912719"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation Update Release 42, V3. Versi ini memiliki nomor pembuatan V3.10.73.61 dan umumnya tersedia melalui pembaruan mandiri pada April 2022.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 42, V3. Versi ini memiliki nomor pembuatan V3.10.73.61 dan umumnya tersedia melalui pembaruan mandiri pada April 2022.
 
 ## <a name="update-release-42"></a>Pembaruan rilis 42
 
@@ -39,10 +39,10 @@ Masalah berikut telah diperbaiki.
 
 **Waktu dan Pengeluaran**
 
-- Ketika lembar waktu ditolak, pengguna yang menolaknya salah diidentifikasi sebagai **Sistem**.
-- Ketika entri waktu diimpor, **nilai Kategori** Sumber Daya hilang.
-- Pemberi persetujuan proyek dapat menyetujui proyek yang dikirimkan saat izinnya tidak secara khusus diatur ke **Dapat Menyetujui**.
+- Bila lembar waktu ditolak, pengguna yang menolaknya tidak diidentifikasi dengan benar sebagai **Sistem**.
+- Bila entri waktu diimpor, nilai **Kategori Sumber Daya** tidak ada.
+- Pemberi izin proyek dapat menyetujui proyek yang diajukan bila izin mereka tidak diatur secara khusus ke **Dapat Menyetujui**.
 
 **Penjualan**
 
-- Ketika aktual dicatat pada tugas tingkat non-root, biaya aktual salah dikumpulkan.
+- Ketika aktual dicatat pada tugas tingkat non-root, biaya aktual salah agregat.

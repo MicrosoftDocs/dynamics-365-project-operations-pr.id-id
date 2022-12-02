@@ -38,7 +38,7 @@ Saat menentukan mode penjadwalan proyek, Anda menetapkan salah satu nilai ini, y
 | Tugas Upaya tetap    | Durasi akan dihitung ulang. | Unit akan dihitung ulang.    | Durasi akan dihitung ulang. |
 | Tugas Durasi tetap  | Upaya akan dihitung ulang.   | Upaya akan dihitung ulang.    | Unit akan dihitung ulang.   |
 
-Untuk informasi lebih lanjut tentang dampak mode tertentu, lihat [Mengubah jenis tugas untuk penjadwalan yang lebih akurat](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dalam artikel tersebut, istilah **Pekerjaan** digunakan sebagai pengganti **Usaha**.
+Untuk informasi lebih lanjut tentang dampak mode tertentu, lihat [Mengubah jenis tugas untuk penjadwalan yang lebih akurat](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dalam artikel, istilah **Pekerjaan** digunakan, bukan **Upaya**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Mengubah mode penjadwalan organisasi
 

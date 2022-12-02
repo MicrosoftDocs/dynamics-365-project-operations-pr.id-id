@@ -1,6 +1,6 @@
 ---
-title: Aplikasi Anggota Tim Operasi Proyek
-description: Artikel ini menyediakan informasi tentang aplikasi Anggota Tim Operasi Proyek di Microsoft Dynamics 365 Project Operations.
+title: Aplikasi Project Operations Team Member
+description: Artikel ini memberikan informasi tentang aplikasi Project Operations Team Member di Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918224"
 ---
-# <a name="project-operations-team-member-app"></a>Aplikasi Anggota Tim Operasi Proyek
+# <a name="project-operations-team-member-app"></a>Aplikasi Project Operations Team Member
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Aplikasi Anggota Tim Operasi Proyek (sebelumnya dikenal sebagai Project Resource Hub) mencakup semua kemampuan yang ditawarkan Microsoft Dynamics 365 Project Operations kepada lisensi pengguna Anggota Tim.
+Aplikasi Project Operations Team Member (sebelumnya dikenal sebagai Project Resource Hub) mencakup semua kemampuan yang ditawarkan Microsoft Dynamics 365 Project Operations kepada lisensi pengguna Team Member.
 
-Berikut adalah beberapa kemampuan aplikasi Anggota Tim Operasi Proyek:
+Berikut adalah beberapa kemampuan aplikasi Project Operations Team Member:
 
 - Entri waktu
-- Entri biaya (penyebaran Lite)
+- Entri pengeluaran (penyebaran Lite)
 - Penggunaan Bahan
 - Approvals
 - Ekstensibilitas (hingga 15 entitas)
 
-Untuk menggunakan aplikasi Anggota Tim Operasi Proyek, Anda harus memiliki lisensi Operasi Proyek penuh atau lisensi pengguna Anggota Tim Dynamics. Untuk informasi selengkapnya tentang lisensi, lihat [Panduan Lisensi Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikasi Anggota Tim Operasi Proyek memerlukan penyebaran Operasi Proyek.
+Untuk menggunakan aplikasi Project Operations Team Member, Anda harus memiliki lisensi Project Operations lengkap atau lisensi pengguna Dynamics Team Member. Untuk informasi lebih lanjut tentang lisensi, lihat [Panduan Lisensi Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikasi Project Operations Team Member memerlukan penyebaran Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

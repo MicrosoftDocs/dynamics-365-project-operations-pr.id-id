@@ -1,6 +1,6 @@
 ---
 title: Pesan untuk proyek
-description: Artikel ini memberikan informasi tentang pemesanan sumber daya ke proyek.
+description: artikel ini menyediakan informasi tentang cara memesan sumber daya untuk proyek.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article

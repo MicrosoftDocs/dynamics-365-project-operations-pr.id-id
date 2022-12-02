@@ -1,6 +1,6 @@
 ---
 title: Apa yang baru di bulan April 2021 - penyebaran Project Operations lite
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis April 2021 penyebaran Project Operations lite.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia di penyebaran Project Operations lite april 2021.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931243"
 
 _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
   - Lingkungan Project Operations untuk Dataverse versi 4.9.0.221 
 

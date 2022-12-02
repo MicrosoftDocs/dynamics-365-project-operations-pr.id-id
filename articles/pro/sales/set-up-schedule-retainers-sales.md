@@ -1,6 +1,6 @@
 ---
 title: Mengatur jadwal panjar
-description: Artikel ini menyediakan informasi tentang cara menyiapkan jadwal retainer di Project Operations.
+description: Artikel ini menyediakan informasi tentang cara mengkonfigurasi jadwal panjar di Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

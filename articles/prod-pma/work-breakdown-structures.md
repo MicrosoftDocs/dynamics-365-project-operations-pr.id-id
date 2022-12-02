@@ -35,7 +35,7 @@ Tingkat detail di WBS tergantung pada tingkat akurasi yang diperlukan dalam perk
 
 Sebaliknya, proyek di industri seperti media dan periklanan, perangkat lunak, dan infrastruktur TI cenderung menjadi jenis tersendiri, dan produktivitasnya relatif terhadap pengalaman dan kompetensi individu yang melakukan tugas. Oleh karena itu, industri ini menggunakan WBS untuk mendapatkan perkiraan ukuran proyek, bukan untuk melacak kemajuan proyek secara rinci. 
 
-Membangun WBS adalah proses intensif yang biasanya dilakukan selama periode yang panjang, dan yang memerlukan kolaborasi dan informasi dari berbagai orang. Artikel ini menjelaskan bagaimana Anda dapat menggunakan peningkatan WBS untuk memenuhi persyaratan Anda untuk perkiraan dan pelacakan.
+Membangun WBS adalah proses intensif yang biasanya dilakukan selama periode yang panjang, dan yang memerlukan kolaborasi dan informasi dari berbagai orang. Artikel ini menjelaskan bagaimana anda dapat menggunakan peningkatan wbs untuk memenuhi kebutuhan anda akan estimasi dan pelacakan.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prasyarat untuk membuat WBS
 Untuk membuat WBS, Anda harus dapat membuat jadwal kerja dan memperkirakan biaya kerja.
@@ -166,7 +166,7 @@ Finance memiliki tiga tampilan untuk WBS suatu proyek: tampilan perencanaan, tam
 
 ### <a name="planning-view"></a>Tampilan perencanaan
 
-Tampilan perencanaan menampilkan perkiraan terencana atau garis dasar dari informasi jadwal dan biaya. Meskipun tidak ada fitur untuk melacak versi dan garis dasar untuk WBS proyek, nilai dalam tampilan ini ditujukan untuk menunjukkan versi garis dasar. Bagian Estimasi jadwal dan Estimasi biaya dari artikel ini menjelaskan tampilan ini dan bagaimana tampilan tersebut digunakan untuk membuat WBS.
+Tampilan perencanaan menampilkan perkiraan terencana atau garis dasar dari informasi jadwal dan biaya. Meskipun tidak ada fitur untuk melacak versi dan garis dasar untuk WBS proyek, nilai dalam tampilan ini ditujukan untuk menunjukkan versi garis dasar. Bagian estimasi jadwal dan estimasi biaya di artikel ini menjelaskan tampilan ini dan cara menggunakannya untuk membuat wbs.
 
 ### <a name="effort-tracking-view"></a>Tampilan Pelacakan Upaya
 

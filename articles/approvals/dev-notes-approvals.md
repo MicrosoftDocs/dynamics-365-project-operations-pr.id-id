@@ -1,6 +1,6 @@
 ---
 title: Catatan pengembang untuk persetujuan
-description: Artikel ini memberikan informasi pengembang tambahan tentang bekerja dengan persetujuan.
+description: artikel ini memberikan informasi pengembang tambahan tentang cara menangani persetujuan.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

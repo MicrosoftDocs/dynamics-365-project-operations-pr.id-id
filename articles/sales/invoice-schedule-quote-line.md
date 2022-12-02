@@ -1,6 +1,6 @@
 ---
 title: Jadwal faktur pada baris kuotasi berbasis proyek
-description: Artikel ini menyediakan informasi tentang membuat jadwal faktur dan tonggak pencapaian untuk baris kutipan.
+description: Artikel ini menyediakan informasi tentang pembuatan jadwal faktur dan tonggak untuk baris kuotasi.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

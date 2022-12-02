@@ -1,6 +1,6 @@
 ---
 title: Bidang Project Operations sebagai dimensi harga
-description: Artikel ini menyediakan informasi menggunakan bidang sebagai dimensi harga di Dynamics 365 Project Operations.
+description: Artikel ini memberikan informasi menggunakan bidang sebagai dimensi harga di Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

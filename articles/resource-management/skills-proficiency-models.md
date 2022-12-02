@@ -1,6 +1,6 @@
 ---
 title: Keterampilan dan sertifikasi
-description: Artikel ini memberikan informasi tentang menambahkan keterampilan dan karakteristik sertifikasi ke sumber daya.
+description: Artikel ini memberikan informasi tentang menambahkan karakteristik keterampilan dan sertifikasi ke sumber daya.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Uang muka
-description: Artikel ini memberikan informasi tentang penarikan tunai.
+description: artikel ini menyediakan informasi tentang kasbon.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article

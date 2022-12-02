@@ -1,6 +1,6 @@
 ---
 title: Rencanakan pekerjaan Anda di Microsoft Project dengan add-in Project Service
-description: Artikel ini menyediakan informasi tentang cara menggunakan add-in Microsoft Project untuk Microsoft Project Service.
+description: Artikel ini menyediakan informasi tentang cara menggunakan add-in Microsoft project untuk Microsoft project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

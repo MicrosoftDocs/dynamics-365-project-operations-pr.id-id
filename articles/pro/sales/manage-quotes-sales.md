@@ -1,6 +1,6 @@
 ---
 title: Mengelola kuotasi proyek
-description: Artikel ini menyediakan informasi tentang kutipan proyek.
+description: Artikel ini menyediakan informasi tentang kuotasi proyek.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Daftar semua kuotasi proyek dapat dilihat dari halaman daftar **Kuotasi**.
 Kuotasi dapat dibuat atau dihapus dari halaman daftar ini atau halaman detail.
 
  > [!NOTE]
- > Kutipan yang memiliki proyek, tugas, perkiraan, jurnal, dan/atau aktual yang terkait dengannya tidak dapat dihapus. Juga, ketika kutipan ditutup sebagai Won atau Lost, kutipan tersebut tidak dapat lagi dihapus atau dimodifikasi. 
+ > Kuotasi yang memiliki proyek, tugas, estimasi, harian, dan/atau aktual yang terkait dengannya tidak dapat dihapus. Selain itu, bila kuotasi ditutup sebagai Menang atau Kalah, kuotasi tidak dapat lagi dihapus atau dimodifikasi. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,20 +17,20 @@ ms.locfileid: "9261020"
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini menjelaskan transisi status pada faktur vendor di Microsoft Dynamics 365 Project Operations. Status berikut digunakan: Draf **,** Dalam peninjauan **,** Dikonfirmasi **,** Ditahan **, dan** Dibatalkan **.**
+Artikel ini menjelaskan transisi status pada faktur vendor di Microsoft Dynamics 365 Project Operations. Status bagian berikut digunakan: **Draf**, **sedang ditinjau**, **Terkonfirmasi**, **Ditahan**, dan **Dibatalkan**.
 
-Ilustrasi berikut menunjukkan transisi status.
+Ilustrasi berikut menampilkan transisi status.
 
 ![Model transisi status subkontrak.](../media/VI_State_Model.jpg)
 
-Tabel berikut menjelaskan apa yang diwakili oleh setiap status dalam siklus hidup faktur vendor dalam Operasi Proyek.
+Tabel berikut menjelaskan apa yang ditunjukkan setiap status dalam siklus hidup faktur vendor dalam Project Operations.
 
-| Provinsi | Deskripsi | Transisi yang diizinkan |
+| Provinsi | Description | Transisi yang diizinkan |
 | --- | --- | --- |
-| Draf | Status ini adalah status awal faktur vendor. Garis dan harga dapat dimodifikasi. Faktur vendor dalam status ini dapat diedit dan dihapus. | Dalam proses |
-| Sedang ditinjau | Status ini mewakili status pemrosesan faktur vendor. Setidaknya satu baris faktur vendor memiliki status **verifikasi Sedang berlangsung**. | Dikonfirmasi, Ditahan |
-| Dikonfirmasi | Status ini mewakili tahap faktur vendor di mana aplikasi telah membuat aktual biaya untuk setiap baris faktur vendor. Setiap aktual biaya tertaut yang dicocokkan dengan baris faktur vendor telah dibalik dan diganti dengan aktual biaya dari baris faktur vendor tersebut. Faktur vendor dalam status ini tidak dapat diedit atau dihapus. Anda dapat menggunakan tombol **Batal** untuk membatalkan faktur vendor yang dikonfirmasi. Tindakan Batalkan membatalkan membalikkan dampak tindakan Konfirmasi. | Dibatalkan |
-| Ditahan | <p>Status ini mewakili tahap faktur vendor di mana faktur vendor tidak dapat dipindahkan karena masalah dengan faktur atau status vendor. Faktur vendor dalam status ini tidak dapat dikonfirmasi, dibatalkan, diedit, atau dihapus.</p><p>Anda dapat menggunakan tindakan Buka kembali untuk memindahkan faktur vendor ke **Draf** atau **Dalam status Peninjauan**. Jika setidaknya satu baris pada faktur vendor memiliki status **verifikasi Sedang Berlangsung** atau **Selesai**, faktur vendor akan dibuka kembali dalam **status Dalam peninjauan**. Jika semua baris pada faktur vendor memiliki status **verifikasi Tidak dimulai**, faktur vendor akan dibuka kembali di **negara bagian Draf**.</p> | Draf, Dalam peninjauan |
-| Dibatalkan | Keadaan ini mewakili tahap subkontrak di mana pengiriman aktual materi dan / atau pekerjaan oleh sumber daya yang disubkontrakkan tidak lagi diperlukan. Subkontrak di negara bagian ini tidak dapat digunakan untuk memperkirakan dan staf persyaratan proyek untuk sumber daya dan bahan, dan juga tidak dapat dirujuk tepat waktu, biaya, dan penggunaan material pada suatu proyek. Subkontrak dalam status ini tidak dapat diedit atau dihapus. | Tidak ada |
+| Draf | Kondisi ini adalah status awal faktur vendor. Baris dan harga tergantung modifikasi. Faktur Vendor dalam status ini dapat diedit dan dihapus. | Sedang diproses |
+| Sedang ditinjau | Kondisi ini mewakili status pemrosesan faktur vendor. Sekurangnya satu baris faktur vendor memiliki status verifikasi **Sedang berlangsung**. | Dikonfirmasi, Ditahan |
+| Dikonfirmasi | Kondisi ini menunjukkan tahapan faktur vendor dengan aplikasi telah membuat aktual biaya untuk setiap baris faktur vendor. Aktual biaya tertaut yang cocok dengan baris faktur vendor telah dibalik dan dibandingkan dengan aktual biaya dari baris faktur vendor tersebut. Faktur Vendor dalam status ini tidak dapat diedit atau dihapus. Anda dapat menggunakan tombol **Batal** untuk membatalkan faktur vendor terkonfirmasi. Tindakan Batal akan mengembalikan dampak tindakan Konfirmasi. | Dibatalkan |
+| Ditahan | <p>Kondisi ini menunjukkan tahapan faktur vendor dengan faktur vendor tidak dapat bergerak karena masalah dengan faktur atau status vendor. Faktur vendor dalam status ini tidak dapat diedit, dibatalkan, diedit, atau dihapus.</p><p>Anda dapat menggunakan tindakan Buka kembali untuk memindahkan faktur vendor ke status **Draf** atau **sedang ditinjau**. Jika sekurangnya satu baris pada faktur vendor memiliki status verifikasi **Sedang Berlangsung** atau **Selesai**, faktur vendor akan dibuka kembali dalam status **sedang ditinjau**. Jika semua baris pada faktur vendor memiliki status verifikasi **belum dimulai**, faktur vendor akan dibuka kembali dalam status **Draf**.</p> | Draf, Sedang Ditinjau |
+| Dibatalkan | Status Ini menunjukkan tahapan subkontrak di mana pengiriman bahan aktual dan/atau pekerjaan dengan sumber daya subkontrak sudah tidak dibutuhkan lagi. Subkontrak dalam status ini tidak dapat digunakan untuk memperkirakan dan mengelola persyaratan proyek untuk sumber daya dan bahan, dan juga tidak dapat dirujuk pada waktu, pengeluaran, dan penggunaan bahan pada proyek. Subkontrak dalam status ini tidak dapat diedit atau dihapus. | Tidak ada |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

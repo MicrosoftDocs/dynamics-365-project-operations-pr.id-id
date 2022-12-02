@@ -1,6 +1,6 @@
 ---
 title: Mengelola unit kompleks seperti per-pengguna, per bulan untuk baris kuotasi berbasis produk - lite
-description: Artikel ini menyediakan informasi tentang mengelola unit kompleks untuk garis kutipan berbasis produk.
+description: Artikel ini memberikan informasi tentang mengeluarkan unit kompleks untuk baris kuotasi berbasis produk.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

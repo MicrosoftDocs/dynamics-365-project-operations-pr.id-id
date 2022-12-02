@@ -1,6 +1,6 @@
 ---
 title: Menelusuri Project Operations
-description: Artikel ini menyediakan informasi tentang cara mengakses Operasi Proyek dari Lifecycle Services.
+description: Artikel ini menyediakan informasi tentang cara mengakses Project Operations dari Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 Dynamics 365 Project Operations untuk skenario sumber daya/non-stok terdiri dari dua komponen: 
 
  - **Lingkungan Project Operations di Common Data Service (CDS)**: komponen ini mencakup kemampuan dan proses dari peluang ke faktur proforma. 
- - **Manajemen proyek dan akuntansi pada lingkungan** Dynamics 365 Finance: Komponen ini mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. 
+ - **Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance**: komponen ini mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. 
 
-Setelah Anda menyediakan Operasi Proyek seperti yang dijelaskan dalam artikel ini, halaman detail **Lingkungan Lifecycle Services (LCS)** menyediakan akses mudah ke kedua komponen Operasi Proyek.  
+Setelah Anda menyediakan Project Operations sebagaimana dijelaskan dalam artikel ini, halaman **rincian lingkungan** Lifecycle Services (lcs) menyediakan akses mudah ke kedua komponen Project Operations.  
 
 Gunakan nama lingkungan di bagian, **nama lingkungan Common Data Service** untuk menavigasi ke Project Operations di lingkungan CDS. 
 

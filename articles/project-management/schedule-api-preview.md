@@ -1,6 +1,6 @@
 ---
 title: Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan
-description: Artikel ini menyediakan informasi dan sampel untuk menggunakan API jadwal Proyek.
+description: Artikel ini memberikan informasi dan sampel untuk menggunakan API jadwal Proyek.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -34,7 +34,7 @@ Tabel berikut menyediakan daftar lengkap entitas jadwal Proyek.
 | Anggota Tim Proyek     | msdyn_projectteam           |
 | Daftar Periksa Proyek      | msdyn_projectchecklist      |
 | Label Proyek           | msdyn_projectlabel          |
-| Tugas Proyek untuk Memberi Label   | msdyn_projecttasktolabel    |
+| Tugas Proyek yang akan Dilabeli   | msdyn_projecttasktolabel    |
 | Sprint Proyek          | msdyn_projectsprint         |
 
 **OperationSet**
@@ -45,16 +45,16 @@ OperationSet adalah pola unit kerja yang dapat digunakan ketika beberapa jadwal 
 
 Berikut adalah daftar API jadwal Proyek saat ini.
 
-| **API**                                 | Deskripsi                                                                                                                       |
+| **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | API ini digunakan untuk membuat proyek. Bucket proyek dan proyek default segera dibuat.                         |
+| **msdyn_CreateProjectV1**               | API ini digunakan untuk membuat proyek. Proyek dan wadah proyek default segera dibuat.                         |
 | **msdyn_CreateTeamMemberV1**            | API ini digunakan untuk membuat anggota tim proyek. Rekaman anggota tim akan segera dibuat.                                  |
 | **msdyn_CreateOperationSetV1**          | API ini digunakan untuk menjadwalkan beberapa permintaan yang harus dilakukan dalam transaksi.                                        |
 | **msdyn_PssCreateV1**                   | API ini digunakan untuk membuat entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi pembuatan. |
-| **msdyn_PssUpdateV1**                   | API ini digunakan untuk memperbarui entitas. Entitas dapat berupa salah satu entitas penjadwalan Proyek yang mendukung operasi pembaruan  |
+| **msdyn_PssUpdateV1**                   | API ini digunakan untuk memperbarui entitas. Entitas dapat berupa entitas penjadwalan Proyek apa pun yang mendukung operasi pembaruan  |
 | **msdyn_PssDeleteV1**                   | API ini digunakan untuk menghapus entitas. Entitas dapat merupakan entitas penjadwalan Proyek yang mendukung operasi penghapusan. |
-| **msdyn_ExecuteOperationSetV1**         | API ini digunakan untuk menjalankan semua operasi dalam set operasi yang diberikan.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | API ini digunakan untuk memperbarui kontur kerja yang direncanakan Penugasan Sumber Daya.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | API ini digunakan untuk mengeksekusi semua operasi dalam rangkaian operasi yang ditentukan.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | API ini digunakan untuk memperbarui kontur kerja terencana Penugasan Sumber Daya.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Karena rekaman dengan **CreateProjectV1** dan **CreateTeamMemberV1** dibuat deng
 
 | **Entitas Penjadwalan**   | **Buat** | **Pembaruan** | **Delete** | **Pertimbangan penting**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tugas proyek            | Ya        | Ya        | Ya        | Bidang **Progress**, **EffortCompleted**, dan **EffortRemaining** dapat diedit di Project for the Web, tetapi tidak dapat diedit di Project Operations.                                                                                                                                                                                             |
-| Dependensi Tugas Proyek | Ya        | No         | Ya        | Rekaman dependensi tugas proyek tidak diperbarui. Sebagai gantinya, catatan lama dapat dihapus, dan catatan baru dapat dibuat.                                                                                                                                                                                                                                 |
-| Penetapan Sumber Daya     | Ya        | Ya\*      | Ya        | Operasi dengan bidang berikut tidak didukung: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, dan **PlannedWork**. Rekaman penetapan sumber daya tidak diperbarui. Sebagai gantinya, catatan lama dapat dihapus, dan catatan baru dapat dibuat. API terpisah telah disediakan untuk memperbarui kontur Penugasan Sumber Daya. |
-| Wadah Proyek          | Ya        | Ya        | Ya        | Bucket default dibuat dengan **menggunakan API CreateProjectV1**. Dukungan untuk membuat dan menghapus bucket proyek ditambahkan di Rilis Pembaruan 16.                                                                                                                                                                                                   |
+| Tugas proyek            | Ya        | Ya        | Ya        | Bidang **Progres**, **EffortCompleted**, dan **EffortRemaining** dapat diedit di Project for the Web, namun tidak dapat diedit dalam Project Operations.                                                                                                                                                                                             |
+| Dependensi Tugas Proyek | Ya        | No         | Ya        | Rekaman dependensi tugas proyek tidak diperbarui. Sebagai gantinya, rekaman lama dapat dihapus, dan rekaman baru dapat dibuat.                                                                                                                                                                                                                                 |
+| Penetapan Sumber Daya     | Ya        | Ya\*      | Ya        | Operasi dengan bidang berikut tidak didukung: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, dan **PlannedWork**. Rekaman penetapan sumber daya tidak diperbarui. Sebagai gantinya, rekaman lama dapat dihapus, dan rekaman baru dapat dibuat. API terpisah telah diberikan untuk memperbarui kontur Penugasan Sumber Daya. |
+| Wadah Proyek          | Ya        | Ya        | Ya        | Wadah default dibuat dengan menggunakan API **CREATEKainyV1**. Dukungan untuk membuat dan menghapus wadah proyek telah ditambahkan dalam Pembaruan Release 16.                                                                                                                                                                                                   |
 | Anggota Tim Proyek     | Ya        | Ya        | Ya        | Untuk operasi pembuatan, gunakan API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Ya        | Ya        |            | Operasi dengan bidang berikut tidak didukung: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, dan **Duration**.                                                                                       |
 | Daftar Periksa Proyek      | Ya        | Ya        | Ya        |                                                                                                                                                                                                                                                                                                                                                         |
-| Label Proyek           | No         | Ya        | No         | Nama label dapat diubah. Fitur ini hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                      |
-| Tugas Proyek untuk Memberi Label   | Ya        | No         | Ya        | Fitur ini hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Sprint Proyek          | Ya        | Ya        | Ya        | Bidang **Mulai** harus memiliki tanggal yang lebih awal dari **bidang Selesai**. Sprint untuk proyek yang sama tidak dapat tumpang tindih satu sama lain. Fitur ini hanya tersedia untuk Project for the Web                                                                                                                                                                    |
+| Label Proyek           | No         | Ya        | No         | Nama label dapat diubah. Fitur ini tersedia hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                      |
+| Tugas Proyek yang akan Dilabeli   | Ya        | No         | Ya        | Fitur ini tersedia hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Sprint Proyek          | Ya        | Ya        | Ya        | Bidang **Mulai** harus memiliki tanggal lebih awal dari bidang **Selesai**. Sprint untuk proyek yang sama tidak boleh tumpang tindih satu sama lain. Fitur ini tersedia hanya tersedia untuk Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Properti ID bersifat opsional. Jika diberikan, sistem mencoba menggunakannya dan
 
 Berikut adalah daftar batasan dan masalah umum:
 
--   API Jadwal Proyek hanya dapat digunakan oleh **Pengguna dengan Lisensi** Microsoft Project. Tidak dapat digunakan oleh:
+-   API Jadwal Proyek hanya dapat digunakan oleh **Pengguna dengan Lisensi Microsoft Project**. Tidak dapat digunakan oleh:
     -   Pengguna Aplikasi
     -   Pengguna Sistem
     -   Pengguna Integrasi
@@ -94,12 +94,12 @@ Berikut adalah daftar batasan dan masalah umum:
 -   Setiap **OperationSet** hanya dapat memiliki maksimum 100 operasi.
 -   Setiap pengguna hanya dapat membuka maksimum 10 **OperationSet** terbuka.
 -   Project Operations saat ini mendukung maksimum 500 tugas total pada proyek.
--   Setiap operasi Kontur Penetapan Sumber Daya Pembaruan dihitung sebagai satu operasi.
--   Setiap daftar kontur yang diperbarui dapat berisi maksimal 100 irisan waktu.
+-   Setiap operasi Memperbarui Kontur Penugasan Sumber Daya dihitung sebagai satu operasi.
+-   Setiap daftar kontur yang diperbarui dapat berisi maksimum 100 potongan waktu.
 -   Status kegagalan dan log kegagalan **OperationSet** saat ini tidak tersedia.
--   Ada maksimal 400 sprint per proyek.
+-   Tersedia maksimum 400 sprint per proyek.
 -   [Batas dan batasan pada proyek dan tugas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Label saat ini hanya tersedia untuk Project untuk Web.
+-   Fitur ini sekarang hanya tersedia untuk Project for the Web
 
 **Penanganan kesalahan**
 
@@ -108,21 +108,21 @@ Berikut adalah daftar batasan dan masalah umum:
 
 **Mengedit Kontur Penugasan Sumber Daya**
 
-Tidak seperti semua API penjadwalan proyek lainnya yang memperbarui entitas, API kontur penugasan sumber daya bertanggung jawab penuh atas pembaruan ke satu bidang, msdyn_plannedwork, pada satu entitas, msydn_resourceassignment.
+Tidak seperti semua API penjadwalan proyek lainnya yang memperbarui entitas, API konstur penugasan sumber daya bertanggung jawab penuh untuk pembaruan ke satu bidang, msdyn_plannedwork, pada satu entitas, msydn_resourceassignment.
 
-Mode jadwal yang diberikan adalah:
+Mode jadwal yang ditentukan adalah:
 
 -   **unit tetap**
--   Kalender proyek adalah 9-5p adalah 9-5pst, Mon, Tue, Thurs, Friday (NO WORK WEDNESDAYS)
--   Dan kalender sumber daya adalah 9-1p PST Senin hingga Jumat
+-   kalender proyek 9-5p adalah 9-5pst, Senin, Selasa, Kamis, Jumat (RABU LIBUR)
+-   dan kalender sumber daya 9-1p PST Senin hingga Jumat
 
-Tugas ini selama satu minggu, empat jam sehari. Ini karena kalender sumber daya adalah dari 9-1 PST, atau empat jam sehari.
+Penugasan ini adalah untuk satu minggu, empat jam sehari. Hal ini karena kalender sumber daya dari 9-1 PST, atau empat jam sehari.
 
-| &nbsp;     | Tugas | Tanggal Mulai | Tanggal Akhir  | Jumlah | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Tugas | Tanggal Mulai | Tanggal Akhir  | Jumlah | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 pekerja |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| Pekerja 9-1 |  T1  | 13/6/2022  | 17/6/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Misalnya, jika Anda ingin pekerja hanya bekerja tiga jam setiap hari minggu ini dan memungkinkan satu jam untuk tugas-tugas lain.
+Misalnya, jika Anda ingin agar pekerja hanya bekerja tiga jam setiap hari di minggu ini dan memungkinkan selama satu jam untuk tugas lainnya.
 
 #### <a name="updatedcontours-sample-payload"></a>Payload sampel UpdatedContours:
 
@@ -138,11 +138,11 @@ Misalnya, jika Anda ingin pekerja hanya bekerja tiga jam setiap hari minggu ini 
 }]
 ```
 
-Ini adalah penugasan setelah Update Contour Schedule API dijalankan.
+Ini adalah penugasan setelah API Jadwal Kontur Pembaruan dijalankan.
 
-| &nbsp;     | Tugas | Tanggal Mulai | Tanggal Akhir  | Jumlah | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Tugas | Tanggal Mulai | Tanggal Akhir  | Jumlah | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 pekerja | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| Pekerja 9-1 | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Contoh Skenario**

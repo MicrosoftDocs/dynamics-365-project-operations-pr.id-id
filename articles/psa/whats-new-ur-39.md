@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 39, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Pembaruan Rilis 39, V3.
+description: Artikel ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 39, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922456"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation Update Release 39, V3. Versi ini memiliki nomor pembuatan V3.10.60.170 dan umumnya tersedia melalui pembaruan mandiri pada Januari 2022.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 39, V3. Versi ini memiliki nomor pembuatan V3.10.60.170 dan umumnya tersedia melalui pembaruan mandiri pada Januari 2022.
 
 ## <a name="update-release-39"></a>Pembaruan rilis 39
 
@@ -39,14 +39,14 @@ Masalah berikut telah diperbaiki.
 
 **Umum**
 
-- Beberapa perbaikan telah dilakukan pada peta situs untuk terjemahan bahasa Arab.
+- Beberapa peningkatan telah dibuat pada peta situs untuk terjemahan Arab.
 
 **Manajemen proyek**
 
-- Kesalahan terjadi ketika Anda mengubah manajer proyek pada proyek menjadi pengguna yang sudah menjadi anggota tim pada proyek.
+- Kesalahan terjadi saat Anda mengubah manajer proyek pada proyek ke pengguna yang telah menjadi anggota tim di proyek.
 
 **Penjualan**
 
-- Pemilik **daftar** harga kontrak Proyek salah ketika daftar harga dibuat secara otomatis. 
-- Efektivitas tanggal daftar harga tidak akan terpengaruh saat daftar harga diterapkan ke parameter proyek.
-- Unit kontrak mungkin tidak memiliki nilai default yang benar saat mengedit dua kutipan terpisah.
+- Pemilik **daftar harga kontrak Proyek** salah saat daftar harga dibuat secara otomatis. 
+- Efektivitas tanggal daftar harga tidak diperhitungkan ketika daftar harga diterapkan ke parameter proyek.
+- Unit kontrak mungkin tidak memiliki nilai default yang benar saat mengedit dua kuotasi terpisah.

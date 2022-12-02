@@ -1,6 +1,6 @@
 ---
 title: Menyalin daftar harga
-description: Artikel ini menyediakan informasi tentang cara menyalin daftar harga di Operasi Proyek.
+description: artikel ini menyediakan informasi tentang cara menyalin daftar harga produk dalam Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

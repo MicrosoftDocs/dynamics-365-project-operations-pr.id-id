@@ -1,6 +1,6 @@
 ---
 title: Kinerja proposal faktur proyek
-description: Artikel ini menyediakan informasi tentang peningkatan kinerja pada proposal faktur proyek.
+description: Artikel ini ini berisi informasi tentang peningkatan performa pada proposal faktur proyek.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

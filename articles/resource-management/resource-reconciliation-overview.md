@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar rekonsiliasi sumber daya
-description: Artikel ini memberikan informasi yang akan membantu Anda memastikan bahwa pemesanan sumber daya dan penugasan untuk proyek selaras.
+description: Artikel ini ini memberikan informasi yang membantu Anda memastikan bahwa pemesanan dan penetapan sumber daya untuk proyek selaras.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

@@ -26,9 +26,9 @@ ms.locfileid: "8926044"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang kustom dan entitas untuk digunakan sebagai dimensi harga](create-custom-fields-entities-pricing-dimensions.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
+Artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur di artikel, [membuat entitas dan bidang kustom untuk digunakan sebagai dimensi harga](create-custom-fields-entities-pricing-dimensions.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
 
-Pada artikel ini, prosedur akan menunjukkan kepada Anda cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan ke elemen antarmuka pengguna (UI) seperti formulir dan tampilan.
+Dalam artikel ini, prosedur akan menunjukkan cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan elemen antarmuka pengguna (UI) seperti formulir dan tampilan.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Menambahkan bidang dimensi harga kustom 
 Setelah bidang kustom dan entitas telah dibuat, langkah selanjutnya adalah membuat pengaturan harga dan entitas transaksi yang mengetahui entitas kustom atau rangkaian pilihan dengan membuat bidang referensi. Tergantung pada apakah daftar dimensi harga mencakup dimensi rangkaian pilihan atau dimensi entitas atau keduanya, ikuti hanya langkah di **dimensi harga kustom berbasis rangkaian pilihan** atau **Dimensi harga kustom berbasis entitas**, atau keduanya.

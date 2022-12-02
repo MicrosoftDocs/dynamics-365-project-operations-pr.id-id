@@ -1,6 +1,6 @@
 ---
 title: Parameter Integrasi Project Service Automation
-description: Artikel ini menjelaskan cara mengonfigurasi cara memasukkan data default saat Anda berintegrasi Microsoft Dynamics 365 for Project Service Automation dengan Microsoft Dynamics 365 Finance.
+description: Artikel ini menjelaskan cara mengonfigurasi data default yang dimasukkan saat anda mengintegrasikan Microsoft Dynamics 365 for Project Service Automation dengan Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932300"
 
 [!include[banner](../includes/banner.md)]
 
-**Pada halaman parameter** integrasi Project Service Automation, Anda dapat mengonfigurasi bagaimana data default dimasukkan saat Anda berintegrasi Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Agar proyek berhasil disinkronisasi dari Project Service Automation ke Finance, Anda harus mengkonfigurasi bidang berikut.
+Di halaman **parameter integrasi Project Service Automation**, Anda dapat mengonfigurasi cara data default dimasukkan saat mengintegrasikan Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Agar proyek berhasil disinkronisasi dari Project Service Automation ke Finance, Anda harus mengkonfigurasi bidang berikut.
 
 Untuk membuka halaman **parameter integrasi Project Service Automation**, buka **manajemen proyek dan parameter akuntansi** \> **Konfigurasi** \> **parameter integrasi Dynamics 365 for Project Service Automation**. 
 

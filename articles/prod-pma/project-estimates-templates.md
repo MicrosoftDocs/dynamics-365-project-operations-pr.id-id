@@ -1,6 +1,6 @@
 ---
-title: Menyinkronkan perkiraan proyek langsung dari Project Service Automation ke keuangan dan operasi
-description: Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan perkiraan jam proyek dan perkiraan biaya proyek langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+title: Mensinkronisasi estimasi proyek secara langsung dari Project Service Automation ke keuangan dan operasi
+description: Artikel ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan estimasi jam proyek dan estimasi pengeluaran proyek secara langsung dari Microsoft Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029809"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Menyinkronkan perkiraan proyek langsung dari Project Service Automation ke keuangan dan operasi
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Mensinkronisasi estimasi proyek secara langsung dari Project Service Automation ke keuangan dan operasi
 
 [!include[banner](../includes/banner.md)]
 
-Artikel ini menjelaskan templat dan tugas mendasar yang digunakan untuk menyinkronkan perkiraan jam proyek dan perkiraan biaya proyek langsung dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+Artikel ini menjelaskan template dan tugas yang mendasari yang digunakan untuk mensinkronisasikan estimasi jam proyek dan estimasi pengeluaran proyek secara langsung dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas proyek, kategori transaksi pengeluaran, estimasi jam, estimasi pengeluaran, dan penguncian fungsi tersedia dalam versi 8.0.
@@ -69,7 +69,7 @@ Sebelum sinkronisasi perkiraan jam proyek dapat terjadi, Anda harus mensinkronis
 
 ### <a name="power-query"></a>Power Query
 
-Dalam templat perkiraan jam proyek, Anda harus menggunakan Microsoft Power Query untuk Excel untuk menyelesaikan tugas-tugas ini:
+Di template estimasi jam proyek, anda harus menggunakan Microsoft Power Query untuk Excel untuk menyelesaikan tugas ini:
 
 - Atur ID model perkiraan default yang akan digunakan saat integrasi membuat perkiraan jam baru.
 - Filter rekaman khusus sumber daya dalam tugas yang akan gagal dalam integrasi ke perkiraan jam.
@@ -80,7 +80,7 @@ Dalam templat perkiraan jam proyek, Anda harus menggunakan Microsoft Power Query
 Untuk memperbarui ID model perkiraan default dalam template, klik panah **peta** untuk membuka pemetaan. Lalu pilih tautan **kueri lanjutan dan filter**.
 
 - Jika anda menggunakan estimasi jam proyek default (PSA ke Fin and Ops), pilih **kondisi dimasukkan** di daftar **langkah yang diterapkan**. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
-- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambahkan Kolom** Bersyarat, dan masukkan nama untuk kolom baru, seperti **ModelID**. Masukkan kondisi untuk kolom, di mana, jika tugas proyek tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
+- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambah kolom kondisional**, dan masukkan nama untuk kolom baru, misalnya **ModelID**. Masukkan kondisi untuk kolom, di mana, jika tugas proyek tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
 
 #### <a name="filter-out-resource-specific-records"></a>Memfilter rekaman khusus sumber daya
 
@@ -125,7 +125,7 @@ Sebelum sinkronisasi perkiraan pengeluaran proyek dapat terjadi, Anda harus mens
 
 ### <a name="power-query"></a>Power Query
 
-Dalam templat perkiraan biaya proyek, Anda harus menggunakannya Power Query untuk menyelesaikan tugas-tugas berikut:
+Di template estimasi pengeluaran proyek, anda harus menggunakan Power Query untuk menyelesaikan tugas berikut ini:
 
 - Filter untuk menyertakan hanya rekaman baris estimasi pengeluaran.
 - Atur ID model perkiraan default yang akan digunakan saat integrasi membuat perkiraan jam baru.
@@ -140,8 +140,8 @@ Template perkiraan pengeluaran proyek (PSA ke Fin and Ops) memiliki filter defau
 
 Untuk memperbarui ID model perkiraan default dalam template, pilih tugas **Estimasi pengeluaran**, lalu klik panah **peta** untuk membuka pemetaan. Pilih tautan **kueri lanjutan dan filter**.
 
-- Jika Anda menggunakan templat Perkiraan biaya proyek (PSA ke Fin dan Ops) default, di Power Query, pilih Kondisi **yang Disisipkan pertama** dari **bagian Langkah-langkah** yang Diterapkan. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
-- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambahkan Kolom** Bersyarat, dan masukkan nama untuk kolom baru, seperti **ModelID**. Masukkan kondisi untuk kolom, di mana, jika ID baris estimasi tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
+- Jika anda menggunakan template estimasi pengeluaran proyek default (PSA ke Fin and Ops), di Power Query, pilih **kondisi dimasukkan** pertama dari bagian **langkah yang diterapkan**. Di entri **fungsi**, ganti **O\_forecast** dengan nama ID model perkiraan yang harus digunakan dengan integrasi. Template default memiliki ID model perkiraan dari data demo.
+- Jika Anda membuat template baru, Anda harus menambahkan kolom ini. Di Power Query, pilih **Tambah kolom kondisional**, dan masukkan nama untuk kolom baru, misalnya **ModelID**. Masukkan kondisi untuk kolom, di mana, jika ID baris estimasi tidak null, maka \<enter the forecast model ID\>; jika tidak maka null.
 
 #### <a name="transform-the-billing-types"></a>Ubah jenis penagihan
 

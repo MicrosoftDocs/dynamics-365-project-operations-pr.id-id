@@ -1,6 +1,6 @@
 ---
 title: Perkiraan Penjualan dan Proyek
-description: Artikel ini memberikan informasi tentang cara memanfaatkan jadwal dan perkiraan dalam proses penjualan.
+description: Artikel ini menyediakan informasi tentang cara memanfaatkan jadwal dan perkiraan dalam proses penjualan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

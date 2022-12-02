@@ -1,6 +1,6 @@
 ---
 title: Membuat faktur vendor dan pelanggan antarperusahaan
-description: Artikel ini menyediakan informasi tentang cara membuat faktur pelanggan dan vendor antar perusahaan.
+description: Artikel ini memberikan informasi tentang cara membuat faktur pelanggan dan vendor antarperusahaan.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Gunakan prosedur ini untuk membuat faktur pelanggan antarperusahaan secara manua
 
 Langkah-langkah berikut harus dilakukan dalam entitas hukum pemberian kredit. 
 
-1. Di Dynamics 365 Finance, buka **Manajemen proyek dan akuntansi** > **Faktur proyek** > **Faktur pelanggan antar perusahaan**. Pada halaman daftar **Faktur pelanggan antarperusahaan**, di Panel Tindakan, pilih **Baru**.
+1. Di Dynamics 365 Finance, buka **Manajemen dan akuntansi proyek** > **Faktur proyek** > **Faktur pelanggan antarperusahaan**. Pada halaman daftar **Faktur pelanggan antarperusahaan**, di Panel Tindakan, pilih **Baru**.
 2. Pada halaman **Buat faktur antarperusahaan**, di bidang **Entitas hukum**, pilih entitas hukum peminjam.
 3. Opsional: Masukkan kontrak proyek dan nomor proyek tertentu.
 4. Persempit pencarian dengan memilih rentang tanggal. Masukkan tanggal tertentu di bidang **Tanggal mulai** dan **Tanggal akhir**. Hanya transaksi antarperusahaan yang diposting dalam rentang tanggal ini yang akan ditampilkan di hasil pencarian.

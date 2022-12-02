@@ -1,6 +1,6 @@
 ---
 title: Tinjau akumulasi faktur pada proyek dan kontrak proyek
-description: Artikel ini memberikan informasi tentang cara meninjau waktu, pengeluaran, dan backlog produk, dan cara menandainya sebagai siap untuk faktur.
+description: Artikel ini menyediakan informasi tentang cara meninjau waktu, pengeluaran, dan akumulasi produk, serta cara menandainya sebagai siap digunakan untuk faktur.
 author: rumant
 ms.custom: ''
 ms.author: rumant

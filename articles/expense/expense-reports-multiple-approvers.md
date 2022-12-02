@@ -1,6 +1,6 @@
 ---
 title: Laporan pengeluaran dan beberapa pemberi izin
-description: Artikel ini memberikan informasi tentang laporan pengeluaran yang memerlukan persetujuan oleh lebih dari satu orang.
+description: Artikel ini menyediakan informasi tentang laporan pengeluaran yang memerlukan persetujuan dari lebih dari satu orang.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Melihat laporan pengeluaran dari buku besar atau pengadaan dan pembekalan
-description: Artikel ini menjelaskan cara melihat laporan pengeluaran asli tempat transaksi muncul.
+description: Artikel ini menjelaskan cara melihat laporan pengeluaran awal yang memunculkan transaksi.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

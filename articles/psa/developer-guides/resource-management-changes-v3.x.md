@@ -1,6 +1,6 @@
 ---
 title: Perubahan manajemen Sumber Daya (Project Service Automation 3.x)
-description: Artikel ini menyediakan informasi tentang perubahan pada area Manajemen sumber daya.
+description: Artikel ini menyediakan informasi tentang perubahan area manajemen sumber daya.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916016"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Bagian dari artikel ini memberikan informasi tentang perubahan yang telah dibuat pada area Dynamics 365 Project Service Automation Manajemen sumber daya versi 3.x.
+Bagian dari artikel ini memberikan informasi tentang perubahan yang telah dibuat ke area manajemen sumber daya dari Dynamics 365 Project Service Automation versi 3. x.
 
 ## <a name="project-estimates"></a>Perkiraan proyek
 

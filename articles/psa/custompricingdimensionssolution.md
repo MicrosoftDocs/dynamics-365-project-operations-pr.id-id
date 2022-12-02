@@ -1,6 +1,6 @@
 ---
 title: Membuat solusi kustom untuk dimensi harga
-description: Artikel ini menjelaskan cara membuat solusi kustom saat membuat dimensi harga kustom.
+description: artikel ini menjelaskan cara membuat solusi kustom saat membuat dimensi harga kustom.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

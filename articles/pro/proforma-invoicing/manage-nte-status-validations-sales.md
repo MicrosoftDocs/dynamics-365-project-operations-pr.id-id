@@ -1,6 +1,6 @@
 ---
 title: Mengelola status dan validasi yang tidak boleh dilewati
-description: Artikel ini menyediakan informasi tentang pemeriksaan batas tidak melebihi yang dilakukan dalam Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang pemeriksaan batas yang tidak boleh dilewati yang dilakukan dalam Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

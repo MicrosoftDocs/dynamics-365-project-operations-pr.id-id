@@ -1,6 +1,6 @@
 ---
-title: Menentukan harga penjualan untuk perkiraan dan aktual berbasis proyek
-description: Artikel ini memberikan informasi tentang bagaimana harga jual untuk perkiraan dan aktual berbasis proyek ditentukan.
+title: Menentukan harga penjualan untuk estimasi dan aktual berbasis proyek
+description: Artikel ini memberikan informasi tentang bagaimana harga penjualan untuk estimasi dan aktual berbasis proyek ditentukan.
 author: rumant
 ms.date: 09/12/2022
 ms.topic: article
@@ -13,83 +13,83 @@ ms.contentlocale: id-ID
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475373"
 ---
-#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Menentukan harga penjualan untuk perkiraan dan aktual berbasis proyek
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Menentukan harga penjualan untuk estimasi dan aktual berbasis proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Untuk menentukan harga penjualan pada perkiraan dan aktual di Microsoft Dynamics 365 Project Operations, sistem pertama-tama menggunakan tanggal dan mata uang dalam perkiraan masuk atau konteks aktual untuk menentukan daftar harga penjualan. Dalam konteks aktual secara khusus, sistem menggunakan **bidang Tanggal** transaksi untuk menentukan daftar harga mana yang berlaku. Nilai **tanggal** Transaksi dari perkiraan masuk atau aktual dibandingkan dengan **nilai Efektif Mulai (Timezone independen)** dan **Akhir Efektif (Timezone independent)** pada daftar harga. Setelah daftar harga penjualan ditentukan, sistem menentukan tingkat penjualan atau tagihan.
+Untuk menentukan harga penjualan pada perkiraan dan aktual di Microsoft Dynamics 365 Project Operations, sistem terlebih dahulu menggunakan tanggal dan mata uang dalam perkiraan masuk atau konteks aktual untuk menentukan daftar harga penjualan. Dalam konteks aktual secara khusus, sistem menggunakan bidang **tanggal Transaksi** untuk menentukan daftar harga yang berlaku. Nilai **tanggal transaksi** dari perkiraan masuk atau aktual dibandingkan dengan **nilai Mulai Efektif (independen zona waktu)** dan **Berakhir Efektif (independen zona waktu)** pada daftar harga. Setelah daftar harga penjualan ditentukan, sistem akan menentukan tingkat penjualan atau tagihan.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Menentukan tingkat penjualan pada garis aktual dan perkiraan untuk Waktu
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Menentukan tarif penjualan pada baris aktual dan estimasi untuk Waktu
 
 Konteks perkiraan untuk **Waktu** mengacu pada:
 
-- Kutip detail baris untuk **Waktu**.
-- Detail garis kontrak untuk **Waktu**.
-- Tugas sumber daya pada proyek.
+- Detail baris kuotasi untuk **waktu**.
+- Detail baris kontrak untuk **waktu**.
+- penugasan sumber daya pada proyek.
 
 Konteks aktual untuk **Waktu** mengacu pada:
 
 - Baris jurnal Entri dan Koreksi untuk **Waktu**.
-- Baris jurnal yang dibuat saat entri waktu dikirimkan.
-- Detail baris faktur untuk **Waktu**. 
+- Baris jurnal yang dibuat saat entri waktu diajukan.
+- Detail baris faktur untuk **waktu**. 
 
 Setelah daftar harga untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan tarif tagihan default.
 
-1. Sistem ini cocok dengan kombinasi **bidang Peran**, **Perusahaan** Sumber Daya, dan **Unit** Sumber Daya dalam perkiraan atau konteks aktual untuk **Waktu** terhadap garis harga peran pada daftar harga. Pencocokan ini mengasumsikan bahwa Anda menggunakan dimensi harga out-of-box untuk tarif tagihan. Jika Anda telah mengonfigurasi harga sehingga didasarkan pada bidang selain atau selain **Peran, Perusahaan** Sumber Daya, **dan** Unit **Sumber Daya, kombinasi bidang tersebut digunakan untuk mengambil garis harga** peran yang cocok.
-1. Jika sistem menemukan garis harga peran yang memiliki tingkat tagihan untuk **kombinasi Peran**, **Perusahaan** Sumber Daya, dan **Unit** Sumber Daya, tarif tagihan tersebut digunakan sebagai tarif tagihan default.
+1. Sistem mencocokkan kombinasi bidang **Peran**, **Perusahaan Sumber Daya**, dan **Unit Sumber Daya** dalam konteks estimasi atau aktual untuk **Waktu** terhadap baris harga peran pada daftar harga. Kecocokan ini mengasumsikan bahwa Anda menggunakan dimensi harga bawaan untuk tingkat tagihan. Jika Anda telah mengonfigurasi harga sehingga didasarkan pada selain atau sebagai tambahan untuk **Peran**, **Perusahaan Sumber Daya**, dan **Unit Sumber Daya**, kombinasi bidang tersebut digunakan untuk mengambil baris harga peran yang cocok.
+1. Jika sistem menemukan baris harga peran yang memiliki tarif tagihan untuk kombinasi bidang **Peran**, **Perusahaan Sumber Daya**, dan **Unit Sumber daya**, tarif tagihan tersebut digunakan sebagai tarif tagihan default.
 
 > [!NOTE]
-> Jika Anda mengonfigurasi prioritas yang berbeda dari **bidang Peran**, **Perusahaan** Sumber Daya, dan **Unit** Sumber Daya, atau jika Anda memiliki dimensi lain yang memiliki prioritas lebih tinggi, perilaku sebelumnya akan berubah sesuai dengan itu. Sistem mengambil catatan harga peran yang memiliki nilai yang cocok dengan setiap nilai dimensi harga dalam urutan prioritas. Baris yang memiliki nilai nol untuk dimensi tersebut adalah yang terakhir.
+> Jika Anda mengonfigurasi prioritas **Peran**, **Perusahaan Sumber Daya**, dan **Unit Sumber Daya** yang berbeda, atau jika Anda memiliki dimensi lain yang memiliki prioritas lebih tinggi, perilaku ini akan berubah sesuai dengan itu. Sistem mengambil rekaman harga peran yang memiliki nilai yang sesuai dengan setiap nilai dimensi harga dalam urutan prioritas. Baris yang memiliki nilai null untuk dimensi tersebut akan terlihat terakhir.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Menentukan tingkat penjualan pada jalur aktual dan perkiraan untuk Biaya
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Menentukan Menyelesaikan tarif penjualan pada baris aktual dan estimasi untuk pengeluaran
 
-Konteks estimasi untuk **Pengeluaran** mengacu pada:
+Konteks perkiraan untuk **pengeluaran** mengacu pada:
 
-- Kutip detail baris untuk **Biaya**.
-- Detail garis kontrak untuk **Biaya**.
-- Garis perkiraan biaya pada suatu proyek.
+- Detail baris kuotasi untuk **pengeluaran**.
+- Detail baris kontrak untuk **pengeluaran**.
+- Baris Estimasi pengeluaran pada proyek
 
-Konteks aktual untuk **Pengeluaran** mengacu pada:
+Konteks aktual untuk **pengeluaran** mengacu pada:
 
-- Baris jurnal Entri dan Koreksi untuk **Biaya**.
-- Baris jurnal yang dibuat saat entri pengeluaran dikirimkan.
-- Detail baris faktur untuk **Pengeluaran**. 
+- Baris jurnal Entri dan Koreksi untuk **pengeluaran**.
+- Baris jurnal yang dibuat saat entri pengeluaran diajukan.
+- Detail baris faktur untuk **pengeluaran**. 
 
-Setelah daftar harga untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan harga jual unit default.
+Setelah daftar harga untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan harga penjualan unit default.
 
-1. Sistem ini mencocokkan kombinasi **bidang Kategori** dan **Unit** pada garis perkiraan pengeluaran **terhadap** garis harga kategori pada daftar harga.
-1. Jika sistem menemukan garis harga kategori yang memiliki tingkat penjualan untuk kombinasi Kategori **dan** Unit **, tingkat penjualan tersebut** digunakan sebagai tingkat penjualan default.
-1. Jika sistem menemukan garis harga kategori yang cocok, metode penetapan harga dapat digunakan untuk memasukkan harga jual default. Tabel berikut menunjukkan perilaku default untuk harga pengeluaran dalam Operasi Proyek.
+1. Sistem mencocokkan kombinasi bidang **Kategori** dan **Unit** pada baris estimasi untuk **pengeluaran** untuk dicocokkan dengan baris Harga Kategori di daftar harga.
+1. Jika sistem menemukan garis harga kategori yang memiliki tarif penjualan untuk kombinasi **Kategori** dan **Unit**, maka tarif penjualan digunakan sebagai tarif penjualan default.
+1. Jika sistem menemukan baris harga kategori yang cocok, metode harga dapat digunakan untuk memasukkan default harga penjualan. Tabel berikut menunjukkan perilaku default untuk harga pengeluaran dalam Project Operations.
 
     | Konteks | Metode Penetapan Harga | Harga default |
     | --- | --- | --- |
-    | Perkiraan | Harga Per unit | Berdasarkan garis harga kategori. |
+    | Perkiraan | Harga Per unit | Berdasarkan baris Harga Kategori. |
     |        | Berdasarkan biaya | 0.00 |
     |        | Markup atas biaya | 0.00 |
-    | Aktual | Harga Per unit | Berdasarkan garis harga kategori. |
-    |        | Berdasarkan biaya | Berdasarkan biaya aktual terkait. |
-    |        | Markup atas biaya | Markup diterapkan, sebagaimana didefinisikan oleh garis harga kategori, ke tingkat biaya satuan dari biaya aktual terkait. |
+    | Aktual | Harga Per unit | Berdasarkan baris Harga Kategori. |
+    |        | Berdasarkan biaya | Berdasarkan aktual biaya terkait. |
+    |        | Markup atas biaya | Markup diterapkan, sebagaimana didefinisikan oleh baris harga kategori pada tingkat biaya unit dari aktual biaya terkait. |
 
-1. Jika sistem tidak dapat menandingi **nilai Kategori** dan **Unit**, tingkat penjualan diatur ke **0** (nol) secara default.
+1. Jika sistem tidak dapat mencocokkan nilai **Kategori** dan **Unit**, tarif penjualan ditetapkan ke **0** (nol) secara default.
 
-## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Menentukan tingkat penjualan pada baris aktual dan perkiraan untuk Material
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Menentukan tingkat penjualan pada baris aktual dan estimasi untuk bahan
 
-Perkiraan konteks untuk **Materi** mengacu pada:
+Konteks perkiraan untuk **Bahan** mengacu pada:
 
-- Kutip detail baris untuk **Materi**.
-- Detail garis kontrak untuk **Material**.
-- Garis perkiraan material pada suatu proyek.
+- Detail baris kuotasi untuk **Bahan**.
+- Detail baris kontrak untuk **Bahan**.
+- Baris Estimasi bahan proyek.
 
-Konteks aktual untuk **Materi** mengacu pada:
+Konteks aktual untuk **Bahan** mengacu pada:
 
-- Baris jurnal Entri dan Koreksi untuk **Materi**.
-- Baris jurnal yang dibuat saat log penggunaan Material dikirimkan.
-- Detail baris faktur untuk **Materi**. 
+- Baris jurnal Entri dan Koreksi untuk **Bahan**.
+- Baris jurnal yang dibuat saat log penggunaan bahan diajukan.
+- Detail baris faktur untuk **Bahan**. 
 
-Setelah daftar harga untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan harga jual unit default.
+Setelah daftar harga untuk penjualan ditentukan, sistem menyelesaikan langkah-langkah berikut untuk memasukkan harga penjualan unit default.
 
-1. Sistem mencocokkan kombinasi **bidang Produk** dan **Unit** pada garis perkiraan untuk **Material** dengan baris item daftar harga pada daftar harga.
-1. Jika sistem menemukan baris item daftar harga yang memiliki tingkat penjualan untuk **kombinasi Produk** dan **Unit**, dan jika metode penetapan harga adalah **jumlah** Mata Uang, harga penjualan yang ditentukan pada baris daftar harga akan digunakan. 
-1. **Jika nilai bidang Produk** dan **Unit** tidak cocok, atau jika metode penetapan harga adalah sesuatu selain **jumlah** Mata Uang, nilai penjualan diatur ke **0** (nol) secara default. Perilaku ini terjadi karena Operasi Proyek hanya **mendukung metode penetapan harga jumlah** mata uang untuk materi yang digunakan pada proyek.
+1. Sistem mencocokkan kombinasi bidang **Produk** dan **Unit** pada baris perkiraan untuk **bahan** yang cocok dengan baris item daftar harga pada daftar harga.
+1. Jika sistem menemukan baris item daftar harga yang memiliki tingkat penjualan untuk kombinasi bidang **Produk** dan **Unit** dan jika metode harga adalah **Jumlah mata uang**, harga penjualan yang ditentukan pada baris daftar harga akan digunakan. 
+1. Jika nilai bidang **Produk** dan **Unit** tidak sesuai, atau jika metode harga merupakan sesuatu selain **jumlah Mata Uang,**. tingkat penjualan diatur ke **0** (nol) secara default. Perilaku ini terjadi karena Project Operations hanya mendukung metode harga **jumlah mata uang** untuk bahan yang digunakan pada proyek.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

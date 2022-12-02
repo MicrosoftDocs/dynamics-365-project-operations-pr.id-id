@@ -1,6 +1,6 @@
 ---
 title: Mendefinisikan peran
-description: Artikel ini menyediakan tautan ke informasi tentang menyiapkan kategori sumber daya yang dapat dipesan.
+description: artikel ini memberikan tautan ke informasi tentang cara mengatur kategori sumber daya yang dapat dipesan.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

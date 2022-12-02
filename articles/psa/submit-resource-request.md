@@ -1,6 +1,6 @@
 ---
 title: Mengajukan permintaan sumber daya
-description: Artikel ini menyediakan informasi tentang mengirimkan permintaan untuk sumber daya proyek.
+description: Artikel ini menyediakan informasi tentang pengajuan permintaan sumber daya proyek.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

@@ -1,6 +1,6 @@
 ---
 title: Kelola sumber daya
-description: Artikel ini menyediakan informasi tentang bagaimana Anda dapat mengelola sumber daya.
+description: Artikel ini menyediakan informasi tentang cara Anda mengelola sumber daya.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

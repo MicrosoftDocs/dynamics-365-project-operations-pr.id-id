@@ -1,6 +1,6 @@
 ---
 title: Sekilas baris kontrak berbasis proyek
-description: Artikel ini menyediakan informasi tentang bekerja dengan jalur kontrak berbasis proyek.
+description: Artikel ini menyediakan informasi tentang bekerja dengan baris kontrak berbasis proyek.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar baris kontrak berbasis produk - lite
-description: Artikel ini menyediakan informasi tentang jalur kontrak berbasis produk.
+description: Artikel ini menyediakan informasi tentang baris kontrak berbasis produk.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

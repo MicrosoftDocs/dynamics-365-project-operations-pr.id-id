@@ -1,6 +1,6 @@
 ---
 title: Menelusuri antarmuka pengguna
-description: Artikel ini menyediakan informasi tentang manajemen proyek dalam operasi Proyek Dynamics 365.
+description: Artikel ini menyediakan informasi tentang manajemen proyek di Dynamics 365 Project operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

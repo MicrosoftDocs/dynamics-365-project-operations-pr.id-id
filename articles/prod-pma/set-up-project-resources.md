@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi sumber daya proyek
-description: Artikel ini menyediakan informasi tentang menyiapkan atau meminta sumber daya proyek.
+description: Artikel ini menyediakan informasi tentang konfigurasi atau permintaan sumber daya proyek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

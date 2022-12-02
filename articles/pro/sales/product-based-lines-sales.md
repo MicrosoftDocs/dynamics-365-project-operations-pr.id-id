@@ -1,6 +1,6 @@
 ---
 title: Baris peluang berbasis produk - lite
-description: Artikel ini menyediakan informasi tentang item baris peluang berbasis produk di Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang item baris peluang berbasis produk dalam Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

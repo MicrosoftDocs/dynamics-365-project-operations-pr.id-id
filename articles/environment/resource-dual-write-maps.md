@@ -1,6 +1,6 @@
 ---
 title: Versi peta penulisan ganda Project Operations
-description: Artikel ini menyediakan daftar peta tulis ganda yang diperlukan untuk Dynamics 365 Project Operations.
+description: Artikel ini menyediakan daftar peta penulisan dua kali yang diperlukan untuk Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -30,7 +30,7 @@ Peta berikut adalah prasyarat yang diperlukan untuk solusi Project Operations. P
 | Pelanggan V3 (akun) | Tidak diperlukan untuk provisi. |
 | Vendor V2 (msdyn_vendors) | Tidak diperlukan untuk provisi. |
 
-1. Dari daftar peta, pilih peta buku besar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. **Di bidang Master untuk sinkronisasi** awal, pilih **Aplikasi** keuangan dan operasi untuk peta buku besar dan semua peta prasyarat. Pilih **Jalankan**.
+1. Dari daftar peta, pilih peta buku besar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak centang **Sinkronisasi awal**. Dalam bidang **Master untuk sinkornisasi awal**, pilih **Aplikasi keuangan dan operasi** untuk peta buku besar dan semua peta prasyarat. Pilih **Jalankan**.
 
 ![Sinkronisasi peta buku besar.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Peta berikut adalah diperlukan untuk solusi Project Operations. Versi peta penul
 | Header kontrak proyek (pesanan penjualan) | 1.0.0.1 | Tidak diperlukan untuk provisi. ||
 | Baris kontrak proyek (salesorderdetails) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
 | Sumber dana proyek (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Tidak diperlukan untuk provisi. ||
-| Tabel integrasi proyek untuk perkiraan material (perkiraan msdyn\_) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
+| Tabel integrasi Project Operations untuk estimasi materi (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk provisi. ||
 | Proposal faktur proyek V2 (faktur) | 1.0.0.3 | Tidak diperlukan untuk provisi. ||
 | Aktual Integrasi Project Operations (msdyn_actuals) | 1.0.0.15 | Tidak diperlukan untuk provisi. |10.0.29 atau yang lebih baru|
 | Tahapan baris kontak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk provisi. ||

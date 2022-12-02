@@ -1,6 +1,6 @@
 ---
 title: Rekonsiliasi pemesanan dan penetapan
-description: Artikel ini memberikan informasi tentang aktual.
+description: Artikel ini menyediakan informasi tentang nilai aktual.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

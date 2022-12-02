@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Perusahaan berbasis proyek biasanya memiliki operasi untuk penyebaran penyebaran di beberapa negara dan geografi. Biaya eksekusi dan pelaksanaan proyek dapat bervariasi berdasarkan geografi atau divisi yang mengelola pelaksanaan. Pada gilirannya, hal ini dapat berdampak pada margin transaksi. Pelaksanaan layanan berbasis proyek biasanya melibatkan sejumlah besar waktu sumber daya manusia, pengeluaran besar untuk perjalanan, biaya material, dan biaya lainnya.
 
-Peluang berbasis proyek Dynamics 365 Project Operations didesain dengan ekstensi untuk Dynamics 365 Sales. Artikel ini memberikan detail tentang berbagai bidang dan logika bisnis yang termasuk dalam fungsionalitas tambahan yang diperlukan oleh perusahaan berbasis proyek untuk mengelola peluang berbasis proyek.
+Peluang berbasis proyek Dynamics 365 Project Operations didesain dengan ekstensi untuk Dynamics 365 Sales. Artikel ini memberikan rincian tentang bidang yang berbeda dan logika bisnis yang tercakup dalam fungsi tambahan yang diperlukan oleh perusahaan berbasis proyek untuk mengelola peluang berbasis proyek.
 
 ## <a name="view-all-project-based-opportunities"></a>Lihat semua peluang berbasis proyek
 

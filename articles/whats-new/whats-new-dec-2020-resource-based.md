@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Desember 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Desember 2020 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Desember 2020 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029718"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
 - Lingkungan Project Operations untuk Dataverse versi 4.5.0.134
-- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.15
+- Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.15
 
 Untuk informasi tentang cara memperbarui rilis ini, lihat [Memperbarui Project Operations di lingkungan Finance Anda](ur5-nonstocked-installation.md).
 
@@ -61,7 +61,7 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
 | Perencanaan dan Pelacakan Proyek | 2057197          | Penyalinan baris estimasi dengan referensi tugas tidak didukung                                                                                                     |
 | Perencanaan dan Pelacakan Proyek | 2060687          | Peringatan zona waktu kini akan menghilang setelah durasi tertentu                                                                                                      |
 | Manajemen sumber daya           | 1832887          | ID kategori Sumber Daya default harus statis untuk memastikan pemuatan data untuk Dataverse dan lingkungan Keuangan yang dapat diulang                                                 |
-| Waktu dan pengeluaran              | 2081793          | **Nama** kategori pengeluaran harus dipetakan ke **bidang Deskripsi** kategori pengeluaran di aplikasi keuangan dan operasi                                                  |
+| Waktu dan pengeluaran              | 2081793          | **Nama kategori pengeluaran** harus dipetakan ke bidang **Deskripsi kategori pengeluaran** di aplikasi keuangan dan operasi                                                  |
 | Waktu dan pengeluaran              | 2034882          | Tombol **Baru** ditampilkan dua kali pada bilah perintah untuk entri waktu apabila Dynamics 365 Field Service diinstal                                          |
 | Waktu dan pengeluaran              | 2056028          | Perbarui halaman **Edit Time** untuk menyertakan baris waktu                                                                                                              |
 | Waktu dan pengeluaran              | 1983747          | Diagram entri waktu menampilkan data tambahan                                                                                                                   |
@@ -106,7 +106,7 @@ Berikut adalah fitur yang tercakup dalam rilis ini:
 | Perjalanan dan Pengeluaran                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Alur kerja posting otomatis laporan pengeluaran selesai tetapi faktur tidak diposting                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi keuangan dan operasi, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

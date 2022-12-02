@@ -1,6 +1,6 @@
 ---
 title: Menentukan biaya baris kontrak berbasis produk - lite
-description: Artikel ini menyediakan informasi tentang membuat
+description: artikel ini menyediakan informasi tentang pembuatan
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

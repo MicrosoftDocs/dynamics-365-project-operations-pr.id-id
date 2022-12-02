@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar manajemen pengeluaran
-description: Artikel ini memberikan informasi umum tentang Manajemen biaya dan tautan ke sumber daya tambahan. Anda dapat menggunakan manajemen pengeluaran untuk membuat alur kerja terpadu yang memungkinkan Anda menyimpan informasi metode pembayaran, mengimpor transaksi kartu kredit, dan melacak uang yang dibelanjakan karyawan saat mereka menimbulkan pengeluaran untuk bisnis Anda.
+description: artikel ini menyediakan informasi umum tentang manajemen pengeluaran dan tautan ke sumber daya tambahan. Anda dapat menggunakan manajemen pengeluaran untuk membuat alur kerja terpadu yang memungkinkan Anda menyimpan informasi metode pembayaran, mengimpor transaksi kartu kredit, dan melacak uang yang dibelanjakan karyawan saat mereka menimbulkan pengeluaran untuk bisnis Anda.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Untuk informasi lebih lanjut, lihat [Konsep baru laporan pengeluaran](ExpenseWor
 
 ### <a name="blogs"></a>Blog
 
-Anda dapat menemukan opini, berita, dan informasi lainnya di [Microsoft Dynamics blog 365 dan](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) blog [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Anda dapat menemukan pendapat, Berita, dan informasi lain di [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) dan [Microsoft Dynamics 365 Finance - blog keuangan](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Blog [komunitas mitra Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) memberikan mitra Microsoft Dynamics sumber daya tunggal di mana mereka dapat mempelajari apa yang baru dan tren dalam operasi MBS.
 

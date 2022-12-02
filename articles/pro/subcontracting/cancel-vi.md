@@ -1,6 +1,6 @@
 ---
 title: Membatalkan faktur vendor proyek
-description: Artikel ini menjelaskan cara membatalkan faktur vendor proyek di Microsoft Dynamics 365 Project Operations dan dampak finansial dari pembatalan faktur vendor proyek.
+description: Artikel ini menjelaskan cara membatalkan faktur vendor proyek di Microsoft Dynamics 365 Project Operations dan dampak keuangan dari membatalkan faktur vendor proyek.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261094"
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Setelah faktur vendor dikonfirmasi, faktur tersebut tidak dapat diedit atau dihapus. Jika ada kesalahan pada faktur vendor yang dikonfirmasi, Anda dapat menggunakan tindakan Batalkan untuk membalikkan dampak faktur vendor dan membuat faktur vendor baru.
+Setelah dikonfirmasi, faktur vendor dapat diedit atau dihapus. Jika terjadi kesalahan pada faktur vendor yang dikonfirmasi, Anda dapat menggunakan tindakan Batal untuk membalikkan dampak faktur vendor dan membuat faktur vendor baru.
 
-Ketika Anda memilih **Batalkan** pada faktur vendor, perilaku berikut terjadi:
+Ketika Anda memilih **Batal** pada faktur vendor, perilaku berikut terjadi:
 
-1. Status faktur vendor diperbarui menjadi **Dibatalkan**.
-2. Faktur vendor yang dibatalkan dan catatan terkaitnya menjadi baca-saja, dan tidak dapat diedit atau dihapus.
-3. Setiap aktual biaya yang dibuat berdasarkan baris faktur vendor sebagai bagian dari konfirmasi faktur vendor akan dibatalkan.
-4. Jika ada aktual biaya yang ditautkan ke baris faktur vendor sebagai bagian dari proses pencocokan, konfirmasi faktur vendor asli akan membalikkannya. Selama pembatalan faktur vendor, aktual biaya tersebut dibuat ulang. Asal-usulnya menunjuk pada entri waktu, pengeluaran, atau penggunaan materi.
-5. Setelah faktur vendor dibatalkan, Anda dapat sekali lagi membuat jurnal koreksi, memproses penarikan entri waktu, dan membatalkan persetujuan waktu asli, pengeluaran, atau aktual materi.
+1. Status faktur vendor diperbarui ke **Dibatalkan**.
+2. Faktur vendor yang dibatalkan dan rekaman terkaitnya menjadi hanya baca dan tidak dapat diedit atau dihapus.
+3. Aktual biaya yang dibuat berdasarkan baris faktur vendor sebagai bagian dari konfirmasi faktur vendor akan dibalik.
+4. Jika aktual biaya apa pun ditautkan ke baris faktur vendor sebagai bagian dari proses pencocokan, konfirmasi faktur vendor asli akan membatalkannya. Selama pembatalan faktur vendor, aktual biaya tersebut dibuat ulang. Asal menunjukkan entri waktu, pengeluaran, atau penggunaan bahan.
+5. Setelah faktur vendor dibatalkan, Anda dapat sekali lagi membuat jurnal koreksi, memproses penarikan entri waktu, dan membatalkan persetujuan waktu, pengeluaran, atau aktual bahan asli.
 
 > [!NOTE]
-> Hanya faktur vendor proyek yang dikonfirmasi yang dapat dibatalkan. Faktur vendor di negara bagian lain tidak dapat dibatalkan.
+> Hanya faktur vendor proyek yang telah dikonfirmasi yang dapat dibatalkan. Faktur vendor di negara bagian lain tidak dapat dibatalkan.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

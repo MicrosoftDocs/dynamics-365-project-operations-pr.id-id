@@ -1,6 +1,6 @@
 ---
 title: Sekilas baris kuotasi berbasis proyek
-description: Artikel ini menyediakan informasi tentang penggunaan garis kutipan berbasis proyek untuk pekerjaan proyek.
+description: Artikel ini memberikan informasi tentang menggunakan baris kuotasi berbasis proyek untuk pekerjaan proyek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Pembaruan Project Operations
-description: Artikel ini menyediakan informasi tentang versi Dynamics 365 Project Operations.
+description: Artikel ini memberikan informasi tentang versi rilis Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-s
 Dynamics 365 Project Operations terdiri dari dua komponen:
 
 - Lingkungan Project Operations di Dataverse mencakup kemampuan dari peluang hingga faktur proforma. Dataverse digunakan dalam penyebaran Lite dan penyebaran skenario sumber daya/non-stok dari Project Operations.
-- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. Lingkungan aplikasi keuangan dan operasi digunakan dalam Operasi Proyek untuk skenario berbasis sumber daya/non-stok dan Operasi Proyek untuk skenario berbasis stok/produksi.
+- Manajemen dan akuntansi dalam lingkungan Dynamics 365 Finance mencakup kemampuan manajemen pengeluaran, akuntansi proyek, dan pengakuan pendapatan. Lingkungan aplikasi keuangan dan operasi digunakan dalam Project Operations untuk skenario berbasis sumber daya/atau non-stok dan Project Operations untuk skenario berbasis stok/produksi.
 
 ## <a name="project-operations-release-notes"></a>Catatan rilis Project Operations
 - Catatan rilis terbaru Project Operations untuk skenario [Sumber daya/non-stok](whats-new-july-2022-resource-based.md).
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations terdiri dari dua komponen:
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Untuk sumber daya operasi proyek/skenario non-stok, kami sarankan Anda menggunakan versi Orkestrasi tulis ganda 2.3.1.15 atau lebih tinggi.
+Untuk skenario Project Operations/non stok, sebaiknya gunakan versi Orchestration Orkestrasi penulisan dua kali 2.3.1.15 atau lebih tinggi.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Jadwal rilis untuk Project Operations di lingkungan Dataverse
 
@@ -66,7 +66,7 @@ Pembaruan untuk Project Operations pada lingkungan Dataverse tersedia setiap bul
 | Stasiun 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Amerika Utara         |  4.46.0.60      | Selesaikan           | Selesaikan            | TBD           | 04 November 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk Manajemen proyek dan akuntansi di lingkungan aplikasi keuangan dan operasi
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadwal rilis untuk manajemen proyek dan akuntansi di lingkungan aplikasi keuangan dan operasi
 
 Pembaruan untuk manajemen proyek dan akuntansi dirilis delapan kali dalam setahun.
 

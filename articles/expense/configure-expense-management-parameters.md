@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi parameter manajemen pengeluaran
-description: Artikel ini menjelaskan parameter yang mengontrol perilaku umum dalam manajemen Pengeluaran.
+description: artikel ini menjelaskan parameter yang mengontrol perilaku umum dalam manajemen pengeluaran.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931472"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini menjelaskan parameter kontrol perilaku umum dalam manajemen Pengeluaran.
+artikel ini menjelaskan parameter yang mengontrol perilaku umum dalam manajemen pengeluaran.
 
 ## <a name="general"></a>Umum
 

@@ -1,6 +1,6 @@
 ---
 title: Baris subkontrak untuk kategori pengeluaran
-description: Artikel ini menjelaskan cara merekam baris subkontrak untuk pengeluaran dan menggunakan bidang untuk mencatat pembelian waktu dari vendor.
+description: Artikel ini menjelaskan cara merekam baris subkontrak untuk pengeluaran dan menggunakan bidang untuk merekam pembelian waktu dari vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

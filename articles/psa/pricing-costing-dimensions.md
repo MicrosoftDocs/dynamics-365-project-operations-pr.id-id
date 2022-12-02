@@ -1,6 +1,6 @@
 ---
 title: Laman beranda harga dan dimensi biaya
-description: Artikel ini memberikan gambaran umum tentang dimensi harga.
+description: Artikel ini memberikan ikhtisar tentang dimensi harga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ PSA dikirim dengan seperangkat dimensi harga default. Anda dapat melihat ini den
 > [!IMPORTANT]
 > Jika Anda telah menggunakan bidang bawaan peran dan unit organisasi sebagai dimensi harga sebelum versi 3 dari PSA, tidak akan ada perubahan yang dapat diamati. Anda dapat terus menggunakan project service seperti biasa. 
 
-Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi selengkapnya, lihat artikel berikut ini, namun perhatikan bahwa Anda harus menyelesaikan prosedur dalam urutan yang tercantum di bawah ini:
+Jika Anda perlu harga atau biaya untuk sumber daya menggunakan atribut tambahan, Anda dapat membuat bidang kustom, entitas, dan dimensi. Untuk informasi lebih lanjut, lihat artikel berikut, Namun perhatikan bahwa Anda harus menyelesaikan prosedur dalam urutan yang tercantum di bawah ini:
 
 - [Membuat bidang dan entitas kustom](create-custom-fields-entities.md)
 - [Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi](field-references.md)

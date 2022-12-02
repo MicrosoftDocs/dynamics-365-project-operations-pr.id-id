@@ -1,6 +1,6 @@
 ---
 title: Mata uang
-description: Artikel ini menyediakan informasi tentang cara menambahkan dan menghapus jenis mata uang di Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara menambahkan dan menghapus jenis mata uang dalam Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

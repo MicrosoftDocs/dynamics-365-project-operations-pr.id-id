@@ -1,6 +1,6 @@
 ---
 title: Laman beranda pelaporan
-description: Artikel ini menyediakan informasi tentang pelaporan di Dynamics 365 Project Service Automation.
+description: Artikel ini memberikan informasi tentang pelaporan di Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Bersama-sama, Microsoft Power BI dan Dynamics 365 memberikan cara ampuh untuk be
 
 
 ## <a name="additional-resources"></a>Sumber daya tambahan
-Untuk informasi selengkapnya tentang pelaporan di PSA, lihat artikel berikut ini:
+Untuk informasi lebih lanjut tentang pelaporan di PSA, lihat artikel berikut ini:
 
 - [Bekerja dengan model data Project Service](reports-working-project-service-data-model.md)
 - [Dasbor](reports-dashboards.md)

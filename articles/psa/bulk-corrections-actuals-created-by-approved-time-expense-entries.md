@@ -1,6 +1,6 @@
 ---
 title: Koreksi massal aktual yang dibuat berdasarkan entri waktu dan pengeluaran yang disetujui
-description: Artikel ini menjelaskan bagaimana administrator dapat melakukan koreksi tunggal atau massal terhadap entri waktu atau pengeluaran yang disetujui sebelumnya jika penagihan tidak selesai.
+description: artikel ini menjelaskan cara administrator melakukan koreksi tunggal atau massal terhadap entri waktu atau pengeluaran yang disetujui sebelumnya jika penagihan tidak selesai.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916293"
 
 Terkadang entri waktu atau biaya dapat dimasukkan dengan benar. Contohnya, konsultan mungkin memilih tanggal yang salah saat membuat entri waktu atau mereka mungkin mentransposisi angka saat memasukkan pengeluaran. Jika konsultan tidak dapat melakukan pembaruan terhadap entri yang diajukan, administrator dapat secara langsung mengoreksi entri untuk proyek.
 
-Untuk menyelesaikan prosedur dalam artikel ini, Anda memerlukan izin Administrator.
+Untuk menyelesaikan prosedur dalam artikel ini, anda memerlukan izin Administrator.
 
 ## <a name="correct-approved-time-entries"></a>Mengoreksi entri waktu yang disetujui     
 

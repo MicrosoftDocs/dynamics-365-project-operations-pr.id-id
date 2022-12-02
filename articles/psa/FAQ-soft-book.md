@@ -1,6 +1,6 @@
 ---
 title: Lakukan pemesanan pendahuluan sumber daya
-description: Artikel ini memberikan informasi tentang cara menjadwalkan sementara atau soft book anggota tim proyek.
+description: Artikel ini menyediakan informasi tentang cara menjadwal secara tentatif atau pemesanan pendahuluan anggota tim proyek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

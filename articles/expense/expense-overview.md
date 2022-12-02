@@ -1,6 +1,6 @@
 ---
 title: Sekilas pengeluaran
-description: Artikel ini menyediakan informasi tentang fungsionalitas Biaya dalam Operasi Proyek.
+description: Artikel ini menyediakan informasi tentang fungsionalitas Pengeluaran dalam Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

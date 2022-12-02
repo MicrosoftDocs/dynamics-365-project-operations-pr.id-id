@@ -1,6 +1,6 @@
 ---
 title: Memetakan proyek dan tugas ke baris kontrak berbasis proyek - lite
-description: Artikel ini menyediakan informasi tentang menambahkan dan menghapus proyek dan tugas ke jalur kontrak.
+description: Artikel ini memberikan informasi tentang menambahkan dan menghapus proyek dan tugas ke baris kontrak.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

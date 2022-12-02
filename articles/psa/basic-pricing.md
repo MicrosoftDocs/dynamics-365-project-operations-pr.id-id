@@ -1,6 +1,6 @@
 ---
 title: Harga proyek
-description: Artikel ini menyediakan informasi tentang cara kerja penetapan harga di Dynamics 365 Project Service Automation.
+description: artikel ini menyediakan informasi tentang cara kerja harga di Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Persyaratan item untuk kontrak proyek dengan beberapa sumber dana
-description: Artikel ini menyediakan informasi tentang cara mengonfigurasi dan menggunakan persyaratan item dengan beberapa sumber pendanaan.
+description: Artikel ini berisi informasi tentang cara mengkonfigurasi dan menggunakan persyaratan item dengan beberapa sumber dana.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
@@ -17,70 +17,70 @@ ms.locfileid: "9028477"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis stok/produksi_
 
-Beberapa perjanjian kontrak untuk hasil kerja berbasis proyek mungkin memerlukan beberapa sumber pendanaan. Artikel ini menjelaskan cara memilih dan mengonfigurasi sumber pendanaan yang diinginkan ketika beberapa sumber diperlukan untuk proyek atau kontrak proyek.
+Beberapa perjanjian kontraktual untuk hasil berbasis proyek mungkin memerlukan beberapa sumber dana. Artikel ini menjelaskan cara memilih dan mengkonfigurasi sumber dana yang diinginkan bila diperlukan beberapa sumber untuk proyek atau kontrak proyek.
 
 ## <a name="terminology"></a>Terminologi
 
-- **Sumber pendanaan** – Entitas yang mendanai pekerjaan kontrak proyek. Entitas ini dapat berupa organisasi internal atau akun faktur eksternal (pelanggan atau hibah).
-- **Pelanggan proyek** – Entitas tempat pekerjaan proyek dikirim.
+- **Sumber dana** – Entitas yang dananya digunakan untuk pekerjaan kontrak proyek. Entitas ini dapat merupakan organisasi internal atau akun faktur eksternal (pelanggan atau hibah).
+- **Pelanggan proyek** – Entitas yang menerima pekerjaan proyek.
 - **Akun faktur** – Entitas eksternal yang membayar untuk pekerjaan proyek.
 
 ## <a name="example"></a>Contoh
 
-Contoso telah memenangkan kontrak pembaruan peralatan dengan dua pelanggannya: Adatum US dan Adatum Corporate. Kontrak ini mencakup layanan perangkat keras dan instalasi yang akan dikirimkan ke Adatum US (pelanggan proyek). Perangkat keras akan dibiayai oleh Adatum Corporate (akun faktur 1), dan pekerjaan instalasi akan dibiayai oleh Adatum US (akun faktur 2).
+Contoso telah memenangkan kontrak perpanjangan perlengkapan dengan dua pelanggannya: Adatum AS dan Adatum Corporate. Kontrak mencakup layanan perangkat keras dan penginstalan yang akan dikirim ke Adatum AS (pelanggan proyek). Perangkat keras akan didanai oleh Adatum Corporate (faktur akun 1), dan pekerjaan penginstalan akan didanai oleh Adatum AS (akun faktur 2).
 
-## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>Menyiapkan aturan default akun faktur untuk persyaratan item
+## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>Mengkonfigurasikan aturan default akun faktur untuk persyaratan item
 
 ### <a name="prerequisites"></a>Prasyarat
 
-- Microsoft Dynamics 365 Keuangan **versi 10.0.27 atau yang lebih baru** diperlukan untuk menggunakan persyaratan item yang memiliki beberapa akun faktur.
-- Administrator sistem Anda harus mengaktifkan **fitur Izinkan Persyaratan item dengan beberapa sumber pendanaan untuk skenario** berbasis stok/produksi Operasi Proyek di **ruang kerja Manajemen** fitur.
+- Microsoft Dynamics 365 Finance **versi 10.0.27 atau yang lebih baru** harus menggunakan persyaratan item yang memiliki beberapa akun faktur.
+- Administrator sistem Anda harus mengaktifkan persyaratan fitur **Izinkan Item dengan beberapa sumber dana untuk skenario berbasis produksi/stok Project Operations** di ruang kerja **manajemen Fitur**.
 
-### <a name="set-up-the-invoice-account-defaulting-rules"></a>Menyiapkan aturan default akun faktur
+### <a name="set-up-the-invoice-account-defaulting-rules"></a>Mengkonfigurasi aturan default akun faktur
 
-Untuk menyiapkan aturan default untuk akun faktur, ikuti langkah-langkah berikut.
+Untuk mengkonfigurasi aturan default untuk akun faktur, ikuti langkah-langkah ini.
 
 1. Buka **manajemen proyek dan akuntansi** \> **konfigurasi** \> **parameter manajemen proyek dan akuntansi**.
-1. Pada tab **Umum**, di **bagian Pesanan penjualan dan Persyaratan item**, atur **opsi Izinkan untuk proyek dengan beberapa sumber** pendanaan ke **Ya**.
-1. **Di bidang Pelanggan** default, tentukan dari mana pelanggan pengiriman proyek pada persyaratan item berasal secara default:
+1. Pada tab **Umum**, di bagian **Pesanan penjualan dan Persyaratan Item**, atur pilihan **izinkan untuk proyek dengan beberapa sumber dana** ke **Ya**.
+1. Di bidang **pelanggan Default**, tentukan lokasi pelanggan pengiriman proyek pada persyaratan item yang berasal dari default:
 
-    - **Dari sumber** pendanaan – Pelanggan pengiriman proyek default berasal dari sumber pendanaan. Jika beberapa sumber pendanaan dikaitkan dengan kontrak proyek, sumber pendanaan pertama dalam daftar akan digunakan.
-    - **Dari proyek** – Pelanggan pengiriman proyek default berasal dari pelanggan yang dipilih di **bidang akun** rekaman Proyek.
+    - **Dari sumber dana** – Pelanggan pengiriman proyek default berasal dari sumber dana. Jika lebih dari satu sumber dana terkait dengan kontrak proyek, maka sumber dana pertama dalam daftar akan digunakan.
+    - **Dari proyek** – Pelanggan pengiriman proyek default berasal dari pelanggan yang dipilih pada bidang **akun rekaman Proyek**.
 
-1. Opsional: Mengatur atau mengubah akun faktur default pada rekaman proyek:
+1. Opsional: Atur atau ubah akun faktur default pada rekaman proyek:
 
-    1. Buka **Manajemen proyek dan akuntansi** \> **Proyek** \> **Semua proyek**, dan buka detail catatan proyek.
-    2. Pada tab **Umum**, atur atau perbarui **bidang Akun** faktur default. Akun yang Anda tentukan akan digunakan sebagai akun faktur default untuk persyaratan item baru yang dibuat untuk proyek. Jika Anda membiarkan bidang kosong, akun faktur dari sumber pendanaan kontrak proyek pertama akan digunakan secara default. Namun, pengguna akan dapat mengubah akun saat mereka menyimpan catatan.
+    1. Buka **Manajemen proyek dan akuntansi** \> **Proyek** \> **Semua proyek**, lalu buka detail rekaman proyek.
+    2. Pada tab **Umum**, atur atau perbarui bidang **akun faktur Default**. Akun yang Anda tentukan akan digunakan sebagai akun faktur default untuk persyaratan item baru yang dibuat untuk proyek. Jika Anda membiarkan bidang kosong, akun faktur dari sumber dana kontrak proyek pertama akan digunakan secara default. Namun, pengguna akan dapat mengubah akun saat mereka menyimpan rekaman.
 
 ### <a name="select-the-invoice-account-to-use-when-you-create-an-item-requirement"></a>Pilih akun faktur yang akan digunakan saat Anda membuat persyaratan item
 
-Untuk memilih akun faktur yang akan digunakan saat Anda membuat persyaratan item, ikuti langkah-langkah berikut.
+Untuk memilih akun faktur yang akan digunakan saat Anda membuat persyaratan item, ikuti langkah-langkah ini.
 
-1. Buka **Manajemen proyek dan akuntansi** \> **Proyek** \> **Semua proyek**, dan pilih catatan proyek.
-1. Pada tab **Paket**, pilih **Persyaratan item**.
-1. Membuat catatan persyaratan item baru.
+1. Buka **Manajemen proyek dan akuntansi** \> **Proyek** \> **Semua proyek**, lalu pilih rekaman proyek.
+1. Pilih **Persyaratan item** pada tab **rencana**.
+1. Membuat rekaman persyaratan item baru.
 
-    - Secara default, **bidang Akun faktur** dalam catatan diatur ke akun faktur yang ditetapkan untuk proyek. Anda bisa mengubah nilai **bidang Akun** faktur lalu menyimpan catatan. Setelah catatan disimpan, Anda tidak bisa lagi memperbarui **nilai akun** Faktur. Jika Anda harus memperbarui **nilai akun** Faktur untuk persyaratan item, hapus persyaratan item yang sudah ada, lalu buat yang baru yang memiliki nilai yang diinginkan.
-    - Secara default, **bidang Pelanggan** untuk persyaratan item diatur berdasarkan **nilai pelanggan** Default yang ditetapkan pada **halaman Manajemen proyek dan parameter** akuntansi.
+    - Secara default, bidang **Akun faktur** di rekaman diatur ke akun faktur yang ditetapkan untuk proyek. Anda dapat mengubah nilai bidang **akun Faktur**, lalu menyimpan rekaman. Setelah rekaman disimpan, Anda tidak dapat lagi memperbarui nilai **akun Faktur**. Jika Anda harus memperbarui nilai **akun Faktur** untuk persyaratan item, hapus persyaratan item yang ada, lalu buat item baru yang memiliki nilai yang diinginkan.
+    - Secara default, bidang **Pelanggan** untuk persyaratan item diatur berdasarkan nilai **pelanggan Default** yang diatur pada halaman **parameter manajemen proyek dan akuntansi**.
 
-    Ketika catatan persyaratan item disimpan, sistem mengaitkannya dengan **catatan header pesanan** penjualan persyaratan Item. Jika tidak ada header pesanan penjualan terbuka yang memiliki akun faktur yang dipilih, sistem akan membuatnya dan mengaitkan baris persyaratan item dengannya.
+    Ketika rekaman persyaratan item disimpan, sistem mengaitkannya dengan rekaman header **pesanan penjualan persyaratan Item**. Jika tidak ada header pesanan penjualan yang memiliki akun faktur yang dipilih, sistem akan membuat satu dan mengaitkan baris persyaratan item dengannya.
 
 > [!NOTE]
-> Persyaratan item selalu ditagih penuh ke akun faktur yang diatur dalam catatan. Sistem saat ini tidak mendukung aturan alokasi pendanaan yang memiliki persyaratan item, dan tidak akan membagi posting berdasarkan pengaturan aturan alokasi pendanaan.
+> Persyaratan item selalu sepenuhnya ditagih ke akun faktur yang diatur di rekaman. Sistem saat ini tidak mendukung aturan alokasi dana yang memiliki persyaratan item dan tidak akan memecah posting berdasarkan konfigurasi aturan alokasi dana.
 
-### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Membuat persyaratan item dari catatan perkiraan item
+### <a name="create-an-item-requirement-from-an-item-forecast-record"></a>Membuat persyaratan item dari rekaman perkiraan item
 
-Untuk membuat persyaratan item dari catatan perkiraan item, ikuti langkah-langkah berikut.
+Untuk membuat persyaratan item dari rekaman perkiraan item, ikuti langkah-langkah berikut ini.
 
-1. Buka **Manajemen proyek dan akuntansi** \> **Proyek** \> **Semua proyek** dan pilih catatan proyek.
-1. Pada tab **Paket**, pilih **Perkiraan item**.
-1. Membuat catatan perkiraan item baru.
-1. Opsional: Pada tab **Proyek**, di **bidang Sumber** pendanaan, pilih akun faktur yang diinginkan.
-1. Pilih **Buat persyaratan** item, dan konfirmasikan pesan yang Anda terima.
+1. Buka **Manajemen proyek dan akuntansi** \> **Proyek** \> **Semua proyek**, lalu pilih rekaman proyek.
+1. Pilih **Perkiraan item** pada tab **Rencana**.
+1. Membuat rekaman perkiraan item baru.
+1. Opsional: Pada tab **Proyek**, pada bidang **sumber Dana**, pilih akun faktur yang diinginkan.
+1. Pilih **Buat persyaratan item**, dan konfirmasikan pesan yang Anda terima.
 
     > [!NOTE]
-    > Sistem menyalin **nilai sumber** Pendanaan dari catatan perkiraan item ke catatan persyaratan item yang baru dibuat.
+    > Sistem menyalin nilai **sumber Dana** dari rekaman perkiraan item ke rekaman persyaratan item yang baru dibuat.
 
 ### <a name="default-invoice-account-when-the-system-automatically-creates-an-item-requirement-from-a-purchase-order-line"></a>Akun faktur default saat sistem secara otomatis membuat persyaratan item dari baris pesanan pembelian
 
-**Jika opsi Buat persyaratan** item diatur ke **Ya** pada **halaman Parameter** manajemen proyek dan akuntansi, sistem secara otomatis membuat persyaratan item saat baris pesanan pembelian proyek baru disimpan. Secara default, **bidang Akun faktur** dan **persyaratan** item diatur ke nilai **bidang Akun** faktur default dalam rekaman proyek. Sistem saat ini tidak mendukung pembaruan atau perubahan akun faktur untuk rekaman jenis ini.
+Jika pilihan **Buat persyaratan item** diatur ke **Ya** di halaman **parameter manajemen proyek dan akuntansi**, sistem secara otomatis membuat persyaratan item saat baris pesanan pembelian proyek baru disimpan. Secara default, bidang **Akun faktur** dan **persyaratan item** dan diatur ke nilai bidang **akun faktur Default** di rekaman proyek. Sistem saat ini tidak mendukung pembaruan atau mengubah akun faktur untuk rekaman jenis ini.

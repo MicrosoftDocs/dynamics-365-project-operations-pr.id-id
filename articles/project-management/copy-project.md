@@ -25,17 +25,17 @@ Dengan Dynamics 365 Project Operations, Anda dapat dengan cepat membangun proyek
 - Perkiraan proyek
 - Estimasi pengeluaran proyek
 - Estimasi bahan proyek
-- Daftar periksa proyek
-- Bucket proyek
+- Daftar Periksa Proyek
+- Kelompok Proyek
 
 ## <a name="project-properties"></a>Properti proyek
 
-Ketika proyek disalin, nilai-nilai di bidang berikut disalin.
+Saat proyek disalin, nilai pada bidang berikut akan disalin.
 
-| Bidang | Operasi Proyek Bahan Non-Stocked | Operasi Proyek Lite | Proyek untuk Web |
+| Bidang | Project Operations Bahan Non-Stok | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Nama | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Deskripsi | :heavy_check_mark: | :heavy_check_mark: | |
+| Description | :heavy_check_mark: | :heavy_check_mark: | |
 | yang terhormat | :heavy_check_mark: | :heavy_check_mark: | |
 | Template kalender | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Mata uang | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ Ketika proyek disalin, nilai-nilai di bidang berikut disalin.
 | Keseluruhan Status Proyek | :heavy_check_mark: | :heavy_check_mark: | |
 | Komentar | :heavy_check_mark: | :heavy_check_mark: | |
 | Estimasi | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Perkiraan Tanggal Mulai</p><p><strong>Catatan:</strong> Bidang ini menentukan tanggal saat proyek dibuat dari salinan. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Perkiraan Tanggal Selesai</p><p><strong>Catatan:</strong> Tanggal di bidang ini disesuaikan berdasarkan tanggal mulai proyek baru yang dibuat dari salinan.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Perkiraan Tanggal Mulai</p><p><strong>Catatan:</strong> Bidang ini menyebutkan tanggal ketika proyek dibuat dari salinan. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Perkiraan Tanggal Selesai</p><p><strong>Catatan:</strong> Tanggal dalam bidang ini disesuaikan berdasarkan tanggal mulai proyek baru yang dibuat dari salinan.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Upaya (Jam) | :heavy_check_mark: | :heavy_check_mark: | |
 | Perkiraan Biaya Tenaga Kerja | :heavy_check_mark: | :heavy_check_mark: | |
 | Perkiraan Biaya Pengeluaran | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Ketika proyek disalin, nilai-nilai di bidang berikut disalin.
 
 ## <a name="work-breakdown-structure"></a>Struktur rincian kerja
 
-Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. Sumber daya bernama digantikan dengan sumber daya generik. Jika sumber daya yang disebutkan tidak memiliki jam kerja yang sama dengan sumber daya generik, jadwal akan dihitung ulang, dan durasi tugas mungkin berubah.
+Saat proyek disalin, seluruh struktur rincian kerja berisi sumber daya disalin. Sumber daya bernama digantikan dengan sumber daya generik. Jika sumber daya bernama tidak memiliki jam kerja yang sama seperti sumber daya generik, jadwal akan dihitung ulang dan durasi tugas dapat berubah.
 
 ## <a name="project-team-members"></a>Anggota tim proyek
 
 Bila tim proyek disalin dari proyek sumber, sumber daya generik akan disalin. Tugas sumber generik juga dikelola seperti proyek sumber. Sumber daya bernama akan dikonversi ke anggota tim generik.
 
 > [!NOTE]
-> Anggota tim dan tugas tidak disalin di Project for the Web.
+> Anggota tim dan penugasan tidak disalin di Project for the Web.
 
 ## <a name="estimates"></a>Estimasi
 
@@ -75,6 +75,6 @@ Untuk informasi tentang cara mengakses salinan proyek secara programatik, lihat 
 
 ## <a name="quotes-and-contracts"></a>Kuotasi dan kontrak
 
-Kutipan dan kontrak tidak terkait dengan proyek tujuan.
+Kuotasi dan kontrak tidak ditautkan ke proyek tujuan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

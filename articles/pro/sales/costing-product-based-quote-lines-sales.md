@@ -1,6 +1,6 @@
 ---
 title: Menentukan biaya baris kuotasi berbasis produk
-description: Artikel ini memberikan informasi tentang menerapkan harga biaya ke garis kutipan berbasis produk.
+description: artikel ini menyediakan informasi tentang menerapkan harga biaya ke baris kuotasi berbasis produk.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

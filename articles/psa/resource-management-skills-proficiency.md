@@ -1,6 +1,6 @@
 ---
 title: Model keahlian dan kecakapan
-description: Artikel ini memberikan informasi tentang cara menggunakan model keterampilan dan kemahiran.
+description: Artikel ini menyediakan informasi tentang cara menggunakan keahlian dan model kecakapan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

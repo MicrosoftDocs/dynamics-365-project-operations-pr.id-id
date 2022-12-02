@@ -1,6 +1,6 @@
 ---
 title: Baris kuotasi berbasis produk
-description: Artikel ini menyediakan informasi tentang garis kutipan berbasis produk.
+description: Artikel ini menyediakan informasi tentang kuotasi berbasis produk.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Menentukan jenis penyebaran Anda
-description: Artikel ini menyediakan informasi untuk membantu Anda menentukan jenis penyebaran operasi Proyek yang benar untuk perusahaan Anda.
+description: artikel ini memberikan informasi untuk membantu Anda menentukan jenis penyebaran Project operations yang benar untuk perusahaan Anda.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan Dynamics yang lama menggunakan Dynamics 365 Project Service Automation
 Project Operations mencakup kemampuan yang disertakan dengan Project Service Automation. Jalur peningkatan akan dirilis untuk pelanggan ini di rilis 2021 gelombang 1.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan Dynamics 365 Finance yang ada menggunakan manajemen dan akuntansi Proyek 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan lama Dynamics 365 Finance menggunakan manajemen proyek dan akuntansi 
 
 Pelanggan Finance yang ada yang menggunakan fungsi manajemen proyek dan akuntansi dapat terus menggunakannya sebagaimana adanya. Lihat [Project Operations untuk skenario pesanan dengan stok/produksi](#pma).
 

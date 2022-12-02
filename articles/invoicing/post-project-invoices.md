@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar proses pemfakturan
-description: Artikel ini memberikan gambaran umum proses faktur dalam Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini ini memberikan ikhtisar proses pemfakturan di Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Project Operations untuk skenario berbasis sumber daya/non-stok menawarkan kemam
 
 ![Diagram alur faktur.](./media/invoicing-flow.png)
 
-Baris kontrak proyek menentukan metode penagihan untuk transaksi proyek yang terkait. Ketika manajer Proyek menyetujui transaksi waktu dan pengeluaran, sistem mencatat transaksi dalam **entitas Project Actuals** dan mengirimkan informasi ke **modul manajemen dan akuntansi** Proyek di Dynamics 365 Finance. Akuntan proyek kemudian melihat dan memposting rekaman menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini mencakup rincian akuntansi penting untuk aktual proyek, seperti penagihan, grup pajak penjualan, grup pajak penjualan item penagihan, dan dimensi keuangan.
+Baris kontrak proyek menentukan metode penagihan untuk transaksi proyek yang terkait. Ketika manajer proyek menyetujui waktu dan transaksi pengeluaran, sistem merekam transaksi di entitas **Aktual Proyek** dan mengirimkan informasi tersebut ke modul **manajemen Proyek dan akuntansi** di Dynamics 365 Finance. Akuntan proyek kemudian melihat dan memposting rekaman menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini mencakup rincian akuntansi penting untuk aktual proyek, seperti penagihan, grup pajak penjualan, grup pajak penjualan item penagihan, dan dimensi keuangan.
 
 Manajer proyek dapat memeriksa transaksi penjualan belum tertagih menggunakan metode penagihan waktu dan material pada [backlog penagihan Waktu dan material](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) serta penagihan harga tetap dalam [tahapan harga tetap](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Tampilan ini memungkinkan Anda memfilter dan memilih transaksi yang harus disertakan dalam siklus penagihan berikutnya, lalu menandainya sebagai **Siap Ditagih**.
 

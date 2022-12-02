@@ -1,6 +1,6 @@
 ---
 title: Sekilas asisten jadwal
-description: Artikel ini memberikan informasi tentang bekerja dengan asisten Jadwal untuk memesan sumber daya.
+description: Artikel ini menyediakan informasi tentang cara menangani asisten jadwal untuk memesan sumber daya.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

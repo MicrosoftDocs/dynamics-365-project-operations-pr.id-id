@@ -1,6 +1,6 @@
 ---
 title: Menangani Pengeluaran pribadi pada laporan pengeluaran
-description: Artikel ini memberikan informasi tentang cara bekerja dengan pengeluaran pribadi yang dikeluarkan oleh karyawan saat bepergian untuk tujuan bisnis.
+description: Artikel ini ini berisi informasi tentang cara menangani pengeluaran pribadi yang ditanggung oleh karyawan saat bepergian untuk keperluan bisnis.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

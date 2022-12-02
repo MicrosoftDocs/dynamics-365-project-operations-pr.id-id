@@ -27,7 +27,7 @@ ms.locfileid: "8915740"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini memperlihatkan cara menggunakan kategori transaksi sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika Anda belum membuat solusi dimensi harga baru untuk organisasi Anda, selesaikan prosedur di [artikel Buat bidang dan entitas](create-custom-fields-entities.md) kustom.
+Artikel ini menampilkan cara menggunakan kategori transaksi sebagai dimensi harga. Sebelum memulai, jika Anda belum membuat solusi dimensi harga, Anda harus membuat yang baru. Jika Anda telah memiliki solusi dimensi harga, maka Anda dapat membuat perubahan dalam solusi tersebut. Jika anda belum membuat solusi dimensi harga baru untuk organisasi anda, selesaikan prosedur di artikel [buat bidang dan entitas kustom](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Tambah kategori transaksi ke formulir dan tampilan
 Untuk membuat kategori transaksi terlihat di UI dalam solusi dimensi harga, Anda harus meninjau semua formulir, dan tampilan entitas utama, dan menambahkan bidang ini ke formulir, dan tampilan entitas tersebut.

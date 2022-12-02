@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 45, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Rilis Pembaruan 45, V3.
+description: Artikel ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 45, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/14/2022
@@ -29,7 +29,7 @@ ms.locfileid: "9169180"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Aplikasi ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation Update Release 45, V3. Versi ini memiliki nomor build V3.10.76.168 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juli 2022.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 45, V3. Versi ini memiliki nomor build V3.10.76.168 dan secara umum tersedia melalui pembaruan mandiri pada Bulan Juli 2022.
 
 ## <a name="update-release-45"></a>Pembaruan rilis 45
 
@@ -39,9 +39,9 @@ Masalah berikut telah diperbaiki.
 
 **Penjualan**
 
-- Pengguna tidak dapat berhasil membuat faktur setelah mereka mencoba membuat faktur tanpa penjualan yang belum ditagih, jika mereka juga melihat contoh halaman yang sama dan tidak me-refresh-nya.
+- Pengguna tidak dapat berhasil membuat faktur setelah mereka mencoba membuat faktur tanpa penjualan tak tertagih, jika mereka juga melihat instans halaman yang sama dan tidak me-refreshnya.
 
 **Waktu dan Pengeluaran**
 
-- Ketika Persetujuan Modern diaktifkan dan persetujuan proyek yang ditarik kembali disetujui, tahap perekaman salah diperbarui ke **Permintaan Penarikan Kembali disetujui**.
-- Saat Persetujuan Modern diaktifkan dan Cloud Flows tidak aktif, proses persetujuan tidak berhasil, dan pengguna yang mengirimkan atau menyetujui tidak diberi tahu.
+- Bila Persetujuan Modern diaktifkan dan persetujuan proyek yang ditarik disetujui, tahapan rekaman tidak diperbarui dengan benar menjadi **permintaan penarikan disetujui**.
+- Bila Persetujuan Modern diaktifkan dan Alur Cloud tidak aktif, proses persetujuan tidak berhasil, dan pengguna yang mengirim atau menyetujui tidak diberi tahu.

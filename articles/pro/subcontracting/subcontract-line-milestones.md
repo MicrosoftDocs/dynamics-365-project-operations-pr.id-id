@@ -1,6 +1,6 @@
 ---
 title: Tahap Baris Subkontrak
-description: Artikel ini menjelaskan cara membuat dan mempertahankan jadwal faktur berbasis tonggak pencapaian untuk subkontrak dengan vendor.
+description: Artikel ini menjelaskan cara membuat dan mengelola jadwal faktur berbasis tahapan untuk subkontrak dengan vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

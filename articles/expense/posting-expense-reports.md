@@ -30,15 +30,15 @@ Untuk memposting laporan pengeluaran, pada halaman **laporan pengeluaran yang di
 
 Anda juga dapat memposting semua laporan pengeluaran dalam daftar secara bersamaan. Pilih Semua laporan pengeluaran, lalu pilih **posting**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Memungkinkan kemampuan untuk memposting kewajiban biaya dalam mata uang vendor untuk fitur metode pembayaran tunai
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Mengaktifkan Kemampuan untuk memposting tanggung jawab pengeluaran dalam mata uang vendor untuk fitur metode pembayaran tunai
 
-Fitur **Kemampuan untuk memposting kewajiban biaya dalam mata uang vendor untuk metode** pembayaran tunai memungkinkan laporan pengeluaran untuk diposting dalam mata uang vendor untuk metode pembayaran tunai.
+Fitur **Kemampuan untuk memposting tanggung jawab pengeluaran dalam mata uang vendor untuk metode pembayaran tunai** memungkinkan laporan pengeluaran diposting dalam mata uang vendor untuk metode pembayaran tunai.
 
-Saat ini, ketika Anda mengirimkan pengeluaran tunai, laporan pengeluaran diposting dalam mata uang akuntansi. Karena jumlah konversi antara mata uang transaksi, mata uang akuntansi, dan mata uang vendor, jumlah yang salah dibayarkan kepada vendor jika tanggal transaksi pengeluaran dan tanggal pembayaran aktual memiliki nilai tukar yang berbeda.
+Saat ini, saat Anda mengirimkan pengeluaran tunai, laporan pengeluaran diposting dalam mata uang akuntansi. Karena konversi jumlah di antara mata uang transaksi, mata uang akuntansi, dan mata uang vendor, jumlah yang salah dibayar ke vendor jika tanggal transaksi pengeluaran dan tanggal pembayaran aktual memiliki nilai tukar yang berbeda.
 
 Fitur ini akan memastikan bahwa saldo vendor dicatat dalam mata uang vendor saat laporan pengeluaran diposting.
 
 1. Buka **Ruang kerja** \> **Manajemen Fitur**.
-2. Dalam daftar, temukan dan pilih **Kemampuan untuk memposting kewajiban pengeluaran dalam mata uang vendor untuk metode** pembayaran tunai, lalu pilih **Aktifkan sekarang**.
+2. Dalam daftar, cari dan pilih **Kemampuan untuk memposting tanggung jawab pengeluaran dalam mata uang vendor untuk metode pembayaran tunai**, lalu pilih **Aktifkan sekarang**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

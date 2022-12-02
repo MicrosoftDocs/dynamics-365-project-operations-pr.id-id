@@ -1,6 +1,6 @@
 ---
 title: Perubahan waktu dan biaya (Project Service Automation 3.x)
-description: Artikel ini memberikan informasi tentang perubahan solusi untuk Waktu dan Biaya.
+description: Artikel ini memberikan informasi tentang perubahan solusi untuk waktu dan pengeluaran.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Tahapan proyek
-description: Artikel ini menyediakan informasi tentang tahapan proyek yang tersedia di Microsoft Dynamics Operasi Proyek.
+description: Artikel ini memberikan informasi tentang tahapan proyek yang tersedia dalam Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Ketika Anda menghubungkan sebuah proyek dengan kuotasi, atau ketika membuat proy
 
 ## <a name="plan"></a>Rencana
 
-Ketika Anda memenangkan kuotasi yang berkaitan dengan proyek, dan proyek itu dipindahkan ke fase **Kontrak**, tahapan proyek diperbarui ke **rencana**. Saat proyek berada dalam **tahap Rencana**, tab **Penjualan** di **halaman Entitas** Proyek menampilkan detail kontrak.
+Ketika Anda memenangkan kuotasi yang berkaitan dengan proyek, dan proyek itu dipindahkan ke fase **Kontrak**, tahapan proyek diperbarui ke **rencana**. Ketika proyek pada tahapan **Rencana**, tab **Penjualan** pada halaman **entitas proyek** menampilkan detail kontrak.
 
 ## <a name="deliver"></a>Kirim
 

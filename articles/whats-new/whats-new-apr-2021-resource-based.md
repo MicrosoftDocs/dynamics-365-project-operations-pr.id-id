@@ -1,6 +1,6 @@
 ---
 title: Yang baru di April 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis April 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia di rilis Project Operations april 2021 untuk skenario berbasis sumber daya/non stok.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029258"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
 - Lingkungan Project Operations untuk Dataverse versi 4.9.0.221
-- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.17
+- Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 
@@ -44,11 +44,11 @@ Daftar berikut menampilkan peta penulisan ganda yang telah dimodifikasi atau dit
 | Aktual Integrasi Project Operations (msdyn\_actuals) | 1.0.0.14 | Petakan dimodifikasi untuk mensinkronisasi aktual proyek bahan. |
 | Entitas integrasi Project Operations untuk estimasi pengeluaran (msdyn\_estimateslines) | 1.0.0.2 | Menambahkan sinkronisasi baris kontrak proyek ke aplikasi keuangan dan operasi untuk dukungan penagihan berbasis tugas. |
 | Entitas integrasi Project Operations untuk estimasi jam (msdyn\_resourceassignments) | 1.0.0.5 | Menambahkan sinkronisasi baris kontrak proyek ke aplikasi keuangan dan operasi untuk dukungan penagihan berbasis tugas. |
-| Tabel integrasi Project Operations untuk estimasi bahan (msdyn\_estimatelines) | 1.0.0.0 | Peta tabel baru untuk menyinkronkan perkiraan material dari Dataverse ke aplikasi keuangan dan operasi. |
-| Entitas ekspor faktur vendor proyek integrasi Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Peta tabel baru untuk menyinkronkan header faktur vendor dari aplikasi keuangan dan operasi ke Dataverse. |
-| Entitas ekspor baris faktur vendor proyek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Peta tabel baru untuk menyinkronkan baris faktur vendor dari aplikasi keuangan dan operasi ke Dataverse. |
+| Tabel integrasi Project Operations untuk estimasi bahan (msdyn\_estimatelines) | 1.0.0.0 | Peta tabel baru untuk mensinkronisasikan estimasi bahan dari Dataverse ke aplikasi keuangan dan operasi. |
+| Entitas ekspor faktur vendor proyek integrasi Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Peta tabel baru untuk mensinkronisasikan header faktur vendor dari aplikasi aplikasi keuangan dan operasi ke Dataverse. |
+| Entitas ekspor baris faktur vendor proyek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Peta tabel baru untuk mensinkronisasikan baris faktur vendor dari aplikasi aplikasi keuangan dan operasi ke Dataverse. |
 
-Anda harus selalu menjalankan versi terbaru peta di lingkungan Anda dan mengaktifkan semua peta tabel terkait saat memperbarui solusi Operasi Dataverse Proyek dan versi solusi keuangan dan operasi. Fitur dan kemampuan tertentu mungkin tidak berfungsi dengan benar jika versi peta terbaru tidak diaktifkan. Anda dapat melihat versi aktif peta pada kolom **Versi** pada halaman **Penulisan ganda**. Anda dapat mengaktifkan versi baru peta dengan memilih **versi peta Tabel**, memilih versi terbaru, kemudian menyimpan versi yang dipilih. Jika Anda telah menyesuaikan peta tabel siap pakai, aplikasikan ulang perubahan. Untuk informasi lebih lanjut, lihat [manajemen siklus hidup aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Anda harus selalu menjalankan versi peta terbaru di lingkungan Anda dan mengaktifkan semua peta tabel terkait saat memperbarui solusi Project Operations Dataverse dan versi solusi keuangan dan operasi Anda. Fitur dan kemampuan tertentu mungkin tidak berfungsi dengan benar jika versi peta terbaru tidak diaktifkan. Anda dapat melihat versi aktif peta pada kolom **Versi** pada halaman **Penulisan ganda**. Anda dapat mengaktifkan versi baru peta dengan memilih **versi peta Tabel**, memilih versi terbaru, kemudian menyimpan versi yang dipilih. Jika Anda telah menyesuaikan peta tabel siap pakai, aplikasikan ulang perubahan. Untuk informasi lebih lanjut, lihat [manajemen siklus hidup aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jika Anda menemui masalah saat memulai peta, ikuti petunjuk dalam bagian [masalah kolom tabel Tidak Ada pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) dari panduan pemecahan masalah Penulisan ganda.
 

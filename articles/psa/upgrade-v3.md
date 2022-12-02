@@ -1,6 +1,6 @@
 ---
 title: Pertimbangan peningkatan - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x ke versi 3
-description: Artikel ini menyediakan informasi tentang pertimbangan yang harus Anda buat ketika Anda meng-upgrade dari Project Service Automation versi 2.x atau 1.x ke versi 3.
+description: Artikel ini menyediakan informasi tentang pertimbangan yang harus anda buat saat melakukan upgrade dari versi Project Service Automation 2. x atau 1. x ke versi 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ Di Project Service Automation versi 2 dan versi 1, penetapan tugas disimpan seba
 
 Dalam versi 3 dari Project Service Automation, skema yang mendasari penetapan sumber daya yang dapat dipesan untuk tugas telah diubah. Tugas baris telah ditolak dan ada relasi 1:1 langsung antara tugas di **entitas tugas** dan anggota tim di entitas **penetapan sumber daya**. Tugas yang ditetapkan ke anggota tim proyek sekarang disimpan langsung dalam entitas tugas sumber daya.  
 
-Perubahan ini mempengaruhi peningkatan proyek yang ada yang memiliki tugas sumber daya untuk nama sumber daya dapat dipesan bernama dan sumber daya generik pada tim proyek. Artikel ini memberikan pertimbangan yang perlu Anda perhitungkan untuk proyek Anda saat Anda meningkatkan ke versi 3. 
+Perubahan ini mempengaruhi peningkatan proyek yang ada yang memiliki tugas sumber daya untuk nama sumber daya dapat dipesan bernama dan sumber daya generik pada tim proyek. Artikel ini memberikan pertimbangan bahwa anda akan perlu memperhitungkan proyek anda saat anda mengupgrade ke versi 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tugas ditetapkan ke sumber daya bernama
 Menggunakan entitas tugas yang mendasari, tugas di versi 2 dan versi 1 memungkinkan anggota tim untuk menggambarkan peran selain dari peran yang ditentukan default. Misalnya, Pramudita Cahyadewi, yang secara default menetapkan peran manajer program, dapat ditetapkan ke tugas dengan peran pengembang. Di versi 3, peran anggota tim yang disebutkan selalu default, sehingga tugas yang diberikan pada Pramudita Cahyadewi menggunakan peran default Pramudita sebagai manajer program.

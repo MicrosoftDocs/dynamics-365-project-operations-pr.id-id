@@ -1,6 +1,6 @@
 ---
 title: Hapus instalan Dynamics 365 Project Operations
-description: Artikel ini menyediakan informasi tentang cara menghapus instalan Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang cara hapus instalan Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Untuk menghapus instalan Dynamics 365 Project Operations, Anda harus mendapatkan
     | 6 | ProjectServiceCore_Patch                           | Tidak ada Catatan tambahan.                                                                         |
     | 7 | ProjectServiceCore                                 | Tidak ada Catatan tambahan.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Jika tidak ditemukan, abaikan solusi ini.                                                            |
-    | 9 | FieldServiceCommon                                 | Diperlukan untuk penulisan ganda dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Diperlukan untuk penulisan ganda dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Diperlukan untuk menulis dua kali dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Diperlukan untuk menulis dua kali dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Diperlukan untuk Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Diperlukan untuk Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Diperlukan untuk Dynamics 365 Field Service.                                                     |

@@ -1,6 +1,6 @@
 ---
 title: Kontrak berbasis uang muka dan panjar
-description: Artikel ini memberikan informasi tentang model kontrak berbasis retainer dan kemajuan dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang uang muka dan model kontrak berbasis panjar dalam Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

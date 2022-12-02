@@ -1,6 +1,6 @@
 ---
 title: Mengelola delegasi
-description: Artikel ini memberikan informasi tentang bagaimana delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain.
+description: Artikel ini menyediakan informasi tentang bagaimana delegasi pengeluaran dapat membuat dan mengelola laporan pengeluaran untuk karyawan lain.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

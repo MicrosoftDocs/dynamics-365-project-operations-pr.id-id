@@ -18,7 +18,7 @@ ms.locfileid: "8913946"
 
 _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
   - Project Operations di lingkungan Dataverse versi 4.11.0.156 or 4.11.0.164.
 

@@ -1,6 +1,6 @@
 ---
 title: Mengelola prospek - lite
-description: Artikel ini menyediakan informasi tentang mengelola prospek berbasis proyek (pro).
+description: Artikel ini menyediakan informasi tentang mengeluarkan prospek berbasis proyek (Pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

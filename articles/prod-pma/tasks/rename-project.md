@@ -24,7 +24,7 @@ ms.locfileid: "8683864"
 
 [!include [banner](../../includes/banner.md)]
 
-Tahapan proyek dapat berfungsi sebagai panduan untuk siklus hidup proyek. Anda dapat menentukan tahapan proyek yang akan disertakan dalam proyek di area tahapan proyek di halaman parameter manajemen proyek dan akuntansi. Dynamics 365 Finance menyediakan lima tahap proyek yang telah ditentukan dan tiga tahap yang ditentukan pengguna. Anda dapat memperbarui nama tahapan proyek yang Anda gunakan untuk melacak kemajuan proyek. Anda juga dapat menyediakan nama untuk nama status yang ditentukan pengguna. Tugas ini menunjukkan cara mengubah nama atau memodifikasi tahapan proyek dan menggunakan himpunan data USSI.
+Tahapan proyek dapat berfungsi sebagai panduan untuk siklus hidup proyek. Anda dapat menentukan tahapan proyek yang akan disertakan dalam proyek di area tahapan proyek di halaman parameter manajemen proyek dan akuntansi. Dynamics 365 Finance menyediakan lima tahapan proyek yang telah ditetapkan dan tiga tahapan yang ditentukan pengguna. Anda dapat memperbarui nama tahapan proyek yang Anda gunakan untuk melacak kemajuan proyek. Anda juga dapat menyediakan nama untuk nama status yang ditentukan pengguna. Tugas ini menunjukkan cara mengubah nama atau memodifikasi tahapan proyek dan menggunakan himpunan data USSI.
 
 1. Buka manajemen proyek dan akuntansi > konfigurasi > manajemen proyek dan parameter akuntansi.
 2. Klik tab tahapan proyek

@@ -1,6 +1,6 @@
 ---
 title: Menentukan keterampilan dan kecakapan
-description: Artikel ini memberikan informasi tentang cara menyiapkan model kecakapan untuk menilai sumber daya.
+description: artikel ini menyediakan informasi tentang cara mengonfigurasikan model kecakapan untuk menilai sumber daya.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

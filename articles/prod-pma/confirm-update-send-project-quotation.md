@@ -1,6 +1,6 @@
 ---
 title: Mengonfirmasi, memperbarui, dan mengirim kuotasi proyek
-description: Artikel ini memberikan informasi tentang mengirim penawaran kepada pelanggan untuk konfirmasi, memodifikasi berdasarkan umpan balik, dan kemudian mengirim ulang kutipan.
+description: Artikel ini menyediakan informasi tentang pengiriman kuotasi ke pelanggan untuk konfirmasi, memodifikasi berdasarkan umpan balik, dan kemudian mengirim ulang kuotasi.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Menambahkan bidang kustom ke pengaturan harga dan entitas transaksi
-description: Artikel ini menyediakan informasi tentang menambahkan bidang kustom ke penyiapan harga dan entitas transaksional.
+description: Artikel ini memberikan informasi tentang menambahkan bidang kustom ke pengaturan harga dan entitas transaksi.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920478"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang dan entitas kustom](create-custom-fields-entities.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
+Artikel ini mengasumsikan bahwa anda telah menyelesaikan prosedur di artikel, [membuat entitas dan bidang kustom](create-custom-fields-entities.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini. 
 
-Pada artikel ini, prosedur akan menunjukkan kepada Anda cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan ke elemen antarmuka pengguna (UI) seperti formulir dan tampilan.
+Dalam artikel ini, prosedur akan menunjukkan cara menambahkan referensi bidang kustom yang diperlukan ke entitas dan elemen antarmuka pengguna (UI) seperti formulir dan tampilan.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Menambahkan bidang dimensi harga kustom 
 Setelah bidang kustom dan entitas telah dibuat, langkah selanjutnya adalah membuat pengaturan harga dan entitas transaksi yang mengetahui entitas kustom atau rangkaian pilihan dengan membuat bidang referensi. Tergantung pada apakah daftar dimensi harga mencakup dimensi rangkaian pilihan atau dimensi entitas atau keduanya, ikuti hanya langkah di **dimensi harga kustom berbasis rangkaian pilihan** atau **Dimensi harga kustom berbasis entitas**, atau keduanya.

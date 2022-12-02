@@ -1,6 +1,6 @@
 ---
 title: Menambahkan anggota tim dari kisi anggota Tim
-description: Artikel ini memberikan informasi tentang bagaimana Anda dapat mengelola sumber daya anggota tim.
+description: Artikel ini menyediakan informasi tentang cara Anda mengelola sumber daya anggota tim.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Mengelola beberapa pelanggan pada kuotasi proyek
-description: Artikel ini memberikan informasi tentang mengerjakan kutipan yang melibatkan banyak pelanggan yang akan mendanai proyek.
+description: Artikel ini menyediakan informasi tentang menangani kuotasi yang melibatkan beberapa pelanggan yang akan mendanai proyek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

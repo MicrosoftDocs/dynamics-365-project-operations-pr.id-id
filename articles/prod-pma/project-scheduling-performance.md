@@ -1,6 +1,6 @@
 ---
 title: Kinerja penjadwalan sumber daya proyek
-description: Artikel ini memberikan informasi tentang cara meningkatkan kinerja penjadwalan sumber daya untuk sejumlah besar proyek.
+description: Artikel ini menyediakan informasi tentang cara meningkatkan kinerja penjadwalan sumber daya untuk sejumlah besar proyek.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

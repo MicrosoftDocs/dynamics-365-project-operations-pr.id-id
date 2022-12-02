@@ -1,6 +1,6 @@
 ---
 title: Mendaftar ke uji coba Project Operations
-description: Artikel ini menyediakan informasi tentang cara menyebarkan versi percobaan Dynamics 365 Project Operations.
+description: Artikel ini menyediakan informasi tentang cara menyebarkan uji coba Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-s
 
 
 
-Artikel ini menjelaskan cara berlangganan penawaran mitra pratinjau dan menyebarkan Dynamics 365 Project Operations lingkungan.
+Artikel ini menjelaskan cara berlangganan penawaran mitra pratinjau dan menyebarkan lingkungan Dynamics 365 Project Operations.
 
 Dengan uji coba Project Operations baru, Anda dapat secara otomatis menyebarkan salah satu dari tiga skenario penyebaran yang didukung dengan menyelesaikan daftar pertanyaan yang merekomendasikan pendekatan penyebaran terbaik. Artikel ini menyediakan informasi tentang cara:
 
@@ -86,18 +86,18 @@ Sebelum Anda memulai, masuk ke browser dengan akun kerja pengguna di penyewa tem
  
   Setelah provisi selesai, status lingkungan Anda **Siap**. Penyediaan lingkungan mencakup penerapan data demo.
  
-4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi keuangan dan operasi untuk memvalidasi penyebaran.
+4.  Pilih URL Microsoft Dataverse masing-masing serta URL aplikasi keuangan dan operasi untuk menvalidasi penyebaran.
 
 ## <a name="configuring-dual-write"></a>Mengonfigurasikan tulis ganda
-- Untuk mengonfigurasi peran keamanan untuk penulisan ganda, lihat [Memperbarui pengaturan keamanan pada Operasi Proyek di Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Untuk mengakses konfigurasi tulis ganda, Navigasikan ke instans keuangan dan operasi, lalu navigasikan ke **Tulis Ganda Manajemen** > **Data**.
-- Untuk mengonfigurasi peta tulis ganda, lihat [Menjalankan peta](resource-provision-new-environment.md#run-project-operations-dual-write-maps) tulis ganda Operasi Proyek.
+- Untuk mengonfigurasi peran keamanan penulisan dua kali, lihat [Memperbarui pengaturan keamanan pada Project Operations di Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Untuk mengakses konfigurasi penulisan dua kali, Navigasikan ke instans keuangan dan pengoperasian, lalu navigasi ke **Manajemen Data** > **Penulisan Dua Kali**.
+- Untuk mengonfigurasi peta penulisan dua kali, lihat [Menjalankan peta penulisan dua kali Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Menetapkan lisensi
 
 Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
-1. Buka [Microsoft 365 pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
+1. Buka [pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
 
    ![Halaman Beranda pusat Admin](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Sumber daya berikut memberikan panduan bermanfaat saat Anda memulai perjalanan d
 
 ## <a name="frequently-asked-questions"></a>Tanya jawab
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk lingkungan aplikasi keuangan dan operasi saya?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk lingkungan aplikasi keuangan dan pengoperasian saya?
 
 - Untuk mitra yang memerlukan kemampuan manajemen siklus hidup lingkungan lengkap, lihat [Permintaan Lisensi Sandbox Mitra](https://experience.dynamics.com/requestlicense) untuk meninjau penawaran mitra baru. 
 - Untuk mitra yang mencari informasi lebih lanjut tentang Hak Penggunaan [Internal, lihat manfaat cloud dan perangkat lunak Hak Penggunaan Internal (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Sumber daya berikut memberikan panduan bermanfaat saat Anda memulai perjalanan d
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Dapatkah saya memperpanjang masa uji coba setelah 30 hari?
 Untuk memperpanjang uji coba, selesaikan langkah-langkah berikut.
 
-1. Di **Microsoft 365 Pusat** Admin, buka **Penagihan** > **produk** Anda.
+1. Dalam Pusat Admin **Microsoft 365**, buka **Penagihan** > **Produk Anda**.
 2. Pilih **Dynamics 365 Project Operations (CE) - Uji Coba Pratinjau**.
 3. Dalam **Tanggal Kedaluwarsa**, pilih **Perpanjang Tanggal**.
 

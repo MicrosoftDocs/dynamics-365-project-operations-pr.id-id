@@ -1,6 +1,6 @@
 ---
 title: Log penjadwalan proyek
-description: Artikel ini menyediakan informasi dan sampel yang akan membantu Anda menggunakan log Penjadwalan Proyek untuk melacak kegagalan yang terkait dengan Api Layanan Penjadwalan Proyek dan Penjadwalan Proyek.
+description: Artikel ini menyediakan informasi dan sampel yang akan membantu Anda menggunakan log Penjadwalan Proyek untuk melacak kegagalan yang terkait dengan Layanan Penjadwalan Proyek dan API Penjadwalan Proyek.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
@@ -15,88 +15,88 @@ ms.locfileid: "8923699"
 ---
 # <a name="project-scheduling-logs"></a>Log penjadwalan proyek
 
-_**Berlaku Untuk:** Operasi Proyek untuk skenario berbasis sumber daya/non-stok, penyebaran Lite - kesepakatan untuk faktur_ proforma, _Proyek untuk Web_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-persediaan, penyebaran Lite - faktur penawaran hingga proforma_, _Project for the Web_
 
-Microsoft Dynamics 365 Project Operations menggunakan [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) sebagai mesin penjadwalan utamanya. Alih-alih menggunakan antarmuka pemrograman aplikasi Web (API) standar Microsoft Dataverse, Operasi Proyek menggunakan API Penjadwalan Proyek baru untuk membuat, memperbarui, dan menghapus tugas proyek, penugasan sumber daya, dependensi tugas, bucket proyek, dan anggota tim proyek. Namun, ketika membuat, memperbarui, atau menghapus operasi dijalankan secara terprogram pada entitas struktur rincian kerja (WBS), kesalahan mungkin terjadi. Untuk melacak kesalahan ini dan riwayat operasi, dua log administratif baru telah diterapkan: **Operation Set** dan **Project Scheduling Service (PSS)**. Untuk mengakses log ini, buka **Pengaturan** \> **Jadwalkan Integrasi.**
+Microsoft Dynamics 365 Project Operations menggunakan [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) sebagai mesin penjadwalan utamanya. Alih-alih menggunakan API (antarmuka penerapan Web standar) Microsoft Dataverse, Project Operations menggunakan API Penjadwalan Proyek baru untuk membuat, memperbarui, dan menghapus tugas proyek, penugasan sumber daya, dependensi tugas, kelompok proyek, dan anggota tim proyek. Namun, saat operasi membuat, memperbarui, atau menghapus dijalankan secara programmatis pada entitas WBS (struktur perincian kerja), kesalahan dapat terjadi. Untuk melacak kesalahan ini dan riwayat operasi, dua log administratif baru telah diimplementasikan: **Rangkaian Operasi** dan **Layanan Penjadwalan Proyek (PSS)**. Untuk mengakses log ini, buka **Pengaturan** \> **Integrasi Jadwal**.
 
-Ilustrasi berikut ini memperlihatkan model data untuk log Penjadwalan Proyek.
+Ilustrasi berikut menampilkan model data untuk log penjadwalan proyek.
 
-![Model data untuk log Penjadwalan Proyek.](media/LOGDATAMODEL.jpg)
+![Model data untuk log penjadwalan proyek.](media/LOGDATAMODEL.jpg)
 
-## <a name="operation-set-log"></a>Log Set Operasi
+## <a name="operation-set-log"></a>Log rangkaian operasi
 
-Log Set Operasi melacak eksekusi set operasi yang digunakan untuk menjalankan satu atau banyak membuat, memperbarui, atau menghapus operasi dalam batch pada proyek, tugas proyek, penugasan sumber daya, dependensi tugas, bucket proyek, atau anggota tim proyek. Bidang **Operasi dalam Status** menunjukkan status keseluruhan dari set operasi. Detail payload set operasi diambil dalam catatan Operation Set Detail terkait.
+Log Rangkaian Operasi melacak eksekusi rangkaian operasi yang digunakan untuk menjalankan satu atau beberapa operasi pembuatan, pembaruan, atau penghapusan dalam Batch pada proyek, tugas proyek, penugasan sumber daya, dependensi tugas, kelompok proyek, atau anggota tim proyek. Bidang **Operasi dalam Status** menunjukkan status keseluruhan rangkaian operasi. Rincian muatan rangkaian operasi tertangkap di rekaman detail rangkaian operasi terkait.
 
-### <a name="operation-set"></a>Set Operasi
+### <a name="operation-set"></a>Rangkaian operasi
 
-Tabel berikut menunjukkan bidang yang terkait **dengan entitas Operation Set**.
+Tabel berikut Menampilkan bidang yang terkait dengan entitas **Rangkaian Operasi**.
 
-| SchemaName            | Deskripsi                                                                                                  | DisplayName            |
+| Nama Skema            | Description                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | Tanggal/waktu ketika set operasi selesai atau gagal.                                                | CompletedOn            |
-| msdyn_correlationid   | Nilai **correlationId** dari permintaan.                                                                  | CorrelationId          |
-| msdyn_description     | Deskripsi set operasi.                                                                        | Deskripsi            |
+| msdyn_completedon     | Tanggal/waktu ketika rangkaian operasi selesai atau gagal.                                                | CompletedOn            |
+| msdyn_correlationid   | Nilai **correlationId** permintaan.                                                                  | CorrelationId          |
+| msdyn_description     | Deskripsi rangkaian operasi.                                                                        | Description            |
 | msdyn_executedon      | Tanggal/waktu saat rekaman dijalankan.                                                                       | Dijalankan Pada            |
 | msdyn_operationsetId  | Pengidentifikasi unik instans entitas.                                                                   | OperationSet           |
-| msdyn_Project         | Proyek yang terkait dengan set operasi.                                                            | Project                |
-| msdyn_projectid       | Nilai **projectId** dari permintaan.                                                                      | ProjectId (Tidak Digunakan Lagi) |
+| msdyn_Project         | Proyek yang terkait dengan rangkaian operasi.                                                            | Project                |
+| msdyn_projectid       | Nilai **projectId** permintaan.                                                                      | ProjectId (Tidak Digunakan Lagi) |
 | msdyn_projectName     | Tidak berlaku.                                                                                              | Tidak berlaku         |
-| msdyn_PSSErrorLog     | Pengidentifikasi unik log kesalahan Layanan Penjadwalan Proyek yang terkait dengan set operasi. | Log Kesalahan PSS          |
+| msdyn_PSSErrorLog     | Pengidentifikasi unik log kesalahan Layanan Penjadwalan Proyek yang terkait dengan rangkaian operasi. | Log Kesalahan PSS          |
 | msdyn_PSSErrorLogName | Tidak berlaku.                                                                                              | Tidak berlaku         |
-| msdyn_status          | Status set operasi.                                                                             | Status                 |
+| msdyn_status          | Status rangkaian operasi.                                                                             | Status                 |
 | msdyn_statusName      | Tidak berlaku.                                                                                              | Tidak berlaku         |
-| msdyn_useraadid       | (Azure Active Directory Azure AD) ID objek pengguna tempat permintaan tersebut berada.                     | UserAADID              |
+| msdyn_useraadid       | ID Objek Azure Active Directory (Azure AD) dari Pengguna yang memiliki permintaan ini.                     | UserAADID              |
 
-### <a name="operation-set-detail"></a>Detail Set Operasi
+### <a name="operation-set-detail"></a>Rincian Rangkaian Operasi
 
-Tabel berikut ini memperlihatkan bidang yang terkait **dengan entitas Detail** Set Operasi.
+Tabel berikut Menampilkan bidang yang terkait dengan entitas **Rincian Rangkaian Operasi**.
 
-| SchemaName                 | Deskripsi                                                                                 | DisplayName           |
+| Nama Skema                 | Description                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
 | msdyn_cdspayload           | Bidang berseri Dataverse untuk permintaan.                                            | CdsPayload            |
-| msdyn_entityname           | Nama entitas untuk permintaan tersebut.                                                     | EntityName            |
+| msdyn_entityname           | Nama entitas untuk permintaan.                                                     | EntityName            |
 | msdyn_httpverb             | Metode permintaan.                                                                         | Kata Kerja HTTP (Tidak digunakan lagi) |
 | msdyn_httpverbName         | Tidak berlaku.                                                                             | Tidak berlaku        |
-| msdyn_operationset         | Pengidentifikasi unik dari set operasi yang dimiliki rekaman tersebut.                      | OperationSet          |
+| msdyn_operationset         | Pengidentifikasi unik untuk rangkaian operasi yang memiliki rekaman ini.                      | OperationSet          |
 | msdyn_operationsetdetailId | Pengidentifikasi unik instans entitas.                                                  | Rincian OperationSet   |
 | msdyn_operationsetName     | Tidak berlaku.                                                                             | Tidak berlaku        |
-| msdyn_operationtype        | Jenis operasi dari detail set operasi.                                             | OperationType         |
+| msdyn_operationtype        | Jenis operasi rincian rangkaian operasi.                                             | OperationType         |
 | msdyn_operationtypeName    | Tidak berlaku.                                                                             | Tidak berlaku        |
-| msdyn_psspayload           | Bidang Layanan Penjadwalan Proyek berseri untuk permintaan tersebut.                           | PssPayload            |
-| msdyn_recordid             | Pengidentifikasi catatan permintaan.                                                       | ID Rekaman             |
-| msdyn_requestnumber        | Nomor yang dibuat secara otomatis yang mengidentifikasi urutan permintaan yang diterima. | Nomor Permintaan        |
+| msdyn_psspayload           | Bidang Penjadwalan Proyek berseri untuk permintaan.                           | PssPayload            |
+| msdyn_recordid             | Pengidentifikasi rekaman permintaan.                                                       | ID Rekaman             |
+| msdyn_requestnumber        | Nomor yang dibuat secara otomatis yang mengidentifikasi pesanan yang mana permintaan diterima di dalamnya. | Nomor Permintaan        |
 
-## <a name="project-scheduling-service-error-logs"></a>Log kesalahan Project Scheduling Service
+## <a name="project-scheduling-service-error-logs"></a>Log kesalahan Layanan Penjadwalan proyek
 
-Log kesalahan Project Scheduling Service menangkap kegagalan yang terjadi saat Layanan Penjadwalan Proyek mencoba **operasi Simpan** atau **Buka**. Ada tiga skenario yang didukung di mana log ini dihasilkan:
+Log kesalahan Layanan Penjadwalan Proyek mencatat kegagalan yang terjadi saat Layanan Penjadwalan Proyek mencoba operasi **Simpan** atau **Buka**. Ada tiga skenario yang didukung di mana log ini dibuat:
 
-- Tindakan yang dimulai pengguna gagal secara kritis (misalnya, penetapan tidak dapat dibuat karena hak istimewa yang hilang).
-- Layanan Penjadwalan Proyek tidak dapat secara terprogram membuat, memperbarui, menghapus, atau melakukan operasi berjenjang lainnya pada suatu entitas.
-- Pengguna mengalami kesalahan saat rekaman gagal dibuka (misalnya, saat proyek dibuka atau informasi anggota tim diperbarui).
+- Tindakan yang diawali pengguna sangat gagal (misalnya, penugasan tidak dapat dibuat karena hak istimewa tidak ada).
+- Layanan Penjadwalan Proyek tidak dapat secara programatis membuat, memperbarui, menghapus, atau melakukan operasi berantai lainnya pada entitas.
+- Kesalahan pengalaman pengguna saat rekaman gagal terbuka (contohnya, ketika proyek dibuka atau informasi anggota tim diperbarui).
 
-### <a name="project-scheduling-service-log"></a>Log Layanan Penjadwalan Proyek
+### <a name="project-scheduling-service-log"></a>Log Layanan Penjadwalan proyek
 
-Tabel berikut ini memperlihatkan bidang yang disertakan dalam log Layanan Penjadwalan Proyek.
+Tabel berikut Menampilkan bidang yang tercakup dalam log Layanan penjadwalan Proyek.
 
-| SchemaName          | Deskripsi                                                                    | DisplayName    |
+| Nama Skema          | Description                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Tumpukan panggilan pengecualian.                                               | Tumpukan Panggilan     |
 | msdyn_correlationid | ID korelasi kesalahan.                                               | CorrelationId  |
-| msdyn_errorcode     | Bidang yang digunakan untuk menyimpan Dataverse kode kesalahan atau kode kesalahan HTTP. | Kode Kesalahan     |
-| msdyn_HelpLink      | Tautan ke dokumentasi Bantuan publik.                                       | Tautan Bantuan      |
+| msdyn_errorcode     | Bidang yang digunakan untuk menyimpan kode kesalahan Dataverse atau kode kesalahan HTTP. | Kode Kesalahan     |
+| msdyn_HelpLink      | Tautan ke dokumentasi bantuan publik.                                       | Tautan Bantuan      |
 | msdyn_log           | Log dari Layanan Penjadwalan Proyek.                                   | Log            |
 | msdyn_project       | Proyek yang terkait dengan log kesalahan.                             | Project        |
-| msdyn_projectName   | Nama proyek jika muatan set operasi akan dipertahankan. | Tidak berlaku |
+| msdyn_projectName   | Nama proyek jika muatan dari rangkaian operasi akan terus ada. | Tidak berlaku |
 | msdyn_psserrorlogId | Pengidentifikasi unik instans entitas.                                     | Log Kesalahan PSS  |
 | msdyn_SessionId     | ID sesi proyek.                                                        | ID Sesi     |
 
-## <a name="error-log-cleanup"></a>Pembersihan log kesalahan
+## <a name="error-log-cleanup"></a>Pembersihan Log Kesalahan
 
-Secara default, log kesalahan Project Scheduling Service dan log Operation Set dapat dibersihkan setiap 90 hari. Setiap rekaman yang lebih lama dari 90 hari akan dihapus. Namun, dengan mengubah nilai **bidang msdyn_StateOperationSetAge** pada **halaman Parameter** Proyek, administrator dapat menyesuaikan rentang pembersihan sehingga antara 1 dan 120 hari. Beberapa metode untuk mengubah nilai ini tersedia:
+Secara default, log kesalahan Layanan Penjadwalan Proyek dan log Rangkaian Operasi dapat dibersihkan setiap 90 hari. Segala rekaman yang lebih tua dari 90 hari akan dihapus. Namun, dengan mengubah nilai bidang **msdyn_StateOperationSetAge** pada halaman **Parameter Proyek**, administrator dapat menyesuaikan rentang pembersihan sehingga rentangnya antara 1 hingga 120 hari. Tersedia beberapa metode untuk mengubah nilai ini:
 
-- **Sesuaikan entitas Parameter** Proyek dengan membuat halaman kustom dan menambahkan **bidang Usia** Set Operasi Kedaluwarsa.
-- Gunakan kode klien yang menggunakan [kit pengembangan perangkat lunak (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) WebApi.
-- Gunakan kode SDK Layanan yang menggunakan metode Xrm SDK **updateRecord** (referensi API Klien) dalam aplikasi berbasis model. Power Apps termasuk deskripsi dan parameter yang didukung untuk **metode updateRecord**.
+- Sesuaikan entitas **Parameter Proyek** dengan membuat halaman kustom dan menambahkan **bidang Rangkaian Operasi Basi**.
+- Gunakan kode klien yang menggunakan [SDK (kit pengembangan perangkat lunak) WebApi](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
+- Gunakan kode SDK Layanan yang menggunakan metode **updateRecord** Xrm SDK (referensi Client API) di aplikasi berdasarkan model. Power Apps mencakup deskripsi dan parameter yang didukung untuk metode **updateRecord**.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

@@ -1,6 +1,6 @@
 ---
 title: Menggunakan API jadwal proyek dengan Power Automate
-description: Artikel ini menyediakan alur sampel yang menggunakan antarmuka pemrograman aplikasi (API) jadwal Proyek.
+description: Artikel ini menyediakan alur sampel yang menggunakan API (antarmuka penerapan aplikasi) penjadwalan Proyek.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
@@ -17,97 +17,97 @@ ms.locfileid: "9404457"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Artikel ini menjelaskan alur sampel yang menunjukkan cara membuat rencana proyek lengkap dengan menggunakan Microsoft Power Automate, cara membuat Set Operasi, dan cara memperbarui entitas. Contoh ini menunjukkan cara membuat proyek, anggota tim proyek, Set Operasi, tugas proyek, dan penugasan sumber daya. Artikel ini juga menjelaskan cara memperbarui entitas dan menjalankan Set Operasi.
+Artikel ini menjelaskan alur sampel yang menunjukkan cara membuat rencana proyek lengkap menggunakan Microsoft Power Automate, cara membuat Rangkaian Operasi, dan cara memperbarui entitas. Contohnya memperlihatkan cara membuat proyek, anggota tim proyek, Rangkaian Operasi, tugas proyek, dan penugasan sumber daya. Artikel ini juga menjelaskan cara memperbarui entitas dan menjalankan Rangkaian Operasi.
 
-Berikut ini adalah daftar lengkap langkah-langkah yang didokumentasikan dalam alur sampel dalam artikel ini:
+Berikut adalah daftar lengkap langkah-langkah yang didokumentasikan dalam alur sampel di artikel ini:
 
-1. [Membuat PowerApps pemicu](#1)
+1. [Buat pemicu PowerApps](#1)
 2. [Buat Proyek](#2)
 3. [Menginisialisasi variabel untuk anggota tim](#3)
-4. [Membuat anggota tim generik](#4)
-5. [Membuat Set Operasi](#5)
-6. [Membuat bucket proyek](#6)
+4. [Buat anggota tim generik.](#4)
+5. [Buat Rangkaian Operasi](#5)
+6. [Membuat wadah proyek](#6)
 7. [Menginisialisasi variabel untuk status tautan](#7)
-8. [Menginisialisasi variabel untuk jumlah tugas](#8)
+8. [Menginisialisasi variabel untuk nomor tugas](#8)
 9. [Menginisialisasi variabel untuk ID tugas proyek](#9)
-10. [Lakukan sampai](#10)
-11. [Mengatur tugas proyek](#11)
-12. [Membuat tugas proyek](#12)
-13. [Membuat penetapan sumber daya](#13)
-14. [Menurunkan variabel](#14)
-15. [Mengganti nama tugas proyek](#15)
-16. [Menjalankan Set Operasi](#16)
+10. [Lakukan hingga](#10)
+11. [Atur Tugas Proyek](#11)
+12. [Buat Tugas Proyek](#12)
+13. [Buat penugasan Sumber Daya](#13)
+14. [Kurangi variabel](#14)
+15. [Mengubah tugas proyek.](#15)
+16. [Jalankan Rangkaian Operasi](#16)
 
 ## <a name="assumptions"></a>Asumsi
 
-Artikel ini mengasumsikan bahwa Anda memiliki pengetahuan dasar tentang Dataverse platform, alur cloud, dan Antarmuka Pemrograman Aplikasi (API) Jadwal Proyek. Untuk informasi selengkapnya, lihat bagian [Referensi](#references) nanti di artikel ini.
+Artikel ini mengasumsikan bahwa Anda memiliki pengetahuan dasar tentang platform Dataverse, aliran cloud, dan API (Antarmuka Pemrograman Aplikasi) Penjadwalan Proyek. Untuk informasi lebih lanjut, lihat bagian [Referensi](#references) nanti di artikel ini.
 
 ## <a name="create-a-flow"></a>Buat alur
 
 ### <a name="select-an-environment"></a>Pilih lingkungan
 
-Anda dapat membuat Power Automate alur di lingkungan Anda.
+Anda tidak dapat membuat alur Power Automate dalam lingkungan Anda.
 
-1. Buka <https://flow.microsoft.com>, dan gunakan kredensial administrator Anda untuk masuk.
+1. Buka <https://flow.microsoft.com> dan gunakan kredensial administrator Anda untuk masuk.
 2. Di sudut kanan atas, pilih **Lingkungan**.
-3. Dalam daftar, pilih lingkungan tempat Dynamics 365 Project Operations diinstal.
+3. Di daftar menurun, pilih lingkungan tempat Dynamics 365 Project Operations diinstal.
 
 ### <a name="create-a-solution"></a>Membuat solusi
 
-Ikuti langkah-langkah ini untuk membuat [alur](/power-automate/overview-solution-flows) yang sadar solusi. Dengan membuat alur yang sadar solusi, Anda dapat lebih mudah mengekspor aliran untuk menggunakannya nanti.
+Ikuti langkah berikut untuk membuat [alur sadar solusi](/power-automate/overview-solution-flows). Dengan membuat alur sadar solusi, Anda dapat dengan lebih mudah mengekspor alur tersebut untuk menggunakannya nanti.
 
 1. Di panel navigasi, pilih **Solusi**.
-2. Pada halaman **Solusi**, pilih **Solusi baru**.
-3. Dalam kotak **dialog Solusi** baru, atur bidang yang diperlukan, lalu pilih **Buat**.
+2. Pada halaman **Solusi**, pilih **Solusi Baru**.
+3. Di kotak dialog **Solusi baru**, atur bidang yang perlu diisi, lalu pilih **Buat**.
 
-## <a name="step-1-create-a-powerapps-trigger"></a><a id="1"></a> Langkah 1: Buat PowerApps pemicu
+## <a name="step-1-create-a-powerapps-trigger"></a><a id="1"></a>Langkah 1: Buat pemicu PowerApps
 
-1. Pada halaman **Solusi**, pilih solusi yang Anda buat, lalu pilih **Baru**.
-2. Di panel kiri, pilih **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant.**
-3. **Di bidang Nama** alur, masukkan **Jadwalkan Alur** Demo API.
-4. Di **daftar Pilih cara memicu alur** ini, pilih **Power Apps**. Saat Anda membuat Power Apps pemicu, logikanya terserah Anda sebagai penulis. Pada artikel ini, biarkan parameter input kosong untuk tujuan pengujian.
+1. Di halaman **Solusi**, pilih solusi yang ingin Anda buat, lalu pilih **Baru**.
+2. Pada panel kiri, pilih **Alur Cloud** \> **Otomatisasi** \> **alur Cloud** \> **Instan**.
+3. Di bidang **Nama alur**, masukkan **Alur Demo API Jadwal**.
+4. Dalam daftar **Pilih cara memicu alur ini**, pilih **Power Apps**. Bila Anda membuat pemicu Power Apps, logika akan sesuai dengan Anda sebagai penulis. Pada artikel ini, biarkan parameter input kosong untuk tujuan pengujian.
 5. Pilih **Buat**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Langkah 2: Buat proyek
 
-Ikuti langkah-langkah ini untuk membuat proyek sampel.
+Ikuti langkah berikut untuk membuat proyek sampel.
 
-1. Di alur yang Anda buat, pilih **Langkah baru**.
+1. Pilih **Langkah baru** di alur yang Anda buat.
 
     ![Menambahkan langkah baru.](media/newstep.png)
 
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
 
     ![Memilih operasi.](media/chooseactiontab.png)
 
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
 
-![Mengganti nama langkah.](media/renamestep.png)
+![Mengubah nama langkah.](media/renamestep.png)
 
 4. Ganti nama langkah **Buat Proyek**.
-5. **Di bidang Nama** Tindakan, pilih **msdyn\_ CreateProjectV1**.
-6. **Di bawah bidang subjek\_ msdyn**, pilih **Tambahkan konten** dinamis.
-7. Pada tab **Ekspresi**, di bidang fungsi, masukkan **Nama proyek - utcNow()**.
+5. Pada bidang **Nama Tindakan**, pilih **msdyn\_CreateProjectV1**.
+6. Di bidang bidang **msdyn\_subject**, pilih **Tambah konten dinamis**.
+7. Pada tab **Ekspresi**, pada bidang fungsi, masukkan **Nama proyek - utcNow()**.
 8. Pilih **OK**.
 
-## <a name="step-3-initialize-a-variable-for-the-team-member"></a><a id="3"></a> Langkah 3: Inisialisasi variabel untuk anggota tim
+## <a name="step-3-initialize-a-variable-for-the-team-member"></a><a id="3"></a>Langkah 3: Menginisialisasi variabel untuk anggota tim
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **inisialisasi variabel**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **anggota** tim Init.
-5. **Di bidang Nama**, masukkan **TeamMemberAction**.
-6. **Di bidang Tipe**, pilih **String**.
-7. **Di bidang Nilai**, masukkan **msdyn\_ CreateTeamMemberV1**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **Mulai variabel**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Init anggota tim**.
+5. Pada bidang **Nama**, masukkan **TeamMemberAction**.
+6. Di bidang **jenis**, pilih **String**.
+7. Masukkan **msdyn\_CreateTeamMemberV1** pada bidang **Nilai**.
 
-## <a name="step-4-create-a-generic-team-member"></a><a id="4"></a> Langkah 4: Buat anggota tim generik
+## <a name="step-4-create-a-generic-team-member"></a><a id="4"></a>Langkah 4: Buat anggota tim generik
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Buat Anggota** Tim.
-5. **Untuk bidang Nama** Tindakan, pilih **TeamMemberAction** dalam kotak **dialog Konten** dinamis.
-6. Di **bidang Parameter** Tindakan, masukkan informasi parameter berikut.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Buat anggota tim**.
+5. Untuk bidang **Nama Tindakan**, pilih **TeamMemberAction** dalam kotak dialog **konten dinamis**.
+6. Pada bidang **Parameter Tindakan**, masukkan informasi parameter berikut.
 
     ```
     {
@@ -120,93 +120,93 @@ Ikuti langkah-langkah ini untuk membuat proyek sampel.
     } 
     ```
 
-    Berikut adalah penjelasan parameternya:
+    Berikut adalah penjelasan tentang parameter:
 
-    - **\@\@ odata.type** – Nama entitas. Misalnya, masukkan **"Microsoft.Dynamics.CRM.msdyn\_ projectteam"**.
-    - **msdyn\_ projectteamid** – Kunci utama ID tim proyek. Nilainya adalah ekspresi pengidentifikasi unik global (GUID).   ID dihasilkan dari tab ekspresi.
+    - **\@\@odata.type** – Nama entitas. Misalnya, masukkan **"Microsoft.Dynamics.CRM.msdyn\_projectteam"**.
+    - **msdyn\_projectteamid** – kunci primer ID tim proyek. Nilai adalah ekspresi GUID (pengidentifikasi unik global).   ID dibuat dari tab ekspresi.
 
-    - **msdyn\_ project\@ odata.bind** – ID proyek dari proyek pemilik. Nilainya adalah konten dinamis yang berasal dari respons langkah "Buat Proyek". Pastikan Anda memasukkan jalur lengkap dan menambahkan konten dinamis di antara tanda kurung. Tanda kutip diperlukan. Misalnya, masukkan **"/msdyn\_ projects(ADD DYNAMIC CONTENT)"**.
-    - **nama\_ msdyn**– Nama anggota tim. Misalnya, masukkan **"ScheduleAPIDemoTM1"**.
+    - **msdyn\_project\@odata.bind** – ID proyek dari proyek pemilik. Nilai akan menjadi konten dinamis yang berasal dari respons langkah "Buat Proyek". Pastikan Anda memasukkan jalur lengkap dan menambahkan konten dinamis di antara tanda induk. Tanda kutip diperlukan. Misalnya, masukkan **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_name** – Nama anggota tim. Misalnya, masukkan **"ScheduleAPIDemoTM1"**.
 
-## <a name="step-5-create-an-operation-set"></a><a id="5"></a> Langkah 5: Buat Set Operasi
+## <a name="step-5-create-an-operation-set"></a><a id="5"></a>Langkah 5: Buat Rangkaian Operasi
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Buat Set** Operasi.
-5. **Di bidang Nama** Tindakan, pilih **tindakan kustom msdyn\_ CreateOperationSetV1** Dataverse.
-6. **Di bidang Deskripsi**, masukkan **ScheduleAPIDemoOperationSet**.
-7. **Di bidang Proyek**, masukkan **/msdyn\_ projects(**.
-8. Dalam kotak **dialog Konten** dinamis, pilih **msdyn\_ CreateProjectV1Response ProjectId**.
-9. **Di bidang Proyek**, masukkan **)**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Buat Rangkaian Operasi**.
+5. Pada bidang **Nama Tindakan**, pilih tindakan kustom **msdyn\_CreateOperationSetV1** Dataverse.
+6. Di bidang **Deskripsi**, masukkan **ScheduleAPIDemoOperationSet**.
+7. Di bidang **proyek**, masukkan **/msdyn\_projects(**.
+8. Pilih kotak **Konten dinamis**, pilih **msdyn\_CreateProjectV1Response ProjectId**.
+9. Pada bidang **Proyek,** masukkan **)**.
 
-## <a name="step-6-create-a-project-bucket"></a><a id="6"></a> Langkah 6: Buat bucket proyek
+## <a name="step-6-create-a-project-bucket"></a><a id="6"></a>Langkah 6: Buat wadah proyek
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **tambahkan baris** baru. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Buat Bucket**.
-5. Di **bidang Nama** Tabel, pilih **Bucket** Proyek.
-6. **Di bidang Nama**, masukkan **ScheduleAPIDemoBucket1**.
-7. **Untuk bidang Proyek**, pilih **msdyn\_ CreateProjectV1Response ProjectId** di **kotak dialog Konten** dinamis.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tambahkan baris baru**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Buat wadah**.
+5. Di bidang **Nama tabel**, pilih **Wadah Proyek**.
+6. Di bidang **Nama**, masukkan **ScheduleAPIDemoBucket1**.
+7. Untuk bidang **Proyek**, Pilih **msdyn\_CreateProjectV1Response ProjectId** di kotak dialog **Konten dinamis**.
 
-## <a name="step-7-initialize-a-variable-for-the-link-status"></a><a id="7"></a> Langkah 7: Inisialisasi variabel untuk status tautan
+## <a name="step-7-initialize-a-variable-for-the-link-status"></a><a id="7"></a>Langkah 7: Menginisialisasi variabel untuk status tautan
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **inisialisasi variabel**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **Mulai variabel**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
 4. Ganti nama langkah **Init linkstatus**.
-5. **Di bidang Nama**, masukkan **linkstatus**.
-6. Di **bidang Tipe**, pilih **Bilangan Bulat**.
-7. Di **bidang Nilai**, masukkan **192350000**.
+5. Pada bidang **Nama**, masukkan **linkstatus**.
+6. Di bidang **jenis**, pilih **Integer**.
+7. Pada bidang **nilai**, masukkan **192350000**.
 
-## <a name="step-8-initialize-a-variable-for-the-number-of-tasks"></a><a id="8"></a> Langkah 8: Inisialisasi variabel untuk jumlah tugas
+## <a name="step-8-initialize-a-variable-for-the-number-of-tasks"></a><a id="8"></a>Langkah 8: Menginisialisasi variabel untuk nomor tugas
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **inisialisasi variabel**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Init Jumlah tugas**.
-5. Di **bidang Nama**, masukkan **jumlah tugas**.
-6. Di **bidang Tipe**, pilih **Bilangan Bulat**.
-7. Di **bidang Nilai**, masukkan **5**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **Mulai variabel**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Jumlah tugas init**.
+5. Pada bidang **Nama**, masukkan **jumlah tugas**.
+6. Di bidang **jenis**, pilih **Integer**.
+7. Pada bidang **nilai**, masukkan **5**.
 
-## <a name="step-9-initialize-a-variable-for-the-project-task-id"></a><a id="9"></a> Langkah 9: Inisialisasi variabel untuk ID tugas proyek
+## <a name="step-9-initialize-a-variable-for-the-project-task-id"></a><a id="9"></a>Langkah 9: Menginisialisasi variabel untuk ID tugas proyek
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **inisialisasi variabel**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **Mulai variabel**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
 4. Ganti nama langkah **Init ProjectTaskID**.
-5. Di **bidang Nama**, masukkan **jumlah tugas**.
-6. **Di bidang Tipe**, pilih **String**.
-7. **Untuk bidang Nilai**, masukkan **guid()** di penyusun ekspresi.
+5. Pada bidang **Nama**, masukkan **jumlah tugas**.
+6. Di bidang **jenis**, pilih **String**.
+7. Untuk bidang **Nilai**, masukkan **guid()** dalam Penyusun Ekspresi.
 
-## <a name="step-10-do-until"></a><a id="10"></a> Langkah 10: Lakukan hingga
+## <a name="step-10-do-until"></a><a id="10"></a>langkah 10: Lakukan hingga
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **lakukan hingga**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Atur nilai pertama dalam pernyataan bersyarat ke **variabel jumlah tugas** dari kotak **dialog Konten** dinamis.
-4. Atur kondisi menjadi **kurang dari sama dengan**.
-5. Atur nilai kedua dalam pernyataan bersyarat ke **0**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **lakukan hingga**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Atur nilai pertama dalam pernyataan kondisional ke variabel **jumlah tugas** dari kotak dialog **Konten dinamis**.
+4. Atur kondisi ke **kurang dari sama dengan**.
+5. Atur nilai kedua dalam pernyataan kondisional ke **0**.
 
-## <a name="step-11-set-a-project-task"></a><a id="11"></a> Langkah 11: Tetapkan tugas proyek
+## <a name="step-11-set-a-project-task"></a><a id="11"></a>langkah 11: Atur Tugas Proyek
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **variabel** set. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di langkah baru, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Atur Tugas** Proyek.
-5. **Di bidang Nama**, pilih **msdyn\_ projecttaskid**.
-6. **Untuk bidang Nilai**, masukkan **guid()** di penyusun ekspresi.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **Atur variabel**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah baru, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Atur Tugas Proyek**.
+5. Pada bidang **Nama**, pilih **msdyn\_projecttaskid**.
+6. Untuk bidang **Nilai**, masukkan **guid()** dalam Penyusun Ekspresi.
 
-## <a name="step-12-create-a-project-task"></a><a id="12"></a> Langkah 12: Membuat tugas proyek
+## <a name="step-12-create-a-project-task"></a><a id="12"></a>Langkah 12: Buat tugas proyek
 
-Ikuti langkah-langkah ini untuk membuat tugas proyek yang memiliki ID unik milik proyek saat ini dan bucket proyek yang Anda buat.
+Ikuti langkah-langkah ini untuk membuat tugas proyek yang memiliki ID unik milik proyek saat ini dan wadah proyek yang Anda buat.
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Pada langkah tersebut, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Buat Tugas** Proyek.
-5. **Di bidang Nama** Tindakan, pilih **msdyn\_ PssCreateV1**.
-6. Di **bidang Entitas**, masukkan informasi parameter berikut.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Buat Tugas Proyek**.
+5. Pada bidang **Nama Tindakan**, pilih **msdyn\_PssCreateV1**.
+6. Di panel **entitas**, masukkan informasi parameter berikut.
 
     ```
     {
@@ -222,28 +222,28 @@ Ikuti langkah-langkah ini untuk membuat tugas proyek yang memiliki ID unik milik
     }
     ```
 
-    Berikut adalah penjelasan parameternya:
+    Berikut adalah penjelasan tentang parameter:
 
-    - **\@\@ odata.type** – Nama entitas. Misalnya, masukkan **"Microsoft.Dynamics.CRM.msdyn\_ projecttask"**.
-    - **msdyn\_ projecttaskid** – ID unik dari tugas tersebut. Nilai harus diatur ke variabel dinamis dari **msdyn\_ projecttaskid**.
-    - **msdyn\_ project\@ odata.bind** – ID proyek dari proyek pemilik. Nilainya adalah konten dinamis yang berasal dari respons langkah "Buat Proyek". Pastikan Anda memasukkan jalur lengkap dan menambahkan konten dinamis di antara tanda kurung. Tanda kutip diperlukan. Misalnya, masukkan **"/msdyn\_ projects(ADD DYNAMIC CONTENT)"**.
-    - **subjek\_ msdyn**– Nama tugas apa pun.
-    - **msdyn\_ projectbucket\@ odata.bind** – Bucket proyek yang berisi tugas. Nilainya adalah konten dinamis yang berasal dari respons langkah "Buat Bucket". Pastikan Anda memasukkan jalur lengkap dan menambahkan konten dinamis di antara tanda kurung. Tanda kutip diperlukan. Misalnya, masukkan **"/msdyn\_ projectbuckets(ADD DYNAMIC CONTENT)"**.
-    - **msdyn\_ start** – Konten dinamis untuk tanggal mulai. Misalnya, besok akan direpresentasikan sebagai **"addDays(utcNow(), 1)"**.
-    - **msdyn\_ scheduledstart** – Tanggal mulai yang dijadwalkan. Misalnya, besok akan direpresentasikan sebagai **"addDays(utcNow(), 1)"**.
-    - **msdyn\_ scheduleend** – Tanggal akhir yang dijadwalkan. Pilih tanggal di masa mendatang. Misalnya, tentukan **"addDays(utcNow(), 5)"**.
-    - **msdyn\_ LinkStatus** – Status tautan. Misalnya, masukkan **"192350000"**.
+    - **\@\@odata.type** – Nama entitas. Misalnya, masukkan **"Microsoft.Dynamics.CRM.msdyn\_projecttask"**.
+    - **msdyn\_projecttaskid** – ID unik tugas. Nilai harus diatur ke variabel dinamis dari **msdyn\_projecttaskid**.
+    - **msdyn\_project\@odata.bind** – ID proyek dari proyek pemilik. Nilai akan menjadi konten dinamis yang berasal dari respons langkah "Buat Proyek". Pastikan Anda memasukkan jalur lengkap dan menambahkan konten dinamis di antara tanda induk. Tanda kutip diperlukan. Misalnya, masukkan **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_subject** – Nama tugas apa pun.
+    - **msdyn\_projectbucket\@odata.bind** – Wadah Proyek yang berisi tugas. Nilai akan menjadi konten dinamis yang berasal dari respons langkah "Buat wadah". Pastikan Anda memasukkan jalur lengkap dan menambahkan konten dinamis di antara tanda induk. Tanda kutip diperlukan. Misalnya, masukkan **"/msdyn\_projectbuckets(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_start** – Konten dinamis untuk tanggal mulai. Misalnya, besok akan dinyatakan sebagai **"addDays(utcNow(), 1)"**.
+    - **msdyn\_scheduledstart** – Tanggal mulai yang dijadwalkan. Misalnya, besok akan dinyatakan sebagai **"addDays(utcNow(), 1)"**.
+    - **msdyn\_scheduleend** – Tanggal berakhir yang dijadwalkan. Pilih tanggal di masa mendatang. Contohnya, tentukan **"addDays(utcNow(), 5)"**.
+    - **msdyn\_LinkStatus** – Status Tautan. Misalnya, masukkan **"192350000"**.
 
-7. Untuk bidang **OperationSetId**, pilih **msdyn\_ CreateOperationSetV1Response** di **kotak dialog Konten** dinamis.
+7. Untuk bidang **OperationSetId**, Pilih **msdyn\_CreateOperationSetV1Response** di kotak dialog **Konten dinamis**.
 
-## <a name="step-13-create-a-resource-assignment"></a><a id="13"></a> Langkah 13: Membuat penetapan sumber daya
+## <a name="step-13-create-a-resource-assignment"></a><a id="13"></a>Langkah 13: Membuat penugasan sumber daya
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Pada langkah tersebut, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Buat Penugasan**.
-5. **Di bidang Nama** Tindakan, pilih **msdyn\_ PssCreateV1**.
-6. Di **bidang Entitas**, masukkan informasi parameter berikut.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Buat penugasan**.
+5. Pada bidang **Nama Tindakan**, pilih **msdyn\_PssCreateV1**.
+6. Di panel **entitas**, masukkan informasi parameter berikut.
 
     ```
     {
@@ -256,23 +256,23 @@ Ikuti langkah-langkah ini untuk membuat tugas proyek yang memiliki ID unik milik
     }
     ```
 
-7. Untuk bidang **OperationSetId**, pilih **msdyn\_ CreateOperationSetV1Response** di **kotak dialog Konten** dinamis.
+7. Untuk bidang **OperationSetId**, Pilih **msdyn\_CreateOperationSetV1Response** di kotak dialog **Konten dinamis**.
 
-## <a name="step-14-decrement-a-variable"></a><a id="14"></a> Langkah 14: Menurunkan variabel
+## <a name="step-14-decrement-a-variable"></a><a id="14"></a>Langkah 14: Kurangi variabel
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **variabel penurunan.** Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Di **bidang Nama**, pilih **jumlah tugas**.
-4. Di **bidang Nilai**, masukkan **1**.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **kurangi variabel**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Pada bidang **Nama**, pilih **jumlah tugas**.
+4. Pada bidang **nilai**, masukkan **1**.
 
-## <a name="step-15-rename-a-project-task"></a><a id="15"></a> Langkah 15: Mengganti nama tugas proyek
+## <a name="step-15-rename-a-project-task"></a><a id="15"></a>langkah 15: Ubah nama Tugas Proyek
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Pada langkah tersebut, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Ganti Nama Tugas** Proyek.
-5. **Di bidang Nama** Tindakan, pilih **msdyn\_ PssUpdateV1**.
-6. Di **bidang Entitas**, masukkan informasi parameter berikut.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **Ubah nama Tugas Proyek**.
+5. Pada bidang **Nama Tindakan**, pilih **msdyn\_PssUpdateV1**.
+6. Di panel **entitas**, masukkan informasi parameter berikut.
 
     ```
     {
@@ -282,20 +282,20 @@ Ikuti langkah-langkah ini untuk membuat tugas proyek yang memiliki ID unik milik
     }
     ```
 
-7. Untuk bidang **OperationSetId**, pilih **msdyn\_ CreateOperationSetV1Response** di **kotak dialog Konten** dinamis.
+7. Untuk bidang **OperationSetId**, Pilih **msdyn\_CreateOperationSetV1Response** di kotak dialog **Konten dinamis**.
 
-## <a name="step-16-run-an-operation-set"></a><a id="16"></a> Langkah 16: Jalankan Set Operasi
+## <a name="step-16-run-an-operation-set"></a><a id="16"></a>Langkah 16: Jalankan Rangkaian Operasi
 
-1. Di alur, pilih **Langkah baru**.
-2. Dalam kotak **dialog Pilih operasi**, di bidang pencarian, masukkan **melakukan tindakan tidak terikat**. Kemudian, pada **tab Tindakan**, pilih operasi dalam daftar hasil.
-3. Pada langkah tersebut, pilih elipsis (**...**), lalu pilih **Ganti Nama**.
-4. Ganti nama langkah **Jalankan Set** Operasi.
-5. **Di bidang Nama** Tindakan, pilih **msdyn\_ ExecuteOperationSetV1**.
-6. **Untuk bidang OperationSetId**, pilih **msdyn\_ CreateOperationSetV1Response OperationSetId** di **kotak dialog Konten** Dynamid.
+1. Pada langkah, pilih **Langkah baru**.
+2. Di kotak dialog **Pilih operasi**, di bidang pencarian, masukkan lakukan **tindakan tidak terikat**. Kemudian, pada tab **Tindakan**, pilih operasi dalam daftar hasil.
+3. Dalam langkah, pilih elipsis (**...**), lalu pilih **Ubah Nama**.
+4. Ganti nama langkah **jalankan Rangkaian Operasi**.
+5. Pada bidang **Nama Tindakan**, pilih **msdyn\_ExecuteOperationSetV1**.
+6. Untuk bidang **OperationSetId**, Pilih **msdyn\_CreateOperationSetV1Response OperationSetId** di kotak dialog **Konten dinamis**.
 
 ## <a name="references"></a>Referensi
 
-- [Gambaran umum tentang cara mengintegrasikan alur dengan Dataverse - Power Automate](/power-automate/dataverse/overview?WT.mc_id=email)
+- [Ikhtisar cara mengintegrasikan alur dengan Dataverse - Power Automate](/power-automate/dataverse/overview?WT.mc_id=email)
 - [Menggunakan API jadwal proyek untuk melakukan operasi dengan entitas Penjadwalan](schedule-api-preview.md)
-- [Gambaran umum alur cloud - Power Automate](/power-automate/overview-cloud?WT.mc_id=email)
-- [Gambaran umum alur sadar solusi - Power Automate](/power-automate/overview-solution-flows?WT.mc_id=email)
+- [Ikhtisar alur cloud - Power Automate](/power-automate/overview-cloud?WT.mc_id=email)
+- [Ikhtisar alur sadar solusi - Power Automate](/power-automate/overview-solution-flows?WT.mc_id=email)

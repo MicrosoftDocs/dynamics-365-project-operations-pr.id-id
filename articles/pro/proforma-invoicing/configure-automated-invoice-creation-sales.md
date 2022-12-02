@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi pembuatan faktur otomatis
-description: Artikel ini menyediakan informasi tentang menyiapkan dan mengonfigurasi pembuatan faktur proforma secara otomatis.
+description: artikel ini menyediakan informasi tentang mengatur dan mengkonfigurasi pembuatan faktur proforma secara otomatis.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -27,9 +27,9 @@ ms.locfileid: "8913210"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jika Anda tidak menggunakan fitur Project Service Automation (PSA) Quoting and Contracting, Anda dapat melewati artikel ini.
+> Jika Anda tidak menggunakan fitur kuotasi dan kontrak Project Service Automation (PSA), Anda dapat melewati artikel ini.
 
-Artikel ini mengasumsikan bahwa Anda telah menyelesaikan prosedur dalam artikel, [Membuat bidang dan entitas](create-custom-fields-entities.md) kustom, [Menambahkan bidang kustom ke pengaturan harga dan entitas](field-references.md) transaksional, dan [Menyiapkan bidang kustom sebagai dimensi harga](set-up-pricing-dimensions.md). Jika Anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini.
+Artikel ini mengasumsikan bahwa anda telah menyelesaikan prosedur dalam artikel, [membuat bidang kustom dan entitas](create-custom-fields-entities.md), [menambahkan bidang kustom untuk penyiapan harga dan entitas transaksi](field-references.md) serta [Mengonfigurasikan bidang kustom sebagai dimensi harga](set-up-pricing-dimensions.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan selesaikan dan kemudian kembali ke artikel ini.
 
 Bila detail baris kuotasi dibuat pada halaman **baris kuotasi** untuk baris kuotasi proyek, sistem membuat dua baris perkiraan di background--satu baris untuk sisi biaya perkiraan dan satu untuk sisi penjualan. Ini sama untuk baris kontrak proyek.
 

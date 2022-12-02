@@ -1,6 +1,6 @@
 ---
 title: Integrasi Penulisan Ganda Project Operations
-description: Artikel ini memberikan gambaran umum tentang integrasi penulisan ganda Operasi Proyek.
+description: Artikel ini ini memberikan ikhtisar integrasi penulisan ganda Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927976"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Operasi Proyek menggunakan [kemampuan](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) tulis ganda untuk menyinkronkan data di seluruh Microsoft Dataverse dan Dynamics 365 Finance.
+Project Operations menggunakan [kemampuan penulisan ganda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) untuk mensinkronisasi data di seluruh Microsoft Dataverse dan Dynamics 365 Finance.
 
 Ilustrasi berikut menunjukkan cara sinkronisasi data sebagai bagian dari integrasi antara Dataverse dan Finance.
 

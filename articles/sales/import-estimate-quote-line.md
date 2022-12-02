@@ -1,6 +1,6 @@
 ---
 title: Mengimpor estimasi untuk proyek pada baris kuotasi proyek
-description: Artikel ini menyediakan informasi tentang mengimpor perkiraan dari proyek ke baris kutipan proyek.
+description: Artikel ini menyediakan informasi mengimpor estimasi dari proyek ke baris kuotasi proyek.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

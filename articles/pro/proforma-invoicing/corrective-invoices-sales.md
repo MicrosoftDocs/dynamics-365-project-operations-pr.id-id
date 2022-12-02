@@ -1,6 +1,6 @@
 ---
 title: Membuat faktur koreksi
-description: Artikel ini menyediakan informasi tentang cara membuat dan mengonfirmasi faktur korektif dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara membuat dan mengkonfirmasikan faktur perbaikan di Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

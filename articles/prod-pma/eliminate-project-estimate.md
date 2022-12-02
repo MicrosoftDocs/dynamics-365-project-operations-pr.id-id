@@ -1,6 +1,6 @@
 ---
 title: Menghapus estimasi proyek
-description: Artikel ini memberikan informasi tentang menghilangkan perkiraan proyek setelah selesai.
+description: Artikel ini menyediakan informasi tentang menghapus estimasi proyek setelah selesai.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

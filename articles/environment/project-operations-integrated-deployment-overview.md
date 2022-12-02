@@ -1,6 +1,6 @@
 ---
 title: Sekilas penyebaran Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang jenis penyebaran, Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang jenis penyebaran, Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Jenis penyebaran, Dynamics 365 Project Operations untuk skenario berbasis sumber
 - Pengakuan pendapatan proyek
 - Ekstensibilitas melalui Power Platform
 
-Jenis penyebaran ini menyediakan ekstensi ke fungsionalitas yang disediakan oleh Dynamics 365 Finance dan Dynamics 365 Supply Chain Management aplikasi.
+Jenis penyebaran ini menyediakan ekstensi untuk fungsionalitas yang disediakan oleh aplikasi Dynamics 365 Finance dan Dynamics 365 Supply Chain Management.
 
 Penyebaran ini harus dipilih untuk memastikan ekspektasi Project Operations adalah menggunakan siklus hidup proyek lengkap yang mencakup persyaratan berikut:
 

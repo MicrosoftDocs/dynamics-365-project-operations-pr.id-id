@@ -1,6 +1,6 @@
 ---
 title: Sekilas aktual
-description: Artikel ini menyediakan informasi tentang aktual proyek.
+description: Artikel ini menyediakan informasi tentang nilai aktual proyek.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Mengembangkan template proyek dengan Salinan Proyek
-description: Artikel ini menyediakan informasi tentang cara membuat templat proyek menggunakan tindakan kustom Salin Proyek.
+description: artikel ini menyediakan informasi tentang cara membuat template proyek menggunakan tindakan kustom menyalin proyek.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,42 +25,42 @@ Bila Anda memilih **Salin proyek**, status proyek target diperbarui. Gunakan **a
 
 ### <a name="name"></a>Nama 
 
-msdyn\_ SalinProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Parameter input
 
 Terdapat tiga parameter input:
 
-- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** – Atur hanya salah satu opsi. Jangan mengatur keduanya.
+- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** – Atur hanya salah satu pilihan. Jangan tetapkan keduanya.
 
-    - **\{"ReplaceNamedResources":true\}** – Perilaku default untuk Operasi Proyek. Setiap sumber daya bernama diganti dengan sumber daya generik.
-    - **\{"ClearTeamsAndAssignments":true\}** – Perilaku default untuk Project for the Web. Semua tugas dan anggota tim dihapus.
+    - **\{"ReplaceNamedResources":true\}** – Perilaku default untuk Project Operations. Sumber daya bernama apa pun digantikan dengan sumber daya generik.
+    - **\{"ClearTeamsAndAssignments":true\}** – Perilaku default untuk Project for the Web. Semua penetapan dan anggota tim akan dihilangkan.
 
-- **SourceProject** – Referensi entitas dari proyek sumber untuk disalin. Parameter ini tidak boleh nol.
-- **Target** – Referensi entitas dari proyek target untuk disalin. Parameter ini tidak boleh nol.
+- **SourceProject** – Referensi entitas dari proyek sumber untuk disalin. Parameter ini tidak boleh null.
+- **Target** – Referensi entitas dari proyek target untuk menyalin. Parameter ini tidak boleh null.
 
-Tabel berikut ini menyediakan ringkasan dari tiga parameter.
+Tabel berikut memberikan ringkasan ketiga parameter.
 
 | Parameter                | Tipe             | Nilai                 |
 |--------------------------|------------------|-----------------------|
-| ReplaceNamedResources    | Boolean          | **Benar** atau **Salah** |
-| ClearTeamsAndAssignments | Boolean          | **Benar** atau **Salah** |
+| ReplaceNamedResources    | Boolean          | **True** atau **false** |
+| ClearTeamsAndAssignments | Boolean          | **True** atau **false** |
 | SourceProject            | Referensi Entitas | Proyek sumber    |
 | Target                   | Referensi Entitas | Proyek target    |
 
-Untuk default lainnya tentang tindakan, lihat [Menggunakan tindakan](/powerapps/developer/common-data-service/webapi/use-web-api-actions) API Web.
+Untuk default lebih lanjut tentang tindakan, lihat [menggunakan tindakan API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### <a name="validations"></a>Validasi
 
-Validasi berikut dilakukan.
+validasi berikut ini dilakukan.
 
-1. Null memeriksa dan mengambil proyek sumber dan target untuk mengkonfirmasi keberadaan kedua proyek dalam organisasi.
+1. Null memeriksa dan mengambil sumber dan proyek target untuk mengkonfirmasikan keberadaan kedua proyek di organisasi.
 2. Sistem memvalidasi bahwa proyek target valid untuk disalin dengan memverifikasi kondisi berikut:
 
-    - Tidak ada aktivitas sebelumnya pada proyek (termasuk pemilihan tab **Tugas**), dan proyek baru dibuat.
-    - Tidak ada salinan sebelumnya, tidak ada impor yang diminta pada proyek ini, dan proyek tidak memiliki **status Gagal**.
+    - Tidak ada aktivitas sebelumnya pada proyek (termasuk pilihan tab **Tugas**), dan proyek baru dibuat.
+    - Tidak ada salinan sebelumnya, tidak ada impor yang diminta pada proyek ini, dan proyek tidak memiliki status **Gagal**.
 
-3. Operasi tidak dipanggil dengan menggunakan HTTP.
+3. Operasi tidak dipanggil menggunakan HTTP.
 
 ## <a name="specify-fields-to-copy"></a>Menentukan bidang yang akan disalin
 
@@ -68,7 +68,7 @@ Saat tindakan dipanggil, **Salin proyek** akan melihat tampilan proyek **Kolom S
 
 ### <a name="example"></a>Contoh
 
-Contoh berikut menunjukkan cara memanggil **tindakan kustom CopyProjectV3** dengan **set parameter removeNamedResources**.
+Contoh berikut menunjukkan cara memanggil tindakan kustom **CopyProjectV3** dengan rangkaian parameter **removeNamedResources**.
 
 ```C#
 {

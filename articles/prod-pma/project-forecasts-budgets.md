@@ -1,6 +1,6 @@
 ---
 title: Perkiraan proyek dan anggaran
-description: Microsoft Dynamics 365 Finance menyediakan perkiraan proyek dan anggaran proyek untuk mengelola dan mengendalikan proyek Anda.
+description: Microsoft Dynamics 365 finance memberikan perkiraan proyek dan anggaran proyek untuk mengelola dan mengontrol proyek Anda.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

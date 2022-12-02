@@ -1,6 +1,6 @@
 ---
 title: Terbaru Agustus 2022 - Penyebaran Project Operations lite
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Agustus 2022 penyebaran Microsoft Dynamics 365 Project Operations lite.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam penyebaran Microsoft Dynamics 365 Project Operations lite yang rilis pada Agustus 2022.
 author: ramagadu
 ms.date: 08/19/2022
 ms.topic: article
@@ -20,14 +20,14 @@ _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 Artikel ini berlaku untuk komponen dan versi Microsoft Dynamics 365 Project Operations berikut ini:
 
-- Operasi Proyek dalam Dataverse versi lingkungan 4.45.0.53
+- Project Operations dalam lingkungan Dataverse versi 4.45.0.53
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
 | Area fitur | Nomor Referensi | Pembaruan kualitas |
 | --- | --- | --- |
-|   Manajemen peluang | 2762089 | Penanganan kesalahan saat menutup kontrak sebagai hilang jika penyimpanan otomatis dinonaktifkan di organisasi.|
-|Perencanaan dan Pelacakan Proyek | 2767841 | Telemetri memperbarui entitas Proyek Membuat atau Memperbarui skenario.|
-|Penagihan dan Harga | 2771072 | Penanganan pengecualian referensi nol saat memenangkan penawaran.|
+|   Manajemen peluang | 2762089 | Penanganan kesalahan saat menutup kontrak sebagai kalah jika penyimpanan otomatis dinonaktifkan di organisasi.|
+|Perencanaan dan Pelacakan Proyek | 2767841 | Telemetri memperbarui skenario Buat atau Perbarui entitas Proyek.|
+|Penagihan dan Harga | 2771072 | Penanganan pengecualian referensi null saat memenangkan kuotasi.|
 |Penagihan dan Harga | 2844181 |Kegagalan dalam mendapatkan id korelasi dan memblokir pembuatan faktur.|
-|Penagihan dan Harga | 2852836 | Intercompany sebenarnya hilang untuk Intercompany Expense yang dibuat dan disetujui di CE.|
+|Penagihan dan Harga | 2852836 | Aktual antarkompilasi tidak ditemukan untuk Pengeluaran Antarkompilasi yang dibuat dan disetujui pada CE.|

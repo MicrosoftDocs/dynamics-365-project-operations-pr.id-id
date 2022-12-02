@@ -1,6 +1,6 @@
 ---
 title: Menentukan kalender proyek
-description: Artikel ini menyediakan informasi tentang cara menerapkan templat kalender ke proyek untuk melacak jadwal proyek.
+description: artikel ini menyediakan informasi tentang cara menerapkan template kalender ke proyek untuk melacak jadwal proyek.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

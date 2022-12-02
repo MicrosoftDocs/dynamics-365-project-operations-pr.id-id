@@ -1,6 +1,6 @@
 ---
 title: Estimasi keuangan untuk waktu sumber daya pada proyek
-description: Artikel ini memberikan informasi tentang bagaimana perkiraan keuangan untuk waktu dihitung.
+description: Artikel ini menyediakan informasi tentang cara menghitung estimasi keuangan untuk waktu.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

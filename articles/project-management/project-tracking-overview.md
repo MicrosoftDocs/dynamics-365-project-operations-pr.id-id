@@ -1,6 +1,6 @@
 ---
 title: Pelacakan upaya proyek
-description: Artikel ini memberikan informasi tentang cara melacak upaya proyek dan kemajuan pekerjaan.
+description: Artikel ini menyediakan informasi tentang cara melacak upaya proyek dan kemajuan pekerjaan.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929264"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Beberapa industri melacak pada tingkat rinci, sedangkan industri lainnya melacak pada tingkat yang lebih tinggi. Artikel ini memperlihatkan cara menjadwalkan untuk memenuhi persyaratan organisasi Anda.
+Kebutuhan untuk melacak kemajuan terhadap jadwal bervariasi menurut industri. Beberapa industri melacak pada tingkat rinci, sedangkan industri lainnya melacak pada tingkat yang lebih tinggi. Artikel ini menunjukkan cara menjadwalkan untuk memenuhi kebutuhan organisasi anda.
 
 ## <a name="effort-tracking-view"></a>Tampilan Pelacakan Upaya
 
@@ -45,8 +45,8 @@ Upaya pada ringkasan tugas atau tugas kontainer dapat diproyeksikan ulang. Manaj
 - EAC baru pada setiap tugas individual hingga tugas node leaf dihitung. 
 - Tugas anak yang terpengaruh hingga node leaf memiliki persentase upaya tersisa mereka dan kemajuan yang akan dihitung ulang berdasarkan nilai EAC. Ini menghasilkan proyeksi baru untuk varians upaya dari tugas. 
 - EAC dari tugas ringkasan sepenuhnya hingga node root dihitung ulang.
-- Upaya yang disetujui pada tugas ringkasan adalah jumlah dari upaya yang disetujui pada semua tugas anak ditambah upaya yang disetujui pada tugas ringkasan.
-- Upaya yang tersisa pada tugas ringkasan adalah jumlah dari upaya yang tersisa pada semua tugas anak dikurangi upaya yang disetujui pada tugas ringkasan.
+- Upaya yang disetujui pada tugas ringkasan adalah jumlah upaya yang disetujui pada semua tugas anak ditambah upaya yang disetujui pada tugas ringkasan.
+- Upaya lainnya pada tugas ringkasan adalah jumlah upaya lainnya pada semua tugas anak dikurangi upaya yang disetujui pada tugas ringkasan.
 
 ## <a name="project-status-summary"></a>Ringkasan Status Proyek
 

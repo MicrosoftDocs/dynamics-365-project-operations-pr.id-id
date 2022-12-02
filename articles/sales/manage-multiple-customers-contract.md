@@ -1,6 +1,6 @@
 ---
 title: Mengelola beberapa pelanggan pada kontrak proyek
-description: Artikel ini menyediakan informasi tentang cara mengelola beberapa pelanggan pada kontrak proyek.
+description: Artikel ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "8928344"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mengelola beberapa pelanggan pada kontrak proyek
 
-Artikel ini menyediakan informasi tentang cara mengelola beberapa pelanggan pada kontrak proyek. Anda dapat menggunakan kontrak proyek saat perjanjian kontrak untuk beberapa pelanggan diperlukan untuk mendanai transaksi. Pada halaman **Kontrak Proyek**, tab **Rangkuman** berisi informasi tentang pelanggan utama untuk transaksi. Pelanggan lain yang berpartisipasi dalam transaksi dapat ditambahkan ke tab **Pelanggan**.
+Artikel ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek. Anda dapat menggunakan kontrak proyek saat perjanjian kontrak untuk beberapa pelanggan diperlukan untuk mendanai transaksi. Pada halaman **Kontrak Proyek**, tab **Rangkuman** berisi informasi tentang pelanggan utama untuk transaksi. Pelanggan lain yang berpartisipasi dalam transaksi dapat ditambahkan ke tab **Pelanggan**.
 
 Semua pelanggan kontrak pada tab **Pelanggan** kontrak proyek merupakan default pelanggan baris kontrak pada setiap baris kontrak berbasis proyek baru yang dibuat untuk kontrak proyek. Setiap baris kontrak berbasis proyek yang ada tidak mewarisi record pelanggan kontrak baru yang dibuat kemudian.
 

@@ -1,6 +1,6 @@
 ---
 title: Konsep kunci
-description: Artikel ini menyediakan informasi tentang konsep utama untuk manajemen sumber daya dalam Project Service Automation.
+description: Artikel ini memberikan informasi tentang konsep utama untuk manajemen sumber daya dalam Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

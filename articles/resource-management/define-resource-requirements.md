@@ -1,6 +1,6 @@
 ---
 title: Menentukan persyaratan sumber daya
-description: Artikel ini menyediakan informasi tentang menentukan informasi persyaratan sumber daya.
+description: artikel ini menyediakan informasi tentang menentukan informasi persyaratan sumber daya.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar retensi vendor
-description: Artikel ini memberikan gambaran umum tentang kemampuan retensi vendor.
+description: Artikel ini memberikan ikhtisar kemampuan retensi vendor.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

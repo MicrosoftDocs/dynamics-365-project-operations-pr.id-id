@@ -1,6 +1,6 @@
 ---
 title: Menonaktifkan daftar harga
-description: Artikel ini menjelaskan cara menonaktifkan atau menghapus daftar harga yang tidak digunakan atau yang lama.
+description: Artikel ini menjelaskan cara menonaktifkan atau menghilangkan daftar harga yang tidak digunakan atau lama.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

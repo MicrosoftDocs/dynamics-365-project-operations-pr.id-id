@@ -1,6 +1,6 @@
 ---
 title: Manajemen subkontrak dalam Project Operations
-description: Artikel ini memberikan gambaran umum tentang proses manajemen subkontrak end-to-end biasanya di organisasi berbasis proyek.
+description: Artikel ini memberikan ikhtisar proses manajemen subkontrak komprehensif umumnya di organisasi berdasarkan proyek.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522329"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Artikel ini memberikan gambaran umum tentang proses manajemen subkontrak end-to-end dalam organisasi berbasis proyek. Subkontrak untuk layanan biasanya menggunakan alur proses bisnis yang ditampilkan pada diagram berikut.
+Artikel ini memberikan ikhtisar proses manajemen subkontrak komprehensif di organisasi berdasarkan proyek. Subkontrak untuk layanan biasanya menggunakan alur proses bisnis yang ditampilkan pada diagram berikut.
 
 ![Mensubkontrak alur proses](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Baris kontrak dapat berbasis kuantitas atau pekerjaan.
 
 Bila baris subkontrak **berbasis kuantitas**, kuantitas yang dibeli di baris subkontrak untuk waktu, pengeluaran, atau bahan dapat digunakan pada proyek apa pun.
 
-Bila baris subkontrak **berbasis kerja**, baris subkontrak dipetakan ke badan kerja yang ditunjukkan oleh node dalam rencana proyek. Nilai baris subkontrak adalah jumlah semua komponen yang diperlukan untuk menghasilkan badan kerja tersebut. Ini dimodelkan sebagai detail baris subkontrak dan dapat merupakan kumpulan waktu, pengeluaran, atau bahan. Untuk baris subkontrak berbasis kerja, baris subkontrak juga dikhususkan untuk satu proyek. Jenis subkontrak ini bersifat currenlty yang tidak didukung oleh Operasi Proyek.
+Bila baris subkontrak **berbasis kerja**, baris subkontrak dipetakan ke badan kerja yang ditunjukkan oleh node dalam rencana proyek. Nilai baris subkontrak adalah jumlah semua komponen yang diperlukan untuk menghasilkan badan kerja tersebut. Ini dimodelkan sebagai detail baris subkontrak dan dapat merupakan kumpulan waktu, pengeluaran, atau bahan. Untuk baris subkontrak berbasis kerja, baris subkontrak juga dikhususkan untuk satu proyek. Jenis subkontrak ini tidak didukung oleh Project Operations untuk saat ini.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

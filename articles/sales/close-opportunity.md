@@ -1,6 +1,6 @@
 ---
 title: Memenangkan peluang
-description: Artikel ini memberikan informasi tentang menutup peluang proyek.
+description: artikel ini menyediakan informasi tentang menutup peluang proyek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

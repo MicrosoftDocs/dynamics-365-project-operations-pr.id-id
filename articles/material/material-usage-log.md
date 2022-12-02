@@ -1,6 +1,6 @@
 ---
 title: Merekam penggunaan bahan pada proyek dan tugas proyek
-description: Artikel ini menyediakan informasi tentang cara mencatat penggunaan material terhadap proyek dan tugas proyek.
+description: Artikel ini memberikan informasi tentang cara mencatat penggunaan materi terhadap proyek dan tugas proyek.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

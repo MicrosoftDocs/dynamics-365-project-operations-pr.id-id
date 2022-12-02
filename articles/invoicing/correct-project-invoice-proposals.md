@@ -1,6 +1,6 @@
 ---
 title: Memperbaiki akuntansi pada draf proposal faktur proyek
-description: Artikel ini menjelaskan cara menyesuaikan informasi terkait akuntansi pada draf proposal faktur.
+description: Artikel ini menjelaskan cara menyesuaikan informasi yang terkait dengan akuntansi pada draf proposal faktur.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 *Rincian operasional* untuk faktur proyek dikelola oleh manajer proyek pada faktur pro forma. Rincian ini mencakup keputusan tentang jam, pengeluaran, bahan, atau tahapan yang harus ditagihkan, tarif, serta penerapan jumlah uang muka dan panjar. Setelah mengkonfirmasikan faktur pro forma asli, Anda dapat menyesuaikan rincian operasional dengan membuat dan mengkonfirmasikan [faktur pro forma perbaikan](../proforma-invoicing/corrective-invoices.md).
 
-*Rincian akuntansi* untuk faktur proyek dikelola di dokumen faktur untuk pelanggan. Rincian ini mencakup perhitungan pajak penjualan dan dimensi keuangan yang diterapkan ke faktur. Artikel ini memberikan detail tentang bagaimana detail akuntansi ini dapat disesuaikan pada draf proposal faktur proyek.
+*Rincian akuntansi* untuk faktur proyek dikelola di dokumen faktur untuk pelanggan. Rincian ini mencakup perhitungan pajak penjualan dan dimensi keuangan yang diterapkan ke faktur. artikel ini memberikan rincian tentang penyesuaian rincian akuntansi ini pada draf proposal faktur proyek.
 
 ## <a name="adjust-sales-tax"></a>Menyesuaikan Pajak Penjualan
 
@@ -29,13 +29,13 @@ Grup pajak penjualan penagihan default dan grup pajak penjualan item dapat dises
 
 ### <a name="header-dimensions"></a>Dimensi header
 
-Secara default, dimensi keuangan faktur berasal dari catatan transaksi proyek yang tidak ditagih yang sedang ditagih. Namun, pengaturan sistem memungkinkan Anda menggunakan dimensi keuangan pada header proposal faktur proyek untuk memposting saldo pelanggan. Untuk mengaktifkan fungsi ini, pilih **Izinkan pembaruan ke dimensi proyek untuk piutang** pada tab **Keuangan** di **halaman Manajemen proyek dan parameter** akuntansi.
+Secara default, dimensi keuangan faktur diambil dari rekaman transaksi proyek belum tertagih yang ditagih. Namun, pengaturan sistem memungkinkan Anda menggunakan dimensi keuangan pada header proposal faktur proyek untuk memposting saldo pelanggan. Untuk mengaktifkan fungsi ini, pilih **Izinkan pembaruan dimensi proyek untuk piutang dagang** pada tab **Keuangan** pada halaman **parameter manajemen proyek dan akuntansi**.
 
-Dimensi keuangan pada header faktur dapat diedit sebelum faktur diposting. Pada halaman **Proposal** faktur proyek, beralihlah **ke tampilan Header**, lalu edit nilai pada tab **Dimensi** keuangan.
+Dimensi keuangan pada header faktur dapat diedit sebelum faktur diposting. Pada halaman **proposal faktur proyek**, beralihlah ke tampilan **Header**, lalu edit nilai pada tab **Dimensi keuangan**.
 
-Tampilan **Header** hanya tersedia setelah administrator sistem mengaktifkan **proposal faktur Gunakan Proyek dan formulir jurnal faktur dengan fitur tampilan** Header dan Baris di **ruang kerja Manajemen** fitur. Fitur ini memerlukan pembaruan Keuangan 10.0.25 atau yang lebih baru.
+Tampilan **header** tersedia hanya setelah administrator sistem mengaktifkan fitur **gunakan format jurnal faktur dan proposal faktur proyek dengan tampilan Header dan baris** di ruang kerja **manajemen Fitur**. Fitur ini memerlukan Pembaruan Finance 10.0.25 atau versi yang lebih baru.
 
-### <a name="line-dimensions"></a>Dimensi garis
+### <a name="line-dimensions"></a>Dimensi baris
 
 Dimensi keuangan tidak dapat diedit secara langsung pada baris proposal faktur proyek. Melainkan, ikuti langkah-langkah ini untuk menyesuaikan dimensi keuangan pada proposal faktur proyek.
 

@@ -1,6 +1,6 @@
 ---
 title: Pembayaran harian
-description: Artikel ini memberikan informasi tentang aturan per diem yang digunakan dalam Manajemen biaya.
+description: Artikel ini menyediakan informasi tentang aturan uang saku yang digunakan dalam manajemen pengeluaran.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

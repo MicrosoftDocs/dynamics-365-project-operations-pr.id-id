@@ -1,6 +1,6 @@
 ---
 title: Gambaran Umum Project Service Automation
-description: Artikel ini menyediakan informasi tentang Dynamics 365 Project Service Automation solusi integrasi to Dynamics 365 Finance.
+description: Artikel ini memberikan informasi tentang solusi integrasi Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -25,7 +25,7 @@ ms.locfileid: "8929586"
 [!include[banner](../includes/banner.md)]
 
 
-Solusi integrasi Project Service Automation to Finance menggunakan fitur integrasi Data untuk menyinkronkan data di seluruh instans Dynamics 365 Finance dan Dynamics 365 Project Service Automation melalui Common Data Service. Template integrasi yang tersedia dengan fitur integrasi data memungkinkan aliran proyek, kontrak proyek, baris kontrak proyek, tonggak pencapaian baris kontrak proyek, tugas proyek, kategori transaksi pengeluaran, estimasi jam, dan estimasi pengeluaran dari Project Service Automation ke Finance.
+Solusi integrasi Project Service Automation ke Finance menggunakan fitur integrasi data untuk mensinkronisasi data di seluruh instans Dynamics 365 Finance dan Dynamics 365 Project Service Automation melalui Common Data Service. Template integrasi yang tersedia dengan fitur integrasi data memungkinkan aliran proyek, kontrak proyek, baris kontrak proyek, tonggak pencapaian baris kontrak proyek, tugas proyek, kategori transaksi pengeluaran, estimasi jam, dan estimasi pengeluaran dari Project Service Automation ke Finance.
 
 > [!NOTE]
 > - Jika Anda menggunakan versi 7.3.0, Anda harus menginstal KB 4074835. Anda kemudian akan dapat mengintegrasikan proyek harga tetap.

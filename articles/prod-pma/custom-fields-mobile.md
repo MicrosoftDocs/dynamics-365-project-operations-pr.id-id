@@ -1,6 +1,6 @@
 ---
 title: Terapkan bidang kustom untuk aplikasi seluler Microsoft Dynamics 365 Project Timesheet di IOS dan Android
-description: Artikel ini menyediakan pola umum untuk menggunakan ekstensi guna menerapkan bidang kustom.
+description: Artikel ini menyediakan pola umum untuk menggunakan ekstensi untuk menerapkan bidang kustom.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8913716"
 
 [!include [banner](../includes/banner.md)]
 
-Artikel ini menyediakan pola umum untuk menggunakan ekstensi guna menerapkan bidang kustom. Artikel-artikel berikut dibahas:
+Artikel ini menyediakan pola umum untuk menggunakan ekstensi untuk menerapkan bidang kustom. Artikel berikut ini tercakup:
 
 - Berbagai jenis data yang didukung kerangka kerja bidang kustom
 - Cara menampilkan bidang yang dapat diedit atau hanya baca di entri lembar waktu, dan menyimpan nilai yang disediakan pengguna kembali ke database
@@ -35,7 +35,7 @@ Artikel ini menyediakan pola umum untuk menggunakan ekstensi guna menerapkan bid
 
 ## <a name="audience"></a>Audiens
 
-Artikel ini ditujukan untuk pengembang yang mengintegrasikan bidang kustom mereka ke dalam Microsoft Dynamics 365 Project Timesheet aplikasi seluler yang tersedia untuk Apple iOS dan Google Android. Asumsinya adalah bahwa pembaca terbiasa dengan pengembangan X++ dan fungsi lembar waktu proyek.
+Artikel ini ditujukan untuk pengembang yang mengintegrasikan bidang kustom mereka ke aplikasi seluler Microsoft Dynamics 365 Project Timesheet yang tersedia untuk Apple iOS dan Google Android. Asumsinya adalah bahwa pembaca terbiasa dengan pengembangan X++ dan fungsi lembar waktu proyek.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Kontrak data – TSTimesheetCustomField kelas X++
 
@@ -64,7 +64,7 @@ Properti **fieldbasetype** pada objek **tstimesheetcustom** menentukan jenis bid
 
 - Jika properti **stringoptions** diberikan pada objek **tstimesheetcustomfield**, elemen daftar tersebut adalah satu-satunya nilai yang dapat dipilih pengguna dengan menggunakan tombol pilihan (tombol radio).
 
-    Dalam kasus ini, bidang string dapat bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke database sebagai enum, petakan nilai string secara manual kembali ke nilai enum sebelum Anda menyimpan ke database dengan menggunakan rantai perintah (lihat bagian "Gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" nanti di artikel ini untuk contoh).
+    Dalam kasus ini, bidang string dapat bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke database sebagai enum, secara manual petakan nilai string kembali ke nilai enum sebelum anda menyimpan database dengan menggunakan rantai perintah (lihat bagian "gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" kemudian di artikel ini misalnya).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Properti ini menentukan label yang ditampilkan di bidang berikutnya dalam aplika
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (daftar String)
 
-Properti ini hanya berlaku bila **fieldbasetype** diatur ke **string**. Jika **stringoptions** diatur, nilai string yang tersedia untuk pilihan melalui tombol pilihan (tombol radio) ditentukan oleh string dalam daftar. Jika tidak ada string yang disediakan, entri teks bebas di bidang string diperbolehkan (lihat bagian "Gunakan rantai perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" nanti di artikel ini untuk contoh).
+Properti ini hanya berlaku bila **fieldbasetype** diatur ke **string**. Jika **stringoptions** diatur, nilai string yang tersedia untuk pilihan melalui tombol pilihan (tombol radio) ditentukan oleh string dalam daftar. Jika tidak ada string yang disediakan, entri teks bebas di bidang string diizinkan (lihat bagian "gunakan rantai perintah pada kelas tstimesheetentryservice untuk menyimpan entri lembar waktu dari aplikasi kembali ke database" nanti di artikel ini sebagai contoh).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

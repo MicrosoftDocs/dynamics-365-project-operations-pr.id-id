@@ -1,6 +1,6 @@
 ---
 title: Apa yang baru Februari 2022 - penyebaperan Project Operations lite
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis februari 2022 penyebaran project operations lite.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia di penyebaran Project Operations lite Februari 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -20,20 +20,20 @@ _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
 Artikel ini berlaku untuk komponen dan versi Microsoft Dynamics 365 Project Operations berikut ini:
 
-- Operasi Proyek dalam Dataverse versi lingkungan 4.28.0.120
+- Project Operations dalam lingkungan Dataverse versi 4.28.0.120
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 
-Pada rilis ini, Anda dapat menambahkan hingga 300 anggota tim ke dalam satu proyek. Sebelumnya, batas jumlah anggota tim adalah 150. Untuk informasi selengkapnya, lihat [Batas proyek](../../project-management/create-wbs.md#project-limitations).
+Pada rilis ini, Anda dapat menambahkan hingga 300 anggota tim ke satu proyek. Sebelumnya, batas jumlah anggota tim adalah 150. Untuk informasi selengkapnya, lihat [batas proyek](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
 | Area fitur | Nomor Referensi | Pembaruan kualitas |
 | --- | --- | --- |
-| Penagihan dan harga | 2497369 | Koreksi material harus mengikuti nilai tanggal dalam **parameter Koreksi**. |
-| Penagihan dan harga | 2498697 | Meningkatkan konfigurasi keamanan untuk **Penarikan** entri waktu. |
-| Penagihan dan harga | 2517455 | Tindakan **Transaksi** baris faktur yang disegarkan tidak boleh diizinkan untuk dipicu beberapa kali secara bersamaan untuk faktur yang sama. |
-| Penagihan dan harga | 2517465 | Tindakan **Nonaktifkan detail** baris faktur diblokir karena tidak didukung. |
-| Penagihan dan harga | 2556660 | Memperbaiki pemeriksaan efektivitas tanggal yang dilakukan pada daftar harga yang dilampirkan ke catatan parameter proyek. |
-|   Manajemen peluang | 2369202 | Mengoreksi logika bisnis yang memverifikasi bahwa daftar harga yang memiliki tanggal efektifitas yang tumpang tindih dapat dilampirkan ke kontrak proyek yang sama. |
-|   Manajemen peluang | 2385965 | Mengoreksi perilaku pada tab Pelanggan **di** **halaman Kontrak** proyek saat Anda memilih **Simpan dan tutup**. |
+| Penagihan dan harga | 2497369 | Koreksi bahan harus mengikuti nilai tanggal dalam parameter **Koreksi**. |
+| Penagihan dan harga | 2498697 | Meningkatkan konfigurasi keamanan untuk **penarikan entri waktu**. |
+| Penagihan dan harga | 2517455 | Tindakan **transaksi baris faktur yang di-refresh** tidak boleh dibolehkan dipicu beberapa kali bersamaan untuk faktur yang sama. |
+| Penagihan dan harga | 2517465 | Tindakan **Nonaktifkan rincian baris faktur** diblokir karena tidak didukung. |
+| Penagihan dan harga | 2556660 | Memperbaiki pemeriksaan efektivitas tanggal yang dilakukan pada daftar harga yang dilampirkan ke rekaman parameter proyek. |
+|   Manajemen peluang | 2369202 | Mengoreksi logika bisnis yang memverifikasi bahwa daftar harga yang memiliki tanggal efektivitas tumpang tindih dapat dilampirkan ke kontrak proyek yang sama. |
+|   Manajemen peluang | 2385965 | Mengoreksi perilaku pada tab **Pelanggan** pada halaman **kontrak proyek** saat Anda memilih **Simpan dan tutup**. |

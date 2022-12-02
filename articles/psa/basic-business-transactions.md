@@ -1,6 +1,6 @@
 ---
 title: Transaksi bisnis
-description: Artikel ini menyediakan informasi tentang transaksi bisnis.
+description: artikel ini menyediakan informasi tentang transaksi bisnis.
 author: rumant
 ms.custom:
 - dyn365-projectservice

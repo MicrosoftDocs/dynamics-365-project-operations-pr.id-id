@@ -1,6 +1,6 @@
 ---
 title: Buat estimasi penjualan dan biaya proyek apabila sumber daya yang dapat dipesan mengisi beberapa peran untuk suatu proyek
-description: Artikel ini memberikan informasi tentang bagaimana dimensi harga dapat digunakan untuk mendukung penetapan harga dan penetapan biaya untuk sumber daya yang mengisi beberapa peran pada proyek.
+description: artikel ini memberikan informasi tentang cara menggunakan dimensi harga untuk mendukung harga dan biaya untuk sumber daya yang mengisi beberapa peran pada satu proyek.
 author: rumant
 ms.custom:
 - dyn365-projectservice

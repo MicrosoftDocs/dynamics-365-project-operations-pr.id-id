@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 43, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Microsoft Dynamics 365 Project Service Automation Pembaruan Rilis 43, V3.
+description: Artikel ini berisi fitur dan perbaikan yang tersedia dalam Rilis Pembaruan Microsoft Dynamics 365 Project Service Automation 43, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8915326"
 
 Kami senang mengumumkan pembaruan terbaru untuk aplikasi Microsoft Dynamics 365 Project Service Automation. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan. Ini kompatibel dengan Dynamics 365 9.x. Untuk memperbarui rilis ini, kunjungi halaman solusi online Pusat Admin untuk Dynamics 365, dan instal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui, atau menghapus solusi pilihan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk Project Service Automation Update Release 43, V3. Versi ini memiliki nomor pembuatan V3.10.74.200 dan umumnya tersedia melalui pembaruan mandiri pada Mei 2022.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk Project Service Automation V3, pembaruan rilis 43, V3. Versi ini memiliki nomor pembuatan V3.10.74.200 dan umumnya tersedia melalui pembaruan mandiri pada Mei 2022.
 
 ## <a name="update-release-43"></a>Pembaruan rilis 43
 
@@ -40,6 +40,6 @@ Masalah berikut telah diperbaiki.
 
 **Waktu dan Pengeluaran**
 
-- Saat mengimpor entri waktu dari pemesanan atau penetapan sumber daya, referensi ke sumber daya yang dapat dipesan terkait tidak dipertahankan.
-- Ketika kisi entri waktu diperluas ke layar penuh, menavigasi kisi dengan tombol tab tidak berfungsi.
-- Saat mengirimkan entri waktu yang dibuat oleh pengguna lain, **bidang Dikirim Oleh** salah diisi dengan pengguna yang membuat lembar waktu.
+- Bila mengimpor entri waktu dari pemesanan atau penugasan sumber daya, referensi ke sumber daya yang dapat dipesan terkait tidak dipertahankan.
+- Bila kisi entri waktu diperluas ke layar penuh, menavigasi kisi dengan tombol tab tidak berfungsi.
+- Saat mengajukan entri waktu yang dibuat oleh pengguna lain, bidang **Diajukan Oleh** tidak diisi dengan benar dengan pengguna yang membuat lembar waktu.

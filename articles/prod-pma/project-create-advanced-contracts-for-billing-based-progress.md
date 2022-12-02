@@ -1,6 +1,6 @@
 ---
 title: Membuat kontrak lanjutan untuk penagihan berdasarkan progres
-description: Artikel ini menjelaskan cara membuat kontrak proyek sehingga Anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan.
+description: Artikel ini menjelaskan cara membuat kontrak proyek sehingga anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913670"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Membuat kontrak lanjutan untuk penagihan berdasarkan progres
 [!include [banner](../includes/banner.md)]
 
-Artikel ini menjelaskan cara membuat kontrak proyek sehingga Anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan. Jumlah faktur akan secara otomatis dihitung untuk kategori anggaran pekerjaan yang Anda atur untuk proyek. Waktu faktur diatur saat Anda menegosiasikan kontrak proyek dengan pelanggan.
+Artikel ini menjelaskan cara membuat kontrak proyek sehingga anda dapat membuat faktur untuk pelanggan, berdasarkan persentase pekerjaan yang diselesaikan. Jumlah faktur akan secara otomatis dihitung untuk kategori anggaran pekerjaan yang Anda atur untuk proyek. Waktu faktur diatur saat Anda menegosiasikan kontrak proyek dengan pelanggan.
 
-Gunakan prosedur dalam artikel ini untuk menyiapkan kontrak, proyek terkait, dan aturan penagihan yang menghitung jumlah faktur untuk kategori anggaran pekerjaan yang Anda siapkan untuk proyek tersebut.
+Gunakan prosedur dalam artikel ini untuk mengkonfigurasi kontrak, proyek terkait, dan aturan penagihan yang menghitung jumlah faktur untuk kategori anggaran pekerjaan yang anda atur untuk proyek.
 
 Setelah membuat kontrak dan proyek, Anda dapat mengkonfigurasi rincian proyek. Misalnya, Anda dapat menentukan aktivitas dan menetapkan pekerja ke proyek.
 

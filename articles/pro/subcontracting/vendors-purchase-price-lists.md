@@ -1,6 +1,6 @@
 ---
 title: Manajemen daftar harga vendor dan pembelian dalam Project Operations
-description: Artikel ini memberikan informasi yang akan membantu Anda membuat dan memelihara data vendor dan daftar harga pembelian untuk subkontrak.
+description: Artikel ini menyediakan informasi yang akan membantu Anda membuat dan memelihara data vendor dan daftar harga pembelian untuk subkontrak.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

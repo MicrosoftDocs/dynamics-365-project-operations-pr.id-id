@@ -1,6 +1,6 @@
 ---
 title: Proses Penjualan
-description: Artikel ini memberikan informasi tentang proses penjualan dasar.
+description: artikel ini menyediakan informasi tentang proses penjualan dasar.
 author: rumant
 ms.custom:
 - dyn365-projectservice

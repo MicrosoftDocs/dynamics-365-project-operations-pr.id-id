@@ -1,6 +1,6 @@
 ---
 title: Menagih uang muka atau panjar
-description: Artikel ini memberikan informasi tentang cara menagih retainer atau uang muka dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara menagih panjar atau uang muka dalam Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

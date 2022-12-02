@@ -1,6 +1,6 @@
 ---
 title: Pemulihan PPN di manajemen pengeluaran
-description: Artikel ini menjelaskan cara menerima pengembalian dana atas transaksi pajak pertambahan nilai (PPN) yang memenuhi syarat.
+description: Artikel ini menjelaskan cara menerima pengembalian dana pada transaksi pajak pertambahan nilai (ppn) yang memenuhi syarat.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

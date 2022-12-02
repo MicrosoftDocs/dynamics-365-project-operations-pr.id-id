@@ -1,6 +1,6 @@
 ---
 title: Membuat transaksi antarperusahaan
-description: Artikel ini menyediakan informasi tentang cara membuat transaksi antar perusahaan.
+description: Artikel ini memberikan informasi tentang cara membuat transaksi antarperusahaan.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Apabila transaksi antarperusahaan disetujui, transaksi aktual berikut ini akan d
 
 Biaya, biaya unit sumber daya, dan harga transaksi penjualan unit antarorganisasi, serta mata uang didorong oleh **unit organisasi**. Hal ini penting untuk diingat ketika memutuskan bagaimana membuat struktur perusahaan dan unit organisasi dalam penerapan Anda.
 
-Saat Anda membuat peluang, kuotasi, kontrak proyek, dan record proyek, sistem akan memverifikasi bahwa mata uang unit kontrak sesuai dengan mata uang akuntansi perusahaan kontrak. Bila tidak sama, record ini tidak dapat dibuat. Mata uang unit organisasi ditentukan di Dynamics 365 Project Operations dengan membuka **Dataverse** > **Pengaturan** > **Unit Organisasi**. Mata uang akuntansi perusahaan didefinisikan dalam Dynamics 365 Finance dengan pergi ke **Buku Besar Buku Besar ledger** > **setup** > **Ledger**. Mata uang disinkronisasikan dengan lingkungan Dataverse Anda menggunakan peta Penulisan Ganda Buku Besar.
+Saat Anda membuat peluang, kuotasi, kontrak proyek, dan record proyek, sistem akan memverifikasi bahwa mata uang unit kontrak sesuai dengan mata uang akuntansi perusahaan kontrak. Bila tidak sama, record ini tidak dapat dibuat. Mata uang unit organisasi ditentukan di Dynamics 365 Project Operations dengan membuka **Dataverse** > **Pengaturan** > **Unit Organisasi**. Mata uang akuntansi perusahaan ditentukan di Dynamics 365 Finance dengan membuka **Buku besar** > **Pengaturan buku besar** > **Buku besar**. Mata uang disinkronisasikan dengan lingkungan Dataverse Anda menggunakan peta Penulisan Ganda Buku Besar.
 
 Sistem akan membuat biaya unit sumber daya dan nilai aktual penjualan unit antarorganisasi dalam situasi berikut:
 
   - Apabila unit sumber daya berbeda dengan unit kontrak
   - Apabila perusahaan sumber daya berbeda dengan perusahaan kontrak
 
-Namun, hanya transaksi yang memiliki perusahaan sumber daya yang berbeda dari perusahaan kontraktor yang akan ditransfer ke lingkungan Dynamics 365 Finance untuk akuntansi tambahan.
+Namun, hanya transaksi yang memiliki perusahaan sumber daya berbeda dengan perusahaan kontrak yang akan ditransfer ke lingkungan Dynamics 365 Finance untuk akuntansi tambahan.
 
 Akuntansi untuk aktual proyek dicatat dalam jurnal integrasi Project Operations di Keuangan. Sistem membuat baris jurnal berikut ini.
 

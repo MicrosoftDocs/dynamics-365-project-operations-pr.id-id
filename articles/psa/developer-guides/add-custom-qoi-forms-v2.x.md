@@ -1,6 +1,6 @@
 ---
 title: Tambahkan formulir entitas kustom baru (Project Service Automation 2. x)
-description: Artikel ini memberikan informasi tentang cara menambahkan formulir entitas kustom untuk peluang, penawaran harga, pesanan, atau faktur di Dynamics 365 Project Service Automation 2.x.
+description: Artikel ini menyediakan informasi tentang cara menambahkan formulir entitas kustom untuk peluang, kuotasi, pesanan, atau faktur di Dynamics 365 Project Service Automation 2. x.
 author: makk
 ms.custom:
 - dyn365-projectservice

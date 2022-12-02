@@ -1,6 +1,6 @@
 ---
 title: Menimpa daftar harga penjualan proyek
-description: Artikel ini menyediakan informasi tentang membuat daftar harga penjualan kustom.
+description: Artikel ini menyediakan informasi tentang pembuatan daftar harga penjualan kustom.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

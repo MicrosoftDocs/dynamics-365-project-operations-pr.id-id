@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Operasi Proyek November 2020 untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis November 2020 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "9029534"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
 - Lingkungan Project Operations di CDS versi 4.4.0.70
-- Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.14
+- Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Pembaruan ke Project Operations untuk skenario berbasis sumber daya/tanpa stok
 
@@ -65,7 +65,7 @@ Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operat
 | Akuntansi proyek  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Mengaktifkan fitur, beberapa baris kontrak tidak dimungkinkan tanpa integrasi CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Pembaruan wajib
-Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi keuangan dan operasi, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

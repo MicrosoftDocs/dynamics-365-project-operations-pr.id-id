@@ -1,6 +1,6 @@
 ---
 title: Menetapkan sumber daya untuk tugas
-description: Artikel ini menyediakan informasi tentang cara menetapkan sumber daya ke tugas.
+description: Artikel ini menyediakan informasi tentang cara menetapkan sumber daya untuk tugas.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

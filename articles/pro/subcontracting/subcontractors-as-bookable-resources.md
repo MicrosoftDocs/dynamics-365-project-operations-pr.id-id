@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi subkontraktor sebagai sumber daya yang dapat dipesan
-description: Artikel ini menjelaskan cara mengatur dan memelihara sumber daya subkontraktor yang dibuat dari pengguna dan kontak dalam sistem, sehingga mereka dapat dikaitkan dengan subkontrak di Microsoft Dynamics 365 Project Operations.
+description: Atikel ini menjelaskan cara menyiapkan dan memelihara sumber daya subkontraktor yang dibuat dari pengguna dan kontak dalam sistem, sehingga mereka dapat dikaitkan dengan subkontraktor di Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

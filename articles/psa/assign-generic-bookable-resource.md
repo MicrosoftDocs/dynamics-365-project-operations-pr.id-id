@@ -1,6 +1,6 @@
 ---
 title: Tetapkan sumber daya yang dapat dipesan generik ke tim tugas dan proyek
-description: Artikel ini memberikan informasi tentang pemesanan sumber daya generik ke tugas dan tim proyek.
+description: Artikel ini menyediakan informasi tentang pemesanan sumber daya umum untuk tugas dan tim proyek.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

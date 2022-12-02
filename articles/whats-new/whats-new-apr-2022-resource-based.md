@@ -1,6 +1,6 @@
 ---
 title: Yang baru di April 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis April 2022 Microsoft Dynamics 365 Project Operations untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia di perilisan Microsoft Dynamics 365 Project Operations pada April 2022 untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
@@ -20,24 +20,24 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 Artikel ini berlaku untuk komponen dan versi Microsoft Dynamics 365 Project Operations berikut ini:
 
-- Operasi Proyek dalam Dataverse versi lingkungan 4.41.0.45
-- Manajemen proyek dan akuntansi dalam lingkungan Dynamics 365 Finance versi 10.0.26
+- Project Operations dalam lingkungan Dataverse versi 4.41.0.45
+- Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.26
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 
-Kategori pengadaan dapat digunakan dalam pesanan pembelian proyek dan faktur vendor yang tertunda. Untuk informasi selengkapnya, lihat [Menggunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor yang tertunda](../procurement/configure-procurement-categories.md).
+Kategori pengadaan dapat digunakan dalam pesanan pembelian proyek dan faktur vendor tertunda. Untuk informasi lebih lanjut, lihat [Gunakan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor tertunda](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Pembaruan peta Penulisan Ganda Project Operations
 
-Tabel berikut menunjukkan peta tulis ganda yang telah dimodifikasi atau ditambahkan dalam rilis Operasi Proyek maret 2022.
+Tabel berikut menampilkan peta penulisan ganda yang telah dimodifikasi atau ditambahkan perilisan Project Operations pada Maret 2022.
 
 | Peta entitas | Pembaruan versi | Komentar |
 | -------------- | ------------------- | ------------|
-| Proyek Operasi integrasi proyek vendor baris faktur baris ekspor entitas msdyn\_ projectvendorinvoicelines | 1.0.0.4 | Peta ini mendukung penggunaan kategori pengadaan dengan pesanan pembelian dan faktur vendor yang tertunda. |
+| Entitas ekspor baris faktur vendor proyek integrasi Project Operations msdyn\_projectvendorinvoicelines | 1.0.0.4 | Peta ini mendukung penggunaan kategori pengadaan dengan pesanan pembelian proyek dan faktur vendor tertunda. |
 
-Selalu jalankan versi terbaru peta di lingkungan Anda, dan aktifkan semua peta tabel terkait saat Anda memperbarui solusi Operasi Dataverse Proyek dan versi solusi Keuangan. Beberapa fitur dan kemampuan mungkin tidak berfungsi dengan benar jika versi terbaru peta tidak diaktifkan. Anda dapat melihat versi aktif peta dalam kolom **Versi** pada halaman **Penulisan ganda**. Untuk mengaktifkan versi baru peta, pilih versi **peta tabel**, pilih versi terbaru, lalu simpan versi yang dipilih. Jika Anda telah mengkustomisasi peta tabel out-of-box, terapkan kembali perubahan tersebut. Untuk informasi lebih lanjut, lihat [manajemen siklus hidup aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Selalu jalankan versi terbaru peta di lingkungan Anda dan aktifkan semua peta tabel terkait saat Anda memperbarui solusi Project Operations Dataverse dan versi solusi Finance. Beberapa fitur dan kemampuan tertentu mungkin tidak berfungsi dengan benar jika versi peta terbaru tidak diaktifkan. Anda dapat melihat versi aktif peta dalam kolom **Versi** pada halaman **Penulisan ganda**. Untuk mengaktifkan versi baru peta, pilih versi **peta tabel**, pilih versi terbaru, lalu simpan versi yang dipilih. Jika Anda telah menyesuaikan peta tabel siap pakai, aplikasikan ulang perubahan. Untuk informasi lebih lanjut, lihat [manajemen siklus hidup aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Jika Anda mengalami masalah saat memulai peta, ikuti instruksi di [bagian Kolom tabel hilang di](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) peta bagian Panduan pemecahan masalah penulisan ganda.
+Jika Anda menemui masalah saat Anda memulai peta, ikuti petunjuk dalam bagian [masalah kolom tabel Tidak Ada pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) dari panduan pemecahan masalah Penulisan ganda.
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
@@ -45,17 +45,17 @@ Jika Anda mengalami masalah saat memulai peta, ikuti instruksi di [bagian Kolom 
 
 | Area fitur | Nomor Referensi | Pembaruan kualitas |
 | ------------ | ---------------- | -------------- |
-| Waktu dan pengeluaran | 2573900 | Fitur **Persetujuan** Modern harus diaktifkan secara default. |
-| Penagihan dan harga | 2603313 | Memperbaiki kesalahan catatan duplikat yang mencegah kutipan dan baris kontrak yang memiliki produk ditambahkan. |
-| Penyebaran dan Konfigurasi | 2611368 | Pelanggan harus dapat menambahkan hingga lima entitas kustom ke solusi dengan menggunakan perancang aplikasi modern. |
+| Waktu dan pengeluaran | 2573900 | Fitur **Persetujuan Modern** harus diaktifkan secara default. |
+| Penagihan dan harga | 2603313 | Memperbaiki kesalahan rekaman duplikat yang mencegah ditambahkannya baris kuotasi dan kontrak yang memiliki produk. |
+| Penyebaran dan Konfigurasi | 2611368 | Pelanggan harus dapat menambahkan hingga lima entitas kustom ke solusi dengan menggunakan desainer aplikasi modern. |
 | Waktu dan pengeluaran | 2628285 | Memperbaiki masalah yang memengaruhi kemampuan untuk mengatur kategori sumber daya yang benar selama impor entri waktu. |
-|   Manajemen peluang| 2628815 | Perbarui batas karakter deskripsi detail baris kutipan agar sesuai dengan batas karakter subjek tugas, sehingga impor berhasil untuk tugas di mana subjek lebih panjang dari 100 karakter. |
-| Waktu dan pengeluaran| 2629547 | Bidang **persetujuan proyek yang Dikirim Oleh** harus mengarah ke pengguna yang mengirimkan rekaman. |
+|   Manajemen peluang| 2628815 | Perbarui batas karakter deskripsi detail baris kuotasi agar sesuai dengan batas karakter subjek tugas, sehingga impor berhasil untuk tugas yang subjeknya lebih dari 100 karakter. |
+| Waktu dan pengeluaran| 2629547 | Bidang **diajukan Oleh** dari persetujuan proyek harus mengarahkan ke pengguna yang mengajukan rekaman. |
 | Waktu dan pengeluaran| 2629865 | Bidang **Salin kategori** pada tugas saat proyek disalin. |
-| Waktu dan pengeluaran| 2636463 | Memperbaiki filter pada persetujuan dalam formulir persetujuan modern. |
+| Waktu dan pengeluaran| 2636463 | Memperbaiki filter saat persetujuan dalam formulir persetujuan modern. |
 | Perencanaan dan pelacakan proyek | 2648300 | Memperbaiki masalah yang mencegah pemilik proyek diubah. |
-| Penagihan dan harga | 2563000 | Baris jurnal untuk penjualan yang tidak ditagih di mana mata uang berbeda dari mata uang kontrak tidak boleh diizinkan. |
+| Penagihan dan harga | 2563000 | Baris jurnal untuk penjualan belum tertagih dengan mata uang yang berbeda dari mata uang kontrak tidak boleh dibolehkan. |
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Manajemen proyek dan akuntansi di Dynamics 365 Finance
 
-Untuk informasi tentang perbaikan bug yang disertakan dalam pembaruan ini, masuk ke Microsoft Dynamics Lifecycle Services (LCS), dan lihat [artikel](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864) KB.
+Untuk informasi tentang perbaikan bug yang termasuk dalam peningkatan ini, masuk ke Microsoft Dynamics Lifecycle Services (LCS), dan lihat [artikel KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).

@@ -1,6 +1,6 @@
 ---
 title: kuotasi - Konsep kunci - lite
-description: Artikel ini menyediakan informasi tentang penggunaan kutipan proyek dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang cara menggunakan kuotasi proyek di Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Perencanaan dan pelacakan proyek
-description: Artikel ini menyediakan link ke informasi tentang perencanaan dan pelacakan di Project Service Automation.
+description: Artikel ini menyediakan tautan ke informasi tentang perencanaan dan pelacakan dalam Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933266"
 
 Aplikasi Project Service mbn organisasi layanan mengidentifikasi peluang, mengajukan penawaran, mencapai perjanjian kontraktual, mengelola sumber daya, melacak waktu dan biaya, menagih pelanggan, dan melaksanakan proyek tepat waktu, dan sesuai anggaran. 
 
-Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
+Tautan PDF yang sebelumnya di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Jadwal proyek](../project-creating.md)
 - [Penerimaan dan biaya proyek](../project-estimating.md)
@@ -43,7 +43,7 @@ Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah 
 - [pengaturan proyek](../project-settings.md)
 
 > [!NOTE]
-> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus di pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

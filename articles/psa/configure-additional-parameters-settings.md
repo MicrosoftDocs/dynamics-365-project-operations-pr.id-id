@@ -30,7 +30,7 @@ ms.locfileid: "8919236"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Setelah mengonfigurasi item di artikel sebelumnya, Anda perlu mengatur parameter proyek tambahan yang akan digunakan untuk proyek Anda. Ketika Anda pertama kali memasang [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Anda membuat pengaturan parameter untuk pertama kali membuat semua rekaman yang diperlukan agar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] bekerja. Sekarang saatnya untuk kembali dan mengkonfigurasikan bidang tambahan untuk pengaturan ini.  
+Setelah Anda mengkonfigurasi item dalam artikel-artikel sebelumnya, Anda perlu mengatur parameter proyek tambahan yang digunakan untuk proyek Anda. Ketika Anda pertama kali memasang [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Anda membuat pengaturan parameter untuk pertama kali membuat semua rekaman yang diperlukan agar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] bekerja. Sekarang saatnya untuk kembali dan mengkonfigurasikan bidang tambahan untuk pengaturan ini.  
   
  Anda perlu mengkonfigurasi pengaturan berikut:  
   

@@ -1,6 +1,6 @@
 ---
 title: Menerapkan data demo ke lingkungan di-host Finance cloud
-description: Artikel ini menjelaskan cara menerapkan data demo dari Project Operations ke lingkungan yang Dynamics 365 Finance dihosting Cloud.
+description: Artikel ini menjelaskan cara menerapkan data demo dari Project Operations ke lingkungan Dynamics 365 Finance yang dihost di cloud.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029901"
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 > [!IMPORTANT]
-> Artikel ini hanya berlaku untuk Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya dapat dilakukan di lingkungan yang dihosting Cloud. Selesaikan langkah-langkah dalam artikel **ini SEBELUM** Anda menerapkan pembaruan kualitas ke lingkungan.
+> Artikel ini hanya berlaku hanya Microsoft Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya dapat dilakukan di lingkungan yang di-host dengan Cloud. Selesaikan langkah-langkah di artikel ini **SEBELUM** anda menerapkan pembaruan kualitas ke lingkungan.
 
 1. Di proyek LCS, buka halaman **rincian lingkungan**. Perhatikan bahwa ini mencakup rincian yang diperlukan untuk menyambung ke lingkungan dengan menggunakan Remote Desktop Protocol (RDP).
 
@@ -76,7 +76,7 @@ Hal ini berlangsung selama beberapa menit. Anda akan menerima pesan konfirmasi b
 
 18. Tutup sesi desktop jarak jauh dan gunakan halaman **rincian lingkungan** LCS untuk masuk ke lingkungan untuk mengkonfirmasi sudah berfungsi seperti yang diharapkan.
 
-![Keuangan dan operasi.](./media/10FinanceAndOperations.png)
+![keuangan dan operasi.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

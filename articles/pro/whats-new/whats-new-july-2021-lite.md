@@ -1,6 +1,6 @@
 ---
 title: Terbaru Juli 2021 - Penyebaran Project Operations lite
-description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia dalam rilis Juli 2021 penyebaran Project Operations lite.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Juli 2021 penyebaran Project Operations lite.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8913992"
 
 _Berlaku untuk: Penyebaran sederhana - menangani faktur proforma_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
   - Project Operations di lingkungan Dataverse versi 4.12.0.148 or 4.12.0.152.
 

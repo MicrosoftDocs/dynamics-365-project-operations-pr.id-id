@@ -1,6 +1,6 @@
 ---
 title: Faktur proforma
-description: Artikel ini menyediakan informasi tentang faktur proforma dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang faktur proforma di Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Bila Anda membuat faktur draf proyek, Semua transaksi penjualan yang tidak ditag
 Pilih **konfirmasikan** untuk mengonfirmasi faktur. Tindakan konfirmasi adalah tindakan satu arah. Bila Anda memilih **konfirmasikan**, sistem akan membuat faktur hanya baca dan membuat aktual penjualan yang ditagih dari setiap detail baris faktur untuk setiap baris faktur. Jika detail baris faktur merujuk penjualan yang belum ditagih, sistem juga akan membalikkan penjualan yang belum ditagih. (Detail baris faktur apa pun yang dibuat dari entri waktu atau biaya akan merujuk pada penjualan yang belum ditagih.) Sistem integrasi buku besar dapat menggunakan pembalikan ini untuk membalikkan pekerjaan proyek dalam proses (WIP) untuk tujuan akuntansi.
 
 > [!NOTE]
-> Faktur proforma yang dikonfirmasi dan catatan terkait seperti baris faktur dan detail baris faktur tidak dapat diedit atau dihapus. 
+> Faktur proforma terkonfirmasi dan rekaman terkait seperti baris faktur dan detail baris faktur tidak dapat diedit atau dihapus. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Koreksi faktur dikonfirmasi
 

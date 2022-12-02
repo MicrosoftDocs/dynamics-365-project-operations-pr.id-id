@@ -1,6 +1,6 @@
 ---
 title: Header/Ringkasan Peluang
-description: Artikel ini menyediakan informasi tentang kesepakatan berbasis proyek dan jalur peluang berbasis proyek.
+description: Artikel ini menyediakan informasi tentang penawaran berbasis proyek dan baris peluang berbasis proyek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -52,7 +52,7 @@ Untuk membuat pengeluaran, atau mencocokkan pengeluaran dari tanda terima, seles
 
 ## <a name="installation"></a>Penginstalan
 
-Untuk menggunakan kemampuan biaya lanjutan ini, instal add-in Layanan Manajemen Biaya untuk Microsoft Dynamics 365 Finance, dan aktifkan fitur di instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
+Untuk menggunakan kemampuan pengeluaran tingkat lanjut ini, instal Add-in Layanan Manajemen pengeluaran untuk Microsoft Microsoft Dynamics 365 Finance, dan Aktifkan fitur tersebut dalam instans Anda. Anda dapat mengakses Add-in dari proyek di Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Masuk ke LCS, dan buka lingkungan yang diinginkan.
 2. Buka **rincian lengkap**.
@@ -85,15 +85,15 @@ Tidak, Microsoft telah membangun model Pembelajaran Mesin umum untuk layanan pem
 
 **Di manakah fitur ini tersedia dan diproses?**
 
-Ketersediaan fitur ini di berbagai wilayah tercantum dalam tabel berikut. Jika wilayah Anda saat ini tidak didukung, kirimkan permintaan untuk memprioritaskan ketersediaan layanan OCR di wilayah Anda. 
+Ketersediaan fitur ini di berbagai kawasan tercantum dalam tabel berikut. Jika kawasan Anda saat ini tidak didukung, kirim permintaan untuk memprioritaskan ketersediaan layanan OCR di kawasan Anda. 
 
 | Wilayah | Didukung                         |
 |--------|-----------------------------------|
-| AMERIKA SERIKAT    | Ya                               |
+| AS    | Ya                               |
 | CAN    | Ya                               |
 | Inggris     | Ya                               |
 | AUS    | Ya                               |
-| UNI EROPA     | Sebagian. Hanya tanda terima bahasa Inggris. |
+|  UE     | Sebagian. Tanda terima bahasa Inggris saja. |
 | Asia   | No                                |
 | Jepang  | No                                |
 | Afrika | No                                |

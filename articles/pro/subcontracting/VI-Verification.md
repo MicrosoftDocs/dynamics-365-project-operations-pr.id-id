@@ -1,6 +1,6 @@
 ---
 title: Verifikasi faktur vendor dengan aktual yang disetujui
-description: Artikel ini menjelaskan bagaimana Microsoft Dynamics 365 Project Operations mari manajer proyek memverifikasi faktur vendor dengan aktual yang disetujui sebagai kontraktor melakukan pekerjaan dan waktu yang tercatat, serta biaya dan materi yang digunakan oleh anggota tim proyek.
+description: Artikel ini menjelaskan bagaimana Microsoft Dynamics 365 Project Operations memungkinkan manajer proyek memverifikasi faktur vendor dengan aktual yang disetujui sebagai kontraktor melakukan pekerjaan dan mencatat waktu, serta pengeluaran dan materi yang digunakan oleh anggota tim proyek.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,41 +17,41 @@ ms.locfileid: "9522949"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Microsoft Dynamics 365 Project Operations mari manajer proyek memverifikasi baris faktur vendor dengan cara berikut:
+Microsoft Dynamics 365 Project Operations memungkinkan manajer proyek memverifikasi baris faktur vendor dengan cara berikut:
 
-- Gunakan bidang **Status** verifikasi pada baris faktur vendor.
-- Jika baris faktur vendor mereferensikan baris subkontrak, tautkan aktual biaya dari aktivitas subkontraktor ke baris faktur vendor tersebut. Tautan dibuat dengan mencocokkan aktual biaya dengan baris faktur vendor.
+- Gunakan bidang **Status verifikasi** di baris faktur vendor.
+- Jika baris faktur vendor mereferensikan baris subkontrak, tautkan aktual biaya dari aktivitas subkontraktor ke baris faktur vendor tersebut. Tautan dibuat dengan mencocokkan aktual biaya ke baris faktur vendor.
 
     > [!NOTE]
     > Meskipun status verifikasi dapat dilacak untuk baris faktur vendor yang tidak mereferensikan subkontrak, aktual biaya tidak dapat ditautkan ke baris faktur vendor tersebut.
 
 ## <a name="verification-status"></a>Status verifikasi
 
-Kolom **Status** verifikasi pada baris faktur vendor menunjukkan status verifikasi tersebut. Status berikut didukung:
+Bidang **Status verifikasi** pada baris faktur vendor menunjukkan status verifikasi tersebut. Status berikut didukung:
 
 1. Belum dimulai
 2. Sedang berlangsung
 3. Selesaikan
 
-Baris faktur vendor yang memiliki status **verifikasi Tidak dimulai** dapat diedit.
+Baris faktur vendor yang memiliki status verifikasi **Belum Dimulai** bisa diedit.
 
-Baris faktur vendor yang memiliki status **verifikasi Sedang berlangsung** tidak dapat lagi diedit. Untuk baris faktur vendor yang mereferensikan subkontrak, status verifikasi secara otomatis diatur ke **Sedang berlangsung** segera setelah aktual biaya pertama dicocokkan dengan baris faktur vendor.
+Baris faktur vendor yang memiliki status verifikasi **Belum Dimulai** tidak bisa diedit lagi. Untuk baris faktur vendor yang mereferensikan subkontrak, status verifikasi secara otomatis diatur ke **Sedang berlangsung** segera setelah biaya pertama aktual cocok dengan baris faktur vendor.
 
-Baris faktur vendor yang memiliki status **verifikasi Selesai** tidak dapat lagi diedit. Ketika semua baris pada faktur vendor memiliki status verifikasi ini, faktur vendor dapat dikonfirmasi.
+Baris faktur vendor yang memiliki status verifikasi **Selesai** tidak bisa diedit lagi. Saat semua baris pada faktur vendor memiliki status verifikasi ini, faktur vendor dapat dikonfirmasi.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Mencocokkan aktual biaya dengan baris faktur vendor
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Mencocokkan aktual biaya untuk baris faktur vendor
 
-Pencocokan aktual biaya membantu proses verifikasi pada baris faktur vendor. Untuk mencocokkan aktual biaya dengan baris faktur vendor, ikuti langkah-langkah berikut.
+Pencocokan aktual biaya membantu proses verifikasi pada baris faktur vendor. Untuk mencocokkan aktual biaya dengan baris faktur vendor, ikuti langkah-langkah ini.
 
-1. Buka baris faktur vendor, dan pilih tab **Aktual biaya** yang tak tertandingi. Kisi memperlihatkan daftar aktual biaya yang mereferensikan baris subkontrak yang sama dengan baris faktur vendor.
-2. Pilih satu atau beberapa aktual biaya, lalu pilih **Cocokkan** pada toolbar di atas kisi. Sistem memvalidasi bahwa aktual biaya yang dipilih dapat dicocokkan. Setelah validasi disahkan, aktual biaya ditautkan ke baris faktur vendor.
+1. Buka baris faktur vendor, dan pilih tab **Aktual biaya yang tidak cocok**. Kisi menampilkan daftar aktual biaya yang mereferensikan baris subkontrak yang sama sebagai baris faktur vendor.
+2. Pilih satu atau beberapa aktual biaya, lalu pilih toolbar **Cocok** di atas kisi. Sistem memvalidasi bahwa aktual biaya yang dipilih dapat dicocokkan. Setelah validasi berlalu, aktual biaya ditautkan ke baris faktur vendor.
 
 ### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Kriteria validasi yang digunakan untuk menautkan aktual biaya ke baris faktur vendor
 
-Selama proses pencocokan, tautan antara biaya aktual dan baris faktur vendor hanya dapat dibuat jika kedua kondisi berikut terpenuhi:
+Selama proses pencocokan, tautan antara biaya aktual dan baris faktur vendor dapat ditetapkan hanya jika kedua kondisi berikut terpenuhi:
 
-- Bidang **Status** penyesuaian untuk setiap aktual biaya yang dipilih harus kosong. Dengan kata lain, aktual biaya tidak boleh digantikan oleh aktual biaya lainnya selama penarikan kembali, pembatalan persetujuan, atau proses jurnal koreksi.
-- Nilai bidang berikut dicocokkan antara baris faktur vendor dan aktual biaya yang dipilih. Jika ada bidang yang tidak diatur pada baris faktur vendor, bidang tersebut tidak dipertimbangkan untuk dicocokkan.
+- Bidang **Status penyesuaian** untuk setiap biaya yang dipilih sebenarnya harus kosong. Dengan kata lain, aktual biaya tidak boleh digantikan dengan aktual biaya lain selama pembatalan, pembatalan persetujuan, atau proses koreksi jurnal.
+- Nilai dari bidang berikut ini cocok antara baris faktur vendor dan biaya aktual yang dipilih. Jika bidang apa pun tidak diatur pada baris faktur vendor, bidang tersebut tidak dipertimbangkan untuk pencocokan.
 
     - Kontrak proyek
     - Baris kontrak proyek
@@ -64,11 +64,11 @@ Selama proses pencocokan, tautan antara biaya aktual dan baris faktur vendor han
     - Baris subkontrak
     - Sumber daya yang dapat dipesan
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Biaya aktual yang tidak sesuai dari baris faktur vendor
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Aktual biaya yang tidak cocok dari baris faktur vendor
 
-Ketidakcocokan aktual biaya juga dapat membantu proses verifikasi pada faktur vendor dengan memungkinkan tautan yang dibuat sebelumnya untuk dihapus. Biaya aktual dapat tidak tertandingi hanya dari baris faktur vendor yang memiliki status **verifikasi Sedang berlangsung**. Untuk membatalkan biaya aktual yang sesuai dari baris faktur vendor, ikuti langkah-langkah berikut.
+Aktual biaya yang tidak cocok juga dapat membantu proses verifikasi pada faktur vendor dengan mengaktifkan tautan yang ditetapkan sebelumnya untuk dihilangkan. Aktual biaya bisa dibatalkan kecocokannya hanya dari baris faktur vendor yang memiliki status verifikasi **Sedang berlangsung**. Untuk membatalkan pencocokan dari baris faktur vendor, ikuti langkah-langkah ini.
 
-1. Buka baris faktur vendor, dan pilih tab **Aktual biaya yang** cocok. Kisi memperlihatkan daftar aktual biaya yang mereferensikan baris faktur vendor.
-2. Pilih satu atau beberapa aktual biaya, lalu pilih **Batalkan Pertandingan** pada toolbar di atas kisi.
+1. Buka baris faktur vendor, dan pilih tab **Aktual biaya yang cocok**. Kisi menampilkan daftar aktual biaya yang mereferensikan baris subkontrak yang sama sebagai baris faktur vendor.
+2. Pilih satu atau beberapa aktual biaya, lalu pilih toolbar **Batal mencocokkan** di atas kisi.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

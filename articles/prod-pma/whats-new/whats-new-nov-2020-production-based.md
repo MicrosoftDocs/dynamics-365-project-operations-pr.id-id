@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis stok/produksi
-description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia dalam rilis Operasi Proyek november 2020 untuk skenario berbasis produksi yang ditebar.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis November 2020 penyebaran Project Operations Lite untuk skenario berbasis produksi/stok.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Untuk informasi tentang perbaikan yang tercakup dalam pembaruan ini, masuk ke Li
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi Dynamics 365, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi keuangan dan operasi Dynamics 365, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Anda juga dapat masuk ke LCS dan melihat pembaruan regulasi yang direncanakan dengan menggunakan alat pencarian Masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

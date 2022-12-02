@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Maret 2021 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Maret 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini memberikan informasi tentang pembaruan kualitas yang tersedia pada rilis Maret 2021 penyebaran Project Operations Lite untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028267"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
 - Lingkungan Project Operations untuk Dataverse versi 4.8.0.91 
-- Manajemen proyek dan akuntansi pada lingkungan Dynamics 365 Finance versi 10.0.16 
+- Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.16 
 
 ## <a name="quality-updates"></a>Pembaruan kualitas
 
@@ -48,7 +48,7 @@ Untuk informasi lebih lanjut, lihat [Yang baru di bulan Januari 2021 - Project O
 
 ## <a name="regulatory-updates"></a>Pembaruan wajib
 
-Untuk informasi tentang pembaruan peraturan untuk aplikasi keuangan dan operasi, lihat [Pembaruan peraturan](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke LCS dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
+Untuk informasi tentang pembaruan wajib untuk aplikasi keuangan dan operasi, lihat [pembaruan wajib](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mempelajari tentang pembaruan peraturan adalah masuk ke LCS dan melihat pembaruan peraturan yang direncanakan menggunakan alat pencarian masalah. Pencarian Masalah memungkinkan Anda mencari berdasarkan negara, jenis fitur, dan rilis.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

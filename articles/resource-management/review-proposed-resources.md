@@ -40,8 +40,8 @@ Untuk memeriksa sumber daya yang diajukan, ikuti langkah-langkah berikut:
     Terjadi pembaruan status berikut:
 
     - Di halaman **asisten jadwal**, indikator status diperbarui untuk menunjukkan bahwa Pemesanan diajukan, bukan pesanan definitif.
-    - Pada permintaan sumber daya, peninjau permintaan harus mengubah status menjadi **Perlu Ditinjau**.
-    - Pada tab **Tim** proyek, nilai Status **Permintaan anggota** tim generik secara otomatis diubah menjadi **Perlu Ditinjau**.
+    - Atas permintaan sumber daya, penguji permintaan harus mengubah status menjadi **Perlu Ditinjau**.
+    - Pada tab **tim** proyek , nilai **status permintaan** anggota tim generik diubah otomatis ke **perlu ditinjau**.
 
 Manajer proyek dapat menerima atau menolak usulan tersebut.
 

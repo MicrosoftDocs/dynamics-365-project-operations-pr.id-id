@@ -1,6 +1,6 @@
 ---
 title: Membuat kuotasi proyek dari peluang
-description: Artikel ini memberikan informasi tentang membuat kutipan proyek dari sebuah peluang.
+description: Artikel ini menyediakan informasi tentang membuat kuotasi proyek dari peluang.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

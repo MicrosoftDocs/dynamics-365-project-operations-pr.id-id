@@ -1,6 +1,6 @@
 ---
 title: Status pemesanan
-description: Artikel ini menyediakan tautan ke informasi tentang cara menyiapkan status pemesanan untuk Operasi Proyek.
+description: artikel ini menyediakan tautan ke informasi tentang cara mengonfigurasi status pemesanan untuk Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

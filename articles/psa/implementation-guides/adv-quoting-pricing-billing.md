@@ -1,6 +1,6 @@
 ---
 title: Kuotasi, harga, dan panduan penagihan tingkat lanjut
-description: Artikel ini menyediakan informasi tentang mengutip, menagih, dan harga di Project Service Automation.
+description: Artikel ini menyediakan informasi tentang kuotasi, penagihan, dan harga dalam Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921812"
 
 Kemampuan untuk menemukan sumber daya yang tepat pada waktu yang tepat, memesan sumber daya pada proyek, dan menjaga sumber daya terus dimanfaatkan membantu organisasi mencapai target pendapatan dan tujuan kepuasan pelanggan. 
 
-Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
+Tautan PDF yang sebelumnya di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Kuotasi, harga, dan penagihan](../quote-bill-price.md)
 - [Proses Penjualan](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah 
 - [Mencatat nilai aktual](../advanced-actuals.md)
 
 > [!NOTE]
-> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus di pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

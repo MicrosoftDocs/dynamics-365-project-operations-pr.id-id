@@ -1,6 +1,6 @@
 ---
 title: Rincian header untuk subkontrak
-description: Artikel ini menjelaskan fungsionalitas yang disediakan pada header subkontrak dalam Operasi Proyek.
+description: Artikel ini menjelaskan fungsi yang diberikan pada header subkontrak dalam Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522564"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Artikel ini menjelaskan fungsionalitas yang disediakan pada header subkontrak di Dynamics 365 Project Operations.
+Artikel ini menjelaskan fungsi yang diberikan pada header subkontrak dalam Dynamics 365 Project Operations.
 
 Saat Manajer Proyek merencanakan dan mengeksekusi proyek, mereka mungkin mempekerjakan subkontraktor dan membeli produk maupun layanan dari vendor. Bila Manajer Proyek harus membeli produk atau layanan, mereka dapat membuat subkontrak dalam Project Operations.
 

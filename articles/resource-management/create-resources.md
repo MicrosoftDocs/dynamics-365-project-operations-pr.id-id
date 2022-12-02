@@ -1,6 +1,6 @@
 ---
 title: Membuat sumber daya
-description: Artikel ini menyediakan tautan ke informasi tentang cara membuat sumber daya yang dapat dipesan.
+description: Artikel ini memberikan tautan ke informasi tentang cara membuat sumber daya yang dapat dipesan.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-l
 
 Anda dapat menggunakan Dynamics 365 Field Service untuk membuat sumber daya yang dapat dipesan untuk digunakan di lingkungan Dynamics 365 Project Operations Anda. Untuk membuat sumber daya ini, lihat [Mengonfigurasi sumber daya yang dapat dipesan](/dynamics365/field-service/set-up-bookable-resources).
 
-Operasi Proyek mendukung jenis sumber daya berikut:
+Project Operations mendukung jenis sumber daya berikut:
 - Akun
 - Kontak
 - User

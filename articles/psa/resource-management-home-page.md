@@ -31,7 +31,7 @@ ms.locfileid: "8913256"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Sumber daya adalah aset terpenting dari organisasi berbasis layanan. Kemampuan untuk menemukan dan memesan sumber daya yang tepat ketika Anda membutuhkannya, dan menjaga mereka terus dimanfaatkan membantu organisasi mencapai target pendapatan dan tujuan kepuasan pelanggan. Artikel-artikel berikut difokuskan pada kemampuan manajemen sumber daya :Dynamics 365 Project Service Automation
+Sumber daya adalah aset terpenting dari organisasi berbasis layanan. Kemampuan untuk menemukan dan memesan sumber daya yang tepat ketika Anda membutuhkannya, dan menjaga mereka terus dimanfaatkan membantu organisasi mencapai target pendapatan dan tujuan kepuasan pelanggan. Artikel berikut difokuskan pada kemampuan manajemen sumber daya Dynamics 365 Project Service Automation:
 
 - [Mengelola sumber daya](manage-resources.md)
 - [Konsep kunci](reports-key-concepts.md)

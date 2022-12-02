@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasi integrasi kartu kredit
-description: Artikel ini menjelaskan cara bekerja dengan transaksi kartu kredit terkait biaya.
+description: Artikel ini menjelaskan cara bekerja dengan transaksi kartu kredit yang terkait dengan pengeluaran.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -30,7 +30,7 @@ Transaksi kartu kredit terkait dengan pengeluaran dapat diatur sehingga mereka s
 
 Untuk mengimpor transaksi kartu kredit, ikuti langkah-langkah berikut:
 
-1. Pada halaman **transaksi kartu kredit**, pilih **impor transaksi**. Jika Anda membuka manajemen data untuk pertama kalinya, sistem harus memperbarui daftar entitas data sebelum Anda dapat melanjutkan.
+1. Pada halaman **transaksi kartu kredit**, pilih **impor transaksi**. Jika Anda membuka manajemen data untuk pertama kalinya, sistem harus memperbarui daftar entitas data agar dapat melanjutkan.
 2. Di bidang **Nama**, masukkan deskripsi unik untuk pekerjaan impor.
 3. Di bidang **format data sumber**, pilih format file yang berisi transaksi kartu kredit yang akan diimpor.
 4. Pilih **Unggah**, lalu Cari dan pilih file yang akan diimpor.
@@ -44,24 +44,24 @@ Untuk mengimpor transaksi kartu kredit, ikuti langkah-langkah berikut:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Tetapkan ulang transaksi kartu kredit untuk karyawan yang dihentikan
 
-Setelah catatan karyawan dihentikan, akun Active Directory Domain Services (AD DS) karyawan dinonaktifkan. Namun, mungkin ada transaksi kartu kredit aktif yang harus tetap dikeluarkan dan diganti. Pada halaman **transaksi kartu kredit**, Anda dapat melakukan penetapan ulang karyawan untuk setiap transaksi kartu kredit jika karyawan telah diberhentikan.
+Setelah rekaman karyawan dihentikan, akun Active Directory Domain Services (AD DS) karyawan dinonaktifkan. Namun, mungkin ada transaksi kartu kredit aktif yang harus tetap dikeluarkan dan diganti. Pada halaman **transaksi kartu kredit**, Anda dapat melakukan penetapan ulang karyawan untuk setiap transaksi kartu kredit jika karyawan telah diberhentikan.
 
 Pilih satu atau beberapa transaksi kartu kredit, lalu pilih **tetapkan ulang transaksi**. Selanjutnya Anda dapat memilih karyawan lain untuk ditetapkan transaksi kartu kredit. Setelah transaksi kartu kredit telah dipindahkan, mereka dapat dipilih untuk laporan pengeluaran dan dibayar melalui proses biasa untuk penggantian laporan pengeluaran.
 
 ## <a name="delete-credit-card-transactions"></a>Menghapus transaksi kartu kredit 
 
-Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin harus dihapus. Ini bisa jadi karena transaksinya duplikat atau karena datanya tidak akurat. Admin dapat menggunakan fitur **"Hapus transaksi kartu kredit"** untuk memilih dan menghapus transaksi kartu kredit yang **tidak dilampirkan** ke laporan pengeluaran. 
+Terkadang, setelah transaksi kartu kredit diimpor, transaksi tertentu mungkin harus dihapus. Hal ini dapat dikarenakan transaksi merupakan duplikat atau karena data tidak akurat. Admin dapat menggunakan fitur **"Hapus transaksi kartu kredit"** untuk memilih dan menghapus transaksi kartu kredit yang **tidak dilampirkan** ke laporan pengeluaran. 
 
 1. Buka **tugas Periodik** > **hapus transaksi kartu kredit**.
 2. Pilih **Filter** dan berikan informasi untuk mengidentifikasi rekaman yang akan disertakan.
 3. Pilih **OK** untuk menghapus rekaman. 
 
-## <a name="storing-credit-card-numbers"></a>Menyimpan nomor kartu kredit
+## <a name="storing-credit-card-numbers"></a>Menyimpan Nomor Kartu Kredit
 
-Tiga opsi tersedia untuk menyimpan nomor kartu kredit. Nomor kartu kredit disimpan di **halaman Parameter** manajemen pengeluaran.
+Tersedia tiga pilihan untuk menyimpan nomor kartu kredit. Nomor kartu kredit disimpan pada halaman **parameter manajemen Pengeluaran**.
 
-- **Cegah entri** nomor kartu – Nomor kartu kredit tidak disimpan.
-- **Nomor kartu hash (simpan empat digit terakhir)** – Empat digit terakhir nomor kartu kredit disimpan dalam format terenkripsi.
-- **Nomor kartu toko** – Nomor kartu kredit disimpan dalam format yang tidak terenkripsi. Opsi ini tidak sesuai dengan Standar Keamanan Data (DSS) Industri Kartu Pembayaran (PCI). Oleh karena itu, agar organisasi mereka tetap mematuhi peraturan PCI DSS, admin organisasi harus memilih untuk tidak menyimpan nomor kartu kredit atau menyimpan nomor kartu hash.
+- **Mencegah entri nomor kartu** – Nomor kartu kredit tidak disimpan.
+- **Nomor kartu hash (simpan empat digit terakhir)** – Empat digit terakhir dari nomor kartu kredit disimpan dalam format dienkripsi.
+- **Menyimpan nomor kartu** – Nomor kartu kredit disimpan dalam format tidak dienkripsi. Pilihan ini tidak sesuai dengan DSS (Standar Keamanan Data) Industri Kartu Pembayaran (PCI). Oleh karena itu, agar organisasi tetap sesuai dengan peraturan PCI DSS, admin organisasi harus memilih untuk tidak menyimpan nomor kartu kredit maupun menyimpan nomor kartu hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

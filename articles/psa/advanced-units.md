@@ -1,6 +1,6 @@
 ---
 title: Grup unit dan unit
-description: Artikel ini menyediakan informasi tentang grup dan unit unit.
+description: Artikel ini menyediakan informasi tentang grup unit dan unit.
 author: rumant
 ms.custom:
 - dyn365-projectservice

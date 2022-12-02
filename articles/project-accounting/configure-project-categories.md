@@ -1,6 +1,6 @@
 ---
 title: Mengonfigurasikan kategori proyek
-description: Artikel ini menyediakan informasi tentang menyiapkan kategori proyek.
+description: artikel ini menyediakan informasi tentang pengaturan kategori proyek.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article

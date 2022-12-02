@@ -1,6 +1,6 @@
 ---
 title: Mengkonfigurasi harga berdasarkan peran
-description: Artikel ini menyediakan informasi tentang cara menyiapkan harga untuk peran tertentu.
+description: Artikel ini menyediakan informasi tentang bagaimana mengkonfigurasi harga untuk peran tertentu.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

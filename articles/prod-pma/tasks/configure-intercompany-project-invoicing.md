@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi proyek faktur antarperusahaan
-description: Artikel ini memperlihatkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi Anda.
+description: artikel ini menunjukkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi anda.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916614"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikel ini memperlihatkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi Anda. Tugas ini menggunakan himpunan data USSI.
+artikel ini menunjukkan cara menyiapkan faktur proyek antara dua perusahaan di organisasi anda. Tugas ini menggunakan himpunan data USSI.
 
 1. Di panel navigasi, buka **modul > piutang > vendor > semua vendor**.
 2. Di Daftar **semua vendor**, Cari dan pilih rekaman yang diinginkan.

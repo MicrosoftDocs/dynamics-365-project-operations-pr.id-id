@@ -1,6 +1,6 @@
 ---
 title: Baris peluang berbasis proyek - lite
-description: Artikel ini menyediakan informasi tentang lini peluang berbasis proyek. (Pro)
+description: Artikel ini menyediakan informasi tentang baris peluang berbasis proyek. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

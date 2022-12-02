@@ -1,6 +1,6 @@
 ---
 title: Mengelola beberapa pelanggan pada baris kontrak berbasis proyek - lite
-description: Artikel ini menyediakan informasi tentang mengelola beberapa pelanggan pada jalur kontrak berbasis proyek.
+description: Artikel ini menyediakan informasi tentang mengelola beberapa pelanggan pada baris kontrak berbasis proyek.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

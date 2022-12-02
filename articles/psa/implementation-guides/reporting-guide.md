@@ -1,6 +1,6 @@
 ---
 title: Panduan Pelaporan
-description: Artikel ini menyediakan link ke informasi tentang pelaporan.
+description: Artikel ini menyediakan tautan ke informasi tentang pelaporan.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,14 +32,14 @@ ms.locfileid: "8919190"
 
 Metode pelaporan dan teknologi di aplikasi ini dapat membantu Anda menentukan kesehatan proyek dan mengidentifikasi Kapan Anda harus melakukan tindakan perbaikan. 
 
-Tautan PDF yang sebelumnya ada di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
+Tautan PDF yang sebelumnya di artikel ini telah dihapus dan kontennya telah dipindahkan ke artikel berikut:
 
 - [Halaman beranda pelaporan](../reports-reporting-dynamics-365-project-service.md)
 - [Dasbor](../reports-dashboards.md)
 - [Bekerja dengan model data Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Artikel ini akan dihapus dalam pembaruan dokumentasi mendatang. 
+> Artikel ini akan dihapus di pembaruan dokumentasi mendatang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

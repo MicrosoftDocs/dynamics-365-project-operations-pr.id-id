@@ -1,6 +1,6 @@
 ---
 title: Mengkonfigurasi akuntansi untuk proyek yang bisa ditagih
-description: Artikel ini menyediakan informasi tentang opsi akuntansi untuk proyek yang dapat ditagih.
+description: artikel ini menyediakan informasi tentang pilihan akuntansi untuk proyek yang dapat ditagih.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

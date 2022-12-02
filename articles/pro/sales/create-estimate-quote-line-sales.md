@@ -1,6 +1,6 @@
 ---
 title: Mengestimasi baris kuotasi berbasis proyek
-description: Artikel ini menyediakan informasi tentang cara membuat perkiraan pada baris kutipan berbasis proyek.
+description: Artikel ini menyediakan informasi tentang cara membuat perkiraan pada baris kuotasi berbasis proyek.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

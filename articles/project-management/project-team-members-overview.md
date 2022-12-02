@@ -1,6 +1,6 @@
 ---
 title: Anggota tim proyek
-description: Artikel ini memberikan informasi tentang cara bekerja dengan informasi, atribut, dan penjadwalan anggota tim proyek.
+description: Artikel ini menyediakan informasi tentang cara bekerja dengan informasi anggota tim proyek, atribut, dan penjadwalan.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

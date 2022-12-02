@@ -1,6 +1,6 @@
 ---
 title: Mengajukan permintaan sumber daya
-description: Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan sumber daya. Permintaan kemudian dikirim ke Resource Manager untuk pemenuhan.
+description: Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan sumber daya. Permintaan tersebut kemudian dikirim ke manajer sumber daya untuk pemenuhan.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137184"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan sumber daya. Permintaan kemudian dikirim ke Resource Manager untuk pemenuhan.
+Anda dapat mengajukan persyaratan sumber daya yang dihasilkan sebagai permintaan sumber daya. Permintaan tersebut kemudian dikirim ke manajer sumber daya untuk pemenuhan.
 
 1. Di Dynamics 365 Project Operations, pada halaman **proyek**, pilih tab **tim** untuk melihat daftar sumber daya yang dapat dipesan. 
 2. Pilih sumber daya generik yang memiliki persyaratan sumber daya dari daftar, lalu klik **Ajukan Permintaan**.
 
 Status permintaan anggota tim umum akan berubah menjadi **Diajukan**.
 
-Penerima permintaan sumber daya memiliki kemampuan untuk memenuhi sebagian permintaan menggunakan satu atau beberapa sumber daya, atau sepenuhnya memenuhi permintaan sumber daya.
+Penerima permintaan sumber daya memiliki kemampuan untuk memenuhi sebagian permintaan menggunakan satu atau beberapa sumber daya, atau benar-benar memenuhi permintaan sumber daya.
 
-Setelah permintaan terpenuhi, satu atau beberapa sumber daya bernama ditambahkan ke proyek sebagai anggota tim proyek. Jika persyaratan sumber daya dipenuhi oleh satu sumber daya, anggota tim generik yang terkait dengan permintaan sumber daya akan dihapus. 
+Setelah permintaan terpenuhi, satu atau beberapa sumber daya bernama ditambahkan ke proyek sebagai anggota tim proyek. Jika persyaratan sumber daya terpenuhi oleh satu sumber daya, anggota tim generik yang terkait dengan permintaan sumber daya dihapus. 
 
-Setelah penerima permintaan sumber daya mengusulkan sumber daya dan siap bagi Manajer Proyek untuk meninjau sumber daya yang telah diusulkan, mereka harus memperbarui status permintaan sumber daya ke **Tinjauan Kebutuhan**.
+Setelah penerima permintaan sumber daya mengajukan proposal sumber daya dan siap meminta Manajer Proyek untuk meninjau sumber daya yang telah diajukan, mereka harus memperbarui status permintaan sumber daya ke **Perlu Ditinjau**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

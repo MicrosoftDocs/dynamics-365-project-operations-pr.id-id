@@ -1,6 +1,6 @@
 ---
 title: Ikhtisar waktu
-description: Artikel ini menyediakan informasi tentang fungsionalitas Waktu di Dynamics 365 Project Operations.
+description: Artikel ini memberikan informasi tentang fungsi waktu di Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Mendaftar ke langganan pratinjau Project Operations untuk skenario sumber daya/non-stok
-description: Artikel ini menyediakan informasi tentang cara berlangganan dan menyebarkan Operasi Proyek untuk skenario berbasis resouce/non-stocked.
+description: Artikel ini memberikan informasi tentang cara berlangganan dan menyebarkan Project Operations untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 
 
 
-Artikel ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan lingkungan Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+Artikel ini menjelaskan cara berlangganan penawaran uji coba dan menyebarkan lingkungan Project Operations untuk skenario berbasis sumber daya/non-persediaan.
 
 ## <a name="prerequisites"></a>Prasyarat
 - Pengguna yang menerapkan pratinjau harus memiliki hak administrator global Penyewa Azure. Anda dapat membuat penyewa selama penukaran penawaran pertama. 
@@ -49,7 +49,7 @@ Buka [Uji Coba Pratinjau Dynamics 365 untuk Finance](https://aka.ms/trypoche), l
 > [!IMPORTANT]
 > Anda akan memerlukan akses administratif ke Portal Microsoft 365 organisasi Anda untuk menyelesaikan langkah-langkah berikut.
 
-1. Buka [Microsoft 365 pusat](https://portal.office.com/) admin untuk menetapkan lisensi kepada pengguna Anda.
+1. Buka [Pusat admin Microsoft 365](https://portal.office.com/) untuk menetapkan lisensi kepada pengguna.
 
 2. Pada halaman **pengguna aktif**, pilih pengguna yang akan ditetapkan lisensinya.
 
@@ -60,19 +60,19 @@ Buka [Uji Coba Pratinjau Dynamics 365 untuk Finance](https://aka.ms/trypoche), l
 
 ## <a name="start-a-new-project-in-lcs"></a>Memulai proyek baru di LCS
 
-Buat proyek LCS baru seperti yang dijelaskan dalam artikel, [Mulai proyek baru di LCS](create-lcs-project.md)
+Membuat proyek lcs baru seperti yang dijelaskan di artikel, [memulai proyek baru di LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Menambahkan langganan Azure ke proyek LCS
 
-Untuk menyelesaikan tugas ini, ikuti langkah-langkah dalam artikel, [Menambahkan langganan Azure ke proyek LCS](resource-add-azure-subscription-lcs-project.md).
+Untuk menyelesaikan tugas ini, ikuti langkah-langkah di artikel, [tambahkan langganan Azure ke proyek LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Terapkan lingkungan demo Finance dengan Project Operations untuk skenario sumber daya/non-stok
 
-Ikuti panduan dalam artikel, Menyediakan [lingkungan](resource-provision-new-environment.md) baru untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau. 
+Ikuti panduan di artikel, [sediakan lingkungan baru](resource-provision-new-environment.md) untuk menyelesaikan penyebaran. Gunakan jenis penyebaran [lingkungan demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) untuk pratinjau. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Menginstal data pengaturan dan konfigurasi CDS
 
-Instal data pengaturan dan konfigurasi CDS seperti yang dijelaskan dalam artikel, [Siapkan dan terapkan data konfigurasi dalam Common Data Service](resource-apply-pro-setup-config-data.md) file.
+Instal data pengaturan dan konfigurasi CDS sebagaimana dijelaskan dalam artikel, [atur dan terapkan data konfigurasi di Common Data Service](resource-apply-pro-setup-config-data.md).
 Selesaikan langkah ini hanya setelah lingkungan demo Finance disebarkan dan data demo siap.
 
 

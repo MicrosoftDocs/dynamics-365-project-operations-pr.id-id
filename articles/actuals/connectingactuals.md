@@ -1,6 +1,6 @@
 ---
 title: Koneksi transaksi - Tautkan aktual dengan jenis transaksi yang berbeda
-description: Artikel ini menjelaskan bagaimana koneksi transaksi digunakan untuk menautkan aktual dari berbagai jenis untuk membantu melacak profitabilitas, backlog penagihan, dan perhitungan pendapatan yang ditagih versus tidak ditagih.
+description: Artikel ini menjelaskan cara koneksi transaksi digunakan untuk menghubungkan aktual dari berbagai jenis untuk membantu melacak profitabilitas, penagihan backlog, dan menjeda perhitungan pendapatan yang belum ditagih.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -17,22 +17,22 @@ ms.locfileid: "8926090"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Catatan koneksi transaksi dibuat untuk menghubungkan aktual dari berbagai jenis saat waktu, pengeluaran, atau penggunaan material bergerak dalam siklus hidupnya dari kutipan atau tahap pra-penjualan ke tahap kontrak, persetujuan dan/atau penarikan kembali, faktur, dan potensi kredit atau faktur korektif.
+Rekaman koneksi transaksi dibuat untuk menautkan aktual dari berbagai jenis waktu, pengeluaran, atau penggunaan bahan yang bergerak dalam siklus hidupnya dari tahapan kuotasi, atau pra-penjualan ke tahapan kontrak, perjanjian dan/atau penarikan, faktur, dan kemungkinan faktur kredit atau perbaikan.
 
 Contoh berikut menunjukkan pemrosesan tipikal waktu entri dalam siklus hidup proyek Project Operations.
 
-> ![Memproses entri waktu dalam Operasi Proyek.](media/basic-guide-17.png)
+> ![Memproses entri waktu di Project Operations.](media/basic-guide-17.png)
 
-Pemrosesan entri waktu dalam siklus hidup proyek Operasi Proyek mengikuti langkah-langkah berikut: 
+Pemrosesan entri waktu dalam siklus hidup proyek Project Operations mengikuti langkah-langkah ini: 
 
-1. Pengajuan entri waktu menyebabkan dua baris jurnal dibuat: satu untuk biaya dan satu untuk penjualan yang tidak ditagih. 
-2. Persetujuan akhirnya dari entri waktu menyebabkan dua aktual dibuat: satu untuk biaya dan satu untuk penjualan yang tidak ditagih. 2 aktual ini ditautkan menggunakan koneksi transaksi.
+1. Pengajuan entri waktu menyebabkan dua baris jurnal dibuat: satu untuk biaya dan satu untuk penjualan yang belum ditagih. 
+2. Persetujuan akhir entri waktu menyebabkan dua nilai aktual dibuat: satu untuk biaya dan satu untuk penjualan yang belum ditagih. 2 aktual ini ditautkan menggunakan koneksi transaksi.
 3. Saat pengguna membuat faktur proyek, transaksi baris faktur dibuat menggunakan data dari nilai aktual penjualan yang belum ditagih.
-4. Ketika faktur dikonfirmasi, ini menciptakan dua aktual baru: pembalikan penjualan yang tidak ditagih dan aktual penjualan yang ditagih. Pembalikan penjualan yang tidak ditagih dan aktual penjualan asli yang tidak ditagih terhubung menggunakan koneksi transaksi yang terbalik. Penjualan yang ditagih dan aktual penjualan asli yang belum ditagih juga terhubung untuk menunjukkan hubungan antara apa yang dulunya merupakan pendapatan backlog atau work in progress (WIP) dengan apa yang sekarang ditagih pendapatan.   
+4. Setelah faktur dikonfirmasi, ini membuat dua aktual baru: pembalikan aktual penjualan yang belum ditagih dan penjualan tertagih. Pembalikan penjualan belum ditagih dan aktual penjualan belum ditagih asli tersambung menggunakan koneksi transaksi pembalikan. Aktual penjualan ditagih dan aktual penjualan belum ditagih asli juga tersambung untuk menampilkan tautan antara pendapatan yang dulunya adalah backlog atau pekerjaan dalam proses (WIP) ke pendapatan yang sekarang ditagih.   
 
-Setiap peristiwa dalam alur kerja pemrosesan memicu pembuatan rekaman dalam **tabel koneksi** Transaksi. Ini membantu membangun jejak Relasi antara catatan yang dibuat di seluruh entri waktu, baris jurnal, aktual, dan detail baris faktur.
+Setiap aktivitas dalam alur kerja pemrosesan memicu pembuatan rekaman dalam tabel **koneksi Transaksi**. Ini membantu membuat pelacakan relasi antara rekaman yang dibuat di seluruh entri waktu, baris jurnal, aktual, dan rincian baris faktur.
 
-Tabel berikut ini memperlihatkan rekaman dalam **entitas Koneksi** transaksi untuk alur kerja sebelumnya.
+Tabel berikut Menampilkan rekaman di entitas **koneksi transaksi** untuk alur kerja sebelumnya.
 
 |Aktivitas                   |Transaksi 1                 |Peran Transaksi 1 |Jenis Transaksi 1       |Transaksi 2          |Peran Transaksi 2 |Jenis Transaksi 2 |
 |------------------------|------------------------------|---------------|-----------------------------|-----------------------------|-------------------|-------------------|
@@ -43,11 +43,11 @@ Tabel berikut ini memperlihatkan rekaman dalam **entitas Koneksi** transaksi unt
 |                        |GUID Penjualan Tertagih             |Penjualan yang Ditagih   |msdyn_actual                 |GUID Aktual Penjualan Belum Tertagih   |Penjualan Belum Tertagih  |msdyn_actual       |
 |Koreksi faktur draft |GUID Transaksi Baris Faktur|Mengganti      |msdyn_invoicelinetransaction |GUID Penjualan Tertagih            |Asli        |msdyn_actual       |
 |Konfirmasi Koreksi faktur|GUID Pembalikan penjualan tertagih  |Balik      |msdyn_actual                 |GUID Penjualan Tertagih            |Asli        |msdyn_actual       |
-|                        |GUID Penjualan Baru yang Belum Ditagih |Mengganti            |msdyn_actual                 |GUID Penjualan Tertagih            |Asli        |msdyn_actual       |
+|                        |GUID Penjualan belum tertagih baru |Mengganti            |msdyn_actual                 |GUID Penjualan Tertagih            |Asli        |msdyn_actual       |
 
 
-Ilustrasi berikut menunjukkan link yang dibuat antara berbagai jenis aktual di berbagai peristiwa menggunakan contoh entri waktu dalam Operasi Proyek.
+Ilustrasi berikut menampilkan tautan yang dibuat antara berbagai jenis aktual pada berbagai aktivitas menggunakan contoh entri waktu di Project Operations.
 
-> ![Bagaimana aktual dari berbagai jenis terkait satu sama lain dalam Operasi Proyek.](media/TransactionConnections.png)
+> ![Bagaimana aktual dari berbagai jenis terhubung satu sama lain di Project Operations.](media/TransactionConnections.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

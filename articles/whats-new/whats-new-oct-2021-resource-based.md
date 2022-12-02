@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan Oktober 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis Oktober 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia di penyebaran Project Operations lite oktober 2021 untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914641"
 
 *Berlaku untuk: Project Operations untuk skenario berbasis sumber daya/tanpa stok*
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
    - Project Operations dalam lingkungan Microsoft Dataverse versi 4.25.0.91
-   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.21
+   - Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Beberapa fitur tercakup dalam rilis ini
 

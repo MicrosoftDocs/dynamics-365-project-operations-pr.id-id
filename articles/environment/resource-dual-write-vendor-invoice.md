@@ -1,6 +1,6 @@
 ---
 title: Integrasi faktur vendor
-description: Artikel ini menyediakan informasi tentang integrasi faktur vendor dalam Operasi Proyek.
+description: Artikel ini memberikan informasi tentang integrasi faktur vendor di Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -21,7 +21,7 @@ _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa
 Pengadaan terkait proyek di Dynamics 365 Project Operations dapat direkam dengan masuk ke **utang dagang** > **Faktur** > **Faktur vendor Tertunda** dan menggunakan dokumen faktur vendor yang tertunda. Untuk informasi lebih lanjut, lihat [Beli bahan non-stok dengan faktur vendor tertunda](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Sebelum Anda menggunakan fungsionalitas yang dijelaskan dalam artikel ini, tinjau dan terapkan konfigurasi yang diperlukan. Untuk informasi lebih lanjut, lihat [Mengaktifkan materi non-stok dan faktur vendor yang tertunda](../procurement/configure-materials-nonstocked.md).
+> Sebelum Anda menggunakan fungsi yang dijelaskan di artikel ini, lihat dan terapkan konfigurasi yang diperlukan. Untuk informasi lebih lanjut, lihat [Mengaktifkan materi non-stok dan faktur vendor yang tertunda](../procurement/configure-materials-nonstocked.md).
 
 Di Project Operations, faktur vendor terkait proyek diposting menggunakan aturan posting khusus:
 
@@ -34,7 +34,7 @@ Di Project Operations, faktur vendor terkait proyek diposting menggunakan aturan
      > [!NOTE]
      > Rincian faktur vendor di Dataverse tidak dapat diedit.
 
-Subledger pajak, subledger vendor, dan posting keuangan lainnya dicatat sebagaimana berlaku di Dynamics 365 Finance saat faktur vendor diposting.
+Buku besar pembantu pajak, buku besar pembantu vendor, dan posting keuangan lainnya dicatat sebagai berlaku di Dynamics 365 Finance, ketika faktur vendor diposting.
 
 ![Integrasi faktur vendor.](media/DW7VendorInvoice.png)
 

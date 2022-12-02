@@ -1,6 +1,6 @@
 ---
 title: Analisis kuotasi proyek
-description: Artikel ini memberikan informasi tentang analisis kutipan proyek.
+description: Artikel ini menyediakan informasi tentang analisis kuotasi proyek.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Sekilas pengakuan pendapatan
-description: Artikel ini menyediakan informasi tentang pengakuan pendapatan dalam Operasi Proyek.
+description: Artikel ini berisi informasi tentang pengakuan pendapatan dalam Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926274"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Di Dynamics 365 Project Operations, prinsip pengakuan pendapatan bervariasi berdasarkan pada metode penagihan yang dipilih untuk proyek atau bagian dari proyek. Artikel ini menyediakan informasi tentang pengakuan pendapatan dalam Operasi Proyek.
+Di Dynamics 365 Project Operations, prinsip pengakuan pendapatan bervariasi berdasarkan pada metode penagihan yang dipilih untuk proyek atau bagian dari proyek. Artikel ini berisi informasi tentang pengakuan pendapatan dalam Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transaksi yang dihitung menggunakan metode penagihan waktu dan material
 

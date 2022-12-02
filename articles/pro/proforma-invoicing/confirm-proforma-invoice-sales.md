@@ -1,6 +1,6 @@
 ---
 title: Mengonfirmasikan faktur proyek proforma
-description: Artikel ini menyediakan informasi tentang mengonfirmasi faktur proyek proforma di Operasi Proyek.
+description: Artikel ini memberikan informasi tentang mengkonfirmasikan faktur proyek di Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Defaultasi dimensi keuangan untuk entri waktu proyek
-description: Artikel ini menyediakan informasi tentang bagaimana dimensi keuangan default diterapkan pada entri waktu.
+description: Artikel ini memberikan informasi tentang cara penerapan dimensi keuangan default pada entri waktu.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916568"
 
 [!include [banner](../includes/banner.md)]
 
-Saat Anda menggunakan dimensi keuangan untuk entri waktu proyek, nilai dimensi default dinilai dalam urutan berikut:
+Bila Anda menggunakan dimensi keuangan untuk entri waktu proyek, nilai dimensi default akan dinilai dalam urutan berikut:
 
 1. Sumber info
 2. Project
 3. Sumber pendanaan
 
-Misalnya, jika dimensi default ditentukan pada sumber daya, nilai default diterapkan di atas nilai default yang ditentukan untuk proyek. Demikian juga, jika dimensi default ditentukan pada suatu proyek, nilai default diterapkan di atas nilai default yang ditentukan untuk sumber pendanaan.
+Contohnya, jika dimensi default ditentukan pada sumber daya, nilai default diterapkan atas nilai default yang ditentukan untuk proyek. Demikian pula, jika jika dimensi default ditentukan pada proyek, nilai default diterapkan atas nilai default yang ditentukan untuk sumber pendanaan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

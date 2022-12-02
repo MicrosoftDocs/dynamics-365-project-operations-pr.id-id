@@ -1,6 +1,6 @@
 ---
 title: Yang baru di bulan September 2021 - Project Operations untuk skenario berbasis sumber daya/non-stok
-description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia dalam rilis September 2021 Operasi Proyek untuk skenario berbasis sumber daya/non-stok.
+description: Artikel ini menyediakan informasi tentang pembaruan kualitas yang tersedia di penyebaran Project Operations lite September 2021 untuk skenario berbasis sumber daya/non-stok.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923376"
 
 *Berlaku untuk: Project Operations untuk skenario berbasis sumber daya/tanpa stok*
 
-Artikel ini berlaku untuk komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini berlaku untuk komponen dan versi Dynamics 365 Project Operations berikut ini:
 
    - Project Operations dalam lingkungan Microsoft Dataverse versi 4.14.0.99.
-   - Manajemen proyek dan akuntansi di lingkungan Dynamics 365 Finance versi 10.0.20.
+   - Manajemen proyek dan akuntansi di lingkungan aplikasi Dynamics 365 Finance versi 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Pembaruan peta Penulisan Ganda Project Operations
 

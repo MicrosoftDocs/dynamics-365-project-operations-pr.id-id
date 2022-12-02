@@ -1,6 +1,6 @@
 ---
 title: Membuat solusi untuk dimensi harga kustom
-description: Artikel ini memberikan informasi tentang cara membuat solusi untuk dimensi harga kustom.
+description: Artikel ini berisi informasi tentang cara membuat solusi untuk dimensi harga kustom.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

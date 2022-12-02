@@ -1,6 +1,6 @@
 ---
 title: Laman beranda kuotasi, harga, dan penagihan
-description: Artikel ini menyediakan informasi tentang mengutip, harga, dan penagihan.
+description: Artikel ini menyediakan informasi tentang kuotasi, harga, dan penagihan.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926734"
 
 Kuotasi, harga, dan penagihan adalah fitur yang digunakan oleh organisasi kecil, dan besar. Dengan memahami cara kerja fitur ini di aplikasi, organisasi dapat lebih mudah menyesuaikan konfigurasi.
 
-Artikel berikut ini memberikan informasi selengkapnya tentang fungsi mengutip, harga, dan penagihan di PSA:
+Artikel berikut menyediakan informasi lebih lanjut tentang fungsi kuotasi, harga, dan penagihan di PSA:
 
 - [Proses Penjualan](basic-sales-process.md)
 - [Baris kuotasi](basic-quote-lines.md)

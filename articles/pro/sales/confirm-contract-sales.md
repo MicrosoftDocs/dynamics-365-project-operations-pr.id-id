@@ -1,6 +1,6 @@
 ---
 title: Konfirmasi Kontrak proyek
-description: Artikel ini memberikan informasi cara mengonfirmasi kontrak dalam Operasi Proyek.
+description: artikel ini menyediakan informasi topik cara mengonfirmasikan kontrak dalam Project operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Menyesuaikan entri waktu mingguan
-description: Artikel ini memberikan informasi tentang cara menerapkan aturan bisnis kustom yang mendukung praktik organisasi.
+description: Artikel ini menyediakan informasi tentang cara menerapkan aturan bisnis kustom yang mendukung praktik organisasi.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Bagian **dimensi** menunjukkan, sebagai heading kolom, Semua dimensi yang dapat 
 - Jenis
 - Status Entri
 
-Bagian **dimensi** tidak memungkinkan pengeditan sebaris. Bagian ini didukung oleh tampilan yang memungkinkan bidang kustom ditambahkan ke kisi entri waktu mingguan. Untuk informasi tentang cara menambahkan bidang kustom, lihat bagian "Ekstensibilitas" nanti di artikel ini.
+Bagian **dimensi** tidak memungkinkan pengeditan sebaris. Bagian ini didukung oleh tampilan yang memungkinkan bidang kustom ditambahkan ke kisi entri waktu mingguan. Untuk informasi tentang cara menambahkan bidang kustom, lihat bagian "ekstensibilitas" nanti di artikel ini.
 
 ### <a name="duration"></a>Durasi
 Bagian durasi menampilkan hari dalam seminggu sebagai header kolom. Bagian ini memungkinkan pengeditan sebaris. Setelah baris entri waktu dibuat yang memiliki dimensi yang sesuai, pengguna dapat dengan cepat memasukkan, secara sebaris, jumlah waktu yang dihabiskan pada dimensi tersebut.

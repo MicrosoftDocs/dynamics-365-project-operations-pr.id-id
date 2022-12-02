@@ -1,6 +1,6 @@
 ---
 title: Mengelola akumulasi tagihan
-description: Artikel ini menyediakan informasi tentang cara menampilkan dan bekerja dengan backlog penagihan di Project Operations.
+description: Artikel ini menyediakan informasi tentang cara melihat dan bekerja dengan akumulasi penagihan di Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan biaya standar untuk tenaga kerja dan pengeluaran
-description: Artikel ini menjelaskan cara mengatur biaya standar untuk tenaga kerja dan pengeluaran untuk suatu proyek.
+description: artikel ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan pengeluaran untuk proyek.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919514"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikel ini menjelaskan cara mengatur biaya standar untuk tenaga kerja dan pengeluaran untuk suatu proyek. Tugas ini menggunakan himpunan data USSI.
+artikel ini menjelaskan cara menyiapkan biaya standar untuk tenaga kerja dan pengeluaran untuk proyek. Tugas ini menggunakan himpunan data USSI.
 
 1. Di panel navigasi, buka **modul > manajemen proyek dan akuntansi > konfigurasi > Harga > Harga biaya (jam)**.
 2. Pilih **baru**.

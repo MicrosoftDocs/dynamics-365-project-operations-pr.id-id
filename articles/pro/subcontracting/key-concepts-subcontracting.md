@@ -1,6 +1,6 @@
 ---
 title: Konsep penting dalam subkontrak
-description: Artikel ini menjelaskan beberapa konsep kunci yang berlaku untuk subkontrak di Microsoft Dynamics 365 Project Operations.
+description: Artikel Ini menjelaskan beberapa konsep utama yang berlaku untuk subkontrak di Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9522752"
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Artikel ini menjelaskan beberapa konsep kunci yang harus Anda ketahui sebelum Anda mulai menggunakan fungsionalitas subkontrak di Microsoft Dynamics 365 Project Operations.
+Artikel ini menjelaskan beberapa konsep utama yang harus Anda ketahui sebelum Anda mulai menggunakan fungsionalitas subkontrak di Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Unit kontrak pada subkontrak
 

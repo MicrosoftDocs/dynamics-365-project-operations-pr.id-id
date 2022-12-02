@@ -1,6 +1,6 @@
 ---
 title: Yang baru atau diubah di Project Service Automation Rilis Pembaruan 16, V3
-description: Artikel ini mencantumkan fitur dan perbaikan yang tersedia di Project Service Automation Update Release 16, V3.
+description: Artikel ini berisi daftar fitur dan perbaikan yang tersedia di Project Service Automation V3, pembaruan rilis 16, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8926504"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Kami dengan senang hati mengumumkan pembaruan terbaru untuk aplikasi Project Service Automation untuk Dynamics 365. Rilis ini mencakup beberapa peningkatan penting untuk kualitas, kinerja, dan kegunaan.  Rilis ini kompatibel dengan Dynamics 365 9. x. Untuk memperbarui ke rilis ini, kunjungi Pusat admin untuk Dynamics 365 online, halaman solusi untuk menginstal pembaruan. Untuk informasi lebih lanjut: [Menginstal, memperbarui solusi pilihan](/dynamics365/project-service/upgrade-psa-home-page).
-Artikel ini mencantumkan fitur dan perbaikan yang baru atau diubah untuk PSA V3, Rilis Pembaruan 16. Versi ini memiliki nomor pembuatan V3.10.6.34 dan umumnya tersedia melalui pembaruan mandiri pada Januari 2020.
+Artikel ini berisi daftar fitur dan perbaikan yang baru atau diubah untuk PSA V3, pembaruan rilis 16. Versi ini memiliki nomor pembuatan V3.10.6.34 dan umumnya tersedia melalui pembaruan mandiri pada Januari 2020.
 
 
 ## <a name="update-release-16"></a>Pembaruan rilis 16

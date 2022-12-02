@@ -1,6 +1,6 @@
 ---
 title: Mengestimasi baris kontrak berbasis proyek - lite
-description: Artikel ini menyediakan informasi tentang memperkirakan jalur kontrak berbasis proyek.
+description: Artikel ini menyediakan informasi tentang estimasi pada baris kontrak berbasis proyek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

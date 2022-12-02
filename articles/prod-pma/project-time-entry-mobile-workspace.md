@@ -1,6 +1,6 @@
 ---
 title: Ruang kerja seluler entri waktu proyek
-description: Artikel ini menyediakan informasi tentang ruang kerja seluler entri waktu Proyek. Ruang kerja ini memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek menggunakan perangkat seluler mereka.
+description: Artikel ini menyediakan informasi tentang ruang kerja seluler entri waktu proyek. Ruang kerja ini memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek menggunakan perangkat seluler mereka.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "9029672"
 
 [!include [banner](../includes/banner.md)]
 
-Artikel ini menyediakan informasi tentang **ruang kerja seluler entri** waktu Proyek. Ruang kerja ini memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek menggunakan perangkat seluler mereka.
+Artikel ini menyediakan informasi tentang ruang kerja seluler **entri waktu proyek**. Ruang kerja ini memungkinkan pengguna memasukkan dan menghemat waktu terhadap proyek menggunakan perangkat seluler mereka.
 
 Ruang kerja Mobile ini ditujukan untuk digunakan dengan aplikasi mobile Dynamics 365 Unified Ops. 
 

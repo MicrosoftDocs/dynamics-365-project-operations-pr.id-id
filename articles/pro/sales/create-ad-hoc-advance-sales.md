@@ -1,6 +1,6 @@
 ---
 title: Membuat uang muka ad hoc pada kontrak
-description: Artikel ini memberikan informasi tentang membuat uang muka pada kontrak sesuai kebutuhan.
+description: artikel ini menyediakan informasi tentang cara membuat uang muka pada kontrak sesuai kebutuhan.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Informasi ringkasan tentang kuotasi proyek - lite
-description: Artikel ini menyediakan informasi tentang informasi dan pengaturan yang berlaku untuk dan memengaruhi kutipan proyek. (Sales)
+description: Artikel ini menyediakan informasi tentang informasi dan pengaturan yang berlaku untuk dan berdampak pada kuotasi proyek. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
