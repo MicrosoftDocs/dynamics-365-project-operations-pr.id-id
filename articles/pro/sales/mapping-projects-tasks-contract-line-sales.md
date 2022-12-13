@@ -1,23 +1,23 @@
 ---
-title: Memetakan proyek dan tugas ke baris kontrak berbasis proyek - lite
+title: Memetakan proyek dan tugas ke baris kontrak proyek
 description: Artikel ini memberikan informasi tentang menambahkan dan menghapus proyek dan tugas ke baris kontrak.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932530"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825062"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Memetakan proyek dan tugas ke baris kontrak berbasis proyek 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Memetakan proyek dan tugas ke baris kontrak proyek 
 
 _**Berlaku untuk:** Penyebaran Lite- faktur dari penawaran hingga proforma, Project Operations untuk skenario berbasis sumber daya/non-stok_
 
-Pada baris kontrak berbasis proyek, Anda dapat memetakan tugas tertentu dalam proyek ke baris kontrak.
+Pada garis kontrak proyek, Anda dapat memetakan tugas tertentu dalam proyek ke garis kontrak.
 
 Bila Anda memetakan tugas tertentu ke baris kontrak, metode penagihan, pilihan penagihan, batas yang tidak boleh terlampaui, dan pelanggan yang ditentukan pada baris kontrak hanya akan berlaku untuk tugas khusus tersebut.
 
@@ -25,7 +25,7 @@ Jika Anda memiliki skenario di mana satu fase proyek, misalnya fase prototipe, a
 
 Semua tahapan lain dalam struktur rincian kerja proyek Anda (WBS) dapat dikaitkan dengan waktu dan baris kontrak berbasis material.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Kaitkan tugas ke Baris Kontrak berbasis Proyek
+## <a name="associate-tasks-to-project-contract-lines"></a>Mengaitkan tugas ke baris kontrak proyek
 
 Tugas dapat dikaitkan ke baris kontrak dari tab **kena biaya** di halaman **baris kontrak** atau dari tab **tagihan tugas** pada halaman **proyek**.
 

@@ -1,19 +1,19 @@
 ---
-title: Membuat uang muka ad hoc pada kontrak
+title: Membuat uang muka ad hoc pada kontrak proyek
 description: artikel ini menyediakan informasi tentang cara membuat uang muka pada kontrak sesuai kebutuhan.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922180"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824850"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Membuat uang muka ad hoc pada kontrak
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>Membuat uang muka ad hoc pada kontrak proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 

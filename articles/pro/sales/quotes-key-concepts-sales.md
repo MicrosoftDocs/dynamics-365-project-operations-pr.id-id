@@ -1,17 +1,17 @@
 ---
-title: kuotasi - Konsep kunci - lite
+title: Konsep yang unik pada kuotasi proyek
 description: Artikel ini memberikan informasi tentang cara menggunakan kuotasi proyek di Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916982"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825897"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Konsep yang unik pada kuotasi proyek
 
@@ -82,9 +82,13 @@ Jadwal faktur khusus untuk setiap baris kuotasi dan juga opsional. Jadwal faktur
 
 Kuotasi Project Operations dibuat berdasarkan kuotasi Dynamics 365 Sales. Namun, ada beberapa perbedaan penting dalam fungsi yang harus Anda sadari:
 
-- Tindakan **merevisi** dan **mengaktifkan** tidak didukung.
+
 - Kuotasi Project Operations memiliki dua jenis baris. Satu untuk proyek dan lainnya untuk produk.
 - Kuotasi Project Operations memiliki formulir dan elemen UI sendiri, aturan Bisnis, logika bisnis di plug-in, dan skrip sisi klien yang membuatnya unik dari kuotasi Sales.
+- Kutipan penjualan memungkinkan Anda untuk melampirkan beberapa pesanan ke penawaran penjualan. Dalam Operasi Proyek, hanya satu kontrak proyek yang dapat dilampirkan pada kutipan proyek.
+- Ketika Anda memenangkan penawaran penjualan, peluang terkait dapat tetap terbuka. Setelah kuotasi proyek dimenangkan, peluang terkait ditutup.
+- Kutipan penjualan tidak menyertakan beberapa bidang dan konsep yang disertakan pada kutipan proyek. Bidang mencakup **unit kontrak**, **manajer akun**, dan **nama tagihan ke kontak**.  
+- **Jenis**: Kuotasi penjualan dan kuotasi proyek juga diidentifikasi berdasarkan bidang berbasis rangkaian pilihan, **jenis**. Untuk kuotasi penjualan, bidang ini memiliki nilai **berbasis item**. Untuk kuotasi proyek, ia memiliki nilai **berbasis kerja**.
 
 Untuk alasan ini, tidak disarankan untuk menggunakan kuotasi Sales dan kuotasi Project Operations secara bergantian.
 

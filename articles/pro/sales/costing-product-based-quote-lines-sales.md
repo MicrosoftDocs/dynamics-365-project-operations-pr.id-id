@@ -1,21 +1,21 @@
 ---
 title: Menentukan biaya baris kuotasi berbasis produk
 description: artikel ini menyediakan informasi tentang menerapkan harga biaya ke baris kuotasi berbasis produk.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932576"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825615"
 ---
 # <a name="costing-product-based-quote-lines"></a>Menentukan biaya baris kuotasi berbasis produk
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
 
 Baris kuotasi berbasis produk di Dynamics 365 Project Operations juga memiliki bidang **Harga Biaya**. Bidang ini digunakan untuk melacak harga untuk produk pada penghitungan baris kuotasi dan untuk profitabilitas hilir.

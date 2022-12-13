@@ -1,19 +1,19 @@
 ---
-title: Mengelola beberapa pelanggan pada kontrak proyek
-description: Artikel ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek.
+title: Mengelola beberapa pelanggan pada kontrak berbasis proyek
+description: Artikel ini menyediakan informasi tentang cara mengelola beberapa pelanggan pada kontrak berbasis proyek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928344"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825382"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Mengelola beberapa pelanggan pada kontrak proyek
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Mengelola beberapa pelanggan pada kontrak berbasis proyek
 
 Artikel ini berisi informasi tentang cara mengelola beberapa pelanggan pada suatu kontrak proyek. Anda dapat menggunakan kontrak proyek saat perjanjian kontrak untuk beberapa pelanggan diperlukan untuk mendanai transaksi. Pada halaman **Kontrak Proyek**, tab **Rangkuman** berisi informasi tentang pelanggan utama untuk transaksi. Pelanggan lain yang berpartisipasi dalam transaksi dapat ditambahkan ke tab **Pelanggan**.
 

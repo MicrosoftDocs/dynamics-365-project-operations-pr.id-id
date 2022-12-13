@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911646"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826085"
 ---
 # <a name="manage-project-quotes"></a>Mengelola kuotasi proyek
 
@@ -23,7 +23,7 @@ Di Dynamics 365 Project Operations, kuotasi proyek dirancang untuk membantu memb
   - Rincian baris kuotasi yang mengidentifikasi dan memperkirakan pekerjaan untuk setiap komponen tingkat tinggi atau baris kuotasi. Jadwal atau estimasi tanggal dan aspek keuangan untuk pekerjaan terkait ke baris kuotasi.
   - Model kontrak dan komponen yang kena biaya diatur untuk setiap baris kuotasi. Penyiapan ini membantu memperkirakan penyebaran pendapatan, pembelanjaan, dan profitabilitas untuk setiap baris kuotasi dan kuotasi keseluruhan.
 
-## <a name="view-all-project-based-quotes"></a>Lihat semua kuotasi berbasis proyek
+## <a name="view-all-project-quotes"></a>Lihat semua kutipan proyek
 
 Daftar semua kuotasi proyek dapat dilihat dari halaman daftar **Kuotasi**. 
 

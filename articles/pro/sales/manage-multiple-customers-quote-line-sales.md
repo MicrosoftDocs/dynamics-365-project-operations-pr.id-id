@@ -1,23 +1,23 @@
 ---
-title: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek - lite
-description: Artikel ini mendeskripsikan cara mengelola beberapa peal pada baris kuotasi berbasis proyek.
+title: Mengelola beberapa pelanggan pada baris kutipan proyek
+description: Artikel ini menjelaskan cara mengelola beberapa pelanggan pada baris kutipan proyek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927792"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824442"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek - lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Mengelola beberapa pelanggan pada baris kutipan proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Baris kuotasi berbasis proyek mendukung skenario dengan setiap baris kuotasi memiliki daftar pelanggan yang membayarnya. Daftar pelanggan pada baris kuotasi berbasis proyek bisa sama dengan daftar pelanggan pada kuotasi. Anda juga dapat mengubah daftar pelanggan menjadi berbeda. Ketika kuotasi proyek dimenangkan, daftar pelanggan pada baris kuotasi berbasis proyek disalin ke baris kontrak berbasis proyek yang terkait untuk membuat kontrak proyek akhir. Pelanggan pada kuotasi berbasis proyek disalin ke kontrak proyek.
+Baris kutipan proyek mendukung skenario di mana setiap baris kutipan memiliki daftar pelanggan yang membayarnya. Daftar pelanggan pada baris kuotasi berbasis proyek bisa sama dengan daftar pelanggan pada kuotasi. Anda juga dapat mengubah daftar pelanggan menjadi berbeda. Ketika kuotasi proyek dimenangkan, daftar pelanggan pada baris kuotasi berbasis proyek disalin ke baris kontrak berbasis proyek yang terkait untuk membuat kontrak proyek akhir. Pelanggan pada kuotasi berbasis proyek disalin ke kontrak proyek.
 
 Ketika Anda menagih kontrak proyek akhirnya, daftar pelanggan pada baris kontrak berbasis proyek diutamakan di atas daftar pada kontrak proyek. Daftar pelanggan pada kontrak proyek hanya digunakan untuk default pada baris kontrak proyek baru.
 

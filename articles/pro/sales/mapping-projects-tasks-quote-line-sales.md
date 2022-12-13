@@ -1,23 +1,23 @@
 ---
-title: Memetakan proyek dan tugas ke baris kuotasi berbasis proyek
-description: Artikel ini menyediakan informasi tentang cara memetakan proyek dan tugas ke baris tugas berbasis proyek.
+title: Memetakan proyek dan tugas ke baris kutipan proyek
+description: Artikel ini menyediakan informasi tentang cara memetakan proyek dan tugas ke baris kutipan proyek.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917166"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824279"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Memetakan proyek dan tugas ke baris kuotasi berbasis proyek
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Memetakan proyek dan tugas ke baris kutipan proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
 
-Pada baris kuotasi berbasis proyek, Anda dapat memetakan tugas spesifik proyek yang sudah terkait dengan baris kuotasi.
+Pada garis kutipan proyek, Anda dapat memetakan tugas spesifik proyek yang sudah terkait dengan baris kutipan.
 
 Bila Anda memetakan tugas ke baris kuotasi, item berikut yang ditentukan pada baris kuotasi hanya akan berlaku untuk tugas tersebut:
 

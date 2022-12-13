@@ -1,32 +1,32 @@
 ---
-title: Mengestimasi baris kontrak berbasis proyek - lite
+title: Memperkirakan garis kontrak projek
 description: Artikel ini menyediakan informasi tentang estimasi pada baris kontrak berbasis proyek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914406"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824771"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Mengestimasi baris kontrak berbasis proyek - lite
+# <a name="estimate-a-project-contract-line"></a>Mengestimasi baris kontrak proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
-Di Dynamics 365 Project Operations, baris kontrak berbasis proyek memiliki rincian yang membantu memperkirakan biaya, dan pendapatan potensial dari pekerjaan yang terlibat untuk melaksanakan baris kontrak.
+Dalam Dynamics 365 Project Operations, jalur kontrak proyek memiliki detail yang membantu memperkirakan biaya dan potensi pendapatan dari pekerjaan yang terlibat untuk memberikan jalur kontrak.
 
-Untuk memperkirakan baris kontrak berbasis proyek, buka tab **rincian baris kontrak** pada **baris kontrak** berbasis proyek.  Ada dua cara untuk membuat estimasi pada baris kontrak berbasis proyek:
+Untuk memperkirakan jalur kontrak proyek, buka **tab Detail** Jalur Kontrak pada Jalur Kontrak berbasis **proyek**.  Ada dua cara untuk membuat estimasi pada baris kontrak berbasis proyek:
 
    - Buat estimasi secara langsung pada baris kontrak dengan menambahkan rincian baris kontrak secara manual.
    - Membuat proyek dan rencana proyek, lalu kaitkan proyek dan tugas ke baris kontrak proyek. Hal ini memungkinkan proses dengan mana Anda dapat mengimpor estimasi rencana proyek ke baris kontrak berdasarkan komponen yang disertakan pada baris kontrak.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Membuat estimasi langsung di baris kontrak berbasis proyek
 
-Untuk membuat estimasi langsung di baris kontrak berbasis proyek, ikuti langkah-langkah ini:
+Untuk membuat estimasi langsung pada baris kontrak proyek, ikuti langkah-langkah berikut:
 
 1. Buka baris kontrak, lalu pilih tab **rincian baris kontrak**. Baris yang Anda buat pada tab ini diringkas dan ditampilkan sebagai **nilai kontrak** untuk **baris kontrak** ini. 
 2. Di subkisi **rincian baris kontrak**, pilih **detail baris kontrak baru**. Penggeser buat cepat terbuka. Bidang berikut tersedia di halaman **Rincian Baris Kontrak**.

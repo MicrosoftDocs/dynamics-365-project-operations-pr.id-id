@@ -1,19 +1,19 @@
 ---
-title: Mengelola beberapa pelanggan pada baris kontrak berbasis proyek - lite
+title: Mengelola beberapa pelanggan di jalur kontrak proyek
 description: Artikel ini menyediakan informasi tentang mengelola beberapa pelanggan pada baris kontrak berbasis proyek.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f7648c7ef7ec6ffb68932552a0c25b79f1f93733
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ec8457fd32a5c215bbc2056b02b2ab3527c4ab1f
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922134"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825944"
 ---
-# <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Mengelola beberapa pelanggan pada baris kontrak berbasis proyek - lite
+# <a name="manage-multiple-customers-on-project-contract-lines"></a>Mengelola beberapa pelanggan di jalur kontrak proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 

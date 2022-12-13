@@ -1,23 +1,23 @@
 ---
-title: Mengelola beberapa pelanggan pada kuotasi proyek
+title: Mengelola beberapa pelanggan pada penawaran harga berbasis proyek
 description: Artikel ini menyediakan informasi tentang menangani kuotasi yang melibatkan beberapa pelanggan yang akan mendanai proyek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928206"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825152"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Mengelola beberapa pelanggan pada kuotasi proyek
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Mengelola beberapa pelanggan pada penawaran harga berbasis proyek
 
-_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/non-lengkap, penyebaran sederhana -menangani faktur proforma_
+_**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
-Kuotasi proyek mendukung skenario di mana proposal melibatkan beberapa pelanggan yang akan mendanai transaksi. Tab **ringkasan** kuotasi memiliki bidang **calon pelanggan** yang mengidentifikasi pelanggan utama dari transaksi. Pelanggan lain untuk transaksi dapat diatur pada tab **pelanggan** dalam kuotasi proyek.
+Kutipan berbasis proyek mendukung skenario di mana proposal melibatkan banyak pelanggan yang akan mendanai kesepakatan. Tab **ringkasan** kuotasi memiliki bidang **calon pelanggan** yang mengidentifikasi pelanggan utama dari transaksi. Pelanggan lain untuk transaksi dapat diatur pada tab **pelanggan** dalam kuotasi proyek.
 
 Semua pelanggan kuotasi pada tab **pelanggan** kuotasi proyek memiliki default sebagai pelanggan baris kuotasi pada baris kuotasi berbasis proyek **baru** yang dibuat untuk kuotasi. Setiap baris kuotasi berbasis proyek yang ada tidak akan mewarisi rekaman pelanggan kuotasi baru yang dibuat setelah mereka.
 

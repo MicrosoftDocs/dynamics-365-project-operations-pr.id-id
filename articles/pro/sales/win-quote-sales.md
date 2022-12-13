@@ -1,5 +1,5 @@
 ---
-title: Menutup kuotasi - lite
+title: Menutup kuotasi proyek
 description: Artikel ini memberikan informasi tentang menutup kuotasi proyek di Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916936"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826179"
 ---
-# <a name="close-a-quote---lite"></a>Menutup kuotasi - lite
+# <a name="close-project-quotes"></a>Menutup kuotasi proyek
 
 _**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
 
@@ -30,7 +30,7 @@ Jika kuotasi dilampirkan pada peluang, setiap proyek lain pada peluang ditutup s
 
 Jika ada aktual selama waktu proyek saat masih terlampir pada draf kuotasi, hanya biaya waktu atau pengeluaran yang dicatat. Setelah kuotasi ditutup sebagai menang, aplikasi akan merefaktorisasi biaya dengan membalik aktual biaya yang lebih lama dan membuat ulang aktual biaya baru. Aplikasi akan memproses aktual biaya ini berdasarkan metode penagihan pada baris kontrak proyek terkait. Jika aktual biaya mengacu ke waktu dan baris kontrak material, aktual penjualan tidak tertagih yang tidak terkait dibuat untuk saat kuotasi ditutup dan kontrak proyek dibuat. Jika aktual biaya mengacu ke baris kontrak harga tetap, aplikasi akan berhenti memproses ulang aktual biaya yang didasarkan pada aturan penagihan terpisah untuk pelanggan kontrak proyek.
 
-## <a name="closing-a-quote-as-lost"></a>Menutup kuotasi sebagai kalah:
+## <a name="closing-a-quote-as-lost"></a>Menutup kutipan sebagai hilang
 
 Bila Anda menutup kuotasi proyek sebagai Kalah, status diatur ke Ditutup dan alasan status adalah Kalah. Penutupan kuotasi membuat kuotasi proyek hanya bisa dibaca. Karena kuotasi yang ditutup tidak dapat dibuka kembali, dan sebelum Anda menutup kuotasi, dialog konfirmasi akan mengonfirmasi perubahan Anda.
 

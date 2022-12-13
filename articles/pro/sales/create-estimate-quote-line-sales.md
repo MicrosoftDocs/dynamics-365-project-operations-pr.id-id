@@ -1,21 +1,21 @@
 ---
-title: Mengestimasi baris kuotasi berbasis proyek
-description: Artikel ini menyediakan informasi tentang cara membuat perkiraan pada baris kuotasi berbasis proyek.
+title: Mengestimasi baris kuotasi proyek
+description: Artikel ini menyediakan informasi tentang cara membuat perkiraan pada baris kutipan proyek.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914360"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825991"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Mengestimasi baris kuotasi berbasis proyek
+# <a name="estimate-a-project-quote-line"></a>Mengestimasi baris kuotasi proyek
 
-_**Berlaku untuk:** Penyebaran sederhana - menangani faktur proforma_
+_**Berlaku untuk:** Penyebaran Lite- faktur dari penawaran hingga proforma, Project Operations untuk skenario berbasis sumber daya/non-stok_
 
 Baris kuotasi berbasis proyek memiliki rincian yang membantu memperkirakan biaya dan potensi pendapatan pekerjaan yang terlibat untuk menyampaikan baris kuotasi.
 
@@ -24,7 +24,7 @@ Untuk memperkirakan baris kuotasi berbasis proyek, pada baris kuotasi berbasis p
 - Buat secara manual estimasi secara langsung pada baris kuotasi menggunakan detail baris kuotasi. 
 - Buat proyek dan rencana proyek, lalu kaitkan proyek dan tugas pada proyek ke baris kuotasi. Proses untuk mengimpor estimasi pada rencana proyek ke baris kuotasi berdasarkan informasi yang Anda berikan akan diaktifkan.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Membuat estimasi langsung di baris kuotasi berbasis proyek
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Membuat perkiraan langsung pada baris kutipan proyek
 
 Untuk membuat perkiraan pada baris kuotasi berbasis proyek, pilih tab **rincian baris kuotasi**. Item baris yang Anda buat pada tab ini akan meringkas nilai yang dikutip untuk baris kuotasi ini. 
 
@@ -68,8 +68,7 @@ Mata uang pada detail baris kuotasi untuk biaya adalah default dari daftar harga
 
 Perhitungan profitabilitas mengkonversi jumlah rincian baris kuotasi untuk biaya dan penjualan ke mata uang dasar lingkungan untuk melaporkan perkiraan margin secara keseluruhan pada kuotasi.
 
-> [!PERHATIKAN
-> > Kesalahan membulatkan mata uang dan margin yang berubah dapat terjadi karena tidak ada nilai tukar efektif tanggal. Gunakan perhitungan ini hanya pada kontrak proyek karena ini merupakan perkiraan dan bukan untuk pelaporan resmi aktual atau laporan lainnya yang memerlukan presisi pembulatan yang lebih tinggi dan kesadaran terhadap efektivitas tanggal untuk nilai tukar.
+> [! CATATAN Kesalahan pembulatan mata uang dan margin yang berubah dapat terjadi karena kurangnya nilai tukar efektif tanggal. Gunakan perhitungan ini hanya pada kontrak proyek karena ini merupakan perkiraan dan bukan untuk pelaporan resmi aktual atau laporan lainnya yang memerlukan presisi pembulatan yang lebih tinggi dan kesadaran terhadap efektivitas tanggal untuk nilai tukar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

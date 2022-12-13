@@ -1,31 +1,29 @@
 ---
-title: Mengelola prospek
+title: Mengelola prospek berbasis proyek
 description: Artikel ini menyediakan informasi tentang mengeluarkan prospek berbasis proyek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: id-ID
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920202"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825803"
 ---
-# <a name="manage-leads"></a>Mengelola prospek
+# <a name="manage-project-based-leads"></a>Mengelola prospek berbasis proyek
 
 _**Berlaku untuk:** Project Operations untuk skenario berbasis sumber daya/tanpa stok_
 
 Prospek berbasis proyek dapat dikelola dan terkualifikasi dalam Project Operations. Proses manajemen prospek mencakup pembuatan prospek berbasis pekerjaan dan mengkualifikasi prospek tersebut. 
 
-## <a name="project-sales-leads"></a>Prospek Penjualan proyek
-
 Di Bagian **penjualan**, di panel navigasi kiri, buka halaman daftar **prospek** untuk melihat daftar semua rekaman prospek di sistem. Daftar prospek yang ditampilkan adalah berbasis pekerjaan dan jenis prospek lain yang dapat dibuat jika Anda juga memiliki aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda dapat membuat tampilan terfilter untuk melihat hanya prospek berbasis proyek dengan membuat filter pada nilai **jenis**. Misalnya, Anda dapat memilih untuk hanya menampilkan prospek berbasis pekerjaan.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Buat prospek baru untuk transaksi berbasis proyek
+## <a name="create-a-new-project-based-lead"></a>Membuat prospek berbasis proyek baru 
 
 Bila prospek berbasis proyek memenuhi syarat, peluang dan akun dibuat. Peluang berbasis proyek adalah titik awal untuk aktivitas upaya penjualan dalam fase peluang. Peluang berbasis proyek memiliki kemampuan unik yang diperlukan untuk menjual pekerjaan proyek. Kemampuan ini mencakup:
 
