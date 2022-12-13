@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Yang baru
       items:
-        - name: September 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: November 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arsip
           items:
+            - name: Oktober 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: September 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Agustus 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 - Project Operations untuk skenario berbasis sumber daya/tanpa stok
@@ -122,85 +126,83 @@
               href: sales/sales-currency.md
             - name: Unit organisasi
               href: sales/OrgUnits.md
-        - name: Mengelola prospek proyek
+        - name: Mengelola prospek berbasis proyek
           href: sales/manage-leads.md
-        - name: Mengelola peluang proyek
+        - name: Mengelola peluang berbasis proyek
           items:
-            - name: Sekilas tentang mengelola peluang proyek
+            - name: Mengelola ikhtisar peluang proyek
               href: sales/manage-project-based-opportunities.md
-            - name: Rincian header untuk peluang berbasis proyek
+            - name: Detail header untuk peluang berbasis proyek
               href: sales/opportunity-header.md
             - name: Baris peluang berbasis proyek
               href: sales/project-based-lines.md
-            - name: Membuat kuotasi proyek dari peluang
+            - name: Membuat kuotasi dari peluang proyek
               href: sales/link-quotes-opportunities.md
-            - name: Menyalin peluang-peluang berbasis proyek
+            - name: Menyalin peluang proyek
               href: sales/copy-project-based-opportunity.md
             - name: Menutup peluang proyek
               href: sales/close-opportunity.md
-        - name: Mengelola kuotasi proyek
+        - name: Mengelola kuotasi berbasis proyek
           items:
-            - name: Sekilas tentang mengelola kuotasi proyek
+            - name: Mengelola ikhtisar kuotasi proyek
               href: pro/sales/manage-quotes-sales.md
             - name: Konsep unik untuk kuotasi berbasis proyek
               href: sales/quotes-key-concepts.md
-            - name: Rincian header untuk kuotasi berbasis proyek
+            - name: Detail header untuk kuotasi berbasis proyek
               href: sales/quote-values-budget-limits-contract.md
-            - name: Mengelola beberapa pelanggan pada kuotasi proyek
+            - name: Mengelola beberapa pelanggan pada kuotasi berbasis proyek
               href: sales/manage-multiple-customers-quote.md
-            - name: Mengelola daftar harga proyek pada kuotasi
+            - name: Daftar harga proyek pada kuotasi proyek
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Baris kuotasi berbasis proyek
               items:
-                - name: Sekilas baris kuotasi berbasis proyek
+                - name: Ikhtisar baris kuotasi proyek
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Mengelola beberapa pelanggan pada baris kuotasi berbasis proyek
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Memetakan proyek dan tugas ke baris-baris kuotasi berbasis proyek
+                - name: Memetakan proyek dan tugas pada baris kuotasi proyek
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Mengonfigurasikan komponen yang dikenakan biaya untuk baris kuotasi berbasis proyek
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Mengonfigurasikan komponen yang dikenakan biaya pada baris kuotasi proyek
-                  href: sales/configure-chargeable-quoteline.md
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Mengestimasi baris kuotasi proyek
-                  href: sales/create-estimate-quote-line.md
-                - name: Mengimpor estimasi dari proyek pada baris kuotasi berbasis proyek
-                  href: sales/import-estimate-quote-line.md
-                - name: Jadwal faktur pada baris kuotasi berbasis proyek
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Mengimpor estimasi dari proyek pada baris kuotasi proyek
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Jadwal faktur pada baris kuotasi proyek
                   href: sales/invoice-schedule-quote-line.md
             - name: Menyalin kuotasi proyek
               href: sales/lose-quote.md
             - name: Mengaktifkan dan merevisi kuotasi proyek
               href: sales/activation-and-revision.md
-            - name: Menutup kuotasi proyek
+            - name: Menutup kuotasi berbasis proyek
               href: sales/win-quote.md
-        - name: Mengelola kontrak proyek
+        - name: Mengelola kontrak berbasis proyek
           items:
-            - name: Sekilas tentang mengelola kontrak proyek
+            - name: Mengelola kontrak proyek
               href: pro/sales/manage-contracts-sales.md
-            - name: Konsep unik untuk kontrak berbasis proyek
+            - name: Konsep unik untuk Kontrak berbasis Proyek
               href: sales/contracts-key-concepts.md
-            - name: Rincian header untuk kontrak berbasis proyek
+            - name: Detail header untuk kontrak berbasis proyek
               href: sales/project-contract-settings.md
-            - name: Mengelola daftar harga proyek pada kontrak proyek
+            - name: Mengelola daftar harga proyek pada kontrak berbasis proyek
               href: sales/contracts-manage-project-price-lists.md
-            - name: Mengelola beberapa pelanggan pada kontrak proyek
+            - name: Mengelola beberapa pelanggan pada kontrak berbasis proyek
               href: sales/manage-multiple-customers-contract.md
             - name: Baris kontrak berbasis proyek
               items:
-                - name: Sekilas baris kontrak berbasis proyek
+                - name: Ikhtisar baris kontrak proyek
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Mengelola beberapa pelanggan pada baris kontrak berbasis proyek
                   href: sales/manage-multiple-customers-contract-line.md
                 - name: Memetakan proyek dan tugas pada baris kontrak proyek
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Mengonfigurasikan komponen yang dikenakan biaya untuk baris kontrak proyek
+                - name: Mengonfigurasikan komponen yang dikenakan biaya pada baris kontrak proyek
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Mengestimasi baris kontrak proyek
+                - name: Mengestimasi baris kontrak berbasis proyek
                   href: sales/create-estimate-contract-line.md
-                - name: Mengimpor estimasi dari proyek pada baris kontrak berbasis proyek
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Membuat jadwal faktur di baris kontrak berbasis proyek
+                - name: Mengimpor estimasi dari proyek pada baris kontrak proyek
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Membuat jadwal faktur pada baris kontrak berbasis proyek
                   href: sales/invoice-schedules-contract-line.md
             - name: Menyalin kontrak berbasis proyek
               href: sales/copy-project-based-contracts-sales.md
@@ -208,15 +210,15 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Panjar dan uang muka
               items:
-                - name: Kontrak berbasis uang muka dan panjar
+                - name: Kontrak proyek berbasis panjar dan uang muka
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Mengonfigurasikan jadwal panjar
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Membuat uang muka ad hoc pada kontrak
+                - name: Membuat uang muka ad hoc pada kontrak proyek
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Harga dan biaya
       items:
-        - name: Mengatur daftar harga
+        - name: Konfigurasi daftar harga
           items:
             - name: Definisi daftar harga
               href: pricing-costing/price-list-setup.md
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Menyinkronkan Status Proyek untuk mencegah entri terhadap proyek tertutup
           href: advanced-configuration/sync-project-status.md
+        - name: Mengonfigurasikan konversi mata uang untuk menghitung harga penjualan dari tarif biaya
+          href: advanced-configuration/currencyconversion.md
     - name: Peningkatan
       items:
         - name: Pertimbangan peningkatan untuk persetujuan Modern
@@ -662,9 +666,9 @@
       items:
         - name: Sekilas penyebaran Lite
           href: pro/project-operations-overview-lite.md
-        - name: Mendaftar untuk berlangganan pratinjau - lite
+        - name: Mendaftar untuk langganan pratinjau - lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Menyebarkan Project Operations - lite
+        - name: Menyebarkan Project Operations Lite
           href: environment/lite-deployment.md
         - name: Menerapkan konfigurasi demo dan data konfigurasi - lite
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Yang baru
       items:
-        - name: Yang baru di bulan September 2022 - penyebaran lite
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Yang baru di bulan November 2022 - penyebaran lite
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arsip
           items:
+            - name: Yang baru di bulan Oktober 2022 - penyebaran lite
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Yang baru di bulan September 2022 - penyebaran lite
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Yang baru di bulan Agustus 2022 - penyebaran lite
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Yang baru di bulan Juli 2022 - penyebaran lite
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Membuat kuotasi dari peluang proyek
               href: sales/link-quotes-opportunities.md
-            - name: Menyalin peluang-peluang berbasis proyek
+            - name: Menyalin peluang proyek
               href: sales/copy-project-based-opportunity.md
             - name: Menutup peluang proyek
               href: sales/close-opportunity.md
-        - name: Mengelola kuotasi berbasis proyek
+        - name: Mengelola kuotasi proyek
           items:
-            - name: Sekilas kuotasi berbasis proyek
+            - name: Ikhtisar kuotasi proyek
               href: pro/sales/manage-quotes-sales.md
             - name: Konsep unik untuk kuotasi proyek
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Rincian header untuk kuotasi proyek
+            - name: Detail header untuk kuotasi proyek
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Beberapa pelanggan pada kuotasi proyek
+            - name: Mengelola beberapa pelanggan pada kuotasi proyek
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Daftar harga proyek pada kuotasi proyek
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Mengelola unit yang kompleks untuk baris kuotasi berbasis produk
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Baris kuotasi berbasis proyek
+            - name: Baris kuotasi proyek
               items:
-                - name: Sekilas baris kuotasi berbasis proyek
+                - name: Ikhtisar baris kuotasi proyek
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Mengelola beberapa pelanggan
+                - name: Mengelola beberapa pelanggan pada baris kuotasi proyek
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Memetakan proyek dan tugas
+                - name: Memetakan proyek dan tugas pada baris kuotasi proyek
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Mengonfigurasikan komponen yang dikenakan biaya
+                - name: Mengonfigurasikan komponen yang dikenakan biaya pada baris kuotasi proyek
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Mengestimasi baris kuotasi berbasis proyek
+                - name: Mengestimasi baris kuotasi proyek
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Mengimpor estimasi dari proyek
+                - name: Mengimpor estimasi dari proyek pada baris kuotasi proyek
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Mengelola jadwal faktur
+                - name: Jadwal faktur pada baris kuotasi proyek
                   href: sales/invoice-schedule-quote-line.md
-            - name: Menyalin kuotasi berbasis proyek
+            - name: Menyalin kuotasi proyek
               href: sales/lose-quote.md
             - name: Mengaktifkan dan merevisi kuotasi proyek
               href: sales/activation-and-revision.md
-            - name: Menutup kuotasi berbasis proyek
+            - name: Menutup kuotasi proyek
               href: pro/sales/win-quote-sales.md
-        - name: Mengelola kontrak berbasis proyek
+        - name: Mengelola kontrak proyek
           items:
-            - name: Sekilas kontrak berbasis proyek
+            - name: Ikhtisar kontrak proyek
               href: pro/sales/manage-contracts-sales.md
             - name: Konsep unik untuk kontrak proyek
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Rincian header untuk kontrak proyek
+            - name: Detail header untuk kontrak proyek
               href: pro/sales/project-contract-settings-sales.md
-            - name: Beberapa pelanggan pada kontrak proyek
+            - name: Mengelola beberapa pelanggan pada kontrak proyek
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Daftar harga proyek pada kontrak proyek
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Mengelola unit yang kompleks untuk baris kontrak berbasis produk
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Baris kontrak berbasis proyek
+            - name: Baris kontrak proyek
               items:
-                - name: Sekilas baris kontrak berbasis proyek
+                - name: Ikhtisar baris kontrak proyek
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Mengelola beberapa pelanggan kontrak
+                - name: Mengelola beberapa pelanggan pada kontrak proyek
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
-                - name: Memetakan proyek dan tugas ke baris kontrak proyek
+                - name: Memetakan proyek dan tugas pada baris kontrak proyek
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Mengonfigurasikan komponen yang dikenakan biaya di baris kontrak proyek
+                - name: Mengonfigurasikan komponen yang dikenakan biaya pada baris kontrak proyek
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Mengestimasi baris kontrak berbasis proyek
+                - name: Mengestimasikan baris kontrak proyek
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Mengimpor estimasi dari proyek ke baris kontrak proyek
+                - name: Mengimpor estimasi dari proyek pada baris kontrak proyek
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Mengelola jadwal faktur pada baris kontrak proyek
+                - name: Membuat jadwal faktur pada baris kontrak proyek
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Menyalin kontrak proyek
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,15 +844,15 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Panjar dan uang muka
               items:
-                - name: Kontrak berbasis uang muka dan panjar - lite
+                - name: Kontrak berbasis uang muka dan panjar
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Mengatur jadwal uang panjar - lite
+                - name: Mengonfigurasikan jadwal panjar
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Membuat uang muka ad hoc pada kontrak - lite
+                - name: Membuat uang muka ad hoc pada kontrak proyek
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Harga dan biaya
       items:
-        - name: Mengatur daftar harga
+        - name: Konfigurasi daftar harga
           items:
             - name: Definisi daftar harga
               href: pricing-costing/price-list-setup.md
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Yang baru
       items:
-        - name: Yang baru di bulan September 2022 - Project Operations untuk skenario berbasis stok/produksi
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Yang baru di bulan Oktober 2022 - Project Operations untuk skenario berbasis stok/produksi
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arsip
           items:
+            - name: Yang baru di bulan September 2022 - Project Operations untuk skenario berbasis stok/produksi
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Yang baru di bulan Juli 2022 - Project Operations untuk skenario berbasis stok/produksi
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Yang baru di bulan Juni 2022 - Project Operations untuk skenario berbasis stok/produksi
@@ -1214,10 +1224,14 @@
               href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
             - name: Yang baru di bulan November 2020 - Project Operations untuk skenario berbasis stok/produksi
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-    - name: Sekilas penyebaran Project Operations untuk skenario berbasis produksi/stok
+    - name: Ikhtisar penyebaran Project Operations untuk skenario berbasis produksi/stok
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Ikhtisar akuntansi dan manajemen proyek
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Akuntansi proyek
+      items:
+        - name: Ikhtisar akuntansi dan manajemen proyek
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Penyesuaian proyek
+          href: project-accounting/project-adjustments.md
     - name: Proses penjualan proyek
       items:
         - name: Kuotasi proyek
